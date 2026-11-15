@@ -1,43 +1,61 @@
-# Verificación de la entrega
+# Verificación de la ampliación de capturas y replay
 
-Verificado el 15 de noviembre de 2026 en Linux x86_64, con `rustc 1.100.0 (0ef1bc386 2026-11-09)`. La base del repositorio es `749ae8e4ca8e50326cc756fda8efb916c47b0be8`; esta ampliación sigue a la entrega inicial `fc84eebbcae3192a8e5b949ade839e6f8d50f59a`.
+Verificado el 15 de noviembre de 2026 en Linux x86_64 con Rust 1.100.0. Base: `6d814f8e83490ba5a7c8eee92f97e0536b06aa16`, sobre la que se integran RubyPlay, GPAS/Playtech, Kalamba, banco/replay y correcciones del runtime.
 
-## Resultado
+## Resultados
 
 | Comprobación | Resultado |
 |---|---|
-| `cargo fmt --manifest-path capture-runner/Cargo.toml --check` | Correcto |
-| `cargo test --offline --locked --manifest-path capture-runner/Cargo.toml` | 213 pruebas de biblioteca y 3 de CLI: 216 correctas, ninguna fallida ni ignorada |
-| `cargo clippy --offline --locked --manifest-path capture-runner/Cargo.toml --all-targets -- -D warnings` | Correcto, sin advertencias |
-| `cargo build --release --offline --locked --manifest-path capture-runner/Cargo.toml` | Correcto |
-| Plan del binario release frente a `docs/coverage.json` | Idénticos, byte a byte |
-| `sha256sum -c capture-runner/docs/BINDINGS.sha256` | 40/40 bindings correctos |
-| Fuentes de los siete bindings nuevos | 102/102 verificadas: 100 miembros del ZIP y dos fuentes del commit base |
+| `cargo fmt --manifest-path capture-runner/Cargo.toml --check` |Correcto|
+| Suite offline con las dos pruebas opt-in de evidencia |**264 correctas, 0 fallidas, 0 ignoradas**: 251 biblioteca, 3 CLI existentes, 3 CLI replay, 7 importación Ruby|
+| `cargo clippy --offline --locked --manifest-path capture-runner/Cargo.toml --all-targets -- -D warnings` |Correcto, sin advertencias|
+| `cargo build --release --offline --locked --manifest-path capture-runner/Cargo.toml` |Correcto|
+| Plan del release frente a `docs/coverage.json` |Idénticos byte a byte|
+| `sha256sum -c capture-runner/docs/BINDINGS.sha256` |44/44 correctos|
+| Revisión independiente y revisión final de integración |Sin hallazgos importantes/críticos abiertos tras corregir y volver a revisar cinco hallazgos|
 
-Los comandos se ejecutaron desde la raíz del repositorio. `--offline` usó dependencias previamente descargadas; no es un requisito para la primera compilación en la VM.
+Las pruebas opt-in requieren los originales proporcionados por el usuario, que no se incluyen completos en Git. La suite normal de CI omite sólo esas dos comprobaciones; conserva los 13 archivos completos de RubyPlay del fixture y las pruebas funcionales del importador. Para ejecutar todo:
 
-El plan final contiene 35 proveedores, 9.878 juegos inventariados y 20.090 modos. Hay 14.379 modos con contrato ejecutable, distribuidos en 6.675 juegos, y 5.711 modos pendientes. La ampliación incorpora 538 modos ejecutables: 516 del inventario anterior y 22 nuevos pares de IronDog. [COVERAGE.md](COVERAGE.md) desglosa las cifras y [MISSING-EVIDENCE.md](MISSING-EVIDENCE.md) identifica los contratos ausentes.
-
-## Qué prueban las comprobaciones
-
-Las pruebas cubren los contratos nativos implementados, selección de modos, cierres y continuaciones conocidas, eventos desconocidos, preservación de respuestas parciales, aislamiento de cookies, límites de concurrencia independientes, cancelación y reanudación sin reenviar intentos inciertos. También ejercitan configuración de 30 salidas, argumentos de administración de WireGuard, propiedad de recursos y rollback mediante comandos simulados. Las pruebas de transporte usan servidores de loopback.
-
-La ampliación verifica además las ofertas dinámicas y 31 cadenas de Mascot, las familias de dados Amusnet, los selectores y restricciones nativas de antebet 1spin4win, los códigos/acciones Kendoo, los controles de sesión/versión de RubyPlay y los comandos Betsoft/IntegratedSlots. Las pruebas del catálogo comprueban que los 61 pares de IntegratedSlots aparecen exactamente una vez, mantienen los objetos originales y añaden el hash del suplemento a la identidad del catálogo.
-
-La revisión independiente corrigió el encabezado requerido de IronDog, las continuaciones Betsoft sin avance y los cierres inferidos sin señal nativa suficiente. También comprobó que no se perdieran modos conocidos por estar ausentes del catálogo anterior. En RubyPlay se conserva el binario opaco sin prometer detección de nuevos eventos internos que no cambien el sobre HTTP.
-
-Los inventarios y archivos de evidencia existentes permanecen sin cambios. Los 33 bindings anteriores conservan sus bytes; los siete nuevos tienen fuentes y hashes verificables en [PROVENANCE.md](PROVENANCE.md). No se publican los archivos crudos de la entrega ni sus sesiones históricas.
-
-## Límites de esta verificación
-
-No se realizaron solicitudes a proveedores ni se levantaron túneles WireGuard reales. No se ha medido el consumo de la VM con 30 túneles ni con miles de juegos simultáneos. La disponibilidad remota, autenticación demo, handshake de los peers, salida geográfica y capacidad efectiva deben comprobarse en la VM con sus configuraciones. Un modo con contrato ejecutable puede recibir un rechazo remoto o alcanzar un límite de pasos; esos resultados conservan su captura.
-
-## Binario local
-
-SHA-256 de `capture-runner/target/release/capture-runner`:
-
-```text
-fefba73d41839d0804dc33cd3b8f7934a803ecd79367fe8ab1c7ae6cb5a87974
+```bash
+RUBYPLAY_EVIDENCE_DIR=/ruta/ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture \
+RUBYPLAY_CAPTURE_DIR=/ruta/ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture \
+cargo test --offline --locked --manifest-path capture-runner/Cargo.toml -- --include-ignored
 ```
 
-Este hash identifica la compilación local, no promete builds reproducibles entre entornos. El ejecutable es x86_64 y enlaza dinámicamente con glibc, libm y libgcc_s de Linux. Para otra arquitectura o distribución, compilar en la VM. El workflow de GitHub Actions compila y adjunta su propio artefacto Linux.
+`--offline` presupone dependencias descargadas. No es necesario para la primera compilación en una VM nueva.
+
+## Evidencia comprobada
+
+- **RubyPlay:** 179 archivos, 255 pares juego/modo, 432 rondas cerradas y 1491 intercambios nativos. Cada solicitud producida por el estado del adaptador se comparó con la grabada. La importación conservó 434 intentos: 432 completos y 2 parciales/rechazados, y se reprodujo todo el conjunto offline. Se corrigió la ausencia legítima de `sessionData` en init y se conservó la precedencia del decodificador normal de rp_47.
+- **Playtech:** 100 modos de 48 juegos con UUID/tipo exacto. Se comprobaron 47 solicitudes suministradas, incluidas 25 continuaciones, configuración por ámbitos, constructores modernos/legacy, límites de coste, fuente/pins, descompresión y dominios de elección. Las respuestas saneadas no se trataron como cuerpos de replay completos.
+- **Kalamba:** 66 normales con aperturas y primer giro/cierre contrastados con el cliente y las líneas fuente. La revisión independiente comprobó 198 hashes de registros nativos/proyecciones.
+- **Banco/replay:** conservación byte a byte de diarios parciales, chunks HTTP/binarios, integridad, separación por intento, mismatch sin avance ni resultado, agotamiento, ocultación de contexto futuro durante replay y preservación íntegra en inspección.
+- **Runtime:** fallo cerrado ante una configuración VPN desaparecida, salida directa explícita, permisos DNS con umask 077, publicación atómica de metadatos sin sobreescritura y competencia entre ocho escritores. Se eliminó el enlace `target` versionado que impedía la compilación normal.
+
+Se mantienen los controles anteriores de sesiones nuevas, cancelación, alertas, reanudación sin reenvíos y cupos independientes por proveedor/salida. No se añadió conciliación financiera como requisito de cierre o exportación.
+
+## Correcciones de la revisión
+
+Se restringió Pigeon a su multiplicador nativo 1; se filtraron los multiplicadores por límites del ámbito efectivo; se permitió elegir otra vez una opción que el servidor vuelve a ofrecer sin marcarla consumida; se excluyó Venetian Masks por faltar su constructor Ferox exacto; y se evitó que `replay_start` exponga resultados futuros almacenados en el contexto importado. Los cinco casos tuvieron regresión negativa y verificación positiva.
+
+El transporte común también se actualizó para aceptar los recursos JS/JMP/JMM y manifiestos dentro del directorio versionado del juego en el host oficial GPAS. La prueba cubre otros juegos además de Blitz10 y rechaza rutas/hosts fuera de ese alcance.
+
+## Cobertura resultante
+
+35 proveedores, 9878 juegos inventariados y 20090 modos. Hay **14787 modos implementados en 6957 juegos** y 5303 pendientes: 408 modos adicionales en esta ampliación. [COVERAGE.md](COVERAGE.md) contiene el desglose y [MISSING-EVIDENCE.md](MISSING-EVIDENCE.md) los límites concretos.
+
+## Límites de verificación
+
+No se realizaron apuestas ni solicitudes a proveedores y no se levantaron túneles reales. La disponibilidad remota, cambios de fuentes, peers WireGuard, salida geográfica y carga de miles de juegos deben comprobarse en la VM. Los contratos habilitados pueden producir rechazos/eventos desconocidos; se conservan esas capturas.
+
+El replay actual funciona por CLI y API Rust, con solicitudes estrictamente iguales a las grabadas. No reescribe automáticamente tokens/contadores, no genera nuevas rondas aleatorias y no incluye el frontend gráfico original de los juegos.
+
+## Binario local verificado
+
+Linux x86_64, 16469080 bytes. SHA-256:
+
+```text
+0fa61b2db9cf0c40463093603f5eb7f7f79363a5c44280c1455bf38c554d1721
+```
+
+Identifica esta compilación local; no promete reproducibilidad binaria entre entornos. GitHub Actions compila y adjunta su propio ejecutable Linux.

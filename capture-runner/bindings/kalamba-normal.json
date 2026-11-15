@@ -1,0 +1,5054 @@
+{
+  "schema": 1,
+  "provider": "hardfire-kalamba",
+  "mode": "normal",
+  "request": {
+    "action": "SPIN",
+    "seqId": 1,
+    "data": {
+      "bet": {
+        "baseBet": 50,
+        "betMultiplier": 4
+      }
+    }
+  },
+  "scope": "Closed allowlist of existing catalog normal modes. Fixtures project reviewed init/close fields; native runtime capture remains complete. No purchases or bonus continuation commands are inferred.",
+  "sources": [
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/kalamba-scratchpad/kalamba_client.py",
+      "sha256": "13381e3beb6242468f4b733d95057d11e7ee5767668cf904838ed740ff12fd07",
+      "source_archive": "ENTREGA-CLAUDE(2).zip"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/kalamba-scratchpad/kalamba-log.jsonl",
+      "sha256": "629cce9a4fd448fb5e96107f60b0e46648337a30bce5d4b7275ef4186e2f7dbe",
+      "source_archive": "ENTREGA-CLAUDE(2).zip"
+    },
+    {
+      "path": "standalone info/hardfire-kalamba/inventario.json",
+      "sha256": "f640e875091e738f227f17a1087b97b68fd23f558271d2f493ff1097d287e089"
+    }
+  ],
+  "games": {
+    "9blazingcashpots50k": {
+      "provenance": {
+        "opened": {
+          "line": 35,
+          "record_sha256": "d2126acef0fc697d120cfe4c52ea47a6d6234d9aff9705369cc5b93c5e150a07"
+        },
+        "initial": {
+          "line": 36,
+          "record_sha256": "ae8f7e681b82072171452e6a5ffa5eb78f88fd3436798612c3de91aef3e98ddf"
+        },
+        "spin": {
+          "line": 38,
+          "record_sha256": "54540fb80da93c83b006eb800119aba24204300fd61c8dd85521764dd50b64f2"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "9blazingcashpots50k"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "9blazingcashpots50k",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "9blazingcashpots50k",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "9blazingcoinpots50k": {
+      "provenance": {
+        "opened": {
+          "line": 43,
+          "record_sha256": "7eb3404a383929a381170c819371f2a877af6245a814258316ddb8e781b76cd6"
+        },
+        "initial": {
+          "line": 44,
+          "record_sha256": "9031c4778ec0cb700fb1fb800fb531aa0c60f307f38c51699f0314732c8ee4a3"
+        },
+        "spin": {
+          "line": 46,
+          "record_sha256": "8cabdd164eb943c6b1e7b41af289b3156b1c376cb301fb4fbd4ffe12eba59866"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "9blazingcoinpots50k"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "9blazingcoinpots50k",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "9blazingcoinpots50k",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "agent51": {
+      "provenance": {
+        "opened": {
+          "line": 3,
+          "record_sha256": "93164b016cf343dd35ace89cf3f236af88b1043f6351d8977581932e76a569cf"
+        },
+        "initial": {
+          "line": 4,
+          "record_sha256": "f2d328f382766a6a456bf422b3144fba695d903f74cf021a97a5b5d4ce96143c"
+        },
+        "spin": {
+          "line": 6,
+          "record_sha256": "30ff24aa2111407da4b45931ab2f3f98bcd9eff7703350be99112298bf4b4f4e"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "agent51"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "agent51",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "agent51",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "ageofhuracan": {
+      "provenance": {
+        "opened": {
+          "line": 155,
+          "record_sha256": "6602ae4fb306f0fbd8f646ca8d993bfeb435fd6aff3f37b0704aaec0d9559ae9"
+        },
+        "initial": {
+          "line": 156,
+          "record_sha256": "2c8f000e822b06daf4888e2123382dab238731a2439c3d02e99909fb23e0e369"
+        },
+        "spin": {
+          "line": 158,
+          "record_sha256": "6eb02afbfccc4d3e0d976351d3a87ed21e013c4876788f8010391d71a3efebd3"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "ageofhuracan"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "ageofhuracan",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "ageofhuracan",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "alieneggstractors": {
+      "provenance": {
+        "opened": {
+          "line": 163,
+          "record_sha256": "c6cef686067194789d0280af655ed01faca107d0189036e6428bf7186d523e3d"
+        },
+        "initial": {
+          "line": 164,
+          "record_sha256": "0beb20f4bda40525fc38e1bb1a73e7291e4cacf367cee812a966760dff34fd6c"
+        },
+        "spin": {
+          "line": 166,
+          "record_sha256": "dfd722b6ddce1d6b6bab520f3fc1e110c32be24c8b51a41c03b5dc8d744d07c3"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "alieneggstractors"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "alieneggstractors",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "alieneggstractors",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "allstar7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 171,
+          "record_sha256": "012584ad3b32a3f229853e8ae4ff92c242564372f5c60e91c1295b868f6c4fe0"
+        },
+        "initial": {
+          "line": 172,
+          "record_sha256": "2799689025459a6f084c33dfcdf9e5dd3b664aeee061e433d63a6f33d31e6fe9"
+        },
+        "spin": {
+          "line": 174,
+          "record_sha256": "b6726d8cc5f10dc1aef3f6e5d04f5f5fc302cf5d2ead2a5a861042c1bd5941af"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "allstar7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "allstar7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "allstar7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "alohajuicy7s": {
+      "provenance": {
+        "opened": {
+          "line": 179,
+          "record_sha256": "ca2d66b109eda870e8332234d1fa25f3c01799930be89c78ea1ca70d8f8bf321"
+        },
+        "initial": {
+          "line": 180,
+          "record_sha256": "88c9954418bc72d2b3124ff0fc748fdadffe7f1c4d2a2f7baa7200e5a38a8559"
+        },
+        "spin": {
+          "line": 182,
+          "record_sha256": "c8af2a82a5132e7b212880674164a1e589daa85285408bff26b628e75274f83e"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "alohajuicy7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "alohajuicy7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "alohajuicy7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "bangkokdreams": {
+      "provenance": {
+        "opened": {
+          "line": 205,
+          "record_sha256": "a8bf788a6b7a56c0cf3309e5b65963d747aa5432a8990baa0350dcc1bc44c7db"
+        },
+        "initial": {
+          "line": 206,
+          "record_sha256": "5600498016a676c5d1387c93ed00629bf5cc50bae52269bbf757dcec9ca82ea5"
+        },
+        "spin": {
+          "line": 208,
+          "record_sha256": "a15d2d269ee67697538844e91e56a1235bfb41341108d02239f5bf67934e578c"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "bangkokdreams"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "bangkokdreams",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "bangkokdreams",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "betmgm-cashquest": {
+      "provenance": {
+        "opened": {
+          "line": 225,
+          "record_sha256": "c5eabd59abfea8445159f8f7e421d0871d08ae80b3fc0ce7febcd53c7df290ab"
+        },
+        "initial": {
+          "line": 226,
+          "record_sha256": "c5b0f710f165379ca9b083abf75e3388a1bf27873a65908ca467e42c73b9a0ec"
+        },
+        "spin": {
+          "line": 228,
+          "record_sha256": "9f83b629c54bef61cf193d6ac65013ea0a8177173ae66a30046a7bfb5789153e"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "betmgm-cashquest"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "betmgm-cashquest",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "betmgm-cashquest",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "bets10candy7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 233,
+          "record_sha256": "1edd12365203b6478d574a459c8f621497debec30b9cc6311a307beed2950619"
+        },
+        "initial": {
+          "line": 234,
+          "record_sha256": "3e7f3262a95c4ea84a3b87bb1be6748c4f20440475d1251f6f1f42c08f1418c6"
+        },
+        "spin": {
+          "line": 236,
+          "record_sha256": "cec51d909dfc7b85c6db91d2460d9fe7867980f14a870f30f78b1b7b49866e24"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "bets10candy7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "bets10candy7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "bets10candy7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "bets10jokerspark7s": {
+      "provenance": {
+        "opened": {
+          "line": 241,
+          "record_sha256": "70a4216058b7103584e8f73ab09d88e7b146a12395f81a42db7678199e3688a8"
+        },
+        "initial": {
+          "line": 242,
+          "record_sha256": "3e562ace034aa8e9615137b0ed7a0caae74cc30f2fd882f7bfc4a3ec49b98350"
+        },
+        "spin": {
+          "line": 244,
+          "record_sha256": "654361a041a58df1aae5466451a468ff33e256b2d626387e3239d9d61446d760"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "bets10jokerspark7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "bets10jokerspark7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "bets10jokerspark7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "betssoncandy7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 249,
+          "record_sha256": "b3537811b6244510b87eff66b9b34e2584e78043f09b31f38dde06909c6eaf99"
+        },
+        "initial": {
+          "line": 250,
+          "record_sha256": "ff02a5df2b64845e4042057e1e9ea2e440f2a612b57bfdbd2e4a4d61c0911d20"
+        },
+        "spin": {
+          "line": 252,
+          "record_sha256": "b2b487040c4a482054d4657a2f84bf7e547b00ee15eb3c31b5babdae5d09273f"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "betssoncandy7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "betssoncandy7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "betssoncandy7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "betssonjokerspark7s": {
+      "provenance": {
+        "opened": {
+          "line": 257,
+          "record_sha256": "c0f41a1668f5a32a2d6ace66f1393c5665418d6a4a095dcc537f42024f342f08"
+        },
+        "initial": {
+          "line": 258,
+          "record_sha256": "560952fd38a16a3524d0a1b6624211e12c6d2ec934967c40c5ee0d7c9dc7b0c3"
+        },
+        "spin": {
+          "line": 260,
+          "record_sha256": "488fa61880f53cd824ef12014514892fdcd4aeeb8709f12e8e8d86b531baa0f7"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "betssonjokerspark7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "betssonjokerspark7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "betssonjokerspark7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "blazingbull-cashquest": {
+      "provenance": {
+        "opened": {
+          "line": 339,
+          "record_sha256": "9cd68c1fafdb1aea16d0014cbbe431e89494bf9cf4c7acde9b467f04d4602641"
+        },
+        "initial": {
+          "line": 340,
+          "record_sha256": "29e30c725399974b0f2b8eae06f7afda9d4eee2ef3a6da3d1c4ac2eebd5cf57f"
+        },
+        "spin": {
+          "line": 342,
+          "record_sha256": "f8b20525f5c9c4c47331121337cfeb2ffa042d5f9747ae537c6e63e3dad01273"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "blazingbull-cashquest"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "blazingbull-cashquest",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "blazingbull-cashquest",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "blazingbull-pm-cds": {
+      "provenance": {
+        "opened": {
+          "line": 353,
+          "record_sha256": "09247a86421944825f2ba7765fe1714ada8248876ec71fa3ab94cc45ffd664e0"
+        },
+        "initial": {
+          "line": 354,
+          "record_sha256": "68757c0084062225e6bdd272f8611c27beba7a6f54ba08f293fdafbbd82998c8"
+        },
+        "spin": {
+          "line": 356,
+          "record_sha256": "5ed9ecf7819541ca575323038f1291fe854c4913f609ba0d875d4233fd4b4fdd"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "blazingbull-pm-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "blazingbull-pm-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "blazingbull-pm-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "blazingbull2": {
+      "provenance": {
+        "opened": {
+          "line": 325,
+          "record_sha256": "aec27cc7af0aa8f389c4a4391f91b4912739bac4c7f9933c10d8f7acf4e1d316"
+        },
+        "initial": {
+          "line": 326,
+          "record_sha256": "13d264f5ea342b5c7b586aae4b8d6e98c534892ae223c9b85a070428c9825957"
+        },
+        "spin": {
+          "line": 328,
+          "record_sha256": "497cc4b6c46bc41820c97aae2988275c0e432e8376cff4277dd14ace14fe8534"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "blazingbull2"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "blazingbull2",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "blazingbull2",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "blesseddragons-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 392,
+          "record_sha256": "a0f922d55807dc50162eb476121a3f89770a209688f119b92d65a43611594b0b"
+        },
+        "initial": {
+          "line": 393,
+          "record_sha256": "ae89a96d4fb2c2381bcbb9ec094d7e26e11afafb587e625ab513090883a65589"
+        },
+        "spin": {
+          "line": 395,
+          "record_sha256": "2253fac510ca093b76f454a9d95493c0b06c51c344ad46d910e19a499e78c6b9"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "blesseddragons-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "blesseddragons-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "blesseddragons-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "blesseddragons-hnw-cds": {
+      "provenance": {
+        "opened": {
+          "line": 400,
+          "record_sha256": "4bb89dad4e3ed1ec925057a4913435ee7a4fc5c08b063ad4e54d32959a66a2f6"
+        },
+        "initial": {
+          "line": 401,
+          "record_sha256": "44906ef65ff4db12c7f5be72719dfb5f2ba86275df2e9c0bc51d24c058f3343f"
+        },
+        "spin": {
+          "line": 403,
+          "record_sha256": "f2afc782a2208eb6ee5703b49d063bcf0498fda3256416a30759be1ea308cff7"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "blesseddragons-hnw-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "blesseddragons-hnw-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "blesseddragons-hnw-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "bullionrush7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 600,
+          "record_sha256": "362fa551cbf901a022a098329780e7c922b1a68c446e24e248c7d38e6712a167"
+        },
+        "initial": {
+          "line": 601,
+          "record_sha256": "aae3714e6f587dfc8bfecf1e413f97d31ddcadba72bb185ab834d31a6ebb3d42"
+        },
+        "spin": {
+          "line": 603,
+          "record_sha256": "373d8dbfc5e2fa25a98209758f5c5b031469f195d6316ba716a67d30048ce1c2"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "bullionrush7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "bullionrush7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "bullionrush7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "bunnyhunt7s": {
+      "provenance": {
+        "opened": {
+          "line": 608,
+          "record_sha256": "e3b0d1da09cc5f5172dd44d0553b6314e5f1ca035d9c49312a77b9d94c65b883"
+        },
+        "initial": {
+          "line": 609,
+          "record_sha256": "5c08189bb68e8fa09231d38d7b65f8d344a0d17e095a1d657442f78d48fc9520"
+        },
+        "spin": {
+          "line": 611,
+          "record_sha256": "7918a8714d9c5822579afdd7ac3606819b4b30a0e0a0fdf12174f144582799e5"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "bunnyhunt7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "bunnyhunt7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "bunnyhunt7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "burningdiamonds": {
+      "provenance": {
+        "opened": {
+          "line": 616,
+          "record_sha256": "0cc8e7c2522d621940cb5f2a897730b16c708ff5ccb87b9dda94f7692422325a"
+        },
+        "initial": {
+          "line": 617,
+          "record_sha256": "2e5b70524fdc02b80fa6e4f4d0ef6202c92215d92aad64cdae627ccb7aa4f3a9"
+        },
+        "spin": {
+          "line": 619,
+          "record_sha256": "c35c0907335bf10b730f6acc36ffd09a84efa594de9dc352a2e9f4005482e2c4"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "burningdiamonds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "burningdiamonds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "burningdiamonds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "caribbeananne": {
+      "provenance": {
+        "opened": {
+          "line": 630,
+          "record_sha256": "4243983b8b2b08dc55be36307f9e8f4fd791a5a78f437dd58467851fe973415c"
+        },
+        "initial": {
+          "line": 631,
+          "record_sha256": "556af160c4924446cc7009bdc3ab88b84c71c97b12e0ccfe6c14c9b81897f27e"
+        },
+        "spin": {
+          "line": 633,
+          "record_sha256": "b01174517ad14422db5bc8224192d64c515044cfcfbacfe9a6e237d0f115ec05"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "caribbeananne"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "caribbeananne",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "caribbeananne",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "caribbeananne-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 656,
+          "record_sha256": "3a4bb381107adbcef96c1ce4d17a35dbc7cbc17fad872c8e5e3867a09e2dd35d"
+        },
+        "initial": {
+          "line": 657,
+          "record_sha256": "3fd706612e640f0912ef9dabcb932b7d871e8f19baadc0afff37ebe22e1cc73d"
+        },
+        "spin": {
+          "line": 659,
+          "record_sha256": "cc8750e5770bd2b1047a34e28606c02b96e848027bdea76746243e9eb2090efe"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "caribbeananne-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "caribbeananne-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "caribbeananne-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "cashpotstrike7s": {
+      "provenance": {
+        "opened": {
+          "line": 688,
+          "record_sha256": "30cb144720a0d9a430195156578a8c0e16b922a4b8026e5e9ecc6b34a34cbfcb"
+        },
+        "initial": {
+          "line": 689,
+          "record_sha256": "4b6e143e58194b7c8d17561161f4d81c683565d7773469eecb596eec32edf175"
+        },
+        "spin": {
+          "line": 691,
+          "record_sha256": "4cbffa3b907fef63c41ed434468d65fc17c1bdb85020302f4e7af1ff89d79416"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "cashpotstrike7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "cashpotstrike7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "cashpotstrike7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "cashpotstrike7s-cds": {
+      "provenance": {
+        "opened": {
+          "line": 710,
+          "record_sha256": "42bbac976082541d7151039c7e537906a9694be453494a5fd64982c1d9d15387"
+        },
+        "initial": {
+          "line": 711,
+          "record_sha256": "46653cf5acd7979c2d4f8af7a151145eefa6464c8807511ff0e4c747fab17d50"
+        },
+        "spin": {
+          "line": 713,
+          "record_sha256": "ce5fe0b87ea9c876e1c5c1306a8fafe2bd64e0059456cd14f49fd71bf73d8292"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "cashpotstrike7s-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "cashpotstrike7s-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "cashpotstrike7s-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "cashpotstrike7s-dice": {
+      "provenance": {
+        "opened": {
+          "line": 724,
+          "record_sha256": "086f5993ca924d5abda498cc7462ecb10fccb5f2361f3e8859329829646c0f6c"
+        },
+        "initial": {
+          "line": 725,
+          "record_sha256": "49ac7d249b6e5cedd6d5d3a41129f41df9f5d092d629e4585fae2e3381fb88b3"
+        },
+        "spin": {
+          "line": 727,
+          "record_sha256": "7a13972aedf3caed7709e524ecd168faf912fc3d2783dbfa36b49f1151c60c01"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "cashpotstrike7s-dice"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "cashpotstrike7s-dice",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "cashpotstrike7s-dice",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "cherryrush7s": {
+      "provenance": {
+        "opened": {
+          "line": 738,
+          "record_sha256": "7161a9da0624405b6a6a8771eaad5b67d067feda1cac421b0c6893f862effde1"
+        },
+        "initial": {
+          "line": 739,
+          "record_sha256": "698068598893220c8ca0f9d582d3ac46239b06115f3a57502b150abf6336b4d0"
+        },
+        "spin": {
+          "line": 741,
+          "record_sha256": "fbf469ade78b5e91ccc65460ec400a9ef5bd6cda312e8d5c869f603a0fd2caa8"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "cherryrush7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "cherryrush7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "cherryrush7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "cherryrush7s-dice": {
+      "provenance": {
+        "opened": {
+          "line": 746,
+          "record_sha256": "dee68b1871ef60061c173140b5039e71cbec5f97ed6467766ea5b4378b35279b"
+        },
+        "initial": {
+          "line": 747,
+          "record_sha256": "bc253e22a4e9138da31a2dfc7c9529bd1b435b698d66fecc22c7e2ced31b66d9"
+        },
+        "spin": {
+          "line": 749,
+          "record_sha256": "59eba429bf9878bcae3f3675876ba60257f759646f4254cc9c1f6c8045fb5fbf"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "cherryrush7s-dice"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "cherryrush7s-dice",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "cherryrush7s-dice",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "chiliflame7s-cds": {
+      "provenance": {
+        "opened": {
+          "line": 760,
+          "record_sha256": "6c95d2ff4d8225253601cd666e8bc4d143fabce2e6bd5d89c711fa1208e427d1"
+        },
+        "initial": {
+          "line": 761,
+          "record_sha256": "de91a5aab7c74e6feb44c987adab1e30fd17cf36e6f83481b14f1c9aa45dc08d"
+        },
+        "spin": {
+          "line": 763,
+          "record_sha256": "7ffe0b84bb75e54e761eff88e717df7aedaf97af533e5b38df7a617ee7ee3b19"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "chiliflame7s-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "chiliflame7s-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "chiliflame7s-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "chiliflame7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 774,
+          "record_sha256": "8854ffaabcf4aad673f8491281fab64562a218691f64860029dbb3b0a336a904"
+        },
+        "initial": {
+          "line": 775,
+          "record_sha256": "3168323b8c7dcf62a101a69903ed2e0c6a9f399ba984c3b73b65fa0bc0d05279"
+        },
+        "spin": {
+          "line": 777,
+          "record_sha256": "872c221fca0dddf8f163f13079448ad5429269cffd777d201bf5025e36a1c957"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "chiliflame7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "chiliflame7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "chiliflame7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "cloversupreme-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 806,
+          "record_sha256": "685faec21dd35053facddfbfb6d3bdce9855643917dba7eb1317267c081dfafa"
+        },
+        "initial": {
+          "line": 807,
+          "record_sha256": "8f8e41bf86485a0140b61413efc7e6ee4b5b2f6692a7bc45cc942749a09ed742"
+        },
+        "spin": {
+          "line": 809,
+          "record_sha256": "f5bc9316ef1ad8495c21e6319fa16559224cd06e5311037b3146804f3ea683e0"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "cloversupreme-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "cloversupreme-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "cloversupreme-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "coinfall-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 820,
+          "record_sha256": "23e356940919d5bcaf4688f787ecba992423fae51567e5d9d2916fb8d989508b"
+        },
+        "initial": {
+          "line": 821,
+          "record_sha256": "ea229b613e832f2f2cca978d25ebd75a167668b42bc53eed7c5ac2d2434a877e"
+        },
+        "spin": {
+          "line": 823,
+          "record_sha256": "0da71eefa10bb34d228a811ec2bf84d938aa2a612d577136f38f631c06dd1b08"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "coinfall-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "coinfall-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "coinfall-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "coinfall-hnw-dice": {
+      "provenance": {
+        "opened": {
+          "line": 828,
+          "record_sha256": "e24a44574e23f6bc6c2549f8b64673cf1cc19d79354ed38c4e0eb24da4055e1f"
+        },
+        "initial": {
+          "line": 829,
+          "record_sha256": "a354a3d536b840d6736af9fdadffee4bbabe4ee96f4af17754909ae8409de7a2"
+        },
+        "spin": {
+          "line": 831,
+          "record_sha256": "6cae1dc12407190e2565a8a87f5dd69dfe06b82ac729f0ffb16f94aaee6d0e2b"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "coinfall-hnw-dice"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "coinfall-hnw-dice",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "coinfall-hnw-dice",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "coinpotstrike7s": {
+      "provenance": {
+        "opened": {
+          "line": 702,
+          "record_sha256": "d25d77398c0b4ff0f24e2630165405fb68802881238705ada0d39e797c679313"
+        },
+        "initial": {
+          "line": 703,
+          "record_sha256": "b24b4169cf64ed1f841030b01cc0cbad4a7380db7f3ead4ed03c0a750ab84279"
+        },
+        "spin": {
+          "line": 705,
+          "record_sha256": "dd4519e590bbe02b9fb0a7ff59e57f65ea7afda98f6050f05a57634f1ff93e00"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "coinpotstrike7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "coinpotstrike7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "coinpotstrike7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "cosmiccharms": {
+      "provenance": {
+        "opened": {
+          "line": 836,
+          "record_sha256": "3da8bd2b6136ac905787848828ca9d1e5214e061702298488a2c764d168c9750"
+        },
+        "initial": {
+          "line": 837,
+          "record_sha256": "0d4dbea88423371350ef69f39f7d9fe06becabe50bdf9af616ac33cee7251343"
+        },
+        "spin": {
+          "line": 839,
+          "record_sha256": "ce2d8a8fde8557546811cb1e3a09511d50601ab06c3d6084dd323e66878b41c9"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "cosmiccharms"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "cosmiccharms",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "cosmiccharms",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "crowntriumph7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 844,
+          "record_sha256": "676174e66b1d46a4a884b1bcb8314f3c01f3a5ff43692b1ca924dc47b9922bdd"
+        },
+        "initial": {
+          "line": 845,
+          "record_sha256": "f12b2b4896b632bdfaa581d7fc805ba9307e427b39548770b7bde14605ed9835"
+        },
+        "spin": {
+          "line": 847,
+          "record_sha256": "503ff4054ddc5d8a75943a9dad687fab2e715a420cfa3e97b2ab3f4ae11af1bf"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "crowntriumph7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "crowntriumph7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "crowntriumph7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "diamondbounty7s-cds": {
+      "provenance": {
+        "opened": {
+          "line": 897,
+          "record_sha256": "11616acd3663db9f145d9a1eb4c05f04ce54867466a05dbf2e59615cee0a803f"
+        },
+        "initial": {
+          "line": 898,
+          "record_sha256": "98627e1d1deb5b60e528685173bba5beacd635c4848ca68f60f3751bb8558c77"
+        },
+        "spin": {
+          "line": 900,
+          "record_sha256": "4ce812bf424f4bac4885d57eae29c0991a247ebcbaee30cd2eb80aa3a404d450"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "diamondbounty7s-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "diamondbounty7s-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "diamondbounty7s-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "diamondbounty7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 889,
+          "record_sha256": "a35218816efd8561dc10227364a8de2e0c5e423516c0d5de399debb3aa5e6a91"
+        },
+        "initial": {
+          "line": 890,
+          "record_sha256": "9a84b4ce5b6081c3ddba9b869af1055917d7d6a09a25f97b1fba8a412301e5aa"
+        },
+        "spin": {
+          "line": 892,
+          "record_sha256": "5f4a83f9af3e6b873e85937a3ce93226ce3ea45caf742e2e5d0c0625875ce73a"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "diamondbounty7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "diamondbounty7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "diamondbounty7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "diamondbountyxmas-cds": {
+      "provenance": {
+        "opened": {
+          "line": 911,
+          "record_sha256": "df19fccb871cfed91921820f202ff134acdd945911dd75339b6ee23a2d0c9f2e"
+        },
+        "initial": {
+          "line": 912,
+          "record_sha256": "c1363a3a0f28b2bf3c229fd797fdc707901e5302630bfb3fde56af5256a68e5d"
+        },
+        "spin": {
+          "line": 914,
+          "record_sha256": "2aafb7623a9310154ec3b2b6be15c65c3a35b713c5278a10bc368b9326394e11"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "diamondbountyxmas-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "diamondbountyxmas-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "diamondbountyxmas-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "diamondbountyxmas-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 925,
+          "record_sha256": "ccd02aae7aef7fe007c2b200c5447368f566b7ea2cd1fde14c59e6efe81f9f3d"
+        },
+        "initial": {
+          "line": 926,
+          "record_sha256": "1746901272fe5021385720d77ad99021b234c31dfb24e0d7d50f2baa5b8085ac"
+        },
+        "spin": {
+          "line": 928,
+          "record_sha256": "b37ee0e34165d155ca0d2ab43ba58b895a9f97030987215357fec9f3c64ab142"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "diamondbountyxmas-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "diamondbountyxmas-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "diamondbountyxmas-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "diamondsupreme-holdandwin": {
+      "provenance": {
+        "opened": {
+          "line": 933,
+          "record_sha256": "30b42d7b5bd5c479385e9c009b12243f415b6dddc01ff025d79a4d6b5ee20ec6"
+        },
+        "initial": {
+          "line": 934,
+          "record_sha256": "deb181bb9a9ff26cad9e04beb6bae275948d199a7dddbeee7fa1700474f8b2da"
+        },
+        "spin": {
+          "line": 936,
+          "record_sha256": "a54a7b01e83b43d0d11a3827a8b111143f7234d09da802b0514abc5284da0a78"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "diamondsupreme-holdandwin"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "diamondsupreme-holdandwin",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "diamondsupreme-holdandwin",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "dinoodyssey": {
+      "provenance": {
+        "opened": {
+          "line": 947,
+          "record_sha256": "cf908c8d18129f4ecb9105a626c041bf7671cb56416a0902360ed7ccd6890ae7"
+        },
+        "initial": {
+          "line": 948,
+          "record_sha256": "66361b9f4c1f88784ef6d615e254412cc361fd38bbb655276cf700ac3ff2fbf6"
+        },
+        "spin": {
+          "line": 950,
+          "record_sha256": "b3983784b2ea36b5d8c542fe94b78650607426de5c0b27031f9b5044af750d99"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "dinoodyssey"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "dinoodyssey",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "dinoodyssey",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "divinegongs-cds": {
+      "provenance": {
+        "opened": {
+          "line": 961,
+          "record_sha256": "b3a8e727c2b0682480ab68d76109620c79bb5456e56c6ea5038d3946f3370315"
+        },
+        "initial": {
+          "line": 962,
+          "record_sha256": "d29444470d7d96c184427b3e4a3880fc2bf1ea4c2b4d86b8a2665bcd99009299"
+        },
+        "spin": {
+          "line": 964,
+          "record_sha256": "642145b7261607c09b446a45948ffdfe191ccec75e6af46671d395a6871db25f"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "divinegongs-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "divinegongs-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "divinegongs-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "dolphinriches-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 981,
+          "record_sha256": "83276b9e83c432b7edd901680c58dad63e786aed43e38b7b4f67f2061d62d0f6"
+        },
+        "initial": {
+          "line": 982,
+          "record_sha256": "7188486b8307ae28ea974bb271f895294a3a80925768b21cbafd6acdbea142c3"
+        },
+        "spin": {
+          "line": 984,
+          "record_sha256": "3c9ecfb33ca831bd7cf73cd85edcd69d36946a0614920878730a2151e6116dee"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "dolphinriches-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "dolphinriches-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "dolphinriches-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "dragonsglow-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 1715,
+          "record_sha256": "735b26982cf2bc7ecf96715a35524e18ff11a83985249862e22423cdcae71424"
+        },
+        "initial": {
+          "line": 1716,
+          "record_sha256": "2dc62ac1eb09b3e0ec73e29c5643781aac636fa390f7316bf09c361c038f8800"
+        },
+        "spin": {
+          "line": 1718,
+          "record_sha256": "4f32762afa43b204e0eab88df1b24c8bd368ace8159d08d08eec30d7d6b0188b"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "dragonsglow-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "dragonsglow-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "dragonsglow-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "dynastyspark7s": {
+      "provenance": {
+        "opened": {
+          "line": 1735,
+          "record_sha256": "996aa4f1c2f96e68bb134e67e03f7b6c48e3c14b11b43035d87e5bffe502386b"
+        },
+        "initial": {
+          "line": 1736,
+          "record_sha256": "f3f410855fe296cf3225e73da2ce5cd7e3a9d4c07484338a47096f9c9b33fc52"
+        },
+        "spin": {
+          "line": 1738,
+          "record_sha256": "f311d2aaad881ad4789885c170e319af7bbbbbd10c35ffbd0f07e1efc8c013c7"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "dynastyspark7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "dynastyspark7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "dynastyspark7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "dynastyspark7s-cds": {
+      "provenance": {
+        "opened": {
+          "line": 1743,
+          "record_sha256": "811f1d216a569624b77acc703832e1af131a9183071cf0d0f6d2ed734ee2c002"
+        },
+        "initial": {
+          "line": 1744,
+          "record_sha256": "5a58bc442d6f50ad908b508c474ee3c69928bf3fc03feee5a0d299b51e6dafb9"
+        },
+        "spin": {
+          "line": 1746,
+          "record_sha256": "2cdd3f1792f697a638bc5d2dc2ea22c1ef88246cfd32a9b6b64f3898ceed0efb"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "dynastyspark7s-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "dynastyspark7s-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "dynastyspark7s-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "eaglehonor7s": {
+      "provenance": {
+        "opened": {
+          "line": 1757,
+          "record_sha256": "18f12f1f7e43aa6f953bef34ad038d32e18ba339a2c09ed9b576e6c8a8e1d6bb"
+        },
+        "initial": {
+          "line": 1758,
+          "record_sha256": "b327e08daec03d1b4a84ad385fbd939f33285289e44b5aba901dc8443fb5bb45"
+        },
+        "spin": {
+          "line": 1760,
+          "record_sha256": "bace23306cac61078ab158882bbbc68334c22fdc7a8b9a37d418be8874507bd6"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "eaglehonor7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "eaglehonor7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "eaglehonor7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "eaglehonor7s-cds": {
+      "provenance": {
+        "opened": {
+          "line": 1765,
+          "record_sha256": "2e737ac8bf21258d08da109c56c5f50b58ec222e3c067a5b89876128823912ce"
+        },
+        "initial": {
+          "line": 1766,
+          "record_sha256": "4a182143a57d6d7e547f9d9af00ea86cc972c2044a83f4e5ad890252ea51e393"
+        },
+        "spin": {
+          "line": 1768,
+          "record_sha256": "54273912fb2b48b8114f9f1e9fd351570136ea821fa1e89b99bea0c3260cdf4e"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "eaglehonor7s-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "eaglehonor7s-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "eaglehonor7s-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "emeraldbounty7s-cds": {
+      "provenance": {
+        "opened": {
+          "line": 1809,
+          "record_sha256": "afb66b16fa603b83bb9e7ce8404acdaf3e412778bed65ba9372cdc34e4b484ce"
+        },
+        "initial": {
+          "line": 1810,
+          "record_sha256": "3daaf8c4a9262986a41548f0da134c0c1f2cd48a86411220d720ab6da59b19ff"
+        },
+        "spin": {
+          "line": 1812,
+          "record_sha256": "e926c173870d229f486bc4d2b2935743ee51a06528fd40e5cbf625d3676b9b97"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "emeraldbounty7s-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "emeraldbounty7s-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "emeraldbounty7s-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "emeraldbounty7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 1823,
+          "record_sha256": "77292e7033a9c3144d0b9d185cf419de10fb2e7ab8234ec40f7af0a306ebe7de"
+        },
+        "initial": {
+          "line": 1824,
+          "record_sha256": "90794675889853a0b1c175261904a11733c48ae3536ad90ee1ced39e388c2a02"
+        },
+        "spin": {
+          "line": 1826,
+          "record_sha256": "40d94bf736a796f767e714a19631ac98110485b28b1864e6a7d758b1fa8233d8"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "emeraldbounty7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "emeraldbounty7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "emeraldbounty7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "festivexmas7s": {
+      "provenance": {
+        "opened": {
+          "line": 1843,
+          "record_sha256": "548ff72f222917e299a8cb919f69d253c4bcd7952c7bd77300893ea479288361"
+        },
+        "initial": {
+          "line": 1844,
+          "record_sha256": "7e6a3186c25d32f09e6399c922a81e16d9ab4b0e9c9ed43ee6ccd1e3294bdb4d"
+        },
+        "spin": {
+          "line": 1846,
+          "record_sha256": "b27543f22680596f80fa9981a01fff9dd225677a00eb81c16089d9d27332ad2c"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "festivexmas7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "festivexmas7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "festivexmas7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "finnegansformula": {
+      "provenance": {
+        "opened": {
+          "line": 1857,
+          "record_sha256": "d871aa5077ecca7c583e1259b5ec50f92548607ca7cccceca2b3c8102775fe7f"
+        },
+        "initial": {
+          "line": 1858,
+          "record_sha256": "ee1a6388f988f9c083e44481c0bb77ceea50a1af3d5f83420b5389f0b06bc850"
+        },
+        "spin": {
+          "line": 1860,
+          "record_sha256": "746b5908939cfa9fc62d8c2da48171f143b86260d09fe2efb25f7cdf76409de6"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "finnegansformula"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "finnegansformula",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "finnegansformula",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "finneganstreasure2": {
+      "provenance": {
+        "opened": {
+          "line": 1865,
+          "record_sha256": "f1b9b877d4fbaf041d0758d645977c3de8ccea77493cf3a59dfc5aafd2bcf9f7"
+        },
+        "initial": {
+          "line": 1866,
+          "record_sha256": "eea443fea4d8f1059cb01b1d9c0ae7b99ecfccb1ba3db7e47df5f7c1a35ab30b"
+        },
+        "spin": {
+          "line": 1868,
+          "record_sha256": "9b998cd5df9994d96ae8758069eaa65cb086dbd9496f951dc1cb112c5555e7a8"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "finneganstreasure2"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "finneganstreasure2",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "finneganstreasure2",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "finneganstreasure2-cds": {
+      "provenance": {
+        "opened": {
+          "line": 1873,
+          "record_sha256": "685275543b7c4e9cd1923ec37d4242c74a617f877087b9c1b2c37f23f74daf2e"
+        },
+        "initial": {
+          "line": 1874,
+          "record_sha256": "d83f4d26d005cd56535ceda09274ebb5f8d32ccab5ef374ea53d1b62bbbc0e18"
+        },
+        "spin": {
+          "line": 1876,
+          "record_sha256": "8085343f598ad07132f74d4795d34df81a20d3a96d9ead41c53e903605b74baf"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "finneganstreasure2-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "finneganstreasure2-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "finneganstreasure2-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "finneganstreasure7s": {
+      "provenance": {
+        "opened": {
+          "line": 1887,
+          "record_sha256": "c6a903613a973ae4c62eb2c30935af2309130faca4fbbd4ecda13c6e92ed2976"
+        },
+        "initial": {
+          "line": 1888,
+          "record_sha256": "a98f081cb7781e67f3a712230c80a58b89c1e10533a20e5f17e931490c2b141e"
+        },
+        "spin": {
+          "line": 1890,
+          "record_sha256": "ece5cc2a28f463075972a542649ca4cba99f932181b5a1b31a5b3e64dfef81a0"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "finneganstreasure7s"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "finneganstreasure7s",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "finneganstreasure7s",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "fireboltmulti7s-cds": {
+      "provenance": {
+        "opened": {
+          "line": 1901,
+          "record_sha256": "4fb6c821bdcebf535627fb110beabc15ce5f163c05c1f1946fe32395fa59c765"
+        },
+        "initial": {
+          "line": 1902,
+          "record_sha256": "a41eba4192f737526e06bbe886594ff535e5f2841fafe0d42e8243c5fa1e1593"
+        },
+        "spin": {
+          "line": 1904,
+          "record_sha256": "6425d195315a3cc0191a0b6213755416cb5948d14648fc9cfa5414a3794bace8"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "fireboltmulti7s-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "fireboltmulti7s-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "fireboltmulti7s-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "fireboltmulti7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 1915,
+          "record_sha256": "dd386892001839b6e9a86bec97a3c5578df97671990bdeb69b4c459d676e36d1"
+        },
+        "initial": {
+          "line": 1916,
+          "record_sha256": "d0f500cfba097cf74ec0e5cee5a5431aca77d4df28ce39a2ab4a1019400f371a"
+        },
+        "spin": {
+          "line": 1918,
+          "record_sha256": "4eab5d21e304272fbc03edfffaca4b9a34b7bfda550a08db9c29ffe4d4b5a882"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "fireboltmulti7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "fireboltmulti7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "fireboltmulti7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "firedrakesfortune": {
+      "provenance": {
+        "opened": {
+          "line": 1929,
+          "record_sha256": "847a277bfb3df6b93a58958ecd4bb0ca9136966b6751daf95f6932ef89f0c65a"
+        },
+        "initial": {
+          "line": 1930,
+          "record_sha256": "feb057611f617c5c7e5b733fff6d6d065f51e1c243b125783cde061e97ea44dd"
+        },
+        "spin": {
+          "line": 1932,
+          "record_sha256": "199d5e2f4781484a10471fe130ed20e4409f0d036d1d8c4e04e89711c9ccb9c1"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "firedrakesfortune"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "firedrakesfortune",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "firedrakesfortune",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "firedream7s-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 1943,
+          "record_sha256": "64d68cbeb1b0d9dc9833e87e713a733648b7161860edf7900bffd8bb93cd69ba"
+        },
+        "initial": {
+          "line": 1944,
+          "record_sha256": "a208c9b296554e269e97a6ba18143b111c5ef24fc6a697c60163b777d3089fcf"
+        },
+        "spin": {
+          "line": 1946,
+          "record_sha256": "72a1ff838e721da7fc8939114a95717327f83bb9f34515c8ca3a5c59720a3b33"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "firedream7s-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "firedream7s-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "firedream7s-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "firedreamxmas-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 1951,
+          "record_sha256": "3a7946853436e792c27a62d34a507f9c8803fdef7ce5a25118804bc96bbdb570"
+        },
+        "initial": {
+          "line": 1952,
+          "record_sha256": "f4cacf6dcc3319f96d047b0837db3386ece9e38dda75a63c4a5648f8ce3e5e1d"
+        },
+        "spin": {
+          "line": 1954,
+          "record_sha256": "3d856b61f2b06370c30394155960e70415a9844457ecf0c694bb31f4e5fbf03e"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "firedreamxmas-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "firedreamxmas-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "firedreamxmas-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "fishlineloot-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 1979,
+          "record_sha256": "6f04226c91322074ff2c5416331aff1ac5d4b902631ec34b06ad2f7f9a2547b5"
+        },
+        "initial": {
+          "line": 1980,
+          "record_sha256": "47c196b266e715c03c437fbf2b22f43e3eb0cfbb6f66e82ed2fe42881ab98f1b"
+        },
+        "spin": {
+          "line": 1982,
+          "record_sha256": "ae21f3cdaffebc25e5b70cbecb6fbaea12f1edc5609397fe3b1f881db4b58003"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "fishlineloot-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "fishlineloot-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "fishlineloot-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "flamingscarabs": {
+      "provenance": {
+        "opened": {
+          "line": 1987,
+          "record_sha256": "a34e758bb0780583a1d713519c902f140a71e9cfd7f52f2692d581e871c2bcb4"
+        },
+        "initial": {
+          "line": 1988,
+          "record_sha256": "8e0030a7f4ce9a019e722065523e53c949aa9814ceb669c41669dbeea50f5fa0"
+        },
+        "spin": {
+          "line": 1990,
+          "record_sha256": "0ebe404172129d621a3ca80ca1af7707075016b5ee3af9977a59ddf614fe7f70"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "flamingscarabs"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "flamingscarabs",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "flamingscarabs",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "flamingscarabs-cds": {
+      "provenance": {
+        "opened": {
+          "line": 2003,
+          "record_sha256": "77f742d962c171ebecd612fdf5032f0b0ae1809003614cc31903c7e87005527f"
+        },
+        "initial": {
+          "line": 2004,
+          "record_sha256": "9ac51091a58b00b2dd3efcd6a1eea94d6f0137310c448026602aa101ef549758"
+        },
+        "spin": {
+          "line": 2006,
+          "record_sha256": "7020774715a0a35424b76f21a93a8b46e2e7c2084b03302419d970d89224c249"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "flamingscarabs-cds"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "flamingscarabs-cds",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "flamingscarabs-cds",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "flamingscarabs-usefur": {
+      "provenance": {
+        "opened": {
+          "line": 1995,
+          "record_sha256": "feff748d48016c10fa0a05110044ceaabba88b5fa751a2f88ba09ee519eacfa4"
+        },
+        "initial": {
+          "line": 1996,
+          "record_sha256": "47a233213513ba183dae111844dc247afdfab2c2024db01d2fcd246240aaca4c"
+        },
+        "spin": {
+          "line": 1998,
+          "record_sha256": "902568c67d15e70a73ef07eed72cf8070686982587eda6e0018f6c099c329fda"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "flamingscarabs-usefur"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "flamingscarabs-usefur",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "flamingscarabs-usefur",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "currentSelectedBetMultiplier": 4,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    },
+    "footballblast-hnw": {
+      "provenance": {
+        "opened": {
+          "line": 2029,
+          "record_sha256": "07772e5d158d4e931cff4ff80fbdaa9e360e77985e0149536c951c0b82845c38"
+        },
+        "initial": {
+          "line": 2030,
+          "record_sha256": "1c2e00a93207c41a87facb2f1cb88f9745e8ac1ca011a0712839a8ba1f1fb8b3"
+        },
+        "spin": {
+          "line": 2032,
+          "record_sha256": "d95ff76b46a555114f2445c369621bbf1e549b204e90963cee5bff84b9c3b436"
+        }
+      },
+      "opened": {
+        "ursId": 1,
+        "gameCode": "footballblast-hnw"
+      },
+      "initial": {
+        "event": "OPEN_GAME",
+        "data": {
+          "gameState": {
+            "gameId": "footballblast-hnw",
+            "roundNumber": 0,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0
+          },
+          "additionalConfigData": {
+            "availableMultipliersPerBaseBet": {
+              "50": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                45,
+                50,
+                60,
+                75,
+                80,
+                90,
+                100,
+                150,
+                200
+              ]
+            }
+          }
+        }
+      },
+      "spin": {
+        "event": "SPIN_RESULT",
+        "correlationSeqId": 1,
+        "data": {
+          "gameState": {
+            "gameId": "footballblast-hnw",
+            "roundNumber": 1,
+            "stateTypeThisRound": "BaseGame",
+            "stateTypeNextRound": "BaseGame",
+            "freeSpinCount": 0,
+            "lastPlacedMainGameBet": {
+              "baseBet": 50,
+              "betMultiplier": 4
+            }
+          }
+        }
+      }
+    }
+  }
+}

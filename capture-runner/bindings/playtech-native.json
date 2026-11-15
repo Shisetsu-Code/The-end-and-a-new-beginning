@@ -1,0 +1,2717 @@
+{
+  "gpas_cashrlmx_pop": {
+    "source_sha256": [
+      "2647213476bd2787409838a53ff03df300328298f698497ab2ad15bab05c6289"
+    ],
+    "modes": {
+      "c730fbd8-6c52-418f-b49a-73696225e345": {
+        "selector": "PESOS-2",
+        "parameters": null,
+        "source": "Own Ferox constructor, reviews/cashrlmx-original-serializers.cjs"
+      }
+    }
+  },
+  "gpas_aogwfotnjul_pop": {
+    "source_sha256": [
+      "76e597e0ee8880ed61c82bae90654327b26b5bc11c1bdf09193d9995f662d331"
+    ],
+    "modes": {
+      "f8ddcdd7-2c77-43da-87f5-a181b454dc7f": {
+        "selector": "default",
+        "parameters": [
+          {
+            "key": "extraBetSupported",
+            "value": "true"
+          },
+          {
+            "key": "extraBetActive",
+            "value": "false"
+          }
+        ]
+      },
+      "c521cf74-95ef-4420-8b22-009928522ca2": {
+        "selector": "extra",
+        "parameters": [
+          {
+            "key": "extraBetSupported",
+            "value": "true"
+          },
+          {
+            "key": "extraBetActive",
+            "value": "true"
+          }
+        ],
+        "source": "Native P6d selects extra through bHc; official base parameter shape plus active ExtraBets flag. Corrective control requires exact extra UUID."
+      }
+    },
+    "capture_financial_commands_forwarded": 0
+  },
+  "gpas_aogwfot_pop": {
+    "source_sha256": [
+      "b41656cf38e3b5175399563c4781de5156d60c8eb93bf1d192579d2783fece62"
+    ],
+    "modes": {
+      "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc": {
+        "selector": "default",
+        "parameters": [
+          {
+            "key": "extraBetSupported",
+            "value": "true"
+          },
+          {
+            "key": "extraBetActive",
+            "value": "false"
+          }
+        ]
+      },
+      "66c20afc-43c9-4798-b26e-a59eab9394d0": {
+        "selector": "extra",
+        "parameters": [
+          {
+            "key": "extraBetSupported",
+            "value": "true"
+          },
+          {
+            "key": "extraBetActive",
+            "value": "true"
+          }
+        ],
+        "source": "Native P6d selects extra through bHc; official base parameter shape plus active ExtraBets flag. Corrective control requires exact extra UUID."
+      }
+    },
+    "capture_financial_commands_forwarded": 0
+  },
+  "gpas_sorome_pop": {
+    "source_sha256": [
+      "a2590d9fd76d3bc74b95cde681f8affed5cec2c708f568395b5703998b76b55d"
+    ],
+    "modes": {},
+    "pick_bound": true,
+    "pick_domains": {
+      "ChooseFG": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "source_evidence": "Supplier BQd maps four TQd/SQd shield enum ordinals through i.e+1 to JRd pick string; JRd constructs native parameter map; mAc routes continuation through adapter .T=48775. Archived primary sor.unknown.jmm confirms four colored shield controls."
+  },
+  "gpas_gotabyss_pop": {
+    "source_sha256": [
+      "6dfb22f6d1fd93049a02245cffdd5733f15ae1bb46f815e3a744716607da89ff"
+    ],
+    "modes": {
+      "718db397-7a47-4cc8-8bea-74bd2bd0c92c": {
+        "selector": "lines-25",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "8fe442ef-64a8-4e9d-a0b3-f2a12d886202",
+      "6a0398cc-3c6f-4440-8899-c4f56a373279",
+      "13e4b587-c2c3-42df-8038-511e7737364c"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krbbeast_pop": {
+    "source_sha256": [
+      "50e90233ab2652cc80e51efbacc98bc797b1b94e30651e8e8c1655cfdae5ae22"
+    ],
+    "modes": {
+      "c4342bbd-beed-4952-9b37-a1df947e9a6b": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "f99ac427-1f2c-4a83-8838-dddf16fb8296",
+      "6b574ed7-cf06-471b-a067-2bde6139a9d1",
+      "853ff87f-ce4c-41e6-ab92-f302f89bba99"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krcofear_pop": {
+    "source_sha256": [
+      "1bd58f16a7285555d324ad8f873381e63146e32c831c2777ccb09a9e0d49ff13"
+    ],
+    "modes": {
+      "572b4dff-2f58-4936-826c-3977a66711c5": {
+        "selector": "BaseGame",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "444e7be2-8571-41df-80c0-0be0c5f2e91c",
+      "e8c0d38a-37ee-4d15-8831-7af46b6baae7",
+      "5f58b725-e43b-4b80-8dd4-7c309989c4ce",
+      "d59011a2-e9de-410b-9325-147dfdf2d6ff",
+      "83e02b0a-5a8a-484b-8a62-c64bff2260a0"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krfforest_pop": {
+    "source_sha256": [
+      "1a5fc04898ca3a5867d7830214dcce49140f01e7d607e8a83f768799e8d89597"
+    ],
+    "modes": {
+      "e0e43b53-4f8e-4eed-8c48-5ea739c208dc": {
+        "selector": "1",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "40d236fb-5e06-48d4-8d3e-50052d634881",
+      "af3920c2-4845-4ab2-9283-8885e8cc27e3",
+      "1380872d-c4da-4a85-8393-a3a0070d30f2"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krhiddent_pop": {
+    "source_sha256": [
+      "e45a3ace252741818aeac40eba6b0d171ae1c48742b9bdf3f0a58e95da5d54d2"
+    ],
+    "modes": {
+      "cd4f360e-2a58-4024-8efd-efa199972e3f": {
+        "selector": "BaseGame",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "af8cbe85-28ca-490b-b66e-1c817d0f9b55",
+      "6ff49861-9f97-4778-8007-858caf122a45",
+      "dca6bed7-ab27-4005-888c-a9cb8968451c"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krloestone_pop": {
+    "source_sha256": [
+      "cbcf33d8b85a7e8917431f23cb1bc46975c43fed01fae61000f36295844b2ad1"
+    ],
+    "modes": {
+      "3e480837-ac95-43cf-a8a8-90d35128e316": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "c344118b-78e5-4558-bcac-85bcf67bb9b1",
+      "43249316-70ec-4a14-8609-457f6ef26775",
+      "10786562-ebed-4ebf-806b-7cd3fb4b24b9",
+      "9783b180-6b6d-4c77-a18f-de5f418531c8"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krluprising_pop": {
+    "source_sha256": [
+      "e527fe3707a1b7691a61cc2caa9120c44748c1df02fa93d28346cdb7a26160e0"
+    ],
+    "modes": {
+      "dbdccf24-3625-44c7-b3d6-c34e203d576a": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "e58635f9-d1d9-490e-8ead-44555ac0bd4e",
+      "e59a370c-fe1b-4605-9ca5-2406b2524858",
+      "dcb46e51-57ca-4477-8df3-394b2d0c09ad",
+      "360b5aba-9113-479b-8f8d-eee250f7bdfb"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krsofury_pop": {
+    "source_sha256": [
+      "10b78fc4715ce88b49ab88d749cac3df3bfbf65924f3b0fa9cab84d30d731c08"
+    ],
+    "modes": {
+      "7ddcc223-c4c5-467b-bd35-e0df5a7c8496": {
+        "selector": "lines-20",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "1dff981d-e679-4986-ab63-da9edf2a4005",
+      "f3385dd7-b44e-42b9-87ba-f56a6ae8b8f6",
+      "f9370bd0-90c6-45fa-8f47-110ae24e0b9c",
+      "13efbc82-d6d1-47fd-854c-76cc31653249",
+      "5491a5af-c1d1-4384-8b86-7f5730cfdc3a",
+      "94da5148-8fc8-4b39-8c31-dfe4df774eb9"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_krsqueen_pop": {
+    "source_sha256": [
+      "a8b14610dd977e66f0614886ae9be8adce606cde86097e4d9916ee56945e782d"
+    ],
+    "modes": {
+      "98bf4a0d-783a-4006-8b80-d25bb73b772a": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "3a6b9c1d-5948-4036-8e5e-92fd568ad7dc",
+      "6706e83c-630d-43a0-b97a-74314088ac21",
+      "2e1327d2-111d-411f-89b5-ef2d0ff84c5e",
+      "269d3a21-e829-4632-8737-ebfb674d74ee"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases.",
+    "fixed_continuation_parameters": {
+      "SmallPrizeWheel": [
+        {
+          "key": "pick",
+          "value": "WheelPickRequest"
+        }
+      ],
+      "MediumPrizeWheel": [
+        {
+          "key": "pick",
+          "value": "WheelPickRequest"
+        }
+      ],
+      "LargePrizeWheel": [
+        {
+          "key": "pick",
+          "value": "WheelPickRequest"
+        }
+      ],
+      "CenterWheel": [
+        {
+          "key": "pick",
+          "value": "WheelPickRequest"
+        }
+      ]
+    },
+    "wheel_source_evidence": "Native K3d constructs pick=WheelPickRequest and TCc routes free continuation; krsq.unknown.jmm wheel_rounds declares SmallPrizeWheel, MediumPrizeWheel, LargePrizeWheel and CenterWheel."
+  },
+  "gpas_krsroice_pop": {
+    "source_sha256": [
+      "a67f22aa2fd03a427ac326d05c56c7e3ead5772bc4d400331ba92c67974c3f9a"
+    ],
+    "modes": {
+      "9c6e3414-564a-479a-86bd-c1f270a8dad4": {
+        "selector": "lines-25",
+        "parameters": [],
+        "source": "Supplier native base cost and adapter default; token shop disabled by current native configuration. Corrective control must match UUID and wallet."
+      }
+    },
+    "inactive_token_mode_ids": [
+      "1a687f9f-cddd-4f75-b187-f5792f2042e3",
+      "47fb3736-e145-4c1d-8ef2-f7b2c938a89e",
+      "09f8b5ed-f3f1-4a29-865d-754de759bec9",
+      "04d3d372-cbe5-492e-8839-c37529907035"
+    ],
+    "source_evidence": "Native game.tokens.featureShopEnabled=false and tokenBalanceEnabled=false; all alternate equal-cash-cost entries belong to the archived supplier token-feature shop. Retained as unavailable, never counted as executed purchases."
+  },
+  "gpas_aogggriffin_pop": {
+    "source_sha256": [
+      "830c5e9e72ffd731dc1ebc1c0d39435e700b6659791dc024cc894bb423abd0a3"
+    ],
+    "modes": {
+      "6370719c-d261-4663-a0c9-602c476d948c": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control"
+      },
+      "a5888193-241d-41b0-8fd6-b3836c113b72": {
+        "selector": "HR10",
+        "parameters": [],
+        "source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control"
+      },
+      "3aeb469d-0b02-4664-a42f-ee6303b052ba": {
+        "selector": "HR20",
+        "parameters": [],
+        "source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control"
+      },
+      "369dc0e2-8a5e-45dc-81a5-cf437af9657d": {
+        "selector": "HR40",
+        "parameters": [],
+        "source": "Official normal command; native fJb HR option declarations retained for explicit matching-UUID demo control"
+      }
+    },
+    "capture_financial_commands_forwarded": 0,
+    "inactive_powerplay_mode_ids": [
+      "a5888193-241d-41b0-8fd6-b3836c113b72",
+      "3aeb469d-0b02-4664-a42f-ee6303b052ba",
+      "369dc0e2-8a5e-45dc-81a5-cf437af9657d"
+    ],
+    "source_evidence": "Supplier fJb declares HR10/20/40 as BuyPowerPlayData/PowerPlayFeatureType; native game.powerPlayEnabled=false."
+  },
+  "gpas_bbwhs_pop": {
+    "source_sha256": [
+      "429c6bc7be95e7fe9e98956d4017269c6550697dfd6d3b29f575a338689357ce"
+    ],
+    "pick_bound": true,
+    "modes": {},
+    "known_choice_domains": {
+      "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f": {
+        "JPPick": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "a34b5ae4-b576-431d-8323-4e2c5dd1de4a": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f": {
+        "JPPick": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "a34b5ae4-b576-431d-8323-4e2c5dd1de4a": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-bbwhs-current-jppick-source-audit.json",
+    "previous_binding": {
+      "path": "provider-work\\playtech-root\\reviews\\gpas-bbwhs-before-current-binding.json",
+      "sha256": "c7c3cf9067c51e06ab39178db23a2a8672e9665db0695593043205684eedb99f"
+    },
+    "coverage_source": "provider-work/playtech-root/reviews/gpas-bbwhs-capture-closed-prefix-consolidation.json"
+  },
+  "StarsAblaze": {
+    "source_sha256": [
+      "372827cc45e1df9fabc61c0ab15246804bdee20d0f1baf0308d10c1a3fa543df"
+    ],
+    "modes": {
+      "7fba6771-f371-446f-b3c5-482b86ace1d7": {
+        "selector": "default",
+        "legacy_line_array": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "source": "Official blocked legacy command uses total bet and enabled-line vector; no cost UUID or multiplier is sent"
+      }
+    },
+    "capture_financial_commands_forwarded": 0,
+    "terminal_rounds": [
+      "Base"
+    ],
+    "terminal_evidence": "Captured native response gameRoundClosed=true, nextRound=Base, all remainingPlayCount=0 and no isNextPlayMode; source RyotaSpinResponse.findNextPlay and findPlayWithPlaysRemaining determine pending plays from playStack, not an END-only sentinel."
+  },
+  "VampirePrincess": {
+    "source_sha256": [
+      "07733e19ac85e606bbbb5ba6bca593e03cbb6a5b1b6234c6cb0a7550e805b6ac"
+    ],
+    "modes": {
+      "3e94c75f-f7c9-4b87-8f69-85e053817a35": {
+        "selector": "default",
+        "legacy_line_array": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "source": "Official blocked legacy command uses total bet and enabled-line vector; no cost UUID or multiplier is sent"
+      }
+    },
+    "capture_financial_commands_forwarded": 0,
+    "terminal_rounds": [
+      "Base"
+    ],
+    "terminal_evidence": "Captured native response gameRoundClosed=true, nextRound=Base, all remainingPlayCount=0 and no isNextPlayMode; source RyotaSpinResponse.findNextPlay and findPlayWithPlaysRemaining determine pending plays from playStack, not an END-only sentinel."
+  },
+  "gpas_fmhitbarlo_pop": {
+    "source_sha256": [
+      "18d65be3d2b7e1364ec9bc84fde2947070ff32fde5b6c198f5c67de69fe32596"
+    ],
+    "modes": {
+      "7019a29a-2e6b-4b8b-9040-f07319a2bba0": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier GWT adapter default selector and explicit buy-feature / extra dispatch; source-pinned, matching native UUID and wallet required."
+      }
+    }
+  },
+  "gpas_wdeadlo_pop": {
+    "source_sha256": [
+      "826a7315706d519de39269fd2eb9389721fa49ac96eb3bea04c31cec98f71997"
+    ],
+    "modes": {
+      "22584cfb-b8cd-45c6-8306-319df370f4d1": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier GWT adapter default selector and explicit buy-feature / extra dispatch; source-pinned, matching native UUID and wallet required."
+      }
+    }
+  },
+  "gpas_mwilds_pop": {
+    "source_sha256": [
+      "be484d3db63660d54195f8c14cf83fef565fd952de5e5f38de528f9ba4756dfe"
+    ],
+    "modes": {
+      "9934dc4d-bc98-4d98-92ff-73d9968ba1fb": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier GWT adapter default selector and explicit buy-feature / extra dispatch; source-pinned, matching native UUID and wallet required."
+      },
+      "c8e0d2f7-5f91-4afb-810d-017d694d2b5a": {
+        "selector": "buy-feature",
+        "parameters": [],
+        "source": "Supplier GWT adapter default selector and explicit buy-feature / extra dispatch; source-pinned, matching native UUID and wallet required."
+      }
+    },
+    "pick_bound": true,
+    "pick_domains": {
+      "FG or Gamble": [
+        1,
+        2
+      ],
+      "GamblePick": [
+        1,
+        2
+      ]
+    },
+    "pick_source_evidence": "Native uQd builds pick map; uRd and ARd dispatch literal1 and2 through yBc free continuation. Native phase constants k3g=FG or Gamble and j3g=GamblePick."
+  },
+  "gpas_wofire1_pop": {
+    "source_sha256": [
+      "45f0a8fa97e5689585740f1cc7c5256a4a205748d22f4b72d5aa04a0c8e90e14"
+    ],
+    "modes": {
+      "7009bb4a-1f57-4540-92e4-46f89d8b9b0b": {
+        "selector": "lines-30",
+        "parameters": [],
+        "source": "Supplier normal request flow, verified native baseline and source-bound line constructor"
+      }
+    },
+    "observed_default_baseline": {
+      "id": "102ec212-5088-4bb0-abf3-cefe3de1bf80",
+      "cost": 20,
+      "source": "Supplier fixed-line default constructor; three independent captured default-flow responses identify this 20-unit native profile while extraBetEnabled=false. Raw Standard profile retained as inactive; all new receipts must match identity and reconciled wallet."
+    }
+  },
+  "gpas_aogww_pop": {
+    "source_sha256": [
+      "be70dd6992b42e78b862b6ba6f5b43278222b70e34187e7b354bc892ff0ad056",
+      "f37adffc38f97f022a9664335014dac7e72c6d73c073ae5e9891f52c3a1cfde6"
+    ],
+    "modes": {
+      "a675ca72-a976-45fe-8e8a-84d4e596ba65": {
+        "selector": "default",
+        "parameters": [
+          {
+            "key": "baseCostMultiplier",
+            "value": 1
+          }
+        ],
+        "source": "Supplier normal request flow, verified native baseline and source-bound line constructor"
+      }
+    },
+    "inactive_unlockable_modes": {
+      "5b4d0888-1365-4ce8-87ac-e8c98db494fb": "wonder_warriors_unlock_6x5_freegame"
+    },
+    "source_evidence": {
+      "path": "provider-work/playtech-root/reviews/gpas_aogww_pop-native-cost-control-readset.json",
+      "sha256": "104ab92326f9b2ebf805d08c981bb28601efa46fd901317776a6f73276b3eb9d"
+    },
+    "continuation_parameter_suffix": [
+      {
+        "key": "baseCostMultiplier",
+        "value": 1
+      }
+    ],
+    "numeric_pick_parameters": true,
+    "required_parameter_multiplier": 1,
+    "natural_bonus_gate_adapter": "playtech_engine.aogww_bonus_gate; dynamic currentSharedState.free_games_counter gate; do not register an ungated1..4 pick domain",
+    "corrected_minimum_control": "live/controls/gpas_aogww_pop--root-source-parameter-parity-minimum-v2.json"
+  },
+  "gpas_aogwwlo_pop": {
+    "source_sha256": [
+      "be70dd6992b42e78b862b6ba6f5b43278222b70e34187e7b354bc892ff0ad056",
+      "38eb76a2f7d14feb98d33ee96a911ad175db21cd529e2b611370d85e8ef1739c"
+    ],
+    "modes": {
+      "5a19fce9-7d8a-40d7-87ac-7dc46c7fb0a7": {
+        "selector": "default",
+        "parameters": [
+          {
+            "key": "baseCostMultiplier",
+            "value": 1
+          }
+        ],
+        "source": "Supplier normal request flow, verified native baseline and source-bound line constructor"
+      }
+    },
+    "inactive_unlockable_modes": {
+      "33dd0dc9-3f42-4c35-be25-d1b93cdeba05": "wonder_warriors_unlock_6x5_freegame"
+    },
+    "source_evidence": {
+      "path": "provider-work/playtech-root/reviews/gpas_aogwwlo_pop-native-cost-control-readset.json",
+      "sha256": "4512210c2af9c3f040eca631517b767a348cdac1e2ca3b1f6a2e4b326068f5b1"
+    },
+    "continuation_parameter_suffix": [
+      {
+        "key": "baseCostMultiplier",
+        "value": 1
+      }
+    ],
+    "numeric_pick_parameters": true,
+    "required_parameter_multiplier": 1,
+    "natural_bonus_gate_adapter": "playtech_engine.aogww_bonus_gate; dynamic currentSharedState.free_games_counter gate; do not register an ungated1..4 pick domain",
+    "corrected_minimum_control": "live/controls/gpas_aogwwlo_pop--root-source-parameter-parity-minimum-v2.json"
+  },
+  "gpas_wdead2_pop": {
+    "source_sha256": [
+      "3cdfca325cc3fca4f0dc63c79b2a3e4bd2ed5cf1c7b841dca89d8a3ccc58ebda"
+    ],
+    "modes": {
+      "3f018ada-7163-4c26-8b28-d627bc090ac8": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier normal request flow, verified native baseline and source-bound line constructor"
+      }
+    },
+    "inactive_internal_mode_reasons": {
+      "04e9529b-bd1a-4261-9bf9-94d300cc76e2": "Internal AllFeaturesUnlocked profile; supplier BaseFlow.requestSpin only dispatches default playMoney(stake), fixed-line stake selector uses first cost, and exposes no purchase action for this profile"
+    }
+  },
+  "gpas_hongem_pop": {
+    "source_sha256": [
+      "143e93ea4398a5bde943f5d4e38e790f7ca5340077057ea61cd07e843f2b1341"
+    ],
+    "modes": {
+      "ffa7df84-e232-455e-b117-9bb35245b498": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier normal request flow, verified native baseline and source-bound line constructor"
+      }
+    }
+  },
+  "gpas_mgaogkol_pop": {
+    "source_sha256": [
+      "5258c47fe431455c0152c6a58934dd2c34fd3912f29089b6d45ec026d404be01"
+    ],
+    "modes": {
+      "35660849-0ef3-4a80-8610-a9074b76226f": {
+        "selector": "Base",
+        "parameters": [],
+        "source": "Supplier normal request flow, verified native baseline and source-bound line constructor"
+      }
+    }
+  },
+  "gpas_icave_pop": {
+    "source_sha256": [
+      "36b8703d179f18353e8dc49641d38e657ec09e76f409754d25718a324b3610ec"
+    ],
+    "modes": {
+      "209d1e4b-6d84-4ce8-a280-844f0d02ea6f": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier ashicv JMM bet_features maps logical feature to feature.*; default flow uses native default selector"
+      },
+      "acc8c68e-d46e-4b05-a64b-f432a17e5594": {
+        "selector": "feature-20",
+        "parameters": [],
+        "source": "Supplier JMM feature.* pattern resolves the explicit native feature-20 cost name; default is the baseline wire alias"
+      }
+    }
+  },
+  "gpas_pstrike_pop": {
+    "source_sha256": [
+      "8334bacbd793dddf3e2b3129792c338d7b7e1b2fa7553716b46886563c52c179"
+    ],
+    "modes": {
+      "ada68954-4a6f-4547-abfc-2065317aa389": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "6dd386f6-c3f5-4e93-89a9-0493c6e4eeb2": {
+        "selector": "BF3",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "d9c12b26-bb6e-4c17-875f-ba8787da82c3": {
+        "selector": "BF4",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "a5111c29-f460-481c-96cd-7e47a3b507e8": {
+        "selector": "BF5",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "b01eae9c-86d7-4a47-8e37-92f011a51bb8": {
+        "selector": "BF6",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "1c290416-470c-429f-a7f7-cb360b043e08": {
+        "selector": "BF_RND",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      }
+    },
+    "pick_bound": true,
+    "pick_domains": {
+      "BF_RND_LP": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "pick_source_evidence": "Supplier mystery card collections contain four items. PStrike V7d/V8d/W7d/wWd/gzg and SStrike age/uge/tge/$fe/z1d/S0d/rHg pass the zero-based card index unchanged as pick through native free continuation."
+  },
+  "gpas_sstrike_pop": {
+    "source_sha256": [
+      "1d98e71435f1162f6a61d78fd31847839547e924f06ca9229e872c73f4781d33"
+    ],
+    "modes": {
+      "745729bd-bc21-4ed1-8b78-cfc6e4397dbb": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "b45cbc78-8b8a-4b42-8872-1edad6b818d6": {
+        "selector": "BF3",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "1a4323d2-f16e-46c7-9a6e-97698f61c915": {
+        "selector": "BF4",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "be1950f4-37ed-41de-89c3-08adbc2b8fe2": {
+        "selector": "BF5",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "b9dcf12e-2739-4a67-853b-65bd08fb34cd": {
+        "selector": "BF6",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      },
+      "a5d46e92-3a54-4399-a983-6dca53d300ba": {
+        "selector": "BF_RND",
+        "parameters": [],
+        "source": "Supplier normal-flow constructor initializes default (PStrike this.e=Jah, SStrike this.c=Uih); purchase enum passes the explicit BF cost name unchanged through oXc/PYc"
+      }
+    },
+    "pick_bound": true,
+    "pick_domains": {
+      "BF_RND_LP": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "pick_source_evidence": "Supplier mystery card collections contain four items. PStrike V7d/V8d/W7d/wWd/gzg and SStrike age/uge/tge/$fe/z1d/S0d/rHg pass the zero-based card index unchanged as pick through native free continuation."
+  },
+  "gpas_bcashlo_pop": {
+    "source_sha256": [
+      "a684ae8fef8a123e5c32d9c17673bbc7cfb1da2a8d17d4b31f8f9f7f2152d810"
+    ],
+    "modes": {
+      "a6b10297-486d-4f18-a654-1edb3db6da53": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      }
+    }
+  },
+  "gpas_rcarlos_pop": {
+    "source_sha256": [
+      "8a8df122ac5fd9b6081ecad9c65603dac052fbad6bb089e03edde49d218e592a"
+    ],
+    "modes": {
+      "6b4ec871-ae4c-41fe-be41-4ec2c9ee258c": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      },
+      "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e": {
+        "selector": "extra",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      }
+    }
+  },
+  "gpas_rcarloslo_pop": {
+    "source_sha256": [
+      "00e01a70458b061c5c8b524db82c6fc584723ec5f64c52a1692f827505bbba1b"
+    ],
+    "modes": {
+      "9943a388-9c1d-4ada-a55c-ebd1372ca848": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      },
+      "e3cc8b68-97c3-430f-9923-bd928a8db18a": {
+        "selector": "extra",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      }
+    }
+  },
+  "gpas_rcarloslx_pop": {
+    "source_sha256": [
+      "a35369f05897cb7707178ea16f8dfab972ff2dfbc172b2371370e059f7daf096"
+    ],
+    "modes": {
+      "6b4ec871-ae4c-41fe-be41-4ec2c9ee258c": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      },
+      "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e": {
+        "selector": "extra",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      }
+    },
+    "exclusive_extra_profile": {
+      "extra_id": "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e",
+      "base_ids": [
+        "6b4ec871-ae4c-41fe-be41-4ec2c9ee258c"
+      ],
+      "cost": 30
+    }
+  },
+  "gpas_rcarloslxlo_pop": {
+    "source_sha256": [
+      "f31b598e87c1e03ff453e2b88df6b43bc303fb78838db329dea4cf85d8a004d0"
+    ],
+    "modes": {
+      "9943a388-9c1d-4ada-a55c-ebd1372ca848": {
+        "selector": "default",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      },
+      "e3cc8b68-97c3-430f-9923-bd928a8db18a": {
+        "selector": "extra",
+        "parameters": [],
+        "source": "Native default constructor initializes both selector fields to default; rcarlos YMd dispatches literal extra through $yc/iOc/Rzc. Exact game source hash pinned."
+      }
+    },
+    "exclusive_extra_profile": {
+      "extra_id": "e3cc8b68-97c3-430f-9923-bd928a8db18a",
+      "base_ids": [
+        "9943a388-9c1d-4ada-a55c-ebd1372ca848"
+      ],
+      "cost": 30
+    }
+  },
+  "gpas_plinklo_pop": {
+    "source_sha256": [
+      "a93c227ea775317dc1fc5ce2e2193ecc343cb6a7d382bcd1e1aaf0b79fb54c6e"
+    ],
+    "modes": {},
+    "pick_bound": true,
+    "pick_domains": {
+      "PickFeature": [
+        1,
+        2
+      ]
+    },
+    "pick_evidence": "BonusSelect creates items with zero-based ids and emits 1-id. Normal makeRequest sends {pick:t+1}; GLUAbstractRequest serializes entries as key/value and GLUPlayOutRequest uses48775. UI textures five/eight free games yield native options2/1.",
+    "known_choice_domains": {
+      "4b570e90-9e6e-4c86-8ca4-2fe5747a43d2": {
+        "PickFeature": [
+          1,
+          2
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "4b570e90-9e6e-4c86-8ca4-2fe5747a43d2": {
+        "PickFeature": [
+          1,
+          2
+        ]
+      }
+    },
+    "branch_replay_limit": 32,
+    "choice_coverage_source": "provider-work\\playtech-root\\reviews\\gpas_plinklo_pop--root-pickfeature2-complete-cycle-v4-closed-subset-raw-audit.json"
+  },
+  "gpas_pigeonfsc1_pop": {
+    "source_sha256": [
+      "74864713caee195fe7de02c656d92a353ad057054b943908a2420a58130aa33f"
+    ],
+    "modes": {
+      "420d7ab3-efbe-438a-a2fc-04cbd714b853": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "10",
+        "native_cost": 10,
+        "source": "Normal AbstractGLURemoteGameDelegate makeGLURequest -> game inherited mapRyotaBaseCostNameToGPASFeatureType -> default. Purchase buyFeature -> mapGameToGLUFeatureName -> game override mapGameFeatureNameToGPASFeatureName -> buy-bonus. Both pass glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney."
+      },
+      "1137dac0-685a-4e2f-b691-589f295513d5": {
+        "selector": "buy-bonus",
+        "parameters": [],
+        "native_cost_name": "BuyBonus",
+        "native_cost": 580,
+        "source": "Normal AbstractGLURemoteGameDelegate makeGLURequest -> game inherited mapRyotaBaseCostNameToGPASFeatureType -> default. Purchase buyFeature -> mapGameToGLUFeatureName -> game override mapGameFeatureNameToGPASFeatureName -> buy-bonus. Both pass glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney."
+      }
+    }
+  },
+  "gpas_ctrplfb_pop": {
+    "source_sha256": [
+      "b327cd30ce571e4b92d9bb913cb1fe260721e2cf62edffc5edf9e6792359fa9c"
+    ],
+    "modes": {
+      "ef871ea4-eb04-46d6-833b-28326189a201": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "default",
+        "native_cost": 20,
+        "source": "Purchase gUd -> KRd -> FAc(n.d,vmh), vmh=BuyFeature -> ARc, which only transforms default and returns BuyFeature unchanged -> XPc.af -> wBc -> GLU.game.playMoney. This disproves lines-1 for purchase. Normal FAc default -> ARc default branch may use HRc selected native entry name; default cost is explicitly default. Default binding proposed from native default active option and selected entry name; purchase binding is direct literal data-flow proof."
+      },
+      "9e0d9497-46fc-461a-80d9-9279013ac4f3": {
+        "selector": "BuyFeature",
+        "parameters": [],
+        "native_cost_name": "BuyFeature",
+        "native_cost": 1000,
+        "source": "Purchase gUd -> KRd -> FAc(n.d,vmh), vmh=BuyFeature -> ARc, which only transforms default and returns BuyFeature unchanged -> XPc.af -> wBc -> GLU.game.playMoney. This disproves lines-1 for purchase. Normal FAc default -> ARc default branch may use HRc selected native entry name; default cost is explicitly default. Default binding proposed from native default active option and selected entry name; purchase binding is direct literal data-flow proof."
+      }
+    }
+  },
+  "gpas_llskingb1_pop": {
+    "source_sha256": [
+      "830effd26bd447ea4d0673851f2123f666eab176dc3a30178a43f68b63f24674"
+    ],
+    "modes": {
+      "576c51fe-2b7d-4def-afcc-2d316a1f9e29": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Default",
+        "native_cost": 10,
+        "source": "Game override mapRyotaBaseCostNameToGPASFeatureType lowercases actual base cost name. AbstractGLURemoteGameDelegate makeGLURequest passes mapped value through glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default becomes default; extra remains extra. mapBaseCostNameToBetType classifies extra as BONUS but actual feature selector remains extra."
+      },
+      "70c08e54-1ee1-4e69-b4e7-f9fba4c84869": {
+        "selector": "extra",
+        "parameters": [],
+        "native_cost_name": "extra",
+        "native_cost": 18,
+        "source": "Game override mapRyotaBaseCostNameToGPASFeatureType lowercases actual base cost name. AbstractGLURemoteGameDelegate makeGLURequest passes mapped value through glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default becomes default; extra remains extra. mapBaseCostNameToBetType classifies extra as BONUS but actual feature selector remains extra."
+      }
+    }
+  },
+  "gpas_llskingc1_pop": {
+    "source_sha256": [
+      "2ac8135c7d92c93804bf4b215532f37e8bd68e37f069b653dfc6489c57f5315e"
+    ],
+    "modes": {
+      "e353af1c-4152-4326-be8a-e778893c1830": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Default",
+        "native_cost": 10,
+        "source": "Game override mapRyotaBaseCostNameToGPASFeatureType lowercases actual base cost name. AbstractGLURemoteGameDelegate makeGLURequest passes mapped value through glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default becomes default; extra remains extra. mapBaseCostNameToBetType classifies extra as BONUS but actual feature selector remains extra."
+      },
+      "89cd503f-2267-4c2e-b59b-31f029c23c26": {
+        "selector": "extra",
+        "parameters": [],
+        "native_cost_name": "extra",
+        "native_cost": 18,
+        "source": "Game override mapRyotaBaseCostNameToGPASFeatureType lowercases actual base cost name. AbstractGLURemoteGameDelegate makeGLURequest passes mapped value through glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default becomes default; extra remains extra. mapBaseCostNameToBetType classifies extra as BONUS but actual feature selector remains extra."
+      }
+    }
+  },
+  "gpas_lgcc_pop": {
+    "source_sha256": [
+      "8121570e8eff92f9f31f97fb39b47af1be5f33e44cd07263424029ea815ed78c"
+    ],
+    "modes": {
+      "43596767-c3ab-44a5-b966-1b3095ac4455": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Default",
+        "native_cost": 20,
+        "source": "Native request path gets fz.GetCurrentCostConfigFeatureType -> GetCurrentCostConfig().UUID -> GetCostConfigFeatureType(UUID), which returns s_CostConfigFeatureTypes[UUID] or default. Dictionary initializes empty; sole SetCostConfigFeatureType occurrence is definition, with no call in hash-matched source. GLU.game.playMoney receives default. activeBetOptions contains only default."
+      }
+    }
+  },
+  "gpas_lgcca1_pop": {
+    "source_sha256": [
+      "364481007276f33041f867795e54287987602ce8cfc29170b9d8ab15d00e176c"
+    ],
+    "modes": {
+      "43596767-c3ab-44a5-b966-1b3095ac4455": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Default",
+        "native_cost": 20,
+        "source": "Native request path gets fz.GetCurrentCostConfigFeatureType -> GetCurrentCostConfig().UUID -> GetCostConfigFeatureType(UUID), which returns s_CostConfigFeatureTypes[UUID] or default. Dictionary initializes empty; sole SetCostConfigFeatureType occurrence is definition, with no call in hash-matched source. GLU.game.playMoney receives default. activeBetOptions contains only default."
+      }
+    }
+  },
+  "gpas_lgccb1_pop": {
+    "source_sha256": [
+      "b0599e5ce17c0ae44a782e68bf29d6634fe49b4463e2a226cdb1d4f421ba3df2"
+    ],
+    "modes": {
+      "43596767-c3ab-44a5-b966-1b3095ac4455": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Default",
+        "native_cost": 20,
+        "source": "Native request path gets fz.GetCurrentCostConfigFeatureType -> GetCurrentCostConfig().UUID -> GetCostConfigFeatureType(UUID), which returns s_CostConfigFeatureTypes[UUID] or default. Dictionary initializes empty; sole SetCostConfigFeatureType occurrence is definition, with no call in hash-matched source. GLU.game.playMoney receives default. activeBetOptions contains only default."
+      }
+    }
+  },
+  "gpas_llnmb1_pop": {
+    "source_sha256": [
+      "f7dd5f8ba5992bf5d087bd2f5d747cb2d1079314e90a06c347289f734e42e15d"
+    ],
+    "modes": {
+      "1cab3f0b-3055-49e0-8e87-9be0774822f6": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Default",
+        "native_cost": 10,
+        "source": "Game mapRyotaBaseCostNameToGPASFeatureType lowercases native cost name. AbstractGLURemoteGameDelegate makeGLURequest -> glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default maps to default; extra maps to extra. Paid default scope activeBetOptions includes both."
+      },
+      "af0b83ca-47ba-40d5-b922-6ed769cc42ef": {
+        "selector": "extra",
+        "parameters": [],
+        "native_cost_name": "extra",
+        "native_cost": 18,
+        "source": "Game mapRyotaBaseCostNameToGPASFeatureType lowercases native cost name. AbstractGLURemoteGameDelegate makeGLURequest -> glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default maps to default; extra maps to extra. Paid default scope activeBetOptions includes both."
+      }
+    }
+  },
+  "gpas_llnmc1_pop": {
+    "source_sha256": [
+      "f7dd5f8ba5992bf5d087bd2f5d747cb2d1079314e90a06c347289f734e42e15d"
+    ],
+    "modes": {
+      "b2c59443-5e94-47c9-8ba0-9ae5e71b251f": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Default",
+        "native_cost": 10,
+        "source": "Game mapRyotaBaseCostNameToGPASFeatureType lowercases native cost name. AbstractGLURemoteGameDelegate makeGLURequest -> glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default maps to default; extra maps to extra. Paid default scope activeBetOptions includes both."
+      },
+      "75a2e595-3b3f-446c-a703-1dea635a5620": {
+        "selector": "extra",
+        "parameters": [],
+        "native_cost_name": "extra",
+        "native_cost": 18,
+        "source": "Game mapRyotaBaseCostNameToGPASFeatureType lowercases native cost name. AbstractGLURemoteGameDelegate makeGLURequest -> glu.bet -> extendedBet -> GLUPlayMoneyRequest.makeRequest -> GLU.game.playMoney. Default maps to default; extra maps to extra. Paid default scope activeBetOptions includes both."
+      }
+    }
+  },
+  "gpas_extrfruits_pop": {
+    "source_sha256": [
+      "d9633d949de3f7ef49d5c07cff98f5a27a2b087f59e58912ce050a528e301407"
+    ],
+    "modes": {
+      "3011e712-74b8-45c1-876b-461cab5e5982": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "20",
+        "native_cost": 20,
+        "source": "h$.GetCurrentCostConfigFeatureType -> GetCurrentCostConfig UUID -> GetCostConfigFeatureType -> s_CostConfigFeatureTypes[UUID] or default -> GLU.game.playMoney. Dictionary initializes empty; SetCostConfigFeatureType occurs only at definition, not as call."
+      }
+    },
+    "requires_complete_native_request_producer": true,
+    "native_producer_gap_audit": "reviews/gpas-extrfruits-native-producer-field-gap.json"
+  },
+  "gpas_gtfbbf_pop": {
+    "source_sha256": [
+      "307654b480c9995c23c0b3a8e14da03492fb1968c4ef669c5c7a8d84996f9355"
+    ],
+    "modes": {
+      "ef871ea4-eb04-46d6-833b-28326189a201": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "default",
+        "native_cost": 20,
+        "source": "Purchase BRd -> yAc(n.d,Xlh), Xlh=BuyFeature -> tRc (only default can be transformed; purchase returned unchanged) -> QPc.af -> pBc -> GLU.game.playMoney. Normal default has native-name lookup and conditional lines fallback, so default is proposed and requires exact native UUID verification."
+      },
+      "9e0d9497-46fc-461a-80d9-9279013ac4f3": {
+        "selector": "BuyFeature",
+        "parameters": [],
+        "native_cost_name": "BuyFeature",
+        "native_cost": 1000,
+        "source": "Purchase BRd -> yAc(n.d,Xlh), Xlh=BuyFeature -> tRc (only default can be transformed; purchase returned unchanged) -> QPc.af -> pBc -> GLU.game.playMoney. Normal default has native-name lookup and conditional lines fallback, so default is proposed and requires exact native UUID verification."
+      }
+    }
+  },
+  "gpas_venemasks_pop": {
+    "source_sha256": [
+      "7fe2a071d75eaaed6fb44d0c54d9bf2820f7d24da961e1a395d0d392654b116b"
+    ],
+    "modes": {
+      "a9568c65-9fe0-446f-9842-311fd360d93d": {
+        "selector": "default",
+        "parameters": [],
+        "native_cost_name": "Normal",
+        "native_cost": 10,
+        "source": "GameCycle.onGameRequest(false/default) -> Wrapper.request.playMoney(Data.Stake.stake) -> GLURequest.playMoney defaults fourth argument to default -> GLU.game.playMoney(ferox.game.playMoney,...,default)."
+      }
+    }
+  },
+  "CasinoCharms": {
+    "source_sha256": [
+      "0ef982b9f1b0c5f9aa03a73ad7135cc755b21c9e37cece5a7348605c70bf23cf"
+    ],
+    "modes": {},
+    "fixed_continuation_parameters": {
+      "BW": []
+    },
+    "continuation_evidence": "Native WheelSpinRequest oMb -> ZLb/YLb -> g4c/k4c/a1c -> S1c; ID48775, empty custom parameter map, one wheel spin trigger"
+  },
+  "Eliminators": {
+    "source_sha256": [
+      "c80214a6fa1c785df2bd7751c9898ce96b41bb1d3e830a8b2000d435f8dcfd96"
+    ],
+    "modes": {},
+    "pick_bound": true,
+    "pick_domains": {
+      "FG-pick3": [
+        1,
+        2
+      ]
+    },
+    "pick_evidence": "Native FeaturePanel.onClick setsLaunchFreeGames(enableMultiplier?2:1); buildRequest launchFreeGames sends pick as source index via48775. Only observed phase FG-pick3 bound; unobserved init phases deliberately not invented."
+  },
+  "gpas_bubbleb_pop": {
+    "source_sha256": [
+      "943a7a92ae56d9befde64d6b59fbc21ef6f318db92bb847baab651c7d384c07b"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "7262ebfc-cf10-43c7-b9c1-aee8db053710": {
+        "ReplayFreeGamesListPick": [
+          1,
+          2
+        ]
+      }
+    }
+  },
+  "gpas_bubbleba1_pop": {
+    "source_sha256": [
+      "56b7ca3502688bd80f5ec019606b86286460543a6b22c12b9b79440c3781ed02"
+    ],
+    "pick_bound": true
+  },
+  "gpas_ftv2vda1_pop": {
+    "source_sha256": [
+      "8ae9c6a89a66c5194239134c95f68db0d73f130ba48eed4651189e5d1b9a4c5b"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "4f29e78f-5dea-4455-a0b7-5295794f7204": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "4f29e78f-5dea-4455-a0b7-5295794f7204": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    "branch_replay_limit": 50
+  },
+  "gpas_adogsb1_pop": {
+    "source_sha256": [
+      "dfb103e48cebe367231dbef60a8a2d5d808e5af2ce0b0359554649c1be7feedb"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "2c4b1fa3-ce6a-4cc3-ae76-807a47e3b1ed": {
+        "SelectFG": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work/playtech-root/reviews/gpas-adogsb1-current-pick-source-audit.json"
+  },
+  "gpas_adogsd1_pop": {
+    "source_sha256": [
+      "9d9f4d4ab4f17a5f6b7a368bb2aa46e0681d9a52cc168bbf11505c459f259aeb"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "2c4b1fa3-ce6a-4cc3-ae76-807a47e3b1ed": {
+        "SelectFG": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work/playtech-root/reviews/gpas-adogsd1-current-pick-source-audit.json"
+  },
+  "gpas_adogs_pop": {
+    "source_sha256": [
+      "79db814914fb52b7029de1affa21345fbac79f5dc1ac8c2433328c203e7bcce6"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "f1fa1159-618c-4daf-a9bb-d802cddff019": {
+        "SelectFG": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "branch_replay_limit": 150,
+    "source_evidence": "provider-work/playtech-root/reviews/gpas-adogs-base-current-pick-source-audit.json",
+    "known_choice_coverage": {
+      "f1fa1159-618c-4daf-a9bb-d802cddff019": {
+        "SelectFG": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  },
+  "gpas_adogsa1_pop": {
+    "source_sha256": [
+      "282c06546e52013df9e28161332215a7c9882ea0c31582a66f2a4c6660ba4ab6"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "2c4b1fa3-ce6a-4cc3-ae76-807a47e3b1ed": {
+        "SelectFG": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work/playtech-root/reviews/gpas-adogs-a1-current-pick-source-audit.json"
+  },
+  "gpas_gegeniefb_pop": {
+    "source_sha256": [
+      "99f90bfbf3bef58919bab1b3fdc9876960dedb5892a69201a6a364a8786f3eba"
+    ],
+    "fixed_continuation_parameters": {
+      "FG6PlayerPick": [
+        {
+          "key": "pick",
+          "value": "1"
+        }
+      ]
+    },
+    "source_evidence": "provider-work/playtech-root/reviews/gpas-gegeniefb-current-wheel-decisions-audit.json",
+    "pick_bound": true,
+    "pick_domains": {
+      "FG1PlayerPick": [
+        1,
+        2
+      ],
+      "FG2PlayerPick": [
+        1,
+        2
+      ],
+      "FG3PlayerPick": [
+        1,
+        2
+      ],
+      "FG4PlayerPick": [
+        1,
+        2
+      ],
+      "FG5PlayerPick": [
+        1,
+        2
+      ]
+    },
+    "known_choice_domains": {
+      "baa672c0-ff52-45c5-b3d2-105253fff1f8": {
+        "FG3PlayerPick": [
+          1,
+          2
+        ]
+      },
+      "ad4fcbe0-2cbe-4bc8-a24a-c200886925ff": {
+        "FG1PlayerPick": [
+          1,
+          2
+        ],
+        "FG2PlayerPick": [
+          1,
+          2
+        ],
+        "FG3PlayerPick": [
+          1,
+          2
+        ],
+        "FG4PlayerPick": [
+          1,
+          2
+        ],
+        "FG5PlayerPick": [
+          1,
+          2
+        ]
+      }
+    },
+    "branch_replay_limit": 1500,
+    "known_choice_coverage": {
+      "ad4fcbe0-2cbe-4bc8-a24a-c200886925ff": {
+        "FG1PlayerPick": [
+          1,
+          2
+        ],
+        "FG2PlayerPick": [
+          1,
+          2
+        ],
+        "FG3PlayerPick": [
+          1,
+          2
+        ],
+        "FG4PlayerPick": [
+          1,
+          2
+        ],
+        "FG5PlayerPick": [
+          1,
+          2
+        ]
+      }
+    }
+  },
+  "gpas_bbwhsd1_pop": {
+    "source_sha256": [
+      "d5b0f9a70e0267ce6d9f8fd12ac721fe06dfa7feef472087e8805f75ece591c2"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "branch_replay_limit": 60,
+    "source_evidence": "provider-work/playtech-root/reviews/gpas-bbwhsd1-current-jppick-source-audit.json"
+  },
+  "gpas_rach_pop": {
+    "source_sha256": [
+      "bcb29a40d1c35b17b42b2c254f093fa5e4231a1d3f2c53c63b9a5361fe08dafd"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    "branch_replay_limit": 60,
+    "source_evidence": "provider-work/playtech-root/reviews/gpas-rach-current-jppick-source-audit.json"
+  },
+  "gpas_rachb1_pop": {
+    "source_sha256": [
+      "7c4c6be9554f4e79d235824593f049ac1de2163743f6b9cc72011f1a529bffc7"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    "branch_replay_limit": 80,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-rachb1-current-jppick-source-audit.json",
+    "coverage_source": "provider-work/playtech-root/reviews/gpas-rachb1-last-four-partial-consolidation.json"
+  },
+  "gpas_racrnsb1_pop": {
+    "source_sha256": [
+      "06878112f05a32425266745e24e791afd28cc470a112edb5e6a50ca3eee86f3a"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "branch_replay_limit": 80,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-racrnsb1-current-jppick-source-audit.json"
+  },
+  "gpas_raha_pop": {
+    "source_sha256": [
+      "24feaa47f28042a660a577d2f7473eaea2127f10a87b72b1e243c579863f4f8d"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    "branch_replay_limit": 80,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-raha-current-jppick-source-audit.json"
+  },
+  "gpas_epaccc1_pop": {
+    "source_sha256": [
+      "6b0d81dd0545df29dccba0c1e0527d47f9d9031f456e1cf81e797c6765f39497"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "9975209e-c10f-41d6-8d22-aa0a80665736": {
+        "SelectorFG": [
+          1,
+          2
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "9975209e-c10f-41d6-8d22-aa0a80665736": {
+        "SelectorFG": [
+          1
+        ]
+      }
+    },
+    "branch_replay_limit": 80,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-epaccc1-current-selectorfg-source-audit.json"
+  },
+  "gpas_aoggosun_pop": {
+    "source_sha256": [
+      "0a560c502bb32afef7a62e6a19bcaf4da1b3f441e80e10bfe619078f28db373d"
+    ],
+    "modes": {
+      "7fb53963-f078-4c0c-8733-d2dd170d5741": {
+        "selector": "default",
+        "parameters": [
+          {
+            "key": "extraBetSupported",
+            "value": "false"
+          }
+        ],
+        "source": "provider-work\\playtech-root\\reviews\\gpas-aoggosun-native-extra-disabled-certificate.json"
+      }
+    },
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-aoggosun-native-extra-disabled-certificate.json",
+    "inactive_source_disabled_extra": {
+      "resource_supported": false,
+      "normal_id": "7fb53963-f078-4c0c-8733-d2dd170d5741",
+      "extra_id": "e67147c3-8a21-4a24-9455-e20e7d6da52d",
+      "costs_by_id": {
+        "7fb53963-f078-4c0c-8733-d2dd170d5741": {
+          "cost": 10,
+          "name": "10",
+          "parameters": {
+            "discountable": "false",
+            "evalPayout": "LEFT_TO_RIGHT",
+            "startingMode": "Standard",
+            "startingPlays": "1",
+            "winline": "40"
+          },
+          "uuid": "7fb53963-f078-4c0c-8733-d2dd170d5741"
+        },
+        "e67147c3-8a21-4a24-9455-e20e7d6da52d": {
+          "cost": 15,
+          "name": "extra",
+          "parameters": {
+            "discountable": "false",
+            "evalPayout": "LEFT_TO_RIGHT",
+            "startingMode": "e5c3964f-a188-4b4d-b30a-74130fb421ac",
+            "startingPlays": "1",
+            "winline": "40"
+          },
+          "uuid": "e67147c3-8a21-4a24-9455-e20e7d6da52d"
+        }
+      },
+      "minimum": 10
+    },
+    "certificate_sha256": "48fc4dd187eb1f8be90bfa09a4a59632d6c37e8144ffe4cd87a5ad3c310e591a"
+  },
+  "gpas_aoggosunlo_pop": {
+    "source_sha256": [
+      "7ae3157b53b3079ed33853586f6fee4f3f9d7574544a5d9e3d608132bc267770"
+    ],
+    "modes": {
+      "0a32fe9a-e5f5-4613-adb1-10b525fe0070": {
+        "selector": "default",
+        "parameters": [
+          {
+            "key": "extraBetSupported",
+            "value": "false"
+          }
+        ],
+        "source": "provider-work\\playtech-root\\reviews\\gpas-aoggosunlo-native-extra-disabled-certificate.json"
+      }
+    },
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-aoggosunlo-native-extra-disabled-certificate.json",
+    "inactive_source_disabled_extra": {
+      "resource_supported": false,
+      "normal_id": "0a32fe9a-e5f5-4613-adb1-10b525fe0070",
+      "extra_id": "5d7f8296-d291-4fed-8dfe-46bdd5a39fc1",
+      "costs_by_id": {
+        "0a32fe9a-e5f5-4613-adb1-10b525fe0070": {
+          "cost": 10,
+          "name": "10",
+          "parameters": {
+            "discountable": "false",
+            "evalPayout": "LEFT_TO_RIGHT",
+            "startingMode": "Standard",
+            "startingPlays": "1",
+            "winline": "40"
+          },
+          "uuid": "0a32fe9a-e5f5-4613-adb1-10b525fe0070"
+        },
+        "5d7f8296-d291-4fed-8dfe-46bdd5a39fc1": {
+          "cost": 15,
+          "name": "extra",
+          "parameters": {
+            "discountable": "false",
+            "evalPayout": "LEFT_TO_RIGHT",
+            "startingMode": "e5c3964f-a188-4b4d-b30a-74130fb421ac",
+            "startingPlays": "1",
+            "winline": "40"
+          },
+          "uuid": "5d7f8296-d291-4fed-8dfe-46bdd5a39fc1"
+        }
+      },
+      "minimum": 10
+    },
+    "certificate_sha256": "6f0be54e6f7a4a83a5c3cffd0174c27186b7043d13a287e9740626141c3dd336"
+  },
+  "gpas_bbuzzc1_pop": {
+    "source_sha256": [
+      "9f28efe5b7673613e72d74284951df16681943e4503eb3dff6906947373d88fe"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          12
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-bbuzzc1-current-jppick-source-audit.json",
+    "coverage_source": "provider-work/playtech-root/reviews/gpas-bbuzzc1-capture-closed-prefix-consolidation.json"
+  },
+  "gpas_bbuzza1_pop": {
+    "source_sha256": [
+      "15d165091bf99971ceb50423c447894dd86c2ed4a073c8c006dc371683f5f576"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "a34b5ae4-b576-431d-8323-4e2c5dd1de4a": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "a34b5ae4-b576-431d-8323-4e2c5dd1de4a": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-bbuzza1-current-jppick-source-audit.json"
+  },
+  "gpas_bbuzzb1_pop": {
+    "source_sha256": [
+      "14b2813dde20e0fd5d6227e89bd99ac9362f288d865a8e6ec5cd5ea70eaf530c"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-bbuzzb1-current-jppick-source-audit.json"
+  },
+  "gpas_bbuzzd1_pop": {
+    "source_sha256": [
+      "4f01b4c9ff6cecf6886c14a54d048052f1c0df79d4caeb48fb6086f0d5e5928c"
+    ],
+    "pick_bound": true,
+    "known_choice_domains": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "4f29e78f-5dea-4455-a0b7-5295794f7204": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f": {
+        "JPPick": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    "known_choice_coverage": {
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "4f29e78f-5dea-4455-a0b7-5295794f7204": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "JPPickBF": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f": {
+        "JPPick": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "branch_replay_limit": 300,
+    "source_evidence": "provider-work\\playtech-root\\reviews\\gpas-bbuzzd1-current-jppick-source-audit.json"
+  },
+  "gpas_pigeonfspp_pop": {
+    "source_sha256": [
+      "a4c3321eb76f9916a13e0ef597fdd0dd68f81c0cc71a7c622bf3b899836ddc24",
+      "302c7c46c78a5ae0fdac30c091115977abc314fecc4366ecef35656e7e31bdc3"
+    ],
+    "source_evidence": "reviews/gpas-pigeon-native-buy-projection.json",
+    "minimum_native_context_only": true,
+    "modes": {
+      "b450dee7-7571-47fc-af3a-4ba68e618fe8": {
+        "selector": "buy-bonus",
+        "parameters": [
+          {
+            "key": "baseCostMult",
+            "value": 1
+          },
+          {
+            "key": "contextID",
+            "value": "default"
+          }
+        ],
+        "native_cost_name": "BuyBonus",
+        "native_cost": 650,
+        "source": "Original makeBuyBonusRequest -> glu.bet -> ID40021 te.getEventObject, numeric baseCostMult and native DEFAULT context. Minimum base context1 only."
+      }
+    }
+  },
+  "gpas_aogwwpa_pop": {
+    "source_sha256": [
+      "be70dd6992b42e78b862b6ba6f5b43278222b70e34187e7b354bc892ff0ad056",
+      "0f054a9516d21fdd184bb393bfab4ffe01a749bc0001912668562f9a052f4d08"
+    ],
+    "source_evidence": {
+      "path": "provider-work/playtech-root/reviews/gpas-aogwwpa-native-parameter-producer-oracle.json",
+      "sha256": "ad17b35598befd9def0e368626be99cd0076373592f30fc7f93b7ed02ca5ea7b"
+    },
+    "required_parameter_multiplier": 1,
+    "numeric_pick_parameters": true,
+    "pick_bound": true,
+    "continuation_parameter_suffix": [
+      {
+        "key": "baseCostMultiplier",
+        "value": 1
+      }
+    ],
+    "modes": {
+      "a9ac2347-329c-4722-820a-bc20a1ee0d67": {
+        "selector": "default",
+        "parameters": [
+          {
+            "key": "baseCostMultiplier",
+            "value": 1
+          }
+        ],
+        "source": "provider-work/playtech-root/reviews/gpas-aogwwpa-native-parameter-producer-oracle.json"
+      },
+      "6d822783-8562-4416-860c-3473ec58de7f": {
+        "selector": "10Modified",
+        "parameters": [
+          {
+            "key": "baseCostMultiplier",
+            "value": 1
+          }
+        ],
+        "source": "provider-work/playtech-root/reviews/gpas-aogwwpa-native-parameter-producer-oracle.json"
+      }
+    }
+  }
+}

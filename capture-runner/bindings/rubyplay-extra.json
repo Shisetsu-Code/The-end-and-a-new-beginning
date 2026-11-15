@@ -1,12 +1,13 @@
 {
-  "schema_version": 1,
-  "origin_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+  "schema_version": 2,
+  "origin_archive_sha256": "6990e6ff5e85430f2d83f9582c327810ceb9636510e3abd41fcda736553d882e",
   "notes": [
-    "Derived native request controls only; no historical sessions or wire payloads.",
-    "Normal uses the minimum positive bet offered by fresh init, as in capture.py.",
-    "Purchase prices are exact literals observed at bet=1, never wallet-derived or extrapolated.",
-    "The binary field is captured opaquely; known continuation and closure come from next_action/an.",
-    "No pick/select index search or financial acceptance gate is ported."
+    "Exact game/protocol/math identities and purchase literals derived from successful complete native capture sequences.",
+    "Normal uses the minimum positive fresh-init bet; purchases use only observed exact bet/price pairs.",
+    "Native binary and sessionData are opaque and preserved. Fresh init need not carry sessionData; all nonterminal action responses must.",
+    "Continuations and choice index sequences are scoped to the captured game/mode. Unknown actions or exhausted choice sequences remain partial.",
+    "The supplied captures were parsed/reserialized upstream; source SHA256 identifies the supplied file, not original HTTP byte serialization.",
+    "Rejected rp_120 freespin price375 and rp_171 freespin price250 are intentionally unsupported; old missing purchases rp_65/rp_57/rp_37/rp_26/rp_29 remain unsupported."
   ],
   "sources": [
     {
@@ -20,6 +21,726 @@
     {
       "path": "standalone info/rubyplay/referencias/provider-work/rubyplay-chat2/open_demo_session.py",
       "sha256": "8951f253e4cbc0ab404008518d98a99488a0bf41187a9e29dd9abc920d938690"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_1.json",
+      "sha256": "efdb1a304b840daf5b342bc02e7ec5a49c7e98ce502973746794f8b7d17ac77f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_2.json",
+      "sha256": "da0c9608b54cd6568449f0cccdb3cdd941c18e06c3818813f4a285fb7d82982e"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_3.json",
+      "sha256": "104c0cf98731929fd6e1f81fd1f14ee3010a6402c57e97ca4517c221f7ce7179"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_4.json",
+      "sha256": "6ef5b7e926fd54cdfa345aa01beabe56a79dd110b35babf4d941406a72625012"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_5.json",
+      "sha256": "fd846e227759858c18ea67d18416f567e7341f7c93dfdfa0c23c8fbe94359bab"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_6.json",
+      "sha256": "52d3e9ea0c849ad49d35ae975d82d025c1a7b709bfeab606965fbff435b196cc"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_7.json",
+      "sha256": "17e100116a1d06c81207dcfda08c1bf40fb95ca4dc7e233a3e405b95a0d6c327"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_8.json",
+      "sha256": "2c2519e18caba3a7dd19ca7bcda515cb932d83c830df03004af5a7c4c5470946"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_9.json",
+      "sha256": "7344a76271e5126085b9fab840b1c84907e368ba899b70f5e007e234e6f2576f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_10.json",
+      "sha256": "3c22f888de95646d5742eaa353eddcbd14d8c771f890725fa9ae0465367dc356"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_11.json",
+      "sha256": "2ddfef976e26ddaeb59fefbd871b56220d4d175f73d460ba3f928456f8390bdc"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_12.json",
+      "sha256": "03d464a079963cede46b40f28c760f33bef2ab33d74f0cdd8c159db80a42aa7f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_13.json",
+      "sha256": "d383f8056b43666b4d67bc85d893788a4c183cdfc7da73ea6b82b56fa9ef7109"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_14.json",
+      "sha256": "197c2a0b0c69243923d28c6c4178599915f5ff08ab6c45de6c457b71e727d765"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_15.json",
+      "sha256": "6e4bca4a55661499b3f20f347ce167af55f4ac92ad57f8266cfe551acc02dfc5"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_16.json",
+      "sha256": "a3da846a8d4c4e25175a49522c681e40fd27cc5799ebd1ed9eea3ac8213a6faa"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_17.json",
+      "sha256": "0b288df269d85b8897806d6b310f79a90805e4479eafbf6dad7e0bb067ad5e4b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_18.json",
+      "sha256": "9b935f7841acf8c056f20c156f53b5f5d031b8af02bcaadacf7badd52a8c52a4"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_19.json",
+      "sha256": "d86d8f6b89747da8635548774fe7dff1955b4a39625dc4812cb29b454a495dc3"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_20.json",
+      "sha256": "66f042eb645d2487aa16aa1a6c437b1e8f1f188c63071a8d03900964a1b4bdc5"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_21.json",
+      "sha256": "cbd3499cc203f3229d59e06d80a2beda94048d035b5013ae1242cf34c0a2a907"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_22.json",
+      "sha256": "ed6ab98590874d8254d1613c82c10188de31803158bf85e5ef394b173a987752"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_23.json",
+      "sha256": "ad9584cda482927b821f7235725d3403c7f96179ecb537ddbead5be59be7a347"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_24.json",
+      "sha256": "cde8bcf223e556f2f9dd0f756de4dd44f6bc932f885eb72c0138e6dfa036f4de"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_25.json",
+      "sha256": "6260c247ba3a0111cf78b22bac61bdc5f7443c7db5637937dd920c2ac8a85937"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_26.json",
+      "sha256": "5ba9f7b459146c8f9439a47b6a431e834e1c7435e8557d802e07859b1d5ea2a6"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_27.json",
+      "sha256": "c9b0facca3f686536f8103693a44b61de965bb8eb1f22e2f7046e4b0d5e86ee6"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_28.json",
+      "sha256": "83a8dbddda6ce81460b31825b692ddcb0420dcf9791400a802298f0397578318"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_29.json",
+      "sha256": "d515785596d0ac4d3042c217986a44594846d1bb5d8dc173c668e4561163b942"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_30.json",
+      "sha256": "a36776d57ab5644bf2b3ae4c6c90431b9b8cf1432fdb3a904ac1e7238b279760"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_31.json",
+      "sha256": "d0c75125e1ec59dc1744119c0498b4a42a8e859b92395ef3a2e9e1d2b08770ef"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_32.json",
+      "sha256": "e8dcb160f1da136e62798d61f41212231d64395bb665b34c7597d8fce8af828a"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_33.json",
+      "sha256": "42f42e9711c306e579a36aae094bba0f1e36e5eacf25979cacb16b048faae691"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_34.json",
+      "sha256": "2f182868ee8d50af879ae036fcaf25219af901ba3635c2fbd9de4879a394b2df"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_35.json",
+      "sha256": "3825c7b7c16d2148da7b6b45ccac8cde9b98d808edd6b741df2681c56d740a89"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_36.json",
+      "sha256": "1ad2385459291dd784bba3df3f5238ff69a99ac0499e9bad45d2d054444aae20"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_37.json",
+      "sha256": "a1c32725dc9c2440048894e00e90a883e8c75f46412e1dd56d3315a03c5ab652"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_38.json",
+      "sha256": "1e990a95f1f3bee96a2aa2dfb1bcf67288cc08913951f7ae286b257abfbb2697"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_40.json",
+      "sha256": "c95e353844ff68c365366eef36bedbb2b6f867a3df7a344eb1d3f1f64634876f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_41.json",
+      "sha256": "6a740b79cb8514c311f48714523d9a183cd1eda653c1dc2ed3229012f5b23290"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_42.json",
+      "sha256": "195527e7eda552dbafe76e9005cf1a685d00377fa037d71374a1be7e903f4d8a"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_43.json",
+      "sha256": "ab3618dc44e45f33a99f4865ba60ad0f1901bcf2c6ff73de70a6fb375783a424"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_44.json",
+      "sha256": "b438574452d3d58e985d879c9143628a77adca1a12292364d00522280f16d097"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_45.json",
+      "sha256": "72b22c67faff918bb1326cfe10d005fb33817d4f4258e2bcbb4452193ddfaf64"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_46.json",
+      "sha256": "ac8b16586d5803835cb1b08d71ceccfa5bc2feb1865b4d9ab46277b6854480cc"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_47.json",
+      "sha256": "be8991c030b99c834fbe2f14ff44fb5d125db4e4f488a25a63311c2583d014fe"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_48.json",
+      "sha256": "befeed0c22d17f395c9051a8c081e603ae9b2888b5f110647314845135a0a514"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_49.json",
+      "sha256": "d2a9cf3133098a9f92f1d75ca6a1c2758e50e2843c6980313d6bc1cacad55538"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_50.json",
+      "sha256": "c07b0e77e091457127e953f5df04697f93bebf399a6339138736fe9bba8d58cd"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_51.json",
+      "sha256": "625248997a3e5110b2d4474aa84d71f428bc4a6c6a8f2697980415a8947edc52"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_52.json",
+      "sha256": "f96bf39e057c9d72344719d752fca744fc99db09280735231d534463eefcb79a"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_53.json",
+      "sha256": "1aee511c49e7b04aeee9846c4789722b95b2e11b1dd231a59c45a5e6a5435a9f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_54.json",
+      "sha256": "f66daa1c829b6a09565db6edfb4044726e950f643620e8a228aaa67cfdd35006"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_55.json",
+      "sha256": "170a712066fb6f8af1d6ef08baf572d2b2d58aeb147be89d59f421bc0ce2865f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_56.json",
+      "sha256": "2d28fa85a0750b486ba54229d538d3012787553c4675d43d8b3e94fc54842ac4"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_57.json",
+      "sha256": "6c99100c51f1dba4580f5d2529e44bfab45f9622c9e407541e619be9495adba1"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_58.json",
+      "sha256": "b885c854b6f4ddc63691a9762e6dee05454c28812e86d39dcae0f9cc4b2a21a0"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_59.json",
+      "sha256": "8037ca942869a3a0a20e3ae1882f0133b54e920939e1e75842c70b7d87cca045"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_60.json",
+      "sha256": "8b358b1400b7feda9ef8628abdbeab7de249535d0a8b6604f9b3573efc9fda3b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_61.json",
+      "sha256": "f0aa6c5c49080c91882200783befd05d2e9995767f5b52563295bb1324865565"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_62.json",
+      "sha256": "1ac5a12cada8a61e836de7cd21046918a066d948f96ba9911ae602f6b389a113"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_63.json",
+      "sha256": "025bf072aa7426f6a7593f610b00245a29918f14fbaafe7eefc21b75c64de652"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_65.json",
+      "sha256": "279de75f5d1faa9430742f90c2123c67a680df6ee2cf27f3371669e5a485f63c"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_66.json",
+      "sha256": "fbf2f98ebc3fde6eb4bd702333c1e172d1650420ef21ebf4d49a13199e789ce2"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_67.json",
+      "sha256": "f9754d6ec59502a0894c21374be26d9504cb86398aab7381ad884d4128d4b6cb"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_68.json",
+      "sha256": "57825a60efc7109b02a2a84d1b827294d9d111d1f6db54cff9d7bcc1e938c18f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_69.json",
+      "sha256": "02ddc9e4ebec3053d4f3f57663894d34a03725fa685f119577a0e7da2f5085ba"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_70.json",
+      "sha256": "28de9a8909c875a9d4d6ba1a99dc81ffec6e67d800ceaebf0f7c2268f9a47325"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_71.json",
+      "sha256": "23ecff001f15e6544439592bdb101bbf7a8a984e93978b0db87086dc379fd0e5"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_72.json",
+      "sha256": "45660c0871ce2319e272614ecd5265da50fb121219630c3fb744bb2c5f7c75ab"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_73.json",
+      "sha256": "3aeff3af6df1a02f1e510135a5518ac29273810710661ed980a9b886e966ce1d"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_74.json",
+      "sha256": "3a2e3dbd596f9dea90042908e136e9e8fbf892d82642f9109cd9b0175348723d"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_76.json",
+      "sha256": "f7dce78af727b3350515b57b5f22e158ddb95a36ec311301b8ac95cd677311a0"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_77.json",
+      "sha256": "90572f512a3968118f0edad7bb3c677f3ac22d29da1b7d51959cacad18885a52"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_78.json",
+      "sha256": "6fe9ac94d108976e9e534f1b15cd57fd27e8ffe96e94119ef35b3fd42ca389e2"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_79.json",
+      "sha256": "eaadc987e80b62496cf8cb5b8e0f1797be5863f779dac45ab67ab08f5bc5e77c"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_80.json",
+      "sha256": "38c9f166d9b764270f53977544d5847ad8355403d998e50abc0657ed1e4350f2"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_81.json",
+      "sha256": "a13337d91366bb0b1ff39d50e8fd417a349734b4034bfdb1b238e3d781649392"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_83.json",
+      "sha256": "1de13a6f725a5470c724767672f3af2bf84a586a2ed890c4a2debc83b0c82951"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_84.json",
+      "sha256": "a5b4a2132d4fed3e9b65235bbc1b9dce172c9382f7d3eacbb02b921e3fd0be97"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_85.json",
+      "sha256": "e14eeb29612e6d3f7efb97a854cf4c65069c33fb89d547495929cf2e88dbf98f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_87.json",
+      "sha256": "c72ba4bb754bd8c1370485059600f7cf1da6be99ed2b0508e61cfaca82610cb9"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_88.json",
+      "sha256": "fb3ee233ef329e2949b87e7b0fb6bd70ea48fe2a8925fdf0d8113179890cc217"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_89.json",
+      "sha256": "0acdb0f6bb09cc48b91f1c903f242da44faeab6c48287d15f058995129b30570"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_90.json",
+      "sha256": "2a464cfaac55083ee377474d84bcb91d0af348501af1fe5dbb4d97c5b0354ce3"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_91.json",
+      "sha256": "f5304e615372bc1d784bdc7ff666be2c03fb1a77ebd65f68dc36f5da5894c478"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_92.json",
+      "sha256": "ece956aba31f1b7e22dee74fc6a3721b623f43e6738351509b66b6610c78e5f7"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_93.json",
+      "sha256": "d6f02ab1ca52121c2f04cee5a121a210d4c3075bc7bc3e3730b8212caba6aefc"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_94.json",
+      "sha256": "ce4e4a28741eef57b75b6157e1d7078cd032fc3c7ec1668767b6fb78fab0b334"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_95.json",
+      "sha256": "533d45d3947b256090195994e02a53ccfb71f911db7f8f8ae64b590834b0be42"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_96.json",
+      "sha256": "e39656ea097920e2a4e135b3b54cc3f19d25bf6227bce79227be5bb425d7df0c"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_97.json",
+      "sha256": "04647a383710b0b195839b8054c27069fbf0e838f32c35c604774aeefc1c9b70"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_98.json",
+      "sha256": "57115fb08eb57596cf71e4c4a3d9976ba6013af435ac67a5197d0437ef0b4b1e"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_99.json",
+      "sha256": "ff2941a2e27fa544ac48555ce345bd71ffde3ec720936606be7bfe16f5733198"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_101.json",
+      "sha256": "de17a00981c514b66459ce909a6fb7b380c21955ba42051fdf066823ce355ba7"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_102.json",
+      "sha256": "78d6bbdc5cfbe62890a374bbf147e17258a519cd27d388843943f98812f6e390"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_103.json",
+      "sha256": "4e391da4421b1824fd95c9aa409e28e609abc977d000e0b086ed5cf5d66e11b9"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_104.json",
+      "sha256": "263a4cf6b806d92e0595914f10bcea4f7306cb77d39d0c29d65ca4f8dcfcac30"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_106.json",
+      "sha256": "6bb000e4ddcf42988f6192476ba623b007ff09c0a077e0fb2a58b22660587ccb"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_107.json",
+      "sha256": "8967ed9c24c25f666aa46a7115d48039e3286ee91c00497b109d108dc311d012"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_108.json",
+      "sha256": "bcc6f861245f4f89b27a8dadaf9c1b21a2bec3bb4fcd88af1aa9fb2d95169b2d"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_109.json",
+      "sha256": "1caaf8571b28edc10fac1992caf8cf59d025dda7401753ac49c1754b6692a9e7"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_111.json",
+      "sha256": "71e989f39c39b09d52a8f49cfaa40c0c7b10e9f6d0a3982dfcdcf08d0818cbaa"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_112.json",
+      "sha256": "20e8272fab087dc58d4bf9b0003f77b94ff9352b33a07c649b728d613b9b602d"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_114.json",
+      "sha256": "65f5aa0e88abcb1e6f4342c6a001381ec371dc04dac3ed9451bac947e9ef50ba"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_118.json",
+      "sha256": "83cddbb049a5bf8e2090ac89f9e544f998c1b8090a36da12cc7d7b850a723bdd"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_119.json",
+      "sha256": "d4d166ce9ecb33ff52e3bef10818151b9b521eac4909671f6d159ecd163e1245"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_120.json",
+      "sha256": "e896a708bf88ab5d74a876f13e83f87510e2a40712729f7e69628eeb4f7180b9"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_124.json",
+      "sha256": "510f799a3af923c3e3bcfb9400e38b6b6dca0a11983e2f75ef9a40c9f99fb91b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_125.json",
+      "sha256": "f98c37c0c8e979798eb8746a8cb7a0bca186a7a38074fdeb915e99c66400cfda"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_126.json",
+      "sha256": "fc2b528fd68b694552fb38b65ec89fe1b5d32e2c3bbac8cc4ab1d5108e4ae81e"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_128.json",
+      "sha256": "2fd978b14e4750a70b3e4a819ad062ba9ec75c9ffe12980c68f3c131b6a775cb"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_129.json",
+      "sha256": "7a6261df0a5fb9d1bb3ee662cbe2bfa6b37bee4e760fb3a102a542c9655bda97"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_130.json",
+      "sha256": "b00ab2902038789a3e6a5da62d04ef511dc957dcdea608fc5cfba0f85bcb4154"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_131.json",
+      "sha256": "8498445ed043a2af2f5ef545527177dcaac6f12d610a0799bcb07eda13c269db"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_132.json",
+      "sha256": "eec88d0294c62aa780909527f9f884c95f833cdec89058e7073ff22e9742250e"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_133.json",
+      "sha256": "927b2daf8193f8e04c89bcd62ca45c3993283ccccb664e6fbdb746e18c7cc419"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_136.json",
+      "sha256": "fb1c0eef55d8756740060a4abc1c63992e0cc746a0e9f2f40a68ccae2e1c297c"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_138.json",
+      "sha256": "a8ffd77c45bd603765f9940fc470f64ac80c89c7763e64ea468c1d25f0d012c8"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_139.json",
+      "sha256": "64da2cf1b7bc4b375b647b9e9f73edf14e060b4af18de40ae5d5616b8e62f06f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_140.json",
+      "sha256": "8ecef7def630dd14b593cd5886d059bb509b6bfed7b99479f636351a0c672a29"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_141.json",
+      "sha256": "d52acb3e95f81d75bd25163d71c8b1ec9cde78a5c4a55b4fb35c7f7d695f2378"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_142.json",
+      "sha256": "3c13bd7ed06cc9615a8b7aa03292e8a3456bfd9e88723baa0f98e8ecb3783e26"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_143.json",
+      "sha256": "c8a2478aa78d66166a25324b3d72a1ed98018b7379e1f8a56ff312a58698d0bc"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_144.json",
+      "sha256": "283cea44ad8cacddfb3611f1b68895ed21a82ef32be4cc18cfb076d71ba61819"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_145.json",
+      "sha256": "9688d60a12ee026dd3c12a660387ed4bbd1084efec1dfaf77fb1bba701927d47"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_146.json",
+      "sha256": "e7df9e464c18c3d3c2b09d4f0f85b66c2529e1c10e8eb4c8d894f83221295d88"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_147.json",
+      "sha256": "9150c9583417504abe1c82ef477d84cc677c574ebf8bbd5d6b8c3eed186f71ba"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_148.json",
+      "sha256": "e8c3589338dfe72d3a380fc1bf4f7ecd1fd87f7644f675f86d4289b31b7d745f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_149.json",
+      "sha256": "52c2a29cc6e1e2c111165f8536a9b76bc64e47b489ce6b43e2154593629571ac"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_150.json",
+      "sha256": "4389b06265aa6bd0c0624a56d0523b83030a47779aec102e7c740227d9cdbade"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_151.json",
+      "sha256": "c907b923c0e0ab8712f80eda6f9c6a9bf2dfab61417a3b28c6e7b30b9366d018"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_152.json",
+      "sha256": "60f25b4c8686371367b2ca09ca577814bbfeb42af40cd8ec95683426389d76cf"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_153.json",
+      "sha256": "c68b3ffcda18b2fde6bf4533807e22a6ffa91d2861fefaf85aa5b54a4060e5a9"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_155.json",
+      "sha256": "6adc6de8e0f0bd38f043899e3b789904a01ad4e16973803fa627fb04af43539d"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_158.json",
+      "sha256": "d5d353316beab368b705207efea6a0b91379888ffeb9b6f44076b9248abc9951"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_159.json",
+      "sha256": "808f0cebf6b4b39c92ffd7adab2b412b7cf1007660a348e7abab992dd142053b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_160.json",
+      "sha256": "cb681df5cdb6a84a8d27df5f5e848f0bdfad177526020f4f061f476f4ae03b15"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_161.json",
+      "sha256": "9e44f76442d98e759ac8d9f7aef14f4e7ff2b91644c99ddef10f77641b974959"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_162.json",
+      "sha256": "3b94adab3a12f1158417cb3db1895c83e667d8669aaeb8a26d297ff476b6756b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_163.json",
+      "sha256": "6dd5c737a323cf0154f0085736d72580d45d4786048e20cfdc2f57679f4a560b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_164.json",
+      "sha256": "df683d47307f4a71500f07cf4c8df9e5878a2718b9f99c1868c9d174f03107df"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_165.json",
+      "sha256": "036f8314fbe162b2e23964b9b7a841e3c7aa6d39440d3375ea741844ba869d6f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_166.json",
+      "sha256": "c5812ce432e9551b9b2ccdd5e049736f50ed39a1f189d34cdc77b0014ee5b240"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_167.json",
+      "sha256": "dff2c3956cc73c9d94b59bc95e6a7bd7af469c704b4a803e47c1fea4c4702dc5"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_168.json",
+      "sha256": "9df40a9daf77ac0c50b2814d874a1f02fd3d9b8d4969a8b2d409f8af75bf682f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_169.json",
+      "sha256": "6f89e4195fbcd41b62960bc936bee541c5409aa620be4fd029a336546a44e4a0"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_170.json",
+      "sha256": "28168e07e74a38526acf29d09379aeffe6dc38ab3c6273b2d96c751d155bd2dc"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_171.json",
+      "sha256": "5083df40d0753061926e227f2abd7e171e838a1bd1ee3bcc05d563348b3c4c16"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_172.json",
+      "sha256": "a13ae96933e22d650d6a3205f612b90d8ca451cb203c00b4db7d330ca1591afb"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_173.json",
+      "sha256": "5901bc06bb8c8072988223b1a4fc1986bec966c8c61ef1ca9fd6d30c6b843fc5"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_176.json",
+      "sha256": "33b9cc7ef5ad4a451c95ba9fee9b4d37b8354357e157a4a3ac5ba761a47d2498"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_177.json",
+      "sha256": "dda9757523217ce33670085ea050df1f4516665ecba9eace9cb2313eb6668bb1"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_180.json",
+      "sha256": "58e2d712ce71004a4f3ad07d95504284e0396b95c157842dc8b4d33b4dff7a9b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_181.json",
+      "sha256": "e62378da98ad77bc707cd2ed2da556385286fea0db87840e85ee777e8bd675e6"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_182.json",
+      "sha256": "a8990d4b8c4067e499103746e6715add558dfcd4bbe5498c2f7c668cf43b90f5"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_185.json",
+      "sha256": "b70dc0c83f959908c52234cc132849a9b8fa3c393f97b7d36f080c5f3f915037"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_186.json",
+      "sha256": "4e580284827cdc10355b6236ec8ccbea846923066d9703f13698125137c5170b"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_187.json",
+      "sha256": "f28a8e19bd4eb588d555306306364a57295a29fda1d69ff9edeaf14c95b16ec3"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_188.json",
+      "sha256": "a9cca551122f7750a1b69869850c94c558931a8298204ef935965931b02b46af"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_189.json",
+      "sha256": "b967c3d26c9d709f94f9f8d685f1c017fa10ebd29a157971f6a9cfcee1523a21"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_190.json",
+      "sha256": "d9c11dd31088653c3fc4bd0fd33567a5110b2975a85ddc3992b3caf75b4af0e1"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_191.json",
+      "sha256": "da252e47300544d2c02c4d59b94f58772596342adc7f594ab078056ae6bed7cb"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_194.json",
+      "sha256": "7d918347df3dea232d7391676db7af63b744e2aaba807aea88efeebdcd0e9b91"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_198.json",
+      "sha256": "866e8e11af33dc83ec4f9f21cb08b313ab350019609474109270e63676a6cebc"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_199.json",
+      "sha256": "d10a4dc508601826b628859fff56119f57e5d1f9283bfeb38eb15a4e9b328faf"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_200.json",
+      "sha256": "d1e90debe672970bdeabf9fa14ace4c5daa15d5316e17e3ee587b660169a75df"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_203.json",
+      "sha256": "d1ca77ae4f3e605426d9ea3916d750917864b837896134920fc4aca4746cd096"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_204.json",
+      "sha256": "5d749bd6bd84b64913ff052bae11368c8d18291baad95e0309d6539133fc7de3"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_206.json",
+      "sha256": "41689a5b4880a3cdf756dcb56a8718e302d101cb87d7eef3bebd1835bda54977"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_210.json",
+      "sha256": "eb72a200630bbddcf4fcba649aefae74679332f92910ac8aef79214254ee0dee"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_211.json",
+      "sha256": "68081fdffc1d769dfb5ea302c81125755ed7de5427f8e1a099fb0b713df99040"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_214.json",
+      "sha256": "db981a3ca8c463a3cada3e21c87be5e21a644d31473463467cd34f6d99925f82"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_215.json",
+      "sha256": "04fec338658ed97540ad7673d435ce79d0e8aa72ddbafb463ade8ec07f72816f"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_216.json",
+      "sha256": "be5a6bc399f5497a7fcad01491df89229414724b471d7ae8ee64c4c2fb341c94"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_220.json",
+      "sha256": "41d827d0e404d55723d78886c6faa5f2e95bdd6bfe852509078923e4020b4986"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_222.json",
+      "sha256": "76f827414c461d7481894869968f7366d6b0f4373a9375a77723d4f147944f37"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_228.json",
+      "sha256": "c97e44adfc1b309dcf5cf43c4551a79391a3a5975c0deac5d1fe36fd4fdf57c0"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_236.json",
+      "sha256": "70ac91c53624477ad7f201312ec63728a32c10c0851f98ad00aaca39dede3994"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture.py",
+      "sha256": "a59f4b8eb275d945a71d2ee42fdd02be0f8a5fcada1dc4038c99bc5b348cb494"
     }
   ],
   "games": {
@@ -28,83 +749,3102 @@
       "protocol": 2,
       "math": 20190114,
       "source_examples": [
-        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 76"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_1.json"
       ],
-      "purchases": {}
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_2": {
+      "game_id": 2,
+      "protocol": 2,
+      "math": 20190110,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_2.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_3": {
+      "game_id": 3,
+      "protocol": 2,
+      "math": 20190116,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_3.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_4": {
+      "game_id": 4,
+      "protocol": 2,
+      "math": 20190118,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_4.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_5": {
+      "game_id": 5,
+      "protocol": 2,
+      "math": 20190123,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_5.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_6": {
+      "game_id": 6,
+      "protocol": 2,
+      "math": 20190206,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_6.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_7": {
+      "game_id": 7,
+      "protocol": 2,
+      "math": 20190117,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_7.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_8": {
+      "game_id": 8,
+      "protocol": 2,
+      "math": 20190119,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_8.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_9": {
+      "game_id": 9,
+      "protocol": 2,
+      "math": 20190411,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_9.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_10": {
+      "game_id": 10,
+      "protocol": 2,
+      "math": 20190417,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_10.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_11": {
+      "game_id": 11,
+      "protocol": 2,
+      "math": 20190526,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_11.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_12": {
+      "game_id": 12,
+      "protocol": 2,
+      "math": 20190703,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_12.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_13": {
+      "game_id": 13,
+      "protocol": 2,
+      "math": 20190626,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_13.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_14": {
+      "game_id": 14,
+      "protocol": 2,
+      "math": 20191115,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_14.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_15": {
+      "game_id": 15,
+      "protocol": 2,
+      "math": 20190502,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_15.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_16": {
+      "game_id": 16,
+      "protocol": 2,
+      "math": 20190124,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_16.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_17": {
+      "game_id": 17,
+      "protocol": 2,
+      "math": 20191007,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_17.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_18": {
+      "game_id": 18,
+      "protocol": 2,
+      "math": 20190717,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_18.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_19": {
+      "game_id": 19,
+      "protocol": 2,
+      "math": 20190704,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_19.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_20": {
+      "game_id": 20,
+      "protocol": 2,
+      "math": 20190705,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_20.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_21": {
+      "game_id": 21,
+      "protocol": 2,
+      "math": 20190823,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_21.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_22": {
+      "game_id": 22,
+      "protocol": 2,
+      "math": 20190913,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_22.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_23": {
+      "game_id": 23,
+      "protocol": 2,
+      "math": 20191216,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_23.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_24": {
+      "game_id": 24,
+      "protocol": 2,
+      "math": 20200311,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_24.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_25": {
+      "game_id": 25,
+      "protocol": 2,
+      "math": 20200204,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_25.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_26": {
+      "game_id": 26,
+      "protocol": 2,
+      "math": 20200409,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_26.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_27": {
+      "game_id": 27,
+      "protocol": 2,
+      "math": 20191111,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_27.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_28": {
+      "game_id": 28,
+      "protocol": 2,
+      "math": 20200407,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_28.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_29": {
+      "game_id": 29,
+      "protocol": 2,
+      "math": 20200301,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_29.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_30": {
+      "game_id": 30,
+      "protocol": 2,
+      "math": 20191213,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_30.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_31": {
+      "game_id": 31,
+      "protocol": 2,
+      "math": 20191220,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_31.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_32": {
+      "game_id": 32,
+      "protocol": 2,
+      "math": 20191229,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_32.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_33": {
+      "game_id": 33,
+      "protocol": 2,
+      "math": 20200312,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_33.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_34": {
+      "game_id": 34,
+      "protocol": 2,
+      "math": 20200225,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_34.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_35": {
+      "game_id": 35,
+      "protocol": 2,
+      "math": 20200224,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_35.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_36": {
+      "game_id": 36,
+      "protocol": 2,
+      "math": 20200714,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_36.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_37": {
+      "game_id": 37,
+      "protocol": 2,
+      "math": 20200416,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_37.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_38": {
+      "game_id": 38,
+      "protocol": 2,
+      "math": 20200722,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_38.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_40": {
+      "game_id": 40,
+      "protocol": 2,
+      "math": 20200513,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_40.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_41": {
+      "game_id": 41,
+      "protocol": 2,
+      "math": 20200606,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_41.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_42": {
+      "game_id": 42,
+      "protocol": 2,
+      "math": 20200720,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_42.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_43": {
+      "game_id": 43,
+      "protocol": 2,
+      "math": 20200804,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_43.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_44": {
+      "game_id": 44,
+      "protocol": 2,
+      "math": 20201208,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_44.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_45": {
+      "game_id": 45,
+      "protocol": 2,
+      "math": 20201013,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_45.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_46": {
+      "game_id": 46,
+      "protocol": 2,
+      "math": 20201026,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_46.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_47": {
+      "game_id": 47,
+      "protocol": 2,
+      "math": 20201103,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_47.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_48": {
+      "game_id": 48,
+      "protocol": 2,
+      "math": 20201108,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_48.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_49": {
+      "game_id": 49,
+      "protocol": 2,
+      "math": 20201123,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_49.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_50": {
+      "game_id": 50,
+      "protocol": 2,
+      "math": 20201210,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_50.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_51": {
+      "game_id": 51,
+      "protocol": 2,
+      "math": 20210124,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_51.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_52": {
+      "game_id": 52,
+      "protocol": 2,
+      "math": 20212402,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_52.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_53": {
+      "game_id": 53,
+      "protocol": 2,
+      "math": 20210318,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_53.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_54": {
+      "game_id": 54,
+      "protocol": 2,
+      "math": 20210319,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_54.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_55": {
+      "game_id": 55,
+      "protocol": 2,
+      "math": 20210404,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_55.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_56": {
+      "game_id": 56,
+      "protocol": 2,
+      "math": 20210412,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_56.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_57": {
+      "game_id": 57,
+      "protocol": 2,
+      "math": 20212804,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_57.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_58": {
+      "game_id": 58,
+      "protocol": 2,
+      "math": 20210518,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_58.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_59": {
+      "game_id": 59,
+      "protocol": 2,
+      "math": 20210529,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_59.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_60": {
+      "game_id": 60,
+      "protocol": 2,
+      "math": 20210608,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_60.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_61": {
+      "game_id": 61,
+      "protocol": 2,
+      "math": 20210602,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_61.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_62": {
+      "game_id": 62,
+      "protocol": 2,
+      "math": 20210805,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_62.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_63": {
+      "game_id": 63,
+      "protocol": 2,
+      "math": 20210602,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_63.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_65": {
+      "game_id": 65,
+      "protocol": 2,
+      "math": 20210802,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_65.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_66": {
+      "game_id": 66,
+      "protocol": 2,
+      "math": 20210608,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_66.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_67": {
+      "game_id": 67,
+      "protocol": 2,
+      "math": 20210803,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_67.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_68": {
+      "game_id": 68,
+      "protocol": 2,
+      "math": 20210510,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_68.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_69": {
+      "game_id": 69,
+      "protocol": 2,
+      "math": 20211130,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_69.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_70": {
+      "game_id": 70,
+      "protocol": 2,
+      "math": 20211126,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_70.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_71": {
+      "game_id": 71,
+      "protocol": 2,
+      "math": 20220126,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_71.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_72": {
+      "game_id": 72,
+      "protocol": 2,
+      "math": 20220204,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_72.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_73": {
+      "game_id": 73,
+      "protocol": 2,
+      "math": 20220314,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_73.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_74": {
+      "game_id": 74,
+      "protocol": 2,
+      "math": 20220325,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_74.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_76": {
+      "game_id": 76,
+      "protocol": 2,
+      "math": 20220422,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_76.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_77": {
+      "game_id": 77,
+      "protocol": 2,
+      "math": 20220505,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_77.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_78": {
+      "game_id": 78,
+      "protocol": 2,
+      "math": 20220601,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_78.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_79": {
+      "game_id": 79,
+      "protocol": 2,
+      "math": 20220704,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_79.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_80": {
+      "game_id": 80,
+      "protocol": 2,
+      "math": 20220705,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_80.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_81": {
+      "game_id": 81,
+      "protocol": 2,
+      "math": 20220706,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_81.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_83": {
+      "game_id": 83,
+      "protocol": 2,
+      "math": 20220829,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_83.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_84": {
+      "game_id": 84,
+      "protocol": 2,
+      "math": 20220905,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_84.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_85": {
+      "game_id": 85,
+      "protocol": 2,
+      "math": 20220923,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_85.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_87": {
+      "game_id": 87,
+      "protocol": 2,
+      "math": 20221214,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_87.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_88": {
+      "game_id": 88,
+      "protocol": 2,
+      "math": 2022122296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_88.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_89": {
+      "game_id": 89,
+      "protocol": 2,
+      "math": 2022122796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_89.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_90": {
+      "game_id": 90,
+      "protocol": 2,
+      "math": 2023040596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_90.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_91": {
+      "game_id": 91,
+      "protocol": 2,
+      "math": 2023040696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_91.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_92": {
+      "game_id": 92,
+      "protocol": 2,
+      "math": 2023040796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_92.json"
+      ],
+      "purchases": {
+        "select": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:select": [
+          "select",
+          "freespin"
+        ]
+      },
+      "choices": {
+        "buy_feature:select": {
+          "select": [
+            {
+              "index": 0,
+              "next": "freespin"
+            }
+          ]
+        }
+      }
+    },
+    "rp_93": {
+      "game_id": 93,
+      "protocol": 2,
+      "math": 2023041096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_93.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_94": {
+      "game_id": 94,
+      "protocol": 2,
+      "math": 2023041196,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_94.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_95": {
+      "game_id": 95,
+      "protocol": 2,
+      "math": 2023041296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_95.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_96": {
+      "game_id": 96,
+      "protocol": 2,
+      "math": 2023051696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_96.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_97": {
+      "game_id": 97,
+      "protocol": 2,
+      "math": 2023062396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_97.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_98": {
+      "game_id": 98,
+      "protocol": 2,
+      "math": 2023080896,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_98.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_99": {
+      "game_id": 99,
+      "protocol": 2,
+      "math": 2023080996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_99.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_101": {
+      "game_id": 101,
+      "protocol": 2,
+      "math": 2023081496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_101.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
     },
     "rp_102": {
       "game_id": 102,
       "protocol": 2,
       "math": 2023091396,
       "source_examples": [
-        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 128"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_102.json"
       ],
       "purchases": {
         "freespin": {
           "bet": 1,
           "price": 500
         }
-      }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
     },
     "rp_103": {
       "game_id": 103,
       "protocol": 2,
       "math": 2023091496,
       "source_examples": [
-        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 134"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_103.json"
       ],
       "purchases": {
         "freespin": {
           "bet": 1,
           "price": 500
         }
-      }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_104": {
+      "game_id": 104,
+      "protocol": 2,
+      "math": 2023092796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_104.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
     },
     "rp_106": {
       "game_id": 106,
       "protocol": 2,
       "math": 2023100196,
       "source_examples": [
-        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 226"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_106.json"
       ],
-      "purchases": {}
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [
+          "respin"
+        ],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_107": {
+      "game_id": 107,
+      "protocol": 2,
+      "math": 2023102096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_107.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_108": {
+      "game_id": 108,
+      "protocol": 2,
+      "math": 2023102396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_108.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
     },
     "rp_109": {
       "game_id": 109,
       "protocol": 2,
       "math": 2023111096,
       "source_examples": [
-        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 275"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_109.json"
       ],
-      "purchases": {}
+      "purchases": {
+        "minispin": {
+          "bet": 1,
+          "price": 250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:minispin": [
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_111": {
+      "game_id": 111,
+      "protocol": 2,
+      "math": 2023112296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_111.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
     },
     "rp_112": {
       "game_id": 112,
       "protocol": 2,
       "math": 2024010896,
       "source_examples": [
-        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 325"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_112.json"
       ],
-      "purchases": {}
+      "purchases": {
+        "select": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:select": [
+          "select",
+          "freespin"
+        ]
+      },
+      "choices": {
+        "buy_feature:select": {
+          "select": [
+            {
+              "index": 0,
+              "next": "freespin"
+            }
+          ]
+        }
+      }
     },
     "rp_114": {
       "game_id": 114,
       "protocol": 2,
       "math": 2024013096,
       "source_examples": [
-        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 331"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_114.json"
       ],
-      "purchases": {}
+      "purchases": {
+        "select": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:select": [
+          "select",
+          "freespin"
+        ]
+      },
+      "choices": {
+        "buy_feature:select": {
+          "select": [
+            {
+              "index": 0,
+              "next": "freespin"
+            }
+          ]
+        }
+      }
+    },
+    "rp_118": {
+      "game_id": 118,
+      "protocol": 2,
+      "math": 2024021096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_118.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 4000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_119": {
+      "game_id": 119,
+      "protocol": 2,
+      "math": 2024020796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_119.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_120": {
+      "game_id": 120,
+      "protocol": 2,
+      "math": 2024032296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_120.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_124": {
+      "game_id": 124,
+      "protocol": 2,
+      "math": 2024022696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_124.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_125": {
+      "game_id": 125,
+      "protocol": 2,
+      "math": 2024022996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_125.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_126": {
+      "game_id": 126,
+      "protocol": 2,
+      "math": 2024032596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_126.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_128": {
+      "game_id": 128,
+      "protocol": 2,
+      "math": 2024040996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_128.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_129": {
+      "game_id": 129,
+      "protocol": 2,
+      "math": 2024041196,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_129.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 750
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin",
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_130": {
+      "game_id": 130,
+      "protocol": 2,
+      "math": 2024050896,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_130.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_131": {
+      "game_id": 131,
+      "protocol": 2,
+      "math": 2024051596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_131.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [
+          "respin"
+        ],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_132": {
+      "game_id": 132,
+      "protocol": 2,
+      "math": 2024051496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_132.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 4000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_133": {
+      "game_id": 133,
+      "protocol": 2,
+      "math": 2024051396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_133.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_136": {
+      "game_id": 136,
+      "protocol": 2,
+      "math": 2024061996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_136.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_138": {
+      "game_id": 138,
+      "protocol": 2,
+      "math": 2024062296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_138.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_139": {
+      "game_id": 139,
+      "protocol": 2,
+      "math": 2024062596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_139.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 600
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_140": {
+      "game_id": 140,
+      "protocol": 2,
+      "math": 2024053096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_140.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 50
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_141": {
+      "game_id": 141,
+      "protocol": 2,
+      "math": 2024070496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_141.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_142": {
+      "game_id": 142,
+      "protocol": 2,
+      "math": 2024071796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_142.json"
+      ],
+      "purchases": {
+        "minispin": {
+          "bet": 1,
+          "price": 250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:minispin": [
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_143": {
+      "game_id": 143,
+      "protocol": 2,
+      "math": 2024071696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_143.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_144": {
+      "game_id": 144,
+      "protocol": 2,
+      "math": 2024071596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_144.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_145": {
+      "game_id": 145,
+      "protocol": 2,
+      "math": 2024081496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_145.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_146": {
+      "game_id": 146,
+      "protocol": 2,
+      "math": 2024081596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_146.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 2500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_147": {
+      "game_id": 147,
+      "protocol": 2,
+      "math": 2024081696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_147.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 3000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_148": {
+      "game_id": 148,
+      "protocol": 2,
+      "math": 2024081796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_148.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 2500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_149": {
+      "game_id": 149,
+      "protocol": 2,
+      "math": 2024081896,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_149.json"
+      ],
+      "purchases": {
+        "select": {
+          "bet": 1,
+          "price": 2500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:select": [
+          "select",
+          "respin"
+        ]
+      },
+      "choices": {
+        "buy_feature:select": {
+          "select": [
+            {
+              "index": 0,
+              "next": "respin"
+            }
+          ]
+        }
+      }
+    },
+    "rp_150": {
+      "game_id": 150,
+      "protocol": 2,
+      "math": 2024081996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_150.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 2500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_151": {
+      "game_id": 151,
+      "protocol": 2,
+      "math": 2024082096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_151.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 2500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_152": {
+      "game_id": 152,
+      "protocol": 2,
+      "math": 2024090496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_152.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_153": {
+      "game_id": 153,
+      "protocol": 2,
+      "math": 2024023096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_153.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_155": {
+      "game_id": 155,
+      "protocol": 2,
+      "math": 2024091096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_155.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_158": {
+      "game_id": 158,
+      "protocol": 2,
+      "math": 2024100996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_158.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "respin",
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_159": {
+      "game_id": 159,
+      "protocol": 2,
+      "math": 2024101696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_159.json"
+      ],
+      "purchases": {
+        "minispin": {
+          "bet": 1,
+          "price": 250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:minispin": [
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_160": {
+      "game_id": 160,
+      "protocol": 2,
+      "math": 2024102396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_160.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_161": {
+      "game_id": 161,
+      "protocol": 2,
+      "math": 2024102496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_161.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_162": {
+      "game_id": 162,
+      "protocol": 2,
+      "math": 2024102596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_162.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "respin",
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_163": {
+      "game_id": 163,
+      "protocol": 2,
+      "math": 2024102796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_163.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 750
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin",
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_164": {
+      "game_id": 164,
+      "protocol": 2,
+      "math": 2024102896,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_164.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 750
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin",
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_165": {
+      "game_id": 165,
+      "protocol": 2,
+      "math": 2024102996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_165.json"
+      ],
+      "purchases": {
+        "minispin": {
+          "bet": 1,
+          "price": 250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:minispin": [
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_166": {
+      "game_id": 166,
+      "protocol": 2,
+      "math": 2024110696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_166.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 1500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_167": {
+      "game_id": 167,
+      "protocol": 2,
+      "math": 2024112196,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_167.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 750
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_168": {
+      "game_id": 168,
+      "protocol": 2,
+      "math": 2024120496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_168.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "pick",
+          "freespin"
+        ]
+      },
+      "choices": {
+        "buy_feature:freespin": {
+          "pick": [
+            {
+              "index": 0,
+              "next": "pick"
+            },
+            {
+              "index": 1,
+              "next": "pick"
+            },
+            {
+              "index": 2,
+              "next": "pick"
+            },
+            {
+              "index": 3,
+              "next": "pick"
+            },
+            {
+              "index": 4,
+              "next": "pick"
+            },
+            {
+              "index": 5,
+              "next": "pick"
+            },
+            {
+              "index": 6,
+              "next": "freespin"
+            }
+          ]
+        }
+      }
+    },
+    "rp_169": {
+      "game_id": 169,
+      "protocol": 2,
+      "math": 2024120396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_169.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 600
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_170": {
+      "game_id": 170,
+      "protocol": 2,
+      "math": 2024120296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_170.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_171": {
+      "game_id": 171,
+      "protocol": 2,
+      "math": 2024120596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_171.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_172": {
+      "game_id": 172,
+      "protocol": 2,
+      "math": 2025060696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_172.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_173": {
+      "game_id": 173,
+      "protocol": 2,
+      "math": 2025072096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_173.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_176": {
+      "game_id": 176,
+      "protocol": 2,
+      "math": 2024122396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_176.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_177": {
+      "game_id": 177,
+      "protocol": 2,
+      "math": 2024122296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_177.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_180": {
+      "game_id": 180,
+      "protocol": 2,
+      "math": 2025021996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_180.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 100
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_181": {
+      "game_id": 181,
+      "protocol": 2,
+      "math": 2025031196,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_181.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_182": {
+      "game_id": 182,
+      "protocol": 2,
+      "math": 2025031496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_182.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_185": {
+      "game_id": 185,
+      "protocol": 2,
+      "math": 2025032596,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_185.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_186": {
+      "game_id": 186,
+      "protocol": 2,
+      "math": 2025032696,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_186.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 50
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_187": {
+      "game_id": 187,
+      "protocol": 2,
+      "math": 2025032796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_187.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_188": {
+      "game_id": 188,
+      "protocol": 2,
+      "math": 2025032896,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_188.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 600
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_189": {
+      "game_id": 189,
+      "protocol": 2,
+      "math": 2025031096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_189.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 2000
+        }
+      },
+      "continuations": {
+        "normal": [
+          "minispin"
+        ],
+        "buy_feature:freespin": [
+          "freespin",
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_190": {
+      "game_id": 190,
+      "protocol": 2,
+      "math": 2025032996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_190.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 50
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_191": {
+      "game_id": 191,
+      "protocol": 2,
+      "math": 2025033096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_191.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_194": {
+      "game_id": 194,
+      "protocol": 2,
+      "math": 2025041496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_194.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_198": {
+      "game_id": 198,
+      "protocol": 2,
+      "math": 2025060296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_198.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_199": {
+      "game_id": 199,
+      "protocol": 2,
+      "math": 2025051996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_199.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 1200
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_200": {
+      "game_id": 200,
+      "protocol": 2,
+      "math": 2025052296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_200.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 750
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin",
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_203": {
+      "game_id": 203,
+      "protocol": 2,
+      "math": 2025071996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_203.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_204": {
+      "game_id": 204,
+      "protocol": 2,
+      "math": 2025070996,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_204.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_206": {
+      "game_id": 206,
+      "protocol": 2,
+      "math": 2025121796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_206.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 2000
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:freespin": [
+          "respin",
+          "minispin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_210": {
+      "game_id": 210,
+      "protocol": 2,
+      "math": 2025072196,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_210.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 50
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_211": {
+      "game_id": 211,
+      "protocol": 2,
+      "math": 2025093096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_211.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_214": {
+      "game_id": 214,
+      "protocol": 2,
+      "math": 20251226,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_214.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 500
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "minispin",
+          "freespin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_215": {
+      "game_id": 215,
+      "protocol": 2,
+      "math": 2025110796,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_215.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 100
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_216": {
+      "game_id": 216,
+      "protocol": 2,
+      "math": 2025103096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_216.json"
+      ],
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 20
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_220": {
+      "game_id": 220,
+      "protocol": 2,
+      "math": 2026040396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_220.json"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 1000
+        }
+      },
+      "continuations": {
+        "normal": [
+          "pick"
+        ],
+        "buy_feature:freespin": [
+          "freespin"
+        ]
+      },
+      "choices": {
+        "normal": {
+          "pick": [
+            {
+              "index": 0,
+              "next": "pick"
+            },
+            {
+              "index": 1,
+              "next": "pick"
+            },
+            {
+              "index": 2,
+              "next": "pick"
+            },
+            {
+              "index": 3,
+              "next": "pick"
+            },
+            {
+              "index": 4,
+              "next": "pick"
+            },
+            {
+              "index": 5,
+              "next": "spin"
+            }
+          ]
+        }
+      }
     },
     "rp_222": {
       "game_id": 222,
       "protocol": 2,
       "math": 2025093096,
       "source_examples": [
-        "standalone info/rubyplay/referencias/provider-work/rubyplay-chat2/open_demo_session.py",
-        "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/rubyplay/capture.py:versions"
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_222.json"
       ],
-      "purchases": {}
+      "purchases": {
+        "respin": {
+          "bet": 1,
+          "price": 250
+        }
+      },
+      "continuations": {
+        "normal": [],
+        "buy_feature:respin": [
+          "respin"
+        ]
+      },
+      "choices": {}
+    },
+    "rp_228": {
+      "game_id": 228,
+      "protocol": 2,
+      "math": 2024122296,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_228.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
+    },
+    "rp_236": {
+      "game_id": 236,
+      "protocol": 2,
+      "math": 2026032096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_236.json"
+      ],
+      "purchases": {},
+      "continuations": {
+        "normal": []
+      },
+      "choices": {}
     }
-  }
+  },
+  "unsupported": [
+    {
+      "game": "rp_120",
+      "mode": "buy_feature:freespin",
+      "bet": 1,
+      "price": 375,
+      "reason": {
+        "status": "error",
+        "topic": "gameserver/buy_feature",
+        "data": {
+          "code": "M-0",
+          "message": "Internal server error"
+        }
+      }
+    },
+    {
+      "game": "rp_171",
+      "mode": "buy_feature:freespin",
+      "bet": 1,
+      "price": 250,
+      "reason": {
+        "status": "error",
+        "topic": "gameserver/buy_feature",
+        "data": {
+          "code": "M-0",
+          "message": "Internal server error"
+        }
+      }
+    }
+  ]
 }

@@ -152,6 +152,16 @@ impl Config {
         }
         let mut namespaces = BTreeSet::new();
         for e in &c.exits {
+            if c.wireguard_dir.is_some()
+                && e.wireguard_config.is_none()
+                && e.namespace.is_none()
+                && e.id != "direct"
+            {
+                bail!(
+                    "exit {} has no matching WireGuard config or namespace; use id direct only for explicitly requested direct networking",
+                    e.id
+                );
+            }
             if let Some(ns) = e.namespace_name() {
                 validate_namespace(&ns)?;
                 if !namespaces.insert(ns) {
@@ -311,6 +321,28 @@ mod tests {
         );
         assert_eq!(c.parallel_games(&c.exits[0], "hacksaw"), 9);
         assert!(c.exits[0].namespace_name().unwrap().starts_with("crwg-"));
+    }
+    #[test]
+    fn missing_discovered_exit_never_becomes_direct() {
+        let d = tempfile::tempdir().unwrap();
+        std::fs::create_dir(d.path().join("wg")).unwrap();
+        let p = d.path().join("config.json");
+        let mut v = json!({"run_id":"test","evidence_root":"evidence","wireguard_dir":"wg","exits":[{"id":"de","parallel_games":{"hacksaw":3}}]});
+        std::fs::write(&p, v.to_string()).unwrap();
+        assert!(
+            Config::load(&p).is_err(),
+            "missing de.conf must fail closed"
+        );
+        v["exits"][0]["id"] = json!("direct");
+        std::fs::write(&p, v.to_string()).unwrap();
+        assert!(
+            Config::load(&p).unwrap().exits[0]
+                .namespace_name()
+                .is_none()
+        );
+        v["exits"][0] = json!({"id":"external","namespace":"crwg-managed-externally"});
+        std::fs::write(&p, v.to_string()).unwrap();
+        assert!(Config::load(&p).is_ok());
     }
     #[test]
     fn rejects_unsafe_names_zero_limits_and_duplicates() {

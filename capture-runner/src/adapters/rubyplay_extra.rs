@@ -1,6 +1,6 @@
-//! Native HTTP capture controls from ENTREGA-CLAUDE's RubyPlay capture.py and requests.
+//! Native HTTP capture controls from ENTREGA-CLAUDE's complete RubyPlay captures.
 //! The binary response is opaque: no payout decoder or wallet gate is needed for capture.
-//! Only exact game/version pairs and two observed purchase entry bodies are enabled.
+//! Exact game/version pairs, purchase bodies and mode-scoped choices are evidence bound.
 use crate::{
     context::RunContext,
     model::{Completion, Game, Mode, ModeKind, unknown_event},
@@ -28,12 +28,20 @@ struct Purchase {
 }
 
 #[derive(Debug, Deserialize)]
+struct Choice {
+    index: u64,
+    next: String,
+}
+
+#[derive(Debug, Deserialize)]
 struct Binding {
     game_id: u64,
     protocol: u64,
     math: u64,
     source_examples: Vec<String>,
     purchases: BTreeMap<String, Purchase>,
+    continuations: BTreeMap<String, Vec<String>>,
+    choices: BTreeMap<String, BTreeMap<String, Vec<Choice>>>,
 }
 
 #[derive(Deserialize)]
@@ -156,7 +164,8 @@ fn envelope<'a>(
             )));
         }
     };
-    if (action == "init" || next != "spin")
+    if ((action == "init" && reply["funModeData"].get("sessionData").is_some())
+        || (action != "init" && next != "spin"))
         && !reply["funModeData"]["sessionData"]
             .as_str()
             .is_some_and(|state| !state.trim().is_empty())
@@ -178,6 +187,8 @@ struct State<'a> {
     next: String,
     bet: u64,
     purchase: Option<(&'a str, &'a Purchase)>,
+    mode: String,
+    choices_done: BTreeMap<String, usize>,
     steps: usize,
 }
 
@@ -256,6 +267,8 @@ impl<'a> State<'a> {
             next: next.to_owned(),
             bet,
             purchase,
+            mode: mode.key.clone(),
+            choices_done: BTreeMap::new(),
             steps: 0,
         })
     }
@@ -269,7 +282,15 @@ impl<'a> State<'a> {
             }
         } else {
             match self.next.as_str() {
-                action @ ("freespin" | "respin" | "minispin") => action,
+                action @ ("freespin" | "respin" | "minispin" | "pick" | "select")
+                    if self
+                        .binding
+                        .continuations
+                        .get(&self.mode)
+                        .is_some_and(|allowed| allowed.iter().any(|name| name == action)) =>
+                {
+                    action
+                }
                 action => {
                     return Err(unknown_event(format!(
                         "RubyPlay has no reviewed continuation parameters for {action}"
@@ -296,16 +317,41 @@ impl<'a> State<'a> {
                 request["buy_feature_price"] = json!(control.price);
             }
         }
+        if matches!(action, "pick" | "select") {
+            request["index"] = json!(self.choice(action)?.index);
+        }
         Ok(request)
     }
 
+    fn choice(&self, action: &str) -> Result<&Choice> {
+        self.binding
+            .choices
+            .get(&self.mode)
+            .and_then(|actions| actions.get(action))
+            .and_then(|choices| choices.get(*self.choices_done.get(action).unwrap_or(&0)))
+            .ok_or_else(|| {
+                unknown_event(format!(
+                    "RubyPlay no reviewed {action} choice remains for {}",
+                    self.mode
+                ))
+            })
+    }
+
     fn advance(&mut self, action: &str, reply: &Value) -> Result<bool> {
+        if self.request()?["action"] != action {
+            return Err(unknown_event(
+                "RubyPlay response action differs from pending request",
+            ));
+        }
         let next_an = self
             .an
             .checked_add(1)
             .filter(|value| *value <= MAX_EXACT_INTEGER)
             .ok_or_else(|| unknown_event("RubyPlay sequence overflow"))?;
         let next = envelope(reply, action, next_an, &self.owner, self.binding)?;
+        if matches!(action, "pick" | "select") && self.choice(action)?.next != next {
+            return Err(unknown_event("RubyPlay choice continuation changed"));
+        }
         if let Some((feature, control)) = self.purchase {
             if action == "buy_feature"
                 && (reply["data"]["buy_feature_type"] != feature
@@ -327,6 +373,9 @@ impl<'a> State<'a> {
         self.an = next_an;
         self.next = next.to_owned();
         self.steps += 1;
+        if matches!(action, "pick" | "select") {
+            *self.choices_done.entry(action.to_owned()).or_default() += 1;
+        }
         Ok(next == "spin")
     }
 }
@@ -453,6 +502,213 @@ mod tests {
     }
 
     #[test]
+    fn bindings_enable_only_successful_evidence_pairs() {
+        assert_eq!(CONTROLS.games.len(), 179);
+        let mut purchases = BTreeMap::<String, usize>::new();
+        for binding in CONTROLS.games.values() {
+            for feature in binding.purchases.keys() {
+                *purchases.entry(feature.clone()).or_default() += 1;
+            }
+        }
+        assert_eq!(
+            purchases,
+            BTreeMap::from([
+                ("freespin".into(), 51),
+                ("respin".into(), 17),
+                ("minispin".into(), 4),
+                ("select".into(), 4),
+            ])
+        );
+        for id in [
+            "rp_120", "rp_171", "rp_65", "rp_57", "rp_37", "rp_26", "rp_29", "rp_99999",
+        ] {
+            let game = Game {
+                id: id.into(),
+                name: String::new(),
+                modes: vec![],
+            };
+            assert!(
+                !supports(&game, &mode("buy_feature:freespin")),
+                "unproven purchase enabled: {id}"
+            );
+        }
+        let game = Game {
+            id: "rp_168".into(),
+            name: String::new(),
+            modes: vec![],
+        };
+        let mut mismatch = mode("buy_feature:freespin");
+        mismatch.kind = ModeKind::Normal;
+        assert!(!supports(&game, &mismatch));
+    }
+
+    fn replay_capture(capture: &Value) -> (usize, usize) {
+        let game = capture["game"].as_str().unwrap();
+        let binding = CONTROLS
+            .games
+            .get(game)
+            .unwrap_or_else(|| panic!("missing {game}"));
+        assert_eq!(binding.protocol, capture["v_protocol"].as_u64().unwrap());
+        assert_eq!(binding.math, capture["v_math"].as_u64().unwrap());
+        let mut closed = 0;
+        let mut actions = 0;
+        for round in capture["rounds"].as_array().unwrap() {
+            let selected = mode(round["mode"].as_str().unwrap());
+            let game_model = Game {
+                id: game.into(),
+                name: String::new(),
+                modes: vec![],
+            };
+            if round["closed"] != true {
+                assert!(
+                    !supports(&game_model, &selected),
+                    "rejected mode enabled: {game} {}",
+                    selected.key
+                );
+                continue;
+            }
+            assert!(
+                supports(&game_model, &selected),
+                "missing mode: {game} {}",
+                selected.key
+            );
+            let mut state = State::from_init(
+                binding,
+                &selected,
+                &capture["session_response"],
+                &capture["init_response"],
+            )
+            .unwrap_or_else(|error| panic!("{game} {} init: {error:#}", selected.key));
+            let steps = round["steps"].as_array().unwrap();
+            // Historical rounds share a session; resume their exact starting state.
+            // Production always uses the fresh issuer/init pair validated above.
+            state.an = steps[0]["request"]["an"].as_u64().unwrap();
+            state.fun = steps[0]["request"]["funModeData"].clone();
+            for (index, step) in steps.iter().enumerate() {
+                let request = state.request().unwrap_or_else(|error| {
+                    panic!("{game} {} step {index}: {error:#}", selected.key)
+                });
+                assert_eq!(
+                    request, step["request"],
+                    "native request mismatch: {game} {} step {index}",
+                    selected.key
+                );
+                let done = state
+                    .advance(request["action"].as_str().unwrap(), &step["response"])
+                    .unwrap_or_else(|error| {
+                        panic!("{game} {} step {index}: {error:#}", selected.key)
+                    });
+                assert_eq!(
+                    done,
+                    index + 1 == steps.len(),
+                    "incorrect closure: {game} {} step {index}",
+                    selected.key
+                );
+                actions += 1;
+            }
+            closed += 1;
+        }
+        (closed, actions)
+    }
+
+    #[test]
+    fn complete_native_fixtures_keep_opaque_payloads_and_exact_choice_requests() {
+        let fixtures: Value = serde_json::from_str(include_str!(
+            "../../tests/fixtures/rubyplay/native-complete.json"
+        ))
+        .unwrap();
+        for fixture in fixtures.as_array().unwrap() {
+            assert!(
+                CONTROLS
+                    .sources
+                    .iter()
+                    .any(|source| source.path == fixture["source_path"]
+                        && source.sha256 == fixture["source_sha256"])
+            );
+            replay_capture(&fixture["capture"]);
+        }
+    }
+
+    #[test]
+    #[ignore = "requires supplied read-only evidence via RUBYPLAY_EVIDENCE_DIR"]
+    fn all_179_native_captures_are_compatible_offline() {
+        let directory =
+            std::env::var("RUBYPLAY_EVIDENCE_DIR").expect("RUBYPLAY_EVIDENCE_DIR required");
+        let mut captures = 0;
+        let mut closed = 0;
+        let mut actions = 0;
+        for entry in std::fs::read_dir(directory).unwrap() {
+            let path = entry.unwrap().path();
+            if !path
+                .file_name()
+                .unwrap()
+                .to_string_lossy()
+                .starts_with("rp_")
+                || path.extension().and_then(|x| x.to_str()) != Some("json")
+            {
+                continue;
+            }
+            let bytes = std::fs::read(&path).unwrap();
+            let digest = crate::model::sha256(&bytes);
+            assert!(CONTROLS.sources.iter().any(|source| {
+                source
+                    .path
+                    .ends_with(path.file_name().unwrap().to_str().unwrap())
+                    && source.sha256 == digest
+            }));
+            let capture: Value = serde_json::from_slice(&bytes).unwrap();
+            let (rounds, steps) = replay_capture(&capture);
+            closed += rounds;
+            actions += steps;
+            captures += 1;
+        }
+        assert_eq!((captures, closed, actions), (179, 432, 1491));
+    }
+
+    #[test]
+    fn choice_cannot_skip_or_extend_the_reviewed_native_sequence() {
+        let fixtures: Value = serde_json::from_str(include_str!(
+            "../../tests/fixtures/rubyplay/native-complete.json"
+        ))
+        .unwrap();
+        let capture = &fixtures
+            .as_array()
+            .unwrap()
+            .iter()
+            .find(|f| f["capture"]["game"] == "rp_168")
+            .unwrap()["capture"];
+        let selected = mode("buy_feature:freespin");
+        let round = &capture["rounds"][2];
+        let mut state = State::from_init(
+            &CONTROLS.games["rp_168"],
+            &selected,
+            &capture["session_response"],
+            &capture["init_response"],
+        )
+        .unwrap();
+        let steps = round["steps"].as_array().unwrap();
+        state.an = steps[0]["request"]["an"].as_u64().unwrap();
+        state.fun = steps[0]["request"]["funModeData"].clone();
+        state.advance("buy_feature", &steps[0]["response"]).unwrap();
+        let mut changed = steps[1]["response"].clone();
+        changed["data"]["next_action"] = json!("freespin");
+        novelty(state.advance("pick", &changed).unwrap_err());
+        assert_eq!(state.request().unwrap()["index"], 0);
+        for step in &steps[1..7] {
+            state.advance("pick", &step["response"]).unwrap();
+        }
+        assert_eq!(state.request().unwrap()["index"], 6);
+        let mut changed = steps[7]["response"].clone();
+        changed["data"]["next_action"] = json!("pick");
+        novelty(state.advance("pick", &changed).unwrap_err());
+        assert_eq!(state.request().unwrap()["index"], 6);
+        state.advance("pick", &steps[7]["response"]).unwrap();
+        assert_eq!(state.request().unwrap()["action"], "freespin");
+        state.next = "pick".into();
+        novelty(state.request().unwrap_err());
+    }
+
+    #[test]
     fn normal_minimum_offer_and_native_close_need_no_balance_or_payout_decoder() {
         let binding = &CONTROLS.games["rp_1"];
         let selected = mode("normal");
@@ -500,29 +756,17 @@ mod tests {
     }
 
     #[test]
-    fn consecutive_free_respin_and_minispin_are_the_only_automatic_continuations() {
+    fn unobserved_mode_continuations_remain_partial() {
         let selected = mode("normal");
-        let mut state = State::from_init(
-            &CONTROLS.games["rp_106"],
-            &selected,
-            &session(106),
-            &init(106),
-        )
-        .unwrap();
-        for (sequence, action, next) in [
-            (1, "spin", "respin"),
-            (2, "respin", "freespin"),
-            (3, "freespin", "minispin"),
-            (4, "minispin", "spin"),
-        ] {
-            assert_eq!(state.request().unwrap()["action"], action);
-            assert_eq!(
-                state
-                    .advance(action, &reply(106, action, sequence, next))
-                    .unwrap(),
-                next == "spin"
-            );
-        }
+        let mut state =
+            State::from_init(&CONTROLS.games["rp_1"], &selected, &session(1), &init(1)).unwrap();
+        assert!(
+            !state
+                .advance("spin", &reply(1, "spin", 1, "respin"))
+                .unwrap()
+        );
+        novelty(state.request().unwrap_err());
+        assert_eq!(state.an, 1);
     }
 
     #[test]

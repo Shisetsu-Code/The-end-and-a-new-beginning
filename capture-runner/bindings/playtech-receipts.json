@@ -1,0 +1,157 @@
+{
+  "gpas_15homb1_pop": {
+    "provenance": {
+      "path": "recibos_por_juego/gpas_15homb1_pop.json",
+      "sha256": "fb9f2286912a858a14fd87f1f96dd02092abb2e41265a645d421ff50f50eb6ca",
+      "scope": "Mode identities and command receipts; not complete replay bodies"
+    },
+    "modes": {
+      "c7c99c68-5541-4b0b-bed6-08ebe806504e": {
+        "name": "defaultLow",
+        "kind": "SPIN"
+      },
+      "1126a14e-6a7c-40c8-951f-0e7380676ced": {
+        "name": "defaultMid",
+        "kind": "SPIN"
+      },
+      "536c64c2-5762-4d06-8ad1-e0408c865b31": {
+        "name": "defaultHigh",
+        "kind": "SPIN"
+      },
+      "64f768bb-de9c-407d-9045-76ccdf969d91": {
+        "name": "extraX2Low",
+        "kind": "ANTE_BET"
+      },
+      "d9bbc0dc-14d6-4c4d-b913-d6778d153b2d": {
+        "name": "extraX2Mid",
+        "kind": "ANTE_BET"
+      },
+      "ff7fdc7d-d6aa-4864-ba58-6d132530a554": {
+        "name": "extraX2High",
+        "kind": "ANTE_BET"
+      },
+      "925ab361-68c7-4738-ba9d-e721943bdb6c": {
+        "name": "extraX3Low",
+        "kind": "ANTE_BET"
+      },
+      "6ecacaf8-ff08-4e8b-8cf6-be2d73ca589c": {
+        "name": "extraX3Mid",
+        "kind": "ANTE_BET"
+      },
+      "b12ff716-8b66-4f6a-81e6-ebed2bb3457c": {
+        "name": "extraX3High",
+        "kind": "ANTE_BET"
+      },
+      "e4d702d6-bb39-4b80-8388-6d1296480679": {
+        "name": "extraX5Low",
+        "kind": "ANTE_BET"
+      },
+      "f6d64ec8-eb5d-4c06-8ca4-8c3d88eade64": {
+        "name": "extraX5Mid",
+        "kind": "ANTE_BET"
+      },
+      "f0651452-d568-4935-8d98-8271c9869f48": {
+        "name": "extraX5High",
+        "kind": "ANTE_BET"
+      }
+    }
+  },
+  "gpas_adogsa1_pop": {
+    "provenance": {
+      "path": "recibos_por_juego/gpas_adogsa1_pop.json",
+      "sha256": "620c702c688cf4b5c26311be59be1fd55897eb7c86a1b8405a3cd9c76eac7a38",
+      "scope": "Mode identities and command receipts; not complete replay bodies"
+    },
+    "modes": {
+      "6ef1902b-5aa5-4430-a6df-4f726f222ef7": {
+        "name": "default",
+        "kind": "SPIN"
+      },
+      "ec522417-49ef-45eb-946d-2692d47ef1bb": {
+        "name": "BF1",
+        "kind": "PURCHASE"
+      },
+      "0918cf06-64ac-427b-bffe-94f52a4d4e57": {
+        "name": "Extra1",
+        "kind": "ANTE_BET"
+      },
+      "f1fa1159-618c-4daf-a9bb-d802cddff019": {
+        "name": "Extra2",
+        "kind": "ANTE_BET"
+      },
+      "2c4b1fa3-ce6a-4cc3-ae76-807a47e3b1ed": {
+        "name": "Extra3",
+        "kind": "ANTE_BET"
+      },
+      "a2b04e01-6016-41c7-bfbb-82c99472180c": {
+        "name": "BF2",
+        "kind": "PURCHASE"
+      },
+      "038d9b22-e5aa-4826-b459-69ca42dbeaa5": {
+        "name": "BF3",
+        "kind": "PURCHASE"
+      },
+      "db46c992-793d-4f97-92fa-304b323a6cb9": {
+        "name": "BF4",
+        "kind": "PURCHASE"
+      },
+      "3ba53e8b-5326-4a45-b3f0-d5e28c472d32": {
+        "name": "BF5",
+        "kind": "PURCHASE"
+      }
+    }
+  },
+  "gpas_bbuzza1_pop": {
+    "provenance": {
+      "path": "recibos_por_juego/gpas_bbuzza1_pop.json",
+      "sha256": "f06f8f76906046a0d50cb259990026a7f03bc397c02c9cb47e6cc1193f9ca4a1",
+      "scope": "Mode identities and command receipts; not complete replay bodies"
+    },
+    "modes": {
+      "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f": {
+        "name": "default",
+        "kind": "SPIN"
+      },
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "name": "BuyFeature1X",
+        "kind": "PURCHASE"
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "name": "BuyFeature2X",
+        "kind": "PURCHASE"
+      },
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "name": "BuyFeature3X",
+        "kind": "PURCHASE"
+      },
+      "4f29e78f-5dea-4455-a0b7-5295794f7204": {
+        "name": "BuyFeature4X",
+        "kind": "PURCHASE"
+      },
+      "a34b5ae4-b576-431d-8323-4e2c5dd1de4a": {
+        "name": "BuyFeature5X",
+        "kind": "PURCHASE"
+      },
+      "ed27695e-c139-4ff6-be2f-47fe74951257": {
+        "name": "BuyFeature6X",
+        "kind": "PURCHASE"
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "name": "BuyFeature7X",
+        "kind": "PURCHASE"
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "name": "BuyFeature8X",
+        "kind": "PURCHASE"
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "name": "BuyFeature9X",
+        "kind": "PURCHASE"
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "name": "BuyFeature10X",
+        "kind": "PURCHASE"
+      }
+    }
+  }
+}

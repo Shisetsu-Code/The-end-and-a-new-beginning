@@ -106,7 +106,24 @@ Los bytes HTTP y binarios WebSocket se guardan en base64. Un mensaje se conserva
 
 La alerta sale también por `stderr`, inmediatamente. Se dispara ante acciones, estados, formatos o versiones de protocolo que el conector identifica como desconocidos. Detiene ese intento y permite continuar otros juegos. Un rechazo conocido del proveedor y un fallo de transporte se registran con categorías distintas.
 
-En los ocho juegos adicionales de RubyPlay, el binario se conserva íntegro pero todavía es opaco para el conector. Las alertas reconocen cambios del sobre, secuencia, versión y acción siguiente; no identifican un evento nuevo que cambie únicamente el contenido interno de ese binario. African Cats conserva su decodificador específico.
+RubyPlay conserva los binarios completos y sigue los controles HTTP documentados para 179 juegos: versión, identidad, secuencia, acción siguiente y elecciones observadas. Los eventos internos que no cambien esos controles pueden permanecer opacos. African Cats conserva su decodificador específico para el modo normal. Una respuesta de inicio puede omitir `sessionData`; las continuaciones que lo requieren deben traerlo.
+
+## Banco y reproducción local
+
+Los comandos `export`, `import-ruby` y `replay` permiten usar las capturas sin contactar a los proveedores:
+
+```bash
+# Copiar capturas completas y parciales a un banco nuevo, con SHA-256 por archivo.
+capture-runner/target/release/capture-runner export --input /var/lib/capture-runner/captures/captura-001 --output /var/lib/capture-runner/bancos/captura-001
+
+# Importar las capturas históricas completas de RubyPlay.
+capture-runner/target/release/capture-runner import-ruby --input /ruta/ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture --output /var/lib/capture-runner/bancos/ruby
+
+# Listar intentos; elegir un id para inspección/reproducción.
+capture-runner/target/release/capture-runner replay --bank /var/lib/capture-runner/bancos/ruby
+```
+
+El replay compara cada solicitud con la grabada antes de entregar sus respuestas. Conserva las elecciones, cuerpos binarios, fragmentos y errores. No reescribe automáticamente identificadores ni inventa resultados después de agotar una secuencia. La guía [REPLAY.md](docs/REPLAY.md) explica el formato, la generación de solicitudes y el replay por CLI/API. Para ver el juego con su interfaz original hacen falta sus recursos compatibles.
 
 ## Estados y reanudación
 
@@ -129,9 +146,9 @@ Los modos sin conector quedan en `plan --details` y en los eventos de ejecución
 
 Los 35 proveedores y sus juegos se leen del inventario, sin filtrar por `ready`, `campaign_eligible` o conciliaciones anteriores. Games Global agrega dos selectores de su inventario individual. El suplemento IronDog incorpora cuatro juegos y 22 modos identificados en la nueva entrega, preservando los archivos de evidencia originales y registrando el hash del suplemento en la identidad del catálogo. La cobertura ejecutable se calcula mediante la misma tabla que despacha los conectores; no se confunde una fila de inventario con un protocolo implementado.
 
-Se incorporaron también los protocolos completos conservados en referencias: NoLimit, ELK, BGaming legacy/RPC/Cocos, mesas y clásicos de Play’n GO, y los selectores de Yggdrasil respaldados por el traspaso. La entrega adicional del 15 de noviembre amplía Betsoft, IronDog, RubyPlay, Kendoo, 1spin4win, Mascot y Amusnet. Hay contratos ejecutables para **14.379 de 20.090 modos**, en 6.675 juegos. Veinte proveedores cubren todos sus modos identificados. La tabla de los 35 proveedores está en [COVERAGE.md](docs/COVERAGE.md).
+Se incorporaron también los protocolos completos conservados en referencias: NoLimit, ELK, BGaming legacy/RPC/Cocos, mesas y clásicos de Play’n GO, y los selectores de Yggdrasil respaldados por el traspaso. La entrega adicional del 15 de noviembre amplía Betsoft, IronDog, RubyPlay, Kendoo, 1spin4win, Mascot y Amusnet. Hay contratos ejecutables para **14.787 de 20.090 modos**, en 6.957 juegos. Veintiún proveedores cubren todos sus modos identificados. La tabla de los 35 proveedores está en [COVERAGE.md](docs/COVERAGE.md).
 
-Algunas familias conservan únicamente un juego o un subconjunto de modos implementable con los archivos entregados. RubyPlay ahora dispone de nueve juegos distintos por salida y 11 modos; las elecciones y versiones restantes siguen necesitando sus contratos. Playtech conserva un solo binding completo: el mock reconstruido de la nueva entrega no aporta los motores nativos ausentes. [MISSING-EVIDENCE.md](docs/MISSING-EVIDENCE.md) lista las rutas concretas, los límites de cada familia y qué material nuevo ya fue aprovechado. Ver también [PROVENANCE.md](docs/PROVENANCE.md) y `plan --details`.
+Algunas familias conservan únicamente un juego o un subconjunto de modos implementable con los archivos entregados. RubyPlay dispone de 179 juegos distintos por salida y 255 modos, con elecciones observadas y cuerpos completos. Playtech incorpora 100 modos de 48 juegos mediante el motor GPAS portado y validación de fuentes/configuración; las familias incompletas siguen pendientes. Kalamba cubre sus 66 normales identificados. [MISSING-EVIDENCE.md](docs/MISSING-EVIDENCE.md) lista las rutas concretas, los límites de cada familia y qué material nuevo ya fue aprovechado. Ver también [PROVENANCE.md](docs/PROVENANCE.md) y `plan --details`.
 
 ## Verificación local
 

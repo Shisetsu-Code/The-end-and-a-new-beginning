@@ -2,3 +2,6 @@
 /captures/
 *.conf
 config.local.json
+
+# Ignore build outputs and legacy target symlinks.
+/target

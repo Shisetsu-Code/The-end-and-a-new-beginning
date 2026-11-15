@@ -1,0 +1,514 @@
+{
+  "notice": "Only exact outbound commands from supplied redacted flows; inbound data cannot be replayed from these fixtures.",
+  "flows": [
+    {
+      "source": "flow_gpas_15homb1_pop_ANTE_BET.json",
+      "sha256": "9ef1346dc90a3153019211d6f23f2d91d1faafa0c657cc61210ee7e496251db2",
+      "commands": [
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 40,
+          "betType": "default",
+          "featureType": "extraX2Low"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 60,
+          "betType": "default",
+          "featureType": "extraX2Low"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 80,
+          "betType": "default",
+          "featureType": "extraX2Low"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 100,
+          "betType": "default",
+          "featureType": "extraX2Low"
+        }
+      ]
+    },
+    {
+      "source": "flow_gpas_15homb1_pop_SPIN.json",
+      "sha256": "914d84c2bd7e62504851be3f4c55baa5e77873d21286f946d232275d934abb59",
+      "commands": [
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 20,
+          "betType": "default",
+          "featureType": "defaultLow"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 30,
+          "betType": "default",
+          "featureType": "defaultLow"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 40,
+          "betType": "default",
+          "featureType": "defaultLow"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 50,
+          "betType": "default",
+          "featureType": "defaultLow"
+        }
+      ]
+    },
+    {
+      "source": "flow_gpas_adogsa1_pop_ANTE_BET.json",
+      "sha256": "cd024d16d20ecb2fd2124ac394a76a4f7b2b3b25c6eb5d12b62efc6a28cf4877",
+      "commands": [
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 24,
+          "betType": "default",
+          "featureType": "Extra1"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 36,
+          "betType": "default",
+          "featureType": "Extra1"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 48,
+          "betType": "default",
+          "featureType": "Extra1"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 60,
+          "betType": "default",
+          "featureType": "Extra1"
+        }
+      ]
+    },
+    {
+      "source": "flow_gpas_adogsa1_pop_PURCHASE.json",
+      "sha256": "b385631eeb840a32a5603ec62b39876e32994461ac032b3d9074f9897628f759",
+      "commands": [
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 2000,
+          "betType": "default",
+          "featureType": "BF1"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        }
+      ]
+    },
+    {
+      "source": "flow_gpas_adogsa1_pop_SPIN.json",
+      "sha256": "012908100affe1d897083565eb501ffec7dc5ce4fc123def3b7d4cf6a0ff8d46",
+      "commands": [
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 20,
+          "betType": "default",
+          "featureType": "default"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 30,
+          "betType": "default",
+          "featureType": "default"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 40,
+          "betType": "default",
+          "featureType": "default"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 50,
+          "betType": "default",
+          "featureType": "default"
+        }
+      ]
+    },
+    {
+      "source": "flow_gpas_bbuzza1_pop_PURCHASE.json",
+      "sha256": "0ca3e2e15328021e658e7b1aa07229c62b26a9b518f8837bb1f432488fcaba37",
+      "commands": [
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 800,
+          "betType": "default",
+          "featureType": "BuyFeature1X"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 48775,
+            "parameters": []
+          },
+          "autoplay": false
+        }
+      ]
+    },
+    {
+      "source": "flow_gpas_bbuzza1_pop_SPIN.json",
+      "sha256": "0e80229bb42610f83b7f0f68d426b9950182f13a9bbbb70088bfbb2a914d35fc",
+      "commands": [
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 40,
+          "betType": "default",
+          "featureType": "default"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 60,
+          "betType": "default",
+          "featureType": "default"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 80,
+          "betType": "default",
+          "featureType": "default"
+        },
+        {
+          "_type": "com.pt.casino.platform.game.GameCommand",
+          "gameData": {
+            "_type": "com.pt.gpas.platform.game.OgwCorosinGameCommand",
+            "ID": 40021
+          },
+          "autoplay": false,
+          "betCost": 100,
+          "betType": "default",
+          "featureType": "default"
+        }
+      ]
+    }
+  ]
+}

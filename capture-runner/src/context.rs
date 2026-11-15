@@ -527,6 +527,36 @@ impl RunContext {
 }
 
 // Demo endpoint evidence from standalone commit 749ae8e (no legacy runtime dependency).
+fn gpas_game_resource(path: &str) -> bool {
+    let Some(relative) = path.strip_prefix("/gpasdistributed/igv/") else {
+        return false;
+    };
+    let mut parts = relative.split('/');
+    let Some(game) = parts.next() else {
+        return false;
+    };
+    let Some(version) = parts.next() else {
+        return false;
+    };
+    let resources: Vec<_> = parts.collect();
+    !game.is_empty()
+        && game
+            .bytes()
+            .all(|c| c.is_ascii_alphanumeric() || matches!(c, b'_' | b'-'))
+        && version
+            .split('.')
+            .all(|part| !part.is_empty() && part.bytes().all(|c| c.is_ascii_digit()))
+        && !resources.is_empty()
+        && resources.iter().all(|part| {
+            !part.is_empty() && !matches!(*part, "." | "..") && !part.contains(['%', '\\'])
+        })
+        && resources.last().is_some_and(|name| {
+            [".json", ".js", ".jmp", ".jmm"]
+                .iter()
+                .any(|extension| name.ends_with(extension))
+        })
+}
+
 pub fn validate_target(provider: &str, value: &str) -> Result<Url> {
     let url = Url::parse(value).context("invalid provider URL")?;
     ensure!(
@@ -606,10 +636,7 @@ pub fn validate_target(provider: &str, value: &str) -> Result<Url> {
                         || url
                             .path()
                             .ends_with("/brands/playtechhorizon/1/json/env_config.json")
-                        || (url
-                            .path()
-                            .starts_with("/gpasdistributed/igv/gpas_blitz10_pop/")
-                            && url.path().ends_with("/packs/manifest.json")))
+                        || gpas_game_resource(url.path()))
             }
             ("gpas-stg.playtechone.com" | "frontend.playtechhorizon.com", "https") => {
                 url.path() == "/socket.io/1/"
@@ -930,6 +957,33 @@ mod tests {
         io::{AsyncReadExt, AsyncWriteExt},
         net::TcpListener,
     };
+    #[test]
+    fn playtech_sources_for_other_games_reach_the_native_transport() {
+        for resource in [
+            "gpas_adogsa1_pop/1.0.57/packs/manifest.json",
+            "gpas_adogsa1_pop/1.0.57/packs/js/game.js",
+            "gpas_bbuzza1_pop/1.0/resources/generic/project.jmp",
+            "StarsAblaze/1.0/jmm/config.jmm",
+        ] {
+            assert!(
+                validate_target(
+                    "playtech",
+                    &format!("https://gpas-games.playtechone.com/gpasdistributed/igv/{resource}")
+                )
+                .is_ok(),
+                "{resource}"
+            );
+        }
+        for denied in [
+            "https://gpas-games.playtechone.com/admin/config.json",
+            "https://gpas-games.playtechone.com/gpasdistributed/igv/game/1.0/upload.php",
+            "https://gpas-games.playtechone.com/gpasdistributed/igv/game/1.0/game.js?external=1",
+            "https://attacker.invalid/gpasdistributed/igv/game/1.0/game.js",
+            "https://gpas-games.playtechone.com/gpasdistributed/igv/game/1.0/../../../admin.json",
+        ] {
+            assert!(validate_target("playtech", denied).is_err(), "{denied}");
+        }
+    }
     async fn fixture(reply: &'static [u8]) -> (String, tokio::task::JoinHandle<Vec<u8>>) {
         let listener = TcpListener::bind("127.0.0.1:0").await.unwrap();
         let origin = format!("http://{}", listener.local_addr().unwrap());

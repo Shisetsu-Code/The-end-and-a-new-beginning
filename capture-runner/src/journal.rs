@@ -68,13 +68,26 @@ pub fn private_file(path: &Path) -> Result<File> {
     Ok(options.open(path)?)
 }
 pub fn write_new_json(path: &Path, value: &Value) -> Result<()> {
-    let mut file = private_file(path)?;
-    serde_json::to_writer_pretty(&mut file, value)?;
-    file.write_all(b"\n")?;
-    file.sync_all()?;
-    if let Some(parent) = path.parent() {
-        sync_directory(parent)?;
-    }
+    write_new_json_with(path, |file| {
+        serde_json::to_writer_pretty(&mut *file, value)?;
+        file.write_all(b"\n")?;
+        Ok(())
+    })
+}
+fn write_new_json_with(path: &Path, write: impl FnOnce(&mut File) -> Result<()>) -> Result<()> {
+    let parent = path
+        .parent()
+        .filter(|p| !p.as_os_str().is_empty())
+        .unwrap_or_else(|| Path::new("."));
+    // Stage in the destination filesystem: failed/interrupted writes never
+    // publish the final name, and persist_noclobber preserves existing captures.
+    let mut staged = tempfile::NamedTempFile::new_in(parent)?;
+    write(staged.as_file_mut())?;
+    staged.as_file().sync_all()?;
+    staged
+        .persist_noclobber(path)
+        .map_err(|error| error.error)?;
+    sync_directory(parent)?;
     Ok(())
 }
 impl Journal {
@@ -134,6 +147,64 @@ mod tests {
         assert_eq!(rows[1]["data"]["raw"], "{broken");
         assert!(!p.join("result.json").exists());
         assert!(Journal::create(&p, &json!({})).is_err());
+    }
+    #[test]
+    fn interrupted_json_publication_leaves_final_name_available_for_retry() {
+        let root = tempfile::tempdir().unwrap();
+        let path = root.path().join("run.json");
+        let result = write_new_json_with(&path, |file| {
+            file.write_all(b"{\"partial\":")?;
+            anyhow::bail!("injected interruption during serialization")
+        });
+        assert!(result.is_err());
+        assert!(!path.exists(), "partial JSON must never own the final name");
+        write_new_json(&path, &json!({"complete":true})).unwrap();
+        assert_eq!(
+            serde_json::from_slice::<Value>(&fs::read(&path).unwrap()).unwrap(),
+            json!({"complete":true})
+        );
+        assert_eq!(fs::read_dir(root.path()).unwrap().count(), 1);
+    }
+    #[test]
+    fn json_final_name_is_invisible_until_writer_finishes() {
+        let root = tempfile::tempdir().unwrap();
+        let path = root.path().join("run.json");
+        write_new_json_with(&path, |file| {
+            file.write_all(b"{}")?;
+            assert!(!path.exists(), "readers must never see in-progress JSON");
+            Ok(())
+        })
+        .unwrap();
+        assert_eq!(fs::read(&path).unwrap(), b"{}");
+        assert!(write_new_json(&path, &json!({"overwrite":true})).is_err());
+        assert_eq!(fs::read(&path).unwrap(), b"{}");
+        assert_eq!(fs::read_dir(root.path()).unwrap().count(), 1);
+    }
+    #[test]
+    fn concurrent_json_publication_has_one_complete_winner() {
+        let root = tempfile::tempdir().unwrap();
+        let path = root.path().join("run.json");
+        let barrier = Arc::new(std::sync::Barrier::new(8));
+        let writers: Vec<_> = (0..8)
+            .map(|id| {
+                let path = path.clone();
+                let barrier = barrier.clone();
+                std::thread::spawn(move || {
+                    barrier.wait();
+                    write_new_json(&path, &json!({"writer":id,"payload":"x".repeat(32_768)}))
+                        .is_ok()
+                })
+            })
+            .collect();
+        let results: Vec<_> = writers
+            .into_iter()
+            .map(|writer| writer.join().unwrap())
+            .collect();
+        assert_eq!(results.into_iter().filter(|ok| *ok).count(), 1);
+        let value: Value = serde_json::from_slice(&fs::read(path).unwrap()).unwrap();
+        assert_eq!(value["payload"].as_str().unwrap().len(), 32_768);
+        assert!(value["writer"].as_u64().unwrap() < 8);
+        assert_eq!(fs::read_dir(root.path()).unwrap().count(), 1);
     }
     #[test]
     fn completed_capture_cannot_be_overwritten() {

@@ -1,9 +1,12 @@
 pub mod adapters;
+pub mod capture_bank;
 pub mod catalog;
 pub mod config;
 pub mod context;
 pub mod engine;
 pub mod journal;
 pub mod model;
+pub mod replay;
+pub mod ruby_import;
 pub mod supervisor;
 pub mod wireguard;

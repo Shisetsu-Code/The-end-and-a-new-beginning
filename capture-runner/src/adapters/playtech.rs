@@ -1,13 +1,13 @@
-//! Native capture connector derived from standalone info/playtech/codigo/playtech.rs.
-//! Published source SHA-256: ee98ad6ae1791c3cb4e0847318b454bc07219d6855b271058e7066ec34abb6fc
-//! Reference transport: game-runner/src/adapters/playtech.rs; no runtime dependency.
+//! Native GPAS capture. Supplied playtech_engine source is read-only protocol evidence.
+//! Fresh HTTP sources/configuration attest every constructor before paid entry.
 use crate::{
     context::{DecodedFrame, NativeSocket, RunContext, SocketPayload},
     model::{Completion, Game, Mode, ModeKind, now_ms},
 };
 use anyhow::{Context, Result, ensure};
+use native::{Picks, Step, entry, next_step, source_contract};
 use serde_json::{Value, json};
-use std::collections::BTreeMap;
+use std::{collections::BTreeMap, sync::LazyLock};
 use uuid::Uuid;
 
 pub(super) const ROOT: &str = "https://gpas-games.playtechone.com";
@@ -15,8 +15,31 @@ const CODE: &str = "gpas_blitz10_pop";
 const OFFER: &str = "d743f173-2233-463f-909d-a4e95f68a07a";
 const COMMAND: &str = "com.pt.casino.platform.game.GameCommand";
 
+static BINDINGS: LazyLock<Value> = LazyLock::new(|| {
+    serde_json::from_str(include_str!("../../bindings/playtech-native.json"))
+        .expect("reviewed GPAS bindings")
+});
+static SUPPORTED: LazyLock<Value> = LazyLock::new(|| {
+    serde_json::from_str(include_str!("../../bindings/playtech-supported.json"))
+        .expect("reviewed GPAS inventory intersection")
+});
+
 pub fn supports(game: &Game, mode: &Mode) -> bool {
-    game.id == format!("gpas:{CODE}") && mode.kind == ModeKind::Normal && mode.key == OFFER
+    let Some(code) = game.id.strip_prefix("gpas:") else {
+        return false;
+    };
+    SUPPORTED["games"][code][&mode.key]["kind"]
+        .as_str()
+        .and_then(|kind| serde_json::from_value::<ModeKind>(json!(kind)).ok())
+        == Some(mode.kind)
+}
+
+fn binding(code: &str) -> Value {
+    if code == CODE {
+        json!({"modes":{OFFER:{"selector":"default","parameters":[{"key":"extraBetSupported","value":"true"},{"key":"extraBetActive","value":"false"}]}}})
+    } else {
+        BINDINGS.get(code).cloned().unwrap_or(json!({}))
+    }
 }
 
 fn field<'a>(value: &'a Value, name: &str) -> Result<&'a str> {
@@ -30,12 +53,6 @@ async fn get(ctx: &RunContext, label: &str, url: &str) -> Result<String> {
     let reply = ctx.get(label, url).await?;
     ensure!(reply.status == 200, "GPAS {label} HTTP {}", reply.status);
     Ok(reply.body)
-}
-
-fn amount(value: &Value) -> Result<u64> {
-    value
-        .as_u64()
-        .context("GPAS native amount missing or invalid")
 }
 
 async fn exchange(
@@ -104,9 +121,13 @@ pub async fn execute(
     ctx: &RunContext,
     game: &Game,
     mode: &Mode,
-    _settings: &Value,
+    settings: &Value,
 ) -> Result<Completion> {
     ensure!(supports(game, mode), "GPAS mode has no reviewed binding");
+    let code = game
+        .id
+        .strip_prefix("gpas:")
+        .context("GPAS game ID missing")?;
     let release: Value = serde_json::from_str(
         &get(ctx, "release", &format!("{ROOT}/gpasclientconf_live.php")).await?,
     )?;
@@ -125,9 +146,9 @@ pub async fn execute(
         )
         .await?,
     )?;
-    let path = field(&bundle["games"], CODE)?;
+    let path = field(&bundle["games"], code)?;
     ensure!(
-        path.starts_with(&format!("/gpasdistributed/igv/{CODE}/"))
+        path.starts_with(&format!("/gpasdistributed/igv/{code}/"))
             && path.trim_end_matches('/').rsplit('/').next().is_some_and(
                 |v| !v.is_empty() && v.bytes().all(|b| b.is_ascii_digit() || b == b'.')
             ),
@@ -141,7 +162,10 @@ pub async fn execute(
         )
         .await?,
     )?;
-    ensure!(manifest["gameCode"] == CODE, "GPAS game identity mismatch");
+    ensure!(manifest["gameCode"] == code, "GPAS game identity mismatch");
+    let root = url::Url::parse(&format!("{ROOT}{}/", path.trim_end_matches('/')))?;
+    let (sources, maps) = sources::load(ctx, &root, &manifest).await?;
+    let contract = source_contract(&manifest, &sources, &binding(code))?;
     let env: Value = serde_json::from_str(
         &get(
             ctx,
@@ -192,7 +216,7 @@ pub async fn execute(
         features.push("freespin2");
     }
     let session = exchange(ctx,&mut socket,"session",json!({"_type":"InitGameSession","casino":"playtechhorizon",
-        "clientType":"casino","clientPlatform":"web","language":"EN","gameCode":CODE,"username":identity,
+        "clientType":"casino","clientPlatform":"web","language":"EN","gameCode":code,"username":identity,
         "token":identity,"resume":false,"apiFeatures":features,"real":0}),false,"InitGameSessionResponse").await?;
     ensure!(
         session["brokenGame"] == false,
@@ -221,70 +245,59 @@ pub async fn execute(
         "com.pt.gpas.config.GetGameConfigurationResponse",
     )
     .await?;
-    let scopes = config["data"].as_array().context("GPAS offer missing")?;
-    let mut base = scopes
-        .iter()
-        .filter(|v| v["scope"].as_object().is_some_and(|o| o.is_empty()));
-    let cfg = &base.next().context("GPAS base offer missing")?["content"]["game"];
-    ensure!(
-        base.next().is_none()
-            && cfg["activeBetOptions"]
-                .as_array()
-                .is_some_and(|v| v.iter().any(|x| x == "default")),
-        "GPAS base offer ambiguous or inactive"
-    );
-    let mut offers = cfg["costConfiguration"]
+    let scopes = config["data"]
         .as_array()
-        .context("GPAS wager menu missing")?
-        .iter()
-        .filter(|v| v["uuid"] == OFFER);
-    let offer = offers.next().context("GPAS reviewed wager not offered")?;
-    let cost = amount(&offer["cost"])?;
-    if !(offers.next().is_none() && offer["name"] == "default" && cost == 10) {
-        return Err(crate::model::unknown_event(
-            "GPAS reviewed wager changed or demo funds insufficient".to_string(),
-        ));
-    };
-    ctx.save_session(&json!({"game":CODE,"owner":identity,"token":field(&session,"token")?}))?;
-    let response = exchange(ctx,&mut socket,"normal",json!({"_type":COMMAND,"autoplay":false,
-        "gameData":{"ID":40021,"_type":"com.pt.gpas.platform.game.OgwCorosinGameCommand",
-            "parameters":[{"key":"extraBetSupported","value":"true"},{"key":"extraBetActive","value":"false"}]},
-        "betCost":cost,"betType":"default","featureType":"default"}),true,COMMAND).await?;
-    terminal(&response)?;
-    Ok(Completion {
-        native_round_id: None,
-        details: json!({"game":CODE,"offer":OFFER}),
-    })
-}
-
-fn terminal(response: &Value) -> Result<()> {
-    if response["gameRoundClosed"] == true
-        && response["gameData"]["nextRound"] == "BET_END_STATE_IDENTIFIER"
-    {
-        Ok(())
-    } else {
-        Err(crate::model::unknown_event(format!(
-            "GPAS unknown continuation: {}",
-            response["gameData"]["nextRound"]
-        )))
+        .context("GPAS configuration scopes missing")?;
+    let offer = native::resolve_scoped(
+        scopes,
+        mode,
+        &contract,
+        &sources.join("\n"),
+        &maps,
+        settings,
+    )?;
+    ctx.save_session(&json!({"game":code,"owner":identity,"token":field(&session,"token")?,
+        "source_sha256":sources.iter().map(|s|crate::model::sha256(s.as_bytes())).collect::<Vec<_>>(),
+        "offer":offer.id,"selector":offer.selector,"multiplier":offer.multiplier}))?;
+    let mut response = exchange(
+        ctx,
+        &mut socket,
+        mode.kind.as_str(),
+        entry(&offer, &contract)?,
+        true,
+        COMMAND,
+    )
+    .await?;
+    let mut picks = Picks::default();
+    // ctx also enforces the configured attempt limits. This bound prevents an
+    // endless native loop even when a server keeps returning a recognized phase.
+    for step in 0..ctx.max_steps().min(4096) {
+        let decoded = native::decode_data(&response["gameData"])?;
+        if step == 0 || decoded.get("stakeCostUuid").is_some() {
+            ensure!(
+                decoded["stakeCostUuid"] == offer.id,
+                "GPAS native response cost identity mismatch"
+            );
+        }
+        match next_step(&response, &contract, &mut picks, &settings["choices"])? {
+            Step::Closed => {
+                return Ok(Completion {
+                    native_round_id: response["gameRoundId"].as_str().map(str::to_owned),
+                    details: json!({"game":code,"offer":offer.id,"selector":offer.selector,"multiplier":offer.multiplier,"continuations":step}),
+                });
+            }
+            Step::Continue(command) => {
+                response =
+                    exchange(ctx, &mut socket, "continuation", command, true, COMMAND).await?;
+            }
+        }
     }
+    Err(crate::model::unknown_event(
+        "GPAS continuation limit reached",
+    ))
 }
 
+mod native;
+mod sources;
 #[cfg(test)]
-mod capture_tests {
-    use super::*;
-
-    #[test]
-    fn native_end_without_balance_or_win_and_typed_novelty() {
-        terminal(
-            &json!({"gameRoundClosed":true,"gameData":{"nextRound":"BET_END_STATE_IDENTIFIER"}}),
-        )
-        .unwrap();
-        assert!(
-            terminal(&json!({"gameRoundClosed":false,"gameData":{"nextRound":"NEW_BONUS"}}))
-                .unwrap_err()
-                .downcast_ref::<crate::model::UnknownEvent>()
-                .is_some()
-        );
-    }
-}
+mod tests;

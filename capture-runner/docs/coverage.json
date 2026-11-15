@@ -3819,339 +3819,13 @@
       "unsupported_modes": 0
     },
     {
-      "executable_modes": 1,
+      "executable_modes": 66,
       "games": 441,
-      "games_with_executable_modes": 1,
+      "games_with_executable_modes": 66,
       "identified_modes": 66,
       "provider": "hardfire-kalamba",
-      "unsupported": [
-        {
-          "game": "9blazingcoinpots50k",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "agent51",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "ageofhuracan",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "alieneggstractors",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "allstar7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "alohajuicy7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "bangkokdreams",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "betmgm-cashquest",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "bets10candy7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "bets10jokerspark7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "betssoncandy7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "betssonjokerspark7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "blazingbull2",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "blazingbull-cashquest",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "blazingbull-pm-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "blesseddragons-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "blesseddragons-hnw-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "bullionrush7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "bunnyhunt7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "burningdiamonds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "caribbeananne",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "caribbeananne-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "cashpotstrike7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "coinpotstrike7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "cashpotstrike7s-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "cashpotstrike7s-dice",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "cherryrush7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "cherryrush7s-dice",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "chiliflame7s-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "chiliflame7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "cloversupreme-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "coinfall-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "coinfall-hnw-dice",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "cosmiccharms",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "crowntriumph7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "diamondbounty7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "diamondbounty7s-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "diamondbountyxmas-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "diamondbountyxmas-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "diamondsupreme-holdandwin",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "dinoodyssey",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "divinegongs-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "dolphinriches-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "dragonsglow-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "dynastyspark7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "dynastyspark7s-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "eaglehonor7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "eaglehonor7s-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "emeraldbounty7s-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "emeraldbounty7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "festivexmas7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "finnegansformula",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "finneganstreasure2",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "finneganstreasure2-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "finneganstreasure7s",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "fireboltmulti7s-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "fireboltmulti7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "firedrakesfortune",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "firedream7s-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "firedreamxmas-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "fishlineloot-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "flamingscarabs",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "flamingscarabs-usefur",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "flamingscarabs-cds",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "footballblast-hnw",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        }
-      ],
-      "unsupported_modes": 65
+      "unsupported": [],
+      "unsupported_modes": 0
     },
     {
       "executable_modes": 64,
@@ -6688,9 +6362,9 @@
       "unsupported_modes": 0
     },
     {
-      "executable_modes": 1,
+      "executable_modes": 100,
       "games": 2033,
-      "games_with_executable_modes": 1,
+      "games_with_executable_modes": 48,
       "identified_modes": 3940,
       "provider": "playtech",
       "unsupported": [
@@ -6905,16 +6579,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_mwilds_pop",
-          "mode": "9934dc4d-bc98-4d98-92ff-73d9968ba1fb",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_mwilds_pop",
-          "mode": "c8e0d2f7-5f91-4afb-810d-017d694d2b5a",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_boking_pop",
           "mode": "c23cf121-572e-4eae-b87c-7a8a3288d1c7",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -6925,33 +6589,13 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_krfforest_pop",
-          "mode": "e0e43b53-4f8e-4eed-8c48-5ea739c208dc",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_krsofury_pop",
-          "mode": "7ddcc223-c4c5-467b-bd35-e0df5a7c8496",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_aogetroy_pop",
           "mode": "f7ce9c8f-d290-4e44-9862-c8a92aa1a523",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_krsroice_pop",
-          "mode": "9c6e3414-564a-479a-86bd-c1f270a8dad4",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_aogrotsea_pop",
           "mode": "69b7b386-6fa3-4f08-925c-2770015461ed",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_gotabyss_pop",
-          "mode": "718db397-7a47-4cc8-8bea-74bd2bd0c92c",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -6965,11 +6609,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_krhiddent_pop",
-          "mode": "cd4f360e-2a58-4024-8efd-efa199972e3f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_torragain_pop",
           "mode": "521d2e03-ab37-4a36-8839-fb91f233d485",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -6977,36 +6616,6 @@
         {
           "game": "gpas:gpas_aognwot_pop",
           "mode": "c323fab6-f066-4190-9abd-15d03a7bb46c",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_sstrike_pop",
-          "mode": "745729bd-bc21-4ed1-8b78-cfc6e4397dbb",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_sstrike_pop",
-          "mode": "b45cbc78-8b8a-4b42-8872-1edad6b818d6",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_sstrike_pop",
-          "mode": "1a4323d2-f16e-46c7-9a6e-97698f61c915",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_sstrike_pop",
-          "mode": "be1950f4-37ed-41de-89c3-08adbc2b8fe2",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_sstrike_pop",
-          "mode": "b9dcf12e-2739-4a67-853b-65bd08fb34cd",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_sstrike_pop",
-          "mode": "a5d46e92-3a54-4399-a983-6dca53d300ba",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -7022,11 +6631,6 @@
         {
           "game": "gpas:gpas_tgift_pop",
           "mode": "2cbb3fb8-f917-4301-8b2a-e73f2cd3efd1",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_aogggriffin_pop",
-          "mode": "6370719c-d261-4663-a0c9-602c476d948c",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -7050,11 +6654,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_krloestone_pop",
-          "mode": "3e480837-ac95-43cf-a8a8-90d35128e316",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_aoggagiants_pop",
           "mode": "7a1d4859-ada6-4cc9-bb90-d1603a0bb3fb",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -7067,11 +6666,6 @@
         {
           "game": "gpas:gpas_dsparks_pop",
           "mode": "745729bd-bc21-4ed1-8b78-cfc6e4397dbb",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_krcofear_pop",
-          "mode": "572b4dff-2f58-4936-826c-3977a66711c5",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -7092,11 +6686,6 @@
         {
           "game": "gpas:gpas_zcjbao2_pop",
           "mode": "eb00c650-6086-4e3b-9c5f-51feae7e2d17",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_krsqueen_pop",
-          "mode": "98bf4a0d-783a-4006-8b80-d25bb73b772a",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -7275,11 +6864,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_krluprising_pop",
-          "mode": "dbdccf24-3625-44c7-b3d6-c34e203d576a",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_afactory_pop",
           "mode": "67392d6d-c1fa-4597-891e-68b4c3588b1a",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -7332,11 +6916,6 @@
         {
           "game": "gpas:gpas_fbgbb95_pop",
           "mode": "ce0ac37d-e686-49ce-8e9b-f6bdb1ba2a4e",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_krbbeast_pop",
-          "mode": "c4342bbd-beed-4952-9b37-a1df947e9a6b",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -7482,36 +7061,6 @@
         {
           "game": "gpas:gpas_ceruption_pop",
           "mode": "4aee052b-5cd6-4169-99ac-6924f7700872",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_pstrike_pop",
-          "mode": "ada68954-4a6f-4547-abfc-2065317aa389",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_pstrike_pop",
-          "mode": "6dd386f6-c3f5-4e93-89a9-0493c6e4eeb2",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_pstrike_pop",
-          "mode": "d9c12b26-bb6e-4c17-875f-ba8787da82c3",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_pstrike_pop",
-          "mode": "a5111c29-f460-481c-96cd-7e47a3b507e8",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_pstrike_pop",
-          "mode": "b01eae9c-86d7-4a47-8e37-92f011a51bb8",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_pstrike_pop",
-          "mode": "1c290416-470c-429f-a7f7-cb360b043e08",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -7715,11 +7264,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_aogww_pop",
-          "mode": "a675ca72-a976-45fe-8e8a-84d4e596ba65",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_awild2pp_pop",
           "mode": "8c3ad405-a505-4d3d-8b57-66a7caf6ac3d",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -7832,16 +7376,6 @@
         {
           "game": "gpas:gpas_tbirdsul_pop",
           "mode": "fe4e8aa7-ef1f-429b-8945-84e13db865ab",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_aogwfot_pop",
-          "mode": "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_aogwfot_pop",
-          "mode": "66c20afc-43c9-4798-b26e-a59eab9394d0",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -8145,11 +7679,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_aogwwlo_pop",
-          "mode": "5a19fce9-7d8a-40d7-87ac-7dc46c7fb0a7",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_etpop_pop",
           "mode": "557e02e1-b9ad-485b-82fa-fa56a1a32435",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -8205,16 +7734,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_aogwfotnjul_pop",
-          "mode": "f8ddcdd7-2c77-43da-87f5-a181b454dc7f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_aogwfotnjul_pop",
-          "mode": "c521cf74-95ef-4420-8b22-009928522ca2",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_ffever_pop",
           "mode": "32c691a2-1c8f-45fe-9637-91b168f430ff",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -8222,11 +7741,6 @@
         {
           "game": "gpas:gpas_ffeverlo_pop",
           "mode": "ac439277-a6d3-49d8-a234-a3a63bf25b1f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_wdeadlo_pop",
-          "mode": "22584cfb-b8cd-45c6-8306-319df370f4d1",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -8525,11 +8039,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_fmhitbarlo_pop",
-          "mode": "7019a29a-2e6b-4b8b-9040-f07319a2bba0",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_ffighter_pop",
           "mode": "4fb83762-d77f-433f-ac7e-0adb9f54177a",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -8602,11 +8111,6 @@
         {
           "game": "gpas:gpas_wdead2lo_pop",
           "mode": "dd0ac158-f4b4-403b-ad4e-e66357f2965f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_wdead2_pop",
-          "mode": "3f018ada-7163-4c26-8b28-d627bc090ac8",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -9025,11 +8529,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_bcashlo_pop",
-          "mode": "a6b10297-486d-4f18-a654-1edb3db6da53",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_wotgenie_pop",
           "mode": "ffcafa65-b1c5-4288-8725-44c7a6b5c831",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -9070,16 +8569,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_rcarlos_pop",
-          "mode": "6b4ec871-ae4c-41fe-be41-4ec2c9ee258c",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_rcarlos_pop",
-          "mode": "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_focashco_pop",
           "mode": "7a96d30f-4930-4e57-80ae-394ea4ad7735",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -9087,26 +8576,6 @@
         {
           "game": "gpas:gpas_cchfortune_pop",
           "mode": "39ae9c7a-f714-4c45-8355-2805934e1318",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_rcarloslo_pop",
-          "mode": "9943a388-9c1d-4ada-a55c-ebd1372ca848",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_rcarloslo_pop",
-          "mode": "e3cc8b68-97c3-430f-9923-bd928a8db18a",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_rcarloslxlo_pop",
-          "mode": "e3cc8b68-97c3-430f-9923-bd928a8db18a",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_rcarloslx_pop",
-          "mode": "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -9265,16 +8734,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_pigeonfsc1_pop",
-          "mode": "420d7ab3-efbe-438a-a2fc-04cbd714b853",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_pigeonfsc1_pop",
-          "mode": "1137dac0-685a-4e2f-b691-589f295513d5",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_merfindc1_pop",
           "mode": "c67b46f6-90dc-4c8c-8918-75d0042d65ba",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -9360,11 +8819,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_wofire1_pop",
-          "mode": "102ec212-5088-4bb0-abf3-cefe3de1bf80",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_1reelerlo_pop",
           "mode": "da41025b-e5af-4564-83ef-dd46d9c00037",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -9420,11 +8874,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_mgaogkol_pop",
-          "mode": "35660849-0ef3-4a80-8610-a9074b76226f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_buddhaways_pop",
           "mode": "55c091e6-7632-413c-882a-2b109e9c544c",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -9457,11 +8906,6 @@
         {
           "game": "gpas:gpas_f4ccqc1_pop",
           "mode": "01293cc5-7ae8-41e7-8c4e-f8d5bb26cb7f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_aoggosun_pop",
-          "mode": "7fb53963-f078-4c0c-8733-d2dd170d5741",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -9515,11 +8959,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_aoggosunlo_pop",
-          "mode": "0a32fe9a-e5f5-4613-adb1-10b525fe0070",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_eofromed1_pop",
           "mode": "5f3c55f3-5284-403f-b01e-0aa60e3df8fb",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -9537,11 +8976,6 @@
         {
           "game": "gpas:gpas_eofromelo_pop",
           "mode": "805aaa17-9a2d-4e54-96b1-b164c1e5d103",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_hongem_pop",
-          "mode": "ffa7df84-e232-455e-b117-9bb35245b498",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -10240,16 +9674,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_ctrplfb_pop",
-          "mode": "ef871ea4-eb04-46d6-833b-28326189a201",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_ctrplfb_pop",
-          "mode": "9e0d9497-46fc-461a-80d9-9279013ac4f3",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_gsinbadb1_pop",
           "mode": "ef871ea4-eb04-46d6-833b-28326189a201",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -10277,26 +9701,6 @@
         {
           "game": "gpas:gpas_llskinga1_pop",
           "mode": "f3c64001-973b-4d9c-9ab4-b527de5b4665",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llskingb1_pop",
-          "mode": "576c51fe-2b7d-4def-afcc-2d316a1f9e29",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llskingb1_pop",
-          "mode": "70c08e54-1ee1-4e69-b4e7-f9fba4c84869",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llskingc1_pop",
-          "mode": "e353af1c-4152-4326-be8a-e778893c1830",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llskingc1_pop",
-          "mode": "89cd503f-2267-4c2e-b59b-31f029c23c26",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -10460,11 +9864,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_aogwwpa_pop",
-          "mode": "a9ac2347-329c-4722-820a-bc20a1ee0d67",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_aogstormb1_pop",
           "mode": "44739bc0-bcac-4818-a066-2e1872224050",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -10482,21 +9881,6 @@
         {
           "game": "gpas:gpas_aogrotsk_pop",
           "mode": "46fe66f9-92c5-498b-82c3-eb7523eb495d",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_lgcc_pop",
-          "mode": "43596767-c3ab-44a5-b966-1b3095ac4455",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_lgcca1_pop",
-          "mode": "43596767-c3ab-44a5-b966-1b3095ac4455",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_lgccb1_pop",
-          "mode": "43596767-c3ab-44a5-b966-1b3095ac4455",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -11095,11 +10479,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_pigeonfspp_pop",
-          "mode": "b450dee7-7571-47fc-af3a-4ba68e618fe8",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_ghitdev_pop",
           "mode": "759cef46-c2f4-476a-b69f-a772f73f5449",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -11217,16 +10596,6 @@
         {
           "game": "gpas:gpas_hgems_pop",
           "mode": "8188105e-d594-4c1e-8a5f-942ab191534c",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_icave_pop",
-          "mode": "209d1e4b-6d84-4ce8-a280-844f0d02ea6f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_icave_pop",
-          "mode": "acc8c68e-d46e-4b05-a64b-f432a17e5594",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -11367,26 +10736,6 @@
         {
           "game": "gpas:gpas_llnm_pop",
           "mode": "8b1d15a3-d517-48a1-9c07-8fcb2aa0fde8",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llnmb1_pop",
-          "mode": "1cab3f0b-3055-49e0-8e87-9be0774822f6",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llnmb1_pop",
-          "mode": "af0b83ca-47ba-40d5-b922-6ed769cc42ef",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llnmc1_pop",
-          "mode": "b2c59443-5e94-47c9-8ba0-9ae5e71b251f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_llnmc1_pop",
-          "mode": "75a2e595-3b3f-446c-a703-1dea635a5620",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -11542,16 +10891,6 @@
         {
           "game": "gpas:gpas_gtfb_pop",
           "mode": "ef871ea4-eb04-46d6-833b-28326189a201",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_gtfbbf_pop",
-          "mode": "ef871ea4-eb04-46d6-833b-28326189a201",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_gtfbbf_pop",
-          "mode": "9e0d9497-46fc-461a-80d9-9279013ac4f3",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -15660,66 +14999,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "c7c99c68-5541-4b0b-bed6-08ebe806504e",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "1126a14e-6a7c-40c8-951f-0e7380676ced",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "536c64c2-5762-4d06-8ad1-e0408c865b31",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "64f768bb-de9c-407d-9045-76ccdf969d91",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "d9bbc0dc-14d6-4c4d-b913-d6778d153b2d",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "ff7fdc7d-d6aa-4864-ba58-6d132530a554",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "925ab361-68c7-4738-ba9d-e721943bdb6c",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "6ecacaf8-ff08-4e8b-8cf6-be2d73ca589c",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "b12ff716-8b66-4f6a-81e6-ebed2bb3457c",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "e4d702d6-bb39-4b80-8388-6d1296480679",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "f6d64ec8-eb5d-4c06-8ca4-8c3d88eade64",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_15homb1_pop",
-          "mode": "f0651452-d568-4935-8d98-8271c9869f48",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_15homc1_pop",
           "mode": "c7c99c68-5541-4b0b-bed6-08ebe806504e",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -18220,51 +17499,6 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "6ef1902b-5aa5-4430-a6df-4f726f222ef7",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "ec522417-49ef-45eb-946d-2692d47ef1bb",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "0918cf06-64ac-427b-bffe-94f52a4d4e57",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "f1fa1159-618c-4daf-a9bb-d802cddff019",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "2c4b1fa3-ce6a-4cc3-ae76-807a47e3b1ed",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "a2b04e01-6016-41c7-bfbb-82c99472180c",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "038d9b22-e5aa-4826-b459-69ca42dbeaa5",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "db46c992-793d-4f97-92fa-304b323a6cb9",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_adogsa1_pop",
-          "mode": "3ba53e8b-5326-4a45-b3f0-d5e28c472d32",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "gpas:gpas_adogsb1_pop",
           "mode": "6ef1902b-5aa5-4430-a6df-4f726f222ef7",
           "reason": "native selector or continuation binding is not included for this game/mode"
@@ -18917,61 +18151,6 @@
         {
           "game": "gpas:gpas_81mcd_pop",
           "mode": "afeb4678-f8e1-430f-8121-7045d11ac7c9",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "e50efd81-55b7-4567-9559-38df01c780fe",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "1a6c386b-a57e-456a-9126-aa3b448dd1ab",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "4f29e78f-5dea-4455-a0b7-5295794f7204",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "a34b5ae4-b576-431d-8323-4e2c5dd1de4a",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "ed27695e-c139-4ff6-be2f-47fe74951257",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "d212e949-957f-498c-89fc-e89e85723397",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "bc850948-24df-437e-bca4-b46beb4112d6",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "c26f2acb-8191-4b5c-a631-27a696f86e10",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "gpas:gpas_bbuzza1_pop",
-          "mode": "ec58defd-97dc-41b0-a23d-4eff412b0944",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -26390,7 +25569,7 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         }
       ],
-      "unsupported_modes": 3939
+      "unsupported_modes": 3840
     },
     {
       "executable_modes": 1665,
@@ -26537,495 +25716,15 @@
       "unsupported_modes": 0
     },
     {
-      "executable_modes": 11,
+      "executable_modes": 255,
       "games": 180,
-      "games_with_executable_modes": 9,
+      "games_with_executable_modes": 179,
       "identified_modes": 262,
       "provider": "rubyplay",
       "unsupported": [
         {
-          "game": "rp_222",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_236",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_214",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_214",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_220",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_220",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_216",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_216",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_211",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_211",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_200",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_200",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_228",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_206",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_206",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_191",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_191",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_172",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_172",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_215",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_215",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_210",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_210",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_173",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_173",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_170",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_170",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_194",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_203",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_198",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_198",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_182",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_182",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_190",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_190",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_189",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_189",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_204",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_204",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_199",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_199",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_188",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_188",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_180",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_180",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_187",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_187",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_181",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_181",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_177",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_186",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_186",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_185",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_185",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_176",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_176",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_171",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "rp_171",
           "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_167",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_167",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_169",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_169",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_168",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_168",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_164",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_164",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_153",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_153",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_151",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_151",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_162",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_162",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_152",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_152",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_166",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_166",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_147",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_147",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_148",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_148",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_140",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_140",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_161",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_161",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_160",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_160",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_92",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_92",
-          "mode": "buy_feature:select",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_139",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_139",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_149",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_149",
-          "mode": "buy_feature:select",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_165",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_165",
-          "mode": "buy_feature:minispin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_163",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_163",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_120",
-          "mode": "normal",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -27034,488 +25733,8 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "rp_155",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_155",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_145",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_145",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_150",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_150",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_159",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_159",
-          "mode": "buy_feature:minispin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_146",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_146",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_143",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_143",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_130",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_130",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_138",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_138",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_144",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_144",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_129",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_129",
-          "mode": "buy_feature:respin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_141",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_141",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_142",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_142",
-          "mode": "buy_feature:minispin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_136",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_136",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_126",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_126",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_125",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_125",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_133",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_133",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_131",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_131",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_132",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_132",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_119",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_119",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_128",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_128",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_109",
-          "mode": "buy_feature:minispin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_124",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_124",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_114",
-          "mode": "buy_feature:select",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_118",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_118",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_106",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_112",
-          "mode": "buy_feature:select",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_108",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_108",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_111",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_104",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_107",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_107",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_101",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_94",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_98",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_90",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_99",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_96",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_97",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_91",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_95",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_89",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_158",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_158",
-          "mode": "buy_feature:freespin",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_93",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_85",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_88",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_87",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_84",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_81",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_83",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_80",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_16",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_79",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_78",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_77",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_76",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_74",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_73",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_71",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_72",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_70",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_69",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_68",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_66",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_65",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "rp_65",
           "mode": "ruby_buy",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_67",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_63",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_60",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_62",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_61",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_58",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_59",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_57",
-          "mode": "normal",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -27524,113 +25743,8 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "rp_56",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_53",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_54",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_55",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_52",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_51",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_50",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_49",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_48",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_46",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_45",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_44",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_43",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_42",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_41",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_40",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_38",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_37",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "rp_37",
           "mode": "ruby_buy",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_36",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_21",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_26",
-          "mode": "normal",
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
@@ -27639,167 +25753,12 @@
           "reason": "native selector or continuation binding is not included for this game/mode"
         },
         {
-          "game": "rp_35",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_29",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
           "game": "rp_29",
           "mode": "ruby_buy",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_34",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_33",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_28",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_24",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_30",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_31",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_15",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_25",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_23",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_14",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_18",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_17",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_27",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_32",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_22",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_7",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_9",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_19",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_20",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_11",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_8",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_13",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_10",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_4",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_6",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_5",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_3",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_2",
-          "mode": "normal",
-          "reason": "native selector or continuation binding is not included for this game/mode"
-        },
-        {
-          "game": "rp_12",
-          "mode": "normal",
           "reason": "native selector or continuation binding is not included for this game/mode"
         }
       ],
-      "unsupported_modes": 251
+      "unsupported_modes": 7
     },
     {
       "executable_modes": 66,

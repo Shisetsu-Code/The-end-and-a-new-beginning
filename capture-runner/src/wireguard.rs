@@ -544,6 +544,10 @@ impl<'a, R: Runner> Manager<'a, R> {
                 writeln!(resolv, "nameserver {dns}")?;
             }
             writeln!(resolv, "options timeout:2 attempts:2")?;
+            // Creation mode is filtered by umask. The worker may drop privileges
+            // after ip-netns bind-mounts this resolver, so set its final mode on
+            // the safely created descriptor instead of trusting mode(0644).
+            resolv.set_permissions(fs::Permissions::from_mode(0o644))?;
             resolv.sync_all()?;
             Ok(())
         })();
@@ -1090,6 +1094,56 @@ mod tests {
         m.cleanup(&record).unwrap();
         assert!(!m.dns_root.join(&ns).exists());
         assert!(!m.netns_root.join(&ns).exists());
+    }
+    #[test]
+    fn resolver_remains_readable_after_privilege_drop_under_private_umask() {
+        const CHILD: &str = "CAPTURE_RESOLVER_UMASK_CHILD";
+        if std::env::var_os(CHILD).is_none() {
+            let result = Command::new(std::env::current_exe().unwrap())
+                .args(["--exact", "wireguard::tests::resolver_remains_readable_after_privilege_drop_under_private_umask", "--nocapture"])
+                .env(CHILD, "1")
+                .output().unwrap();
+            assert!(
+                result.status.success(),
+                "{}\n{}",
+                String::from_utf8_lossy(&result.stdout),
+                String::from_utf8_lossy(&result.stderr)
+            );
+            return;
+        }
+        // Isolated test process: never change the umask of parallel tests.
+        unsafe {
+            libc::umask(0o077);
+        }
+        let d = tempfile::tempdir().unwrap();
+        fs::create_dir(d.path().join("netns")).unwrap();
+        let mut fake = Fake::new(&d.path().join("netns"));
+        let mut m = manager(d.path(), &mut fake);
+        let _lock = m.prepare().unwrap();
+        m.up_one(&exit(), &TunnelConfig::parse(&fixture()).unwrap())
+            .unwrap();
+        let dns = m.dns_root.join(exit().namespace_name().unwrap());
+        assert_eq!(
+            fs::metadata(dns.join("resolv.conf"))
+                .unwrap()
+                .permissions()
+                .mode()
+                & 0o777,
+            0o644
+        );
+        assert_eq!(
+            fs::metadata(dns.join(".capture-owner"))
+                .unwrap()
+                .permissions()
+                .mode()
+                & 0o777,
+            0o600
+        );
+        assert!(
+            fs::read_to_string(dns.join("resolv.conf"))
+                .unwrap()
+                .contains("nameserver 1.1.1.1")
+        );
     }
     #[test]
     fn existing_namespace_is_never_claimed_or_deleted() {

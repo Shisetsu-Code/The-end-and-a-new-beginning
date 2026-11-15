@@ -14,7 +14,7 @@ Se preserva `standalone info/` sin modificaciones. Contiene 35 inventarios, 9.87
 
 La fuente de los protocolos son las copias de `standalone info/*/codigo`, los adaptadores de referencia de `game-runner/src/adapters`, los módulos portables de `bet-collector/game-runner/src` y los protocolos Python completos conservados dentro de `referencias`. Se reconstruyeron los conectores sobre un transporte y un motor independientes. No existe dependencia de ejecución con los crates anteriores, su `Store`, sus recibos financieros o la suite Python externa.
 
-Los 40 bindings públicos utilizados al compilar están incluidos en este crate: se conservan sin cambios los 33 anteriores y se agregan siete derivados de la nueva entrega. [binding-provenance.json](binding-provenance.json) distingue copias exactas y datos derivados, e identifica sus fuentes, tamaño y SHA-256. En las fuentes nuevas, `source_archive` identifica el ZIP y `path` es el nombre exacto del miembro, incluido el prefijo `ENTREGA-CLAUDE/`; sin `source_archive`, la ruta corresponde a la raíz del repositorio de origen `Standalone`, en el commit indicado. Los fixtures derivados omiten sesiones privadas y campos financieros innecesarios. Para comprobar sus bytes, ejecutar desde la raíz:
+Los 44 bindings utilizados al compilar están incluidos en este crate. Se conserva la procedencia histórica y se amplía `rubyplay-extra.json`; se agregan `kalamba-normal.json` y tres bindings de Playtech. [binding-provenance.json](binding-provenance.json) identifica copias exactas, derivaciones, archivos fuente y sus hashes. Las fuentes con `source_archive` usan el nombre exacto del miembro del ZIP, incluido su prefijo. Las fuentes históricas sin ese campo proceden del repositorio/commit base indicado arriba. Los fixtures nuevos de RubyPlay conservan los mensajes nativos completos con claves previamente redactadas; los de Playtech sólo contienen comandos porque las respuestas de origen fueron recortadas.
 
 ```bash
 sha256sum -c capture-runner/docs/BINDINGS.sha256
@@ -54,15 +54,41 @@ La carpeta `mocks/` reúne materiales de distinto alcance. Sus clientes `harvest
 | `mascot-extra.json` | 84 fuentes de payloads sustentan 31 modos adicionales: 22 compras y nueve normales de mesas y otros juegos no slots. Incluye 31 cadenas de control reducidas, con 330 pasos, sin exigir balances ni premios para aceptar el cierre. |
 | `rubyplay-extra.json` | Ocho asociaciones exactas de juego/versión para normales y las compras `freespin` documentadas de `rp_102` y `rp_103`. Proceden del recolector HTTP, los ejemplos del informe y `open_demo_session.py`; no contienen sesiones históricas. |
 
-### RubyPlay: sobre HTTP y binario opaco
+## Paquetes ampliados del 15 de noviembre
 
-El índice anterior `rubyplay-rp47-source-index.json` conserva los offsets y la identidad de la fuente exacta del decodificador de African Cats (`rp_47`). La ampliación agrega ocho juegos y diez modos mediante el sobre nativo HTTP: usa las versiones documentadas, arrastra `funModeData`, comprueba `an` y sigue `next_action`. La unión tiene nueve juegos y once modos, incluido el normal original de `rp_47`.
+| Paquete | SHA-256 | Alcance |
+|---|---|---|
+| `ENTREGA-CLAUDE(2).zip` | `6990e6ff5e85430f2d83f9582c327810ceb9636510e3abd41fcda736553d882e` | 932 archivos; incluye 179 capturas RubyPlay y log/cliente Kalamba |
+| `evidencia-claude-20261115.zip` | `05c4e92752ca5586ea451b2ff6c617a670b5f78f5a7008becccfe493140ee7db` | 484 archivos, subconjunto byte a byte del paquete anterior |
+| `Playtech evidence(1).zip` | `c8f746cf9722633cb7cce8d72ccb6511e4a87289966a2562be23bb513e09ef54` | 53 archivos; motores de interacción GPAS, bindings, recibos y flujos saneados |
 
-En los ocho juegos nuevos se registra `binary` completo como contenido opaco. El recolector reconoce el cierre cuando el sobre vuelve a `next_action=spin`; no necesita decodificar premios. Los formatos, secuencias o continuaciones desconocidos generan `unknown_event`. Las elecciones `pick` y `select` también detienen la ronda con una alerta, sin probar índices. Un evento nuevo oculto únicamente dentro del binario puede quedar registrado sin clasificarse si los controles externos no cambian; esta ampliación no aporta un decodificador universal ni permite afirmar cobertura de esas novedades internas.
+Los archivos originales de inventario y evidencia no se modifican. Los ZIP completos no son dependencias del ejecutable.
 
-### Playtech: simulación sin nuevos contratos ejecutables
+### RubyPlay: 255 modos y cuerpos nativos completos
 
-La nueva entrega reconstruye respuestas de simulación a partir de resúmenes: utiliza `_mockReconstructed`, `_mockOwnFormat` y `playStack:[]`. No aporta el motor genérico, los perfiles y las clases nativas de comandos que faltaban. Esos resultados no amplían el binding ejecutable de Blitz10. Las rutas pendientes permanecen documentadas en [MISSING-EVIDENCE.md](MISSING-EVIDENCE.md).
+`rubyplay-extra.json` incorpora 179 parejas exactas de identidad/versión, las compras observadas, continuaciones por modo y secuencias de elección. Cada captura fuente lleva SHA-256. Los 255 pares cerrados comprenden 179 normales, 51 freespin, 17 respin, 4 minispin y 4 select. Las compras rechazadas de rp_120/rp_171 y cinco modos ruby_buy sin contrato quedan pendientes. El normal original de African Cats sigue usando `rubyplay-rp47-source-index.json` y su decodificador.
+
+Las respuestas de init legítimamente no incluyen `sessionData`; las respuestas no terminales sí deben conservarlo. Se verifican identidad, versión, `an`, `next_action` y elecciones antes de continuar. El binario restante permanece opaco e íntegro: no se calculan premios para aceptar una captura.
+
+El fixture `tests/fixtures/rubyplay/native-complete.json` contiene 13 archivos fuente completos, con sus hashes, cubriendo acciones y elecciones. Una prueba adicional, activada mediante `RUBYPLAY_CAPTURE_DIR`, verifica los 179 originales: 432 rondas cerradas y 1491 pares nativos. El importador local conserva las 434 rondas, incluidas las dos rechazadas, con sus contextos y diferencias de formato respecto de una captura HTTP cruda.
+
+### Kalamba: 66 normales con cierre observado
+
+`kalamba-normal.json` deriva de `kalamba_client.py`, `kalamba-log.jsonl` y el inventario original. Incluye identidad, ubicación/hash de las líneas de apertura e inicio/giro, y proyecciones de los controles nativos que permiten validarlos offline. El cliente define el constructor de la solicitud; el log conserva las respuestas. No se presenta como un log bidireccional completo de apuestas.
+
+Los 66 juegos del inventario con modo normal muestran apertura idle, primera secuencia/round 1 y retorno BaseGame. El conector valida oferta/identidad, apuesta nativa y cierre. Las ramas no documentadas quedan parciales.
+
+### Playtech: contratos GPAS portados, replay histórico limitado
+
+`playtech-native.json` es copia byte a byte del binding entregado. `playtech-receipts.json` proyecta los 32 UUID/nombres/tipos de tres recibos con sus hashes. `playtech-supported.json` cruza UUID y tipo con el inventario y excluye productores/familias no implementados. La cifra vigente se genera desde el adaptador en [COVERAGE.md](COVERAGE.md).
+
+Se portaron a Rust configuración por ámbito, carga estática de fuentes/JMP/JMM, constructores modernos/legacy, dominios de coste/elección, continuaciones y zlib. Las fuentes nuevas se descargan desde el directorio validado del juego y se comprueban los hashes cuando el binding los exige. No se ejecutan los scripts Python ni el JavaScript descargado.
+
+Los siete flujos aportan 47 comandos enviados, de los cuales 25 son continuaciones. Sus respuestas están saneadas: 19 payloads comprimidos redactados y 28 playStack truncados. Los 986 recibos no son 986 partidas completas para replay. Estas limitaciones no se ocultan ni se rellenan con respuestas simuladas. NGM, GLU6, PSI y constructores específicos ausentes siguen pendientes.
+
+### Banco y reproducción
+
+El formato local copia el diario y metadatos existentes con SHA-256, conserva parciales y valida los archivos antes de reproducir. El importador Ruby registra mensajes como JSON nativo procesado y marca sus tiempos como observaciones de importación. No fabrica wire HTTP, sesiones nuevas ni resultados aleatorios. [REPLAY.md](REPLAY.md) detalla la correspondencia estricta y los límites del cliente visual.
 
 ## Cobertura ejecutable
 
@@ -70,7 +96,7 @@ La tabla de conectores es única para planificación y ejecución. `plan --detai
 
 NoLimit reconstruye los 1.147 selectores de sus 141 juegos y sus contratos de elección publicados. ELK reconstruye los 803 selectores de 159 fichas, con ECF clásico/moderno, variantes y progreso nativo Boss. BGaming incorpora legacy v2/v1, variantes, elecciones y las familias RPC/Cocos reconstruibles: 787 modos de 215 juegos. Comprueba la fuente y el menú activo antes de enviar la apuesta. Play’n GO agrega las 18 mesas y juegos clásicos cuyos contratos Python sí estaban publicados. Las pruebas de los selectores usan inicializaciones y contratos de la evidencia.
 
-RubyPlay combina el decodificador de African Cats (`rp_47`) con los contratos del sobre HTTP descritos arriba; otras versiones y elecciones siguen pendientes cuando no existe evidencia suficiente. Playtech conserva los índices de sus motores genéricos sin los programas correspondientes. [MISSING-EVIDENCE.md](MISSING-EVIDENCE.md) lista rutas concretas y diferencia los archivos ausentes de las familias aún no portadas. No se extrapola un selector o decodificador a otro juego por pertenecer al mismo proveedor.
+RubyPlay combina el decodificador de African Cats (`rp_47`) con los contratos HTTP y las elecciones observadas descritos arriba. Playtech incorpora el motor de interacción GPAS portado; las familias y productores incompletos permanecen pendientes. [MISSING-EVIDENCE.md](MISSING-EVIDENCE.md) lista rutas concretas y diferencia los archivos ausentes de las familias aún no portadas. No se extrapola un selector o decodificador a otro juego por pertenecer al mismo proveedor.
 
 Una captura local clasificada como `complete` significa que el conector reconoció el cierre nativo observado. Las pruebas automatizadas validan parsers, transiciones, journal, planificación y aislamiento de procesos con fixtures locales. La disponibilidad actual de los servidores, los cambios de JavaScript y la conectividad de túneles reales se verifican al ejecutar en la VM.
 

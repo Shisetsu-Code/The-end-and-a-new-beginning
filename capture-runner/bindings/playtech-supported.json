@@ -1,0 +1,517 @@
+{
+  "provenance": {
+    "bindings_sha256": "2efb72d1d38c1927f34e3cef207af132cde1034c97ac49d9f55af39bfb74e156",
+    "inventory_sha256": "91ded62df00b4ebf5617669ff5e6db94cbf2550348ca054af6e732e6dea30876",
+    "scope": "Exact inventory UUID intersection only; runtime source/config validation remains required. Not a claim of completed captures."
+  },
+  "games": {
+    "gpas_mwilds_pop": {
+      "9934dc4d-bc98-4d98-92ff-73d9968ba1fb": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "c8e0d2f7-5f91-4afb-810d-017d694d2b5a": {
+        "kind": "variant",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krfforest_pop": {
+      "e0e43b53-4f8e-4eed-8c48-5ea739c208dc": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krsofury_pop": {
+      "7ddcc223-c4c5-467b-bd35-e0df5a7c8496": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krsroice_pop": {
+      "9c6e3414-564a-479a-86bd-c1f270a8dad4": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_gotabyss_pop": {
+      "718db397-7a47-4cc8-8bea-74bd2bd0c92c": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krhiddent_pop": {
+      "cd4f360e-2a58-4024-8efd-efa199972e3f": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_sstrike_pop": {
+      "745729bd-bc21-4ed1-8b78-cfc6e4397dbb": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "b45cbc78-8b8a-4b42-8872-1edad6b818d6": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "1a4323d2-f16e-46c7-9a6e-97698f61c915": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "be1950f4-37ed-41de-89c3-08adbc2b8fe2": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "b9dcf12e-2739-4a67-853b-65bd08fb34cd": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "a5d46e92-3a54-4399-a983-6dca53d300ba": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aogggriffin_pop": {
+      "6370719c-d261-4663-a0c9-602c476d948c": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krloestone_pop": {
+      "3e480837-ac95-43cf-a8a8-90d35128e316": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krcofear_pop": {
+      "572b4dff-2f58-4936-826c-3977a66711c5": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krsqueen_pop": {
+      "98bf4a0d-783a-4006-8b80-d25bb73b772a": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krluprising_pop": {
+      "dbdccf24-3625-44c7-b3d6-c34e203d576a": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_krbbeast_pop": {
+      "c4342bbd-beed-4952-9b37-a1df947e9a6b": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_pstrike_pop": {
+      "ada68954-4a6f-4547-abfc-2065317aa389": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "6dd386f6-c3f5-4e93-89a9-0493c6e4eeb2": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "d9c12b26-bb6e-4c17-875f-ba8787da82c3": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "a5111c29-f460-481c-96cd-7e47a3b507e8": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "b01eae9c-86d7-4a47-8e37-92f011a51bb8": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "1c290416-470c-429f-a7f7-cb360b043e08": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aogww_pop": {
+      "a675ca72-a976-45fe-8e8a-84d4e596ba65": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aogwfot_pop": {
+      "9003ac8c-e036-4f1e-8598-1fc3c43a3ccc": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "66c20afc-43c9-4798-b26e-a59eab9394d0": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aogwwlo_pop": {
+      "5a19fce9-7d8a-40d7-87ac-7dc46c7fb0a7": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aogwfotnjul_pop": {
+      "f8ddcdd7-2c77-43da-87f5-a181b454dc7f": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "c521cf74-95ef-4420-8b22-009928522ca2": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_wdeadlo_pop": {
+      "22584cfb-b8cd-45c6-8306-319df370f4d1": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_fmhitbarlo_pop": {
+      "7019a29a-2e6b-4b8b-9040-f07319a2bba0": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_wdead2_pop": {
+      "3f018ada-7163-4c26-8b28-d627bc090ac8": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_bcashlo_pop": {
+      "a6b10297-486d-4f18-a654-1edb3db6da53": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_rcarlos_pop": {
+      "6b4ec871-ae4c-41fe-be41-4ec2c9ee258c": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_rcarloslo_pop": {
+      "9943a388-9c1d-4ada-a55c-ebd1372ca848": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "e3cc8b68-97c3-430f-9923-bd928a8db18a": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_rcarloslxlo_pop": {
+      "e3cc8b68-97c3-430f-9923-bd928a8db18a": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_rcarloslx_pop": {
+      "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_pigeonfsc1_pop": {
+      "420d7ab3-efbe-438a-a2fc-04cbd714b853": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "1137dac0-685a-4e2f-b691-589f295513d5": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_mgaogkol_pop": {
+      "35660849-0ef3-4a80-8610-a9074b76226f": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aoggosun_pop": {
+      "7fb53963-f078-4c0c-8733-d2dd170d5741": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aoggosunlo_pop": {
+      "0a32fe9a-e5f5-4613-adb1-10b525fe0070": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_hongem_pop": {
+      "ffa7df84-e232-455e-b117-9bb35245b498": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_ctrplfb_pop": {
+      "ef871ea4-eb04-46d6-833b-28326189a201": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "9e0d9497-46fc-461a-80d9-9279013ac4f3": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_llskingb1_pop": {
+      "576c51fe-2b7d-4def-afcc-2d316a1f9e29": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "70c08e54-1ee1-4e69-b4e7-f9fba4c84869": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_llskingc1_pop": {
+      "e353af1c-4152-4326-be8a-e778893c1830": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "89cd503f-2267-4c2e-b59b-31f029c23c26": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_aogwwpa_pop": {
+      "a9ac2347-329c-4722-820a-bc20a1ee0d67": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_lgcc_pop": {
+      "43596767-c3ab-44a5-b966-1b3095ac4455": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_lgcca1_pop": {
+      "43596767-c3ab-44a5-b966-1b3095ac4455": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_lgccb1_pop": {
+      "43596767-c3ab-44a5-b966-1b3095ac4455": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_pigeonfspp_pop": {
+      "b450dee7-7571-47fc-af3a-4ba68e618fe8": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_icave_pop": {
+      "209d1e4b-6d84-4ce8-a280-844f0d02ea6f": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "acc8c68e-d46e-4b05-a64b-f432a17e5594": {
+        "kind": "variant",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_llnmb1_pop": {
+      "1cab3f0b-3055-49e0-8e87-9be0774822f6": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "af0b83ca-47ba-40d5-b922-6ed769cc42ef": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_llnmc1_pop": {
+      "b2c59443-5e94-47c9-8ba0-9ae5e71b251f": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "75a2e595-3b3f-446c-a703-1dea635a5620": {
+        "kind": "antebet",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_gtfbbf_pop": {
+      "ef871ea4-eb04-46d6-833b-28326189a201": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-native-command"
+      },
+      "9e0d9497-46fc-461a-80d9-9279013ac4f3": {
+        "kind": "purchase",
+        "evidence": "source-sha256-pinned-native-command"
+      }
+    },
+    "gpas_15homb1_pop": {
+      "c7c99c68-5541-4b0b-bed6-08ebe806504e": {
+        "kind": "normal",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "1126a14e-6a7c-40c8-951f-0e7380676ced": {
+        "kind": "normal",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "536c64c2-5762-4d06-8ad1-e0408c865b31": {
+        "kind": "normal",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "64f768bb-de9c-407d-9045-76ccdf969d91": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "d9bbc0dc-14d6-4c4d-b913-d6778d153b2d": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "ff7fdc7d-d6aa-4864-ba58-6d132530a554": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "925ab361-68c7-4738-ba9d-e721943bdb6c": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "6ecacaf8-ff08-4e8b-8cf6-be2d73ca589c": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "b12ff716-8b66-4f6a-81e6-ebed2bb3457c": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "e4d702d6-bb39-4b80-8388-6d1296480679": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "f6d64ec8-eb5d-4c06-8ca4-8c3d88eade64": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "f0651452-d568-4935-8d98-8271c9869f48": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      }
+    },
+    "gpas_adogsa1_pop": {
+      "6ef1902b-5aa5-4430-a6df-4f726f222ef7": {
+        "kind": "normal",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "ec522417-49ef-45eb-946d-2692d47ef1bb": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "0918cf06-64ac-427b-bffe-94f52a4d4e57": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "f1fa1159-618c-4daf-a9bb-d802cddff019": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "2c4b1fa3-ce6a-4cc3-ae76-807a47e3b1ed": {
+        "kind": "antebet",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "a2b04e01-6016-41c7-bfbb-82c99472180c": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "038d9b22-e5aa-4826-b459-69ca42dbeaa5": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "db46c992-793d-4f97-92fa-304b323a6cb9": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "3ba53e8b-5326-4a45-b3f0-d5e28c472d32": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      }
+    },
+    "gpas_bbuzza1_pop": {
+      "caa27fb1-88fc-43aa-a25a-d4f92c22ba3f": {
+        "kind": "normal",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "e50efd81-55b7-4567-9559-38df01c780fe": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "78c68fb0-f959-4ca7-b9c6-3a8ff2dc0d1b": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "1a6c386b-a57e-456a-9126-aa3b448dd1ab": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "4f29e78f-5dea-4455-a0b7-5295794f7204": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "a34b5ae4-b576-431d-8323-4e2c5dd1de4a": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "ed27695e-c139-4ff6-be2f-47fe74951257": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "d212e949-957f-498c-89fc-e89e85723397": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "bc850948-24df-437e-bca4-b46beb4112d6": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "c26f2acb-8191-4b5c-a631-27a696f86e10": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      },
+      "ec58defd-97dc-41b0-a23d-4eff412b0944": {
+        "kind": "purchase",
+        "evidence": "receipt+fresh-client-config"
+      }
+    },
+    "gpas_blitz10_pop": {
+      "d743f173-2233-463f-909d-a4e95f68a07a": {
+        "kind": "normal",
+        "evidence": "existing-reviewed-blitz-command"
+      }
+    },
+    "gpas_wofire1_pop": {
+      "102ec212-5088-4bb0-abf3-cefe3de1bf80": {
+        "kind": "normal",
+        "evidence": "source-sha256-pinned-observed-default-baseline"
+      }
+    }
+  },
+  "excluded": [
+    {
+      "game": "gpas_extrfruits_pop",
+      "id": "3011e712-74b8-45c1-876b-461cab5e5982",
+      "reason": "complete native request producer missing"
+    },
+    {
+      "game": "gpas_venemasks_pop",
+      "id": "a9568c65-9fe0-446f-9842-311fd360d93d",
+      "reason": "Exact ferox.game.playMoney constructor not implemented; Ogw family cannot substitute"
+    }
+  ]
+}

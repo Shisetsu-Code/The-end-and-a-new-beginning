@@ -1,8 +1,11 @@
 use anyhow::{Context, Result};
-use capture_runner::{catalog::Catalog, config::Config, engine, supervisor, wireguard};
+use capture_runner::{
+    capture_bank, catalog::Catalog, config::Config, engine, replay, ruby_import, supervisor,
+    wireguard,
+};
 use clap::{Parser, Subcommand};
 use serde_json::{Value, json};
-use std::{fs, path::PathBuf, sync::Arc};
+use std::{fs, io::BufReader, path::PathBuf, sync::Arc};
 #[derive(Parser)]
 #[command(
     version,
@@ -14,6 +17,33 @@ struct Cli {
 }
 #[derive(Subcommand)]
 enum Command {
+    /// Import supplied RubyPlay native JSON captures into a portable offline bank.
+    ImportRuby {
+        #[arg(long)]
+        input: PathBuf,
+        #[arg(long)]
+        output: PathBuf,
+    },
+    /// Export native captures, including partial attempts, to a portable local bank.
+    Export {
+        #[arg(long)]
+        input: PathBuf,
+        #[arg(long)]
+        output: PathBuf,
+    },
+    /// Inspect or replay a local bank. Does not connect to providers.
+    Replay {
+        #[arg(long)]
+        bank: PathBuf,
+        #[arg(long, required_if_eq("requests", "-"))]
+        attempt: Option<String>,
+        /// JSONL of exact outbound messages; use - to read standard input.
+        #[arg(long, requires = "attempt")]
+        requests: Option<PathBuf>,
+        /// Emit recorded outbound messages as JSONL, suitable for --requests.
+        #[arg(long, requires = "attempt", conflicts_with = "requests")]
+        emit_requests: bool,
+    },
     /// Read evidence and report actual connector coverage and per-exit parallelism. No network calls.
     Plan {
         #[arg(long)]
@@ -82,6 +112,55 @@ async fn main() {
 }
 async fn run() -> Result<bool> {
     match Cli::parse().command {
+        Command::ImportRuby { input, output } => {
+            let bank = ruby_import::import(&input, &output)?;
+            print(&capture_bank::summary(&bank));
+            Ok(true)
+        }
+        Command::Export { input, output } => {
+            let bank = capture_bank::export(&input, &output)?;
+            print(&capture_bank::summary(&bank));
+            Ok(true)
+        }
+        Command::Replay {
+            bank,
+            attempt,
+            requests,
+            emit_requests,
+        } => {
+            let index = capture_bank::load(&bank)?;
+            let Some(id) = attempt else {
+                print(&json!({"summary":capture_bank::summary(&index),"attempts":index.attempts}));
+                return Ok(true);
+            };
+            let attempt = index
+                .attempts
+                .iter()
+                .find(|a| a.id == id)
+                .context("unknown bank attempt ID")?;
+            if emit_requests {
+                replay::emit_requests(&bank, attempt, std::io::stdout().lock())?;
+                return Ok(true);
+            }
+            match requests {
+                None => {
+                    print(&replay::inspect(&bank, attempt)?);
+                    Ok(true)
+                }
+                Some(path) if path.as_os_str() == "-" => replay::run(
+                    &bank,
+                    attempt,
+                    std::io::stdin().lock(),
+                    std::io::stdout().lock(),
+                ),
+                Some(path) => replay::run(
+                    &bank,
+                    attempt,
+                    BufReader::new(fs::File::open(path)?),
+                    std::io::stdout().lock(),
+                ),
+            }
+        }
         Command::Plan { config, details } => {
             let cfg = Config::load(&config)?;
             let catalog = Catalog::load(&cfg.evidence_root)?;

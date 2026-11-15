@@ -34,6 +34,10 @@ fn original_supports(game: &Game, mode: &Mode) -> bool {
     game.id == GAME && mode.kind == ModeKind::Normal && mode.key == "normal"
 }
 
+fn uses_opaque_capture(game: &Game, mode: &Mode) -> bool {
+    !original_supports(game, mode) && extra::supports(game, mode)
+}
+
 #[derive(Deserialize)]
 #[serde(untagged)]
 enum Fragment {
@@ -144,7 +148,7 @@ pub async fn execute(
     mode: &Mode,
     _settings: &Value,
 ) -> Result<Completion> {
-    if extra::supports(game, mode) {
+    if uses_opaque_capture(game, mode) {
         return extra::execute(ctx, game, mode).await;
     }
     ensure!(
@@ -305,6 +309,25 @@ pub async fn execute(
 mod tests {
     use super::*;
     #[test]
+    fn existing_rp47_normal_keeps_native_decoder_dispatch() {
+        let mut game = Game {
+            id: "rp_47".into(),
+            name: String::new(),
+            modes: vec![],
+        };
+        let mode = Mode {
+            key: "normal".into(),
+            kind: ModeKind::Normal,
+            label: String::new(),
+            requires_prerequisites: Value::Null,
+        };
+        assert!(extra::supports(&game, &mode));
+        assert!(original_supports(&game, &mode));
+        assert!(!uses_opaque_capture(&game, &mode));
+        game.id = "rp_1".into();
+        assert!(uses_opaque_capture(&game, &mode));
+    }
+    #[test]
     fn explicit_http_controls_extend_only_the_documented_catalogue_modes() {
         for id in [
             "rp_1", "rp_102", "rp_103", "rp_106", "rp_109", "rp_112", "rp_114", "rp_222",
@@ -326,7 +349,10 @@ mod tests {
                 kind: ModeKind::Purchase,
                 ..mode
             };
-            assert_eq!(supports(&game, &buy), matches!(id, "rp_102" | "rp_103"));
+            assert_eq!(
+                supports(&game, &buy),
+                matches!(id, "rp_102" | "rp_103" | "rp_106")
+            );
         }
     }
     #[test]
