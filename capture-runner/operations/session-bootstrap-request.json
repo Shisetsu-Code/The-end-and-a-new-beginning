@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "cases": [
+    { "provider": "evoplay", "game": "venicefestival" },
+    { "provider": "evoplay", "game": "treeoflightfabledfruits" },
+    { "provider": "gamesglobal", "game": "GoldBlitzExtreme" },
+    { "provider": "gamesglobal", "game": "12MasksofFireDrums" },
+    { "provider": "kagaming", "game": "TropicalHoliday" },
+    { "provider": "kagaming", "game": "ThiefDog" },
+    { "provider": "kendoo", "game": "mariachi-lock" },
+    { "provider": "kendoo", "game": "coin-dragon" },
+    { "provider": "redtiger", "game": "pandagoesboom000" },
+    { "provider": "redtiger", "game": "happycappy000000" },
+    { "provider": "threeoaks", "game": "lava_coins_2" },
+    { "provider": "threeoaks", "game": "lady_fortune" }
+  ]
+}

@@ -1,0 +1,126 @@
+name: Inspect demo session bootstrap with Playwright
+
+on:
+  push:
+    branches: [main]
+    paths: ['capture-runner/operations/session-bootstrap-request.json']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: session-bootstrap-403
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Prepare private recording
+        run: |
+          set -euo pipefail
+          umask 077
+          output="$GITHUB_WORKSPACE/session-bootstrap-output"
+          mkdir -p "$output"
+          printf '1\n' > "$output/exit-code.txt"
+          cp capture-runner/operations/session-bootstrap-request.json "$output/request.json"
+
+      - name: Install the pinned browser runtime
+        timeout-minutes: 5
+        run: |
+          set -euo pipefail
+          output="$GITHUB_WORKSPACE/session-bootstrap-output"
+          npm install --prefix "$RUNNER_TEMP/session-playwright" --no-audit --no-fund playwright@1.62.1 \
+            > "$output/install.stdout.log" 2> "$output/install.stderr.log"
+          "$RUNNER_TEMP/session-playwright/node_modules/.bin/playwright" install --with-deps chromium \
+            > "$output/browser-install.stdout.log" 2> "$output/browser-install.stderr.log"
+
+      - name: Observe fresh demo sessions
+        id: probe
+        env:
+          NODE_PATH: ${{ runner.temp }}/session-playwright/node_modules
+        run: |
+          set -euo pipefail
+          umask 077
+          output="$GITHUB_WORKSPACE/session-bootstrap-output"
+          started_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          set +e
+          timeout --signal=INT --kill-after=20s 480s xvfb-run -a \
+            node capture-runner/operations/session-bootstrap-probe.cjs \
+              --config capture-runner/operations/session-bootstrap-request.json \
+              --output "$output/probe" > "$output/probe.stdout.log" 2> "$output/probe.stderr.log"
+          exit_code=$?
+          set -e
+          printf '%s\n' "$exit_code" > "$output/exit-code.txt"
+          jq -n --arg started_at "$started_at" --arg finished_at "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            --arg commit "$GITHUB_SHA" --arg run_id "$GITHUB_RUN_ID" --argjson exit_code "$exit_code" \
+            '{started_at:$started_at,finished_at:$finished_at,commit:$commit,workflow_run_id:$run_id,exit_code:$exit_code}' \
+            > "$output/execution.json"
+
+      - name: Encrypt the recording
+        id: encrypt
+        if: always()
+        run: |
+          set -euo pipefail
+          umask 077
+          output="$GITHUB_WORKSPACE/session-bootstrap-output"
+          if [[ ! -d "$output" ]]; then exit 0; fi
+          artifacts="$RUNNER_TEMP/session-artifacts"
+          mkdir -p "$artifacts"
+          {
+            tar -C "$GITHUB_WORKSPACE" -czf - session-bootstrap-output |
+              openssl cms -encrypt -binary -aes-256-cbc -outform DER \
+                -out "$artifacts/session-bootstrap.p7m.tmp" \
+                "$GITHUB_WORKSPACE/capture-runner/operations/live-smoke-recipient.pem"
+          } 2> "$RUNNER_TEMP/session-encryption.stderr.log"
+          mv "$artifacts/session-bootstrap.p7m.tmp" "$artifacts/session-bootstrap.p7m"
+          cd "$artifacts"
+          sha256sum session-bootstrap.p7m > session-bootstrap.p7m.sha256
+          printf 'encrypted=true\n' >> "$GITHUB_OUTPUT"
+
+      - name: Upload the encrypted recording
+        id: upload
+        if: always() && steps.encrypt.outputs.encrypted == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: session-bootstrap-403-encrypted
+          path: |
+            ${{ runner.temp }}/session-artifacts/session-bootstrap.p7m
+            ${{ runner.temp }}/session-artifacts/session-bootstrap.p7m.sha256
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Report probe execution
+        if: always()
+        env:
+          PROBE_OUTCOME: ${{ steps.probe.outcome }}
+          UPLOAD_OUTCOME: ${{ steps.upload.outcome }}
+        run: |
+          set -euo pipefail
+          code=1
+          output="$GITHUB_WORKSPACE/session-bootstrap-output"
+          if [[ -f "$output/exit-code.txt" ]]; then
+            read -r value < "$output/exit-code.txt"
+            if [[ "$value" =~ ^[0-9]{1,3}$ ]] && (( 10#$value <= 255 )); then code=$((10#$value)); fi
+          fi
+          if [[ "$PROBE_OUTCOME" != success || "$UPLOAD_OUTCOME" != success ]]; then code=1; fi
+          {
+            printf '## Demo session inspection\n\n'
+            printf -- '- Scope: 6 providers, the same 2 games per provider.\n'
+            printf -- '- Probe exit code: %s. This is not a native round-completion verdict.\n' "$code"
+            printf -- '- Recording upload: %s; encrypted evidence only.\n' "$UPLOAD_OUTCOME"
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit "$code"

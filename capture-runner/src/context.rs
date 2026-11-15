@@ -161,10 +161,10 @@ impl RunContext {
         );
         ensure!(body.len() <= MAX_BODY, "request exceeds 16 MiB");
         let cookie = self.cookies.cookies(&target);
-        let mut builder = self
-            .client
-            .request(method.parse()?, target)
-            .header("User-Agent", self.user_agent());
+        let mut builder = self.client.request(method.parse()?, target);
+        if !headers.keys().any(|h| h.eq_ignore_ascii_case("user-agent")) {
+            builder = builder.header("User-Agent", self.user_agent());
+        }
         if !headers.keys().any(|h| h.eq_ignore_ascii_case("cookie"))
             && let Some(cookie) = cookie
         {
@@ -1059,6 +1059,62 @@ mod tests {
         assert!(request.contains("session=secret"));
         let journal = std::fs::read_to_string(one.journal.path().join("wire.jsonl")).unwrap();
         assert!(journal.contains(&STANDARD.encode("session=secret")));
+    }
+    #[tokio::test]
+    async fn http_user_agent_is_single_and_overrides_are_case_insensitive() {
+        for name in [
+            None,
+            Some("user-agent"),
+            Some("USER-AGENT"),
+            Some("uSeR-aGeNt"),
+        ] {
+            let root = tempfile::tempdir().unwrap();
+            let (origin, server) =
+                fixture(b"HTTP/1.1 200 OK\r\nContent-Length: 2\r\nConnection: close\r\n\r\n{}")
+                    .await;
+            let ctx = context(root.path(), &origin);
+            let (headers, expected) = match name {
+                Some(name) => (
+                    BTreeMap::from([(name.into(), "Adapter-Demo-QA/1.0".into())]),
+                    "Adapter-Demo-QA/1.0",
+                ),
+                None => (BTreeMap::new(), "Evidencia-Capture-Runner/0.1"),
+            };
+            ctx.http("init", "GET", &origin, headers, String::new(), false)
+                .await
+                .unwrap();
+            let request = String::from_utf8(server.await.unwrap()).unwrap();
+            let sent: Vec<_> = request
+                .lines()
+                .filter_map(|line| line.split_once(':'))
+                .filter(|(name, _)| name.eq_ignore_ascii_case("user-agent"))
+                .map(|(_, value)| value.trim())
+                .collect();
+            assert_eq!(sent, vec![expected], "wire header for {name:?}");
+
+            let journal = std::fs::read_to_string(ctx.journal.path().join("wire.jsonl")).unwrap();
+            let recorded = journal
+                .lines()
+                .map(|line| serde_json::from_str::<Value>(line).unwrap())
+                .find(|event| event["event"] == "http_request")
+                .unwrap();
+            let recorded: Vec<_> = recorded["data"]["headers_base64"]
+                .as_array()
+                .unwrap()
+                .iter()
+                .filter(|header| {
+                    header[0]
+                        .as_str()
+                        .unwrap()
+                        .eq_ignore_ascii_case("user-agent")
+                })
+                .map(|header| {
+                    String::from_utf8(STANDARD.decode(header[1].as_str().unwrap()).unwrap())
+                        .unwrap()
+                })
+                .collect();
+            assert_eq!(recorded, vec![expected], "journal header for {name:?}");
+        }
     }
     #[test]
     fn unreviewed_targets_fail_without_network() {
