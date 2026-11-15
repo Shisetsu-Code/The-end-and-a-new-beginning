@@ -1,0 +1,230 @@
+{
+  "source_archive": "ENTREGA-CLAUDE.zip",
+  "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+  "sources": [
+    {
+      "path": "3-codigo-runners/provider-work/inventarios/kendoo-mock.json",
+      "sha256": "d8e92eb8022ed524a3eae531d93e23a7fbe04ff35f77be31cf911784d3a1645b"
+    },
+    {
+      "path": "3-codigo-runners/provider-work/mocks/kendoo/compare.py",
+      "sha256": "5b7b4e9542108faf70798715365abb1031319131727ec25f0c46403dd5718708"
+    },
+    {
+      "path": "3-codigo-runners/provider-work/mocks/kendoo/README.md",
+      "sha256": "0fa9827c3616b300243a9c5e1715e0317ee1e1a2c3bf5cd82e0f06a3ec8366f4"
+    },
+    {
+      "path": "4-analisis-otros-proveedores/kendoo.md",
+      "sha256": "32959c16a175811e6aaab65bf0d558b0791fbee108aa972b2ac24612044aaba6"
+    }
+  ],
+  "contract": "Native codes from mock index; official per-game demo link and bootstrap must confirm code before any play. Normal/ante use live bet/line/ante menus. Only Coin Dragon purchases use the selected_mode parameter proved by compare.py; other game purchase parameter mappings remain absent.",
+  "games": {
+    "3-power-drums": {
+      "native_code": "3_power_drums",
+      "modes": [
+        "normal",
+        "ante:1.5"
+      ]
+    },
+    "4-gates-of-pyramid": {
+      "native_code": "4_gates_of_pyramid",
+      "modes": [
+        "normal"
+      ]
+    },
+    "3-super-fortune-trees": {
+      "native_code": "3_super_fortune_trees",
+      "modes": [
+        "normal"
+      ]
+    },
+    "bingo-twist": {
+      "native_code": "bingo_twist",
+      "modes": [
+        "normal"
+      ]
+    },
+    "4-gold-carts": {
+      "native_code": "4_gold_carts",
+      "modes": [
+        "normal"
+      ]
+    },
+    "4-fire-rockets": {
+      "native_code": "4_fire_rockets",
+      "modes": [
+        "normal"
+      ]
+    },
+    "diamond-and-jokers": {
+      "native_code": "diamond_and_jokers",
+      "modes": [
+        "normal"
+      ]
+    },
+    "coin-dragon": {
+      "native_code": "coin_dragon",
+      "modes": [
+        "normal",
+        "buy:1",
+        "buy:2",
+        "buy:3",
+        "buy:4"
+      ]
+    },
+    "locomotoro": {
+      "native_code": "locomotoro",
+      "modes": [
+        "normal"
+      ]
+    },
+    "3-blitz-hits": {
+      "native_code": "3_blitz_hits",
+      "modes": [
+        "normal"
+      ]
+    },
+    "3-super-hungry-pandas": {
+      "native_code": "3_super_hungry_pandas",
+      "modes": [
+        "normal"
+      ]
+    },
+    "cash-volcano-xxl": {
+      "native_code": "cash_volcano_xxl",
+      "modes": [
+        "normal"
+      ]
+    },
+    "4-egypt-scarabs": {
+      "native_code": "4_egypt_scarabs",
+      "modes": [
+        "normal"
+      ]
+    },
+    "xtreme-joker-fever": {
+      "native_code": "xtreme_joker_fever",
+      "modes": [
+        "normal"
+      ]
+    },
+    "coin-tornado": {
+      "native_code": "coin_tornado",
+      "modes": [
+        "normal"
+      ]
+    },
+    "forge-of-vulcan": {
+      "native_code": "forge_of_vulcan",
+      "modes": [
+        "normal"
+      ]
+    },
+    "3-chillies-joker": {
+      "native_code": "3_chillies_joker",
+      "modes": [
+        "normal",
+        "normal:lines=3"
+      ]
+    },
+    "double-joker-fever": {
+      "native_code": "double_joker_fever",
+      "modes": [
+        "normal"
+      ]
+    },
+    "3-gates-of-pyramid": {
+      "native_code": "3_gates_of_pyramid",
+      "modes": [
+        "normal"
+      ]
+    },
+    "zeus-power": {
+      "native_code": "zeus_power",
+      "modes": [
+        "normal"
+      ]
+    },
+    "bluffy-cat": {
+      "native_code": "bluffy_cat",
+      "modes": [
+        "normal"
+      ]
+    },
+    "pig-up": {
+      "native_code": "pig_up",
+      "modes": [
+        "normal"
+      ]
+    },
+    "flash-joker-fever": {
+      "native_code": "flash_joker_fever",
+      "modes": [
+        "normal"
+      ]
+    },
+    "3-fortune-trees": {
+      "native_code": "3_fortune_trees",
+      "modes": [
+        "normal"
+      ]
+    },
+    "hot-chilli-joker": {
+      "native_code": "hot_chilli_joker",
+      "modes": [
+        "normal"
+      ]
+    },
+    "wild-cats-fire": {
+      "native_code": "wild_cats_fire",
+      "modes": [
+        "normal"
+      ]
+    },
+    "cash-volcano": {
+      "native_code": "cash_volcano",
+      "modes": [
+        "normal"
+      ]
+    },
+    "mariachi-lock": {
+      "native_code": "mariachi_lock",
+      "modes": [
+        "normal",
+        "ante:1.3"
+      ]
+    },
+    "nights-of-fire": {
+      "native_code": "nights_of_fire",
+      "modes": [
+        "normal"
+      ]
+    },
+    "hungry-pandas": {
+      "native_code": "3_hungry_pandas",
+      "modes": [
+        "normal"
+      ]
+    },
+    "fruits-and-joker-fever": {
+      "native_code": "fruits_and_joker_fever",
+      "modes": [
+        "normal"
+      ]
+    },
+    "fruits-and-sevens-fever": {
+      "native_code": "fruits_and_sevens_fever",
+      "modes": [
+        "normal"
+      ]
+    },
+    "fruits-fever": {
+      "native_code": "fruits_fever_5_lines",
+      "modes": [
+        "normal"
+      ]
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "proveedor": "playngo",
+  "archivos": [
+    {
+      "ruta": "bindings/playngo.json",
+      "bytes": 80896,
+      "sha256": "c33fd1e3697e6fcabf0d21161303a9779280dca2437e7141e70632b72dc9ccae"
+    },
+    {
+      "ruta": "codigo/playngo.rs",
+      "bytes": 53094,
+      "sha256": "9be375f8fa899d848d95a7e327fc14c5b312e2eea59c87e1bbe5a51343d0e275"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 123659,
+      "sha256": "9e7eb1b6984c2e586528c866d64fcbe1fb5b2f8a9b6b30e98e4a2c877d868dfb"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 831349,
+      "sha256": "f0aa012bd38b35b98550d47d5d888665f9ee77829d9fd626fc69748ce78aeb89"
+    },
+    {
+      "ruta": "evidencia/playngo.json",
+      "bytes": 2178568,
+      "sha256": "706593feec8cd13a557e82ab8c8faf4a81df253f9073f26766942370bd2ed77c"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 123556,
+      "sha256": "8cd2ef7fb6a409982334966b5bca578e3bf9b3ebfc2a4c1b5409d53206f2bbc9"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 100511,
+      "sha256": "7e360ffe2cebcbe94d57f88c94557aa21ecd9bf83862e3d730ab42a0cea4faa0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/1-100/audit.json",
+      "bytes": 41598,
+      "sha256": "b406ecafc035255923ed85dda2e59fbb480bf664383076b200aff6683ec73ca1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/1-100/bootstrap-probe.json",
+      "bytes": 3589,
+      "sha256": "a16144c8d27ccb04fbbb6e7b21a2b19d921d61f80a31df2954bd333996b400f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/1-100/catalog.json",
+      "bytes": 31629,
+      "sha256": "e2ab854c1bb5feb533c19d8ca73690bcf56d0eaaec704d71ef52667a664420c6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/1-100/index.html",
+      "bytes": 24153,
+      "sha256": "95cb4d21e6b2c481501f3e7a830ecf589e8caa243de53904c2ab8194a4877f79"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/1-100/inventory.json",
+      "bytes": 54470,
+      "sha256": "ee446ba9a3012ed67b09894df231a1295d886c98c369251c513683dea91d3594"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/1-100/previous-providers-proof.json",
+      "bytes": 4462,
+      "sha256": "c7b883c08d270b87b06630702c665fe32164057cb6d9c1c1a54bdd743dd68353"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/1-100/rounds.json",
+      "bytes": 50185,
+      "sha256": "bb18472adae05cd7f103215de8b6b47ff8ad78b596115199d7b1e63371280472"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/101-200/audit.json",
+      "bytes": 56118,
+      "sha256": "d76e836a9d1cf8e95d896b3b007515812394936d35d86dc6dde1db8472c2d883"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/101-200/catalog.json",
+      "bytes": 31151,
+      "sha256": "ff5250270adc06e8b17d2ba306eda1d7403c5166807018fca784926512aa7c98"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/101-200/index.html",
+      "bytes": 22215,
+      "sha256": "18dc7a59b41c9f34147b87c47184ac7bbca7acd1201c10a138696d89d8171b84"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/101-200/inventory.json",
+      "bytes": 53295,
+      "sha256": "367ec8b9f8ac883bd1726ef69e149a10b1ef9f553fc1dafda5453accfe675dd4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/101-200/previous-providers-proof.json",
+      "bytes": 22682,
+      "sha256": "0c6b7d1b0311db5d1f15c8f63ca0f3048e1ac4dfed5cda3072802710ca1773db"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/101-200/README.md",
+      "bytes": 813,
+      "sha256": "e79d38f1758fe42a4fbbd137d76ce1d764c60704ba2177b4541d2dbc7b5cdd53"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/101-200/rounds.json",
+      "bytes": 42349,
+      "sha256": "d795282e32be5f3d211d257b814814e6844c815dc327115c8c1bb44e6e62f678"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/201-300/audit.json",
+      "bytes": 70001,
+      "sha256": "6a2f4cdf8c0b1727dfaf8a01c1adae4741f4d090942beb3bc05f7f5d79900f4b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/201-300/catalog.json",
+      "bytes": 30708,
+      "sha256": "417afc9a26df01d0844f034353f459772ad25a0f98bb1f789d5b685b5519d7ec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/201-300/index.html",
+      "bytes": 21767,
+      "sha256": "e0880159d77e64cd36c559c79b15cf207a3ae6c3d83bd0512a76e29c584ad82a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/201-300/inventory.json",
+      "bytes": 53364,
+      "sha256": "07a7e80e4f3a6491b575476e9a2d1ca01c270270293970f7df4170d5b25412ca"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/201-300/previous-providers-proof.json",
+      "bytes": 37208,
+      "sha256": "4a5f065debd2f017c324a4ed855c3e889322ccadf98a74ac151ca06cae51e16d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/201-300/README.md",
+      "bytes": 860,
+      "sha256": "ddd58ead3a803a2298cd0f7aac401ab6536233d46d8b2510c684a63e5601a653"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/201-300/rounds.json",
+      "bytes": 42122,
+      "sha256": "c85518affd1f383a8b315bf101d281b273bde64d74678a906e8f3d2a7fb26ad6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/301-400/audit.json",
+      "bytes": 83420,
+      "sha256": "40e19b9859870333970e5f42299ec9cb477ccddcc1fb91719962a6d5f415fed9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/301-400/catalog.json",
+      "bytes": 28975,
+      "sha256": "91af7141b7c43c58f365bd835598bb83b884cfce82759725cc0f65731d94cd84"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/301-400/index.html",
+      "bytes": 21098,
+      "sha256": "5f8f754a5f4eb49c4f92a41de9558e5b2b115667490e6341c4cedfbd95af6f22"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/301-400/inventory.json",
+      "bytes": 52481,
+      "sha256": "08eb61b61790e9a2de54003214fdfa9e5da1363cad1e4525272b9ba2da70e7a6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/301-400/previous-providers-proof.json",
+      "bytes": 51294,
+      "sha256": "2a676327ef112e8d2c4928c9a9019ef7665f0830623e535abb67a142b8286c64"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/301-400/README.md",
+      "bytes": 896,
+      "sha256": "78982b9aa10e70ccd3794589917c65c7e59739289865a003e335487c125ee8c7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/301-400/rounds.json",
+      "bytes": 40931,
+      "sha256": "64ecfdda4657862fb27276a26489483e5790ff0002804b406feeb1e6455beeac"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/401-477/audit.json",
+      "bytes": 94224,
+      "sha256": "f61fd0922e9057ae7bee3f245e959304924baece28ab76f9ee6fda72d215a120"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/401-477/catalog.json",
+      "bytes": 22068,
+      "sha256": "43f8212e29ad96bfdfa0b8b4820b4241333cafb0d7c7001885ac3b6084956a52"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/401-477/index.html",
+      "bytes": 17149,
+      "sha256": "9bbce0431b16ca235bd740cdf4af443494d24192197e635016e7cc8831d2832f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/401-477/inventory.json",
+      "bytes": 40370,
+      "sha256": "fe51d867216ec9350c0e1569a6a2bf8297b6dd9404831bc2c4b49cb2aa8e2e6d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/401-477/previous-providers-proof.json",
+      "bytes": 65084,
+      "sha256": "2a898a66546a824ddf5e7044a8257dd7f9eae986951a65bc6b2dedd2328f587f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/401-477/README.md",
+      "bytes": 1514,
+      "sha256": "77f5d29d297ad06496ca8cb931276dc04504e6c54a90fa99dfa49e31ff1aa148"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/batches/401-477/rounds.json",
+      "bytes": 32782,
+      "sha256": "8f9c1e47f317f3fe3e5c9626152cb6958eb4e2865e099cebe4b31f5d31c41c75"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/catalog.json",
+      "bytes": 144519,
+      "sha256": "a53a7ac5995e6055bb38a0a436b768102b3cab2a6a769c9269d324fbbefd8022"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/index.html",
+      "bytes": 93999,
+      "sha256": "984ce10d7433d119ec2a9147803fac5a888755b9db4d9a9f613f672b809d2edb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/README.md",
+      "bytes": 4717,
+      "sha256": "a093f516d93e02c03c9a4ce63a9b8dcdc71e2bd45493b037964857ab089ac648"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/round.html",
+      "bytes": 5022,
+      "sha256": "cf3c4e27a95db3ba0c9f60147f49931b664c2aaa048130902a78161a5349d4fa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo/sources.json",
+      "bytes": 1802,
+      "sha256": "0e65542749c063f73a35fee0016a487ee4bb635629e3e0b5bc771cf420f6d1f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_audit.py",
+      "bytes": 14476,
+      "sha256": "bedd3dd05b6c5e100495cdd1a92b529797d3fe5bb751530c5183930dc5d1bc0d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_client.py",
+      "bytes": 5067,
+      "sha256": "06e029632d1eaf099e46027bec2c3b26639590dd50dabcd120e7ed4f0a5ee811"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_craps.py",
+      "bytes": 7487,
+      "sha256": "1f738a24b3474c421d2594d41c851d28e56e27b4b38a0adfb048c4d3dc9464f1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_draw_games.py",
+      "bytes": 14937,
+      "sha256": "700703f71882f3307027c319d708ae34c339aebb8c7000d3dabd0f6d1b99b47b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_holdem.py",
+      "bytes": 7075,
+      "sha256": "cb87d60e938b42c8a0154cfbfc378d4af26fa5e189a0eafac11e135f9e307214"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_import.py",
+      "bytes": 4221,
+      "sha256": "9fad3ba4da8034e79c95e1b46e0ed84acc573a209d894c1327c0a77e5970553d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_legacy_tables.py",
+      "bytes": 8756,
+      "sha256": "31b4e06ff795221632dff90fba851919b39ff8242620f7fe7828b0b71d739c83"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_paths.py",
+      "bytes": 942,
+      "sha256": "783736f1f73f3c8fe67e74b32e966c5032617f422e433148b7e08ff4a041ce27"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_protocol.py",
+      "bytes": 1856,
+      "sha256": "a854adf36853047d14732b86db98205b7029034ff27b964ba569a2936ca24492"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_reports.py",
+      "bytes": 12085,
+      "sha256": "324ecac44bb6cfb8ee321e9b679ec240992862f29dece9caf1b34fdd1b3c4ec5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_roulette.py",
+      "bytes": 5934,
+      "sha256": "a457d23295a1e3c0ee9e2c9955ba420131dc5e8930cbd1029596c406660f1fc1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_rules.py",
+      "bytes": 15026,
+      "sha256": "dbf389dea41ac94e6c0c1b9b1c0a9e91c6cdaa406223612d84fd1154844722ac"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_run.py",
+      "bytes": 11970,
+      "sha256": "ddc88369d98b52e4e34f479832730ce24d74dc1dbd4547d94b271ba3547a7488"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playngo_table_rules.py",
+      "bytes": 642,
+      "sha256": "8a7823a7651c5a2bfd3ada91ee57ecb2cea337e76ae3d051a0ab49e42dcf28e4"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 567,
+      "sha256": "ba1f5a61d988e9825b23876669135deef311fe84fba0071b7dc8a954bf83c58e"
+    }
+  ]
+}

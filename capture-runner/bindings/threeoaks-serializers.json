@@ -1,0 +1,467 @@
+{
+  "b6d7a5aefee4d8bc6cec5f03513be69c77050a93ca749cbe4eaee8a8fe52a45c": {
+    "game_id": "3_lucky_sparks",
+    "ordinal": 15,
+    "buy_schema": "direct_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_lucky_sparks.client.js",
+    "source_sha256": "b6d7a5aefee4d8bc6cec5f03513be69c77050a93ca749cbe4eaee8a8fe52a45c",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "9cf0c14402aae8f51b940140aab234593fcb7b67c38037229dd9e4211b7cb6ea": {
+    "game_id": "3_super_coin_volcanoes",
+    "ordinal": 28,
+    "buy_schema": "direct_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_super_coin_volcanoes.client.js",
+    "source_sha256": "9cf0c14402aae8f51b940140aab234593fcb7b67c38037229dd9e4211b7cb6ea",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "ed3f1a1a7ebde942d79bc92f8ccc1edbc4ff8f7c9fd01c0fdecc90cee115bc8b": {
+    "game_id": "4_hot_chillies",
+    "ordinal": 1,
+    "buy_schema": "direct_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/4_hot_chillies.client.js",
+    "source_sha256": "ed3f1a1a7ebde942d79bc92f8ccc1edbc4ff8f7c9fd01c0fdecc90cee115bc8b",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "7606a6dabef0beaf389b2c3f626b71e4778ddacd01883208d16fd990ee273958": {
+    "game_id": "coinup_volcano",
+    "ordinal": 9,
+    "buy_schema": "direct_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/coinup_volcano.client.js",
+    "source_sha256": "7606a6dabef0beaf389b2c3f626b71e4778ddacd01883208d16fd990ee273958",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "f53d538a251f26c26b0e279128d928d3430470a3b0736454601e7c42ac73c0a4": {
+    "game_id": "coin_volcano_2",
+    "ordinal": 39,
+    "buy_schema": "direct_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/coin_volcano_2.client.js",
+    "source_sha256": "f53d538a251f26c26b0e279128d928d3430470a3b0736454601e7c42ac73c0a4",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "a3e7ed912309a368edb240166d5798ce53e4a6c1c40da342f28a26d5bea684b4": {
+    "game_id": "3_superpower_diamonds",
+    "ordinal": 4,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_superpower_diamonds.client.js",
+    "source_sha256": "a3e7ed912309a368edb240166d5798ce53e4a6c1c40da342f28a26d5bea684b4",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "5a50a7ab7fecec60318041c95a42eb37579000b0bcf7d9c6c2ae00e562d31e60": {
+    "game_id": "4_clover_pots",
+    "ordinal": 14,
+    "buy_schema": "flow_numeric_no_factor",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/4_clover_pots.client.js",
+    "source_sha256": "5a50a7ab7fecec60318041c95a42eb37579000b0bcf7d9c6c2ae00e562d31e60",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved.",
+    "final_middleware_omits_bet_factor": true
+  },
+  "6fc9333be5a26c25b352b74f74103a9651ad793ede75f42f388566d9d52f6811": {
+    "game_id": "4_fortune_clovers",
+    "ordinal": 11,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/4_fortune_clovers.client.js",
+    "source_sha256": "6fc9333be5a26c25b352b74f74103a9651ad793ede75f42f388566d9d52f6811",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "e2195c2f7a8de6d13bed9f7c3ea4a1a3ca5bc30439cf2b79be345098fd5c4d2d": {
+    "game_id": "4_wolf_drums",
+    "ordinal": 25,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/4_wolf_drums.client.js",
+    "source_sha256": "e2195c2f7a8de6d13bed9f7c3ea4a1a3ca5bc30439cf2b79be345098fd5c4d2d",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "2df0cdd41f7e6f36d2a1e2282d1f656587f571f0f5896cde9b5a5baff54890be": {
+    "game_id": "777_fruity_coins",
+    "ordinal": 41,
+    "buy_schema": "flow_numeric_zero_based_no_factor",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/777_fruity_coins.client.js",
+    "source_sha256": "2df0cdd41f7e6f36d2a1e2282d1f656587f571f0f5896cde9b5a5baff54890be",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved.",
+    "final_middleware_omits_bet_factor": true,
+    "zero_based_proof": {
+      "enum_offset": 1334636,
+      "button_handler_offset": 1354888,
+      "emitter_offset": 1088663,
+      "price_lookup_offset": 1470192,
+      "description": "Small/Big/Small3Collect/Big3Collect are 0/1/2/3; selected_mode is unchanged and price lookup uses type+1."
+    }
+  },
+  "03ef862c14bbc747348d18e8efa3b18f7ce47e92f9a8699a57d7a8e3bfaf19cc": {
+    "game_id": "coin_princess_x1000",
+    "ordinal": 42,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/coin_princess_x1000.client.js",
+    "source_sha256": "03ef862c14bbc747348d18e8efa3b18f7ce47e92f9a8699a57d7a8e3bfaf19cc",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "73d97c03d5ba270bb0b29aea88a8634a9a007615b00fbaf68872b09821d5544f": {
+    "game_id": "grand",
+    "ordinal": 10,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/grand.client.js",
+    "source_sha256": "73d97c03d5ba270bb0b29aea88a8634a9a007615b00fbaf68872b09821d5544f",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "f9dd83dabff6035d0906b38bd2f1ef093f94ae6abcd81c19005147290f17c513": {
+    "game_id": "jungle_volcano",
+    "ordinal": 18,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/jungle_volcano.client.js",
+    "source_sha256": "f9dd83dabff6035d0906b38bd2f1ef093f94ae6abcd81c19005147290f17c513",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "e965f616576d7c52753c2b1d14120511d8b9951b5d51d862624b4cd10a09b8ff": {
+    "game_id": "lucky_apple_x1000",
+    "ordinal": 19,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/lucky_apple_x1000.client.js",
+    "source_sha256": "e965f616576d7c52753c2b1d14120511d8b9951b5d51d862624b4cd10a09b8ff",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "95135fb72b22ea1045080f34e45b59da8f664c96c0c0c25245cfe2b848a60b80": {
+    "game_id": "lucky_penny_2",
+    "ordinal": 37,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/lucky_penny_2.client.js",
+    "source_sha256": "95135fb72b22ea1045080f34e45b59da8f664c96c0c0c25245cfe2b848a60b80",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "4c7cb34c2286cf21d3058bd88ad7edf5cc427f6bf0c094832e3a304b8514c5d5": {
+    "game_id": "lucky_penny_powerscatter",
+    "ordinal": 17,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/lucky_penny_powerscatter.client.js",
+    "source_sha256": "4c7cb34c2286cf21d3058bd88ad7edf5cc427f6bf0c094832e3a304b8514c5d5",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "e9f18ab8bc35213026723e6a4bd29c93ee62c68232de294c9dab903a187ca8bb": {
+    "game_id": "super_china_pots",
+    "ordinal": 43,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/super_china_pots.client.js",
+    "source_sha256": "e9f18ab8bc35213026723e6a4bd29c93ee62c68232de294c9dab903a187ca8bb",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved.",
+    "guards": [
+      {
+        "path": "buy_bonus_price_1",
+        "test": "falsy"
+      }
+    ]
+  },
+  "88a54a458ada9521d7641498bcbe90b85f913449222a6556395294f1b87ba868": {
+    "game_id": "supreme_diamond_xxl",
+    "ordinal": 16,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/supreme_diamond_xxl.client.js",
+    "source_sha256": "88a54a458ada9521d7641498bcbe90b85f913449222a6556395294f1b87ba868",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "bea1a24e5165413499668830741e74bb740ba16e1a3f03d46df18ee017547fe8": {
+    "game_id": "thunder_tiger",
+    "ordinal": 21,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/thunder_tiger.client.js",
+    "source_sha256": "bea1a24e5165413499668830741e74bb740ba16e1a3f03d46df18ee017547fe8",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "fcea17445bdda0f1dd558e9a465c01e4654fb48c585cc4b18192dce7e8c741c7": {
+    "game_id": "4_super_clover_pots",
+    "ordinal": 6,
+    "buy_schema": "flow_numeric_no_factor",
+    "booster_schema": "gr_option",
+    "source_file": "threeoaks/reference/4_super_clover_pots.client.js",
+    "source_sha256": "fcea17445bdda0f1dd558e9a465c01e4654fb48c585cc4b18192dce7e8c741c7",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved.",
+    "final_middleware_omits_bet_factor": true
+  },
+  "841db479ccde8f951d4fc9528173cf0b195b970720c20c5ee10dc8b9db57185c": {
+    "game_id": "chili_coins_xxxl",
+    "ordinal": 3,
+    "buy_schema": "flow_numeric_no_factor",
+    "booster_schema": "gr_option",
+    "source_file": "threeoaks/reference/chili_coins_xxxl.client.js",
+    "source_sha256": "841db479ccde8f951d4fc9528173cf0b195b970720c20c5ee10dc8b9db57185c",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved.",
+    "final_middleware_omits_bet_factor": true
+  },
+  "1a6f0a60df96d0e822231265d6543eb06613ff5c31b7453d36c551b1aafd3adf": {
+    "game_id": "dj_tiger_x1000",
+    "ordinal": 24,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "gr_option",
+    "source_file": "threeoaks/reference/dj_tiger_x1000.client.js",
+    "source_sha256": "1a6f0a60df96d0e822231265d6543eb06613ff5c31b7453d36c551b1aafd3adf",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "7ea0dd9abef2bb8ad903b9dae637b7b4a56dabb8fab18d5080db0e7569e3844f": {
+    "game_id": "egypt_power_x1000",
+    "ordinal": 30,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "gr_option",
+    "source_file": "threeoaks/reference/egypt_power_x1000.client.js",
+    "source_sha256": "7ea0dd9abef2bb8ad903b9dae637b7b4a56dabb8fab18d5080db0e7569e3844f",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "56a9b0c6d59d860fbe0d6ccd4114cd17543e4c579ac7851798e65fbc8a1a5270": {
+    "game_id": "joker_glitz_x1000",
+    "ordinal": 13,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "gr_option",
+    "source_file": "threeoaks/reference/joker_glitz_x1000.client.js",
+    "source_sha256": "56a9b0c6d59d860fbe0d6ccd4114cd17543e4c579ac7851798e65fbc8a1a5270",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "05361238787d4bc94cdedcae6918173e67f46fee040bfbfeda2d6d08d6f444d5": {
+    "game_id": "lucky_apple_x2500",
+    "ordinal": 2,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "gr_option",
+    "source_file": "threeoaks/reference/lucky_apple_x2500.client.js",
+    "source_sha256": "05361238787d4bc94cdedcae6918173e67f46fee040bfbfeda2d6d08d6f444d5",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "a7a18e16e9b3006f44ef541f5db541ee200d7a9db9ea8b3d1f1fa39d3c980e5f": {
+    "game_id": "lava_coins_2",
+    "ordinal": 32,
+    "buy_schema": "flow_numeric_zero_based_no_factor",
+    "booster_schema": "ante_only",
+    "source_file": "threeoaks/reference/lava_coins_2.client.js",
+    "source_sha256": "a7a18e16e9b3006f44ef541f5db541ee200d7a9db9ea8b3d1f1fa39d3c980e5f",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved.",
+    "final_middleware_omits_bet_factor": true,
+    "zero_based_proof": {
+      "enum_offset": 1596723,
+      "button_handler_offset": 1617071,
+      "emitter_offset": 1233782,
+      "price_lookup_offset": 1794335,
+      "description": "BuyFeatureType values 0,1,2 pass unchanged to selected_mode; price is buy_bonus_prices[type+1]."
+    }
+  },
+  "49ca1d525d900142543620ec49c8fae6bfa02d4015518da3104efdd48815d4e2": {
+    "game_id": "4_african_drums",
+    "ordinal": 31,
+    "buy_schema": "flow_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/4_african_drums.client.js",
+    "source_sha256": "49ca1d525d900142543620ec49c8fae6bfa02d4015518da3104efdd48815d4e2",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "3dfe33ed9bf5fb86433de735a6135fc6b05d9a3144891166c1e5c01791039d99": {
+    "game_id": "amazonia_wins",
+    "ordinal": 40,
+    "buy_schema": "flow_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/amazonia_wins.client.js",
+    "source_sha256": "3dfe33ed9bf5fb86433de735a6135fc6b05d9a3144891166c1e5c01791039d99",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "1079bb3926e69facea7af9a994fe4d153e99af5d8d11d467c9b666c5799e7958": {
+    "game_id": "power_sun_xxl",
+    "ordinal": 34,
+    "buy_schema": "flow_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/power_sun_xxl.client.js",
+    "source_sha256": "1079bb3926e69facea7af9a994fe4d153e99af5d8d11d467c9b666c5799e7958",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "781a12e7a7013f16c603e8f30f3952410f91e8a2f2e3c0de377b374bf3ca52f1": {
+    "game_id": "space_coins",
+    "ordinal": 44,
+    "buy_schema": "flow_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/space_coins.client.js",
+    "source_sha256": "781a12e7a7013f16c603e8f30f3952410f91e8a2f2e3c0de377b374bf3ca52f1",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "4d2796ef5041970dfaa74c4a6d3bdf4230183303f5ac5a11d499409151a551dc": {
+    "game_id": "super_hot_teapots",
+    "ordinal": 36,
+    "buy_schema": "flow_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/super_hot_teapots.client.js",
+    "source_sha256": "4d2796ef5041970dfaa74c4a6d3bdf4230183303f5ac5a11d499409151a551dc",
+    "review_basis": "Game-specific emitter and its bound middleware reviewed from this exact public client source; numeric/string type and factor inclusion preserved."
+  },
+  "e95b00348c070433654b0e3fe919b36e946e9ab6caf1d250221044059237eb2d": {
+    "game_id": "3_african_drums",
+    "ordinal": 52,
+    "buy_schema": "flow_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_african_drums.client.js",
+    "source_sha256": "e95b00348c070433654b0e3fe919b36e946e9ab6caf1d250221044059237eb2d",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch."
+  },
+  "d9fe935771426574c297f405f30d009e681481da81204174a3b2daac13816100": {
+    "game_id": "3_aztec_temples",
+    "ordinal": 49,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_aztec_temples.client.js",
+    "source_sha256": "d9fe935771426574c297f405f30d009e681481da81204174a3b2daac13816100",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch.",
+    "guards": [
+      {
+        "path": "buy_bonus_prices.1",
+        "test": "positive"
+      }
+    ]
+  },
+  "ecfa46451b11a12c9442b1d7e5806b960a8a80691fb86646f2e418652708df4b": {
+    "game_id": "3_clover_pots_extra",
+    "ordinal": 51,
+    "buy_schema": "flow_plain_no_factor",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_clover_pots_extra.client.js",
+    "source_sha256": "ecfa46451b11a12c9442b1d7e5806b960a8a80691fb86646f2e418652708df4b",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch.",
+    "final_middleware_omits_bet_factor": true
+  },
+  "a9d85a6f0878e2975deaed9874211d73a47d2bdd47fca2f5aee71b77ab6e83af": {
+    "game_id": "3_coin_volcanoes",
+    "ordinal": 54,
+    "buy_schema": "direct_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_coin_volcanoes.client.js",
+    "source_sha256": "a9d85a6f0878e2975deaed9874211d73a47d2bdd47fca2f5aee71b77ab6e83af",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch.",
+    "guards": [
+      {
+        "path": "version",
+        "test": "falsy"
+      }
+    ]
+  },
+  "df6e230f580ab7535706e4f65245e61ac253157df4bbc697919a492627344ed6": {
+    "game_id": "3_hot_chillies",
+    "ordinal": 72,
+    "buy_schema": "direct_plain",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_hot_chillies.client.js",
+    "source_sha256": "df6e230f580ab7535706e4f65245e61ac253157df4bbc697919a492627344ed6",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch."
+  },
+  "7d013bf6f4ab0c632c7b50a6d41f4102fc3676858d4d8585c2cf9dc0338d1e66": {
+    "game_id": "3_hot_teapots",
+    "ordinal": 47,
+    "buy_schema": "flow_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_hot_teapots.client.js",
+    "source_sha256": "7d013bf6f4ab0c632c7b50a6d41f4102fc3676858d4d8585c2cf9dc0338d1e66",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch."
+  },
+  "f932cd08508efdfc8f7109b0119412cef3031339a85de96af1bb6434775c6ac7": {
+    "game_id": "3_super_hot_chillies",
+    "ordinal": 45,
+    "buy_schema": "direct_plain",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/3_super_hot_chillies.client.js",
+    "source_sha256": "f932cd08508efdfc8f7109b0119412cef3031339a85de96af1bb6434775c6ac7",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch."
+  },
+  "42d8a3961c7c197f9c35f0c69902a12335f4d18ee053bc06b53b0f41b2490ef4": {
+    "game_id": "coin_lightning",
+    "ordinal": 60,
+    "buy_schema": "direct_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/coin_lightning.client.js",
+    "source_sha256": "42d8a3961c7c197f9c35f0c69902a12335f4d18ee053bc06b53b0f41b2490ef4",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch.",
+    "guards": [
+      {
+        "path": "version",
+        "test": "falsy"
+      }
+    ]
+  },
+  "ddc2a9003a192940b5930daa575b560ffd2b66d4a669919f4a7c1304c62a5e49": {
+    "game_id": "coin_up",
+    "ordinal": 67,
+    "buy_schema": "direct_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/coin_up.client.js",
+    "source_sha256": "ddc2a9003a192940b5930daa575b560ffd2b66d4a669919f4a7c1304c62a5e49",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch.",
+    "guards": [
+      {
+        "path": "version",
+        "test": "falsy"
+      }
+    ]
+  },
+  "c995b2ca462f3d0921f36565dcf09238f2a8bbbc431115d0a8e661e09cfdecd3": {
+    "game_id": "coin_volcano",
+    "ordinal": 77,
+    "buy_schema": "direct_string",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/coin_volcano.client.js",
+    "source_sha256": "c995b2ca462f3d0921f36565dcf09238f2a8bbbc431115d0a8e661e09cfdecd3",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch."
+  },
+  "3910f41d2f3e9cbc82ac8f1bde804967aa37116f502a3c49927f4c3305d6c5a2": {
+    "game_id": "fishing_bear",
+    "ordinal": 63,
+    "buy_schema": "direct_plain",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/fishing_bear.client.js",
+    "source_sha256": "3910f41d2f3e9cbc82ac8f1bde804967aa37116f502a3c49927f4c3305d6c5a2",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch."
+  },
+  "a8edae220256301a00b7466e8787d0db7912c282d4407a63b41f92dbc315ab9b": {
+    "game_id": "lady_fortune",
+    "ordinal": 78,
+    "buy_schema": "flow_scatter_count",
+    "booster_schema": "ante_only",
+    "source_file": "threeoaks/reference/lady_fortune.client.js",
+    "source_sha256": "a8edae220256301a00b7466e8787d0db7912c282d4407a63b41f92dbc315ab9b",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch."
+  },
+  "0b25a7b86c2d81a98f91cbc8c3e844160733f8eba3bd81bda0f2282c5dd7df9c": {
+    "game_id": "lucky_penny",
+    "ordinal": 58,
+    "buy_schema": "flow_numeric",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/lucky_penny.client.js",
+    "source_sha256": "0b25a7b86c2d81a98f91cbc8c3e844160733f8eba3bd81bda0f2282c5dd7df9c",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch.",
+    "guards": [
+      {
+        "path": "freespins_buying_price_by_buy_spin_type.1",
+        "test": "falsy"
+      }
+    ]
+  },
+  "0e6b386e12dfeb4171e82cd1932af018e948c1e95656e54daef7e5b6fe82bde3": {
+    "game_id": "super_sticky_piggy",
+    "ordinal": 62,
+    "buy_schema": "direct_paid_feature",
+    "booster_schema": "none",
+    "source_file": "threeoaks/reference/super_sticky_piggy.client.js",
+    "source_sha256": "0e6b386e12dfeb4171e82cd1932af018e948c1e95656e54daef7e5b6fe82bde3",
+    "review_basis": "Reviewed exact public emitter, bound middleware and native settings branch.",
+    "paid_feature_map": {
+      "1": "fs",
+      "2": "sfs"
+    }
+  }
+}

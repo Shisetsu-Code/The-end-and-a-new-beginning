@@ -1,0 +1,2409 @@
+{
+  "id": "mascot",
+  "name": "Mascot Gaming",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": null,
+  "games": [
+    {
+      "id": "1win_zeus_the_thunderer_deluxe",
+      "name": "1 Win Zeus the Thunderer Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2"
+        },
+        {
+          "key": "buy_3",
+          "type": "purchase",
+          "label": "buy_3",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "across_the_universe",
+      "name": "Across the Universe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "admiral_x_fruit_machine",
+      "name": "Admiral X Fruit Machine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "all_star_win_x50",
+      "name": "All Star Win x50",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "aloha_tiki_bar",
+      "name": "Aloha Tiki Bar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "anksunamun",
+      "name": "Anksunamun: the Queen of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "azino_fruit_machine_x25",
+      "name": "Azino Fruit Machine x25",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "bamboo_bear_deluxe",
+      "name": "Bamboo Bear Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "bastet_and_cats_deluxe",
+      "name": "Bastet & Cats Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "battle_loot_hnw",
+      "name": "Battle Loot: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "big_win_x25",
+      "name": "Big Win x25",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "bitmine_bonanza",
+      "name": "Bitmine Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "booming_fruity_boom",
+      "name": "Booming Fruity Boom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "cancansaloon",
+      "name": "CanCan Saloon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "cleopatras_gems_rockways",
+      "name": "Cleopatra's Gems Rockways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "deepsea_riches",
+      "name": "Deepsea Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "dice_disco_mega_stacks",
+      "name": "DICE DISCO: MEGA STACKS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "dice_of_luxor",
+      "name": "Dice of Luxor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "dice_vegas",
+      "name": "Dice Vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "double_triple_fruits",
+      "name": "Double Triple Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "dragons_nest",
+      "name": "Dragon's Nest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "evil_bet",
+      "name": "the Evil Bet",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "evil_bet_cursed_spin",
+      "name": "Evil Bet: Cursed Spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        }
+      ]
+    },
+    {
+      "id": "fairytale_coven",
+      "name": "Fairytale Coven",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "for_the_realm",
+      "name": "For The Realm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "friar_tucks_inn",
+      "name": "FRIAR TUCK'S INN",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "fruit_disco_megastacks",
+      "name": "FRUIT DISCO: MEGA STACKS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruit_macau",
+      "name": "Fruit Macau",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruit_machine_mega_x",
+      "name": "FRUIT MACHINE: MEGA X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruit_monaco",
+      "name": "Fruit Monaco",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruit_vegas_extreme_x125",
+      "name": "Fruit Vegas Extreme x125",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruits_of_mbit",
+      "name": "Fruits of Mbit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitvegas",
+      "name": "Fruit Vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruity_x125",
+      "name": "FRUITY X125",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ganamos_mega_x",
+      "name": "Ganamos Mega X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "greedy_greenskins_rockways",
+      "name": "Greedy Greenskins Rockways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "gryphons_castle_deluxe",
+      "name": "GRYPHON'S CASTLE DELUXE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "hellsing",
+      "name": "Hell'Sing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hot_fruit_x15",
+      "name": "Hot Fruit x15",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "huntress_vs_baba_yaga",
+      "name": "Huntress vs Baba Yaga",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "hydras_lair",
+      "name": "Hydra's Lair",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ice_number_one",
+      "name": "Ice Number One",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "icy_rockfall_x25",
+      "name": "Icy Rockfall X25",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "incredible_xfu_hero",
+      "name": "THE INCREDIBLE X FU HERO",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "jackpot_gem_rush_hnw",
+      "name": "Jackpot Gem Rush: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "jesters_coin_tricks",
+      "name": "Jester’s Coin Tricks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "jewel_boost_reels",
+      "name": "Jewel Boost Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "antebet",
+          "label": "boost"
+        }
+      ]
+    },
+    {
+      "id": "jokers_mega_multipliers",
+      "name": "Joker’s Mega Multipliers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "antebet",
+          "label": "boost"
+        }
+      ]
+    },
+    {
+      "id": "jokers_wild_chaos",
+      "name": "Joker’s Wild Chaos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "la_fiesta_de_muertos",
+      "name": "La Fiesta De Muertos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "legioner",
+      "name": "Legioner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "lionspride",
+      "name": "Lions Pride",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "loot_the_train",
+      "name": "Loot the Train",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "lucky_fruity_coin",
+      "name": "Lucky Fruity Coin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "lucky_year_25",
+      "name": "Lucky Year 25",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "mayan_riches_rockways",
+      "name": "Mayan Riches Rockways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "merry_scary_christmas",
+      "name": "Merry Scary Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "milk_and_luck",
+      "name": "Milk & Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        }
+      ]
+    },
+    {
+      "id": "mist",
+      "name": "Mist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "northernheat",
+      "name": "Northern Heat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "origami_quest",
+      "name": "Origami Quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "antebet",
+          "label": "boost"
+        }
+      ]
+    },
+    {
+      "id": "pinup_dolls",
+      "name": "Pinup Dolls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "poseidon_the_deep_king",
+      "name": "Poseidon the Deep King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "primal_bet_rockways",
+      "name": "Primal Bet. Rockways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "prince_of_persia",
+      "name": "Prince of Persia: the gems of Persepolis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "purplepills",
+      "name": "Purple Pills",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "queen_of_spades",
+      "name": "Queen of Spades",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rekill",
+      "name": "ReKill",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rice_and_riches_hnw",
+      "name": "Rice & Riches: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "riot_2_blow_and_burn",
+      "name": "Riot 2: Blow & Burn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "riot_feral_riches",
+      "name": "Riot: Feral Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "riot_urban_wilds",
+      "name": "Riot: Urban Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "antebet",
+          "label": "boost"
+        }
+      ]
+    },
+    {
+      "id": "rocket_chimp_jackpot",
+      "name": "Rocket Chimp Jackpot!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "secrets_of_papyrus",
+      "name": "Secrets of Papyrus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "antebet",
+          "label": "boost"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "shining_wilds",
+      "name": "Shining Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "space_gems_rockblocks",
+      "name": "Space Gems Rockblocks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "spicy_candies_rockblocks",
+      "name": "Spicy Candies Rockblocks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "sticky_fruit_madness",
+      "name": "Sticky Fruit Madness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "tessa_hunt_and_the_mission_monte_carlo",
+      "name": "Tessa Hunt and the Mission Monte Carlo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "antebet",
+          "label": "boost"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "tessa_hunt_and_the_temple_of_horus",
+      "name": "Tessa Hunt and The Temple of Horus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "tessa_hunt_and_the_warrior_tomb",
+      "name": "Tessa Hunt And The Warrior Tomb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2"
+        },
+        {
+          "key": "buy_3",
+          "type": "purchase",
+          "label": "buy_3",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "the_biggest_win_x50",
+      "name": "The Biggest Win X50",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "the_book_of_amaterasu",
+      "name": "Book of Amaterasu",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "the_dawn_is_coming",
+      "name": "THE DAWN IS COMING!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "the_epic_win_x125",
+      "name": "The Epic Win x125",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "the_myth",
+      "name": "the Myth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "the_myth_deluxe",
+      "name": "The Myth Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "the_princess_and_dwarfs_rockways",
+      "name": "The Princess & Dwarfs: Rockways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "three_corsairs",
+      "name": "3 Corsairs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "trump_card_queen",
+      "name": "Trump Card: Queen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "twin_dice_of_olympus",
+      "name": "Twin Dice of Olympus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "twin_fruits_of_olympus",
+      "name": "Twin Fruits of Olympus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "twin_fruits_of_santa",
+      "name": "Twin Fruits of Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vamos_ganamos",
+      "name": "Vamos, Ganamos!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "antebet",
+          "label": "boost"
+        }
+      ]
+    },
+    {
+      "id": "wasteland_riches",
+      "name": "Wasteland Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "wild_spirit_deluxe",
+      "name": "Wild Spirit Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "wildlife_riches",
+      "name": "Wildlife Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wildspirit",
+      "name": "Wild Spirit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "winged_hussars",
+      "name": "Winged Hussars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "yukon_fever",
+      "name": "Yukon Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "zeus_the_thunderer",
+      "name": "Zeus the Thunderer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "zeus_titan_fury",
+      "name": "Zeus: Titan Fury",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1x_fruits",
+      "name": "1x Fruit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1x_riot",
+      "name": "1x Riot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2"
+        },
+        {
+          "key": "buy_3",
+          "type": "purchase",
+          "label": "buy_3",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "across_the_universe_keno",
+      "name": "Across the Universe Keno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "baccarat",
+      "name": "Baccarat",
+      "ready": false,
+      "block_reason": "mascot_table_excluded_from_demo",
+      "modes": []
+    },
+    {
+      "id": "blackjack",
+      "name": "Blackjack",
+      "ready": false,
+      "block_reason": "mascot_table_excluded_from_demo",
+      "modes": []
+    },
+    {
+      "id": "cleopatras_gems_bingo",
+      "name": "Cleopatra's Gems Bingo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "european_roulette",
+      "name": "European Roulette",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "fabulous_farm_slot",
+      "name": "Fabulous Farm Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "for_the_realm_deluxe",
+      "name": "For The Realm Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "fruits_of_luxor",
+      "name": "Fruits of Luxor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "holdem",
+      "name": "Holdem",
+      "ready": false,
+      "block_reason": "mascot_table_excluded_from_demo",
+      "modes": []
+    },
+    {
+      "id": "lucky_sheriff_keno",
+      "name": "Lucky Sheriff Keno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "mayan_riches_bingo",
+      "name": "Mayan Riches Bingo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "metal_frontiers",
+      "name": "Metal Frontiers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_4",
+          "type": "purchase",
+          "label": "buy_4",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "ouija_secrets",
+      "name": "Ouija Secrets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "plinball_machine",
+      "name": "PLINBALL MACHINE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "reel_eldorado",
+      "name": "Reel Eldorado",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "riot_brutalskis_revenge",
+      "name": "Riot: Brutalski’s Revenge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "riot_ultimate",
+      "name": "Riot Ultimate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2"
+        },
+        {
+          "key": "buy_3",
+          "type": "purchase",
+          "label": "buy_3",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "th_and_the_golden_sands",
+      "name": "Tessa Hunt and the Golden Sands",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "the_candy_keno",
+      "name": "The Candy Keno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "videopoker_3in1",
+      "name": "Videopoker 3 in 1",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "viking_fortune_keno",
+      "name": "Viking Fortune Keno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "wood_luck",
+      "name": "Wood Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "zeus_the_invincible",
+      "name": "Zeus the Invincible",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "cancan_saloon_deluxe",
+      "name": "Cancan Saloon Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        },
+        {
+          "key": "buy_1",
+          "type": "purchase",
+          "label": "buy_1"
+        },
+        {
+          "key": "buy_2",
+          "type": "purchase",
+          "label": "buy_2",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "scratch_the_bank",
+      "name": "SCRATCH THE BANK",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_0",
+          "type": "purchase",
+          "label": "buy_0"
+        }
+      ]
+    },
+    {
+      "id": "bamboo",
+      "name": "Bamboo",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "bastet",
+      "name": "Bastet",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "benny",
+      "name": "Benny",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "black_and_white",
+      "name": "Black And White",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "catch_the_win",
+      "name": "Catch The Win",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "deadline_survival",
+      "name": "Deadline Survival",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "double_roulette",
+      "name": "Double Roulette",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "evil_bet_shoot_them_all",
+      "name": "Evil Bet Shoot Them All",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "fly_high",
+      "name": "Fly High",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "fly_high_arabian_nights",
+      "name": "Fly High Arabian Nights",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "fly_high_holiday_wins",
+      "name": "Fly High Holiday Wins",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "gemz",
+      "name": "Gemz",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "ginja_run",
+      "name": "Ginja Run",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "gryphon",
+      "name": "Gryphon",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "gunman_crash",
+      "name": "Gunman Crash",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "horde",
+      "name": "Horde",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "jokers_streak_x25",
+      "name": "Jokers Streak X25",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "keno",
+      "name": "Keno",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "keno_king",
+      "name": "Keno King",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "keno_party",
+      "name": "Keno Party",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "kite_festival_crash_game",
+      "name": "Kite Festival Crash Game",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "lightning_path",
+      "name": "Lightning Path",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "marble_bounce",
+      "name": "Marble Bounce",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "merlin",
+      "name": "Merlin",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "mermaid",
+      "name": "Mermaid",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "mines_blast",
+      "name": "Mines Blast",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "new_year_royale",
+      "name": "New Year Royale",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "pin_plinko",
+      "name": "Pin Plinko",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "plinko_builder",
+      "name": "Plinko Builder",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "plinko_pop_2",
+      "name": "Plinko Pop 2",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "plinko_pop_meltdown",
+      "name": "Plinko Pop Meltdown",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "rite",
+      "name": "Rite",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "robin",
+      "name": "Robin",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "rooster_run_2",
+      "name": "Rooster Run 2",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "rooster_run_snowy_adventure",
+      "name": "Rooster Run Snowy Adventure",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "shooting_galaxy",
+      "name": "Shooting Galaxy",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "shooting_galaxy_arcade_wins",
+      "name": "Shooting Galaxy Arcade Wins",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "skyrocket",
+      "name": "Skyrocket",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "space_blaze",
+      "name": "Space Blaze",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "thetomb",
+      "name": "Thetomb",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "ufo_crash",
+      "name": "Ufo Crash",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    },
+    {
+      "id": "venetian",
+      "name": "Venetian",
+      "ready": false,
+      "block_reason": "mascot_launcher_http_400_recorded",
+      "modes": []
+    }
+  ]
+}

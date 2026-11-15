@@ -1,0 +1,1724 @@
+{
+  "id": "peterandsons",
+  "name": "Peter & Sons",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "peterandsons.native",
+    "workspace_adapter": "collection_extra_chat4.py::collect",
+    "continuations": "native state/available actions",
+    "closure": "native final state and wallet"
+  },
+  "games": [
+    {
+      "id": "royal-hunt",
+      "name": "Royal Hunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet_3GUNS",
+          "type": "antebet",
+          "label": "bet_3GUNS"
+        },
+        {
+          "key": "bet_FREQ",
+          "type": "antebet",
+          "label": "bet_FREQ"
+        },
+        {
+          "key": "bet_GUN6",
+          "type": "antebet",
+          "label": "bet_GUN6"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "barbarossa-beyond-the-edge",
+      "name": "Barbarossa: Beyond the Edge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_POWER_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_POWER_RANDOM"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "viking-legacy",
+      "name": "VIKING LEGACY: HOLD & WIN",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "bloody-mary",
+      "name": "Bloody Mary: Pray for Prey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_SFS_3SC",
+          "type": "purchase",
+          "label": "buy_SFS_3SC"
+        }
+      ]
+    },
+    {
+      "id": "dragon-guardian",
+      "name": "Dragon Guardians: 3 Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        },
+        {
+          "key": "buy_SUPER_FS",
+          "type": "purchase",
+          "label": "buy_SUPER_FS"
+        }
+      ]
+    },
+    {
+      "id": "lucky-caiman",
+      "name": "Lucky Caiman",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        },
+        {
+          "key": "buy_POWER_SPIN",
+          "type": "purchase",
+          "label": "buy_POWER_SPIN"
+        },
+        {
+          "key": "buy_SUPER_FS",
+          "type": "purchase",
+          "label": "buy_SUPER_FS"
+        }
+      ]
+    },
+    {
+      "id": "bear-patrol",
+      "name": "Bear Patrol",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "greedy-alice-2",
+      "name": "Greedy Alice 2: Bigger Bites",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_4SC",
+          "type": "purchase",
+          "label": "buy_FS_4SC"
+        }
+      ]
+    },
+    {
+      "id": "cyber-runner",
+      "name": "Cyber Runner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "big-bounty-bandits",
+      "name": "Big Bounty Bandits: 3 Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet_GOLDEN_BET",
+          "type": "antebet",
+          "label": "bet_GOLDEN_BET"
+        },
+        {
+          "key": "bet_POWER_SPIN",
+          "type": "antebet",
+          "label": "bet_POWER_SPIN"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        },
+        {
+          "key": "buy_SUPER_FS",
+          "type": "purchase",
+          "label": "buy_SUPER_FS"
+        }
+      ]
+    },
+    {
+      "id": "ginger-wins",
+      "name": "Ginger Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "soapranos",
+      "name": "Soapranos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        },
+        {
+          "key": "buy_SFS_4SC",
+          "type": "purchase",
+          "label": "buy_SFS_4SC"
+        }
+      ]
+    },
+    {
+      "id": "roadquake",
+      "name": "Roadquake",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        },
+        {
+          "key": "buy_MEGA_FS",
+          "type": "purchase",
+          "label": "buy_MEGA_FS"
+        },
+        {
+          "key": "buy_SUPER_FS",
+          "type": "purchase",
+          "label": "buy_SUPER_FS"
+        }
+      ]
+    },
+    {
+      "id": "roman-glory",
+      "name": "Roman Glory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FIREBALL",
+          "type": "purchase",
+          "label": "buy_FIREBALL"
+        },
+        {
+          "key": "buy_INFINITY",
+          "type": "purchase",
+          "label": "buy_INFINITY"
+        },
+        {
+          "key": "buy_MULTIPLIER",
+          "type": "purchase",
+          "label": "buy_MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "id": "rustworld",
+      "name": "Rust World",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_4SC",
+          "type": "purchase",
+          "label": "buy_FS_4SC"
+        },
+        {
+          "key": "buy_FS_POWER",
+          "type": "purchase",
+          "label": "buy_FS_POWER"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "barbarossa-dragon-empire",
+      "name": "Barbarossa Dragon Empire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_POWER_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_POWER_RANDOM"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "bad-santa",
+      "name": "Bad Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_4SC",
+          "type": "purchase",
+          "label": "buy_FS_4SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "gnomes-and-giants",
+      "name": "Gnomes and Giants",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_6SC",
+          "type": "purchase",
+          "label": "buy_FS_6SC"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "zombie-road",
+      "name": "Zombie Road",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "bubblegum-robo",
+      "name": "Bubblegum and Robo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_POWER",
+          "type": "purchase",
+          "label": "buy_FS_POWER"
+        },
+        {
+          "key": "buy_POWER_SPIN",
+          "type": "purchase",
+          "label": "buy_POWER_SPIN"
+        }
+      ]
+    },
+    {
+      "id": "dig-it",
+      "name": "Dig It",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_5SC",
+          "type": "purchase",
+          "label": "buy_FS_5SC"
+        }
+      ]
+    },
+    {
+      "id": "alibi",
+      "name": "Alibi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "boom-farm",
+      "name": "Boom Farm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_BOOSTED_FS",
+          "type": "purchase",
+          "label": "buy_BOOSTED_FS"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        }
+      ]
+    },
+    {
+      "id": "ghostfather-awakened",
+      "name": "Ghostfather - Awakened",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_4SC",
+          "type": "purchase",
+          "label": "buy_FS_4SC"
+        },
+        {
+          "key": "buy_FS_5SC",
+          "type": "purchase",
+          "label": "buy_FS_5SC"
+        }
+      ]
+    },
+    {
+      "id": "blood-club",
+      "name": "Blood Club",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "greedy-alice",
+      "name": "Greedy Alice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_4SC",
+          "type": "purchase",
+          "label": "buy_FS_4SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "potion-power",
+      "name": "Potion Power",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_7",
+          "type": "purchase",
+          "label": "buy_FS_7"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "gears-of-fortune",
+      "name": "Steamworks - Gears of fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "epic-hellas",
+      "name": "Epic Hellas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_BONUS",
+          "type": "purchase",
+          "label": "buy_BONUS"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        }
+      ]
+    },
+    {
+      "id": "barbarossa-revenge",
+      "name": "Barbarossa Revenge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "muddy-waters",
+      "name": "Muddy Waters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_4SC",
+          "type": "purchase",
+          "label": "buy_FS_4SC"
+        },
+        {
+          "key": "buy_FS_5SC",
+          "type": "purchase",
+          "label": "buy_FS_5SC"
+        }
+      ]
+    },
+    {
+      "id": "workshop",
+      "name": "Steamworks - The workshop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "gunpowder",
+      "name": "Gunpowder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "evil-devil",
+      "name": "Evil Devil",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "sands-of-destiny",
+      "name": "Sands of Destiny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        }
+      ]
+    },
+    {
+      "id": "ghostfather",
+      "name": "Ghost Father",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "mutagenes",
+      "name": "Mutagenes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "coin-blox",
+      "name": "Coin Blox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet_COINS",
+          "type": "antebet",
+          "label": "bet_COINS"
+        },
+        {
+          "key": "bet_FS",
+          "type": "antebet",
+          "label": "bet_FS"
+        },
+        {
+          "key": "buy_BONUS",
+          "type": "purchase",
+          "label": "buy_BONUS"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        }
+      ]
+    },
+    {
+      "id": "pop-cop",
+      "name": "Pop Cop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "cauldron",
+      "name": "Cauldron",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "hunter",
+      "name": "Peter Hunter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "abrakadabra",
+      "name": "Abrakadabra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        },
+        {
+          "key": "buy_SFS",
+          "type": "purchase",
+          "label": "buy_SFS"
+        }
+      ]
+    },
+    {
+      "id": "animafia",
+      "name": "Animafia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_20",
+          "type": "purchase",
+          "label": "buy_FS_20"
+        },
+        {
+          "key": "buy_FS_6",
+          "type": "purchase",
+          "label": "buy_FS_6"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "thunderhawk",
+      "name": "Thunderhawk",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_BONUS",
+          "type": "purchase",
+          "label": "buy_BONUS"
+        },
+        {
+          "key": "buy_FS",
+          "type": "purchase",
+          "label": "buy_FS"
+        }
+      ]
+    },
+    {
+      "id": "barbarossa",
+      "name": "Barbarossa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_RANDOM",
+          "type": "purchase",
+          "label": "buy_FS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "book-of-books",
+      "name": "Book of Books",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_3SC",
+          "type": "purchase",
+          "label": "buy_FS_3SC"
+        },
+        {
+          "key": "buy_FS_4SC",
+          "type": "purchase",
+          "label": "buy_FS_4SC"
+        },
+        {
+          "key": "buy_FS_5SC",
+          "type": "purchase",
+          "label": "buy_FS_5SC"
+        }
+      ]
+    },
+    {
+      "id": "frozen-age",
+      "name": "Frozen Age",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_FS_6SC",
+          "type": "purchase",
+          "label": "buy_FS_6SC"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "dragon-blox",
+      "name": "Dragon Blox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy_BONUS",
+          "type": "purchase",
+          "label": "buy_BONUS"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "musashi",
+      "name": "The Legend of Musashi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "dungeon",
+      "name": "Dungeon Tower",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "bet",
+          "type": "antebet",
+          "label": "bet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "voodoo-hex",
+      "name": "Voodoo Hex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy_FS_15",
+          "type": "purchase",
+          "label": "buy_FS_15"
+        },
+        {
+          "key": "buy_FS_7",
+          "type": "purchase",
+          "label": "buy_FS_7"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "wild-one",
+      "name": "Wild One",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "water-blox",
+      "name": "Water Blox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy_FS_20",
+          "type": "purchase",
+          "label": "buy_FS_20"
+        },
+        {
+          "key": "buy_FS_5",
+          "type": "purchase",
+          "label": "buy_FS_5"
+        },
+        {
+          "key": "buy_FS_RAND",
+          "type": "purchase",
+          "label": "buy_FS_RAND"
+        }
+      ]
+    },
+    {
+      "id": "duel",
+      "name": "Wild Duel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "xibalba",
+      "name": "Xibalba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "valkyries",
+      "name": "Valkyries",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "monster-blox",
+      "name": "Monster Blox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "robin-not",
+      "name": "Robin - Nottingham Raiders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "hammer-of-gods",
+      "name": "Hammer of Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "robin",
+      "name": "Robin - Sherwood Marauders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "johnan-legendarian",
+      "name": "Johnan Legendarian",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "precious-7",
+      "name": "Precious 7",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "kaiser",
+      "name": "Kaiser",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "mafiosi",
+      "name": "The Mafiosi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "zombies",
+      "name": "Zombies - At the door",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "wild-bard",
+      "name": "Wild Bard",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "name": "Rome - The Conquerors",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "punch-club",
+      "name": "Punch Club",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "sheriff-colt",
+      "name": "Sheriff Colt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "circus",
+      "name": "DCirque",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "main",
+          "type": "normal",
+          "label": "main"
+        }
+      ]
+    },
+    {
+      "id": "gold-raiders",
+      "name": "Gold Raiders",
+      "ready": false,
+      "block_reason": "historical_round_or_remote_block_requires_reconciliation",
+      "modes": []
+    },
+    {
+      "id": "inks-pints",
+      "name": "Inks & Pints",
+      "ready": false,
+      "block_reason": "historical_round_or_remote_block_requires_reconciliation",
+      "modes": []
+    },
+    {
+      "id": "tango-of-chaos",
+      "name": "Tango Of Chaos",
+      "ready": false,
+      "block_reason": "historical_round_or_remote_block_requires_reconciliation",
+      "modes": []
+    },
+    {
+      "id": "artifacts",
+      "name": "Artifacts",
+      "ready": false,
+      "block_reason": "historical_round_or_remote_block_requires_reconciliation",
+      "modes": []
+    },
+    {
+      "id": "bunny-heist",
+      "name": "Bunny Heist",
+      "ready": false,
+      "block_reason": "historical_round_or_remote_block_requires_reconciliation",
+      "modes": []
+    }
+  ]
+}

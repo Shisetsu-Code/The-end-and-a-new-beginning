@@ -1,0 +1,2 @@
+# Binding provenance hashes require the original bytes, including CRLF sources.
+bindings/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

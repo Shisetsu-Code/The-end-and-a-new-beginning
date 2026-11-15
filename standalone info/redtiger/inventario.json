@@ -1,0 +1,6562 @@
+{
+  "id": "redtiger",
+  "name": "Red Tiger",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "redtiger.http",
+    "workspace_adapter": "collection_full_misc.py::_redtiger",
+    "continuations": "native mode/choice/finish",
+    "closure": "native round closed; wallet gap explicit"
+  },
+  "games": [
+    {
+      "id": "nobrainer0000000",
+      "name": "no-brainer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "antebet",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gijoe00000000000",
+      "name": "g-i-joe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mightyhuntsman00",
+      "name": "mighty-huntsman",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "santasrage000000",
+      "name": "santa-s-rage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "trailofdeath0000",
+      "name": "trail-of-death",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "hellchaser000000",
+      "name": "hellchaser",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ouija00000000000",
+      "name": "Ouija",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "stevelarryandgog",
+      "name": "Steve, Larry And Gogo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "powerpuff0000000",
+      "name": "Power Puff",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cocksandrobbers0",
+      "name": "Cocks and Robbers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "antebet",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "stormfire0000000",
+      "name": "Stormfire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thorsrage2000000",
+      "name": "Thor's Rage 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "antebet",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "discoinferno0000",
+      "name": "Disco Inferno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "antebet",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bountycove000000",
+      "name": "Bounty Cove",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "777moneystrike00",
+      "name": "777 Money Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "happycappy000000",
+      "name": "Happy Cappy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "golddiggercluste",
+      "name": "Gold Digger Clusterbuster",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "antebet",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "diamondblitz3000",
+      "name": "Diamond Blitz 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "hitthejungle0000",
+      "name": "Hit The Jungle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "pandagoesboom000",
+      "name": "Panda Goes Boom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dynamiterichesth",
+      "name": "Dynamite Riches The Mother Lode",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "antebet",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "antebet",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "worldfootballfor",
+      "name": "World Football Fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jackpottrain0000",
+      "name": "Jackpot Train",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "lokisdescendants",
+      "name": "Loki's Descendants",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "aztectribute0000",
+      "name": "Aztec Tribute",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101:WildMultiplier",
+          "type": "purchase",
+          "label": "101 · Wild Multiplier",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101:WaysMultiplier",
+          "type": "purchase",
+          "label": "101 · Ways Multiplier",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101:Random",
+          "type": "purchase",
+          "label": "101 · Random",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sharkboss0000000",
+      "name": "Shark Boss",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "archdragonking00",
+      "name": "Archdragon King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "monopolymoneymag",
+      "name": "MONOPOLY Money Magnate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "monopolyrentrush",
+      "name": "MONOPOLY Rent Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonboyz000000",
+      "name": "Dragon Boyz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "diggingforwilds0",
+      "name": "Digging For Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "variant",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jinglewaysmegawa",
+      "name": "Jingle Ways Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "zillardkingmegaw",
+      "name": "Zillard King Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "judgementdaymega",
+      "name": "Judgement Day Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wellofwildsmegaw",
+      "name": "Well of Wilds Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "zeuslightningmeg",
+      "name": "Zeus Lightning Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "nftmegaways00000",
+      "name": "NFT Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "revolvero0000000",
+      "name": "Revolvero",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goodluckclusterb",
+      "name": "Good Luck Clusterbuster™ ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fruitblox0000000",
+      "name": "Fruit blox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "laserfruit000000",
+      "name": "Laser Fruit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "buffalomaniamega",
+      "name": "Buffalo Mania Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "whatthefoxmegawa",
+      "name": "What the Fox Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildtundra000000",
+      "name": "Wild Tundra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "10001nightsmegaw",
+      "name": "10,001 Nights Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piggyriches2mega",
+      "name": "Piggy Riches 2 Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gonzosqumegaways",
+      "name": "Gonzo's Quest™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goldenleprechaun",
+      "name": "Golden Leprechaun Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piggyrichesbegin",
+      "name": "Piggy Riches Begins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wingsoframegaway",
+      "name": "Wings of Ra Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sakuramasks00000",
+      "name": "Sakura Masks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonsfire00000",
+      "name": "Dragon's Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "easygold00000000",
+      "name": "Easy Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ultrarich0000000",
+      "name": "Ultra Rich",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "astronaut0000000",
+      "name": "Astronaut",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "godsoftroymegawa",
+      "name": "Gods of Troy Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "biggains00000000",
+      "name": "Big Gains",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "trillionairemega",
+      "name": "Trillionaire Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "egyptmegaways000",
+      "name": "Egypt Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wolfstacksmegawa",
+      "name": "Wolf Stacks Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "primatekingmegaw",
+      "name": "Primate King Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "trophyfish000000",
+      "name": "Trophy Fish",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bugsysbar0000000",
+      "name": "Bugsy's Bar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "astros0000000000",
+      "name": "Astros",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bassbossmegaways",
+      "name": "Bass Boss Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "magicpowersmegaw",
+      "name": "Magic Powers Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "diamondsup000000",
+      "name": "Diamonds Up",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gigablast0000000",
+      "name": "Giga Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mysteryreelsdelu",
+      "name": "Mystery Reels Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "miamirise0000000",
+      "name": "Miami Rise",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piratesplentytre",
+      "name": "Pirates' Plenty: Treasures of the Seas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ancientdisco0000",
+      "name": "Ancient Disco",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sirensriches0000",
+      "name": "Sirens' Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bigrichturkeys00",
+      "name": "Big Rich Turkeys",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "landofriches0000",
+      "name": "Land of Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "clovercraze00000",
+      "name": "Clover Craze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bloodsuckersmega",
+      "name": "Blood Suckers™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "yearroundrichesc",
+      "name": "Year-Round Riches Clusterbuster™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cashvolt00000000",
+      "name": "Cash Volt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "777strike0000000",
+      "name": "777 Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "diamondblitz0000",
+      "name": "Diamond Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fortunehouse0000",
+      "name": "Fortune House",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "777superstrike00",
+      "name": "777 Super Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cashultimate0000",
+      "name": "Cash Ultimate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "777diamondstrike",
+      "name": "777 Diamond Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piggyrichesmegaw",
+      "name": "Piggy Riches Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dynamiterichesme",
+      "name": "Dynamite Riches Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "grandwheel000000",
+      "name": "Grand Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cashvoltsupercha",
+      "name": "Cash Volt Supercharged",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "reelkingmega0000",
+      "name": "Reel King Mega",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mysteryfruit0000",
+      "name": "Mystery Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonsluck00000",
+      "name": "Dragon's Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "devilsnumber0000",
+      "name": "Devil's Number",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "takethemoney0000",
+      "name": "Take the Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thorsrage0000000",
+      "name": "Thor's Rage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonsfiremegaw",
+      "name": "Dragon's Fire Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "godsoftroy000000",
+      "name": "Gods of Troy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonsclusterbu",
+      "name": "Dragons Clusterbuster™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cashornothing000",
+      "name": "Cash or Nothing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wingsofra0000000",
+      "name": "Wings of Ra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dynamiteriches00",
+      "name": "Dynamite Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "primateking00000",
+      "name": "Primate King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goldenlotus00000",
+      "name": "Golden Lotus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonsfireinfin",
+      "name": "Dragon's Fire Infinireels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckyhalloween00",
+      "name": "Lucky Halloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "playwiththedevil",
+      "name": "Play with the Devil",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "snowwildandthe7f",
+      "name": "Snow Wild and the Seven Features",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1942skywarrior00",
+      "name": "1942: Sky Warrior",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "10001nights00000",
+      "name": "10,001 Nights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "4squad0000000000",
+      "name": "4Squad",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "5families0000000",
+      "name": "5 Families",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7sluck0000000000",
+      "name": "7’s Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ageofakkadia0000",
+      "name": "Age of Akkadia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "agentroyale00000",
+      "name": "Agent Royale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "alexanderthegrea",
+      "name": "Alexander the Great: World Conqueror",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ancientscript000",
+      "name": "Ancient Script",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ancientsblessing",
+      "name": "Ancients' Blessing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "apacheway0000000",
+      "name": "Apache Way",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "arcadebomb000000",
+      "name": "Arcade Bomb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "athensmegaways00",
+      "name": "Athens Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "atlantis00000000",
+      "name": "Atlantis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "aztecspins000000",
+      "name": "Aztec Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bassboss00000000",
+      "name": "Bass Boss",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "beriched00000000",
+      "name": "Beriched",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bettyborisandboo",
+      "name": "Betty, Boris and Boo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bigcatrescuemega",
+      "name": "Big Cat Rescue Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "blazingclusters0",
+      "name": "Blazing Clusters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "blobsterscluster",
+      "name": "Blobsters Clusterbuster™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bombuster0000000",
+      "name": "Bombuster",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bountyraid000000",
+      "name": "Bounty Raid",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bountyraid200000",
+      "name": "Bounty Raid 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "buffalocollector",
+      "name": "Buffalo Collector",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bullsrunwild0000",
+      "name": "Bulls Run Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "caishen168000000",
+      "name": "Cai Shen 168",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cakeandicecream0",
+      "name": "Cake & Ice Cream",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "24hourgrandprix0",
+      "name": "24 Hour Grand Prix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "aurumcodex000000",
+      "name": "Aurum Codex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cannonballcash00",
+      "name": "Cannonball Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "caseclosed000000",
+      "name": "Case Closed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bluediamond00000",
+      "name": "Blue Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cashexplorer0000",
+      "name": "Cash Explorer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "chinesetreasures",
+      "name": "Chinese Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "christmasmorning",
+      "name": "Christmas Morning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cinderella000000",
+      "name": "Cinderella's Ball",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cirquedelafortun",
+      "name": "Cirque de la Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "imperialpalace00",
+      "name": "Imperial Palace",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "intherabbithole0",
+      "name": "In the Rabbit Hole",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jackinapot000000",
+      "name": "Jack in a Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jackrabbitjackpo",
+      "name": "Jackrabbit Jackpots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jadecharms000000",
+      "name": "Jade Charms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "threekingdoms000",
+      "name": "Three Kingdoms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jesterspins00000",
+      "name": "Jester Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jewelscarabs0000",
+      "name": "Jewel Scarabs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "threemusketeers0",
+      "name": "Three Musketeers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "tikifruits000000",
+      "name": "Tiki Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jinglebellspower",
+      "name": "Jingle Bells Power Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonslckdeluxe",
+      "name": "Dragon's Luck Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jinglebells00000",
+      "name": "Jingle Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "tikifruitstotemf",
+      "name": "Tiki Fruits: Totem Frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "totemlightningpo",
+      "name": "Totem Lightning Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "transylvanianigh",
+      "name": "Transylvania: Night of Blood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonsluckmegaw",
+      "name": "Dragon's Luck Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "treasuremine0000",
+      "name": "Treasure Mine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonsmirror000",
+      "name": "Dragon's Mirror",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "treasureminepowe",
+      "name": "Treasure Mine Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "tricksandtreats0",
+      "name": "Tricks and Treats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "joeexotic0000000",
+      "name": "Joe Exotic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "trillionaire0000",
+      "name": "Trillionaire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "knightsofavalon0",
+      "name": "Knights of Avalon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "eagleriches00000",
+      "name": "Eagle Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "lastchancesaloon",
+      "name": "Last Chance Saloon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legendofathena00",
+      "name": "Legend of Athena",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legendaryexcalib",
+      "name": "Legendary Excalibur",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "egyptclusterbust",
+      "name": "Egypt Clusterbuster™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "liondance0000000",
+      "name": "Lion Dance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "turtleparadise00",
+      "name": "Turtle Paradise",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "clashofthebeasts",
+      "name": "Clash of the Beasts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "lionshoard000000",
+      "name": "Lion's Hoard",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "crazygenie000000",
+      "name": "Crazy Genie",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "londontube000000",
+      "name": "London Tube",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckyeaster00000",
+      "name": "Lucky Easter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckyfortunecat0",
+      "name": "Lucky Fortune Cat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckyfridays0000",
+      "name": "Lucky Fridays",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckydevil000000",
+      "name": "Lucky Little Devil",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckyoktoberfest",
+      "name": "Lucky Oktoberfest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckyvalentine00",
+      "name": "Lucky Valentine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "luckywizard00000",
+      "name": "Lucky Wizard",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "magicgate0000000",
+      "name": "Magic Gate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "magictricks00000",
+      "name": "Magic Tricks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "majesticmysterie",
+      "name": "Majestic Mysteries Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "masquerade000000",
+      "name": "Masquerade",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mayangods0000000",
+      "name": "Mayan Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mayhem0000000000",
+      "name": "Mayhem",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "megadragon000000",
+      "name": "Mega Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "megajade00000000",
+      "name": "Mega Jade",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "megapyramid00000",
+      "name": "Mega Pyramid",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "megarise00000000",
+      "name": "Mega Rise",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "midasgold0000000",
+      "name": "Midas Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "midnightromance0",
+      "name": "Midnight Romance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "monstersunchaine",
+      "name": "Monsters Unchained",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "moonspell0000000",
+      "name": "Moon Spell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "multiplierriches",
+      "name": "Multiplier Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mysteryreelsmega",
+      "name": "Mystery Reels Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mysteryreelspowe",
+      "name": "Mystery Reels Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mysticstaxx00000",
+      "name": "Mystic Staxx",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "mysticwheel00000",
+      "name": "Mystic Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "narcosmexico0000",
+      "name": "Narcos Mexico",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "neonlinks0000000",
+      "name": "Neon Links",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "nightroller00000",
+      "name": "Night Roller",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ninjaways0000000",
+      "name": "Ninja Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "oceanfortune0000",
+      "name": "Ocean Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "pathofdestiny000",
+      "name": "Path of Destiny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "peggysweets00000",
+      "name": "Peggy Sweets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "persianfortune00",
+      "name": "Persian Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "redphoenixrising",
+      "name": "Phoenix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "phoenixfwerreels",
+      "name": "Phoenix Fire Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piggypirates0000",
+      "name": "Piggy Pirates",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "crystalmirror000",
+      "name": "Crystal Mirror",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cyberattack00000",
+      "name": "Cyber Attack",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "davincismystery0",
+      "name": "Da Vinci's Mystery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dearsanta0000000",
+      "name": "Dear Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "diamondblitz2000",
+      "name": "Diamond Blitz 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "diamonddoggies00",
+      "name": "Diamond Doggies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "diamondroyale000",
+      "name": "Diamond Royale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dicedicedice0000",
+      "name": "Dice Dice Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "draculaawakening",
+      "name": "Dracula Awakening",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonkinglegend",
+      "name": "Dragon King: Legend of the Seas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "elvenmagic000000",
+      "name": "Elven Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "emeralddiamond00",
+      "name": "Emerald Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "vaultcracker0000",
+      "name": "Vault Cracker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonslock00000",
+      "name": "Dragons' Lock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "vaultofanubis000",
+      "name": "Vault of Anubis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "emperorofindia00",
+      "name": "Emperor of India",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "vaultcrackermega",
+      "name": "Vault Cracker Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "epicjourney00000",
+      "name": "Epic Journey ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "vickyventura0000",
+      "name": "Vicky Ventura",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "esqueletomariach",
+      "name": "Esqueleto Mariachi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fafababies000000",
+      "name": "Fa Fa Babies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "vikingslegacyeve",
+      "name": "Viking’s Legacy Everyway™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "viralspiral00000",
+      "name": "Viral Spiral",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thewisecrackerli",
+      "name": "The Wisecracker Lightning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thorslightning00",
+      "name": "Thor’s Lightning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thorsvengeance00",
+      "name": "Thor’s Vengeance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "doggyrichesmegaw",
+      "name": "Doggy Riches Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "divineways000000",
+      "name": "Divine Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "pinatasandponies",
+      "name": "Pinatas & Ponies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "warofgods0000000",
+      "name": "War of Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piratesplenty000",
+      "name": "Pirates Plenty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fafababies200000",
+      "name": "Fa Fa Babies 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thewildkiss00000",
+      "name": "The Wild Kiss",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thewildhatter000",
+      "name": "The Wild Hatter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thegreatesttrain",
+      "name": "The Greatest Train Robbery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "farmtastic000000",
+      "name": "Farmtastic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "thegoodthebadand",
+      "name": "The Good, The Bad, and The Rich",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fishtastic000000",
+      "name": "Fishtastic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fivestar00000000",
+      "name": "Five Star",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fivestarpowerree",
+      "name": "Five Star Power Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "flamingfox000000",
+      "name": "Flaming Fox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "flodder000000000",
+      "name": "Flodder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "forever7s0000000",
+      "name": "Forever 7's",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wellofwishes0000",
+      "name": "Well of Wishes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piratespeforgold",
+      "name": "Pirates Plenty Battle for Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "theequalizer0000",
+      "name": "The Equalizer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fortunecharm0000",
+      "name": "Fortune Charm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "tenelements00000",
+      "name": "Ten Elements",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "piratesplentymeg",
+      "name": "Pirates Plenty Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sylvanspirits000",
+      "name": "Sylvan Spirits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildcatsmultilin",
+      "name": "Wild Cats Multiline",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fortunefest00000",
+      "name": "Fortune Fest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildcircus000000",
+      "name": "Wild Circus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fortunehousepowe",
+      "name": "Fortune House Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildelements0000",
+      "name": "Wild Elements",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sumospins0000000",
+      "name": "Sumo Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildexpedition00",
+      "name": "Wild Expedition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fruitflash000000",
+      "name": "Fruit Flash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sugarliciousever",
+      "name": "Sugarlicious Everyway™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildfight0000000",
+      "name": "Wild Fight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "fruitsnap0000000",
+      "name": "Fruit Snap",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildhotchilliree",
+      "name": "Wild Hot Chilli Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sugarmonster0000",
+      "name": "Sugar Monster",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildhotchillire2",
+      "name": "Wild Hot Chilli Reels 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "pussnboots000000",
+      "name": "Puss'n Boots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "stolentreasures0",
+      "name": "Stolen Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gemsgonewild0000",
+      "name": "Gems Gone Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "rainbowjackpots0",
+      "name": "Rainbow Jackpots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gemsgonewildpowe",
+      "name": "Gems Gone Wild Power Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildnords0000000",
+      "name": "Wild Nords",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "rainbowjackpotsm",
+      "name": "Rainbow Jackpots Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "stage88800000000",
+      "name": "Stage 888",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildoclock000000",
+      "name": "Wild O'Clock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "rainbowjackpotsp",
+      "name": "Rainbow Jackpots Power Lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "spookycarnival00",
+      "name": "Spooky Carnival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gemsinfernomegaw",
+      "name": "Gems Inferno Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildspartans0000",
+      "name": "Wild Spartans",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gemtastic0000000",
+      "name": "Gemtastic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "spintown00000000",
+      "name": "Spin Town",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "raslegend0000000",
+      "name": "Ra's Legend",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "genienights00000",
+      "name": "Genie Nights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "reactor000000000",
+      "name": "Reactor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "getthegoldinfini",
+      "name": "Get the Gold Infinireels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "reddiamond000000",
+      "name": "Red Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "sheepgonewild000",
+      "name": "Sheep Gone Wild ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "shahmat000000000",
+      "name": "Shah Mat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "redhotbbq0000000",
+      "name": "Red Hot BBQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "redlinerush00000",
+      "name": "Redline Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "shadowsociety000",
+      "name": "Shadow Society",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "reelheist0000000",
+      "name": "Reel Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wildwildchest000",
+      "name": "Wild Wild Chest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "reelkeeper000000",
+      "name": "Reel Keeper",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "winescalator0000",
+      "name": "Win Escalator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "reelkeeperpowerr",
+      "name": "Reel Keeper Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "regalbeasts00000",
+      "name": "Regal Beasts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "regalstreak00000",
+      "name": "Regal Streak",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "godofwealth00000",
+      "name": "God of Wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "reptizillionspow",
+      "name": "Reptizillions Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "winterwonders000",
+      "name": "Winter Wonders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "riddleofthesphin",
+      "name": "Riddle of the Sphinx",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "riostars00000000",
+      "name": "Rio Stars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "risquemegaways00",
+      "name": "Risque Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "robinhoodswildfo",
+      "name": "Robin Hood’s Wild Forest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wolfkin000000000",
+      "name": "Wolfkin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "wrigleysworld000",
+      "name": "Wrigley’s World",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "yucatansmystery0",
+      "name": "Yucatan’s Mystery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "zaidasfortune000",
+      "name": "Zaida’s Fortune™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "rocketmen0000000",
+      "name": "Rocket Men",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "zeuslightningpow",
+      "name": "Zeus Lightning Power Reels™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goldminemistress",
+      "name": "Gold Mine Mistress",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "zillardking00000",
+      "name": "Zillard King™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goldstar00000000",
+      "name": "Gold Star",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goldencryptex000",
+      "name": "Golden Cryptex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goldenoffer00000",
+      "name": "Golden Offer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "templeofgold0000",
+      "name": "Golden Temple",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "goldentsar000000",
+      "name": "Golden Tsar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gonzitasquest000",
+      "name": "Gonzita's Quest™ ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "rocknlock0000000",
+      "name": "Rock'n'Lock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "romanemperors000",
+      "name": "Roman Emperors",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "royalgems0000000",
+      "name": "Royal Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "greatgold0000000",
+      "name": "Great Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "hammergods000000",
+      "name": "Hammer Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "hanselandgretelc",
+      "name": "Hansel & Gretel Candyhouse ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "happyapples00000",
+      "name": "Happy Apples",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "harlecoin0000000",
+      "name": "HarleCoin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "herekittykitty00",
+      "name": "Here Kitty Kitty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "hoardofposeidon0",
+      "name": "Hoard of Poseidon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "santaspins000000",
+      "name": "Santa Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "savannahpride000",
+      "name": "Savannah Pride ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "hothotchillipot0",
+      "name": "Hot Hot Chilli Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "hustling00000000",
+      "name": "Hustling",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "gladiatorways000",
+      "name": "Gladiator Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "serpentking00000",
+      "name": "Serpent King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonslckstacks",
+      "name": "Dragon's Luck Power Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cashgoddess00000",
+      "name": "Cash Goddess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "riseofcleopatra0",
+      "name": "Rise of Cleopatra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "playwiththedevmw",
+      "name": "Play With the Devil Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "cashlamps0000000",
+      "name": "Cash Lamps",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "bloodymurder0000",
+      "name": "Bloody Murder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "dragonduo0000000",
+      "name": "Dragon Duo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "biggestvault0000",
+      "name": "Biggest Vault",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jackpotquest0000",
+      "name": "Jackpot Quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "jinglebellsbona2",
+      "name": "Jingle Bells Bonanza 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "monopolycashiski",
+      "name": "MONOPOLY Cash Is King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "101",
+          "type": "purchase",
+          "label": "101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "102",
+          "type": "purchase",
+          "label": "102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "103",
+          "type": "purchase",
+          "label": "103",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "104",
+          "type": "purchase",
+          "label": "104",
+          "requires_prerequisites": false
+        }
+      ]
+    }
+  ]
+}

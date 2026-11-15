@@ -1,0 +1,454 @@
+{
+  "source": "archived BGaming Python source contracts; active menus/source required, historical success is not a prerequisite",
+  "games": {
+    "SpiderCircusHoldAndWin": {
+      "family": "variants",
+      "modes": {
+        "20 Lines": "normal",
+        "20 Lines/bonus_buy": "purchase",
+        "40 Lines": "normal",
+        "40 Lines/bonus_buy": "purchase",
+        "60 Lines": "normal",
+        "60 Lines/bonus_buy": "purchase",
+        "80 Lines": "normal",
+        "80 Lines/bonus_buy": "purchase",
+        "100 Lines": "normal",
+        "100 Lines/bonus_buy": "purchase",
+        "20 Lines x2": "variant",
+        "40 Lines x2": "variant",
+        "60 Lines x2": "variant",
+        "80 Lines x2": "variant",
+        "100 Lines x2": "variant"
+      }
+    },
+    "RoyalBeellionHoldAndWin": {
+      "family": "variants",
+      "modes": {
+        "20 Lines": "normal",
+        "20 Lines/bonus_buy": "purchase",
+        "40 Lines": "normal",
+        "40 Lines/bonus_buy": "purchase",
+        "60 Lines": "normal",
+        "60 Lines/bonus_buy": "purchase",
+        "80 Lines": "normal",
+        "80 Lines/bonus_buy": "purchase",
+        "100 Lines": "normal",
+        "100 Lines/bonus_buy": "purchase",
+        "20 Lines x2": "variant",
+        "40 Lines x2": "variant",
+        "60 Lines x2": "variant",
+        "80 Lines x2": "variant",
+        "100 Lines x2": "variant"
+      }
+    },
+    "FrozenFruit": {
+      "family": "extras",
+      "modes": {
+        "freespin_buy/extra-first:regenerate_bonus/attempt:1": "purchase",
+        "freespin_buy/extra-first:extra_multiplier/attempt:2": "purchase"
+      }
+    },
+    "WildTiger2": {
+      "family": "variants",
+      "modes": {
+        "20 Lines": "normal",
+        "20 Lines/bonus_buy": "purchase",
+        "40 Lines": "normal",
+        "40 Lines/bonus_buy": "purchase",
+        "60 Lines": "normal",
+        "60 Lines/bonus_buy": "purchase",
+        "80 Lines": "normal",
+        "80 Lines/bonus_buy": "purchase",
+        "100 Lines": "normal",
+        "100 Lines/bonus_buy": "purchase"
+      }
+    },
+    "CatsSoup": {
+      "family": "cats",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "AliceWonderLuck": {
+      "family": "alice",
+      "modes": {
+        "normal": "normal",
+        "bonus_chance": "antebet",
+        "freespin_buy:0/collect/auto": "purchase",
+        "freespin_buy:0/collect/manual_low": "purchase",
+        "freespin_buy:0/collect/manual_high": "purchase",
+        "freespin_buy:0/gamble_once/auto": "purchase",
+        "freespin_buy:0/gamble_once/manual_low": "purchase",
+        "freespin_buy:1/collect/auto": "purchase",
+        "freespin_buy:1/collect/manual_low": "purchase",
+        "freespin_buy:1/collect/manual_high": "purchase",
+        "freespin_buy:1/gamble_once/auto": "purchase",
+        "freespin_buy:1/gamble_once/manual_low": "purchase"
+      }
+    },
+    "HotChilliBells": {
+      "family": "variants",
+      "modes": {
+        "20 Lines": "normal",
+        "20 Lines/bonus_buy": "purchase",
+        "40 Lines": "normal",
+        "40 Lines/bonus_buy": "purchase",
+        "60 Lines": "normal",
+        "60 Lines/bonus_buy": "purchase",
+        "80 Lines": "normal",
+        "80 Lines/bonus_buy": "purchase",
+        "100 Lines": "normal",
+        "100 Lines/bonus_buy": "purchase"
+      }
+    },
+    "WildMoonThieves": {
+      "family": "wildmoon",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase",
+        "manual_first_door:0/freespin_buy": "purchase",
+        "manual_first_door:1/freespin_buy": "purchase",
+        "manual_first_door:2/freespin_buy": "purchase",
+        "manual_first_door:3/freespin_buy": "purchase",
+        "manual_first_door:4/freespin_buy": "purchase",
+        "manual_first_door:5/freespin_buy": "purchase",
+        "manual_first_door:6/freespin_buy": "purchase",
+        "manual_first_door:7/freespin_buy": "purchase",
+        "manual_first_door:8/freespin_buy": "purchase",
+        "manual_first_door:9/freespin_buy": "purchase",
+        "manual_first_door:10/freespin_buy": "purchase",
+        "manual_first_door:11/freespin_buy": "purchase",
+        "manual_first_door:12/freespin_buy": "purchase",
+        "manual_first_door:13/freespin_buy": "purchase",
+        "manual_first_door:14/freespin_buy": "purchase",
+        "manual_first_door:15/freespin_buy": "purchase"
+      }
+    },
+    "Catdiana": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "Hottest666": {
+      "family": "extras",
+      "modes": {
+        "freespin_buy/extra-first:regenerate_bonus/attempt:1": "purchase"
+      }
+    },
+    "MummysGold": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "DigDigDigger": {
+      "family": "dig",
+      "modes": {
+        "conditional_card/s": "variant",
+        "conditional_card/c": "variant",
+        "conditional_card/d": "variant",
+        "conditional_card/h": "variant",
+        "conditional_card/black": "variant",
+        "conditional_card/red": "variant"
+      }
+    },
+    "FourLuckyDiamonds": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "BookOfCats": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal",
+        "feature_buy": "purchase"
+      }
+    },
+    "ElvisFrog": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "FourLuckyClover": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "Avalon": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "DeepSea": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "SpinAndSpell": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "FireLightning": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "AztecMagicDeluxe": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "PlatinumLightningDeluxe": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "WestTown": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal"
+      }
+    },
+    "LuckyLadyClover": {
+      "family": "v1",
+      "modes": {
+        "normal/all_default_lines": "normal",
+        "semantic_card:s": "variant",
+        "semantic_card:c": "variant",
+        "semantic_card:d": "variant",
+        "semantic_card:h": "variant",
+        "semantic_card:black": "variant",
+        "semantic_card:red": "variant"
+      }
+    },
+    "HotRocketMegaPotz": {
+      "family": "rpc:oga",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy/collect": "purchase",
+        "freespin_buy/gamble_once": "purchase",
+        "high_freespin_buy/no_choice": "purchase"
+      }
+    },
+    "RedAndHotChilli": {
+      "family": "rpc:cocos",
+      "modes": {
+        "normal": "normal",
+        "chance_x2": "antebet",
+        "coin_hunt/collect": "variant",
+        "chilli_blast/collect": "variant",
+        "coin_hunt/gamble_once": "variant",
+        "chilli_blast/gamble_once": "variant"
+      }
+    },
+    "CatsLoveYummy": {
+      "family": "rpc:modern",
+      "modes": {
+        "normal": "normal",
+        "buy_feature:1": "purchase"
+      }
+    },
+    "MysticReels": {
+      "family": "rpc:modern",
+      "modes": {
+        "normal": "normal",
+        "ENCORE": "variant",
+        "BONUSBUY1": "purchase"
+      }
+    },
+    "TheGodfather3PillarsOfPower": {
+      "family": "rpc:oga",
+      "modes": {
+        "normal": "normal",
+        "normalBuyCost": "purchase",
+        "superBuyCost": "purchase"
+      }
+    },
+    "MultiRush": {
+      "family": "rpc:product",
+      "modes": {
+        "normal": "normal",
+        "boost": "booster",
+        "cx64": "variant",
+        "bonus": "variant",
+        "super": "variant"
+      }
+    },
+    "HotRocket532": {
+      "family": "rpc:oga",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "BlingBlitzDiamondDrop": {
+      "family": "rpc:oga",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "GatesOfPower": {
+      "family": "rpc:product",
+      "modes": {
+        "normal": "normal",
+        "boost": "booster",
+        "bns": "variant",
+        "enhance": "variant",
+        "bonus": "variant",
+        "super": "variant"
+      }
+    },
+    "RecycleRiches": {
+      "family": "rpc:recycle-riches",
+      "modes": {
+        "normal": "normal",
+        "chance": "antebet",
+        "buy_random": "purchase",
+        "buy_max": "purchase"
+      }
+    },
+    "RocketEruptionTripleBlast": {
+      "family": "rpc:oga",
+      "modes": {
+        "normal": "normal",
+        "normalBuyCost": "purchase",
+        "superBuyCost": "purchase"
+      }
+    },
+    "BlazingFirepots": {
+      "family": "rpc:blazing-firepots",
+      "modes": {
+        "normal": "normal",
+        "buy_chance": "antebet",
+        "buy_bonus": "purchase"
+      }
+    },
+    "JewelBoom": {
+      "family": "rpc:oga",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "TreasureExplorer": {
+      "family": "rpc:treasure-explorer",
+      "modes": {
+        "normal": "normal",
+        "buy_chance": "antebet",
+        "buy_bonus": "purchase",
+        "buy_bonus_and_chance": "antebet"
+      }
+    },
+    "StarTrekNextGen": {
+      "family": "rpc:star",
+      "modes": {
+        "normal": "normal",
+        "featureBuyMulFreespin/choice:1": "purchase",
+        "featureBuyMulFreespin/choice:2": "purchase",
+        "featureBuyMulFreespin/choice:3": "purchase",
+        "featureBuyMulFreespin/choice:4": "purchase",
+        "featureBuyMulRespin": "purchase"
+      }
+    },
+    "CluckingHell": {
+      "family": "rpc:product",
+      "modes": {
+        "normal": "normal",
+        "boost": "booster",
+        "cx64": "variant",
+        "bonus": "variant",
+        "super": "variant"
+      }
+    },
+    "YommiRush": {
+      "family": "rpc:final",
+      "modes": {
+        "normal": "normal",
+        "buy_chance": "antebet",
+        "buy_bonus": "purchase",
+        "buy_bonus_and_chance": "antebet"
+      }
+    },
+    "JokerVsJoker": {
+      "family": "rpc:final",
+      "modes": {
+        "normal": "normal",
+        "buy_bonus": "purchase",
+        "buy_chance": "antebet"
+      }
+    },
+    "BigBucksSaloon": {
+      "family": "rpc:big-bucks-saloon",
+      "modes": {
+        "normal": "normal",
+        "buy_bonus": "purchase"
+      }
+    },
+    "BlackbeardsBounty": {
+      "family": "rpc:blackbeards-bounty",
+      "modes": {
+        "normal": "normal",
+        "buy_chance": "antebet",
+        "freeSpin": "variant",
+        "freeSpinRandom": "variant"
+      }
+    },
+    "SugarMix": {
+      "family": "rpc:sugar-mix",
+      "modes": {
+        "normal": "normal",
+        "buy_bonus": "purchase"
+      }
+    },
+    "ZeusGoesWild": {
+      "family": "rpc:zeus-goes-wild",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "WildClustersP": {
+      "family": "rpc:product",
+      "modes": {
+        "normal": "normal",
+        "wild_booster_x3": "booster",
+        "wild_booster_x5": "booster",
+        "full_drop": "variant",
+        "drop_dead": "variant"
+      }
+    },
+    "JungleQueen": {
+      "family": "rpc:jungle-queen",
+      "modes": {
+        "normal": "normal",
+        "buybonus": "purchase"
+      }
+    }
+  },
+  "source_sha256": {
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_demo_qa.py": "191c0691235acf1ff25e9deaba26efefc934abf539161b681df887510ca13157",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/legacy_metadata.py": "cae961b7397c26e8202ae2b574908edd4500dcee48f0ede41162ec682c509a72",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/native_variants.py": "c70630e51cd0fa64f1c72fbe12eddb3df4045ed9f16e1fbe6a6254881c059a84",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/old_slots.py": "d5f224862fefcfa3c151a21745901e029cd1ca02aa9d2b17aec3e9c32246928a",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/classic_slots.py": "a72cbf0019fc98477d2ccf5c67b918c8e81689741a7b4ada94e83e2f97c28bdb",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/alice_choices.py": "05c1973b26525d4d124704b01be0a198a0311dcca939e2cfdf2182b069f4cdde",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cats_choices.py": "5db6023b66406ec194dc7b164f0654a5537f711f82963d0392b1221a83421e98",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/bonus_choices_extra.py": "0f79db9162462fa3a1f639fdae82c8df9a6f95361cdf4be37e86cda92653a193",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_wild_moon_manual.py": "a580566f05a15b1655b7307cf75dfda229cf1455dc9bcbe7a98cd77055613ee0",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/classic_gamble.py": "527d5280b71ac6e904009d946f6177a4f1e99449bdadf06a8450cd309b7ce090",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/finish_dig_conditional_choices.py": "eadf50946db70fbc062e3d83dc62ea5927285e6140768376371a67462db05283",
+    "standalone info/bgaming/inventario.json": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796",
+    "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "origin_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+  "notes": [
+    "Derived native request controls only; no historical sessions or wire payloads.",
+    "Normal uses the minimum positive bet offered by fresh init, as in capture.py.",
+    "Purchase prices are exact literals observed at bet=1, never wallet-derived or extrapolated.",
+    "The binary field is captured opaquely; known continuation and closure come from next_action/an.",
+    "No pick/select index search or financial acceptance gate is ported."
+  ],
+  "sources": [
+    {
+      "path": "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md",
+      "sha256": "1599dee30ea00cb57d96e5e6aa7a54d3ef01a790f9b08940425a0dc194735413"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/rubyplay/capture.py",
+      "sha256": "a59f4b8eb275d945a71d2ee42fdd02be0f8a5fcada1dc4038c99bc5b348cb494"
+    },
+    {
+      "path": "standalone info/rubyplay/referencias/provider-work/rubyplay-chat2/open_demo_session.py",
+      "sha256": "8951f253e4cbc0ab404008518d98a99488a0bf41187a9e29dd9abc920d938690"
+    }
+  ],
+  "games": {
+    "rp_1": {
+      "game_id": 1,
+      "protocol": 2,
+      "math": 20190114,
+      "source_examples": [
+        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 76"
+      ],
+      "purchases": {}
+    },
+    "rp_102": {
+      "game_id": 102,
+      "protocol": 2,
+      "math": 2023091396,
+      "source_examples": [
+        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 128"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 500
+        }
+      }
+    },
+    "rp_103": {
+      "game_id": 103,
+      "protocol": 2,
+      "math": 2023091496,
+      "source_examples": [
+        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 134"
+      ],
+      "purchases": {
+        "freespin": {
+          "bet": 1,
+          "price": 500
+        }
+      }
+    },
+    "rp_106": {
+      "game_id": 106,
+      "protocol": 2,
+      "math": 2023100196,
+      "source_examples": [
+        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 226"
+      ],
+      "purchases": {}
+    },
+    "rp_109": {
+      "game_id": 109,
+      "protocol": 2,
+      "math": 2023111096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 275"
+      ],
+      "purchases": {}
+    },
+    "rp_112": {
+      "game_id": 112,
+      "protocol": 2,
+      "math": 2024010896,
+      "source_examples": [
+        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 325"
+      ],
+      "purchases": {}
+    },
+    "rp_114": {
+      "game_id": 114,
+      "protocol": 2,
+      "math": 2024013096,
+      "source_examples": [
+        "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md:line 331"
+      ],
+      "purchases": {}
+    },
+    "rp_222": {
+      "game_id": 222,
+      "protocol": 2,
+      "math": 2025093096,
+      "source_examples": [
+        "standalone info/rubyplay/referencias/provider-work/rubyplay-chat2/open_demo_session.py",
+        "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/rubyplay/capture.py:versions"
+      ],
+      "purchases": {}
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "evidence_root": "../../standalone info",
+  "data_root": "../captures",
+  "run_id": "direct-demo",
+  "default_parallel_games": 1,
+  "providers": [],
+  "exits": [{"id": "direct"}]
+}

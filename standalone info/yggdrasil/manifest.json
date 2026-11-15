@@ -1,0 +1,50 @@
+{
+  "proveedor": "yggdrasil",
+  "archivos": [
+    {
+      "ruta": "codigo/yggdrasil.rs",
+      "bytes": 25827,
+      "sha256": "d5e54f73a3cf8ab501f4d35158cb130cdf6586e43b1e8aca2a1aad12e767f93c"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 73060,
+      "sha256": "13a96cb0a51db7ac7c8ffbaf5d2eaecca358dcb67a1face4f2e69ab41de225c1"
+    },
+    {
+      "ruta": "evidencia/yggdrasil-export.json",
+      "bytes": 87005,
+      "sha256": "1d961c1da45ae60dc097e27710d833574b294758febb4105dfa55cd03867c78f"
+    },
+    {
+      "ruta": "evidencia/yggdrasil.json",
+      "bytes": 9401,
+      "sha256": "84d86ce289d88bcbf33d2d0af4fbff47097fdef2bde556e5b9a3a5d9219841b6"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 62594,
+      "sha256": "2e8661d79d99f394186fb590302503fd64ef875f6be4079b14b6960c2ad845b3"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "ruta": "referencias/provider-work/yggdrasil-export/yggdrasil-games.csv",
+      "bytes": 5883,
+      "sha256": "88af1117739dcdc6afe96574c181fb123d39b337547ff69ec318ca46ec908233"
+    },
+    {
+      "ruta": "referencias/provider-work/yggdrasil-export/yggdrasil-rounds.csv",
+      "bytes": 34727,
+      "sha256": "f7c66f85ff4c82ebf4e5e235c5f6d9a7619dd1387b70dabc35301f0d9bcd3ebb"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 524,
+      "sha256": "e056aa20aa1c8a5f9ea50599204a08efb88c9af0b4fd02c9dc8eefdadfcc59dd"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "proveedor": "gamesglobal",
+  "archivos": [
+    {
+      "ruta": "bindings/gamesglobal-inventory.json",
+      "bytes": 18447,
+      "sha256": "1629221a212d88816b6d7d3af340b01bb5ee4acc5cea66abf7da1af153591279"
+    },
+    {
+      "ruta": "codigo/gamesglobal.rs",
+      "bytes": 16509,
+      "sha256": "abd5dbb2c5431083411cdc1f8ce92c3d905ed9b5368401cfeb3c3a59a94a2cd3"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 19253,
+      "sha256": "5bb3241cee90fbdec758c5824ae3044f5796e5757cfa2448882c8b00fa55fe2b"
+    },
+    {
+      "ruta": "evidencia/gamesglobal-audit.json",
+      "bytes": 12860,
+      "sha256": "42820a7f3f136036ba7b1d5ed447ceb04e5860e9c43a23d794b1241462b5f193"
+    },
+    {
+      "ruta": "evidencia/gamesglobal.json",
+      "bytes": 74,
+      "sha256": "d82a4a74f8d0b4d4743e250f9493ca4b98881974b70a917818e72152c8824992"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 18951,
+      "sha256": "5a3a10adffe008be64f0f446b41d51f1ed62d2a0c262f47c2811002d2fae3ee7"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 331,
+      "sha256": "dac98152b97900cdcf7af81150efe57b4fdaa287f35306c736b7fdcfe1c96311"
+    }
+  ]
+}

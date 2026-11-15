@@ -1,0 +1,5301 @@
+{
+  "id": "elk",
+  "name": "ELK Studios",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "elk.xiter",
+    "workspace_adapter": "collection_worker.py::elk",
+    "continuations": "native game state",
+    "closure": "native closed state and wallet"
+  },
+  "games": [
+    {
+      "id": "propaganda-2",
+      "name": "Propaganda 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "world-eaters-2",
+      "name": "World Eaters 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "wonder-train",
+      "name": "Wondertrain",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "bamboo-pandits",
+      "name": "Bamboo Pandits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "concrete-cowboys",
+      "name": "Concrete Cowboys",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "grizzly-stampede",
+      "name": "Grizzly Stampede",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "langley-street-23",
+      "name": "Langley Street 23",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "quackers",
+      "name": "Quackers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots-5",
+      "name": "Pirots 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF:boss",
+          "type": "normal",
+          "label": "DEF:boss"
+        },
+        {
+          "key": "X01:boss",
+          "type": "variant",
+          "label": "X01:boss"
+        },
+        {
+          "key": "X02:boss",
+          "type": "variant",
+          "label": "X02:boss"
+        },
+        {
+          "key": "X03:boss",
+          "type": "variant",
+          "label": "X03:boss"
+        },
+        {
+          "key": "X04:boss",
+          "type": "variant",
+          "label": "X04:boss"
+        },
+        {
+          "key": "X05:boss",
+          "type": "variant",
+          "label": "X05:boss"
+        },
+        {
+          "key": "DEF:nest",
+          "type": "variant",
+          "label": "DEF:nest"
+        },
+        {
+          "key": "X01:nest",
+          "type": "variant",
+          "label": "X01:nest"
+        },
+        {
+          "key": "X02:nest",
+          "type": "variant",
+          "label": "X02:nest"
+        },
+        {
+          "key": "X03:nest",
+          "type": "variant",
+          "label": "X03:nest"
+        },
+        {
+          "key": "X04:nest",
+          "type": "variant",
+          "label": "X04:nest"
+        },
+        {
+          "key": "X05:nest",
+          "type": "variant",
+          "label": "X05:nest"
+        },
+        {
+          "key": "DEF:ship",
+          "type": "variant",
+          "label": "DEF:ship"
+        },
+        {
+          "key": "X01:ship",
+          "type": "variant",
+          "label": "X01:ship"
+        },
+        {
+          "key": "X02:ship",
+          "type": "variant",
+          "label": "X02:ship"
+        },
+        {
+          "key": "X03:ship",
+          "type": "variant",
+          "label": "X03:ship"
+        },
+        {
+          "key": "X04:ship",
+          "type": "variant",
+          "label": "X04:ship"
+        },
+        {
+          "key": "X05:ship",
+          "type": "variant",
+          "label": "X05:ship"
+        },
+        {
+          "key": "DEF:temple",
+          "type": "variant",
+          "label": "DEF:temple"
+        },
+        {
+          "key": "X01:temple",
+          "type": "variant",
+          "label": "X01:temple"
+        },
+        {
+          "key": "X02:temple",
+          "type": "variant",
+          "label": "X02:temple"
+        },
+        {
+          "key": "X03:temple",
+          "type": "variant",
+          "label": "X03:temple"
+        },
+        {
+          "key": "X04:temple",
+          "type": "variant",
+          "label": "X04:temple"
+        },
+        {
+          "key": "X05:temple",
+          "type": "variant",
+          "label": "X05:temple"
+        }
+      ]
+    },
+    {
+      "id": "heist-guys-2",
+      "name": "Heist Guys 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "boomberries",
+      "name": "Boomberries",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "spark-of-creation",
+      "name": "Spark of Creation",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "wild-toro-3",
+      "name": "Wild Toro 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF:day",
+          "type": "normal",
+          "label": "DEF:day"
+        },
+        {
+          "key": "X01:day",
+          "type": "variant",
+          "label": "X01:day"
+        },
+        {
+          "key": "X02:day",
+          "type": "variant",
+          "label": "X02:day"
+        },
+        {
+          "key": "X03:day",
+          "type": "variant",
+          "label": "X03:day"
+        },
+        {
+          "key": "X04:day",
+          "type": "variant",
+          "label": "X04:day"
+        },
+        {
+          "key": "X05:day",
+          "type": "variant",
+          "label": "X05:day"
+        },
+        {
+          "key": "DEF:night",
+          "type": "variant",
+          "label": "DEF:night"
+        },
+        {
+          "key": "X01:night",
+          "type": "variant",
+          "label": "X01:night"
+        },
+        {
+          "key": "X02:night",
+          "type": "variant",
+          "label": "X02:night"
+        },
+        {
+          "key": "X03:night",
+          "type": "variant",
+          "label": "X03:night"
+        },
+        {
+          "key": "X04:night",
+          "type": "variant",
+          "label": "X04:night"
+        },
+        {
+          "key": "X05:night",
+          "type": "variant",
+          "label": "X05:night"
+        }
+      ]
+    },
+    {
+      "id": "deadcode",
+      "name": "Deadcode",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "huff-n-puff-collectr",
+      "name": "Huff N’ Puff CollectR",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF:garden",
+          "type": "normal",
+          "label": "DEF:garden"
+        },
+        {
+          "key": "X01:garden",
+          "type": "variant",
+          "label": "X01:garden"
+        },
+        {
+          "key": "X02:garden",
+          "type": "variant",
+          "label": "X02:garden"
+        },
+        {
+          "key": "X03:garden",
+          "type": "variant",
+          "label": "X03:garden"
+        },
+        {
+          "key": "X04:garden",
+          "type": "variant",
+          "label": "X04:garden"
+        },
+        {
+          "key": "X05:garden",
+          "type": "variant",
+          "label": "X05:garden"
+        },
+        {
+          "key": "DEF:springbreak",
+          "type": "variant",
+          "label": "DEF:springbreak"
+        },
+        {
+          "key": "X01:springbreak",
+          "type": "variant",
+          "label": "X01:springbreak"
+        },
+        {
+          "key": "X02:springbreak",
+          "type": "variant",
+          "label": "X02:springbreak"
+        },
+        {
+          "key": "X03:springbreak",
+          "type": "variant",
+          "label": "X03:springbreak"
+        },
+        {
+          "key": "X04:springbreak",
+          "type": "variant",
+          "label": "X04:springbreak"
+        },
+        {
+          "key": "X05:springbreak",
+          "type": "variant",
+          "label": "X05:springbreak"
+        }
+      ]
+    },
+    {
+      "id": "oxygen-3",
+      "name": "Oxygen 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "bushido-gold",
+      "name": "Bushido Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "ryze-2",
+      "name": "Ryze 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "bonzos-bananza",
+      "name": "Bonzo’s Bananza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "arcanum",
+      "name": "Arcanum",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "tropicool-5",
+      "name": "Tropicool 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "ice-wolf-2",
+      "name": "Ice Wolf 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cygnus-6",
+      "name": "Cygnus 6",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "world-eaters",
+      "name": "World Eaters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "toro911",
+      "name": "Toro911",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "skibblings",
+      "name": "Skibblings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "giraffalot",
+      "name": "Giraffalot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cathedral-9",
+      "name": "Cathedral 9",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "crescendo",
+      "name": "Crescendo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots-4-inferno",
+      "name": "Pirots 4 – Inferno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF:fire",
+          "type": "normal",
+          "label": "DEF:fire"
+        },
+        {
+          "key": "X01:fire",
+          "type": "variant",
+          "label": "X01:fire"
+        },
+        {
+          "key": "X02:fire",
+          "type": "variant",
+          "label": "X02:fire"
+        },
+        {
+          "key": "X03:fire",
+          "type": "variant",
+          "label": "X03:fire"
+        },
+        {
+          "key": "X04:fire",
+          "type": "variant",
+          "label": "X04:fire"
+        },
+        {
+          "key": "X05:fire",
+          "type": "variant",
+          "label": "X05:fire"
+        },
+        {
+          "key": "DEF:ice",
+          "type": "variant",
+          "label": "DEF:ice"
+        },
+        {
+          "key": "X01:ice",
+          "type": "variant",
+          "label": "X01:ice"
+        },
+        {
+          "key": "X02:ice",
+          "type": "variant",
+          "label": "X02:ice"
+        },
+        {
+          "key": "X03:ice",
+          "type": "variant",
+          "label": "X03:ice"
+        },
+        {
+          "key": "X04:ice",
+          "type": "variant",
+          "label": "X04:ice"
+        },
+        {
+          "key": "X05:ice",
+          "type": "variant",
+          "label": "X05:ice"
+        },
+        {
+          "key": "DEF:space",
+          "type": "variant",
+          "label": "DEF:space"
+        },
+        {
+          "key": "X01:space",
+          "type": "variant",
+          "label": "X01:space"
+        },
+        {
+          "key": "X02:space",
+          "type": "variant",
+          "label": "X02:space"
+        },
+        {
+          "key": "X03:space",
+          "type": "variant",
+          "label": "X03:space"
+        },
+        {
+          "key": "X04:space",
+          "type": "variant",
+          "label": "X04:space"
+        },
+        {
+          "key": "X05:space",
+          "type": "variant",
+          "label": "X05:space"
+        }
+      ]
+    },
+    {
+      "id": "deadeye",
+      "name": "DeadEye",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "avalon-x",
+      "name": "Avalon X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots-4-frozen-fury",
+      "name": "Pirots 4 – Frozen Fury",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF:fire",
+          "type": "normal",
+          "label": "DEF:fire"
+        },
+        {
+          "key": "X01:fire",
+          "type": "variant",
+          "label": "X01:fire"
+        },
+        {
+          "key": "X02:fire",
+          "type": "variant",
+          "label": "X02:fire"
+        },
+        {
+          "key": "X03:fire",
+          "type": "variant",
+          "label": "X03:fire"
+        },
+        {
+          "key": "X04:fire",
+          "type": "variant",
+          "label": "X04:fire"
+        },
+        {
+          "key": "X05:fire",
+          "type": "variant",
+          "label": "X05:fire"
+        },
+        {
+          "key": "DEF:ice",
+          "type": "variant",
+          "label": "DEF:ice"
+        },
+        {
+          "key": "X01:ice",
+          "type": "variant",
+          "label": "X01:ice"
+        },
+        {
+          "key": "X02:ice",
+          "type": "variant",
+          "label": "X02:ice"
+        },
+        {
+          "key": "X03:ice",
+          "type": "variant",
+          "label": "X03:ice"
+        },
+        {
+          "key": "X04:ice",
+          "type": "variant",
+          "label": "X04:ice"
+        },
+        {
+          "key": "X05:ice",
+          "type": "variant",
+          "label": "X05:ice"
+        },
+        {
+          "key": "DEF:space",
+          "type": "variant",
+          "label": "DEF:space"
+        },
+        {
+          "key": "X01:space",
+          "type": "variant",
+          "label": "X01:space"
+        },
+        {
+          "key": "X02:space",
+          "type": "variant",
+          "label": "X02:space"
+        },
+        {
+          "key": "X03:space",
+          "type": "variant",
+          "label": "X03:space"
+        },
+        {
+          "key": "X04:space",
+          "type": "variant",
+          "label": "X04:space"
+        },
+        {
+          "key": "X05:space",
+          "type": "variant",
+          "label": "X05:space"
+        }
+      ]
+    },
+    {
+      "id": "fish-and-bird",
+      "name": "Fish and Bird",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-graveyard-ii",
+      "name": "Phoenix Graveyard II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots-4",
+      "name": "Pirots 4",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF:fire",
+          "type": "normal",
+          "label": "DEF:fire"
+        },
+        {
+          "key": "X01:fire",
+          "type": "variant",
+          "label": "X01:fire"
+        },
+        {
+          "key": "X02:fire",
+          "type": "variant",
+          "label": "X02:fire"
+        },
+        {
+          "key": "X03:fire",
+          "type": "variant",
+          "label": "X03:fire"
+        },
+        {
+          "key": "X04:fire",
+          "type": "variant",
+          "label": "X04:fire"
+        },
+        {
+          "key": "X05:fire",
+          "type": "variant",
+          "label": "X05:fire"
+        },
+        {
+          "key": "DEF:ice",
+          "type": "variant",
+          "label": "DEF:ice"
+        },
+        {
+          "key": "X01:ice",
+          "type": "variant",
+          "label": "X01:ice"
+        },
+        {
+          "key": "X02:ice",
+          "type": "variant",
+          "label": "X02:ice"
+        },
+        {
+          "key": "X03:ice",
+          "type": "variant",
+          "label": "X03:ice"
+        },
+        {
+          "key": "X04:ice",
+          "type": "variant",
+          "label": "X04:ice"
+        },
+        {
+          "key": "X05:ice",
+          "type": "variant",
+          "label": "X05:ice"
+        },
+        {
+          "key": "DEF:space",
+          "type": "variant",
+          "label": "DEF:space"
+        },
+        {
+          "key": "X01:space",
+          "type": "variant",
+          "label": "X01:space"
+        },
+        {
+          "key": "X02:space",
+          "type": "variant",
+          "label": "X02:space"
+        },
+        {
+          "key": "X03:space",
+          "type": "variant",
+          "label": "X03:space"
+        },
+        {
+          "key": "X04:space",
+          "type": "variant",
+          "label": "X04:space"
+        },
+        {
+          "key": "X05:space",
+          "type": "variant",
+          "label": "X05:space"
+        }
+      ]
+    },
+    {
+      "id": "rex-stampede",
+      "name": "Rex Stampede",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "heist-guys",
+      "name": "Heist Guys",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "nightmaker",
+      "name": "Nightmaker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "mine-defender",
+      "name": "Mine Defender",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "zaplab",
+      "name": "ZapLab",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "knight-fight",
+      "name": "Knight Fight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "in-the-zone",
+      "name": "In the Zone",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "orbitfall",
+      "name": "Orbitfall",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "oxygen-2",
+      "name": "Oxygen 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "nitropolis-tv",
+      "name": "Nitropolis TV",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "tropicool-4",
+      "name": "Tropicool 4",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "tinkerbot",
+      "name": "Tinkerbot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cygnus-5",
+      "name": "Cygnus 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "shadow-shifter",
+      "name": "Shadow Shifter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "reindeer-royale",
+      "name": "Reindeer Royale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "catemple",
+      "name": "Catemple",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots-x",
+      "name": "Pirots X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cluster-kingdom",
+      "name": "Cluster Kingdom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "thoro",
+      "name": "Thoro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "slurpy",
+      "name": "Slurpy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "squeeze",
+      "name": "Squeeze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "nitropolis-5",
+      "name": "Nitropolis 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "man-vs-gator",
+      "name": "Man vs Gator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots3",
+      "name": "Pirots3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "ashoka-eternal",
+      "name": "Ashoka Eternal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pug-thugs-of-nitropolis",
+      "name": "Pug Thugs of NItropolis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "tropicool-3",
+      "name": "Tropicool 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "dirty-dawgs-of-nitropolis",
+      "name": "Dirty Dawgs of Nitropolis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "frogblox",
+      "name": "Frogblox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "rogue-rats",
+      "name": "Rogue Rats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "buggin",
+      "name": "Buggin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "gritty-kitty",
+      "name": "Gritty Kitty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cygnus-4",
+      "name": "Cygnus 4",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "oxygen",
+      "name": "Oxygen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "dam-beavers",
+      "name": "Dam Beavers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "gladiatoro",
+      "name": "Gladiatoro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots-2",
+      "name": "Pirots 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "jeff-scully",
+      "name": "Jeff & Scully",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "j-pop",
+      "name": "J-POP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "valhall-gold",
+      "name": "Valhall Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "hula-balua",
+      "name": "Hula Balua",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "coba-reborn",
+      "name": "Coba Reborn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cygnus-3",
+      "name": "Cygnus 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "toro-shogun",
+      "name": "Toro Shōgun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "dead-mans-gold",
+      "name": "Dead Man’s Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "ashoka",
+      "name": "Ashoka",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "rabbit-royale",
+      "name": "Rabbit Royale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "katmandu-x",
+      "name": "Katmandu X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pirots",
+      "name": "Pirots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "nitropolis-4",
+      "name": "Nitropolis 4",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "tropicool-2",
+      "name": "Tropicool 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "book-of-sam",
+      "name": "Book of Sam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "sumo-sumo",
+      "name": "Sumo Sumo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "avalon-gold",
+      "name": "Avalon Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "freeway-7",
+      "name": "Freeway 7",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "propaganda",
+      "name": "Propaganda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "dropz",
+      "name": "Dropz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "buffalo-toro",
+      "name": "Buffalo Toro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cygnus-2",
+      "name": "Cygnus 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "coba",
+      "name": "Coba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "taco-brothers-deralied",
+      "name": "Taco Brothers Deralied",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "phoenix-graveyard",
+      "name": "Phoenix Graveyard",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "nitropolis-3",
+      "name": "Nitropolis 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "pacific-gold",
+      "name": "Pacific Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "illogicool",
+      "name": "Illogicool",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "mystic-orbs",
+      "name": "Mystic Orbs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "stars-of-orion",
+      "name": "Stars of Orion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "toro-7s",
+      "name": "Toro 7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "book-of-toro",
+      "name": "Book of Toro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "wild-toro-2",
+      "name": "Wild Toro II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "zulu-gold",
+      "name": "Zulu Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "fate-of-fortune",
+      "name": "Fate of Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "night-trax",
+      "name": "Night Trax",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "dream-diver",
+      "name": "Dream Diver",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "tropicool",
+      "name": "Tropicool",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "nitropolis-2",
+      "name": "Nitropolis 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "cluster-slide",
+      "name": "Cluster Slide",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "X01",
+          "type": "variant",
+          "label": "X01"
+        },
+        {
+          "key": "X02",
+          "type": "variant",
+          "label": "X02"
+        },
+        {
+          "key": "X03",
+          "type": "variant",
+          "label": "X03"
+        },
+        {
+          "key": "X04",
+          "type": "variant",
+          "label": "X04"
+        },
+        {
+          "key": "X05",
+          "type": "variant",
+          "label": "X05"
+        }
+      ]
+    },
+    {
+      "id": "bompers",
+      "name": "Bompers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "BB1",
+          "type": "variant",
+          "label": "BB1"
+        },
+        {
+          "key": "BB2",
+          "type": "variant",
+          "label": "BB2"
+        },
+        {
+          "key": "BB3",
+          "type": "variant",
+          "label": "BB3"
+        },
+        {
+          "key": "BB4",
+          "type": "variant",
+          "label": "BB4"
+        }
+      ]
+    },
+    {
+      "id": "miss-wildfire",
+      "name": "Miss Wildfire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "knockout-diamonds",
+      "name": "Knockout Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "katmandu-gold",
+      "name": "Katmandu Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "BB1",
+          "type": "variant",
+          "label": "BB1"
+        },
+        {
+          "key": "BB2",
+          "type": "variant",
+          "label": "BB2"
+        }
+      ]
+    },
+    {
+      "id": "nitropolis",
+      "name": "Nitropolis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        },
+        {
+          "key": "BB1",
+          "type": "variant",
+          "label": "BB1"
+        },
+        {
+          "key": "BB2",
+          "type": "variant",
+          "label": "BB2"
+        }
+      ]
+    },
+    {
+      "id": "visitors",
+      "name": "Visitors",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "the-grand-galore",
+      "name": "The Grand Galore",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "diablo-reels",
+      "name": "Diablo Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "dreamzone",
+      "name": "Dreamzone",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "io",
+      "name": "Io",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "black-river-gold",
+      "name": "Black River Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "blood-lust",
+      "name": "Blood Lust",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "crusader",
+      "name": "Crusader",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "micro-knights",
+      "name": "Micro Knights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "hit-it-hard",
+      "name": "Hit It Hard",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "cygnus",
+      "name": "Cygnus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "ice-wolf",
+      "name": "Ice Wolf",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "voodoo-gold",
+      "name": "Voodoo Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "win-win",
+      "name": "Win Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "respin-circus",
+      "name": "Respin Circus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "tahiti-gold",
+      "name": "Tahiti Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "chi",
+      "name": "Chi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "hit-it-big",
+      "name": "Hit It Big",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "ecuador-gold",
+      "name": "Ecuador Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "the-wiz",
+      "name": "The Wiz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "vegas-diamonds",
+      "name": "Vegas Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "joker-gems",
+      "name": "Joker Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "platooners",
+      "name": "Platooners",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "birthday",
+      "name": "Birthday!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "lakes-five",
+      "name": "Lake’s Five",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "kaiju",
+      "name": "Kaiju",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "ho-ho-tower",
+      "name": "Ho Ho Tower",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "route-777",
+      "name": "Route 777",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "hidden",
+      "name": "Hidden",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "ivanhoe",
+      "name": "Ivanhoe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "hong-kong-tower",
+      "name": "Hong Kong Tower",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "sam-on-the-beach",
+      "name": "Sam on the Beach",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "taco-brothers-saving-christmas",
+      "name": "Taco Brothers Saving Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "wild-toro",
+      "name": "Wild Toro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "poltava",
+      "name": "Poltava",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "bloopers",
+      "name": "Bloopers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "dj-wild",
+      "name": "DJ WÏLD",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "taco-brothers",
+      "name": "Taco Brothers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    },
+    {
+      "id": "electric-sam",
+      "name": "Electric SAM",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "DEF",
+          "type": "normal",
+          "label": "DEF"
+        }
+      ]
+    }
+  ]
+}

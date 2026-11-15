@@ -1,0 +1,4870 @@
+{
+  "id": "hacksaw",
+  "name": "Hacksaw Gaming",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "hacksaw.play",
+    "workspace_adapter": "collection_worker.py::hacksaw",
+    "continuations": "nextRound/actions",
+    "closure": "round finished and balance"
+  },
+  "games": [
+    {
+      "id": "2405",
+      "name": "Epic SixSixSix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_blue",
+          "type": "booster",
+          "label": "mod_blue"
+        },
+        {
+          "key": "mod_red",
+          "type": "booster",
+          "label": "mod_red"
+        },
+        {
+          "key": "mod_highroller",
+          "type": "booster",
+          "label": "mod_highroller"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        },
+        {
+          "key": "fs_3",
+          "type": "purchase",
+          "label": "fs_3"
+        }
+      ]
+    },
+    {
+      "id": "2269",
+      "name": "Coffee Dealer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_coffee",
+          "type": "booster",
+          "label": "mod_coffee"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2670",
+      "name": "The Jade Path Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        }
+      ]
+    },
+    {
+      "id": "2347",
+      "name": "Wicked Grin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_spread",
+          "type": "booster",
+          "label": "mod_spread"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2091",
+      "name": "Demonic Dolls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_feature",
+          "type": "booster",
+          "label": "mod_feature"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2582",
+      "name": "Le Vampire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_rainbow",
+          "type": "booster",
+          "label": "mod_rainbow"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2253",
+      "name": "Dr Zappo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_laser",
+          "type": "booster",
+          "label": "mod_laser"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2536",
+      "name": "Fist of Destruction Megamultiplier",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_expand",
+          "type": "booster",
+          "label": "mod_expand"
+        },
+        {
+          "key": "mod_expand_2",
+          "type": "booster",
+          "label": "mod_expand_2"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2465",
+      "name": "Le Bandit Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_rainbow",
+          "type": "booster",
+          "label": "mod_rainbow"
+        },
+        {
+          "key": "mod_rainbow_gold",
+          "type": "booster",
+          "label": "mod_rainbow_gold"
+        }
+      ]
+    },
+    {
+      "id": "2620",
+      "name": "Great Game Serengeti",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_hunt",
+          "type": "booster",
+          "label": "mod_hunt"
+        },
+        {
+          "key": "mod_stampede",
+          "type": "booster",
+          "label": "mod_stampede"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2248",
+      "name": "Minted Mike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_pot",
+          "type": "booster",
+          "label": "mod_pot"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2492",
+      "name": "Arizona James and The Lost Relics",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_feature",
+          "type": "booster",
+          "label": "mod_feature"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "2408",
+      "name": "Epic Ze Zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs_consume",
+          "type": "purchase",
+          "label": "fs_consume"
+        },
+        {
+          "key": "fs_progressive",
+          "type": "purchase",
+          "label": "fs_progressive"
+        },
+        {
+          "key": "fs_epic",
+          "type": "purchase",
+          "label": "fs_epic"
+        }
+      ]
+    },
+    {
+      "id": "2356",
+      "name": "Max Win Machine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_1",
+          "type": "booster",
+          "label": "mod_1"
+        },
+        {
+          "key": "mod_2",
+          "type": "booster",
+          "label": "mod_2"
+        },
+        {
+          "key": "mod_3",
+          "type": "booster",
+          "label": "mod_3"
+        },
+        {
+          "key": "mod_4",
+          "type": "booster",
+          "label": "mod_4"
+        }
+      ]
+    },
+    {
+      "id": "2613",
+      "name": "Le Sortudo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_rainbow",
+          "type": "booster",
+          "label": "mod_rainbow"
+        },
+        {
+          "key": "mod_rainbow_gold",
+          "type": "booster",
+          "label": "mod_rainbow_gold"
+        }
+      ]
+    },
+    {
+      "id": "2458",
+      "name": "Supreme Zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2378",
+      "name": "Marlin Masters OG",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_collect",
+          "type": "booster",
+          "label": "mod_collect"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2413",
+      "name": "Le Prechaun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_rainbow",
+          "type": "booster",
+          "label": "mod_rainbow"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2166",
+      "name": "Grug Make Fire ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2319",
+      "name": "Death Becomes You",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_vs",
+          "type": "booster",
+          "label": "mod_vs"
+        },
+        {
+          "key": "mod_death",
+          "type": "booster",
+          "label": "mod_death"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2328",
+      "name": "Nitro Nights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_nitro",
+          "type": "booster",
+          "label": "mod_nitro"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2334",
+      "name": "Dandy Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_feature",
+          "type": "booster",
+          "label": "mod_feature"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2303",
+      "name": "Great Game Rockies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_hunt",
+          "type": "booster",
+          "label": "mod_hunt"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2438",
+      "name": "Le Football Fan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs_consume",
+          "type": "purchase",
+          "label": "fs_consume"
+        },
+        {
+          "key": "fs_progressive",
+          "type": "purchase",
+          "label": "fs_progressive"
+        }
+      ]
+    },
+    {
+      "id": "2470",
+      "name": "Le Hooligan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs_consume",
+          "type": "purchase",
+          "label": "fs_consume"
+        },
+        {
+          "key": "fs_progressive",
+          "type": "purchase",
+          "label": "fs_progressive"
+        }
+      ]
+    },
+    {
+      "id": "2213",
+      "name": "Rise of Fortuna",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wheel",
+          "type": "booster",
+          "label": "mod_wheel"
+        },
+        {
+          "key": "mod_jackpot",
+          "type": "booster",
+          "label": "mod_jackpot"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2296",
+      "name": "3 Cursed Chests: Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_pot",
+          "type": "booster",
+          "label": "mod_pot"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2274",
+      "name": "Red Rascal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_rascal_3",
+          "type": "booster",
+          "label": "mod_rascal_3"
+        },
+        {
+          "key": "mod_rascal_10",
+          "type": "booster",
+          "label": "mod_rascal_10"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2243",
+      "name": "Sand and Ashes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2258",
+      "name": "Magic Piggy OG",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_hat",
+          "type": "booster",
+          "label": "mod_hat"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "persistent_fs",
+          "type": "purchase",
+          "label": "persistent_fs"
+        }
+      ]
+    },
+    {
+      "id": "2229",
+      "name": "Le Digger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_dig",
+          "type": "booster",
+          "label": "mod_dig"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "2082",
+      "name": "Dynasty of Death",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_duel",
+          "type": "booster",
+          "label": "mod_duel"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2108",
+      "name": "Marlin Masters Atlantis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_kraken",
+          "type": "booster",
+          "label": "mod_kraken"
+        },
+        {
+          "key": "fs_buy",
+          "type": "purchase",
+          "label": "fs_buy"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2234",
+      "name": "Power of Ten",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wheel",
+          "type": "booster",
+          "label": "mod_wheel"
+        },
+        {
+          "key": "mod_wheel_epic",
+          "type": "booster",
+          "label": "mod_wheel_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2219",
+      "name": "Munchy Milo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_sunframe",
+          "type": "booster",
+          "label": "mod_sunframe"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2185",
+      "name": "Epic Bullets and Bounty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_duel",
+          "type": "booster",
+          "label": "mod_duel"
+        },
+        {
+          "key": "mod_bounty",
+          "type": "booster",
+          "label": "mod_bounty"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        },
+        {
+          "key": "fs_epic",
+          "type": "purchase",
+          "label": "fs_epic"
+        }
+      ]
+    },
+    {
+      "id": "2195",
+      "name": "Le Bunny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2190",
+      "name": "Dusk Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_mult",
+          "type": "booster",
+          "label": "mod_mult"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2148",
+      "name": "Eternal Duel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_vs",
+          "type": "booster",
+          "label": "mod_vs"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2143",
+      "name": "Dark Spiral",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_colossal",
+          "type": "booster",
+          "label": "mod_colossal"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2062",
+      "name": "Hot Ross",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_ross",
+          "type": "booster",
+          "label": "mod_ross"
+        },
+        {
+          "key": "mod_ross_epic",
+          "type": "booster",
+          "label": "mod_ross_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        },
+        {
+          "key": "epic",
+          "type": "purchase",
+          "label": "epic"
+        }
+      ]
+    },
+    {
+      "id": "2138",
+      "name": "Superstar Sevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_lightning",
+          "type": "booster",
+          "label": "mod_lightning"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2077",
+      "name": "Zeus Ze Zecond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_mystery",
+          "type": "booster",
+          "label": "mod_mystery"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2057",
+      "name": "Le Fisherman",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_rainbow",
+          "type": "booster",
+          "label": "mod_rainbow"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2115",
+      "name": "Pray for Six",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_six",
+          "type": "booster",
+          "label": "mod_six"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2000",
+      "name": "Deal With Death",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_poker",
+          "type": "booster",
+          "label": "mod_poker"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2019",
+      "name": "Circle of Life",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_tree",
+          "type": "booster",
+          "label": "mod_tree"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "super",
+          "type": "purchase",
+          "label": "super"
+        }
+      ]
+    },
+    {
+      "id": "1981",
+      "name": "Smoking Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_feature",
+          "type": "booster",
+          "label": "mod_feature"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        },
+        {
+          "key": "epic",
+          "type": "purchase",
+          "label": "epic"
+        }
+      ]
+    },
+    {
+      "id": "1971",
+      "name": "Toshi Ways Club",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_replace",
+          "type": "booster",
+          "label": "mod_replace"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "2004",
+      "name": "Donny and Danny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_cash",
+          "type": "booster",
+          "label": "mod_cash"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1946",
+      "name": "Jaws of Justice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_laser",
+          "type": "booster",
+          "label": "mod_laser"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1977",
+      "name": "Army of Ares",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_expand",
+          "type": "booster",
+          "label": "mod_expand"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1965",
+      "name": "Le Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1938",
+      "name": "Spear of Athena",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1871",
+      "name": "Steamrunners",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_canister",
+          "type": "booster",
+          "label": "mod_canister"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1924",
+      "name": "Le Cowboy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_feature",
+          "type": "booster",
+          "label": "mod_feature"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "1914",
+      "name": "Sun Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_sunframe",
+          "type": "booster",
+          "label": "mod_sunframe"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1803",
+      "name": "The Count",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_drac",
+          "type": "booster",
+          "label": "mod_drac"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1928",
+      "name": "Bash Bros",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_cash",
+          "type": "booster",
+          "label": "mod_cash"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1891",
+      "name": "The Wildwood Curse",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_cluster",
+          "type": "booster",
+          "label": "mod_cluster"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1867",
+      "name": "Chaos Crew 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_drop",
+          "type": "booster",
+          "label": "mod_drop"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1875",
+      "name": "Stormborn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_thunder",
+          "type": "booster",
+          "label": "mod_thunder"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "1830",
+      "name": "Le Zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_mystery",
+          "type": "booster",
+          "label": "mod_mystery"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1744",
+      "name": "Tiger Legends",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_legend",
+          "type": "booster",
+          "label": "mod_legend"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1824",
+      "name": "Miami Mayhem",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "mod_mission",
+          "type": "booster",
+          "label": "mod_mission"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1799",
+      "name": "Bullets and Bounty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_duel",
+          "type": "booster",
+          "label": "mod_duel"
+        },
+        {
+          "key": "mod_bounty",
+          "type": "booster",
+          "label": "mod_bounty"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1811",
+      "name": "Marlin Masters: The Big Haul",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_collect",
+          "type": "booster",
+          "label": "mod_collect"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1817",
+      "name": "Rainbow Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_mult",
+          "type": "booster",
+          "label": "mod_mult"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1756",
+      "name": "Aiko and the Wind Spirit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1897",
+      "name": "The Luxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1740",
+      "name": "Eye of Medusa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_medusa",
+          "type": "booster",
+          "label": "mod_medusa"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1791",
+      "name": "Invictus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_respin",
+          "type": "booster",
+          "label": "mod_respin"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1787",
+      "name": "Le King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1229",
+      "name": "Freds Food Truck ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "freespins2",
+          "type": "purchase",
+          "label": "freespins2"
+        }
+      ]
+    },
+    {
+      "id": "1783",
+      "name": "Booze Bash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1760",
+      "name": "Ultimate Slot of America",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1752",
+      "name": "Spinman",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_expand",
+          "type": "booster",
+          "label": "mod_expand"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1736",
+      "name": "Pray for Three",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_pray",
+          "type": "booster",
+          "label": "mod_pray"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1685",
+      "name": "Danny Dollar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_danny",
+          "type": "booster",
+          "label": "mod_danny"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1732",
+      "name": "Rad Maxx",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_feature",
+          "type": "booster",
+          "label": "mod_feature"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1728",
+      "name": "Reign of Rome",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_cash",
+          "type": "booster",
+          "label": "mod_cash"
+        },
+        {
+          "key": "mod_cash_2",
+          "type": "booster",
+          "label": "mod_cash_2"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1715",
+      "name": "Fighter Pit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_expand",
+          "type": "booster",
+          "label": "mod_expand"
+        },
+        {
+          "key": "mod_expand_2",
+          "type": "booster",
+          "label": "mod_expand_2"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1711",
+      "name": "Wishbringer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_cats",
+          "type": "booster",
+          "label": "mod_cats"
+        },
+        {
+          "key": "mod_cats_2",
+          "type": "booster",
+          "label": "mod_cats_2"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        }
+      ]
+    },
+    {
+      "id": "1460",
+      "name": "Life and Death",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1430",
+      "name": "Dorks of the Deep",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_chest",
+          "type": "booster",
+          "label": "mod_chest"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1697",
+      "name": "Strength of Hercules",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_rotator",
+          "type": "booster",
+          "label": "mod_rotator"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "1666",
+      "name": "Hounds of Hell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_hounds",
+          "type": "booster",
+          "label": "mod_hounds"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "1693",
+      "name": "FRKN Bananas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_banana",
+          "type": "booster",
+          "label": "mod_banana"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1681",
+      "name": "Marlin Masters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_collect",
+          "type": "booster",
+          "label": "mod_collect"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1675",
+      "name": "Phoenix DuelReels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_vs",
+          "type": "booster",
+          "label": "mod_vs"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "1689",
+      "name": "Le Viking",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_coins",
+          "type": "booster",
+          "label": "mod_coins"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_3",
+          "type": "purchase",
+          "label": "fs_3"
+        }
+      ]
+    },
+    {
+      "id": "1438",
+      "name": "Klowns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_needle",
+          "type": "booster",
+          "label": "mod_needle"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1640",
+      "name": "Fire my Laser",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_bombs",
+          "type": "booster",
+          "label": "mod_bombs"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1608",
+      "name": "Donut Division",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1554",
+      "name": "Shaolin Master",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "fs_student",
+          "type": "purchase",
+          "label": "fs_student"
+        },
+        {
+          "key": "fs_master",
+          "type": "purchase",
+          "label": "fs_master"
+        }
+      ]
+    },
+    {
+      "id": "1558",
+      "name": "Snow Slingers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_revolver",
+          "type": "booster",
+          "label": "mod_revolver"
+        },
+        {
+          "key": "collect",
+          "type": "purchase",
+          "label": "collect"
+        },
+        {
+          "key": "sticky_mult",
+          "type": "purchase",
+          "label": "sticky_mult"
+        }
+      ]
+    },
+    {
+      "id": "1620",
+      "name": "Duel at Dawn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_duel",
+          "type": "booster",
+          "label": "mod_duel"
+        },
+        {
+          "key": "mod_outlaw",
+          "type": "booster",
+          "label": "mod_outlaw"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1612",
+      "name": "Wings of Horus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_orbs",
+          "type": "booster",
+          "label": "mod_orbs"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1616",
+      "name": "Rise of Ymir",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_ymir",
+          "type": "booster",
+          "label": "mod_ymir"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        },
+        {
+          "key": "fs_3",
+          "type": "purchase",
+          "label": "fs_3"
+        }
+      ]
+    },
+    {
+      "id": "1580",
+      "name": "Get the CHEESE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_jumping",
+          "type": "booster",
+          "label": "mod_jumping"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1602",
+      "name": "Cloud Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_mult",
+          "type": "booster",
+          "label": "mod_mult"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1562",
+      "name": "Le Pharaoh",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "1570",
+      "name": "Evil Eyes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_epic",
+          "type": "booster",
+          "label": "mod_epic"
+        },
+        {
+          "key": "mod_eye",
+          "type": "booster",
+          "label": "mod_eye"
+        },
+        {
+          "key": "fs_peek",
+          "type": "purchase",
+          "label": "fs_peek"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        }
+      ]
+    },
+    {
+      "id": "1584",
+      "name": "Octo Attack",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_octo",
+          "type": "booster",
+          "label": "mod_octo"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1530",
+      "name": "Donny Dough",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_donny",
+          "type": "booster",
+          "label": "mod_donny"
+        },
+        {
+          "key": "sticky",
+          "type": "purchase",
+          "label": "sticky"
+        },
+        {
+          "key": "collect",
+          "type": "purchase",
+          "label": "collect"
+        }
+      ]
+    },
+    {
+      "id": "1360",
+      "name": "Dragon's Domain",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_charred",
+          "type": "booster",
+          "label": "mod_charred"
+        },
+        {
+          "key": "fs_lair",
+          "type": "purchase",
+          "label": "fs_lair"
+        },
+        {
+          "key": "fs_hatchery",
+          "type": "purchase",
+          "label": "fs_hatchery"
+        }
+      ]
+    },
+    {
+      "id": "1534",
+      "name": "SixSixSix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_blue",
+          "type": "booster",
+          "label": "mod_blue"
+        },
+        {
+          "key": "mod_red",
+          "type": "booster",
+          "label": "mod_red"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        },
+        {
+          "key": "bonus_2",
+          "type": "purchase",
+          "label": "bonus_2"
+        }
+      ]
+    },
+    {
+      "id": "1478",
+      "name": "Tai the Toad",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_hat",
+          "type": "booster",
+          "label": "mod_hat"
+        },
+        {
+          "key": "mod_hat_2",
+          "type": "booster",
+          "label": "mod_hat_2"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "persistent_fs",
+          "type": "purchase",
+          "label": "persistent_fs"
+        }
+      ]
+    },
+    {
+      "id": "1514",
+      "name": "Twisted Lab",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_flask",
+          "type": "booster",
+          "label": "mod_flask"
+        },
+        {
+          "key": "mod_flask_2",
+          "type": "booster",
+          "label": "mod_flask_2"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_rotato",
+          "type": "purchase",
+          "label": "fs_rotato"
+        }
+      ]
+    },
+    {
+      "id": "1508",
+      "name": "Ze Zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs_consume",
+          "type": "purchase",
+          "label": "fs_consume"
+        },
+        {
+          "key": "fs_progressive",
+          "type": "purchase",
+          "label": "fs_progressive"
+        }
+      ]
+    },
+    {
+      "id": "1434",
+      "name": "Cursed Crypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_curse_1",
+          "type": "booster",
+          "label": "mod_curse_1"
+        },
+        {
+          "key": "mod_curse_2",
+          "type": "booster",
+          "label": "mod_curse_2"
+        },
+        {
+          "key": "fs_1",
+          "type": "purchase",
+          "label": "fs_1"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1482",
+      "name": "Slayers Inc",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_vs",
+          "type": "booster",
+          "label": "mod_vs"
+        },
+        {
+          "key": "mod_vs_2",
+          "type": "booster",
+          "label": "mod_vs_2"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        },
+        {
+          "key": "bob_3_fs",
+          "type": "purchase",
+          "label": "bob_3_fs"
+        },
+        {
+          "key": "bob_3_fs_2",
+          "type": "purchase",
+          "label": "bob_3_fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1452",
+      "name": "Jelly Slice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_slice",
+          "type": "booster",
+          "label": "mod_slice"
+        },
+        {
+          "key": "fs_1",
+          "type": "purchase",
+          "label": "fs_1"
+        }
+      ]
+    },
+    {
+      "id": "1494",
+      "name": "Keep'em",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_collector",
+          "type": "booster",
+          "label": "mod_collector"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_locked",
+          "type": "purchase",
+          "label": "fs_locked"
+        }
+      ]
+    },
+    {
+      "id": "1490",
+      "name": "Divine Drop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_sticky",
+          "type": "booster",
+          "label": "mod_sticky"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1474",
+      "name": "Orb of Destiny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_fortune",
+          "type": "booster",
+          "label": "mod_fortune"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1456",
+      "name": "Cash Crew",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_cash",
+          "type": "booster",
+          "label": "mod_cash"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1404",
+      "name": "Rusty & Curly",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_wild",
+          "type": "booster",
+          "label": "mod_wild"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1422",
+      "name": "Bouncy Bombs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_mult",
+          "type": "booster",
+          "label": "mod_mult"
+        },
+        {
+          "key": "mod_reveal",
+          "type": "booster",
+          "label": "mod_reveal"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "freespins_2",
+          "type": "purchase",
+          "label": "freespins_2"
+        }
+      ]
+    },
+    {
+      "id": "1442",
+      "name": "Dawn of Kings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_book",
+          "type": "booster",
+          "label": "mod_book"
+        },
+        {
+          "key": "mod_book_2",
+          "type": "booster",
+          "label": "mod_book_2"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "bob_3_fs",
+          "type": "purchase",
+          "label": "bob_3_fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        },
+        {
+          "key": "bob_3_fs_2",
+          "type": "purchase",
+          "label": "bob_3_fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1408",
+      "name": "Fist of Destruction",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_expand",
+          "type": "booster",
+          "label": "mod_expand"
+        },
+        {
+          "key": "mod_expand_2",
+          "type": "booster",
+          "label": "mod_expand_2"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1426",
+      "name": "Beam Boys",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus_low",
+          "type": "booster",
+          "label": "mod_bonus_low"
+        },
+        {
+          "key": "mod_bonus_extreme",
+          "type": "booster",
+          "label": "mod_bonus_extreme"
+        },
+        {
+          "key": "mod_cats_low",
+          "type": "booster",
+          "label": "mod_cats_low"
+        },
+        {
+          "key": "mod_cats_extreme",
+          "type": "booster",
+          "label": "mod_cats_extreme"
+        },
+        {
+          "key": "mod_cats_2_low",
+          "type": "booster",
+          "label": "mod_cats_2_low"
+        },
+        {
+          "key": "mod_cats_2_extreme",
+          "type": "booster",
+          "label": "mod_cats_2_extreme"
+        },
+        {
+          "key": "freespins_low",
+          "type": "purchase",
+          "label": "freespins_low"
+        },
+        {
+          "key": "freespins_extreme",
+          "type": "purchase",
+          "label": "freespins_extreme"
+        },
+        {
+          "key": "mode-extreme",
+          "type": "variant",
+          "label": "Modo Extreme"
+        }
+      ]
+    },
+    {
+      "id": "1372",
+      "name": "Feel the Beat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_speaker",
+          "type": "booster",
+          "label": "mod_speaker"
+        },
+        {
+          "key": "mod_speaker_2",
+          "type": "booster",
+          "label": "mod_speaker_2"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "freespins_2",
+          "type": "purchase",
+          "label": "freespins_2"
+        }
+      ]
+    },
+    {
+      "id": "1400",
+      "name": "2 Wild 2 Die",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_revolver",
+          "type": "booster",
+          "label": "mod_revolver"
+        },
+        {
+          "key": "collect",
+          "type": "purchase",
+          "label": "collect"
+        },
+        {
+          "key": "sticky_mult",
+          "type": "purchase",
+          "label": "sticky_mult"
+        },
+        {
+          "key": "bob_3_collect",
+          "type": "purchase",
+          "label": "bob_3_collect"
+        },
+        {
+          "key": "bob_3_sticky_mult",
+          "type": "purchase",
+          "label": "bob_3_sticky_mult"
+        }
+      ]
+    },
+    {
+      "id": "1392",
+      "name": "Dark Summoning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "fs_1",
+          "type": "purchase",
+          "label": "fs_1"
+        },
+        {
+          "key": "fs_rise_1",
+          "type": "purchase",
+          "label": "fs_rise_1"
+        }
+      ]
+    },
+    {
+      "id": "1396",
+      "name": "Xmas Drop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_2_expand",
+          "type": "booster",
+          "label": "mod_2_expand"
+        },
+        {
+          "key": "mod_3_expand",
+          "type": "booster",
+          "label": "mod_3_expand"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "progressive_fs",
+          "type": "purchase",
+          "label": "progressive_fs"
+        }
+      ]
+    },
+    {
+      "id": "1364",
+      "name": "Immortal Desire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "fs_moon",
+          "type": "purchase",
+          "label": "fs_moon"
+        },
+        {
+          "key": "fs_awakening",
+          "type": "purchase",
+          "label": "fs_awakening"
+        }
+      ]
+    },
+    {
+      "id": "1344",
+      "name": "Eye of the Panda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_mults",
+          "type": "booster",
+          "label": "mod_mults"
+        },
+        {
+          "key": "fs_collect",
+          "type": "purchase",
+          "label": "fs_collect"
+        },
+        {
+          "key": "fs_sticky",
+          "type": "purchase",
+          "label": "fs_sticky"
+        }
+      ]
+    },
+    {
+      "id": "1356",
+      "name": "Benny the Beer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_stack_1",
+          "type": "booster",
+          "label": "mod_stack_1"
+        },
+        {
+          "key": "mod_stack_2",
+          "type": "booster",
+          "label": "mod_stack_2"
+        },
+        {
+          "key": "fs_1",
+          "type": "purchase",
+          "label": "fs_1"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1352",
+      "name": "Chaos Crew 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_reel_mult",
+          "type": "booster",
+          "label": "mod_reel_mult"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "bob_3_fs",
+          "type": "purchase",
+          "label": "bob_3_fs"
+        },
+        {
+          "key": "fs_super",
+          "type": "purchase",
+          "label": "fs_super"
+        },
+        {
+          "key": "bob_3_fs_super",
+          "type": "purchase",
+          "label": "bob_3_fs_super"
+        }
+      ]
+    },
+    {
+      "id": "1348",
+      "name": "Densho",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_densho",
+          "type": "booster",
+          "label": "mod_densho"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1309",
+      "name": "Le Bandit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_activator",
+          "type": "booster",
+          "label": "mod_activator"
+        },
+        {
+          "key": "fs_consume",
+          "type": "purchase",
+          "label": "fs_consume"
+        },
+        {
+          "key": "fs_progressive",
+          "type": "purchase",
+          "label": "fs_progressive"
+        }
+      ]
+    },
+    {
+      "id": "1267",
+      "name": "Ronin Stackways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_stack",
+          "type": "booster",
+          "label": "mod_stack"
+        },
+        {
+          "key": "fs",
+          "type": "purchase",
+          "label": "fs"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1314",
+      "name": "Drop'em",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_drop_1",
+          "type": "booster",
+          "label": "mod_drop_1"
+        },
+        {
+          "key": "mod_drop_2",
+          "type": "booster",
+          "label": "mod_drop_2"
+        },
+        {
+          "key": "fs_1",
+          "type": "purchase",
+          "label": "fs_1"
+        },
+        {
+          "key": "fs_2",
+          "type": "purchase",
+          "label": "fs_2"
+        }
+      ]
+    },
+    {
+      "id": "1340",
+      "name": "Vending Machine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "freespins_2",
+          "type": "purchase",
+          "label": "freespins_2"
+        }
+      ]
+    },
+    {
+      "id": "1279",
+      "name": "Beast Below",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_siren",
+          "type": "booster",
+          "label": "mod_siren"
+        },
+        {
+          "key": "fs_siren",
+          "type": "purchase",
+          "label": "fs_siren"
+        },
+        {
+          "key": "fs_below",
+          "type": "purchase",
+          "label": "fs_below"
+        }
+      ]
+    },
+    {
+      "id": "1305",
+      "name": "Mighty Masks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_masks",
+          "type": "booster",
+          "label": "mod_masks"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        }
+      ]
+    },
+    {
+      "id": "1237",
+      "name": "Temple of Torment",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_expand",
+          "type": "booster",
+          "label": "mod_expand"
+        },
+        {
+          "key": "fs_sticky",
+          "type": "purchase",
+          "label": "fs_sticky"
+        },
+        {
+          "key": "fs_mult",
+          "type": "purchase",
+          "label": "fs_mult"
+        }
+      ]
+    },
+    {
+      "id": "1275",
+      "name": "Mayan Stackways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_stack",
+          "type": "booster",
+          "label": "mod_stack"
+        },
+        {
+          "key": "fs_stack",
+          "type": "purchase",
+          "label": "fs_stack"
+        },
+        {
+          "key": "fs_coin",
+          "type": "purchase",
+          "label": "fs_coin"
+        }
+      ]
+    },
+    {
+      "id": "1233",
+      "name": "Rip City",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "mod_bonus",
+          "type": "booster",
+          "label": "mod_bonus"
+        },
+        {
+          "key": "mod_2_expand",
+          "type": "booster",
+          "label": "mod_2_expand"
+        },
+        {
+          "key": "mod_3_expand",
+          "type": "booster",
+          "label": "mod_3_expand"
+        },
+        {
+          "key": "freespins",
+          "type": "purchase",
+          "label": "freespins"
+        },
+        {
+          "key": "progressive_fs",
+          "type": "purchase",
+          "label": "progressive_fs"
+        }
+      ]
+    },
+    {
+      "id": "1067",
+      "name": "Wanted Dead Or a Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "freespins_train",
+          "type": "purchase",
+          "label": "freespins_train"
+        },
+        {
+          "key": "freespins_duel",
+          "type": "purchase",
+          "label": "freespins_duel"
+        },
+        {
+          "key": "freespins_dead",
+          "type": "purchase",
+          "label": "freespins_dead"
+        }
+      ]
+    },
+    {
+      "id": "1059",
+      "name": "Chaos Crew",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "bonus",
+          "type": "purchase",
+          "label": "bonus"
+        }
+      ]
+    }
+  ]
+}

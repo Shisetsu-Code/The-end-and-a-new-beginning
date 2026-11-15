@@ -1,0 +1,1896 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "belatra",
+      "game": "princess_suki",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "coins_blast",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "coins_blast",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "coins_blast",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "stars_blast",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "ufo",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "ufo",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "ufo",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "ufo",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "ufo",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "foxy_eggs",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "foxy_eggs",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "foxy_eggs",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "foxy_eggs",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hunting",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hunting",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hunting",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hunting",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hunting",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hunting",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_dan_lu_dan",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_dan_lu_dan",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_dan_lu_dan",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_dan_lu_dan",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_dan_lu_dan",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_dan_lu_dan",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "big_bang2",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "big_bang2",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "big_bang2",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "big_bang2",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_winter",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_winter",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_winter",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing_winter",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "diggers_fortune",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "diggers_fortune",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "diggers_fortune",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "diggers_fortune",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "diggers_fortune",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "jackpot_pagoda",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "jackpot_pagoda",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "jackpot_pagoda",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits_xmas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits_xmas",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits_xmas",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits_xmas",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits_xmas",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits_xmas",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits_xmas",
+      "mode": "PURCHASE_4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "buffalo2",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "buffalo2",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "buffalo2",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "buffalo2",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "buffalo2",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "long_neck",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "long_neck",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "long_neck",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "long_neck",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "long_neck",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "long_neck",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "voodoo",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "voodoo",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "voodoo",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "voodoo",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "bears_tricks",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "bears_tricks",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "bears_tricks",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "bears_tricks",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "bears_tricks",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "chinese_panda",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "chinese_panda",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "chinese_panda",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "chinese_panda",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fishing",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "make_gold",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "make_gold",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "make_gold",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "make_gold",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "make_gold",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "make_gold",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "winter_thunder",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "winter_thunder",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "cafe_50s",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "cafe_50s",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "cafe_50s",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "cafe_50s",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "cafe_50s",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tortuga_codex",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tortuga_codex",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tortuga_codex",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tortuga_codex",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky_bandits",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky_bandits",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky_bandits",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky_bandits",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky_bandits",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky_bandits",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "wolf_thunder",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "wolf_thunder",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hobbits",
+      "mode": "PURCHASE_4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tony_gambler",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tony_gambler",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tony_gambler",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "tony_gambler",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "chefs_fruits",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_axe",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_axe",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_axe",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_axe",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_axe",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "zeus",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "zeus",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "zeus",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "zeus",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_lantern",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_lantern",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_lantern",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_lantern",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden_lantern",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mummyland_xmas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mummyland_xmas",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mummyland_xmas",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mummyland_xmas",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mummyland_xmas",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "princess_xmas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "princess_xmas",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "richy_hog_xmas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "richy_hog_xmas",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "aladdin",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "dragons_bonanza",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "dragons_bonanza",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "dragons_bonanza",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "dragons_bonanza",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fullmoon",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fullmoon",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "richy_hog",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "richy_hog",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "wild_fruit_jam",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "witchschool",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mummyland",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mummyland",
+      "mode": "VIP",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "pepper_super_3x",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "big_bang",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "big_bang",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "buffalo_x_mas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "cleos_book",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "cleos_book",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "atemple_gems",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "buffalo",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "pepper_wild_5",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "rockets",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "pepper_triplex",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "irish",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "irish",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "irish",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "irish",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "book_legacy",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "book_legacy",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "smack_me",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "hot_wild_pepper",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "northern_boom",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_xmas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_xmas",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_xmas",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_xmas",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "gold_xmas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "gold_xmas",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "pirate_jackpots",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_halloween",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_halloween",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_halloween",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger_halloween",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucie",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "digger",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "zombie_town",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "zombie_town",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "juicy_fruits",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fortune_craft",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fortune_craft",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fortune_craft",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fortune_craft",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fortune_craft",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_6",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_7",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya3",
+      "mode": "PURCHASE_8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_6",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_7",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_9",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_10",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa2",
+      "mode": "PURCHASE_11",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "gold",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "gold",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "night_racing",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "night_racing",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "night_racing",
+      "mode": "PURCHASE_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "night_racing",
+      "mode": "PURCHASE_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "night_racing",
+      "mode": "PURCHASE_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lazy_monkey",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "christmas",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "icy_fruits",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "joker",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "halloween2",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "treasure88",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "book",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "book",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "fruit_mix",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "monkey",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya2",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "maya2",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "super_stars",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lemon_deluxe",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "prehistoric",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "prehistoric",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "chicago",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "chicago",
+      "mode": "PURCHASE_0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "seven_fruits",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "bank_robbers",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "monsters",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "moneymania",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lemon",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "beauty_beast",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky_old",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "frog_old",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "alc_old",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "halloween",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "frog100",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "sevens2",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "dracula20",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "ghost20",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "piggy_old",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "mex_old",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "bluebeard",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "carousel",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lucky10",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "golden88",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "sevens",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "lovem10",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "jewels10",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "armada100_7days",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "anland100_7days",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "belatra",
+      "game": "africa10",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": []
+}

@@ -1,0 +1,1520 @@
+{
+  "proveedor": "playson",
+  "archivos": [
+    {
+      "ruta": "bindings/playson.json",
+      "bytes": 99134,
+      "sha256": "dec80dc5afb11971e33af59aab61b64527918e89c4bc22cb2a2892f6d07777ae"
+    },
+    {
+      "ruta": "codigo/playson.rs",
+      "bytes": 29997,
+      "sha256": "da156f928457b1f921395c2ec864e17ba200844dbbba77ff81f00f050034a738"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 47471,
+      "sha256": "56337c8f409196b6c5aa56bb8a6b740ea41ee852ed2abbbe9164735e0eb1f351"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 262903,
+      "sha256": "ed751bda60541e7f2e791b3cca5ac03c2bf1906d2407dd24e880c98d27b55015"
+    },
+    {
+      "ruta": "evidencia/playson.json",
+      "bytes": 414533,
+      "sha256": "5e15a59a47dae424730a5dc97d7145e91b8ddb045b96465a6e89ff58f88cd5f3"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 47348,
+      "sha256": "cb1c6298b4030626c43da2fe8bc997365ad4ddcf8e32b0471a242c3ed36fb287"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 283672,
+      "sha256": "cb746363a91e1e03b562dd378ab0fd2e4ea0b2e4796ca95dcaef92b2ca261111"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/catalog-complete.json",
+      "bytes": 72695,
+      "sha256": "f22cd4adca70b0c8e40945fe72e45677100d03af7d85eb05635856b90a9d2adb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/catalog-coverage.json",
+      "bytes": 3585,
+      "sha256": "e94796f400fd2de5480179e6b1bf03e8fb120afc47e7b128ca6cb3fbba597d16"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/catalog-snapshots/20261030T230158Z/manifest.json",
+      "bytes": 1945,
+      "sha256": "d998cd80feb4ed8d09418cab91360439aceadfb3ffbb624a6dbb331babccf06c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/catalog-snapshots/20261030T230158Z/page-1.json",
+      "bytes": 5319,
+      "sha256": "2f6bc6177f74c4364a58fd2c4b8c1608bf0d8263eaef1a23d7bd8070aeb30e3a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/catalog-snapshots/20261030T230158Z/page-2.json",
+      "bytes": 5251,
+      "sha256": "e858fdce1c42cdd325db6d5784d2b952ba153830d174e4fb7cd3118f129b4030"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/catalog-snapshots/20261030T230158Z/page-3.json",
+      "bytes": 1484,
+      "sha256": "9d981dd0f4817469a360f1c3d94ac3048be32c66c2e5786d6e6503e927983d59"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/controls/thunder-coins-xxl-wallet-control.html",
+      "bytes": 1594,
+      "sha256": "aa62748cc4429dca92f4fccbf9ca69105469c3732eb85cc29d6f8ddc510b581b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/controls/thunder-coins-xxl-wallet-control.json",
+      "bytes": 3434,
+      "sha256": "20ab8f6dc9cbc292fbd09801a9f78fa93452b5d7eda3bda1318e9ee185fb0dc9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/controls/thunder-original-incident.json",
+      "bytes": 13535,
+      "sha256": "a7316f904796dfaa7e37215f61361b5f14a70e519c29d913988dcd6e7631267d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/01964a1819e381372b19.json",
+      "bytes": 17938,
+      "sha256": "dbc560a3795da855097ebaac7952a3810a0512234ac73d4b3bf16094dbfba78e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/03b51dd35deed4dbf809.json",
+      "bytes": 2016,
+      "sha256": "c7c42d7bc75587ed649a3d0c0f5201084023c2bc005bd1958474c19227af95c3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/093ea5d4b651d94d5e7a.json",
+      "bytes": 2014,
+      "sha256": "332a399d1f69185e83f1de6aa9f38f003f435fb6d7eb1befbfb040c194df0700"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/0c8e897826ba77bf0c65.json",
+      "bytes": 2018,
+      "sha256": "dd06ec7155d737ecf485f89d8e3c9221bea283e465813fa274217dcd5c42d1a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/10458fc54d3d2b544da4.json",
+      "bytes": 2020,
+      "sha256": "4c8f8d6c70286c7ad40fa4e9e313b318473461591e73b79ee29aea2117c7518f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/10f067ebf9993afb1285.json",
+      "bytes": 3513,
+      "sha256": "0d19054510940559b6bbb560e4d36ab0130465d77547d6565dded59dd4a6cb62"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/123c1c4374d0ed98d1b3.json",
+      "bytes": 18610,
+      "sha256": "521af4178a90aac1e4618a96e42314b26b41adca3970bf0d33e4b8f4ee8350a4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/130b8fd49fc21b8517c4.json",
+      "bytes": 21371,
+      "sha256": "53fb18eb0287f0eec2ce237f0a8c0e9c66ece836c0349b8e4588cd74850dd36b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/13c42243d9b549d705e1.json",
+      "bytes": 2015,
+      "sha256": "b634fe6f813b89f183e95b86bc98193a38cdebd05590987178bc838745251a7b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/15545d2b61fb1b13333e.json",
+      "bytes": 2018,
+      "sha256": "d8610b8fc8697d965b6ab2935c3b9b7819218994d0fa577ae9fd22975bc930d6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/17e3ce47e53fbc35786f.json",
+      "bytes": 13535,
+      "sha256": "a7316f904796dfaa7e37215f61361b5f14a70e519c29d913988dcd6e7631267d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/17ed88eebd5da5e7719b.json",
+      "bytes": 2018,
+      "sha256": "7dc6c933576be70a65893d2269b13596fe695fd292f10e74218145f25d05d6fa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/1976b2614b8f4e22d10b.json",
+      "bytes": 2032,
+      "sha256": "8a0b9938ccc42e986b6a98fe85dcf3b63953eb98d12bb85e12da3db023b36088"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/1beb9b006ef304fd8924.json",
+      "bytes": 2016,
+      "sha256": "1c268984a34b540b626d6baf074f80c5f2901fa1e820537c695d4714876a674f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/1ee465d4b8c0438b7e01.json",
+      "bytes": 16224,
+      "sha256": "418cce3e831bbfb3bb6cf3da1abd9266096f1b5b145f03f048d4d4c70131b0f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/202961c8c9eb91e2e146.json",
+      "bytes": 2020,
+      "sha256": "9d8d6181f800418d605cc51648526d4307adb0c45706d8231030b3c7bbd8e777"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/243e1c7245f1ffe6dd07.json",
+      "bytes": 1907,
+      "sha256": "b35b08396dee5fc02e7302e9b0fc926de35dd7e2d7189ba3462ef2fe1452ed98"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/24816a3cf6b732403ab3.json",
+      "bytes": 2018,
+      "sha256": "e65964949f5dc3147a164ffff90126c5db2515ba2e6c3e2fcc161d68ff3e4ab4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/251d01c3f89eb6f2f834.json",
+      "bytes": 2016,
+      "sha256": "2878c8c6de4aab2cd0b49c9ec858dd51d64cde8341f19d3959531cbcd1fdfe47"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/280c5c9ad9f74b879f6f.json",
+      "bytes": 2014,
+      "sha256": "97e8dcf9648351f093876b5c448292602a829d2bba1e2bcadc6214af9b512bcb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/2888fbac9911851c00b8.json",
+      "bytes": 1993,
+      "sha256": "e043ca91d755e9be9470c8152f8215dd23cf63e9a964ad954b8c91c97b05627b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/295ba57b032514a2339c.json",
+      "bytes": 1997,
+      "sha256": "b730d5eb78bbec49c80de8c84f206d38813f7fadfa7fdf46f8845b88d653a9bb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/2acf3b38ad66c86362e4.json",
+      "bytes": 7331,
+      "sha256": "a24073f5f87704194673e5610b8795fcd6f30251d4980bd1b6e96661298e0444"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/2bf0ce9a6b9744d168ad.json",
+      "bytes": 2020,
+      "sha256": "dad2a135eff4dadb82290056dd3c818208bed03d0cdb855942d7c0d704afce49"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/314c1072fc4fe954d30f.json",
+      "bytes": 17939,
+      "sha256": "5ac1097e92fa80c408dcbc4a534692fcc45b843d466f219a01aed9fc8f07f86e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/31b2014e22c219778942.json",
+      "bytes": 2019,
+      "sha256": "0cba2e98f59b582856a47a65d20dfc0c4ce1af811e09fb53933f9ccf76207307"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/31fbda57add2f7733414.json",
+      "bytes": 38029,
+      "sha256": "2daa3840975ca572f64f3ae672fe2783303186c5100c068ce1bb8f1edac76fe8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/32533be6957d92a3f2d9.json",
+      "bytes": 2018,
+      "sha256": "ac898d82d53da2459b83d4c22be3295d341561131d6cd6c909d7d2e6117a95c3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/328f138fc511f615fb1c.json",
+      "bytes": 10648,
+      "sha256": "6c8aa3648a7d9bb9fae3857d7204cd49983054054611caa13ea93412a14f8470"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/3483aadefc017118d6d5.json",
+      "bytes": 2007,
+      "sha256": "1bbfe9a478435d62f6899900c44bcfc1c59155dcf4866a77190b2e70bb26e7e3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/35e9433d586408079c14.json",
+      "bytes": 2022,
+      "sha256": "4d5c0d88a87f333193cb7c8d7fbafec66875d65fcfcec8c9d99426aec4470a80"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/37ac5d45800b0ab6262e.json",
+      "bytes": 1987,
+      "sha256": "cd3c0bd0e02e12ed2a88cb269fb07ab2c8710af3491768dfe05790bd65d44d87"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/39a1641581afb1090095.json",
+      "bytes": 2024,
+      "sha256": "2e84c970f2e4840e7828f422f04f661f2cce5bf84d325329edd44a7632488632"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/3a5fa40488ebe8e6b11b.json",
+      "bytes": 2016,
+      "sha256": "fccfe6cc45aa3eb980e6689a962227126e2668f41116d2a1ace3a1597e44043f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/3fd5fde531b8e05637ce.json",
+      "bytes": 26807,
+      "sha256": "cb09c0afeee750f40c8d534ca7086affb4c22207b0d3d5ff0ce98794b1fbf210"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/405fec8adad2f904b47f.json",
+      "bytes": 10288,
+      "sha256": "eb8335007803893eb2b137ad79efc6d41185ac25a938d188cbfcd0263d83017c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/44d658ca7b512899a586.json",
+      "bytes": 1891,
+      "sha256": "f0ba6a706ffa5b85b4800705e85cb08dcb84e0e8c253a48db037d520e157979d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/46b99454b8fce6c355af.json",
+      "bytes": 12679,
+      "sha256": "928b5f8f361974bd7938d54ecca47ad9a108450bb15841799a8d8210b1f685fc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/47fed98c75bb3b785f23.json",
+      "bytes": 2012,
+      "sha256": "9ce4a96cbb1234bc8975eef10a817fe179e3db1fa33a285e44aac37c929d8aec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/49313f9e582458d8d623.json",
+      "bytes": 1997,
+      "sha256": "c75708c7eec6fe2b99e4b4f539191c2a4cf145b89cfa7fce611cdd30e0654013"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/4b89e89b3a5815724eb0.json",
+      "bytes": 8694,
+      "sha256": "ae15211d8f64315031e47c7bc03fb1d2eb7dae7e6ca97539a191eade0b4a14bb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/4c2e3161ea9bcd04140c.json",
+      "bytes": 2022,
+      "sha256": "840fad5c13cc50c30e30ca9269697bd7055dd65d10bddfbb45dd9fa6fb96d218"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/4c444eef7486e987493d.json",
+      "bytes": 20573,
+      "sha256": "2648a9a2117f5a0361ce01a04eca3cc16732063cd755106a3577f6e987161ff3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/4ce57025c7ed086fff6a.json",
+      "bytes": 1991,
+      "sha256": "1d31dc6d6d210c6a535ed2111731b400047de7b29d5c3601b65e1b26630286b2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/50ddffbb70dd2e56f8b2.json",
+      "bytes": 13222,
+      "sha256": "3a44c2b5e63b4fb9d25fd83b42d09977d863a467e36016adc902fb7631e3911a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/511f1f794e7e52ca940b.json",
+      "bytes": 2009,
+      "sha256": "d584f5c20ab1e08594f6b42698f5b13f26db1043c351c996230f30784912f71f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/5403ae6a5ca56b5e2d19.json",
+      "bytes": 2016,
+      "sha256": "6467ac6999c88ca9bdd5e1eb76c89d4363da0394f84e7f8faff2ebe9b050c94a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/54717d3794f8af055c2d.json",
+      "bytes": 2012,
+      "sha256": "e9790d874608980bb2ed30d56ea986f92c9e702f5ecffe650a799b4b512ce544"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/575668d7e149ecc12dcc.json",
+      "bytes": 14958,
+      "sha256": "b701688558903b6079b0c1cba565973da8bc57841b6868dfdecb040a87a79cc6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/5d0aae1acb91e5f86d80.json",
+      "bytes": 2011,
+      "sha256": "def5767167834afecc2e2e5bbfeeaeec121d365d6b5b430ba501a9b9199da984"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/63733c11660271a685b5.json",
+      "bytes": 2014,
+      "sha256": "8af8242e8669eb1aa176686a6e4496438f7fea5aeff77b6332ac823a692c542c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/65dec38985c8a0b72aba.json",
+      "bytes": 2016,
+      "sha256": "4faaeaa0c4de1cf38d87f8fc51d3f7a735e88d022d3fb4af4ecb13557f18a742"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/6a5d926b5510c69b4856.json",
+      "bytes": 2023,
+      "sha256": "09f1f4cb8a0863aae1f077248e3d74657fe2c77e1aee62520d56c126dac4eb06"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/6ae8e651eaede8db0239.json",
+      "bytes": 13656,
+      "sha256": "90c988ecb845d13d1464ff91052b209962e6f306742d7fe2b26b9eae7cfecc2c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/6d2e606261a62eb3b0f4.json",
+      "bytes": 22896,
+      "sha256": "ec4c3c1f41dd5c6adf096005c710b699eb8d52e2d3f45251b9f3ae6dcbd2ba6b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/6d9b640d654b80cbf077.json",
+      "bytes": 10644,
+      "sha256": "e79470df23204994e043fae660123ffc16fed6fd18aed3a1153d91f1f97f3c89"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/71666884511ee18ea225.json",
+      "bytes": 1926,
+      "sha256": "27c62d23faf6a975d85e4171f7ac80195d6b61abb63f248d4de989e0cde7bce1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/74492bca112f5662a6a0.json",
+      "bytes": 2012,
+      "sha256": "0d5bf796ae613cf586d2684e9b9bb3fbfa5ab66308b3c0cba938afd3078722b3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/77a0d88a288b152f1161.json",
+      "bytes": 26756,
+      "sha256": "db5d4c8045220bbf62ffdafc38fd536b7aeefb7c1817610cfbc00327fa14b25e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/7943178018a29e631c76.json",
+      "bytes": 3546,
+      "sha256": "1c2d8fb2299837b1582fdc51defa429d1878dd0181b88060cf67db3118c73a64"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/794fb5b9062acfd5c24e.json",
+      "bytes": 31882,
+      "sha256": "7574aaca99c04398609d0618134ac387c77101f8daeebe37c0a91fba4f8b0f92"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/7a483f8b32cb486591c7.json",
+      "bytes": 11950,
+      "sha256": "d45e75d6100d9d386c3a00464ab79f31d384d87c08c6d6ad521ec592faea000b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/7b160644f0ea2dd23dde.json",
+      "bytes": 35180,
+      "sha256": "3f4aed8f2b16037a105e21682e1e4c9cc4ae51dd76e268c0cd2965f0152fd42e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/7e430f65eeb90a5b2e0c.json",
+      "bytes": 25899,
+      "sha256": "6bda0446b3d199b28bd9fab39dd65ef626fa9b4b384bb80ce43bde5b308fc01e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/7ed581b96c825fda9aaf.json",
+      "bytes": 17938,
+      "sha256": "31352c392681d9084c6d1c7bceb132c7bfe0d77ff666770ca01aebaf72ec4930"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/7f8647d7e129cbb42f54.json",
+      "bytes": 30691,
+      "sha256": "933db30cc55465f23fc6a8dd331b6da0a3e835f56b36fbeda5580122f7ec6c75"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/830076c64bcb52e769a2.json",
+      "bytes": 12090,
+      "sha256": "0aa7e41aa15af4993d355b8c0c840b1064105bf4177863106c12e4d4e4355cf5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/834af8987b79beaab069.json",
+      "bytes": 8691,
+      "sha256": "893ee16d14931da099e74eaa47b87f05026ba4b2fd80835bd9e7839c79f542f1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/836d70ec62c1401512ae.json",
+      "bytes": 20577,
+      "sha256": "5b103894d701b082ee672243b8986ac3fcba601529489d9bb34d385e5961e8b4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/850c7053208b262b97c2.json",
+      "bytes": 2018,
+      "sha256": "2f6dee776b627d6c3f89096bd2b54e23a66186330fbcb084fc9a1638ecf13b2c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/85bf33dfbad0c88fe646.json",
+      "bytes": 2016,
+      "sha256": "3705f89b7a2eafe28a4003a7dcc458bd82741db27ad1c127d1a04ab7e600043c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/865e09348fd0bf50f969.json",
+      "bytes": 26760,
+      "sha256": "e07d41131a55c70e84706b53836b843683eac3c322ece5d3f63173641a9eff51"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/86b942db62612213d188.json",
+      "bytes": 12367,
+      "sha256": "ce0935fe363bb6eb0bbc6afdd39c5b04d04201c88b2e1a62f727aeedac39628e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/86c85fa453db3c4f02a7.json",
+      "bytes": 2030,
+      "sha256": "7173dae332a08a137c66d5dd3c900b3eec58ce442292e27507409fe6dc72d801"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/881e2623613c93ee5b42.json",
+      "bytes": 2013,
+      "sha256": "166e09ecbf166aeee8c2382ef2d035f6a155b61873d51bfcab0ad3cd9d0fa88b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/8c7d8b460cdddd4783eb.json",
+      "bytes": 2014,
+      "sha256": "9a07cf23671069fe9b3f629152ee7449c4620d0bac36e1ea33bc6138dfa8fec0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/8d933b2fd9a909506ef9.json",
+      "bytes": 12799,
+      "sha256": "8516adc18afbb74c9c67559bc78dd716876a4b42b56135ac3034980366d060b7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/90e3e4b3a815e32845d3.json",
+      "bytes": 2003,
+      "sha256": "fdebef92513e08c914d4931762da67b091c95d7b2fc410e1a37bc0546b505c4d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/90ed1331b2c9a1845999.json",
+      "bytes": 2015,
+      "sha256": "29d0099aa8c210da66244591be0db7902d39927210b809b844e8d9e1b5057119"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/94185ea4184f445f677d.json",
+      "bytes": 2020,
+      "sha256": "278a71eb17d2f1e05044dc9f4a163c36bd2699f3e2abc13c1be66316e562732d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/9a732d421c0f6b7fd82b.json",
+      "bytes": 2028,
+      "sha256": "f5d9746f66d4f70d034fed7baf3bf665340eae0efab1295e7787485715adc759"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/9b1b5c924a28824c388b.json",
+      "bytes": 2109,
+      "sha256": "5b4d7a3bc3dece9aebe9fd078972b9f05a17ecbdb7c59fb872ced354867002a3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/9b94f5ac428ca1f500d8.json",
+      "bytes": 21416,
+      "sha256": "796ddc54779270bf8f4b1322a21d0cad48d94eb4be63f68bc6bff3e934bbbd0e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/9f239c4f32e76f8de163.json",
+      "bytes": 15326,
+      "sha256": "822d24d5bfe741565881d969e99faf16d075d3283f42e16585590ed9a506e2fb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/9fafbb52ff593f95c3a9.json",
+      "bytes": 2010,
+      "sha256": "b85381bd271d7fdc67a913138f868d1bf4ff0b627416eff912d249f4183d85b3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/a4f585036b8ccbe28085.json",
+      "bytes": 2030,
+      "sha256": "ca9a67d40249c3902be32bc1c403ef7f7fba1067d6ee25df405305f52299f3e5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/a783ed37adf342803aaf.json",
+      "bytes": 29368,
+      "sha256": "40be13b297d9af0926613c4dc94fe1b8e45b4ccf64e4d7f42445849a31ff2863"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/aadab8aec4f71324d40e.json",
+      "bytes": 16275,
+      "sha256": "87f887a7a0fa04e9f1e0de85a47e3d84373f44b58197eaafa97a2585e345628a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/ab430d8341dd7c78f0ad.json",
+      "bytes": 2026,
+      "sha256": "feb653389339d59a1be15f174b961c734313b900510ddaf72ea6f66bbba464be"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/ab45287e210e89215127.json",
+      "bytes": 23796,
+      "sha256": "ef70ceb1e8789bf9131dcbc5c2e96828197cf154972d82f4f3fae3508f455514"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/aba37badc2033e887960.json",
+      "bytes": 2016,
+      "sha256": "ddaf07b292cf0c9b1e138fc7e1b04a9a98b238576b43e313a233d97d972ab2f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/aef0071b4c17a48fb378.json",
+      "bytes": 11505,
+      "sha256": "d9f715b51d1ef1796f8029078c35a9438c1863095cc32f02eeca76981f8daaa3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/af0e0470f1ed38f5d5cf.json",
+      "bytes": 47429,
+      "sha256": "b6be1c824f548bc03538c81d06664ea34cf976373ec94dc07bbb8c41531632de"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/b0a23e465bb34ce3445d.json",
+      "bytes": 2026,
+      "sha256": "eba58edc284f2b75212339d90ac93ab3af24a51253330226ee5f1d6d49da9869"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/b25ad91380ceca1704c0.json",
+      "bytes": 14110,
+      "sha256": "f38ceb5f1d040029e38ab34c6b7637c985012607883ea3f1263371945eca4384"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/b47d0c901ad23b077a9f.json",
+      "bytes": 2020,
+      "sha256": "810f79e3a559c1e3038657787eed7e06ebe6d895bd5a8d1d57f848edf4df0e46"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/bc808cea872a43d41465.json",
+      "bytes": 1999,
+      "sha256": "d33c95d27559b9032d32f1690ed14e14df991bd18a2e5698a3f9c3432fb81489"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/c16eaefc4b8d07285801.json",
+      "bytes": 30260,
+      "sha256": "4f6dab1df3e09dcfea479360342049d1102b947d8b2f87470262cedfdb09e3c2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/c48d71cd95382f3b7889.json",
+      "bytes": 20958,
+      "sha256": "dcacd7fe91509585db042bdb8197467fe6b91dc2fc343579cc338f8bdccb82bc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/c70bd9d7e91b840cde2e.json",
+      "bytes": 2016,
+      "sha256": "ba3302bad6cf68d704e8eac4c8773f91ccc52d94ea6183e0e22822af5e3f27ca"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/c73420c1343273d55607.json",
+      "bytes": 3334,
+      "sha256": "34ae7ce6c4c250666b9cecc8f927028efa98da5de7cdc798b967565ffb91f9ef"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/ca8951c79c20308f8383.json",
+      "bytes": 23087,
+      "sha256": "2a9aa5b9a72bf815c268391007c72e5fe652c3c456bacb5ceb9924b51ba3b320"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/ce8d14caee83939af747.json",
+      "bytes": 14087,
+      "sha256": "2f6dda76de66ec27840353aca3db78e549714b05028ee130a2d77f179e722676"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/d111c807562212e2d99b.json",
+      "bytes": 2020,
+      "sha256": "2b7fb4b1d4b3c43c514f1eca9905103d2f150d8d1aabba31d9980507da7d43c4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/d37ed78e6524b32f5935.json",
+      "bytes": 2014,
+      "sha256": "5309abc02d4af2ee7df26a6f9ebdd1ff1c330d45ddc428eac89f54f8d53eab1e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/d61b81e13637b6b8a961.json",
+      "bytes": 8697,
+      "sha256": "2d9619767c7d70bb1bc7dd07633450e7ea178ca646b7185e6a48ec4e3e4b33d7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/d7ebdbe24e4af6a4b07e.json",
+      "bytes": 12793,
+      "sha256": "a9899d7d6d9c763666da2a278418197e2a044ce895cbb0d82eb7c473b5253a11"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/d84351ee1334c1bbc20a.json",
+      "bytes": 14197,
+      "sha256": "25546349d3642d2ff97755848a1e7ab764ac9cf509016227f088b04ed6484e55"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/d9dbc1b9f72e2982b758.json",
+      "bytes": 14193,
+      "sha256": "7939b1c8a6d1de8ad6ad70aa765618520b1d2406c04dd2b54dadbac2e9501e20"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/db24548db8f18238176a.json",
+      "bytes": 2004,
+      "sha256": "bd7a42ea36dfa65d447d129690bd193a7177677ba026cf16c2611af4b2870617"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/db58a47cfa03ee41ea25.json",
+      "bytes": 8264,
+      "sha256": "cad5d21924b8744cf326b6fe5b0c4d836e732633b0a709cb40f9b919335b31a0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/db758a812419514e8f7f.json",
+      "bytes": 47433,
+      "sha256": "f80d1ca718d41fcfa38333d5538f5f8cbedddc94fa17ba3140ef37d6b097cc29"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/e6e7a6d637bb5ae64ecc.json",
+      "bytes": 2001,
+      "sha256": "4fec3f6d0f11770b38fe013643951bcbbb726dbdccfb213548cd5b4082ed6ef1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/e93d1856b88aab742863.json",
+      "bytes": 19698,
+      "sha256": "1d900aaa7cbd5f4a84d3e05cc19c5a32c0f3cb7d41e5629bb862db8e569afdf7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/eb877bb4c054c0fa1629.json",
+      "bytes": 2018,
+      "sha256": "7c6e79bb7ac362a481cd4162ef7b957ef2a3fae68f57219ba9a919a95226d6ed"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/ebbbf6d39e36ea7af347.json",
+      "bytes": 8519,
+      "sha256": "c193b78a5c70ca998198b31aecd0715d0899f39074715efc850eba4335889036"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/ee32fea65cef921d5873.json",
+      "bytes": 2020,
+      "sha256": "0cc0c2002fa3b45bcf5b8e59352b7f489613b5f8a0298bb08f2875f88c787a08"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/ef97064f8d91aad4a709.json",
+      "bytes": 31160,
+      "sha256": "381e99b22c89c7372b71f97bab9ab040ecca16f264375b1b56c5dce83ca997d1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/efdf34e5fccae05a3ce3.json",
+      "bytes": 12683,
+      "sha256": "25b162401e1861093cf3146354d4148858c21aa723e556b0c2f1aced35c639dc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/f3b5457969f69682509d.json",
+      "bytes": 1904,
+      "sha256": "ca94db4d2895da8caf2ed568d39ee94426c2452eeff6dc3085019ac16f173b03"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/f5b1ecfe1bf5d17a746c.json",
+      "bytes": 14079,
+      "sha256": "7d9832099049d0b5175c5bf9d8aa5ec0f8268b114205440ca4570b5eb2861247"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/f637f631a83578875bc3.json",
+      "bytes": 18614,
+      "sha256": "724f9590f1709fc0470b89f007011bd3090ed9662649bdbb96d3153a44324dc1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/games/fce000a3b2faebce29ac.json",
+      "bytes": 13226,
+      "sha256": "fc10c3e7c8596654bbea1c868ae39117907e28927a4f52e7ce9d36113457ac5a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/har-reference.json",
+      "bytes": 21633,
+      "sha256": "e9cd090516bf843ab31f0ea25db1eeddf37a8d7c4474b742b7abe508d7ea649e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/index.html",
+      "bytes": 48111,
+      "sha256": "3002fef4812edaa8665945c536f798e24d2460c9b2b68bcb202417e948acbe00"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/next-batch.json",
+      "bytes": 1869,
+      "sha256": "21a066f37daf792c70779c0113a1d9f762b2eb661c308fc6d567f3a2922b82b0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/plan-all-identified.json",
+      "bytes": 69123,
+      "sha256": "72e27679ac4601c73b3d31c189f4c98ec7f1d1f42a7430cad780485c5de948c1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/plan-first-100.json",
+      "bytes": 33616,
+      "sha256": "1f78fd73f914bf8054f9390fa4695eafd03c8fd1ce1a12724ff0ea696671262d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/beez-expired-demo.json",
+      "bytes": 570,
+      "sha256": "3958795011fd6ae8b927921014957fa24b8cbb306a1b1a5b83efdd827014d76b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/clover-charm-hit-the-bonus-expired.json",
+      "bytes": 543,
+      "sha256": "86b7c25949906fc3d14d934857ad7acfe5ebb40bd42bac2b9ba50904d63c8867"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/golden-penny-x1000-expired.json",
+      "bytes": 544,
+      "sha256": "88bc491ee709c0d42d0609c925de50462b96086b467f14600139a94647b96918"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/golden-penny-x1000-super-wheel-expired.json",
+      "bytes": 559,
+      "sha256": "14481ce45edbaa52786d1da8000142e9eafa1ec5fa52370304b9b6c7907190dc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/legend-of-cleopatra-megaways-expired.json",
+      "bytes": 544,
+      "sha256": "d0b89d0e6464607bfc02ff925afa5c44ea0f88237fdeefed71abd04daa060ab5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/sugar-piggy-hold-and-win-expired.json",
+      "bytes": 575,
+      "sha256": "64184b50f024376310654fa797decd312d9a86ed4b83ae2439292cc54fd63311"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/sugar-teddy-x1000-expired.json",
+      "bytes": 576,
+      "sha256": "d2fa4c55cd421ab87a83cc35047e8e214bdea74b8ac3298ef0181096b05864b9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/thunder-coins-xxl-hold-and-win-expired.json",
+      "bytes": 226,
+      "sha256": "fd7df5371548be5488a665ba201ef2af079455cfe91cea890be74b914f44d2c3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/treasures-of-fire-scatter-pays-expired.json",
+      "bytes": 525,
+      "sha256": "8c1d31be8c0f99b974e8b1f2662baefc331d2f5c5318007800c718ae64aed07a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/prior-runs/x1000-golden-penny-2-expired.json",
+      "bytes": 544,
+      "sha256": "88bc491ee709c0d42d0609c925de50462b96086b467f14600139a94647b96918"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/summary.json",
+      "bytes": 1205288,
+      "sha256": "ab1e80c3a9896654f3db82b576a7268f5b37ec857eb1b916be95905010ef8e05"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/upcoming/multidiamond-xxl-spins.json",
+      "bytes": 14183,
+      "sha256": "48b9e6a7f0b7ae3f4e12cf459b6fa4bfeca8a021c340e6806fcf01bd688c1462"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/upcoming-results.json",
+      "bytes": 2529,
+      "sha256": "db3c8d1adad2ba32bf2e473f04204dfa7e6c96a58b2c2a7c69fbbab676598501"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson/upcoming.html",
+      "bytes": 2192,
+      "sha256": "6a951f14064535a6362da0ce67087141ecec98895071174789ee60f4884e9a11"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/playson_reports.py",
+      "bytes": 9194,
+      "sha256": "8eddcda25b7605b1159684b59d63ec99f43302319084cccab91057d3e970a7dd"
+    },
+    {
+      "ruta": "referencias/informes/REPORTE.md",
+      "bytes": 4144,
+      "sha256": "6f42e101ecc34bb6079ad832fe5c595b1893b457206e20231f97286ec5665a8f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/analysis-status.json",
+      "bytes": 3811,
+      "sha256": "759629d9b6245d22fdc7d6a8de015c47d5cf46dd1bf2fa535f381d291ae0576f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/campaign-status.json",
+      "bytes": 11465,
+      "sha256": "a89f65f83f9309d5e72bf0667d4b627fc4b71f14d201acfeff71810b0f968134"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-captured.json",
+      "bytes": 33334,
+      "sha256": "19020cf9244ed78d44276c18bb05c839770e76a99bd82b5de518942e0a34791c"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-complete.json",
+      "bytes": 72695,
+      "sha256": "f22cd4adca70b0c8e40945fe72e45677100d03af7d85eb05635856b90a9d2adb"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-coverage.json",
+      "bytes": 3585,
+      "sha256": "e94796f400fd2de5480179e6b1bf03e8fb120afc47e7b128ca6cb3fbba597d16"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-current.json",
+      "bytes": 72695,
+      "sha256": "f22cd4adca70b0c8e40945fe72e45677100d03af7d85eb05635856b90a9d2adb"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-snapshots/20261030T230158Z/manifest.json",
+      "bytes": 1945,
+      "sha256": "d998cd80feb4ed8d09418cab91360439aceadfb3ffbb624a6dbb331babccf06c"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-snapshots/20261030T230158Z/page-1.json",
+      "bytes": 5319,
+      "sha256": "2f6bc6177f74c4364a58fd2c4b8c1608bf0d8263eaef1a23d7bd8070aeb30e3a"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-snapshots/20261030T230158Z/page-2.json",
+      "bytes": 5251,
+      "sha256": "e858fdce1c42cdd325db6d5784d2b952ba153830d174e4fb7cd3118f129b4030"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-snapshots/20261030T230158Z/page-3.json",
+      "bytes": 1484,
+      "sha256": "9d981dd0f4817469a360f1c3d94ac3048be32c66c2e5786d6e6503e927983d59"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/catalog-snapshots/20261030T230158Z/prior-catalog-current.json",
+      "bytes": 37684,
+      "sha256": "9c9b5b3ff3dfdec9bf2382452e592dcd54453d3faeb2047fdecdf9979c07b453"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/fixtures/captured-rounds.json",
+      "bytes": 51916,
+      "sha256": "c9e3b472fb3d6d646fec88f2b0f42f3e49ec7cbe669e0406636071cf914b9678"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/har-reference.json",
+      "bytes": 21633,
+      "sha256": "e9cd090516bf843ab31f0ea25db1eeddf37a8d7c4474b742b7abe508d7ea649e"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/launch-resolution.json",
+      "bytes": 19923,
+      "sha256": "9ea1e283af084680ed6650ad6af682e66d5ff26a356ae9b69fd756805d202b8f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/controls/thunder-coins-xxl-wallet-control.json",
+      "bytes": 3434,
+      "sha256": "20ab8f6dc9cbc292fbd09801a9f78fa93452b5d7eda3bda1318e9ee185fb0dc9"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-carts-of-gold-hold-and-win.json",
+      "bytes": 9589,
+      "sha256": "5c2c53335bac2b0c5e5cbdefc30d30eb327b648652498f9d91830123b368be01"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-chillies-and-joker-hold-and-win.json",
+      "bytes": 22082,
+      "sha256": "95a067107ee9a139c0ef044bc0cbf2388ac66d349ca1c204a283b30255f0f8dd"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-gems-of-vegas-super-wheel.json",
+      "bytes": 15775,
+      "sha256": "4899b1185e3af05e72837fe824578684ca1c58daaa86ab0abf69e8749ab8ef9b"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-luxor-pots-hold-and-win.json",
+      "bytes": 24191,
+      "sha256": "d69a736def7c95e2f2341931856a888550b9bba0392073499a415bdac4dbf0ef"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-magic-lamps-hold-and-win.json",
+      "bytes": 2631,
+      "sha256": "f70e1653c9209bb2f01eadd9d2de097d80c9e655e28009025032a24a43b03dc9"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-pirate-barrels-hold-and-win.json",
+      "bytes": 2634,
+      "sha256": "707033ef99cc4e1da32db99946f26d3ef238a80200469367b878494971f31b43"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-pots-riches-extra-hold-and-win.json",
+      "bytes": 2637,
+      "sha256": "86a76993518d42445fa15ddaeaf0ed0902674c58373c3725a1f0984ea685aea0"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-pots-riches-hold-and-win.json",
+      "bytes": 2631,
+      "sha256": "4ce1a2b25f345e5085b24c11203421a3b5f63490ccdd018bc4256d4e9b549fe8"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-roaring-bells-hold-and-win.json",
+      "bytes": 27277,
+      "sha256": "26f11dae4fa6423684813da4f8c0c83d2bb1159af9fefd738f03102d50799446"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-royal-coins-hold-and-win.json",
+      "bytes": 19069,
+      "sha256": "8eb7f0c2fe29420fd3d0fa9f4386fa3a4ddb4969760c02e2ef0b86f0dc4ef140"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-supercharged-diamonds-hold-and-win.json",
+      "bytes": 16079,
+      "sha256": "b5de0ae5ae6fd471d9861d043328e12fa3db67e0715535c35e75d4e9aa6b8b12"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3-thunder-coins-hold-and-win.json",
+      "bytes": 4432,
+      "sha256": "c973839e5861b8701a137c17c42bfabde0c727aac68d4cce4fd5a37cfd75a2a4"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/3x-catch.json",
+      "bytes": 25199,
+      "sha256": "76a5e45e8316473840c9db0382ad97cc6fb02e2e41c40e1b12b61774b052cd42"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-chili-amigos-hold-and-win.json",
+      "bytes": 12634,
+      "sha256": "cf8c84f6dce1a5252cfbece076bdcb7296c190a408081e4496939aff63a4e9f9"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-chili-pots-hold-and-win.json",
+      "bytes": 15181,
+      "sha256": "5732fefcdcb040ef6128c3aea6e877967d2eca542065fcd50dfaecdf392ab0d8"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-pots-riches-hold-and-win.json",
+      "bytes": 14324,
+      "sha256": "afc3e107159974f258312f18bee84227258f0d542332338f9c0495de0da7b496"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-pots-riches-super-wheel.json",
+      "bytes": 19071,
+      "sha256": "1e6804aacd76d2981ae5ab0d1a9ea9a66d8261e3f9eb1c6907aae456e1b28cd3"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-scarab-coins-hold-and-win.json",
+      "bytes": 14786,
+      "sha256": "c0e468bbbc614172c82af3f42860380937c2fe32e2cdb44204fdf10b9d28a46a"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-supercharged-clovers-hold-and-win.json",
+      "bytes": 13071,
+      "sha256": "940555097e1351fc933b744a2d8130e44d805ee9b34e0a3f0bdb75245e66a317"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-supercharged-clovers-super-wheel.json",
+      "bytes": 8669,
+      "sha256": "0cdd3697b3d15106b1c1edc7c0b8b68e78063859a37cf3972ed58cf320f60535"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/4-supershiny-diamonds-hold-and-win.json",
+      "bytes": 9648,
+      "sha256": "1ab516dc390f0e3e34ee0cf0a507f1d269d6fe6619c297ee2659f1fb8025d30c"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/777-sizzling-wins-5-lines.json",
+      "bytes": 2658,
+      "sha256": "7224074c30e3c27b41dd9786a85928fdec4581904b61dc635aa39ee27b94bd3d"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-100-joker-staxx.json",
+      "bytes": 2674,
+      "sha256": "d2655cac9d35d1708304853c1562f5fe46eddace871b6a6fd4c9d8b03de68d91"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-book-of-gold-classic.json",
+      "bytes": 2710,
+      "sha256": "1bc71fde039ca190e8661a946a7e7d976064d700ab31462472b0082998f0800a"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-burning-wins.json",
+      "bytes": 2704,
+      "sha256": "8702ba0d97c4d395216107c52ca5855b4bc5651f5b74a98ba5764c8db3f91098"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-fruits-and-jokers-100.json",
+      "bytes": 2680,
+      "sha256": "d6cbad912b7530197f723ec1543dbcc58314aa92a0e58ee69c822a2da57d4321"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-fruits-and-jokers-20.json",
+      "bytes": 2679,
+      "sha256": "e84dd471c01639aa11c8cc619c880ade754af03e191f239daa13c283e82296fb"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-fruits-and-jokers-40.json",
+      "bytes": 2679,
+      "sha256": "f4aa28484e8e1c02a7e464205afaa1367b0d725a95272866c62dc63c72fe8b6a"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-imperial-fruits-5.json",
+      "bytes": 2674,
+      "sha256": "5f8ef757c3a12d5ffafda107ee55cdbdbb8bbae5110817d6e7d15a5a314ce0d8"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-joker-expand.json",
+      "bytes": 2704,
+      "sha256": "781dd230b1202ba7935a89e5092abaff93f576d8a43b8099924e54b87a776f9f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-rise-of-egypt.json",
+      "bytes": 2672,
+      "sha256": "3f87ae9e57f4c0d41c4fd613c51498144f3b75b951c29380d5eee46f047eabe0"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-sevens-n-fruits-20.json",
+      "bytes": 2602,
+      "sha256": "1248dcb286c604d454a613a83c55aef25e95bc54ab8afb8b4d7e3bfd4d285aab"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-sevens-n-fruits.json",
+      "bytes": 2632,
+      "sha256": "5f804dfd74d439e58a9337485425393e828ea7cdf7d0009b75f7c2fdc401ba9c"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-solar-queen.json",
+      "bytes": 2670,
+      "sha256": "e5caaf62760c6f8483de319f6850f59d74e20dd3721ffbd530c6f548d818c955"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-sunny-fruits.json",
+      "bytes": 2699,
+      "sha256": "4c083de12619c7b1892c9f2f6659b9b052481677eef8d6dc97e27a491874e12b"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/api-super-burning-wins.json",
+      "bytes": 2710,
+      "sha256": "d96a6050797738448da279dda85f65de1486bf9b92d6eec4cc00bea8d430ca00"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/arizona-heist-hold-and-win.json",
+      "bytes": 2634,
+      "sha256": "c153d2402484fdb150e45c779cc04fd7862f262f06713bd4e0c199f8788b017a"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/beez-turn-wild.json",
+      "bytes": 17366,
+      "sha256": "92e770aa57e6cd749cd707415675f8342e15f29fdf16d95ccbb4b25757770a37"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/book-del-sol-multiplier.json",
+      "bytes": 13031,
+      "sha256": "fe49e76c1fb002a23b03600e1affe22ee7347b820f72b71cc42ddb959b2d9f62"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/book-of-gold-multichance.json",
+      "bytes": 9634,
+      "sha256": "766c7eaf5bd13261b2a99cd8c4ed38558522ac84e7533c8875259e3aace78db9"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/buffalo-power-2-hold-and-win.json",
+      "bytes": 2683,
+      "sha256": "abed1df11d7fa753d5194c60571742e5dfc5cfc7b3d3aefbdd49a0a73357b4ad"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/buffalo-power-christmas.json",
+      "bytes": 2678,
+      "sha256": "47201abad1a5622e122368ff4ae9be27c906da713361b01dc2a376dbc7d89573"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/buffalo-power-hold-and-win.json",
+      "bytes": 2681,
+      "sha256": "cd0ff202a683813af28517e8f89a06407b722e6f9bc81ccda287161bce7b0339"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/buffalo-power-megaways.json",
+      "bytes": 2627,
+      "sha256": "a8a71ee35749836543274de17a9b87a99d2069cf727aac4da740f0ce1981f394"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/burning-fortunator.json",
+      "bytes": 2656,
+      "sha256": "7307c82ec7d7c79c5c13670c70a059cd7ba63590bfc3d6024df56409a722096f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/burning-wins-x2.json",
+      "bytes": 2648,
+      "sha256": "b512b4f55e239842e459a96f8c05a730c734403b9a3fac0f41bebd66e7eb57dc"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/charge-the-clovers-hit-the-bonus.json",
+      "bytes": 22879,
+      "sha256": "a6e8a018546d3a0af33bb2c42874bc8497c7ac7838d14adc71586b184a26c19f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/clover-charm-hit-the-bonus.json",
+      "bytes": 12055,
+      "sha256": "1a45512636ae73368fd722f7b6eb467971dcf1ed78e91536131127d661de03c5"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/clover-smash.json",
+      "bytes": 4416,
+      "sha256": "ad8521566751a46b29e630bef7f020b2e92c5360ace1a147b86f192dc87ae05f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/clover-strike-hold-and-win.json",
+      "bytes": 19105,
+      "sha256": "5103c3e0f627539d1121ff9490fe357efb05b996b303c7a1258c94db7faf216b"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/coin-strike-2-hold-and-win.json",
+      "bytes": 24308,
+      "sha256": "d3219a3b92ebe511b8e0b389771a741025fe9ea5538f31a6eb32c3d4e9e80d90"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/coin-strike-hold-and-win.json",
+      "bytes": 2657,
+      "sha256": "d6dbf339d075d2673727e57d5411f375443dd84cd95a8279f6b32440b489c69d"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/coin-strike-xxl-hold-and-win.json",
+      "bytes": 14355,
+      "sha256": "38c9b7a36f524c5a3a8c82c507a18feefcab3a9c8ceb9524902c1fc68471383d"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/coin-strike-xxl-multicoin.json",
+      "bytes": 23037,
+      "sha256": "77c689f297dee6795ed060e1a8fbcbb80f38206a4775df5219e3223b2effe84a"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/crown-and-diamonds-hold-and-win.json",
+      "bytes": 2664,
+      "sha256": "cf369c6a6c17a15dcef8f594dcf3a2aa16f626b9c2e392f93c2b3fa131c0b85c"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/crown-strike-hold-and-win.json",
+      "bytes": 22503,
+      "sha256": "0c34c4106e7b56b02bffdd1ae68d3460ff3473d918f7fe42f892348696bac63d"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/diamond-fortunator-hold-and-win.json",
+      "bytes": 2664,
+      "sha256": "884bb45731aa964d6f6e157b26974a6989103d0ad5ded2a4e3359b7a019ddf85"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/diamond-wins-hold-and-win.json",
+      "bytes": 2708,
+      "sha256": "c582e10a03fc5f63a8daa2f5e54faf07cba71bb5487149bbb6cea38459f17346"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/diamonds-power-hold-and-win.json",
+      "bytes": 2660,
+      "sha256": "3e529fadb778c09664294ae9bed70c5c962d52efd66b8807bdd1bd486bc042b6"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/diamonds-power-xxl-hold-and-win.json",
+      "bytes": 15213,
+      "sha256": "d85500e98c04333e482d4193f8ca2c9baaa0f2646787e32b306a2c2a78564d06"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/empire-gold-hold-and-win.json",
+      "bytes": 2629,
+      "sha256": "e6b98883cbc5c46abe9c6d0caf7c93008be7ab12eff99cf0a713953a99f5bcf7"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/energy-coins-hold-and-win.json",
+      "bytes": 2658,
+      "sha256": "ade31b284a75117a76c8852427fe0561e1e88173b8a2b75f2212c081c93d98c1"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/energy-joker-hold-and-win.json",
+      "bytes": 2658,
+      "sha256": "63e80e3e82cc4a57d8cce29c1ab905a634fbb34a87663e198a6b6a90cd58b586"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/fire-coins-hold-and-win.json",
+      "bytes": 2662,
+      "sha256": "fd4df98fad34520ca36fcea7fc40c15b78988c6631f93d5aa7efbc7ad9f93bee"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/fire-temple-hold-and-win.json",
+      "bytes": 2600,
+      "sha256": "9eea35fa1badd3c4483c179b73d0299902d4eda3262cd20ef67d3b1f606bc2d3"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/flaming-bells.json",
+      "bytes": 2652,
+      "sha256": "a202e46b5388073267a43b4cf55e34f8601d60552dde4a423f52e731c16e5ae7"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/golden-penny-x1000-super-wheel.json",
+      "bytes": 31230,
+      "sha256": "406511c8226ace2d258dce0000e323b45986275b8d9aec02ed32f862223710bd"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/golden-penny-x1000.json",
+      "bytes": 32271,
+      "sha256": "956fa286b62f2f9c9c31b1be1e30857aaf1bc3dbfcf25f6cf3a28430702f8fa5"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/hot-burning-wins.json",
+      "bytes": 2649,
+      "sha256": "a73383b7c349f8c414e696e35067af77a8d63606fc3a68ed9ca8e0c2d48e94a5"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/hot-coins-hold-and-win.json",
+      "bytes": 2655,
+      "sha256": "eab8bfca849a1af832326fd515c08acb53b89eb9e29f0315ecb7fdbb7f4d90b1"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/jingle-coins-hold-and-win.json",
+      "bytes": 9614,
+      "sha256": "0fc823b36c8c7a8e0efab63c8b1045d996c4f7cb0d20eaff7ef94a22cb69d2da"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/jokers-coins-hold-and-win.json",
+      "bytes": 2658,
+      "sha256": "a74321a34bf1ac830352263e14a51e6e83c0732a9ac81271f55f63a686706e2a"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/king-of-the-sky-hit-the-bonus.json",
+      "bytes": 19978,
+      "sha256": "dcb2fe91c8e64a79f7ee926bc9e16e928a38afc9f1a591a60b0055985a99ddcd"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/legend-of-cleopatra-megaways.json",
+      "bytes": 14001,
+      "sha256": "09a319d7553b81b5a0ada4bd78d72331006fe5770deb7dd0802fc288d621e510"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/lightning-clovers-hit-the-bonus.json",
+      "bytes": 15516,
+      "sha256": "e6430fc4f130068e5629c3087e8aa44ddc6e5b0ed725ece7d8a334c7336631e1"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/lion-gems-3-pots-hold-and-win.json",
+      "bytes": 13467,
+      "sha256": "e7b7e6ec127fe20298aa773a64b0c26cf5ec5d2d4880434dceb48ca0a4622679"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/lion-gems-hold-and-win.json",
+      "bytes": 2655,
+      "sha256": "486b63cc2e3f3fda19c82dc8484be2b2512689b84250f924c26163394e601b69"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/lucky-pots-x1000.json",
+      "bytes": 33665,
+      "sha256": "e8a970d83bd508ba686474623839ea458eae76a9920a8c9daf87e5f9bdd63ea1"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/luxor-gold-hold-and-win.json",
+      "bytes": 2628,
+      "sha256": "15b0fc42ceea9d248fc7e2c2f37209c4fba94c824cd100b353471a6126be8715"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/merry-giftmas-hold-and-win.json",
+      "bytes": 2659,
+      "sha256": "50d093abca7511e86dce144e8ce2b5f936d0ef84dcbb6545d345f0dd60c884b7"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/more-energy-coins-hold-and-win.json",
+      "bytes": 4296,
+      "sha256": "22b8633ef4e9e294fe2f4f48167be745001bea127b006c8485c37af8609c2d70"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/paddy-star-smash-and-win.json",
+      "bytes": 2657,
+      "sha256": "2a3378a2c20887ae2730175bc5064d2626379d271aee318f2b86e55b97f9ee3b"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/piggy-power-hit-the-bonus.json",
+      "bytes": 11771,
+      "sha256": "b781776dbe76867a244ed77d84fe9dadc9a70fc27ddf49268038fac0fea14c2c"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/pink-clovers-xxxl-hold-and-win.json",
+      "bytes": 17891,
+      "sha256": "66eb13721d585f78647c1c6b01653668f1e8dd35eb28265f0198f697e1117971"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/pink-joker-hold-and-win.json",
+      "bytes": 2656,
+      "sha256": "37050db153df187cf1b7d30b0970133095823da88a3d6f6da9c6a736134a61f5"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/pirate-chest-hold-and-win.json",
+      "bytes": 2658,
+      "sha256": "f431f2448e1e8e81b895cffed411fc459f910bfd06c9a433dfadf3a203bae054"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/power-crown-hold-and-win.json",
+      "bytes": 2657,
+      "sha256": "e1aa875c0cbfa6b37a03244fefb9a552abec277621a5c78796521f7751176d5f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/rhino-coins-hit-the-bonus.json",
+      "bytes": 49781,
+      "sha256": "79694012d57d23d4b31931b7d15e9dfec153fb082bf989ae0c0e9facf4f628cf"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/rockin-joker-hold-and-win.json",
+      "bytes": 17355,
+      "sha256": "e99b6b9500841ab5480a96b54a9f7663cbc4fedabfaca3e71c5a7e61b87bafba"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/royal-coins-2-hold-and-win.json",
+      "bytes": 2659,
+      "sha256": "2cc9a85eed2d3f49f9a201833eda4ca55f1dd2ab43b15d018e456655741898fa"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/royal-coins-hold-and-win.json",
+      "bytes": 2657,
+      "sha256": "6e48b16919fffd8088d8d3113966a9ac013826c437f9eac7b783cfb2074b12aa"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/royal-express-hold-and-win.json",
+      "bytes": 9186,
+      "sha256": "970863887f606115c4145f833c06b636269a4df7a7007d97e4a74c65223d9cb1"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/royal-fortunator-hold-and-win.json",
+      "bytes": 2662,
+      "sha256": "bcf293bf0418770b5c61daea8024bf2531c1bcd3a3dfe921cb7c7ebfe311d305"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/royal-joker-hold-and-win.json",
+      "bytes": 2657,
+      "sha256": "e664544b77fd329b50d631ff202800dcdee415cee4732e6c54e44f0d9e9bd7fd"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/ruby-hit-hold-and-win.json",
+      "bytes": 2654,
+      "sha256": "36d20465791ec394a196cc52c63db617745854329cbef7e13c85032da987cdf5"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/solar-king.json",
+      "bytes": 2665,
+      "sha256": "491392c7bbcc88313864f5a68f8daa5d5480884f51084fdb70af0af6b615efce"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/solar-temple.json",
+      "bytes": 2667,
+      "sha256": "52373389788e51dae2eca7f277a447b8dd636759270d5d54379c4bbef2231109"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/sugar-piggy-hold-and-win.json",
+      "bytes": 32181,
+      "sha256": "868ca461e1ee268e268f060afdd329d9aa74a4de4115b9867011979601e02a78"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/sugar-teddy-x1000.json",
+      "bytes": 40000,
+      "sha256": "55764c10070e718c9c72515149c1326e2f549a52329016566086abc670f9c081"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/sunny-fruits-2-hold-and-win.json",
+      "bytes": 2660,
+      "sha256": "72c5f0924b9bf85fc3e0f5569e72478b598dbbcf83b4553e05d4a714a3561ec9"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/super-pink-joker-hold-and-win.json",
+      "bytes": 13927,
+      "sha256": "7e1b03120516a13642949c6ed5ac7dd0ccd014d7b859a58de487b366a16eae36"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/supercharged-clovers-hold-and-win.json",
+      "bytes": 2664,
+      "sha256": "ea07dd74275a29495e15a2a2bcba7530e7991a7e29b357a5c5ff3c7c7adab0e6"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/thunder-coin-xxl-boostercells.json",
+      "bytes": 21360,
+      "sha256": "9db655b3f38828cb88deff3443c9338267b5df52217508058f2db908cc175aa1"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/thunder-coins-hold-and-win.json",
+      "bytes": 2659,
+      "sha256": "f758dc4c103be34e03ca094b79602f92b004713e8ee6d4111e35734f5238c686"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/thunder-coins-xxl-hold-and-win.json",
+      "bytes": 14803,
+      "sha256": "9a45dba90a89214dcb2cd1521c1060bcf7625a8418e0b0a676d0ecdaca627743"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/thunder-coins-xxl-multicoin.json",
+      "bytes": 28671,
+      "sha256": "61c1d4664dbcd489902aceb242274e8327b04f32304cd6fb354ebf03684effb4"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/timeless-diamonds-hold-and-win.json",
+      "bytes": 2663,
+      "sha256": "d08554285605dd2d81def87bb3b8cbadbb19ae70b1229e39afff927d154ed1c2"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/tornado-power-hold-and-win.json",
+      "bytes": 13924,
+      "sha256": "90fd1046970caf4c0c58aef9a88a837c9fe05ed6102a1e477d697e6ee4129fea"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/treasures-of-fire-scatter-pays.json",
+      "bytes": 3171,
+      "sha256": "448a8319cce2baf95efa9006a184bbc9f85631c16a30cc1b6741fed4f4358f4f"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/vegas-glitz.json",
+      "bytes": 32658,
+      "sha256": "a6d75ac90d53ca123097aba22e40293e9532929747b44c54f8fef2fc60293e05"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/wolf-power-hold-and-win.json",
+      "bytes": 2678,
+      "sha256": "2460498700106eefee48cfdcc52595186123ede6650b81c4f0366b46b2d09091"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/wolf-power-megaways.json",
+      "bytes": 2663,
+      "sha256": "14f66481b731d9dfb1bfa61e9f082192fe5e780bfb5ab11773dc28d3c1fa26bb"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/live/games/x1000-golden-penny-2.json",
+      "bytes": 36758,
+      "sha256": "60e08dbb1ee37d1d9bc0d5c8717e9c44fc5e5f940b23222774768d63d05e216b"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/next-batch-status.json",
+      "bytes": 1869,
+      "sha256": "21a066f37daf792c70779c0113a1d9f762b2eb661c308fc6d567f3a2922b82b0"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/pending-review-status.json",
+      "bytes": 885,
+      "sha256": "96de660d2d4f5f12155422bdcdc9dd2cf45cb7e42e705938586dcb345a843669"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/plan.json",
+      "bytes": 33616,
+      "sha256": "1f78fd73f914bf8054f9390fa4695eafd03c8fd1ce1a12724ff0ea696671262d"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/playson_contract.py",
+      "bytes": 9728,
+      "sha256": "93257bc4dd77eba90b7ae7c7efdca696fffce3c3271b9f2e5595cfa913ee8339"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/playson_source.py",
+      "bytes": 4909,
+      "sha256": "24d1a0f4ce4ed43f3956be796c39a5d68f865678aad492367e7444dfe598308d"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/publish_playson.py",
+      "bytes": 336,
+      "sha256": "6e05435a3ac4628daa7819d4e5eaaab7874fdb655005b29cb5bed7b915d58cef"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/source-manifest.json",
+      "bytes": 428,
+      "sha256": "5323dd75e50453f75e2a12506e8c776f66421087a34a621d3013923a9eb9a170"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/test_playson_contract.py",
+      "bytes": 9172,
+      "sha256": "d267c7b122d0b3e8fa3be6ae05c57553ce6b9a00a060a3f67eb7e44f0e87edef"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/test_playson_source.py",
+      "bytes": 1556,
+      "sha256": "7f6e2d6f3eaafe5d7ac5249aae62403c63342be73c0123965121c0372cfed518"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/upcoming-availability.json",
+      "bytes": 1379,
+      "sha256": "803a6a76628c54a4eaee2c06d05fb1388e008ffbd0991b76d223df8d882f9b84"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/upcoming-results/multidiamond-xxl-spins.json",
+      "bytes": 14183,
+      "sha256": "48b9e6a7f0b7ae3f4e12cf459b6fa4bfeca8a021c340e6806fcf01bd688c1462"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/upcoming-results.json",
+      "bytes": 2529,
+      "sha256": "db3c8d1adad2ba32bf2e473f04204dfa7e6c96a58b2c2a7c69fbbab676598501"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/upcoming-work/live/games/multidiamond-xxl-spins.json",
+      "bytes": 19384,
+      "sha256": "342510505cb936232f629ee82f85a6cd8801f1b37c0fee04ebba059533df1da8"
+    },
+    {
+      "ruta": "referencias/provider-work/playson-root/upcoming.html",
+      "bytes": 2192,
+      "sha256": "6a951f14064535a6362da0ce67087141ecec98895071174789ee60f4884e9a11"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 674,
+      "sha256": "41827ba4e9934f00c300487654a956054b12d3e34dbde8c11c0f61ca3c059f0e"
+    }
+  ]
+}

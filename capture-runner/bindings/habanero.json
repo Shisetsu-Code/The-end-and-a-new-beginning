@@ -1,0 +1,2233 @@
+{
+  "SG12Zodiacs": {
+    "brand": "76df70e8-c24d-4e8c-92eb-a3ff8abf7ae2",
+    "coins": 0,
+    "legacy": true,
+    "lines": 18,
+    "modes": {
+      "normal": "18"
+    }
+  },
+  "SG5LuckyLions": {
+    "brand": "d6d1d02c-1973-416f-92ce-9802501132e3",
+    "coins": 0,
+    "legacy": true,
+    "lines": 88,
+    "modes": {
+      "normal": "88"
+    }
+  },
+  "SG5Mariachis": {
+    "brand": "61210bc0-5e0f-4020-b5d1-d237c8c4b2b2",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGAllForOne": {
+    "brand": "1587b2da-c5fd-43db-a6dd-1708885f8c2d",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGArcaneElements": {
+    "brand": "646ff28a-ce5b-4219-8b34-6f66cd81ea67",
+    "coins": 0,
+    "legacy": false,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGArcticHunt": {
+    "brand": "967d608f-6e0d-450e-a1b2-c6efadf04c0d",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "86c780c9cc1eaf7b488bf048d608b2774c147d9d0669d707064966746c76f21c",
+        "url": "https://app-test.insvr.com/gamecontent/SGArcticHunt-UNIVERSAL_v6c0dd3a122/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGArcticWonders": {
+    "brand": "13ebead8-4f83-4751-b388-4524823e2cb7",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGAtomicKittens": {
+    "brand": "9e842c97-3b57-48a4-aa48-b4d96c6b0edb",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "999",
+      "normal": "20",
+      "superbet": "40"
+    }
+  },
+  "SGAzlandsGold": {
+    "brand": "ccbdc459-19e0-4d71-a9e0-f1307c1a3eba",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGBabaYaga": {
+    "brand": "233a5a5b-682c-443b-8bf6-c836e12db054",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1599",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGBarnstormerBucks": {
+    "brand": "2e2b3250-dd20-4e11-806a-c950da6ba6b4",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGBattleTheBeast": {
+    "brand": "568378d4-dae5-4064-8df6-9f57b2377df2",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1300",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGBattleshipStrike": {
+    "brand": "0d5d3d43-a8b2-49b6-bf3a-09652717328c",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1182",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGBeforeTimeRunsOut": {
+    "brand": "e2181a5b-6c5a-40f8-b574-327d300d700e",
+    "coins": 0,
+    "legacy": false,
+    "lines": 10,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "6463e270cab1a19c713b142ff06bbd07db85944d2a3f33ae5a23f1d91979a6e4",
+        "url": "https://app-test.insvr.com/gamecontent/SGBeforeTimeRunsOut-UNIVERSAL_v92de528ea7/js/script0.20261110185602.min.js"
+      }
+    }
+  },
+  "SGBikiniIsland": {
+    "brand": "19f942b8-1400-4dd7-9219-10255597b262",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGBikiniIslandDeluxe": {
+    "brand": "e60a6f4d-0884-4579-8d3e-1d370517de06",
+    "coins": 0,
+    "legacy": false,
+    "lines": 178,
+    "modes": {
+      "buy": "1240",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGBirdOfThunder": {
+    "brand": "27e2d070-6a93-476e-878e-c4b45bebc678",
+    "coins": 0,
+    "legacy": false,
+    "lines": 30,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGBlackbeardsBounty": {
+    "brand": "64fb18ee-6007-4b9d-9901-0be8566f19d5",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGBombRunner": {
+    "brand": "5aafbf00-17d8-4ab5-bb49-03aa1cfe9c48",
+    "coins": 0,
+    "legacy": false,
+    "lines": 707,
+    "modes": {
+      "buy": "484",
+      "normal": "30"
+    }
+  },
+  "SGBombsAway": {
+    "brand": "959bfe71-c244-42e9-aa0c-f99684ad59bf",
+    "coins": 0,
+    "legacy": true,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGBuggyBonus": {
+    "brand": "5327ed81-8453-44d6-bdfd-455fc5866c55",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGCakeValley": {
+    "brand": "4c0fcbcd-d41f-4adf-967b-c4a64a5b42be",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal-1": "25",
+      "normal-2": "25",
+      "normal-3": "25"
+    },
+    "sources": {
+      "normal-1": {
+        "sha256": "d7c7aecee3092d7af34593baecc07a38645d8c1e95fa902b64d30b6ce2fcfb39",
+        "url": "https://app-test.insvr.com/gamecontent/SGCakeValley-UNIVERSAL_vb32d53cd51/js/script0.20261012164314.min.js"
+      },
+      "normal-2": {
+        "sha256": "d7c7aecee3092d7af34593baecc07a38645d8c1e95fa902b64d30b6ce2fcfb39",
+        "url": "https://app-test.insvr.com/gamecontent/SGCakeValley-UNIVERSAL_vb32d53cd51/js/script0.20261012164314.min.js"
+      },
+      "normal-3": {
+        "sha256": "d7c7aecee3092d7af34593baecc07a38645d8c1e95fa902b64d30b6ce2fcfb39",
+        "url": "https://app-test.insvr.com/gamecontent/SGCakeValley-UNIVERSAL_vb32d53cd51/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGCalaverasExplosivas": {
+    "brand": "47007f09-7de7-41c6-9e44-fda50e0e9193",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "4d4f58d881b75cc8eee2d8001bb6195155236e0f593b417a24647086dba9c259",
+        "url": "https://app-test.insvr.com/gamecontent/SGCalaverasExplosivas-UNIVERSAL_v7972e62857/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGCandyTower": {
+    "brand": "d1a5dd9a-2b2f-4762-8ea8-dba24f8d3b39",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "f34046ba8fbcd2e333298f819ccd5a0dd1143718d7f198d4f8f6e20955f2d85d",
+        "url": "https://app-test.insvr.com/gamecontent/SGCandyTower-UNIVERSAL_vb553faed72/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGCarnivalCash": {
+    "brand": "603ce754-51ad-4704-a6e6-fa1248758982",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGCarnivalCove": {
+    "brand": "79a106ec-6821-49b5-89cc-181ee13c6374",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1250",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGCashReef": {
+    "brand": "269143cf-2202-4379-b6b7-37088ad20685",
+    "coins": 30,
+    "legacy": true,
+    "lines": 243,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGCashosaurus": {
+    "brand": "72ed65f4-5674-4ce8-82c6-d5050dbf3188",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGChristmasGiftRush": {
+    "brand": "cc2844e1-925e-44d6-a611-fdf493ec7ef7",
+    "coins": 0,
+    "legacy": false,
+    "lines": 3,
+    "modes": {
+      "normal": "1"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "202a626e2937e1dd1a5cefdeb220d4498080be7a126c596efda522be263f0ce5",
+        "url": "https://app-test.insvr.com/gamecontent/SGChristmasGiftRush-UNIVERSAL_v4096d09fe5/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGCirqueDuHabanero": {
+    "brand": "8b48be73-1b0e-452c-a5a4-fd0f7bd8a41a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1e3",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGColossalGems": {
+    "brand": "9928dddb-0be8-422a-aadb-bee0e6da98bb",
+    "coins": 0,
+    "legacy": true,
+    "lines": 30,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGCoyoteCrash": {
+    "brand": "3cd0e3af-61b4-4a5b-97d5-c93f3e766e05",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGCrystopia": {
+    "brand": "98062b22-02eb-417a-ad48-3108c3720065",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "420",
+      "normal": "9",
+      "superbet": "18"
+    }
+  },
+  "SGDarumaImpact": {
+    "brand": "0fe9a6a7-509a-4531-8c13-42fb9ceeb19d",
+    "coins": 0,
+    "legacy": false,
+    "lines": 50,
+    "modes": {
+      "buy": "1477",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGDiscoBeats": {
+    "brand": "86f44da5-1c1d-4153-ae52-92f30689ceaa",
+    "coins": 0,
+    "legacy": false,
+    "lines": 27,
+    "modes": {
+      "normal": "9"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "94ea461f54f2ed79a7e39f09f387de0644974062a9ee924ae40780521f3619dd",
+        "url": "https://app-test.insvr.com/gamecontent/SGDiscoBeats-UNIVERSAL_va11a8a911b/js/script0.20261110185602.min.js"
+      }
+    }
+  },
+  "SGDiscoFunk": {
+    "brand": "c1187361-2bba-40a8-953c-da8b95e9ecf1",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGDoubleODollars": {
+    "brand": "b46fbc37-a93b-491b-a691-6cb296014040",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGDrFeelgood": {
+    "brand": "342c9971-2bef-4a65-b6de-d75ef0aeb7fc",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGDragonTigerGate": {
+    "brand": "200f0415-7306-4381-9251-3299e1fd2591",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGDragonsRealm": {
+    "brand": "ee28e86d-4724-4590-94bf-b09115fa043b",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGDragonsThrone": {
+    "brand": "8f8f320a-33d3-4e2c-b05a-aa25860e91c1",
+    "coins": 0,
+    "legacy": false,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGEgyptianDreams": {
+    "brand": "17ac0e91-afed-4f49-8fa9-03809599759e",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGEgyptianDreamsDeluxe": {
+    "brand": "8bc1773e-a78b-420a-8063-2aad63d7ef3f",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "50900ad62c03a80d463780714f9e2d99d67701aefe0eaf1de9932237b55d8b07",
+        "url": "https://app-test.insvr.com/gamecontent/SGEgyptianDreamsDeluxe-UNIVERSAL_vdafcdf5c5a/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGFaCaiShen": {
+    "brand": "29254f13-920e-42f7-918b-8bb4a0c25388",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "28"
+    }
+  },
+  "SGFaCaiShenDeluxe": {
+    "brand": "a6b411b7-43da-47a3-969e-7cdce44e6d27",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "28"
+    }
+  },
+  "SGFenghuang": {
+    "brand": "e43604d3-9354-4887-955a-a6f0b97e2fd8",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "20"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "b76215c0df0e3687e6283fdce5a5ede166b3497f9a2cbba9586cb84aa8f0b22a",
+        "url": "https://app-test.insvr.com/gamecontent/SGFenghuang-UNIVERSAL_v6dbf7f7216/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGFireRooster": {
+    "brand": "271e3ca3-d219-41d3-a868-bef50d00c5df",
+    "coins": 30,
+    "legacy": true,
+    "lines": 243,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGFly": {
+    "brand": "393b97b3-e5a3-43f2-a894-8305752bcd58",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "979ce1ec1afecc70d53e560c458eb41de9bb1e59895d4990ac8c2d95c6aea51f",
+        "url": "https://app-test.insvr.com/gamecontent/SGFly-UNIVERSAL_v4f3f88a3ad/js/script0.20261110185602.min.js"
+      }
+    }
+  },
+  "SGFlyingHigh": {
+    "brand": "a3fdafb5-b8c1-4716-b8ed-3365083b6b20",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGFortuneDogs": {
+    "brand": "4dd05e6b-c91d-437f-9b2f-522e98949669",
+    "coins": 0,
+    "legacy": false,
+    "lines": 3,
+    "modes": {
+      "normal": "18"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "44f7f5271958b4b5b79811104029e7a35b008946ee1c073a42a4ccb0a1f4d7c3",
+        "url": "https://app-test.insvr.com/gamecontent/SGFortuneDogs-UNIVERSAL_va4162cb8a3/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGFortuneDragonJoy": {
+    "brand": "4afa5946-34af-48dc-8a4b-1fbccbb69b9a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1899",
+      "normal": "28",
+      "superbet": "50"
+    }
+  },
+  "SGFourDivineBeasts": {
+    "brand": "c759172e-b886-4fae-9414-c4ca2326b79f",
+    "coins": 30,
+    "legacy": true,
+    "lines": 243,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGFrontierFortunes": {
+    "brand": "c79f822c-256b-4b6c-b45a-2a3b692e661a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGFruityHalloween": {
+    "brand": "f6a63629-34a8-446e-9e28-338828959168",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1500",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGFruityMayan": {
+    "brand": "cb89a7ea-db25-438c-9b3f-2b59fe5ba324",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1080",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGGalacticCash": {
+    "brand": "759021a8-bf85-496d-aed7-7c3d419d2b82",
+    "coins": 0,
+    "legacy": true,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGGalaxyBabies": {
+    "brand": "302ec6ac-2c86-4694-9162-3445375a6aec",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1033",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGGangsters": {
+    "brand": "34f2d7d1-4bba-4d85-94c9-5e92c319c810",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGGeniesShowtime": {
+    "brand": "476ecad4-d982-4381-adf9-ce60f26744c5",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1599",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGGladiatorRoyal": {
+    "brand": "63e5b807-2663-4261-a9ae-03968ad957b6",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1500",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGGlamRock": {
+    "brand": "10eebb43-76a1-4f88-bd2f-2a905efa2796",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGGloryOfRome": {
+    "brand": "cd26bc04-64b8-434a-a652-187250de2770",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1250",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGGoldKoiFortune": {
+    "brand": "7c30c7f9-584c-49da-83cb-169711da93f5",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGGoldRush": {
+    "brand": "fb9ccb90-bb6e-485e-9791-0d3d58ca8ce0",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGGoldenTajMahal": {
+    "brand": "e055353c-60d9-4c34-a756-77b2ac103f64",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGGoldenUnicorn": {
+    "brand": "50ec0630-bf99-4fe7-b952-a8f87bf34e7a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGGoldenUnicornDeluxe": {
+    "brand": "dbdba9e1-a005-4636-bbf1-6a8069ec92bc",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGGrapeEscape": {
+    "brand": "538b041d-2741-41e1-83d5-4e98c1e6569c",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGHappiestChristmasTree": {
+    "brand": "aea57554-2b3a-46dd-a6db-476fdfffa012",
+    "coins": 0,
+    "legacy": false,
+    "lines": 40,
+    "modes": {
+      "normal": "40"
+    }
+  },
+  "SGHappyApe": {
+    "brand": "d411d2aa-de18-4973-a60a-e7cb6c456bf7",
+    "coins": 0,
+    "legacy": true,
+    "lines": 15,
+    "modes": {
+      "normal": "15"
+    }
+  },
+  "SGHappyHatchlings": {
+    "brand": "87007126-9815-40a1-bba2-6ef7b47f9819",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "buy": "1500",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGHauntedHarbor": {
+    "brand": "f86d8228-8258-43e2-acdd-9c84f9f00a84",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1180",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGHauntedHouse": {
+    "brand": "dcf71083-1722-4b6c-adfa-683b04db1675",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGHeySushi": {
+    "brand": "21fc9bf8-53a3-46d9-b73a-b429f42d22e3",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGHotHotFruit": {
+    "brand": "e5a04f51-6d20-4504-91bc-d17656d2e542",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "b3680533adf9d8e8ca6b793d0c7bcb5a2015f777caef1735fa356305041a7ca7",
+        "url": "https://app-test.insvr.com/gamecontent/SGHotHotFruit-UNIVERSAL_vc80b20489e/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGHotHotHalloween": {
+    "brand": "12344d06-b2c3-4711-babd-2d8aab80bcbc",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "20"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "b6373b06757bcfaafcfd252fd0e769c5709527a97159fb580780cf734cfdc284",
+        "url": "https://app-test.insvr.com/gamecontent/SGHotHotHalloween-UNIVERSAL_vfabb7b0d7e/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGHotHotSummer": {
+    "brand": "7919a052-9486-46ac-af2d-86ac6ff785ed",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "790",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGHyperHues": {
+    "brand": "a30ccb2c-0934-4671-a1ec-c1da0f9d0b19",
+    "coins": 0,
+    "legacy": false,
+    "lines": 50,
+    "modes": {
+      "buy": "1299",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGIndianCashCatcher": {
+    "brand": "91ebaf4a-3ab4-4b1b-8b42-6a631b522483",
+    "coins": 25,
+    "legacy": true,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGIndianaWolf": {
+    "brand": "b9fe7be0-69ba-4d00-90a3-8664d1291cd1",
+    "coins": 0,
+    "legacy": false,
+    "lines": 576,
+    "modes": {
+      "buy": "1499",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGInfernalFury": {
+    "brand": "fd91a203-1bcb-4879-aefb-dce1d87779c6",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1666",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGIsibayaQueens": {
+    "brand": "7baea0ec-3794-4e57-9310-41ce8ee83b8b",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGJapaneseMask": {
+    "brand": "f4c6e7b6-f06e-4b55-b723-25637d41aa42",
+    "coins": 0,
+    "legacy": false,
+    "lines": 320,
+    "modes": {
+      "buy": "299",
+      "normal": "10",
+      "superbet": "20"
+    }
+  },
+  "SGJellyfishFlow": {
+    "brand": "93e88ff0-d51b-4423-baab-0eedc6c8cab6",
+    "coins": 0,
+    "legacy": false,
+    "lines": 27,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "3435f7cab3babed97140ae15506e88df720e38bb4e9e4069d91af43451ca554c",
+        "url": "https://app-test.insvr.com/gamecontent/SGJellyfishFlow-UNIVERSAL_v13b0f9a7d4/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGJellyfishFlowUltra": {
+    "brand": "fbc34b3c-16f6-4980-bacb-0491be40349d",
+    "coins": 0,
+    "legacy": false,
+    "lines": 27,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "3435f7cab3babed97140ae15506e88df720e38bb4e9e4069d91af43451ca554c",
+        "url": "https://app-test.insvr.com/gamecontent/SGJellyfishFlow-UNIVERSAL_v13b0f9a7d4/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGJugglenaut": {
+    "brand": "93b13c12-1bf7-4899-9f6b-951e4922d021",
+    "coins": 0,
+    "legacy": true,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGJump": {
+    "brand": "5c343f54-71e3-4754-bcc9-c042851b9760",
+    "coins": 0,
+    "legacy": false,
+    "lines": 192,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "187594c811846bbf875cdd4067a985cfb96b20d1a0a064eeffb3b58e44f08daa",
+        "url": "https://app-test.insvr.com/gamecontent/SGJump-UNIVERSAL_v084ade726b/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGJump2": {
+    "brand": "796565db-229d-4b7d-9a6e-bcee6e2e7727",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGJungleRumble": {
+    "brand": "7917b0d3-9f37-4abb-9838-c6712e2bf4cd",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGKanesInferno": {
+    "brand": "ff00c915-106f-4c42-b48c-11b92e194672",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGKingFrogFeast": {
+    "brand": "4d13a36b-04bf-422f-a29e-d3bfb246155c",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1500",
+      "normal": "28",
+      "superbet": "56"
+    }
+  },
+  "SGKingTutsTomb": {
+    "brand": "342ffb0d-23b5-4180-b175-9e8f6523240c",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGKnockoutFootball": {
+    "brand": "4d19de41-97be-48c8-90de-75cade087fa7",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "20"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "62157e413e6d0831c6804f9ff98b0e67b24668f5fc9df554bdab046a182d1742",
+        "url": "https://app-test.insvr.com/gamecontent/SGKnockoutFootball-UNIVERSAL_v00c4468596/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGKnockoutFootballRush": {
+    "brand": "3523e4de-c8a2-4708-8b44-e134d8102e82",
+    "coins": 0,
+    "legacy": false,
+    "lines": 6,
+    "modes": {
+      "normal": "10"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "2cf94227917f59bce0c6afb3b329030307e0b20f29588b3acc0c1be4da3a86cd",
+        "url": "https://app-test.insvr.com/gamecontent/SGKnockoutFootballRush-UNIVERSAL_v46313ae2fc/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGKoiKoiTreasure": {
+    "brand": "32bcc0e3-8c7f-4e95-a47c-a3c812852daf",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1588",
+      "normal": "28",
+      "superbet": "50"
+    }
+  },
+  "SGLanternLuck": {
+    "brand": "10fbd7d7-c139-4191-addd-a8f98578a6f9",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGLaughingBuddha": {
+    "brand": "a6c7c6f4-c412-4e3e-a0f5-769dc75daf8b",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1300",
+      "normal": "28"
+    }
+  },
+  "SGLegendOfNezha": {
+    "brand": "0a6b92a3-da3b-4bc3-bae0-74be03b829b5",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "888",
+      "normal": "28",
+      "superbet": "50"
+    }
+  },
+  "SGLegendaryBeasts": {
+    "brand": "cf4311aa-d544-4a36-ae4e-8d5e355d644b",
+    "coins": 0,
+    "legacy": false,
+    "lines": 27,
+    "modes": {
+      "normal": "9"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "45e760c487469d30224635f162ede2b0ed10746986bbb74e7dea4fbb96c2d2a4",
+        "url": "https://app-test.insvr.com/gamecontent/SGLegendaryBeasts-UNIVERSAL_vf56109dd8e/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGLittleGreenMoney": {
+    "brand": "60da7fdc-a85f-4f03-9e3f-463618d7b3a0",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGLondonHunter": {
+    "brand": "20b52291-d316-4521-817b-f28863042bf1",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGLoonyBlox": {
+    "brand": "79ac5536-e37e-4df1-a2ab-66f9ed845004",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "ee70edc71fd915a273ddd12b356bf04b5df21ec66e9e580ac06820e8d095152d",
+        "url": "https://app-test.insvr.com/gamecontent/SGLoonyBlox-UNIVERSAL_v9901e50306/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGLoveAndRichesEldorado": {
+    "brand": "1dd1a712-6b40-4b26-9788-f2cbdda04209",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1640",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGLuckyDurian": {
+    "brand": "e63c0965-5e2c-4bbe-839d-daea3f539bf1",
+    "coins": 0,
+    "legacy": false,
+    "lines": 15,
+    "modes": {
+      "normal": "15"
+    }
+  },
+  "SGLuckyFortuneCat": {
+    "brand": "88ae0a83-d153-4c54-a850-4e4248b6dadb",
+    "coins": 0,
+    "legacy": true,
+    "lines": 28,
+    "modes": {
+      "normal": "28"
+    }
+  },
+  "SGLuckyLucky": {
+    "brand": "0f85dd78-3955-48fa-a485-4f427488a0e7",
+    "coins": 0,
+    "legacy": false,
+    "lines": 1,
+    "modes": {
+      "normal": "1"
+    }
+  },
+  "SGMXMania": {
+    "brand": "60a53220-dce3-453f-a3a5-1b9f3a56124d",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1200",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGMagicOak": {
+    "brand": "31a58793-3b43-41d2-8471-d6ee3ad8ac97",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "20"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "ba2129c1fc4885e581a621fc092fac3d53f69a76cc86378d361cc92f83be3f4c",
+        "url": "https://app-test.insvr.com/gamecontent/SGMagicOak-UNIVERSAL_v54828cc6d7/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGMarvelousFurlongs": {
+    "brand": "a552e5a5-a023-4fb0-bbd8-f35d8a7f0b00",
+    "coins": 0,
+    "legacy": false,
+    "lines": 15,
+    "modes": {
+      "normal": "15"
+    }
+  },
+  "SGMeowJanken": {
+    "brand": "4ef41f65-84dc-4410-b436-6db10d3e8c52",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "140",
+      "normal": "3",
+      "superbet": "6"
+    }
+  },
+  "SGMightyMedusa": {
+    "brand": "d0a0403c-0a4d-4b61-801d-6f1010e3cd12",
+    "coins": 0,
+    "legacy": false,
+    "lines": 466,
+    "modes": {
+      "normal": "30"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "3c8bbf97a78e2c6fed14dcfa59437a96077a2aa05a8888073602212a2b9ea48a",
+        "url": "https://app-test.insvr.com/gamecontent/SGMightyMedusa-UNIVERSAL_v22b807854a/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGMonsterMashCash": {
+    "brand": "cd26cba7-83f9-43fc-a719-e228dfd7f915",
+    "coins": 0,
+    "legacy": true,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGMooMooCow": {
+    "brand": "37977c97-a8bf-4ac3-bb53-e015bc4fd4bc",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "875721f23ecb5ef5957f235b4b0ae0f1232cdc8d086ee7e5204efe82307cb88c",
+        "url": "https://app-test.insvr.com/gamecontent/SGMooMooCow-UNIVERSAL_v984895f1cb/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGMountMazuma": {
+    "brand": "db2d6470-aeab-4341-aa84-45ae1697b387",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "20"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "84f4084bca2ddc4390c76fbd26ac7130c15a9428339112541903d7d1d59de3e3",
+        "url": "https://app-test.insvr.com/gamecontent/SGMountMazuma-UNIVERSAL_v887b4e9a02/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGMrBling": {
+    "brand": "8d9c96c8-a5d5-419f-a611-b727e3821ab4",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGMummyHunter": {
+    "brand": "37721653-0226-4073-aecc-d41c8f06dae5",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1800",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGMummyMoney": {
+    "brand": "e4481de5-2d42-4872-8c81-59f11aff9405",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGMysticFortune": {
+    "brand": "b62fa411-4164-45bb-af18-4ba03adf98e5",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGMysticFortuneDeluxe": {
+    "brand": "b23828b7-fb27-4802-a483-08e315a8700b",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "28"
+    }
+  },
+  "SGMysticRings": {
+    "brand": "579ce297-be25-4ffd-ad4a-06ed73a67399",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "999",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGMysticShaman": {
+    "brand": "f73fd882-9082-4e49-9bf9-0c3ed0f6ac84",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1599",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGNaughtySanta": {
+    "brand": "ca1a2a77-e529-4433-aa7d-01dffcd350aa",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "30"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "ef1e03c2868e4986c04ce442b453c401dab4ccb1f981bf81d9551c20359770ca",
+        "url": "https://app-test.insvr.com/gamecontent/SGNaughtySanta-UNIVERSAL_vd034b1d100/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGNaughtyWukong": {
+    "brand": "b45f34b3-8eb4-4ee6-aebf-d3f18d206794",
+    "coins": 0,
+    "legacy": false,
+    "lines": 27,
+    "modes": {
+      "normal": "8"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "a534e4d5077925bc3dae2354f3471e707bb6c34991b7b93bcfb5522b7f1ade48",
+        "url": "https://app-test.insvr.com/gamecontent/SGNaughtyWukong-UNIVERSAL_v13b0b799c8/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGNewYearsBash": {
+    "brand": "0ff2fec9-45b5-4150-9f0e-b0a22eb5d097",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGNineTails": {
+    "brand": "2b756650-59bb-4b43-a214-af32d46f6f52",
+    "coins": 0,
+    "legacy": false,
+    "lines": 259,
+    "modes": {
+      "normal": "30"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "1a03a61abc3adff03b031cb8f2ff8420bdf1143822435f669172442ed81e1be4",
+        "url": "https://app-test.insvr.com/gamecontent/SGNineTails-UNIVERSAL_ve93b77fc07/js/script0.20261110185602.min.js"
+      }
+    }
+  },
+  "SGNuwa": {
+    "brand": "d08bace3-fc66-42e8-855d-56ee962bed3f",
+    "coins": 0,
+    "legacy": true,
+    "lines": 28,
+    "modes": {
+      "normal": "28"
+    }
+  },
+  "SGNuwaDeluxe": {
+    "brand": "2da33de5-5455-496c-b96f-af33c3986196",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "3888",
+      "normal": "50",
+      "superbet": "100"
+    }
+  },
+  "SGOceansCall": {
+    "brand": "4b1d2301-ce3d-4f0f-95d1-22ee88efc2b2",
+    "coins": 0,
+    "legacy": true,
+    "lines": 20,
+    "modes": {
+      "normal": "20"
+    }
+  },
+  "SGOrbsOfAtlantis": {
+    "brand": "4ca3dc7b-bac6-450c-ac0e-c6371e9175a8",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "15"
+    }
+  },
+  "SGPamperMe": {
+    "brand": "10333906-129d-42a2-96f8-5f89529130bb",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGPandaPanda": {
+    "brand": "aad011de-fa7a-4ca8-bb19-6540e62721bb",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "30"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "659c57e0d2010164988ddd475480be75cc04df1f527a89b89b157238ad2bbf70",
+        "url": "https://app-test.insvr.com/gamecontent/SGPandaPanda-UNIVERSAL_vb1810a453a/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGPiratesPlunder": {
+    "brand": "064726c3-96df-4d4e-9a76-2c3c8fa3341d",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGPoolShark": {
+    "brand": "5311cb81-bd7f-4605-bdf6-3a74f978f455",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGPoseidon": {
+    "brand": "6fbb415f-0a93-4e50-9e75-4e69726bca86",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1100",
+      "normal": "20",
+      "superbet": "40"
+    }
+  },
+  "SGPresto": {
+    "brand": "12f9d75e-e7bf-49f7-ac63-d2c30adda93d",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "30"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "a1d2742a515587f34d2f934ca730118f747149bb210ce97d68f1cac82de137e8",
+        "url": "https://app-test.insvr.com/gamecontent/SGPresto-UNIVERSAL_va0bea32da9/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGProsperityHorse": {
+    "brand": "f6ecf223-5c53-455e-aa00-c0abf9e7c8a0",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1400",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGProst": {
+    "brand": "23763e80-4b80-4564-b108-458359a9e9b7",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGPuckerUpPrince": {
+    "brand": "01347e11-4f16-4fb2-895c-d592df8fd611",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGPumpkinPatch": {
+    "brand": "59584781-0501-4550-8c64-88f42631b0bb",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGQueenOfQueens1024": {
+    "brand": "e221a8c8-1f8f-4769-a680-2b46783f8a14",
+    "coins": 50,
+    "legacy": true,
+    "lines": 1024,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGQueenOfQueens243": {
+    "brand": "60ff2fba-af7d-45e3-9f7c-053c16275a03",
+    "coins": 30,
+    "legacy": true,
+    "lines": 243,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGRacingRoyalty": {
+    "brand": "41a6795a-31f9-47e2-8537-0545c1053f5a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1299",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGRaidenShogun": {
+    "brand": "01bdd427-c53c-43d3-9815-2146e30212b1",
+    "coins": 0,
+    "legacy": false,
+    "lines": 259,
+    "modes": {
+      "buy": "1399",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGRainbowmania": {
+    "brand": "234b9355-df5a-4c0b-ad18-4b8c336d4131",
+    "coins": 0,
+    "legacy": false,
+    "lines": 17,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "9c153c6bbf97ea6baafdb4e4a1006c2e3c1e6e5184e9681e590eb7cd287cc204",
+        "url": "https://app-test.insvr.com/gamecontent/SGRainbowmania-UNIVERSAL_v3ebfdc56b9/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGReturnToTheFeature": {
+    "brand": "6ea8b43c-1353-4d35-b97f-a0bd3f57520d",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGRhythmNights": {
+    "brand": "eeb5933e-e90f-43a7-bc50-4dd8df7e639a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "2e3",
+      "normal": "50",
+      "superbet": "100"
+    }
+  },
+  "SGRideEmCowboy": {
+    "brand": "bffb9a04-7f7f-48ac-8fbc-02b4eeff57f0",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGRodeoDrive": {
+    "brand": "1f50d68f-9f85-4bc8-a773-c51ad9ed9f80",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGRollingRoger": {
+    "brand": "def104f5-2c77-47f0-9c92-7e9ca28b8042",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "dfeaf5fee217f25d9acedcc6da685c0b81b81e1d172f4291bab499936b5935d5",
+        "url": "https://app-test.insvr.com/gamecontent/SGRollingRoger-UNIVERSAL_v7e85cc2758/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGRomanEmpire": {
+    "brand": "bf402919-bc69-4b43-8189-4feec6bc9d4c",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGRuffledUp": {
+    "brand": "d6f03aec-91f9-400f-8951-cc548f7d651a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "fcd5e055d31693b657a166b1f60b2fee9b202019631454e05fb558194d87f019",
+        "url": "https://app-test.insvr.com/gamecontent/SGRuffledUp-UNIVERSAL_vca4875b408/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGSOS": {
+    "brand": "21bd555a-c3f4-45e9-afa5-ee9f382d6370",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGSafariRumble": {
+    "brand": "8bc5d4f8-6332-415d-b195-7a069aab67b9",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "1600",
+      "normal": "30",
+      "superbet": "50"
+    }
+  },
+  "SGSantasInn": {
+    "brand": "e4aa23d7-3677-4111-af4e-c462e86e7f37",
+    "coins": 0,
+    "legacy": false,
+    "lines": 27,
+    "modes": {
+      "normal": "9",
+      "superbet": "20"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "2eeab590b5fda4648b75e7e46080d8187c85ed34dcdb8efb00dc2213309f9062",
+        "url": "https://app-test.insvr.com/gamecontent/SGSantasInn-UNIVERSAL_v9765d25155/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGSantasVillage": {
+    "brand": "51ae983a-1243-40df-935c-1a9b479c570b",
+    "coins": 0,
+    "legacy": false,
+    "lines": 3,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "c8afd79ebd0f033a1fd51d97a8ce642cdd45808cf58242cda77a1b6ca6e29083",
+        "url": "https://app-test.insvr.com/gamecontent/SGSantasVillage-UNIVERSAL_v494ad889e8/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGScopa": {
+    "brand": "3d533419-7c29-44df-bd77-0ee9aac452ca",
+    "coins": 0,
+    "legacy": false,
+    "lines": 27,
+    "modes": {
+      "normal": "15"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "f8744dcc1e2e0477940470a4bd1cfafb60e7b659108ae8bb70a69440f9c48f24",
+        "url": "https://app-test.insvr.com/gamecontent/SGScopa-UNIVERSAL_v0d3cdb1449/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGScruffyScallywags": {
+    "brand": "a68784eb-06da-4e90-923a-f5d8ee3bab14",
+    "coins": 0,
+    "legacy": true,
+    "lines": 30,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGShamrockQuest": {
+    "brand": "17b81940-e545-4958-92ce-0e7615a1c75b",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1099",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGShaolinFortunes100": {
+    "brand": "57637cd8-9714-442d-adb8-46935e4a7e10",
+    "coins": 0,
+    "legacy": true,
+    "lines": 100,
+    "modes": {
+      "normal": "100"
+    }
+  },
+  "SGShaolinFortunes243": {
+    "brand": "ab3f81b8-2f19-4665-bc5d-b8127aec839c",
+    "coins": 25,
+    "legacy": true,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGShiveringStrings": {
+    "brand": "b587bc81-5d8d-4c6f-a1a3-95f55e0d959f",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1099",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGShogunsLand": {
+    "brand": "c9da5325-9061-410b-af42-1e65de535acc",
+    "coins": 0,
+    "legacy": false,
+    "lines": 20,
+    "modes": {
+      "normal": "20"
+    }
+  },
+  "SGSirBlingalot": {
+    "brand": "7988ccfb-618c-41de-b156-4b6cd52db2aa",
+    "coins": 0,
+    "legacy": false,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGSirensSpell": {
+    "brand": "ff4467d7-891a-49d8-95d9-1bb6730d8a31",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1252",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGSkysTheLimit": {
+    "brand": "b4f40214-7d80-4306-9f83-78320fcd4ac8",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGSlimeParty": {
+    "brand": "1b7edc1d-be73-43d9-8a72-c3e3e010647a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "buy": "999",
+      "normal": "20",
+      "superbet": "50"
+    }
+  },
+  "SGSojuBomb": {
+    "brand": "ed50793c-9a5b-4a29-bda5-949c6eb0d9eb",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "30994823280875a57a675aff7397b90463841f0e50e3b694c1edb86f225f6a53",
+        "url": "https://app-test.insvr.com/gamecontent/SGSojuBomb-UNIVERSAL_v6645fb2281/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGSpaceFortune": {
+    "brand": "2e43f15f-3c56-4ba2-9377-8f811e79eb0f",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGSpaceGoonz": {
+    "brand": "6214c1ad-5d53-41f8-8cc5-8ddea1b7e8ad",
+    "coins": 0,
+    "legacy": false,
+    "lines": 1024,
+    "modes": {
+      "normal": "20"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "10cdbabf34a7a340827cf40b2b4a5ca684378bd3f6fd9fbd544f4dea7b4f0040",
+        "url": "https://app-test.insvr.com/gamecontent/SGSpaceGoonz-UNIVERSAL_vd5739ecd2a/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGSparta": {
+    "brand": "e4cf8a58-53f1-41cb-95a3-076bdf5a5ede",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGSteampunkPlinko": {
+    "brand": "1ffe7a45-907c-426d-a491-94436fdbf188",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1499",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGSuperFruitBlast": {
+    "brand": "08794f54-8fe7-472c-be1e-501420af4159",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1099",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGSuperStrike": {
+    "brand": "b4573d4c-c449-403f-aacb-427da6ad3164",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGSuperTwister": {
+    "brand": "e20fa869-1458-44a3-a63e-099cfbc99737",
+    "coins": 0,
+    "legacy": false,
+    "lines": 50,
+    "modes": {
+      "normal": "50"
+    }
+  },
+  "SGTabernaDeLosMuertos": {
+    "brand": "992befd2-6255-4b95-97b2-81de47de41ef",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "b84d43002309aef53dd634951f66b87c505bd4a34c527817d2a29c3ddb263e40",
+        "url": "https://app-test.insvr.com/gamecontent/SGTabernaDeLosMuertos-UNIVERSAL_vf27553e6d9/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGTabernaDeLosMuertosUltra": {
+    "brand": "d18148de-2f70-4ee9-88a3-c1ab0550f5de",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "b84d43002309aef53dd634951f66b87c505bd4a34c527817d2a29c3ddb263e40",
+        "url": "https://app-test.insvr.com/gamecontent/SGTabernaDeLosMuertos-UNIVERSAL_vf27553e6d9/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGTaikoBeats": {
+    "brand": "aad30fef-ed3e-4b80-a6ef-abbe7a726b0b",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "60c51d2a4cb91209e435d5fb550b8afaac17daf68e4b6e7fe037e3d49e2bf601",
+        "url": "https://app-test.insvr.com/gamecontent/SGTaikoBeats-UNIVERSAL_vbad2c3b64f/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGTechnoTumble": {
+    "brand": "9473c6b0-557b-4d3f-8839-bd3f9e7eaa93",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "ba2fed1a32d5e018bf0a777588d2aaad8e053ce9d25e1c4236b441237007b81b",
+        "url": "https://app-test.insvr.com/gamecontent/SGTechnoTumble-UNIVERSAL_v519bbc0c47/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGTheBigDeal": {
+    "brand": "29256e38-6296-44f7-b9f3-7eecfc9dbe08",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGTheBigDealDeluxe": {
+    "brand": "9052765f-c21b-4f35-83f9-cbe3fc159160",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGTheDeadEscape": {
+    "brand": "b5aba2c6-40d2-462d-9093-a8c2d36166e8",
+    "coins": 0,
+    "legacy": true,
+    "lines": 30,
+    "modes": {
+      "normal": "30"
+    }
+  },
+  "SGTheDragonCastle": {
+    "brand": "a1fdaa06-9adf-4393-850c-b5619427428c",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGTheKoiGate": {
+    "brand": "a103867f-7f21-467c-9208-5ee7149820cb",
+    "coins": 0,
+    "legacy": false,
+    "lines": 18,
+    "modes": {
+      "normal": "18"
+    }
+  },
+  "SGTootyFruityFruits": {
+    "brand": "33684680-7713-4916-8f89-70fdac889af6",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "1275",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGTotemTowers": {
+    "brand": "e231663c-6033-4441-a8f7-da3489ba3a46",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "9f29201d2fc10f628fdd5e441776a87c6d35ec059c53a15b4e95c6abd92fa362",
+        "url": "https://app-test.insvr.com/gamecontent/SGTotemTowers-UNIVERSAL_v67e490a6e4/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGTotemWarrior": {
+    "brand": "64651d29-f15e-405d-9758-bef5547e9d64",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGTowerOfPizza": {
+    "brand": "a4a94b02-c650-4b39-b888-a422c04903fe",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGTreasureDiver": {
+    "brand": "7c2b3d9a-96c9-4fd2-ab9b-986c3720d484",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGTreasureTomb": {
+    "brand": "4d984ce9-ecab-48cb-96c9-015f7ef87061",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGTukTukThailand": {
+    "brand": "27c3554a-c65f-4d79-98c9-0d939fbc5898",
+    "coins": 0,
+    "legacy": false,
+    "lines": 28,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGValentineMonchy": {
+    "brand": "03cbd984-961a-47d3-852a-16834ad87d46",
+    "coins": 0,
+    "legacy": false,
+    "lines": 729,
+    "modes": {
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGVampiresFate": {
+    "brand": "2e0a8fa8-0fe1-421d-ac7a-5d04239d8f37",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGVikingsPlunder": {
+    "brand": "abf32b54-a1d7-4d77-98c2-e09f174316ec",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGWaltzBeauty": {
+    "brand": "b32792b7-6207-4f7a-a776-5fb055ae8fd8",
+    "coins": 0,
+    "legacy": false,
+    "lines": 50,
+    "modes": {
+      "buy": "1410",
+      "normal": "25",
+      "superbet": "50"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "15e9775579f10ac69be57217519a1055822000046bbb067583b8a9eacf681c3a",
+        "url": "https://app-test.insvr.com/gamecontent/SGWaltzBeauty-UNIVERSAL_v590c25a576/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGWaysOfFortune": {
+    "brand": "476fa6fb-63b0-4bfb-a42a-53899023c081",
+    "coins": 0,
+    "legacy": false,
+    "lines": 576,
+    "modes": {
+      "normal": "28"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "9c86ff1a1341bf0855fa8e5f260a61161d3925168eb1d3541841ad10e26d6adb",
+        "url": "https://app-test.insvr.com/gamecontent/SGWaysOfFortune-UNIVERSAL_vbfc1547af9/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGWealthInn": {
+    "brand": "0dc1a412-a01a-44cc-8d65-b575ca2aa8eb",
+    "coins": 0,
+    "legacy": false,
+    "lines": 8,
+    "modes": {
+      "normal": "8"
+    }
+  },
+  "SGWeirdScience": {
+    "brand": "64e08610-1e0b-4beb-af0a-208ba13dd3c0",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGWickedWitch": {
+    "brand": "21e74071-2932-4327-8117-d55d4c3fc28a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 20,
+    "modes": {
+      "normal": "20"
+    }
+  },
+  "SGWildFlow": {
+    "brand": "7f381174-b9ed-479e-9cd7-9b7ec011a99a",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "normal": "25"
+    },
+    "sources": {
+      "normal": {
+        "sha256": "8edd1cead904aedcc63a99ec803c3590c6df159874a81fc5f8f807d5faff631b",
+        "url": "https://app-test.insvr.com/gamecontent/SGWildFlow-UNIVERSAL_vacabf31a65/js/script0.20261012164314.min.js"
+      }
+    }
+  },
+  "SGWildTrucks": {
+    "brand": "89d47514-abaf-4056-a5e4-69ec1e67693f",
+    "coins": 0,
+    "legacy": false,
+    "lines": 15,
+    "modes": {
+      "normal": "15"
+    }
+  },
+  "SGWitchesTome": {
+    "brand": "6e12f8ee-409a-4a4b-b161-a35c9c740841",
+    "coins": 0,
+    "legacy": false,
+    "lines": 243,
+    "modes": {
+      "buy": "1250",
+      "normal": "25",
+      "superbet": "50"
+    }
+  },
+  "SGWizardsWantWar": {
+    "brand": "6622a984-1931-4c56-91a7-5b58f84e8944",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGZeus": {
+    "brand": "2fa89a47-a81d-4c26-8a0f-a74ff9cd707e",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGZeus2": {
+    "brand": "341ebcb2-2276-40d8-bc88-6962736f8a9e",
+    "coins": 0,
+    "legacy": true,
+    "lines": 25,
+    "modes": {
+      "normal": "25"
+    }
+  },
+  "SGZeusDeluxe": {
+    "brand": "ccaaee11-a27b-4de6-8fbb-5b21a20019f8",
+    "coins": 0,
+    "legacy": false,
+    "lines": 25,
+    "modes": {
+      "buy": "925",
+      "normal": "25"
+    }
+  }
+}

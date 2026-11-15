@@ -1,0 +1,588 @@
+{
+  "id": "gamesglobal",
+  "name": "Games Global",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": null,
+  "games": [
+    {
+      "id": "GoldBlitzExtreme",
+      "name": "Gold Blitz Extreme™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "GoldBlitz",
+      "name": "Gold Blitz™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "12MasksofFireDrums",
+      "name": "12 Masks of Fire Drums™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "AreaLinkDragon",
+      "name": "Area Link Dragon",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "GoldBlitzUltimate",
+      "name": "Gold Blitz Ultimate",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "FireandRosesJoker",
+      "name": "Fire and Roses Joker™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "DarkWatersPowerCombo",
+      "name": "Dark Waters Power Combo™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkZeus",
+      "name": "Amazing Link Zeus",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "9MasksofFire",
+      "name": "9 Masks of Fire",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "GoldRushExpress",
+      "name": "Gold Rush Express",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AreaLinkPhoenix",
+      "name": "Area Link™ Phoenix",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ImmortalRomanceII",
+      "name": "Immortal Romance™ II",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "RomeFightForGoldDeluxe",
+      "name": "Rome Fight For Gold Deluxe",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AncientFortunesPoseidonWOWPotMegaways",
+      "name": "Ancient Fortunes: Poseidon™ WowPot! MEGAWAYS™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "RisingRewards",
+      "name": "Rising Rewards",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "BlazingBisonGoldBlitz",
+      "name": "Blazing Bison™ Gold Blitz™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "FishinPotsOfGold",
+      "name": "Fishin' Pots Of Gold",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "CerberusGold",
+      "name": "Cerberus Gold",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "3LuckyRainbowsActionBoostMax",
+      "name": "3 Lucky Rainbows Action Boost Max",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "333BoomBanksPOWERCOMBO",
+      "name": "333 Boom Banks POWER COMBO",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ActionBoostGladiator",
+      "name": "Action Boost™ Gladiator",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ActionBoostGorillaGems",
+      "name": "Action Boost™ Gorilla Gems",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ActionBoostAmberIsland",
+      "name": "Action Boost™ Amber Island",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "WildLinkFrenzy",
+      "name": "Wild Link Frenzy",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkApollo",
+      "name": "Amazing Link™ Apollo",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkRiches",
+      "name": "Amazing Link Riches",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkFates",
+      "name": "Amazing Link™ Fates",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkBounty",
+      "name": "Amazing Link™ Bounty",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkCatalleros",
+      "name": "Amazing Link™ Catalleros",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkFrenzy",
+      "name": "Amazing Link™ Frenzy",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkZeusEpic4",
+      "name": "Amazing Link Zeus Epic 4™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmazingLinkMedusa",
+      "name": "Amazing Link Medusa",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "DUNGEONSDRAGONSPOWERCOMBO",
+      "name": " DUNGEONS & DRAGONS POWER COMBO™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "MoneyMayweather",
+      "name": "Money Mayweather",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "UFCGoldBlitzExtreme",
+      "name": "UFC Gold Blitz Extreme™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "WWEBonusRumbleGoldBlitz",
+      "name": "WWE Bonus Rumble™: Gold Blitz™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "PlayboyFortunesKingMillions",
+      "name": "Playboy® Fortunes™ King Millions™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "LaraCroftTomboftheSun",
+      "name": "Lara Croft®: Tomb of the Sun™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "PlayboyFortunes",
+      "name": "Playboy Fortunes",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "LowStakesRoulette",
+      "name": "Low Stakes Roulette",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "RouletteMegaMoolah",
+      "name": "Roulette Mega Moolah",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "SwitchEuropeanRoulette",
+      "name": "European Roulette",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "MultifireRoulette",
+      "name": "Multifire Roulette",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ExtremeMultifireRoulette",
+      "name": "Extreme Multifire Roulette",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "9PotsofGoldRoulette",
+      "name": "9 Pots of Gold Roulette",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "MultihandClassicBlackjack",
+      "name": "Multihand Classic Blackjack",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "PremierBlackjackwithSideBets",
+      "name": "Premier Blackjack with Side Bets",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "EuropeanBlackjack",
+      "name": "European Blackjack",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ThreeWheelRoulette",
+      "name": "Three Wheel Roulette",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "SwitchBaccarat",
+      "name": "Baccarat",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "SicBo",
+      "name": "Sic Bo",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "WheelofWinners",
+      "name": "Wheel of Winners",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "RoulettewithRachael",
+      "name": "Roulette with Rachael",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "VinnieJonesBlackjack",
+      "name": "Vinnie Jones Blackjack",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "GoldenTigerJackpotFortunes",
+      "name": "Golden Tiger: Jackpot Fortunes™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "JacksorBetterPowerPoker",
+      "name": "Jacks or Better Power Poker",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "CarnavalLinkWin",
+      "name": "Carnaval Link&Win™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "Catrina",
+      "name": "Catrina",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "DoubleDoubleBonusPowerPoker",
+      "name": "Double Double Bonus - Power Poker",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "Bingote",
+      "name": "Bingote",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "BonusPokerPowerPoker",
+      "name": "Bonus Poker - Power Poker",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "Pachinko",
+      "name": "Pachinko",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "DeucesJokerPowerPoker",
+      "name": "Deuces & Joker - Power Poker",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "AmericanGoldFever",
+      "name": "American Gold Fever",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ImmortalRomanceVideoBingo",
+      "name": "Immortal Romance Video Bingo",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ThunderstruckIIVideoBingo",
+      "name": "Thunderstruck II Video Bingo",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "Fu88",
+      "name": "Fu 88",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "ThunderstruckFlyX",
+      "name": "Thunderstruck™ FlyX™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "MinesOriginals",
+      "name": "Mines Originals",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "WhacktheBellTapnCash",
+      "name": "Whack the Bell - Tap n Cash™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "PlinkoOriginals",
+      "name": "Plinball™ - Originals",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "FlyX",
+      "name": "FlyX",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "LimboOriginals",
+      "name": " LaunchX™ - Originals",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "9MasksofFireLandWin",
+      "name": "9 Masks of Fire™ Land & Win™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "9PotsofGoldLandWin",
+      "name": " 9 Pots of Gold Land & Win™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "RockPaperScissorsOriginals",
+      "name": "Rock Paper Scissors - Originals",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "FlyXCashBoosta",
+      "name": "FlyX™ Cash Booster™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "MegaMoneyWheel",
+      "name": "Mega Money Wheel",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "DiceOriginals",
+      "name": " Dice - Originals",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "WildScoopsTapnCash",
+      "name": "Wild Scoops - Tap n Cash™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    },
+    {
+      "id": "BallsGaloreLightningDrop",
+      "name": "Balls Galore Lightning Drop™",
+      "ready": false,
+      "block_reason": "Falta verificar rondas cerradas por juego con las fuentes del dashboard.",
+      "modes": []
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "id": "kendoo",
+  "name": "Kendoo",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "kendoo.state-actions",
+    "workspace_adapter": "collection_full_node.py::kendoo",
+    "continuations": "context.actions/current",
+    "closure": "round_finished and balance"
+  },
+  "games": [
+    {
+      "id": "3-power-drums",
+      "name": "3 Power Drums",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ante:1.5",
+          "type": "antebet",
+          "label": "ante:1.5"
+        }
+      ]
+    },
+    {
+      "id": "4-gates-of-pyramid",
+      "name": "4 Gates of Pyramid",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "3-super-fortune-trees",
+      "name": "3 Super Fortune Trees",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "bingo-twist",
+      "name": "Bingo Twist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "4-gold-carts",
+      "name": "4 Gold Carts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "4-fire-rockets",
+      "name": "4 Fire Rockets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "diamond-and-jokers",
+      "name": "Diamond & Jokers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "coin-dragon",
+      "name": "Coin Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "locomotoro",
+      "name": "Locomotoro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "3-blitz-hits",
+      "name": "3 Blitz Hits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "3-super-hungry-pandas",
+      "name": "3 Super Hungry Pandas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "cash-volcano-xxl",
+      "name": "Cash Volcano XXL",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "4-egypt-scarabs",
+      "name": "4 Egypt Scarabs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "xtreme-joker-fever",
+      "name": "Xtreme Joker: Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "coin-tornado",
+      "name": "Coin Tornado",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "forge-of-vulcan",
+      "name": "Forge of Vulcan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "3-chillies-joker",
+      "name": "3 Chillies Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "normal:lines=3",
+          "type": "variant",
+          "label": "normal:lines=3"
+        },
+        {
+          "key": "buy:1:lines=3",
+          "type": "purchase",
+          "label": "buy:1:lines=3"
+        },
+        {
+          "key": "buy:2:lines=3",
+          "type": "purchase",
+          "label": "buy:2:lines=3"
+        },
+        {
+          "key": "buy:3:lines=3",
+          "type": "purchase",
+          "label": "buy:3:lines=3"
+        }
+      ]
+    },
+    {
+      "id": "double-joker-fever",
+      "name": "Double Joker: Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3-gates-of-pyramid",
+      "name": "3 Gates of Pyramid",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:0",
+          "type": "purchase",
+          "label": "buy:0"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "zeus-power",
+      "name": "Zeus Power",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "bluffy-cat",
+      "name": "Bluffy Cat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "pig-up",
+      "name": "Pig Up",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "flash-joker-fever",
+      "name": "Flash Joker: Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3-fortune-trees",
+      "name": "3 Fortune Trees",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "hot-chilli-joker",
+      "name": "Hot Chilli Joker ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wild-cats-fire",
+      "name": "Wild Cats Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "cash-volcano",
+      "name": "Cash Volcano",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "mariachi-lock",
+      "name": "Mariachi Lock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ante:1.3",
+          "type": "antebet",
+          "label": "ante:1.3"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "nights-of-fire",
+      "name": "Nights of Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hungry-pandas",
+      "name": "3 Hungry Pandas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "fruits-and-joker-fever",
+      "name": "Fruits & Joker: Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruits-and-sevens-fever",
+      "name": "Fruits & Sevens: Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruits-fever",
+      "name": "Fruits: Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    }
+  ]
+}

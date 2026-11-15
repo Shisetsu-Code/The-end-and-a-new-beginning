@@ -1,0 +1,55 @@
+{
+  "proveedor": "belatra",
+  "archivos": [
+    {
+      "ruta": "codigo/belatra.rs",
+      "bytes": 13734,
+      "sha256": "dc65def7e18a88cce841749226c63faada4d1ee2b0c81f05b0ccdcfdf68cb83e"
+    },
+    {
+      "ruta": "codigo/belatra_crypto.rs",
+      "bytes": 2528,
+      "sha256": "c2bcbbf9bab453a2444a792493545eb6acb68be7fcc6feeca20c644808890f36"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 52278,
+      "sha256": "b51927f3913b398c83677704fbc6096afd147b9c35e2c06f586d7cf7f9d78671"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 258562,
+      "sha256": "6df6f56d6ab4da8f711010f308155a4749d6979ae32e94bb3fb5148454e2623f"
+    },
+    {
+      "ruta": "evidencia/belatra.json",
+      "bytes": 447165,
+      "sha256": "942b3c5a7b34cb17565ba747e472d32d3544a6f092f7c68a3c81086c64116626"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 52139,
+      "sha256": "2808fb1e8ffe4ee985f1804a39f7e0929239b41bdc4ba615458df93c7b50cbee"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 38878,
+      "sha256": "fe2f345516cba7ab22ea64cfc40f87753580b9c0bae7540e69a366b6f7fa7c91"
+    },
+    {
+      "ruta": "referencias/informes/belatra-juegos.csv",
+      "bytes": 11235,
+      "sha256": "15a614a746575a91bcbd63f7a14f81bb87d19b7fbcde6277ecbf913561114adf"
+    },
+    {
+      "ruta": "referencias/informes/REPORTE.md",
+      "bytes": 2727,
+      "sha256": "3021aa60c840b71b694689af90a4297c13a2de160004fef840dcc5f38daaa23d"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 605,
+      "sha256": "e473d3723e0a67dcc679f103f6898f1d50ad6b039caa067843b4c6c5f0e9c9a8"
+    }
+  ]
+}

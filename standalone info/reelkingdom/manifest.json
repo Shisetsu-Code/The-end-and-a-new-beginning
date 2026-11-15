@@ -1,0 +1,40 @@
+{
+  "proveedor": "reelkingdom",
+  "archivos": [
+    {
+      "ruta": "codigo/pragmatic.rs",
+      "bytes": 29596,
+      "sha256": "0635700f15aac1b5fdbc71968a7dd3f98097592dc1ac10819406f3d6b1965512"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 31917,
+      "sha256": "2698d2af4718563827a7a241a36ee6d0c052eab084df73ba6549682c98c99a50"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 170762,
+      "sha256": "d577710b5b4f83fffcd5d7fc51e93a33bba268f12b14f387e17e33c33d2a4b6a"
+    },
+    {
+      "ruta": "evidencia/reelkingdom.json",
+      "bytes": 238202,
+      "sha256": "a6f5eb5ce2b87385cf50ee6bb109baf5b8daa7097f8e930ea4451ca4d9a0df09"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 31817,
+      "sha256": "547c0e8b84f464f39e1ff01e3d7fe40603a530a93e730a2f36be60d2cc933d70"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 669,
+      "sha256": "37fa47857578e65473388e8098b5fdd58f4baa94d647d2b9503b9f680d104fd2"
+    }
+  ]
+}

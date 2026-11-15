@@ -1,0 +1,55 @@
+{
+  "proveedor": "redtiger",
+  "archivos": [
+    {
+      "ruta": "codigo/pack_redtiger_http.py",
+      "bytes": 2563,
+      "sha256": "7d7071067e2f7a90a90ee9acd283fed5fc8df3d5f55c3de90d771999a9ab7086"
+    },
+    {
+      "ruta": "codigo/redtiger.rs",
+      "bytes": 19581,
+      "sha256": "96c5a1d24b2cc6a1a192b338c97117197ccbc0c4e2d032bcba17772e6f53c275"
+    },
+    {
+      "ruta": "codigo/redtiger_http_process.py",
+      "bytes": 2018,
+      "sha256": "03bcb4d3cc80d7759b4adbba103b7c9c2fd0d5b5c8acd2cd9ec36e65e62b8d63"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 145493,
+      "sha256": "dd6ae85533769808049be1ee2f426985beaab1d9d7e006b005a99a32d645940d"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 723445,
+      "sha256": "35f4d3e5c71393db1cad1d41434c4864bdc3016fdfc1a6b38b3f0a151a53f0a4"
+    },
+    {
+      "ruta": "evidencia/redtiger.json",
+      "bytes": 710901,
+      "sha256": "3b563dc1c41b8b6a92f534281a65a9da841778089fe5191fcee918a106eb82c8"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 145998,
+      "sha256": "20096c599ea4dbd213fefa37ca66d2967b54e357515d88badca50a8a457fb895"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 133036,
+      "sha256": "c085b17f7b7f7f7519f5c2a8f4bf158eb6b69cfc9adf71097e96d7afd227135d"
+    },
+    {
+      "ruta": "referencias/collection_redtiger_http.py",
+      "bytes": 8398,
+      "sha256": "60688ebc1fdf3f24f1f5eff95ca91e1359299598e154a5f3372b0c3448838319"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 635,
+      "sha256": "c225b3b8b7d5f8bba49ea1e33c003bcb1a067677bc3f2f1e5605a79917461333"
+    }
+  ]
+}

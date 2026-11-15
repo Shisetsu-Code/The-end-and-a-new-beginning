@@ -1,0 +1,60 @@
+{
+  "proveedor": "spinomenal",
+  "archivos": [
+    {
+      "ruta": "bindings/spinomenal-public-init.json",
+      "bytes": 219625,
+      "sha256": "2487196fcdea6b3007396bd8798a99a78cd2ce4e03ea4185665c918b1dc92fad"
+    },
+    {
+      "ruta": "bindings/spinomenal.json",
+      "bytes": 219839,
+      "sha256": "7ec257e35ba125da2e0cf0a9973c8ac8fd35aa1900af40b0d54ab2955aca72bb"
+    },
+    {
+      "ruta": "codigo/pack_redtiger_http.py",
+      "bytes": 2563,
+      "sha256": "7d7071067e2f7a90a90ee9acd283fed5fc8df3d5f55c3de90d771999a9ab7086"
+    },
+    {
+      "ruta": "codigo/redtiger_http_process.py",
+      "bytes": 2018,
+      "sha256": "03bcb4d3cc80d7759b4adbba103b7c9c2fd0d5b5c8acd2cd9ec36e65e62b8d63"
+    },
+    {
+      "ruta": "codigo/spinomenal.rs",
+      "bytes": 22443,
+      "sha256": "9432123fd315531e5f929ee6c84135727e84b6c9f3a2606c94cd890aaa9c1501"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 378929,
+      "sha256": "19302493c46843df765849907ce68b3fb93a09851117621e272a3dd64884057a"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 2627099,
+      "sha256": "0dd5ef47bf81c261f4979aacaae915960b8214549fa657425ad40d24f112574a"
+    },
+    {
+      "ruta": "evidencia/spinomenal.json",
+      "bytes": 3669353,
+      "sha256": "fff43e5df735a803ea262d833299c058eddb94a782985b3b54dea26b32a21f5d"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 378899,
+      "sha256": "630a0c324d13a2ebd6de1fa4715b43fe9ff54e8bc6f5ef729cdb1f4fe39fcc89"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 290475,
+      "sha256": "61561c7312d5b8059aa5a457ff3c48ab471d27a37c81982210208a02757c3817"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 618,
+      "sha256": "47b9c8efb5af0119e65f6d42587d2c8151627e48987dcf32883496851de81886"
+    }
+  ]
+}

@@ -1,0 +1,6287 @@
+{
+  "id": "playngo",
+  "name": "Play’n GO",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "playngo.xml",
+    "workspace_adapter": "collection_full_existing.py::playngo_complete",
+    "continuations": "game-specific XML commands",
+    "closure": "native settlement and wallet"
+  },
+  "games": [
+    {
+      "id": "1001",
+      "name": "Wrappin' More Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1098",
+      "name": "Tower Run Treasure Steps",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1084",
+      "name": "Redtail Robber Cash Vault Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "975",
+      "name": "Ghost Booster! GO Guaranteed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1113",
+      "name": "Three Pots of the Genie",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1083",
+      "name": "Chunky Carlo's Money Mania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1000",
+      "name": "Lawn n' Complete Disorder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1095",
+      "name": "Triple Beasts of Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1096",
+      "name": "Infernal Trinity GO Guaranteed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1073",
+      "name": "Unigoat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1109",
+      "name": "Viking Runecraft 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1082",
+      "name": "Cursed Moon Power Collection",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1074",
+      "name": "Holy Moo! Extreme Power",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1075",
+      "name": "Stompin’ Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1101",
+      "name": "Moon Princess Extreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1077",
+      "name": "Temple of Three",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1062",
+      "name": "Reactoonz Blitzways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1072",
+      "name": "Fate's Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1085",
+      "name": "Legion Gold and the Throne of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "998",
+      "name": "Crabby's Gold II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1100",
+      "name": "Triple Launch Fortune Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "Gnaw'n Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1069",
+      "name": "Shark Feast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "992",
+      "name": "Buildin' Even More Bucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1065",
+      "name": "Primal Rampage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "name": "Track n' Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1068",
+      "name": "Granny's Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1071",
+      "name": "Treats of Terror II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1070",
+      "name": "Manta Mayhem",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1061",
+      "name": "Colt Lightning Inferno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "991",
+      "name": "Wrappin' Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1066",
+      "name": "Spice Spice Baby!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1005",
+      "name": "Legion Gold Reckoning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "1078",
+      "name": "Nugget n’ Nonsense",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1022",
+      "name": "ValhalLuck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "922",
+      "name": "Honey Rush Black and Yellow",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "993",
+      "name": "Tomb of Gold Reimagined",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1059",
+      "name": "Hope Unleashed Fortune Rises",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1051",
+      "name": "Wheel of Mictlan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1054",
+      "name": "Wild North Radiant Skies GO Collect",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1049",
+      "name": "Mega Don Triple Threat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1021",
+      "name": "Book of Dead GO Collect",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1063",
+      "name": "Sails of Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1058",
+      "name": "3 Blades & Blessings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1044",
+      "name": "Rise of Olympus 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "go-ultra",
+          "type": "booster",
+          "label": "go-ultra"
+        }
+      ]
+    },
+    {
+      "id": "994",
+      "name": "Piggy Blitz Casino Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1067",
+      "name": "Barn Busters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1036",
+      "name": "Legacy of Undead Dragon ABYSSWAYS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1029",
+      "name": "Play'n GO Mole Digger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1060",
+      "name": "Piggy Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "918",
+      "name": "Buildin' More Bucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1041",
+      "name": "Ra's Reckoning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1047",
+      "name": "Fangs & Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1057",
+      "name": "Banana Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1015",
+      "name": "Tome of the Lost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1052",
+      "name": "Stadium of Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1039",
+      "name": "Rings of Prosperity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "995",
+      "name": "Lawn n' Disorder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1035",
+      "name": "Static Nightmare ABYSSWAYS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "910",
+      "name": "Divina Commedia I Nove Cerchi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "873",
+      "name": "Reactoonz 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1055",
+      "name": "Bubblin' Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1048",
+      "name": "Bao Shi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1042",
+      "name": "Fate of Dead Blitzways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "926",
+      "name": "Bullion Xpress",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1037",
+      "name": "Lab of Madness It's A-Wild!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1033",
+      "name": "Rosy Orbit Treasure Turn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1016",
+      "name": "Rise of Olympus Extreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1017",
+      "name": "Fire Toad 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1026",
+      "name": "Fire Joker Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1038",
+      "name": "Leprechaun's Diamond Dig",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1014",
+      "name": "Spinnin' Records: Raving Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1025",
+      "name": "13th Trial Hercules Abyssways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1024",
+      "name": "Lady of Fortune Destiny Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "996",
+      "name": "Play'n GO Buffalo of Wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1032",
+      "name": "Super Flip Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "964",
+      "name": "The Green Knight Oath of Thorns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1023",
+      "name": "Cashin' Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "702",
+      "name": "Rise of Orpheus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "623",
+      "name": "Moon Princess Stargazing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "914",
+      "name": "Tomb of Gold II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1028",
+      "name": "Big Win Cat Pawsperity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "741",
+      "name": "Viper City Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1020",
+      "name": "King of Sweets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1031",
+      "name": "City of Sound",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1007",
+      "name": "Fire Joker 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1018",
+      "name": "Dragonfate's Favor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1019",
+      "name": "Treats of Terror",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "920",
+      "name": "Crabby's Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "908",
+      "name": "Boat Bonanza CrocoNile!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1013",
+      "name": "Rich Wilde and the Tome of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "name": "Moon Princess Origins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "985",
+      "name": "1001 Mystery Genie Fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "698",
+      "name": "Loot & Labyrinths",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "986",
+      "name": "Spinnin' Records Into the Beat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "name": "Mystery Egg Surprise",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "716",
+      "name": "GO CRAPS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "742",
+      "name": "Trinity Impact",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "989",
+      "name": "Medusa's Madness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "965",
+      "name": "Legion Gold Victory!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "987",
+      "name": "Myth of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "973",
+      "name": "Crystal Hall",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "984",
+      "name": "Invading Vegas Revenge on Mars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "977",
+      "name": "Potion of Madness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "732",
+      "name": "Legacy of Gems Blitzways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "738",
+      "name": "Tower Quest Legacy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "743",
+      "name": "Treasures of Kongar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "983",
+      "name": "Midnight Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "694",
+      "name": "Jolly Roger Wild Kraken",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "938",
+      "name": "Hot Dog Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "906",
+      "name": "Lion Saga Odyssey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "904",
+      "name": "Sobek's Godly Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "871",
+      "name": "Wildest Gambit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "981",
+      "name": "Boat Bonanza Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "912",
+      "name": "Rich Wilde and the Pearls of Vishnu",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "924",
+      "name": "Piggy Blitz Disco Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "970",
+      "name": "Legion Gold and the Sphinx of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "930",
+      "name": "Beasts of Fire Maximum",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "699",
+      "name": "Baron: Lord of Saturday",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "753",
+      "name": "Stepping Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "976",
+      "name": "Lady of Fortune Remastered",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "972",
+      "name": "Kingdom Below",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "673",
+      "name": "Buildin' Bucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "928",
+      "name": "Mirror Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "734",
+      "name": "Gemix 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "692",
+      "name": "Ankh of Anubis Awakening",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "730",
+      "name": "Scourge of Rome",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "974",
+      "name": "Joker Flip",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "815",
+      "name": "Mafia Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "707",
+      "name": "Rise of Olympus Origins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "851",
+      "name": "King's Mask Eclipse of Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "962",
+      "name": "Whispering Winds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "966",
+      "name": "Dansband På Turné",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "932",
+      "name": "Oasis of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "936",
+      "name": "Journey to Paris",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "733",
+      "name": "Temple of Tollan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "902",
+      "name": "Merlin Realm of Charm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "736",
+      "name": "Gold of Fortune God",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "745",
+      "name": "Rich Wilde and the Tome of Insanity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "739",
+      "name": "Colt Lightning Firestorm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "688",
+      "name": "Spark of Genius",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "724",
+      "name": "Wild Survivor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "852",
+      "name": "Fulong 88",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "677",
+      "name": "The Sword and the Grail Excalibur",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "676",
+      "name": "Boat Bonanza Down Under",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "594",
+      "name": "Tomb of Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "704",
+      "name": "Mystery Genie  Fortunes of the Lamp",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "934",
+      "name": "Easter Eggspedition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "850",
+      "name": "Piranha Pays",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "722",
+      "name": "Chambers of Ancients",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "728",
+      "name": "Banquet of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "678",
+      "name": "Legion Gold Unleashed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "705",
+      "name": "Undefeated Xerxes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "744",
+      "name": "Cat Wilde and the Incan Quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "869",
+      "name": "Love is in the Fair",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "731",
+      "name": "Moon Princess Power of Love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "691",
+      "name": "3 Clown Monty II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "697",
+      "name": "Pandastic Adventure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "682",
+      "name": "Tales of Mithrune Syn's Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "695",
+      "name": "Viking Runecraft 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "740",
+      "name": "Mega Don: Feeding Frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "721",
+      "name": "Gargantoonz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "701",
+      "name": "Invading Vegas: Las Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "593",
+      "name": "Legacy of Dynasties",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "681",
+      "name": "Sherwood Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "672",
+      "name": "Monkey: Battle for the Scrolls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "816",
+      "name": "Ruff Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "729",
+      "name": "Raging Rex 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "680",
+      "name": "Return of The Green Knight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "853",
+      "name": "Piggy Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "700",
+      "name": "Temple of Prosperity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "643",
+      "name": "Scales of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "675",
+      "name": "Boat Bonanza Colossal Catch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "714",
+      "name": "Honey Rush 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "727",
+      "name": "Hugo Legacy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "713",
+      "name": "Sweet Alchemy 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "807",
+      "name": "Scroll of Seth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "696",
+      "name": "Merlin: Journey of Flame",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "649",
+      "name": "Fox Mayhem",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "671",
+      "name": "Sparky&Shortz Hidden Joules",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "674",
+      "name": "Rascal Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "710",
+      "name": "Sweet Alchemy 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "726",
+      "name": "Ternion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "648",
+      "name": "Viking Runecraft: Apocalypse",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "737",
+      "name": "Free Reelin' Joker 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "808",
+      "name": "Highway Legends",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "735",
+      "name": "Luchamigos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "640",
+      "name": "Captain Glum: Pirate Hunter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "642",
+      "name": "Gerard's Gambit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "595",
+      "name": "Ronin's Honour",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "709",
+      "name": "Slashimi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "661",
+      "name": "Wild Bandolier",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "712",
+      "name": "Moon Princess Trinity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "690",
+      "name": "Pandora's Box of Evil",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "787",
+      "name": "Colt Lightning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "660",
+      "name": "Legion Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "755",
+      "name": "Legacy of Inca",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "693",
+      "name": "Game of Gladiators: Uprising",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "684",
+      "name": "Pilgrim of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "689",
+      "name": "Invading Vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "686",
+      "name": "Cash-a-Cabana",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "662",
+      "name": "Shamrock Miner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "644",
+      "name": "Mötley Crüe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "647",
+      "name": "Wild Falls 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "754",
+      "name": "Naughty Nick's Book",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "708",
+      "name": "Athena Ascending",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "591",
+      "name": "Clash of Camelot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "659",
+      "name": "USA Flip",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "670",
+      "name": "Rise of Olympus 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "590",
+      "name": "Canine Carnage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "685",
+      "name": "Count Jokula",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "664",
+      "name": "Boat Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "653",
+      "name": "Dio Killing the Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "641",
+      "name": "ImmorTails of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "618",
+      "name": "Gates of Troy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "645",
+      "name": "Mount M",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "588",
+      "name": "Champions of Mithrune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "646",
+      "name": "Bull in a Rodeo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "622",
+      "name": "Forge of Fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "656",
+      "name": "Leprechaun's Vault",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "625",
+      "name": "Mega Don",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "587",
+      "name": "Cash of Command",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "624",
+      "name": "Rotiki",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "620",
+      "name": "Merlin's Grimoire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "629",
+      "name": "*NSYNC Pop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "613",
+      "name": "Cat Wilde and the Pyramids of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "586",
+      "name": "Rocco Gallo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "476",
+      "name": "Derby Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "616",
+      "name": "Wild Trigger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "639",
+      "name": "King's Mask",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "617",
+      "name": "Animal Madness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "633",
+      "name": "Idol of Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "584",
+      "name": "Rise of Gods: Reckoning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "608",
+      "name": "Lordi Reel Monsters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "619",
+      "name": "Puebla Parade",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "609",
+      "name": "Forge of Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "603",
+      "name": "Moon Princess 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "612",
+      "name": "Def Leppard: Hysteria",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "638",
+      "name": "Eye of Atum",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "607",
+      "name": "Raging Rex 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "614",
+      "name": "Fat Frankies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "632",
+      "name": "Safari of Wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "606",
+      "name": "Secret of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "596",
+      "name": "Tales of Asgard: Freya's Wedding",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "456",
+      "name": "Cat Wilde and the Lost Chapter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "574",
+      "name": "Gigantoonz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "610",
+      "name": "Love Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "567",
+      "name": "15 Crystal Roses: A Tale of Love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "570",
+      "name": "Tale of Kyubiko",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "585",
+      "name": "Captain Xeno's Earth Adventure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "579",
+      "name": "Beasts of Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "568",
+      "name": "Hooligan Hustle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "553",
+      "name": "Kiss Reels of Rock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "600",
+      "name": "Moon Princess: Christmas Kingdom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "581",
+      "name": "Merlin and the Ice Queen Morgana",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "563",
+      "name": "Rich Wilde and the Wandering City",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "583",
+      "name": "The Last Sundown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "564",
+      "name": "Legend of the Ice Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "565",
+      "name": "Tales of Asgard: Loki's Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "566",
+      "name": "Sparky & Shortz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "545",
+      "name": "Muerto en MictlÃƒÆ’Ã‚Â¡n",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "531",
+      "name": "Alice Cooper and the Tome of Madness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "539",
+      "name": "Charlie Chance and the Curse of Cleopatra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "554",
+      "name": "The Wild Class",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "549",
+      "name": "Ghost of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "538",
+      "name": "Dr. Toonz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "547",
+      "name": "Sisters of the Sun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "548",
+      "name": "Hugo Carts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "542",
+      "name": "Agent of Hearts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "535",
+      "name": "Diamonds of the Realm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "537",
+      "name": "Odin Protector of Realms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "479",
+      "name": "Hotel Yeti-Way",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "468",
+      "name": "Gemix 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "533",
+      "name": "Blazin' Bullfrog",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "478",
+      "name": "Pack & Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "540",
+      "name": "Free Reelin' Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "534",
+      "name": "Charlie Chance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "536",
+      "name": "Candy Island Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "532",
+      "name": "Prism of Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "530",
+      "name": "Scroll of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "474",
+      "name": "3 Clown Monty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "469",
+      "name": "HammerFall",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "477",
+      "name": "Rabbit Hole Riches - Court of Hearts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "473",
+      "name": "Fire Joker Freeze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "466",
+      "name": "Fire Toad",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "475",
+      "name": "Rich Wilde and the Amulet of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "472",
+      "name": "The Shimmering Woods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "467",
+      "name": "House of Doom 2: The Crypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "471",
+      "name": "The Green Knight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "462",
+      "name": "The Faces of Freya",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "465",
+      "name": "The Paying Piano Club",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "463",
+      "name": "Thunder Screech",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "460",
+      "name": "Cat Wilde in the Eclipse of the Sun God",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "470",
+      "name": "Lord Merlin and The Lady of The Lake",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "459",
+      "name": "Bull in a China Shop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "461",
+      "name": "Miner Donkey Trouble",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "452",
+      "name": "Coils of Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "458",
+      "name": "Piggy Bank Farm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "447",
+      "name": "Golden Osiris",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "453",
+      "name": "Frozen Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "454",
+      "name": "Ice Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "457",
+      "name": "New Year Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "450",
+      "name": "24k Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "451",
+      "name": "Rise of Athena",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "464",
+      "name": "Holiday Spirits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "449",
+      "name": "Disco Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "435",
+      "name": "Madame Ink",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "name": "Helloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "445",
+      "name": "Rabbit Hole Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "name": "Reactoonz 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "name": "Feline Fury",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "441",
+      "name": "Octopus Treasure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "436",
+      "name": "Golden Ticket 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "442",
+      "name": "Jolly Roger 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "name": "Diamond Vortex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "422",
+      "name": "Saxon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "446",
+      "name": "Blinged",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "name": "Riddle Reels: A Case of Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "name": "Win-A-Beest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "name": "Gold Volcano",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "name": "Cat Wilde and the Doom of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "396",
+      "name": "Troll Hunters 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "420",
+      "name": "Rally 4 Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "name": "Twisted Sister",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "name": "Charlie Chance in Hell to Pay",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "name": "Agent Destiny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "413",
+      "name": "Rich Wilde and the Shield of Athena",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "name": "Annihilator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "name": "Ring of Odin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "414",
+      "name": "That's Rich",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "name": "Riches of Robin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "name": "Sticky Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "name": "TESTament BINGO",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "name": "Fortunes of Ali Baba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "name": "Dawn of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "name": "Leprechaun Goes Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "395",
+      "name": "Coywolf Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "393",
+      "name": "Wildhound Derby",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "name": "Wild Blood 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "name": "Legacy of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "398",
+      "name": "Wild Frames",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "360",
+      "name": "Divine Showdown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "389",
+      "name": "Chronos Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "390",
+      "name": "Xmas Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "386",
+      "name": "Black Mamba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "name": "Doom of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "name": "Honey Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "374",
+      "name": "Big Win 777",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "397",
+      "name": "Cash Pump",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "388",
+      "name": "Rainforest Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "394",
+      "name": "Demon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "379",
+      "name": "Mission Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "name": "3-Hand Casino Hold'em",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "name": "Inferno Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "392",
+      "name": "Hugo's Adventure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "367",
+      "name": "Rise of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "376",
+      "name": "The Sword and The Grail",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "364",
+      "name": "Firefly Frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "385",
+      "name": "Wild Rails",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "365",
+      "name": "Tome of Madness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "377",
+      "name": "Rise of Merlin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "369",
+      "name": "Game of Gladiators",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "name": "Perfect Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "366",
+      "name": "Inferno Star",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "name": "Ankh of Anubis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "378",
+      "name": "Sabaton",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "362",
+      "name": "Mahjong 88",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "372",
+      "name": "Crystal Sun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "name": "Phoenix Reborn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "359",
+      "name": "Contact",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "370",
+      "name": "Cash Vandal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "344",
+      "name": "Golden Colts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "363",
+      "name": "Queen's Day Tilt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "350",
+      "name": "Wild Falls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "361",
+      "name": "Raging Rex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "340",
+      "name": "Star Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "356",
+      "name": "Battle Royal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "347",
+      "name": "Banana Rock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "355",
+      "name": "Dragon Maiden",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "306",
+      "name": "Iron Girl",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "351",
+      "name": "Street Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "352",
+      "name": "Rise of Olympus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "357",
+      "name": "Sizzling Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "name": "Cats and Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "European Roulette Pro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "354",
+      "name": "Hugo Goal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "name": "Cops 'n' Robbers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "339",
+      "name": "Legacy of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "349",
+      "name": "Baker's Treat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "336",
+      "name": "Sweet Alchemy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "666",
+      "name": "House of Doom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "348",
+      "name": "Imperial Opera",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "341",
+      "name": "Gold King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "345",
+      "name": "Planet Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "338",
+      "name": "Mystery Joker 6000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "331",
+      "name": "Sea Hunter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "346",
+      "name": "Hugo 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "342",
+      "name": "Big Win Cat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "337",
+      "name": "FU ER DAI",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "333",
+      "name": "Reactoonz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "328",
+      "name": "Prosperity Palace",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "329",
+      "name": "Mermaid's Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "334",
+      "name": "Moon Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "335",
+      "name": "Sweet 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "330",
+      "name": "Multifruit 81",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "332",
+      "name": "Aztec Warrior Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "319",
+      "name": "Viking Runecraft",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "320",
+      "name": "Matsuri",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "325",
+      "name": "Prissy Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "326",
+      "name": "Jade Magician",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "321",
+      "name": "7 Sins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "327",
+      "name": "Holiday Season",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "324",
+      "name": "Super Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "322",
+      "name": "Hugo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "303",
+      "name": "Grim Muerto",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "307",
+      "name": "Fire Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "318",
+      "name": "Money Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "312",
+      "name": "Golden Caravan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "311",
+      "name": "Sails of Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "300",
+      "name": "Cloud Quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "304",
+      "name": "Samba Carnival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "310",
+      "name": "Book of Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "302",
+      "name": "Wizard of Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "309",
+      "name": "Xmas Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "305",
+      "name": "Happy Halloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "297",
+      "name": "Eye of the Kraken",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "294",
+      "name": "Wild North",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "292",
+      "name": "Spin Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "298",
+      "name": "Royal Masquerade",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "295",
+      "name": "Super Flip",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "290",
+      "name": "Golden Legend",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "287",
+      "name": "Tower Quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "293",
+      "name": "Easter Eggs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Double Exposure BlackJack MH",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "291",
+      "name": "Pimped",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "286",
+      "name": "Gemix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "288",
+      "name": "Merry Xmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "284",
+      "name": "Crazy Cows",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "285",
+      "name": "Golden Ticket",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "282",
+      "name": "Pearls of India",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "283",
+      "name": "Mystery Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "259",
+      "name": "Enchanted Crystals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "277",
+      "name": "Chinese New Year",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "278",
+      "name": "Lady of Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "271",
+      "name": "Joker Poker MH",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "270",
+      "name": "Deuces Wild MH",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "269",
+      "name": "Jacks or Better MH",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "246",
+      "name": "Gold Trophy 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Casino Hold'em",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Single Deck BlackJack MH",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "262",
+      "name": "Energoonz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "257",
+      "name": "Rage to Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "237",
+      "name": "Riches of RA",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "254",
+      "name": "Troll Hunters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "253",
+      "name": "Ninja Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "251",
+      "name": "Leprechaun goes Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "250",
+      "name": "Wild Blood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Irish Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "name": "5x Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Mini Baccarat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "Ace of Spades",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Lucky Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Wild Melon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "245",
+      "name": "Myth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "242",
+      "name": "Jewel Box",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "name": "Space Race",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "name": "Photo Safari",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "name": "Fortune Teller",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "BlackJack MH",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "239",
+      "name": "Keno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "238",
+      "name": "Dragon Ship",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "241",
+      "name": "Pearl Lagoon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "225",
+      "name": "Enchanted Meadow",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "European BlackJack MH",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "243",
+      "name": "Aztec Idols",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Jolly Roger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    }
+  ]
+}

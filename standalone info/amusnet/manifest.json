@@ -1,0 +1,45 @@
+{
+  "proveedor": "amusnet",
+  "archivos": [
+    {
+      "ruta": "bindings/amusnet.json",
+      "bytes": 84640,
+      "sha256": "a97a851b027685cb43eca77ddd7bd40d8f302c6f0900e42837dec2ac5ec43375"
+    },
+    {
+      "ruta": "codigo/amusnet.rs",
+      "bytes": 13545,
+      "sha256": "31374690d1ce02c04a8b5984329835e0e546e01d3212f8b3af327972e2aec524"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 157951,
+      "sha256": "667e0aff80124b8c6364ec56cccbd173cedde06bd442bef06f82d04a1eadf0f0"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 1096596,
+      "sha256": "5e13e82a24a56524695ac297741e459cc9abbea3ed01ad928f7ccf64cce338c1"
+    },
+    {
+      "ruta": "evidencia/amusnet.json",
+      "bytes": 1267079,
+      "sha256": "c85dffdbdc94a61a3d01a348452c45eebd8788bb79d5c9cfd2e76f4683f98d57"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 157901,
+      "sha256": "8561962efe7b77231bc31be018308bfae3f210f5e2c27e716b83b68c8ecb55a0"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 105457,
+      "sha256": "f3a4b055316d3802d969cf79ab054ac7e259c1464b7e0bcca0f0129cd88db32f"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 583,
+      "sha256": "c5673880d84e89fec6e9fd59663823419b2550b8ec7ae17373f5af2b83472c21"
+    }
+  ]
+}

@@ -1,0 +1,1447 @@
+{
+  "schema_version": 1,
+  "source": "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json",
+  "protocol_sources": [
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_demo_qa.py",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/legacy_metadata.py",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/line_count_modes.py",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/volatility_modes.py",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/gold_symbols.py",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/freespin_types.py",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/indexed_rows.py"
+  ],
+  "policy": "Historical exact selector identities only. Fresh API2 idle state, active native menus and any game-specific source selectors must be proved before dispatch. No money values retained or required. Unknown continuations are retained as UnknownEvent.",
+  "games": {
+    "FormulaX10000": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase",
+        "bonus_buy:3": "purchase"
+      }
+    },
+    "WildCashGold": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_chance": "antebet",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "KhonsuMergeUp": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_chance:0": "antebet",
+        "freespin_chance:1": "antebet"
+      }
+    },
+    "NocheDeAlmas": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_chance:0": "antebet",
+        "freespin_chance:1": "antebet"
+      }
+    },
+    "DivineQueenPowerOfSun": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance:0": "antebet",
+        "freespin_chance:1": "antebet",
+        "freespin_chance:2": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase"
+      }
+    },
+    "ThreeLuckyMonkeysHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_chance": "antebet",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase"
+      }
+    },
+    "BonanzaBillionMergeUp": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "JohnnyVsChicken": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase"
+      }
+    },
+    "WincentWolf": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "BookOfHiddenTombs": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase"
+      }
+    },
+    "MissCherryWildFrames": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "StPatricksPotsHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_chance": "antebet",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "FruitMillionRespin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "ReelOfRa": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_chance": "antebet",
+        "bonus_buy": "purchase"
+      }
+    },
+    "TrainHeistJohnnyCash": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_chance:0": "antebet",
+        "freespin_chance:1": "antebet"
+      }
+    },
+    "Yokai": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "AlienFruits3": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "bonus_chance": "antebet"
+      }
+    },
+    "StarsAndStripesHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "FrenzyClusters": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2/portal:0": "purchase",
+        "freespin_buy:2/portal:1": "purchase",
+        "freespin_buy:2/portal:2": "purchase",
+        "freespin_buy:2/portal:3": "purchase",
+        "freespin_buy:2/portal:4": "purchase"
+      }
+    },
+    "DustyDuel": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase"
+      }
+    },
+    "MoneyMaker": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "GemhallaXtreme": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase"
+      }
+    },
+    "SharkAndSparkHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase"
+      }
+    },
+    "LuckyPack2026Cup": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase",
+        "bonus_buy:3": "purchase"
+      }
+    },
+    "Ultras": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "bonus_chance": "antebet"
+      }
+    },
+    "GrandBuffaloHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "DerbyRush": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "SugarMergeUp": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "bonus_chance:0": "antebet",
+        "bonus_chance:1": "antebet"
+      }
+    },
+    "RoyalEaster": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "PiggyBankHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "MagicMummyMegaways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "BonanzaBillionXtreme": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase"
+      }
+    },
+    "GoldenAvalonHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase",
+        "bonus_buy:3": "purchase",
+        "bonus_chance": "antebet"
+      }
+    },
+    "HeartOfTiki": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "AlwaysUpX10000": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase",
+        "bonus_buy:3": "purchase"
+      }
+    },
+    "WinterTrophyHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "JokerXLove": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "TotallyHot": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "MysteryHeist": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase"
+      }
+    },
+    "UFOPyramids": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "DivineQueenHeartOfIce": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "WildMillion": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "GoldenPawHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_chance": "antebet",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase",
+        "bonus_buy:3": "purchase"
+      }
+    },
+    "HotChilliBells100": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "bonus_chance": "antebet"
+      }
+    },
+    "FrozenFruit": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "WildWick": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase"
+      }
+    },
+    "LuckyTurkey": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "MergeUp2": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase"
+      }
+    },
+    "BurningChilli243": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "FiestaClusters": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "FaceOff": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "AlwaysUp": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "LuckyLagerX9990": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "CrystalClusters": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "GrandMustang": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "BigTunaBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal@rows:4": "normal",
+        "freespin_buy:4@rows:4": "purchase",
+        "freespin_chance:4@rows:4": "antebet"
+      }
+    },
+    "LadyLuckyGun": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "TrampDayTrueways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "DragonQueenMegaways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "BackyardGrill": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "LokiLoot": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal@rows:5": "normal",
+        "freespin_buy:5@rows:5": "purchase",
+        "freespin_chance:5@rows:5": "antebet"
+      }
+    },
+    "MysteryGarden": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "OlympusTrueways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "LuckyLu": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "DoomsdaySaloon": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase"
+      }
+    },
+    "ArrowSlot": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_chance": "antebet",
+        "bonus_buy": "purchase"
+      }
+    },
+    "TreasureOfAnubis": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "FortuneBells": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "AztecIrwin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase"
+      }
+    },
+    "WildCardGang": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "AllStarFruits": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase"
+      }
+    },
+    "JokersMillion": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "DiscoParty": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal@base_volatility:low": "normal",
+        "freespin_buy:1@base_volatility:low": "purchase",
+        "freespin_buy:2@base_volatility:low": "purchase",
+        "normal@base_volatility:medium": "normal",
+        "freespin_buy:1@base_volatility:medium": "purchase",
+        "freespin_buy:2@base_volatility:medium": "purchase"
+      }
+    },
+    "SakuraRiches60": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "LuckyDucky": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "GoldenPride": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "SnoopDoggDollars": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase"
+      }
+    },
+    "Forgotten": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:4": "purchase",
+        "freespin_buy:8": "purchase"
+      }
+    },
+    "RotatingElement": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "HauntedReels": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "CarnivalBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "VoodooPeople": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "RoyalFruitsMultiLines": {
+      "family": "legacy-v2",
+      "modes": {
+        "lines:20": "normal",
+        "lines:40": "normal",
+        "lines:60": "normal",
+        "lines:80": "normal",
+        "lines:100": "normal"
+      }
+    },
+    "TrainToRioGrande": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "KrakensHunger": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal@rows:3": "normal",
+        "freespin_buy:3@rows:3": "purchase",
+        "freespin_chance:3@rows:3": "antebet",
+        "normal@rows:4": "normal",
+        "freespin_buy:4@rows:4": "purchase",
+        "freespin_chance:4@rows:4": "antebet",
+        "normal@rows:5": "normal",
+        "freespin_buy:5@rows:5": "purchase",
+        "freespin_chance:5@rows:5": "antebet"
+      }
+    },
+    "CatchTheGoldHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_chance": "antebet",
+        "bonus_chance": "antebet",
+        "bonus_buy": "purchase",
+        "freespin_buy/type:giant_symbol": "purchase",
+        "freespin_buy/type:high_symbols": "purchase"
+      }
+    },
+    "WildWestTrueways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "SecretBarMultiDiceX": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "GoldMagnate": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "AlienFruits2": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "DragonAge": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "GoldOfMinos": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "PandaLuck": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "ChickenRush": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy:0": "purchase",
+        "bonus_buy:1": "purchase",
+        "bonus_buy:2": "purchase"
+      }
+    },
+    "Oof": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "LuckyDragonMultiDiceX": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy_0_chance": "antebet",
+        "bonus_buy_1_chance": "antebet"
+      }
+    },
+    "DiamondOfJungle": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal@base_volatility:low": "normal",
+        "freespin_buy:1@base_volatility:low": "purchase",
+        "freespin_buy:2@base_volatility:low": "purchase",
+        "normal@base_volatility:medium": "normal",
+        "freespin_buy:1@base_volatility:medium": "purchase",
+        "freespin_buy:2@base_volatility:medium": "purchase"
+      }
+    },
+    "Lucky8MergeUp": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "PopZen": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "AztecClusters": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "freespin_buy:0": "purchase",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase"
+      }
+    },
+    "WildHeart": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase"
+      }
+    },
+    "GodOfWealthHoldAndWin": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "freespin_buy": "purchase"
+      }
+    },
+    "WildTiger": {
+      "family": "legacy-v2",
+      "modes": {
+        "lines:20": "normal",
+        "lines:40": "normal",
+        "lines:60": "normal",
+        "lines:80": "normal",
+        "lines:100": "normal"
+      }
+    },
+    "Hottest666": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "Gemza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "SlotMachine": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "TrampDay": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "BookOfPanda": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase",
+        "high_freespin_buy": "purchase"
+      }
+    },
+    "MergeUp": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "MonsterHunt": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_chance": "antebet",
+        "bonus_chance": "antebet",
+        "bonus_buy": "purchase",
+        "freespin_buy/type:high_symbols": "purchase"
+      }
+    },
+    "MiceAndMagic": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase"
+      }
+    },
+    "BoneBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "Maneki88Fortunes": {
+      "family": "legacy-v2",
+      "modes": {
+        "gold_symbols:1/normal": "normal",
+        "gold_symbols:1/freespin_buy": "purchase",
+        "gold_symbols:1/freespin_chance": "antebet",
+        "gold_symbols:2/normal": "normal",
+        "gold_symbols:2/freespin_buy": "purchase",
+        "gold_symbols:2/freespin_chance": "antebet",
+        "gold_symbols:3/normal": "normal",
+        "gold_symbols:3/freespin_buy": "purchase",
+        "gold_symbols:3/freespin_chance": "antebet",
+        "gold_symbols:4/normal": "normal",
+        "gold_symbols:4/freespin_buy": "purchase",
+        "gold_symbols:4/freespin_chance": "antebet",
+        "gold_symbols:5/normal": "normal",
+        "gold_symbols:5/freespin_buy": "purchase",
+        "gold_symbols:5/freespin_chance": "antebet"
+      }
+    },
+    "WildCashDice": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "SavageBuffaloSpiritMegaways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "DiceMillion": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "LuckAndMagic": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "DiceBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "BeastBand": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "WildChicago": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "Gemhalla": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "SavageBuffaloSpirit": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "LuckyCrew": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "RoyalHighRoad": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "AlienFruits": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "EasterHeist": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "BookOfKemet": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase",
+        "freespin_buy:4": "purchase",
+        "freespin_buy:5": "purchase",
+        "freespin_buy:6": "purchase",
+        "freespin_buy:7": "purchase",
+        "freespin_buy:8": "purchase",
+        "freespin_buy:9": "purchase"
+      }
+    },
+    "LuckyOak": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "PotionSpells": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "DomnitorsTreasure": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase",
+        "freespin_buy": "purchase"
+      }
+    },
+    "GiftRush": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "Gangsterz": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "BurningChilliX": {
+      "family": "legacy-v2",
+      "modes": {
+        "lines:20": "normal",
+        "lines:40": "normal",
+        "lines:60": "normal",
+        "lines:80": "normal",
+        "lines:100": "normal"
+      }
+    },
+    "Soccermania": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "BookOfCatsMegaways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase",
+        "high_freespin_buy": "purchase"
+      }
+    },
+    "ElvisFrogTrueways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "HalloweenBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "BeerBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "FortyFruityMillion": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "WildCashX9990": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "Maneki88Gold": {
+      "family": "legacy-v2",
+      "modes": {
+        "gold_symbols:1/normal": "normal",
+        "gold_symbols:1/freespin_buy": "purchase",
+        "gold_symbols:2/normal": "normal",
+        "gold_symbols:2/freespin_buy": "purchase",
+        "gold_symbols:3/normal": "normal",
+        "gold_symbols:3/freespin_buy": "purchase",
+        "gold_symbols:4/normal": "normal",
+        "gold_symbols:4/freespin_buy": "purchase",
+        "gold_symbols:5/normal": "normal",
+        "gold_symbols:5/freespin_buy": "purchase"
+      }
+    },
+    "LuckyLadyMoonMegaways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "GoldRushWithJohnny": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "BigAtlantisFrenzy": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal@rows:3": "normal",
+        "freespin_chance@rows:3": "antebet",
+        "freespin_buy@rows:3": "purchase",
+        "normal@rows:4": "normal",
+        "freespin_chance@rows:4": "antebet",
+        "freespin_buy@rows:4": "purchase",
+        "normal@rows:5": "normal",
+        "freespin_chance@rows:5": "antebet",
+        "freespin_buy@rows:5": "purchase"
+      }
+    },
+    "PennyPelican": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase"
+      }
+    },
+    "WildCash": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "bonus_buy": "purchase"
+      }
+    },
+    "LuckyFarmBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "JokerQueen": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase",
+        "bonus_buy": "purchase"
+      }
+    },
+    "CloverBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "AztecMagicBonanza": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "AztecMagicMegaways": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "BonanzaBillion": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy": "purchase"
+      }
+    },
+    "Road2Riches": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_buy": "purchase",
+        "freespin_chance": "antebet"
+      }
+    },
+    "LuckyDamaMuerta": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "CandyMonsta": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "MissCherryFruits": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "DragonsGold100": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "AlohaKingElvis": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_and_bonus_chance": "antebet",
+        "freespin_chance": "antebet",
+        "bonus_chance": "antebet",
+        "bonus_buy": "purchase",
+        "freespin_buy/type:giant_symbol": "purchase",
+        "freespin_buy/type:high_symbols": "purchase"
+      }
+    },
+    "DigDigDigger": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal",
+        "freespin_chance": "antebet",
+        "freespin_buy:1": "purchase",
+        "freespin_buy:2": "purchase",
+        "freespin_buy:3": "purchase",
+        "freespin_buy:4": "purchase",
+        "freespin_buy:5": "purchase",
+        "freespin_buy:6": "purchase",
+        "freespin_buy:7": "purchase",
+        "freespin_buy:8": "purchase",
+        "freespin_buy:9": "purchase"
+      }
+    },
+    "WbcRingOfRiches": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "MechanicalClover": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "LuckyLadyMoon": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "FruitMillion": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "HitTheRoute": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "JohnnyCash": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "AllLuckyClover": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "BookOfPyramids": {
+      "family": "legacy-v2",
+      "modes": {
+        "normal": "normal"
+      }
+    }
+  },
+  "source_sha256": {
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_demo_qa.py": "191c0691235acf1ff25e9deaba26efefc934abf539161b681df887510ca13157",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/legacy_metadata.py": "cae961b7397c26e8202ae2b574908edd4500dcee48f0ede41162ec682c509a72",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/line_count_modes.py": "0f033953570693974217c4af077f918a61033ae2cdf9947f5a8ff2484ab1c63e",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/volatility_modes.py": "15375d6374135056babee547474170927e79dbd2affacc0c068693b35a4cc9fa",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/gold_symbols.py": "4a9ffa049286befd9e39dd9ab4e5a16c6ef300eaf93dcdf0e21b5ef3cc86e10e",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/freespin_types.py": "c9e00f1b7687d8e2e2d4cc744db528f7b5cf08f752ef3d0249f29b762d6914e2",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/indexed_rows.py": "82c2ab40901b731cd0c708e3f64f9c84455464e861e887ba39530049d6e7e08d",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/lucky_dragon_controls.py": "26956982b62d93e28b7d9c3dd1efac31cb6410201116aa261f6279eaf1f818e0",
+    "standalone info/bgaming/inventario.json": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796",
+    "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+  }
+}

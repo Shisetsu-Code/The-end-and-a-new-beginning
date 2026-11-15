@@ -1,0 +1,5982 @@
+{
+  "id": "bgaming",
+  "name": "BGaming",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "bgaming.game-service",
+    "workspace_adapter": "collection_full_node.py::bgaming",
+    "continuations": "events/free or bonus",
+    "closure": "native response round and wallet"
+  },
+  "games": [
+    {
+      "id": "product:black-friday-madness",
+      "name": "Black Friday Madness",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "product:luxury-feast-hold-and-win",
+      "name": "Luxury Feast Hold and Win",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "product:joker-mask",
+      "name": "Joker Mask",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "FormulaX10000",
+      "name": "Formula x10000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        },
+        {
+          "key": "bonus_buy:3",
+          "type": "purchase",
+          "label": "bonus_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "WildCashGold",
+      "name": "Wild Cash Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "KhonsuMergeUp",
+      "name": "Khonsu Merge Up™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_chance:0",
+          "type": "antebet",
+          "label": "freespin_chance:0"
+        },
+        {
+          "key": "freespin_chance:1",
+          "type": "antebet",
+          "label": "freespin_chance:1"
+        }
+      ]
+    },
+    {
+      "id": "HotRocketMegaPotz",
+      "name": "Hot Rocket Mega Potz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy/collect",
+          "type": "purchase",
+          "label": "freespin_buy/collect"
+        },
+        {
+          "key": "freespin_buy/gamble_once",
+          "type": "purchase",
+          "label": "freespin_buy/gamble_once"
+        },
+        {
+          "key": "high_freespin_buy/no_choice",
+          "type": "purchase",
+          "label": "high_freespin_buy/no_choice"
+        }
+      ]
+    },
+    {
+      "id": "NocheDeAlmas",
+      "name": "Noche de Almas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_chance:0",
+          "type": "antebet",
+          "label": "freespin_chance:0"
+        },
+        {
+          "key": "freespin_chance:1",
+          "type": "antebet",
+          "label": "freespin_chance:1"
+        }
+      ]
+    },
+    {
+      "id": "SpiderCircusHoldAndWin",
+      "name": "Spider Circus Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "20 Lines",
+          "type": "normal",
+          "label": "20 Lines"
+        },
+        {
+          "key": "20 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "20 Lines/bonus_buy"
+        },
+        {
+          "key": "40 Lines",
+          "type": "normal",
+          "label": "40 Lines"
+        },
+        {
+          "key": "40 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "40 Lines/bonus_buy"
+        },
+        {
+          "key": "60 Lines",
+          "type": "normal",
+          "label": "60 Lines"
+        },
+        {
+          "key": "60 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "60 Lines/bonus_buy"
+        },
+        {
+          "key": "80 Lines",
+          "type": "normal",
+          "label": "80 Lines"
+        },
+        {
+          "key": "80 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "80 Lines/bonus_buy"
+        },
+        {
+          "key": "100 Lines",
+          "type": "normal",
+          "label": "100 Lines"
+        },
+        {
+          "key": "100 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "100 Lines/bonus_buy"
+        },
+        {
+          "key": "20 Lines x2",
+          "type": "variant",
+          "label": "20 Lines x2"
+        },
+        {
+          "key": "40 Lines x2",
+          "type": "variant",
+          "label": "40 Lines x2"
+        },
+        {
+          "key": "60 Lines x2",
+          "type": "variant",
+          "label": "60 Lines x2"
+        },
+        {
+          "key": "80 Lines x2",
+          "type": "variant",
+          "label": "80 Lines x2"
+        },
+        {
+          "key": "100 Lines x2",
+          "type": "variant",
+          "label": "100 Lines x2"
+        }
+      ]
+    },
+    {
+      "id": "RedAndHotChilli",
+      "name": "Red and Hot Chilli",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "chance_x2",
+          "type": "antebet",
+          "label": "chance_x2"
+        },
+        {
+          "key": "coin_hunt/collect",
+          "type": "variant",
+          "label": "coin_hunt/collect"
+        },
+        {
+          "key": "chilli_blast/collect",
+          "type": "variant",
+          "label": "chilli_blast/collect"
+        },
+        {
+          "key": "coin_hunt/gamble_once",
+          "type": "variant",
+          "label": "coin_hunt/gamble_once"
+        },
+        {
+          "key": "chilli_blast/gamble_once",
+          "type": "variant",
+          "label": "chilli_blast/gamble_once"
+        }
+      ]
+    },
+    {
+      "id": "DivineQueenPowerOfSun",
+      "name": "Divine Queen: Power of Sun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance:0",
+          "type": "antebet",
+          "label": "freespin_chance:0"
+        },
+        {
+          "key": "freespin_chance:1",
+          "type": "antebet",
+          "label": "freespin_chance:1"
+        },
+        {
+          "key": "freespin_chance:2",
+          "type": "antebet",
+          "label": "freespin_chance:2"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        }
+      ]
+    },
+    {
+      "id": "CatsLoveYummy",
+      "name": "Cats Love Yummy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:1",
+          "type": "purchase",
+          "label": "buy_feature:1"
+        }
+      ]
+    },
+    {
+      "id": "ThreeLuckyMonkeysHoldAndWin",
+      "name": "3 Lucky Monkeys Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        }
+      ]
+    },
+    {
+      "id": "BonanzaBillionMergeUp",
+      "name": "Bonanza Billion Merge Up™+",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "RedHotChilliChickens",
+      "name": "Red Hot Chilli Chickens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:normal",
+          "type": "purchase",
+          "label": "bonus_buy:normal"
+        },
+        {
+          "key": "bonus_buy:super",
+          "type": "purchase",
+          "label": "bonus_buy:super"
+        }
+      ]
+    },
+    {
+      "id": "JohnnyVsChicken",
+      "name": "Johnny vs Chicken",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "WincentWolf",
+      "name": "Wincent Wolf",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "product:fortune-trio-minions-of-fu",
+      "name": "Fortune Trio: Minions Of Fu",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "BookOfHiddenTombs",
+      "name": "Book of Hidden Tombs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        }
+      ]
+    },
+    {
+      "id": "MissCherryWildFrames",
+      "name": "Miss Cherry Wild Frames",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "StPatricksPotsHoldAndWin",
+      "name": "St. Patrick's Pots Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "MysticReels",
+      "name": "Mystic Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ENCORE",
+          "type": "variant",
+          "label": "ENCORE"
+        },
+        {
+          "key": "BONUSBUY1",
+          "type": "purchase",
+          "label": "BONUSBUY1"
+        }
+      ]
+    },
+    {
+      "id": "FruitMillionRespin",
+      "name": "Fruit Million Respin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ChickenFire",
+      "name": "Chicken Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_chance",
+          "type": "antebet",
+          "label": "buy_chance"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        },
+        {
+          "key": "buy_super_bonus",
+          "type": "purchase",
+          "label": "buy_super_bonus"
+        },
+        {
+          "key": "buy_ultra_bonus",
+          "type": "purchase",
+          "label": "buy_ultra_bonus"
+        }
+      ]
+    },
+    {
+      "id": "ReelOfRa",
+      "name": "Reel of Ra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "TheGodfather3PillarsOfPower",
+      "name": "The Godfather: 3 Pillars of Power",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "normalBuyCost",
+          "type": "purchase",
+          "label": "normalBuyCost"
+        },
+        {
+          "key": "superBuyCost",
+          "type": "purchase",
+          "label": "superBuyCost"
+        }
+      ]
+    },
+    {
+      "id": "TrainHeistJohnnyCash",
+      "name": "Train Heist Johnny Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_chance:0",
+          "type": "antebet",
+          "label": "freespin_chance:0"
+        },
+        {
+          "key": "freespin_chance:1",
+          "type": "antebet",
+          "label": "freespin_chance:1"
+        }
+      ]
+    },
+    {
+      "id": "Yokai",
+      "name": "Yokai",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "AlienFruits3",
+      "name": "Alien Fruits 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        }
+      ]
+    },
+    {
+      "id": "StarsAndStripesHoldAndWin",
+      "name": "Stars & Stripes Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "SweetSamurai",
+      "name": "Sweet Samurai",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "FrenzyClusters",
+      "name": "Frenzy Clusters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2/portal:0",
+          "type": "purchase",
+          "label": "freespin_buy:2/portal:0"
+        },
+        {
+          "key": "freespin_buy:2/portal:1",
+          "type": "purchase",
+          "label": "freespin_buy:2/portal:1"
+        },
+        {
+          "key": "freespin_buy:2/portal:2",
+          "type": "purchase",
+          "label": "freespin_buy:2/portal:2"
+        },
+        {
+          "key": "freespin_buy:2/portal:3",
+          "type": "purchase",
+          "label": "freespin_buy:2/portal:3"
+        },
+        {
+          "key": "freespin_buy:2/portal:4",
+          "type": "purchase",
+          "label": "freespin_buy:2/portal:4"
+        }
+      ]
+    },
+    {
+      "id": "MultiRush",
+      "name": "Multi Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "booster",
+          "label": "boost"
+        },
+        {
+          "key": "cx64",
+          "type": "variant",
+          "label": "cx64"
+        },
+        {
+          "key": "bonus",
+          "type": "variant",
+          "label": "bonus"
+        },
+        {
+          "key": "super",
+          "type": "variant",
+          "label": "super"
+        }
+      ]
+    },
+    {
+      "id": "DustyDuel",
+      "name": "Dusty Duel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "MoneyMaker",
+      "name": "Money Maker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "GemhallaXtreme",
+      "name": "Gemhalla Xtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "SharkAndSparkHoldAndWin",
+      "name": "Shark & Spark Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        }
+      ]
+    },
+    {
+      "id": "LuckyPack2026Cup",
+      "name": "Lucky Pack: 2026 Cup",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        },
+        {
+          "key": "bonus_buy:3",
+          "type": "purchase",
+          "label": "bonus_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "HotRocket532",
+      "name": "HOT ROCKET 5x 3x 2x",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "Ultras",
+      "name": "Ultras",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        }
+      ]
+    },
+    {
+      "id": "ClashofGodsAnubisvsHades",
+      "name": "Clash of Gods Power Duel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal_hades",
+          "type": "normal",
+          "label": "normal_hades"
+        },
+        {
+          "key": "normal_anubis",
+          "type": "normal",
+          "label": "normal_anubis"
+        },
+        {
+          "key": "ante_0_hades",
+          "type": "antebet",
+          "label": "ante_0_hades"
+        },
+        {
+          "key": "ante_0_anubis",
+          "type": "antebet",
+          "label": "ante_0_anubis"
+        },
+        {
+          "key": "ante_1_hades",
+          "type": "antebet",
+          "label": "ante_1_hades"
+        },
+        {
+          "key": "ante_1_anubis",
+          "type": "antebet",
+          "label": "ante_1_anubis"
+        },
+        {
+          "key": "ante_2_hades",
+          "type": "antebet",
+          "label": "ante_2_hades"
+        },
+        {
+          "key": "ante_2_anubis",
+          "type": "antebet",
+          "label": "ante_2_anubis"
+        },
+        {
+          "key": "buy_bonus_hades",
+          "type": "purchase",
+          "label": "buy_bonus_hades"
+        },
+        {
+          "key": "buy_bonus_anubis",
+          "type": "purchase",
+          "label": "buy_bonus_anubis"
+        },
+        {
+          "key": "super_buy_bonus_hades",
+          "type": "purchase",
+          "label": "super_buy_bonus_hades"
+        },
+        {
+          "key": "super_buy_bonus_anubis",
+          "type": "purchase",
+          "label": "super_buy_bonus_anubis"
+        }
+      ]
+    },
+    {
+      "id": "RoyalBeellionHoldAndWin",
+      "name": "Royal Beellion Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "20 Lines",
+          "type": "normal",
+          "label": "20 Lines"
+        },
+        {
+          "key": "20 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "20 Lines/bonus_buy"
+        },
+        {
+          "key": "40 Lines",
+          "type": "normal",
+          "label": "40 Lines"
+        },
+        {
+          "key": "40 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "40 Lines/bonus_buy"
+        },
+        {
+          "key": "60 Lines",
+          "type": "normal",
+          "label": "60 Lines"
+        },
+        {
+          "key": "60 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "60 Lines/bonus_buy"
+        },
+        {
+          "key": "80 Lines",
+          "type": "normal",
+          "label": "80 Lines"
+        },
+        {
+          "key": "80 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "80 Lines/bonus_buy"
+        },
+        {
+          "key": "100 Lines",
+          "type": "normal",
+          "label": "100 Lines"
+        },
+        {
+          "key": "100 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "100 Lines/bonus_buy"
+        },
+        {
+          "key": "20 Lines x2",
+          "type": "variant",
+          "label": "20 Lines x2"
+        },
+        {
+          "key": "40 Lines x2",
+          "type": "variant",
+          "label": "40 Lines x2"
+        },
+        {
+          "key": "60 Lines x2",
+          "type": "variant",
+          "label": "60 Lines x2"
+        },
+        {
+          "key": "80 Lines x2",
+          "type": "variant",
+          "label": "80 Lines x2"
+        },
+        {
+          "key": "100 Lines x2",
+          "type": "variant",
+          "label": "100 Lines x2"
+        }
+      ]
+    },
+    {
+      "id": "BlingBlitzDiamondDrop",
+      "name": "Bling Blitz Diamond Drop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "GrandBuffaloHoldAndWin",
+      "name": "Grand Buffalo Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "DerbyRush",
+      "name": "Derby Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "GatesOfPower",
+      "name": "Temple of Power",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "booster",
+          "label": "boost"
+        },
+        {
+          "key": "bns",
+          "type": "variant",
+          "label": "bns"
+        },
+        {
+          "key": "enhance",
+          "type": "variant",
+          "label": "enhance"
+        },
+        {
+          "key": "bonus",
+          "type": "variant",
+          "label": "bonus"
+        },
+        {
+          "key": "super",
+          "type": "variant",
+          "label": "super"
+        }
+      ]
+    },
+    {
+      "id": "SugarMergeUp",
+      "name": "Sugar Merge Up™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "bonus_chance:0",
+          "type": "antebet",
+          "label": "bonus_chance:0"
+        },
+        {
+          "key": "bonus_chance:1",
+          "type": "antebet",
+          "label": "bonus_chance:1"
+        }
+      ]
+    },
+    {
+      "id": "RoyalEaster",
+      "name": "Royal Easter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "PiggyBankHoldAndWin",
+      "name": "Piggy Bank Hold&Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "RecycleRiches",
+      "name": "Recycle Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "chance",
+          "type": "antebet",
+          "label": "chance"
+        },
+        {
+          "key": "buy_random",
+          "type": "purchase",
+          "label": "buy_random"
+        },
+        {
+          "key": "buy_max",
+          "type": "purchase",
+          "label": "buy_max"
+        }
+      ]
+    },
+    {
+      "id": "MagicMummyMegaways",
+      "name": "Magic Mummy MEGAWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "BonanzaBillionXtreme",
+      "name": "Bonanza Billion Xtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        }
+      ]
+    },
+    {
+      "id": "GoldenAvalonHoldAndWin",
+      "name": "Golden Avalon Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        },
+        {
+          "key": "bonus_buy:3",
+          "type": "purchase",
+          "label": "bonus_buy:3"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        }
+      ]
+    },
+    {
+      "id": "RocketEruptionTripleBlast",
+      "name": "Rocket Eruption: Triple Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "normalBuyCost",
+          "type": "purchase",
+          "label": "normalBuyCost"
+        },
+        {
+          "key": "superBuyCost",
+          "type": "purchase",
+          "label": "superBuyCost"
+        }
+      ]
+    },
+    {
+      "id": "HeartOfTiki",
+      "name": "Heart of Tiki",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "AlwaysUpX10000",
+      "name": "Always Up! x10000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        },
+        {
+          "key": "bonus_buy:3",
+          "type": "purchase",
+          "label": "bonus_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "WinterTrophyHoldAndWin",
+      "name": "Winter Trophy Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "JokerXLove",
+      "name": "Joker X Love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "BlazingFirepots",
+      "name": "Blazing Fire Pots Hold & Spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_chance",
+          "type": "antebet",
+          "label": "buy_chance"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        }
+      ]
+    },
+    {
+      "id": "TotallyHot",
+      "name": "Totally Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "MysteryHeist",
+      "name": "Mystery Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "JewelBoom",
+      "name": "Jewel Boom Super Drop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "TreasureExplorer",
+      "name": "Treasure Explorer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_chance",
+          "type": "antebet",
+          "label": "buy_chance"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        },
+        {
+          "key": "buy_bonus_and_chance",
+          "type": "antebet",
+          "label": "buy_bonus_and_chance"
+        }
+      ]
+    },
+    {
+      "id": "UFOPyramids",
+      "name": "UFO Pyramids",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "DivineQueenHeartOfIce",
+      "name": "Divine Queen: Heart of Ice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "WildMillion",
+      "name": "Wild Million",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "StarTrekNextGen",
+      "name": "Star Trek™: \nThe Next Generation",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "featureBuyMulFreespin/choice:1",
+          "type": "purchase",
+          "label": "featureBuyMulFreespin/choice:1"
+        },
+        {
+          "key": "featureBuyMulFreespin/choice:2",
+          "type": "purchase",
+          "label": "featureBuyMulFreespin/choice:2"
+        },
+        {
+          "key": "featureBuyMulFreespin/choice:3",
+          "type": "purchase",
+          "label": "featureBuyMulFreespin/choice:3"
+        },
+        {
+          "key": "featureBuyMulFreespin/choice:4",
+          "type": "purchase",
+          "label": "featureBuyMulFreespin/choice:4"
+        },
+        {
+          "key": "featureBuyMulRespin",
+          "type": "purchase",
+          "label": "featureBuyMulRespin"
+        }
+      ]
+    },
+    {
+      "id": "GoldenPawHoldAndWin",
+      "name": "Golden Paw: Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        },
+        {
+          "key": "bonus_buy:3",
+          "type": "purchase",
+          "label": "bonus_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "HotChilliBells100",
+      "name": "Hot Chilli \nBells 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        }
+      ]
+    },
+    {
+      "id": "FrozenFruit",
+      "name": "Frozen Fruit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_buy/extra-first:regenerate_bonus/attempt:1",
+          "type": "purchase",
+          "label": "freespin_buy/extra-first:regenerate_bonus/attempt:1"
+        },
+        {
+          "key": "freespin_buy/extra-first:extra_multiplier/attempt:2",
+          "type": "purchase",
+          "label": "freespin_buy/extra-first:extra_multiplier/attempt:2"
+        }
+      ]
+    },
+    {
+      "id": "WildWick",
+      "name": "Wild Wick",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        }
+      ]
+    },
+    {
+      "id": "LuckyTurkey",
+      "name": "Lucky Turkey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "MergeUp2",
+      "name": "Merge Up™ 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "BurningChilli243",
+      "name": "Burning Chilli 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "FiestaClusters",
+      "name": "Fiesta Clusters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "FaceOff",
+      "name": "Face Off",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "CluckingHell",
+      "name": "Clucking Hell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "boost",
+          "type": "booster",
+          "label": "boost"
+        },
+        {
+          "key": "cx64",
+          "type": "variant",
+          "label": "cx64"
+        },
+        {
+          "key": "bonus",
+          "type": "variant",
+          "label": "bonus"
+        },
+        {
+          "key": "super",
+          "type": "variant",
+          "label": "super"
+        }
+      ]
+    },
+    {
+      "id": "AlwaysUp",
+      "name": "Always Up!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "YommiRush",
+      "name": "Yommi Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_chance",
+          "type": "antebet",
+          "label": "buy_chance"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        },
+        {
+          "key": "buy_bonus_and_chance",
+          "type": "antebet",
+          "label": "buy_bonus_and_chance"
+        }
+      ]
+    },
+    {
+      "id": "WildTiger2",
+      "name": "Wild Tiger 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "20 Lines",
+          "type": "normal",
+          "label": "20 Lines"
+        },
+        {
+          "key": "20 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "20 Lines/bonus_buy"
+        },
+        {
+          "key": "40 Lines",
+          "type": "normal",
+          "label": "40 Lines"
+        },
+        {
+          "key": "40 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "40 Lines/bonus_buy"
+        },
+        {
+          "key": "60 Lines",
+          "type": "normal",
+          "label": "60 Lines"
+        },
+        {
+          "key": "60 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "60 Lines/bonus_buy"
+        },
+        {
+          "key": "80 Lines",
+          "type": "normal",
+          "label": "80 Lines"
+        },
+        {
+          "key": "80 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "80 Lines/bonus_buy"
+        },
+        {
+          "key": "100 Lines",
+          "type": "normal",
+          "label": "100 Lines"
+        },
+        {
+          "key": "100 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "100 Lines/bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "LuckyLagerX9990",
+      "name": "Lucky Lager x9990",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:bonanza-trillion",
+      "name": "Bonanza Trillion",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "CrystalClusters",
+      "name": "Crystal Clusters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "JokerVsJoker",
+      "name": "Joker vs Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        },
+        {
+          "key": "buy_chance",
+          "type": "antebet",
+          "label": "buy_chance"
+        }
+      ]
+    },
+    {
+      "id": "GrandMustang",
+      "name": "Grand Mustang",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "BigTunaBonanza",
+      "name": "Big Boat \nBig catch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal@rows:4",
+          "type": "normal",
+          "label": "normal@rows:4"
+        },
+        {
+          "key": "freespin_buy:4@rows:4",
+          "type": "purchase",
+          "label": "freespin_buy:4@rows:4"
+        },
+        {
+          "key": "freespin_chance:4@rows:4",
+          "type": "antebet",
+          "label": "freespin_chance:4@rows:4"
+        }
+      ]
+    },
+    {
+      "id": "BigBucksSaloon",
+      "name": "Big Bucks Saloon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        }
+      ]
+    },
+    {
+      "id": "CatsSoup",
+      "name": "Cat's Soup",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "LadyLuckyGun",
+      "name": "Lady Lucky Gun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "TrampDayTrueways",
+      "name": "Tramp Day TRUEWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "DragonQueenMegaways",
+      "name": "Dragon Queen MEGAWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "BackyardGrill",
+      "name": "Backyard Grill",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "LokiLoot",
+      "name": "Loki Loot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal@rows:5",
+          "type": "normal",
+          "label": "normal@rows:5"
+        },
+        {
+          "key": "freespin_buy:5@rows:5",
+          "type": "purchase",
+          "label": "freespin_buy:5@rows:5"
+        },
+        {
+          "key": "freespin_chance:5@rows:5",
+          "type": "antebet",
+          "label": "freespin_chance:5@rows:5"
+        }
+      ]
+    },
+    {
+      "id": "MysteryGarden",
+      "name": "Mystery Garden",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "OlympusTrueways",
+      "name": "Olympus TRUEWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "LuckyLu",
+      "name": "Lucky Lu",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "BlackbeardsBounty",
+      "name": "Blackbeard's Bounty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_chance",
+          "type": "antebet",
+          "label": "buy_chance"
+        },
+        {
+          "key": "freeSpin",
+          "type": "variant",
+          "label": "freeSpin"
+        },
+        {
+          "key": "freeSpinRandom",
+          "type": "variant",
+          "label": "freeSpinRandom"
+        }
+      ]
+    },
+    {
+      "id": "DoomsdaySaloon",
+      "name": "Doomsday Saloon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "SugarMix",
+      "name": "Sugar Mix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        }
+      ]
+    },
+    {
+      "id": "ArrowSlot",
+      "name": "Arrow Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "ZeusGoesWild",
+      "name": "Zeus Goes Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "WildClustersP",
+      "name": "Wild Clusters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "wild_booster_x3",
+          "type": "booster",
+          "label": "wild_booster_x3"
+        },
+        {
+          "key": "wild_booster_x5",
+          "type": "booster",
+          "label": "wild_booster_x5"
+        },
+        {
+          "key": "full_drop",
+          "type": "variant",
+          "label": "full_drop"
+        },
+        {
+          "key": "drop_dead",
+          "type": "variant",
+          "label": "drop_dead"
+        }
+      ]
+    },
+    {
+      "id": "TreasureOfAnubis",
+      "name": "Treasure of Anubis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "FortuneBells",
+      "name": "Fortune Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "AztecIrwin",
+      "name": "Aztec Irwin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "AliceWonderLuck",
+      "name": "Alice WonderLuck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "freespin_buy:0/collect/auto",
+          "type": "purchase",
+          "label": "freespin_buy:0/collect/auto"
+        },
+        {
+          "key": "freespin_buy:0/collect/manual_low",
+          "type": "purchase",
+          "label": "freespin_buy:0/collect/manual_low"
+        },
+        {
+          "key": "freespin_buy:0/collect/manual_high",
+          "type": "purchase",
+          "label": "freespin_buy:0/collect/manual_high"
+        },
+        {
+          "key": "freespin_buy:0/gamble_once/auto",
+          "type": "purchase",
+          "label": "freespin_buy:0/gamble_once/auto"
+        },
+        {
+          "key": "freespin_buy:0/gamble_once/manual_low",
+          "type": "purchase",
+          "label": "freespin_buy:0/gamble_once/manual_low"
+        },
+        {
+          "key": "freespin_buy:1/collect/auto",
+          "type": "purchase",
+          "label": "freespin_buy:1/collect/auto"
+        },
+        {
+          "key": "freespin_buy:1/collect/manual_low",
+          "type": "purchase",
+          "label": "freespin_buy:1/collect/manual_low"
+        },
+        {
+          "key": "freespin_buy:1/collect/manual_high",
+          "type": "purchase",
+          "label": "freespin_buy:1/collect/manual_high"
+        },
+        {
+          "key": "freespin_buy:1/gamble_once/auto",
+          "type": "purchase",
+          "label": "freespin_buy:1/gamble_once/auto"
+        },
+        {
+          "key": "freespin_buy:1/gamble_once/manual_low",
+          "type": "purchase",
+          "label": "freespin_buy:1/gamble_once/manual_low"
+        }
+      ]
+    },
+    {
+      "id": "WildCardGang",
+      "name": "Wild Card Gang",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "JungleQueen",
+      "name": "Jungle Queen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buybonus",
+          "type": "purchase",
+          "label": "buybonus"
+        }
+      ]
+    },
+    {
+      "id": "AllStarFruits",
+      "name": "All-Star Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "JokersMillion",
+      "name": "Joker's Million",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "HotChilliBells",
+      "name": "Hot Chilli Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "20 Lines",
+          "type": "normal",
+          "label": "20 Lines"
+        },
+        {
+          "key": "20 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "20 Lines/bonus_buy"
+        },
+        {
+          "key": "40 Lines",
+          "type": "normal",
+          "label": "40 Lines"
+        },
+        {
+          "key": "40 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "40 Lines/bonus_buy"
+        },
+        {
+          "key": "60 Lines",
+          "type": "normal",
+          "label": "60 Lines"
+        },
+        {
+          "key": "60 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "60 Lines/bonus_buy"
+        },
+        {
+          "key": "80 Lines",
+          "type": "normal",
+          "label": "80 Lines"
+        },
+        {
+          "key": "80 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "80 Lines/bonus_buy"
+        },
+        {
+          "key": "100 Lines",
+          "type": "normal",
+          "label": "100 Lines"
+        },
+        {
+          "key": "100 Lines/bonus_buy",
+          "type": "purchase",
+          "label": "100 Lines/bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "DiscoParty",
+      "name": "Disco Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal@base_volatility:low",
+          "type": "normal",
+          "label": "normal@base_volatility:low"
+        },
+        {
+          "key": "freespin_buy:1@base_volatility:low",
+          "type": "purchase",
+          "label": "freespin_buy:1@base_volatility:low"
+        },
+        {
+          "key": "freespin_buy:2@base_volatility:low",
+          "type": "purchase",
+          "label": "freespin_buy:2@base_volatility:low"
+        },
+        {
+          "key": "normal@base_volatility:medium",
+          "type": "normal",
+          "label": "normal@base_volatility:medium"
+        },
+        {
+          "key": "freespin_buy:1@base_volatility:medium",
+          "type": "purchase",
+          "label": "freespin_buy:1@base_volatility:medium"
+        },
+        {
+          "key": "freespin_buy:2@base_volatility:medium",
+          "type": "purchase",
+          "label": "freespin_buy:2@base_volatility:medium"
+        }
+      ]
+    },
+    {
+      "id": "SakuraRiches60",
+      "name": "Sakura Riches 60",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "LuckyDucky",
+      "name": "Lucky Ducky",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "WildMoonThieves",
+      "name": "Wild Moon Thieves",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "manual_first_door:0/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:0/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:1/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:1/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:2/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:2/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:3/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:3/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:4/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:4/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:5/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:5/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:6/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:6/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:7/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:7/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:8/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:8/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:9/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:9/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:10/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:10/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:11/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:11/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:12/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:12/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:13/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:13/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:14/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:14/freespin_buy"
+        },
+        {
+          "key": "manual_first_door:15/freespin_buy",
+          "type": "purchase",
+          "label": "manual_first_door:15/freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "GoldenPride",
+      "name": "Golden Pride",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "Catdiana",
+      "name": "Catdiana",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "SnoopDoggDollars",
+      "name": "Snoop Dogg Dollars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "Forgotten",
+      "name": "Forgotten",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:4",
+          "type": "purchase",
+          "label": "freespin_buy:4"
+        },
+        {
+          "key": "freespin_buy:8",
+          "type": "purchase",
+          "label": "freespin_buy:8"
+        }
+      ]
+    },
+    {
+      "id": "RotatingElement",
+      "name": "Rotating Element",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "HauntedReels",
+      "name": "Haunted Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "CarnivalBonanza",
+      "name": "Carnival Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "AztecsClawWildDice",
+      "name": "Aztec's Claw Wild Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "VoodooPeople",
+      "name": "Voodoo People",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "RoyalFruitsMultiLines",
+      "name": "Royal Fruits MultiLines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "lines:20",
+          "type": "normal",
+          "label": "lines:20"
+        },
+        {
+          "key": "lines:40",
+          "type": "normal",
+          "label": "lines:40"
+        },
+        {
+          "key": "lines:60",
+          "type": "normal",
+          "label": "lines:60"
+        },
+        {
+          "key": "lines:80",
+          "type": "normal",
+          "label": "lines:80"
+        },
+        {
+          "key": "lines:100",
+          "type": "normal",
+          "label": "lines:100"
+        }
+      ]
+    },
+    {
+      "id": "TrainToRioGrande",
+      "name": "Train to Rio Grande",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "KrakensHunger",
+      "name": "Kraken's Hunger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal@rows:3",
+          "type": "normal",
+          "label": "normal@rows:3"
+        },
+        {
+          "key": "freespin_buy:3@rows:3",
+          "type": "purchase",
+          "label": "freespin_buy:3@rows:3"
+        },
+        {
+          "key": "freespin_chance:3@rows:3",
+          "type": "antebet",
+          "label": "freespin_chance:3@rows:3"
+        },
+        {
+          "key": "normal@rows:4",
+          "type": "normal",
+          "label": "normal@rows:4"
+        },
+        {
+          "key": "freespin_buy:4@rows:4",
+          "type": "purchase",
+          "label": "freespin_buy:4@rows:4"
+        },
+        {
+          "key": "freespin_chance:4@rows:4",
+          "type": "antebet",
+          "label": "freespin_chance:4@rows:4"
+        },
+        {
+          "key": "normal@rows:5",
+          "type": "normal",
+          "label": "normal@rows:5"
+        },
+        {
+          "key": "freespin_buy:5@rows:5",
+          "type": "purchase",
+          "label": "freespin_buy:5@rows:5"
+        },
+        {
+          "key": "freespin_chance:5@rows:5",
+          "type": "antebet",
+          "label": "freespin_chance:5@rows:5"
+        }
+      ]
+    },
+    {
+      "id": "CatchTheGoldHoldAndWin",
+      "name": "Catch the Gold Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy/type:giant_symbol",
+          "type": "purchase",
+          "label": "freespin_buy/type:giant_symbol"
+        },
+        {
+          "key": "freespin_buy/type:high_symbols",
+          "type": "purchase",
+          "label": "freespin_buy/type:high_symbols"
+        }
+      ]
+    },
+    {
+      "id": "WildWestTrueways",
+      "name": "Wild West TRUEWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "SecretBarMultiDiceX",
+      "name": "Secret Bar Multidice X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "GoldMagnate",
+      "name": "Gold Magnate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "GrandPatron7rst",
+      "name": "Grand Patron",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "SHOP",
+          "type": "variant",
+          "label": "SHOP"
+        },
+        {
+          "key": "SHOP2",
+          "type": "variant",
+          "label": "SHOP2"
+        },
+        {
+          "key": "SHOP3",
+          "type": "variant",
+          "label": "SHOP3"
+        },
+        {
+          "key": "ANTE",
+          "type": "antebet",
+          "label": "ANTE"
+        }
+      ]
+    },
+    {
+      "id": "AlienFruits2",
+      "name": "Alien Fruits 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "DragonAge",
+      "name": "Dragon Age Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "GoldOfMinos",
+      "name": "Gold Of Minos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "product:adventures",
+      "name": "Adventures",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "PandaLuck",
+      "name": "Panda Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "ChickenRush",
+      "name": "Chicken Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy:0",
+          "type": "purchase",
+          "label": "bonus_buy:0"
+        },
+        {
+          "key": "bonus_buy:1",
+          "type": "purchase",
+          "label": "bonus_buy:1"
+        },
+        {
+          "key": "bonus_buy:2",
+          "type": "purchase",
+          "label": "bonus_buy:2"
+        }
+      ]
+    },
+    {
+      "id": "Oof",
+      "name": "OOF The Goldmine Planet",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "LuckyDragonMultiDiceX",
+      "name": "Lucky Dragon MultiDice X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy_0_chance",
+          "type": "antebet",
+          "label": "bonus_buy_0_chance"
+        },
+        {
+          "key": "bonus_buy_1_chance",
+          "type": "antebet",
+          "label": "bonus_buy_1_chance"
+        }
+      ]
+    },
+    {
+      "id": "DiamondOfJungle",
+      "name": "Diamond of Jungle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal@base_volatility:low",
+          "type": "normal",
+          "label": "normal@base_volatility:low"
+        },
+        {
+          "key": "freespin_buy:1@base_volatility:low",
+          "type": "purchase",
+          "label": "freespin_buy:1@base_volatility:low"
+        },
+        {
+          "key": "freespin_buy:2@base_volatility:low",
+          "type": "purchase",
+          "label": "freespin_buy:2@base_volatility:low"
+        },
+        {
+          "key": "normal@base_volatility:medium",
+          "type": "normal",
+          "label": "normal@base_volatility:medium"
+        },
+        {
+          "key": "freespin_buy:1@base_volatility:medium",
+          "type": "purchase",
+          "label": "freespin_buy:1@base_volatility:medium"
+        },
+        {
+          "key": "freespin_buy:2@base_volatility:medium",
+          "type": "purchase",
+          "label": "freespin_buy:2@base_volatility:medium"
+        }
+      ]
+    },
+    {
+      "id": "Lucky8MergeUp",
+      "name": "Lucky 8 Merge Up™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "PopZen",
+      "name": "Pop Zen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "AztecClusters",
+      "name": "Aztec Clusters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy:0",
+          "type": "purchase",
+          "label": "freespin_buy:0"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "WildHeart",
+      "name": "Wild Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "GodOfWealthHoldAndWin",
+      "name": "God of Wealth Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "KeepersOfTheSecret7rst",
+      "name": "Keepers Of The Secret",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus"
+        }
+      ]
+    },
+    {
+      "id": "WildTiger",
+      "name": "Wild Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "lines:20",
+          "type": "normal",
+          "label": "lines:20"
+        },
+        {
+          "key": "lines:40",
+          "type": "normal",
+          "label": "lines:40"
+        },
+        {
+          "key": "lines:60",
+          "type": "normal",
+          "label": "lines:60"
+        },
+        {
+          "key": "lines:80",
+          "type": "normal",
+          "label": "lines:80"
+        },
+        {
+          "key": "lines:100",
+          "type": "normal",
+          "label": "lines:100"
+        }
+      ]
+    },
+    {
+      "id": "Hottest666",
+      "name": "Hottest 666",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_buy/extra-first:regenerate_bonus/attempt:1",
+          "type": "purchase",
+          "label": "freespin_buy/extra-first:regenerate_bonus/attempt:1"
+        }
+      ]
+    },
+    {
+      "id": "Gemza",
+      "name": "Gemza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "SlotMachine",
+      "name": "Slot Machine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "TrampDay",
+      "name": "Tramp Day",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "BookOfPanda",
+      "name": "Book of Panda MEGAWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "high_freespin_buy",
+          "type": "purchase",
+          "label": "high_freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "MummysGold",
+      "name": "Mummy's Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "MergeUp",
+      "name": "Merge Up™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "MonsterHunt",
+      "name": "Monster Hunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy/type:high_symbols",
+          "type": "purchase",
+          "label": "freespin_buy/type:high_symbols"
+        }
+      ]
+    },
+    {
+      "id": "MiceAndMagic",
+      "name": "Mice & Magic Wonder Spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        }
+      ]
+    },
+    {
+      "id": "BoneBonanza",
+      "name": "Bone Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "Maneki88Fortunes",
+      "name": "Maneki 88 Fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "gold_symbols:1/normal",
+          "type": "normal",
+          "label": "gold_symbols:1/normal"
+        },
+        {
+          "key": "gold_symbols:1/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:1/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:1/freespin_chance",
+          "type": "antebet",
+          "label": "gold_symbols:1/freespin_chance"
+        },
+        {
+          "key": "gold_symbols:2/normal",
+          "type": "normal",
+          "label": "gold_symbols:2/normal"
+        },
+        {
+          "key": "gold_symbols:2/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:2/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:2/freespin_chance",
+          "type": "antebet",
+          "label": "gold_symbols:2/freespin_chance"
+        },
+        {
+          "key": "gold_symbols:3/normal",
+          "type": "normal",
+          "label": "gold_symbols:3/normal"
+        },
+        {
+          "key": "gold_symbols:3/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:3/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:3/freespin_chance",
+          "type": "antebet",
+          "label": "gold_symbols:3/freespin_chance"
+        },
+        {
+          "key": "gold_symbols:4/normal",
+          "type": "normal",
+          "label": "gold_symbols:4/normal"
+        },
+        {
+          "key": "gold_symbols:4/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:4/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:4/freespin_chance",
+          "type": "antebet",
+          "label": "gold_symbols:4/freespin_chance"
+        },
+        {
+          "key": "gold_symbols:5/normal",
+          "type": "normal",
+          "label": "gold_symbols:5/normal"
+        },
+        {
+          "key": "gold_symbols:5/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:5/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:5/freespin_chance",
+          "type": "antebet",
+          "label": "gold_symbols:5/freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "product:izzi-art",
+      "name": "Izzi Art",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "WildCashDice",
+      "name": "Wild Cash Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "SavageBuffaloSpiritMegaways",
+      "name": "Savage Buffalo Spirit MEGAWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "DiceMillion",
+      "name": "Dice Million",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "LuckAndMagic",
+      "name": "Luck & Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "DiceBonanza",
+      "name": "Dice Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "BeastBand",
+      "name": "Beast Band",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "WildChicago",
+      "name": "Wild Chicago",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "Gemhalla",
+      "name": "Gemhalla",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "SavageBuffaloSpirit",
+      "name": "Savage Buffalo Spirit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "LuckyCrew",
+      "name": "Lucky Crew",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "RoyalHighRoad",
+      "name": "Royal High-Road",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:doddy-and-haddzy-bonanza",
+      "name": "Doddy And Haddzy Bonanza",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "AlienFruits",
+      "name": "Alien Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:gold-rush-frog",
+      "name": "Gold Rush Frog",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "EasterHeist",
+      "name": "Easter Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "BookOfKemet",
+      "name": "Book of Kemet",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        },
+        {
+          "key": "freespin_buy:4",
+          "type": "purchase",
+          "label": "freespin_buy:4"
+        },
+        {
+          "key": "freespin_buy:5",
+          "type": "purchase",
+          "label": "freespin_buy:5"
+        },
+        {
+          "key": "freespin_buy:6",
+          "type": "purchase",
+          "label": "freespin_buy:6"
+        },
+        {
+          "key": "freespin_buy:7",
+          "type": "purchase",
+          "label": "freespin_buy:7"
+        },
+        {
+          "key": "freespin_buy:8",
+          "type": "purchase",
+          "label": "freespin_buy:8"
+        },
+        {
+          "key": "freespin_buy:9",
+          "type": "purchase",
+          "label": "freespin_buy:9"
+        }
+      ]
+    },
+    {
+      "id": "LuckyOak",
+      "name": "Lucky Oak",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:sweet-royale-megaways",
+      "name": "Sweet Royale MEGAWAYS™",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "PotionSpells",
+      "name": "Potion Spells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "DomnitorsTreasure",
+      "name": "Domnitor's Treasure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:elden-ring",
+      "name": "Aztec magic megaways™",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "GiftRush",
+      "name": "Gift Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "Gangsterz",
+      "name": "Gangsterz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "BurningChilliX",
+      "name": "Burning Chilli X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "lines:20",
+          "type": "normal",
+          "label": "lines:20"
+        },
+        {
+          "key": "lines:40",
+          "type": "normal",
+          "label": "lines:40"
+        },
+        {
+          "key": "lines:60",
+          "type": "normal",
+          "label": "lines:60"
+        },
+        {
+          "key": "lines:80",
+          "type": "normal",
+          "label": "lines:80"
+        },
+        {
+          "key": "lines:100",
+          "type": "normal",
+          "label": "lines:100"
+        }
+      ]
+    },
+    {
+      "id": "Soccermania",
+      "name": "Soccermania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:king-of-cash",
+      "name": "King of Cash",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "BookOfCatsMegaways",
+      "name": "Book of Cats MEGAWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "high_freespin_buy",
+          "type": "purchase",
+          "label": "high_freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:pandas-wealth",
+      "name": "Panda's Wealth",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "ElvisFrogTrueways",
+      "name": "Elvis Frog TRUEWAYS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "HalloweenBonanza",
+      "name": "Halloween Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:wild-west-bonanza",
+      "name": "Wild West Bonanza",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "BeerBonanza",
+      "name": "Beer Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "FortyFruityMillion",
+      "name": "Forty Fruity Million",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "WildCashX9990",
+      "name": "Wild Cash x9990",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:alchemist-bonanza",
+      "name": "Alchemist Bonanza",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "product:fiesta-blaze-bonanza",
+      "name": "Fiesta Blaze Bonanza",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "Maneki88Gold",
+      "name": "Maneki 88 Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "gold_symbols:1/normal",
+          "type": "normal",
+          "label": "gold_symbols:1/normal"
+        },
+        {
+          "key": "gold_symbols:1/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:1/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:2/normal",
+          "type": "normal",
+          "label": "gold_symbols:2/normal"
+        },
+        {
+          "key": "gold_symbols:2/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:2/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:3/normal",
+          "type": "normal",
+          "label": "gold_symbols:3/normal"
+        },
+        {
+          "key": "gold_symbols:3/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:3/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:4/normal",
+          "type": "normal",
+          "label": "gold_symbols:4/normal"
+        },
+        {
+          "key": "gold_symbols:4/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:4/freespin_buy"
+        },
+        {
+          "key": "gold_symbols:5/normal",
+          "type": "normal",
+          "label": "gold_symbols:5/normal"
+        },
+        {
+          "key": "gold_symbols:5/freespin_buy",
+          "type": "purchase",
+          "label": "gold_symbols:5/freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:mirax-circus-queen",
+      "name": "Mirax Circus Queen",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "LuckyLadyMoonMegaways",
+      "name": "Lady Wolf Moon MEGAWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:doors-of-sol",
+      "name": "Doors of Sol",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "GoldRushWithJohnny",
+      "name": "Gold Rush - Johnny Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "BigAtlantisFrenzy",
+      "name": "Big Atlantis Frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal@rows:3",
+          "type": "normal",
+          "label": "normal@rows:3"
+        },
+        {
+          "key": "freespin_chance@rows:3",
+          "type": "antebet",
+          "label": "freespin_chance@rows:3"
+        },
+        {
+          "key": "freespin_buy@rows:3",
+          "type": "purchase",
+          "label": "freespin_buy@rows:3"
+        },
+        {
+          "key": "normal@rows:4",
+          "type": "normal",
+          "label": "normal@rows:4"
+        },
+        {
+          "key": "freespin_chance@rows:4",
+          "type": "antebet",
+          "label": "freespin_chance@rows:4"
+        },
+        {
+          "key": "freespin_buy@rows:4",
+          "type": "purchase",
+          "label": "freespin_buy@rows:4"
+        },
+        {
+          "key": "normal@rows:5",
+          "type": "normal",
+          "label": "normal@rows:5"
+        },
+        {
+          "key": "freespin_chance@rows:5",
+          "type": "antebet",
+          "label": "freespin_chance@rows:5"
+        },
+        {
+          "key": "freespin_buy@rows:5",
+          "type": "purchase",
+          "label": "freespin_buy@rows:5"
+        }
+      ]
+    },
+    {
+      "id": "product:elvis-frog-in-playamo",
+      "name": "Elvis Frog In PlayAmo",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "PennyPelican",
+      "name": "Penny Pelican",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:zeus-sanctuary",
+      "name": "ZEUS' SANCTUARY",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "WildCash",
+      "name": "Wild Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "LuckyFarmBonanza",
+      "name": "Lucky Farm Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "JokerQueen",
+      "name": "Joker Queen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        }
+      ]
+    },
+    {
+      "id": "CloverBonanza",
+      "name": "Clover Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "AztecMagicBonanza",
+      "name": "Aztec Magic Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "AztecMagicMegaways",
+      "name": "Aztec Magic MEGAWAYS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "product:pin-up-bonanza",
+      "name": "Pin-up Bonanza",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "product:bitcoin-million",
+      "name": "Bitcoin Million",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "BonanzaBillion",
+      "name": "Bonanza Billion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        }
+      ]
+    },
+    {
+      "id": "Road2Riches",
+      "name": "Road 2 Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_buy",
+          "type": "purchase",
+          "label": "freespin_buy"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        }
+      ]
+    },
+    {
+      "id": "LuckyDamaMuerta",
+      "name": "Lucky Dama Muerta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "CandyMonsta",
+      "name": "Candy Monsta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "MissCherryFruits",
+      "name": "Miss Cherry Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "DragonsGold100",
+      "name": "Dragon's Gold 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "AlohaKingElvis",
+      "name": "Aloha King Elvis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_and_bonus_chance",
+          "type": "antebet",
+          "label": "freespin_and_bonus_chance"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "bonus_chance",
+          "type": "antebet",
+          "label": "bonus_chance"
+        },
+        {
+          "key": "bonus_buy",
+          "type": "purchase",
+          "label": "bonus_buy"
+        },
+        {
+          "key": "freespin_buy/type:giant_symbol",
+          "type": "purchase",
+          "label": "freespin_buy/type:giant_symbol"
+        },
+        {
+          "key": "freespin_buy/type:high_symbols",
+          "type": "purchase",
+          "label": "freespin_buy/type:high_symbols"
+        }
+      ]
+    },
+    {
+      "id": "DigDigDigger",
+      "name": "Dig Dig Digger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freespin_chance",
+          "type": "antebet",
+          "label": "freespin_chance"
+        },
+        {
+          "key": "freespin_buy:1",
+          "type": "purchase",
+          "label": "freespin_buy:1"
+        },
+        {
+          "key": "freespin_buy:2",
+          "type": "purchase",
+          "label": "freespin_buy:2"
+        },
+        {
+          "key": "freespin_buy:3",
+          "type": "purchase",
+          "label": "freespin_buy:3"
+        },
+        {
+          "key": "freespin_buy:4",
+          "type": "purchase",
+          "label": "freespin_buy:4"
+        },
+        {
+          "key": "freespin_buy:5",
+          "type": "purchase",
+          "label": "freespin_buy:5"
+        },
+        {
+          "key": "freespin_buy:6",
+          "type": "purchase",
+          "label": "freespin_buy:6"
+        },
+        {
+          "key": "freespin_buy:7",
+          "type": "purchase",
+          "label": "freespin_buy:7"
+        },
+        {
+          "key": "freespin_buy:8",
+          "type": "purchase",
+          "label": "freespin_buy:8"
+        },
+        {
+          "key": "freespin_buy:9",
+          "type": "purchase",
+          "label": "freespin_buy:9"
+        },
+        {
+          "key": "conditional_card/s",
+          "type": "variant",
+          "label": "conditional_card/s"
+        },
+        {
+          "key": "conditional_card/c",
+          "type": "variant",
+          "label": "conditional_card/c"
+        },
+        {
+          "key": "conditional_card/d",
+          "type": "variant",
+          "label": "conditional_card/d"
+        },
+        {
+          "key": "conditional_card/h",
+          "type": "variant",
+          "label": "conditional_card/h"
+        },
+        {
+          "key": "conditional_card/black",
+          "type": "variant",
+          "label": "conditional_card/black"
+        },
+        {
+          "key": "conditional_card/red",
+          "type": "variant",
+          "label": "conditional_card/red"
+        }
+      ]
+    },
+    {
+      "id": "WbcRingOfRiches",
+      "name": "WBC Ring Of Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "MechanicalClover",
+      "name": "Mechanical Clover",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "FourLuckyDiamonds",
+      "name": "Four Lucky Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "LuckyLadyMoon",
+      "name": "Lady Wolf Moon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "FruitMillion",
+      "name": "Fruit Million",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "HitTheRoute",
+      "name": "Hit The Route",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "JohnnyCash",
+      "name": "Johnny Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "AllLuckyClover",
+      "name": "All Lucky Clovers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "BookOfCats",
+      "name": "Book Of Cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        },
+        {
+          "key": "feature_buy",
+          "type": "purchase",
+          "label": "feature_buy"
+        }
+      ]
+    },
+    {
+      "id": "ElvisFrog",
+      "name": "Elvis Frog in Vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "FourLuckyClover",
+      "name": "Four Lucky Clover",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "Avalon",
+      "name": "Avalon: The Lost Kingdom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "DeepSea",
+      "name": "Deep Sea",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "SpinAndSpell",
+      "name": "Spin And Spell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "FireLightning",
+      "name": "Fire Lightning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "AztecMagicDeluxe",
+      "name": "Aztec Magic Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "PlatinumLightningDeluxe",
+      "name": "Platinum Lightning Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "WestTown",
+      "name": "West Town",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        }
+      ]
+    },
+    {
+      "id": "BookOfPyramids",
+      "name": "Book of Pyramids",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "product:princess-royal",
+      "name": "Princess Royal",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    },
+    {
+      "id": "PrincessOfSky",
+      "name": "Princess of Sky",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "LuckyLadyClover",
+      "name": "Lucky Lady's Clover",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal/all_default_lines",
+          "type": "normal",
+          "label": "normal/all_default_lines"
+        },
+        {
+          "key": "semantic_card:s",
+          "type": "variant",
+          "label": "semantic_card:s"
+        },
+        {
+          "key": "semantic_card:c",
+          "type": "variant",
+          "label": "semantic_card:c"
+        },
+        {
+          "key": "semantic_card:d",
+          "type": "variant",
+          "label": "semantic_card:d"
+        },
+        {
+          "key": "semantic_card:h",
+          "type": "variant",
+          "label": "semantic_card:h"
+        },
+        {
+          "key": "semantic_card:black",
+          "type": "variant",
+          "label": "semantic_card:black"
+        },
+        {
+          "key": "semantic_card:red",
+          "type": "variant",
+          "label": "semantic_card:red"
+        }
+      ]
+    },
+    {
+      "id": "product:scroll-of-adventure",
+      "name": "Scroll of Adventure new",
+      "ready": false,
+      "block_reason": "official_product_has_no_public_demo_link",
+      "modes": []
+    }
+  ]
+}

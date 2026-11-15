@@ -1,0 +1,141 @@
+{
+  "source_archive": "ENTREGA-CLAUDE.zip",
+  "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+  "sources": [
+    {
+      "path": "3-codigo-runners/provider-work/inventarios/1spin4win-mock.json",
+      "sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+    },
+    {
+      "path": "3-codigo-runners/provider-work/mocks/1spin4win/harvest.py",
+      "sha256": "ec3b0f42c4550c30327b497836d90b343cccd84b5dc029e672bfb5a04a339ff1"
+    },
+    {
+      "path": "3-codigo-runners/provider-work/mocks/1spin4win/README.md",
+      "sha256": "f262ca53021b4a2f8c3119fd6e1d48fcda26b0bbdc4e815ce34b6e9c690dbcba"
+    },
+    {
+      "path": "3-codigo-runners/provider-work/mocks/1spin4win/server.py",
+      "sha256": "dd31959f8cc428a9cb2f8eaa73049b6519ced5e9ca02af52727eadb21d244219"
+    }
+  ],
+  "line_source": "fresh FREEPLAY init.l, as used by harvest.py run_game",
+  "games": {
+    "BeersburgFestHoldAndWin": {
+      "normal": {
+        "lines": null,
+        "entry": null,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "compra": {
+        "lines": null,
+        "entry": 1,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      }
+    },
+    "CashnFruitsFortune27": {
+      "normal": {
+        "lines": null,
+        "entry": null,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "compra": {
+        "lines": null,
+        "entry": 3,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "antebet": {
+        "lines": null,
+        "entry": 1,
+        "continuation": 1,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      }
+    },
+    "ClassicChristmasHoldAndWin": {
+      "normal": {
+        "lines": null,
+        "entry": null,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "compra": {
+        "lines": null,
+        "entry": 1,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      }
+    },
+    "EasterPrizeHoldAndWin": {
+      "normal": {
+        "lines": null,
+        "entry": null,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "compra": {
+        "lines": null,
+        "entry": 1,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      }
+    },
+    "HoldTheGoldFortune": {
+      "normal": {
+        "lines": null,
+        "entry": null,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "compra": {
+        "lines": null,
+        "entry": 3,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "antebet": {
+        "lines": null,
+        "entry": 1,
+        "continuation": 1,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      }
+    },
+    "LuckyFoxilianHoldAndWin": {
+      "normal": {
+        "lines": null,
+        "entry": null,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "compra": {
+        "lines": null,
+        "entry": 3,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      }
+    },
+    "MegaCashAmplifier": {
+      "normal": {
+        "lines": null,
+        "entry": null,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "compra": {
+        "lines": null,
+        "entry": 3,
+        "continuation": null,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      },
+      "antebet": {
+        "lines": null,
+        "entry": 1,
+        "continuation": 1,
+        "source_sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1"
+      }
+    }
+  }
+}

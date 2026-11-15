@@ -1,0 +1,200 @@
+{
+  "proveedor": "rubyplay",
+  "archivos": [
+    {
+      "ruta": "bindings/rubyplay-rp47-source-index.json",
+      "bytes": 87177,
+      "sha256": "1d602cb6e0f6ecf9d369146583d323d6da3e26c73ef1246168ef90cd9ef1f66b"
+    },
+    {
+      "ruta": "codigo/rubyplay.rs",
+      "bytes": 2820,
+      "sha256": "966aa83e4fa8b44eca307c9938368d7dbca6018765e280cf9118ba3e1fcb2afb"
+    },
+    {
+      "ruta": "codigo/rubyplay_native.rs",
+      "bytes": 13615,
+      "sha256": "50af1c5206dd4aad85e4f8d35986d9b772f82a355620dc74eb6bd6abd76d143c"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 58563,
+      "sha256": "233269e621beaed4d705c99841b65060d6f96082c552ae76bc55e8f61cf2c6ff"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 289754,
+      "sha256": "0c6bb9f211bec51b6c0c61ae5d2d9d66ccf1d4d8647293dfb6360417426107fa"
+    },
+    {
+      "ruta": "evidencia/rubyplay.json",
+      "bytes": 9004026,
+      "sha256": "58091236c829ed9527e1741bbee3f3bd687c8eb6b089dfb71c48e30ba33c732f"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 58538,
+      "sha256": "e143f1ea8d68e5a72e89c4bd84ce8b5bfb34b2a944461477c2c1723c543c1f20"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 56514,
+      "sha256": "8b454cdc99d8c2425ff5546c969353de9e177d6b77d24a9e2461eba6ecce4bbb"
+    },
+    {
+      "ruta": "referencias/informes/REPORTE.md",
+      "bytes": 5029,
+      "sha256": "d546bc5647e9580cb70bb59bb6d76247d65c4cfde0866ac14ccd4e60802d5201"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/archive_rubyplay_catalog.py",
+      "bytes": 4914,
+      "sha256": "768da5d64469fcdba5d30714a4cdefb3ce9eba5b2be5a3bf07162a35e8729c4a"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/batch_runner.py",
+      "bytes": 9518,
+      "sha256": "c358584a641d88ccf82814f90ddaa224c78db108e04336c905715e3322ce3339"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/build_catalog.py",
+      "bytes": 20253,
+      "sha256": "b9975ec496f1670b7e2627a3e5f79619f713c763f57f541ffb51e1a82cf5599e"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/catalog_dom.py",
+      "bytes": 2365,
+      "sha256": "cb44ac291b1f00984e09c7638decb6511a019bc4f9f691d686d995c312a1d977"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/catalog_network.py",
+      "bytes": 7864,
+      "sha256": "29e50062bba62eda4579371a4ffc134e361e69a69c90f5d82bc361a55f75b004"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/checkpoint_live.py",
+      "bytes": 9690,
+      "sha256": "932bf4ac8c4741722ddf469d5f1dd068cf2004ea33930e0a46a8e65872000674"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/complete_links.py",
+      "bytes": 6575,
+      "sha256": "8ab6ecaa8d385280917c16e654ddc6948f8ab624343da3613c37f0b6affd921b"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/demo_transport.py",
+      "bytes": 6049,
+      "sha256": "205aa7cf4f9b96931525e24740474945f7d32fb5863b5577592c8fefaa97a094"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/fetch_public_issuer.py",
+      "bytes": 1896,
+      "sha256": "a82880a53ace3da3be2e8ccae68ef62f37708f2b38b4b582d942143e79487de6"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/finalize_evidence.py",
+      "bytes": 2104,
+      "sha256": "315581ba4dae7e2717fe6ce02702dce3f2bbc69edd675237deb83e96f00371f6"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/har_probe.py",
+      "bytes": 3245,
+      "sha256": "9193cd270d25816319e28285ba2b1c3b48dc689bddd35bfcf232a588fef9a703"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/inspect_catalog.py",
+      "bytes": 2095,
+      "sha256": "13f7260bb7744b87e4b48edecc6481ce3bd46a148226123464fce9eca15390d7"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/inspect_records.py",
+      "bytes": 1314,
+      "sha256": "8cbd1f8fc32f8cf0a7ff65af939507985fac8bf592d92a53f6cb71496ef66a26"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/open_demo_session.py",
+      "bytes": 1828,
+      "sha256": "8951f253e4cbc0ab404008518d98a99488a0bf41187a9e29dd9abc920d938690"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/open_next_session.py",
+      "bytes": 2632,
+      "sha256": "1f85685ab3aabe3a662e1fc951a9710cea2050049c881bc81c97cbac59c4eda6"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/prepare_client.py",
+      "bytes": 2476,
+      "sha256": "94776b8f58dcb1afc6a9d417b947b86c92b4f168db893c93e5c0888ed96b5318"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/prepare_next_game.py",
+      "bytes": 3328,
+      "sha256": "8a0948d371b2930b4b9186dd581e5466ecb1505bead465967111dcdde409afe8"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/probe_captured_protocol.py",
+      "bytes": 2228,
+      "sha256": "e23b7c5893cb29cf69393436f92eb8f53b052f2b4425032571c907f6c9c20264"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/run_first_normal.py",
+      "bytes": 1226,
+      "sha256": "a135fb5627012b9129ffb15d5816e0d9acab699ae8c10bc9e03759c32a7c01c4"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/run_next_normal.py",
+      "bytes": 2677,
+      "sha256": "e184c9d28e76abc4a5f4991443c90bfa3de2ece26d4f60b2a31559ff3fafa65a"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/run_ruby_parallel.py",
+      "bytes": 5636,
+      "sha256": "f1d570768cb195f1db7250ea9cc2e9b492a9b24f96b0eac58984fa6d1c58d9a5"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/run_ruby_remaining.py",
+      "bytes": 1350,
+      "sha256": "3bdb82751a21e3cb1615475261ba5f9a9d7bd070b4d0119e6fae7a3c6b0321f9"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/run_scale.py",
+      "bytes": 4176,
+      "sha256": "f97d48417bb982fc0d7930e746a0d52774fdb048212cba0ab6485e4e7df9b3bd"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/test_batch.py",
+      "bytes": 3776,
+      "sha256": "991ddbbca30b4e327427c5f04bf27b7a11afb8a7d48c817a24889b3075b3b32a"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/test_catalog.py",
+      "bytes": 11543,
+      "sha256": "85482972c78db3209f48ea2123c24cb9779855d006ebfa1f60e27a1c08dea93b"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/test_ruby_parallel.py",
+      "bytes": 454,
+      "sha256": "d06090d6d32f46ddddeb513f593a758f84d6a6e0aeeffb16e3b4474efdea9006"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/validate_tls_bundle.py",
+      "bytes": 3494,
+      "sha256": "4133b31dfe86e36d5b8b2aed72a13b237f486cedad755d9065761408659cd332"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/verify_catalog.py",
+      "bytes": 5013,
+      "sha256": "dcd63ce1752ed4817587b4f2e18fcaf4b6356a3fa500ecd347f593a9810b5b90"
+    },
+    {
+      "ruta": "referencias/provider-work/rubyplay-chat2/worker_lock.py",
+      "bytes": 789,
+      "sha256": "846beb064d62f07bf84b9999cda3e8f2cecb29d31dca4d6039a3001e98f80eee"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 637,
+      "sha256": "b7dfff9761ddf5359ba12915e0c76b5058c46216e196a4f1f5422768f2c7a494"
+    }
+  ]
+}

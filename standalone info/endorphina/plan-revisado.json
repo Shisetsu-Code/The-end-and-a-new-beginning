@@ -1,0 +1,5028 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "endorphina",
+      "game": "525",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/5-witch-pots/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "524",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/monstroland/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "523",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/bazaar-monkey/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "522",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotaur-reburn/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "522",
+      "mode": "buy-BUYIN_MINOTAUR",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotaur-reburn/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "521",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/3-coin-towers-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "520",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-stamps/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "519",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-chests-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "518",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/3-golden-chests/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "517",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hell-hot-1000/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "516",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/groovin-tiger/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "516",
+      "mode": "buy-BUYIN_TIGER_RANDOM",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/groovin-tiger/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "515",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gift-of-midas/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "515",
+      "mode": "buy-BUYIN_RANDOM",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gift-of-midas/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "514",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-20-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "513",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/zalatar/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "513",
+      "mode": "buy-BUYIN_PICK_ME",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/zalatar/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "512",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/moofo/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "buy-BUYIN_BONUS_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "buy-BUYIN_BONUS_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "buy-BUYIN_BONUS_1_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "buy-BUYIN_BONUS_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "buy-BUYIN_BONUS_1_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "buy-BUYIN_BONUS_2_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "511",
+      "mode": "buy-BUYIN_BONUS_1_2_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "510",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/druids-fortune/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "509",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-90s/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "509",
+      "mode": "buy-BUYIN_BONUS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-90s/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "508",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-bankers/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "508",
+      "mode": "buy-BUYIN_RANDOM",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-bankers/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "buy-BUYIN_BONUS_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "buy-BUYIN_BONUS_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "buy-BUYIN_BONUS_1_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "buy-BUYIN_BONUS_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "buy-BUYIN_BONUS_1_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "buy-BUYIN_BONUS_2_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "507",
+      "mode": "buy-BUYIN_BONUS_1_2_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2026/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "506",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sloth-game/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "505",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-streak-1000-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "504",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-hell-3000/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "503",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/nazar-wishes/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "502",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gambleman/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "502",
+      "mode": "buy-BUYIN_RESPIN",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gambleman/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "501",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/clover-flames-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "buy-BUYIN_RABBITS_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "buy-BUYIN_RABBITS_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "buy-BUYIN_RABBITS_1_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "buy-BUYIN_RABBITS_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "buy-BUYIN_RABBITS_1_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "buy-BUYIN_RABBITS_2_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "500",
+      "mode": "buy-BUYIN_RABBITS_1_2_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2026-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "499",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/3-coin-towers/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "498",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/love-show/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "497",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/3-royal-dracos/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "496",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cockroach-fortune/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "495",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/crown-coins-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "494",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/bad-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "493",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/best-xmas/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "492",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-hell/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "491",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-40/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "491",
+      "mode": "buy-BUYIN_RABBITS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-40/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "490",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-ganesha/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "490",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-ganesha/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "489",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-2-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "489",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-2-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "488",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mr-bells-40/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "487",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/3-witch-pots/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "486",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-stars/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "485",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sloteus-gold/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "484",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-chests/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "483",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/thunder-crown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "482",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/prestige-crown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "482",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/prestige-crown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "482",
+      "mode": "buy-BUYIN_FREE_GAMES_GOLD",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/prestige-crown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "481",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sticky-lips/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "481",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sticky-lips/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "480",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/amazons-riches/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "479",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/burning-coins-20/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "478",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/starshine-crystals/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "478",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/starshine-crystals/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "478",
+      "mode": "buy-BUYIN_FREE_GAMES_GOLD",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/starshine-crystals/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "477",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-capybara/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "476",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/janissaries/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "476",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/janissaries/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "476",
+      "mode": "buy-BUYIN_FREE_GAMES_GOLD",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/janissaries/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "475",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2025-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "474",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/clover-flames/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "473",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-100-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "472",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-vlad-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "472",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-vlad-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "471",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/crystal-skull-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "471",
+      "mode": "buy-BUYIN_BONUS_SECOND_LEVEL",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/crystal-skull-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "470",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-snake/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "470",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-snake/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "470",
+      "mode": "buy-BUYIN_FREE_GAMES_GOLD",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fortune-snake/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "469",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/power-balls/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "469",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/power-balls/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "468",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "467",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mr-jingle-bells/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "466",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/jolly-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "465",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/xmas-burst/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "465",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/xmas-burst/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "465",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/xmas-burst/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "464",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-streak-1000/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "463",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-40-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "462",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/big-brown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "462",
+      "mode": "buy-BUYIN_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/big-brown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "462",
+      "mode": "buy-BUYIN_FREE_GAMES_12",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/big-brown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "462",
+      "mode": "buy-BUYIN_FREE_GAMES_16",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/big-brown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "462",
+      "mode": "buy-BUYIN_FREE_GAMES_24",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/big-brown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "461",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/vampires-2-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "461",
+      "mode": "buy-BUYIN_FREE_GAMES_3_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/vampires-2-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "461",
+      "mode": "buy-BUYIN_FREE_GAMES_4_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/vampires-2-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "461",
+      "mode": "buy-BUYIN_FREE_GAMES_5_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/vampires-2-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "460",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/vikings-way/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "459",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/panda-strike/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "459",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/panda-strike/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "458",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/golden-brew/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "457",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/age-of-glory/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "456",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/81-burning-ways/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "455",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "455",
+      "mode": "buy-BUYIN_FREE_GAMES_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "455",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "455",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "454",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-streak-27/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "453",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cows-and-ufos/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "452",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/blue-slot-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "451",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/raging-wings/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "451",
+      "mode": "buy-BUYIN_FREE_GAMES_3_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/raging-wings/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "451",
+      "mode": "buy-BUYIN_FREE_GAMES_4_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/raging-wings/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "451",
+      "mode": "buy-BUYIN_FREE_GAMES_5_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/raging-wings/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "450",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/crown-coins/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "449",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-mayhem/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "448",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/festa-junina/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "447",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-of-ra/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "447",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-of-ra/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "446",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "446",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "446",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "446",
+      "mode": "buy-BUYIN_FREE_GAMES_30",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "445",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dazzling-crown/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "444",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-20-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "443",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/jolly-queen/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "442",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/moon-tiger/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "441",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-ra-sunrise/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "440",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/all-ways-luck/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "440",
+      "mode": "buy-BUYIN_FREE_GAMES_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/all-ways-luck/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "440",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/all-ways-luck/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "440",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/all-ways-luck/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "439",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rainbow-ray/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "439",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rainbow-ray/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "438",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/aristocats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "437",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/valentines-heart/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "436",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2024-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "435",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/oriental-dragon/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "434",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/jade-coins/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "433",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-conquistador/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "433",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-conquistador/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "432",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "432",
+      "mode": "buy-BUYIN_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "432",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "432",
+      "mode": "buy-BUYIN_FREE_GAMES_25",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "432",
+      "mode": "buy-BUYIN_FREE_GAMES_100",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "430",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/santas-puzzle/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "429",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hot-puzzle/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "428",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "428",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "427",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cyber-wolf-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "427",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cyber-wolf-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "426",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-5-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "423",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dia-de-los-muertos-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "423",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dia-de-los-muertos-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "419",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-streak-x/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "417",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-ra-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "415",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fresh-crush/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "415",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fresh-crush/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "413",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/argonauts/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "411",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/late-night-win/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "409",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lord-of-the-seas/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "407",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/giant-wild-goose-pagoda/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "407",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/giant-wild-goose-pagoda/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "405",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/silk-road/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "405",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/silk-road/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "403",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/green-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "401",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/multistar-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "399",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-ra/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "397",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-cloverland-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "397",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-cloverland-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "395",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "395",
+      "mode": "buy-BUYIN_BONUS_GAMES_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "395",
+      "mode": "buy-BUYIN_BONUS_GAMES_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "395",
+      "mode": "buy-BUYIN_BONUS_GAMES_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "393",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "393",
+      "mode": "buy-BUYIN_FREE_GAMES_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "393",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "393",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-streak/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "391",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hell-hot-dice-40/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "389",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hell-hot-dice-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "387",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2023-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "387",
+      "mode": "buy-BUYIN_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2023-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "387",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2023-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "387",
+      "mode": "buy-BUYIN_FREE_GAMES_25",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2023-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "387",
+      "mode": "buy-BUYIN_FREE_GAMES_100",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2023-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "385",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/riches-of-caliph/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "385",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/riches-of-caliph/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "385",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/riches-of-caliph/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "385",
+      "mode": "buy-BUYIN_FREE_GAMES_30",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/riches-of-caliph/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "383",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/blue-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "381",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hell-hot-dice-20/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "379",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rabbits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "379",
+      "mode": "buy-BUYIN_FREE_GAMES_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rabbits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "379",
+      "mode": "buy-BUYIN_FREE_GAMES_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rabbits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "379",
+      "mode": "buy-BUYIN_FREE_GAMES_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rabbits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "377",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/santas-gift/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "375",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-vampires-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "375",
+      "mode": "buy-BUYIN_FREE_GAMES_3_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-vampires-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "375",
+      "mode": "buy-BUYIN_FREE_GAMES_4_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-vampires-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "375",
+      "mode": "buy-BUYIN_FREE_GAMES_5_PICKS",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-vampires-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "373",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/crystal-skull/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "373",
+      "mode": "buy-BUYIN_BONUS_SECOND_LEVEL",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/crystal-skull/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "371",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/wild-streak/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "371",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/wild-streak/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "369",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "369",
+      "mode": "buy-BUYIN_MINOTAUR_REEL_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "369",
+      "mode": "buy-BUYIN_MINOTAUR_REEL_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "369",
+      "mode": "buy-BUYIN_MINOTAUR_REEL_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "buy-BUYIN_DANCER_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "buy-BUYIN_DANCER_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "buy-BUYIN_DANCER_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "buy-BUYIN_DANCER_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "buy-BUYIN_DANCER_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "buy-BUYIN_DANCER_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "367",
+      "mode": "buy-BUYIN_DANCER_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "365",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/100-zombies-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "365",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/100-zombies-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "363",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2022/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "363",
+      "mode": "buy-BUYIN_PENALTY",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-2022/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "361",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lumber-jack/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "361",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lumber-jack/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "359",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "359",
+      "mode": "buy-BUYIN_BONUS_GAME",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "357",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-emirate-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "355",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dynamite-miner/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "355",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dynamite-miner/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "355",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dynamite-miner/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "353",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/samarkands-gold/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "353",
+      "mode": "buy-BUYIN_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/samarkands-gold/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "353",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/samarkands-gold/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "353",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/samarkands-gold/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "351",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-vlad/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "351",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-vlad/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "349",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/glory-of-egypt/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "349",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/glory-of-egypt/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "347",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fisher-king/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "347",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fisher-king/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "347",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fisher-king/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "347",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fisher-king/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "342",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cyber-wolf/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "342",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cyber-wolf/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "338",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-cloverland/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "338",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-cloverland/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "334",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2022-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "330",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-lady/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "326",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/king-of-ghosts/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "326",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/king-of-ghosts/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "322",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/wild-love/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "319",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/water-tiger/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "319",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/water-tiger/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "319",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/water-tiger/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "319",
+      "mode": "buy-BUYIN_FREE_GAMES_25",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/water-tiger/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "315",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "315",
+      "mode": "buy-BUYIN_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "315",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "315",
+      "mode": "buy-BUYIN_FREE_GAMES_25",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "315",
+      "mode": "buy-BUYIN_FREE_GAMES_100",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/royal-xmass/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "311",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/solar-eclipse/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "307",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/3-thunders/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "307",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/3-thunders/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "303",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hell-hot-40/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "299",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/magnum-opus/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "295",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-oil/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "291",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hell-hot-20/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "287",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/akbar-and-birbal/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "287",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/akbar-and-birbal/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "283",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "283",
+      "mode": "buy-BUYIN_BONUS_GAMES_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "283",
+      "mode": "buy-BUYIN_BONUS_GAMES_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "283",
+      "mode": "buy-BUYIN_BONUS_GAMES_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fruletta/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "279",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "279",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "279",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "279",
+      "mode": "buy-BUYIN_FREE_GAMES_30",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/joker-stoker/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "buy-BUYIN_DANCER_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "buy-BUYIN_DANCER_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "buy-BUYIN_DANCER_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "buy-BUYIN_DANCER_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "buy-BUYIN_DANCER_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "buy-BUYIN_DANCER_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "275",
+      "mode": "buy-BUYIN_DANCER_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/rooster-fury/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "271",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/hell-hot-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "267",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2021-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "263",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/around-the-world/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "263",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/around-the-world/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "257",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cricket-heroes/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "257",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cricket-heroes/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "257",
+      "mode": "buy-BUYIN_FREE_GAMES_30",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cricket-heroes/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "257",
+      "mode": "buy-BUYIN_FREE_GAMES_45",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cricket-heroes/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "253",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gem-blast/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "250",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cupid/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "250",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cupid/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "246",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/golden-ox/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "246",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/golden-ox/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "242",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-5/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "238",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/diamond-chance/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "233",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-40/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "227",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/100-zombies/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "227",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/100-zombies/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "221",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/buffalo-50/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "221",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/buffalo-50/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "215",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-20/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "209",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/red-cap/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "209",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/red-cap/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "188",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chance-machine-100/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "182",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-rise-of-ai/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "176",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/asgardians/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "176",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/asgardians/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "170",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/windy-city/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "170",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/windy-city/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "164",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/troll-haven/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "164",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/troll-haven/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "158",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2020-hit-slot/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "155",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/aus-dem-tal/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "155",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/aus-dem-tal/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "149",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/cash-tank/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "143",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/book-of-santa/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "203",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/almighty-sparta-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "203",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/almighty-sparta-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "200",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "200",
+      "mode": "buy-BUYIN_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "200",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "200",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "194",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/asgardians-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "194",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/asgardians-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "139",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sugar-glider-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "135",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mystery-of-eldorado/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "131",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-dice-3/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "129",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-dice-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "127",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-dice-1/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "125",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ancient-troy-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "125",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ancient-troy-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "123",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/voodoo-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "123",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/voodoo-dice/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "119",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/almighty-sparta/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "119",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/almighty-sparta/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "117",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ancient-troy/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "117",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ancient-troy/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "113",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-streak-3/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "109",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/luxurylife/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "109",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/luxurylife/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "104",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-streak-2/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "98",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sugar-glider/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "95",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-streak-1/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "89",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dia-de-los-muertos/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "89",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/dia-de-los-muertos/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "86",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/kamchatka/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "86",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/kamchatka/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "86",
+      "mode": "buy-BUYIN_BONUS_GEISER",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/kamchatka/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "83",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-lands/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "83",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/lucky-lands/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "77",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-superstar/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "77",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football-superstar/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "71",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/tribe/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "71",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/tribe/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "68",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/taboo/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "68",
+      "mode": "buy-BUYIN_BONUS_SECOND_LEVEL",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/taboo/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "65",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "65",
+      "mode": "buy-BUYIN_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "65",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "65",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/little-panda/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "62",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/durga/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "62",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/durga/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "59",
+      "mode": "buy-BUYIN_BONUS_ICON_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/7-bonus-up/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "56",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/slotomoji/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "56",
+      "mode": "buy-BUYIN_BALERINA_REEL_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/slotomoji/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "56",
+      "mode": "buy-BUYIN_DISCOMAN_REEL_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/slotomoji/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "56",
+      "mode": "buy-BUYIN_SAMURAI_REEL_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/slotomoji/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "53",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/in-jazz/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "53",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/in-jazz/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "47",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2027-iss/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "47",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2027-iss/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "41",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/diamond-vapor/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "41",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/diamond-vapor/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "40",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chunjie/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "40",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chunjie/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "37",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/voodoo/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "37",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/voodoo/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "buy-BUYIN_DANCER_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "buy-BUYIN_DANCER_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "buy-BUYIN_DANCER_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "buy-BUYIN_DANCER_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "buy-BUYIN_DANCER_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "buy-BUYIN_DANCER_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "36",
+      "mode": "buy-BUYIN_DANCER_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/twerk/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "35",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2016-gladiators/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "35",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2016-gladiators/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "35",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2016-gladiators/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "35",
+      "mode": "buy-BUYIN_FREE_GAMES_50",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/2016-gladiators/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "34",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/jetsetter/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "34",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/jetsetter/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "346",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ninja/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "346",
+      "mode": "buy-BUYIN_FREE_GAMES_WILDS_PLUS50",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ninja/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "346",
+      "mode": "buy-BUYIN_FREE_GAMES_WILDS_PLUS100",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ninja/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "29",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "29",
+      "mode": "buy-BUYIN_MINOTAUR_REEL_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "29",
+      "mode": "buy-BUYIN_MINOTAUR_REEL_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "29",
+      "mode": "buy-BUYIN_MINOTAUR_REEL_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/minotauros/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "27",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/macarons/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "27",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/macarons/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "25",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/wild-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "25",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/wild-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "24",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sushi/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "24",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sushi/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "23",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/safari/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "23",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/safari/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "22",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/retromania/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "22",
+      "mode": "buy-BUYIN_BONUS_GAMES_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/retromania/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "22",
+      "mode": "buy-BUYIN_BONUS_GAMES_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/retromania/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "22",
+      "mode": "buy-BUYIN_BONUS_GAMES_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/retromania/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "21",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/geisha/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "21",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/geisha/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "20",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/temple-cats/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "19",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/undines-deep/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "19",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/undines-deep/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "18",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/urartu/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "18",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/urartu/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "17",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/4-of-a-king/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "15",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gems-stones/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "14",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "14",
+      "mode": "buy-BUYIN_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "14",
+      "mode": "buy-BUYIN_FREE_GAMES_30",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "14",
+      "mode": "buy-BUYIN_FREE_GAMES_45",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/football/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "13",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/sparkling-fresh/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "11",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chimney-sweep/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "11",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/chimney-sweep/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "10",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/more-fresh-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "9",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-king/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "9",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-king/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "8",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-vampires/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "8",
+      "mode": "buy-BUYIN_FREE_GAMES",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-vampires/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "7",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/ultra-fresh/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "4",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/the-emirate/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "3",
+      "mode": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/mongol-treasures/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/fresh-fruits/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "1",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gladiators/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "1",
+      "mode": "buy-BUYIN_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gladiators/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "1",
+      "mode": "buy-BUYIN_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gladiators/play"
+      }
+    },
+    {
+      "provider": "endorphina",
+      "game": "1",
+      "mode": "buy-BUYIN_FREE_GAMES_50",
+      "samples": 1,
+      "settings": {
+        "launch_url": "https://endorphina.com/es/juegos/gladiators/play"
+      }
+    }
+  ],
+  "omisiones": []
+}

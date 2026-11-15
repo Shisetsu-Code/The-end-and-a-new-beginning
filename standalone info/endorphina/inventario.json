@@ -1,0 +1,4733 @@
+{
+  "id": "endorphina",
+  "name": "Endorphina",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "endorphina.protobuf",
+    "workspace_adapter": "collection_worker.py::endorphina",
+    "continuations": "close_round native response",
+    "closure": "terminal protobuf and wallet"
+  },
+  "games": [
+    {
+      "id": "525",
+      "name": "5 Witch Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "524",
+      "name": "Monstroland",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "523",
+      "name": "Bazaar Monkey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "522",
+      "name": "Minotaur ReBurn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_MINOTAUR",
+          "type": "purchase",
+          "label": "Compra BUYIN_MINOTAUR"
+        }
+      ]
+    },
+    {
+      "id": "521",
+      "name": "3 Coin Towers Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "520",
+      "name": "Lucky Stamps",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "519",
+      "name": "Fortune Chests Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "518",
+      "name": "3 Golden Chests",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "517",
+      "name": "Hell Hot 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "516",
+      "name": "Groovin Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_TIGER_RANDOM",
+          "type": "purchase",
+          "label": "Compra BUYIN_TIGER_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "515",
+      "name": "Gift of Midas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_RANDOM",
+          "type": "purchase",
+          "label": "Compra BUYIN_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "514",
+      "name": "Burning Coins 20 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "513",
+      "name": "Zalatar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_PICK_ME",
+          "type": "purchase",
+          "label": "Compra BUYIN_PICK_ME"
+        }
+      ]
+    },
+    {
+      "id": "512",
+      "name": "MooFo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "511",
+      "name": "Burning Coins 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_3"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1_3"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_2_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_2_3"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1_2_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1_2_3"
+        }
+      ]
+    },
+    {
+      "id": "510",
+      "name": "Druids Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "509",
+      "name": "Chance Machine 90s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "508",
+      "name": "Fortune Bankers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_RANDOM",
+          "type": "purchase",
+          "label": "Compra BUYIN_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "507",
+      "name": "Football 2026",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_3"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1_3"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_2_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_2_3"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_1_2_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_1_2_3"
+        }
+      ]
+    },
+    {
+      "id": "506",
+      "name": "Sloth Game",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "505",
+      "name": "Lucky Streak 1000 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "504",
+      "name": "Burning Hell 3000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "503",
+      "name": "Nazar Wishes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "502",
+      "name": "Gambleman",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_RESPIN",
+          "type": "purchase",
+          "label": "Compra BUYIN_RESPIN"
+        }
+      ]
+    },
+    {
+      "id": "501",
+      "name": "Clover Flames Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "500",
+      "name": "2026 Hit Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_1"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_2"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_1_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_1_2"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_3"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_1_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_1_3"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_2_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_2_3"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_1_2_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_1_2_3"
+        }
+      ]
+    },
+    {
+      "id": "499",
+      "name": "3 Coin Towers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "498",
+      "name": "Love Show",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "497",
+      "name": "3 Royal Dracos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "496",
+      "name": "Cockroach Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "495",
+      "name": "Crown Coins Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "494",
+      "name": "Bad Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "493",
+      "name": "Best Xmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "492",
+      "name": "Burning Hell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "491",
+      "name": "Burning Coins 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_RABBITS_RANDOM",
+          "type": "purchase",
+          "label": "Compra BUYIN_RABBITS_RANDOM"
+        }
+      ]
+    },
+    {
+      "id": "490",
+      "name": "Book of Ganesha",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "489",
+      "name": "Royal Xmass 2 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "488",
+      "name": "Mr. Bells 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "487",
+      "name": "3 Witch Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "486",
+      "name": "Fortune Stars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "485",
+      "name": "Sloteus Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "484",
+      "name": "Fortune Chests",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "483",
+      "name": "Thunder Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "482",
+      "name": "Prestige Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_GOLD",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_GOLD"
+        }
+      ]
+    },
+    {
+      "id": "481",
+      "name": "Sticky Lips",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "480",
+      "name": "Amazons Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "479",
+      "name": "Burning Coins 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "478",
+      "name": "Starshine Crystals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_GOLD",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_GOLD"
+        }
+      ]
+    },
+    {
+      "id": "477",
+      "name": "Fortune Capybara",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "476",
+      "name": "Janissaries",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_GOLD",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_GOLD"
+        }
+      ]
+    },
+    {
+      "id": "475",
+      "name": "2025 Hit Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "474",
+      "name": "Clover Flames",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "473",
+      "name": "Chance Machine 100 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "472",
+      "name": "Book of Vlad Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "471",
+      "name": "Crystal Skull Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_SECOND_LEVEL",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_SECOND_LEVEL"
+        }
+      ]
+    },
+    {
+      "id": "470",
+      "name": "Fortune Snake",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_GOLD",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_GOLD"
+        }
+      ]
+    },
+    {
+      "id": "469",
+      "name": "Power Balls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "468",
+      "name": "Book of Santa Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "467",
+      "name": "Mr. Jingle Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "466",
+      "name": "Jolly Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "465",
+      "name": "Xmas Burst",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        }
+      ]
+    },
+    {
+      "id": "464",
+      "name": "Lucky Streak 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "463",
+      "name": "Chance Machine 40 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "462",
+      "name": "Big Brown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_12",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_12"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_16",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_16"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_24",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_24"
+        }
+      ]
+    },
+    {
+      "id": "461",
+      "name": "The Vampires II Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_3_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_3_PICKS"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_4_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_4_PICKS"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_5_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_5_PICKS"
+        }
+      ]
+    },
+    {
+      "id": "460",
+      "name": "Vikings Way",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "459",
+      "name": "Panda Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "458",
+      "name": "Golden Brew",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "457",
+      "name": "Age of Glory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "456",
+      "name": "81 Burning Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "455",
+      "name": "Cash Streak Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        }
+      ]
+    },
+    {
+      "id": "454",
+      "name": "Lucky Streak 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "453",
+      "name": "Cows & UFOs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "452",
+      "name": "Blue Slot Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "451",
+      "name": "Raging Wings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_3_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_3_PICKS"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_4_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_4_PICKS"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_5_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_5_PICKS"
+        }
+      ]
+    },
+    {
+      "id": "450",
+      "name": "Crown Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "449",
+      "name": "Football Mayhem",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "448",
+      "name": "Festa Junina",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "447",
+      "name": "Temple of Ra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "446",
+      "name": "Joker Stoker Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_30",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_30"
+        }
+      ]
+    },
+    {
+      "id": "445",
+      "name": "Dazzling Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "444",
+      "name": "Chance Machine 20 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "443",
+      "name": "Jolly Queen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "442",
+      "name": "Moon Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "441",
+      "name": "Joker Ra: Sunrise",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "440",
+      "name": "All Ways Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        }
+      ]
+    },
+    {
+      "id": "439",
+      "name": "Rainbow Ray",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "438",
+      "name": "Aristocats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "437",
+      "name": "Valentine's Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "436",
+      "name": "2024 Hit Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "435",
+      "name": "Oriental Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "434",
+      "name": "Jade Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "433",
+      "name": "Book of Conquistador",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "432",
+      "name": "Royal Xmass Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_25",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_25"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_100",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_100"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "name": "2023 Hit Slot Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_25",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_25"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_100",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_100"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "name": "Santa's Puzzle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "429",
+      "name": "Hot Puzzle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "name": "Royal Xmass 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "name": "Cyber Wolf Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "name": "Chance Machine 5 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "423",
+      "name": "Dia De Los Muertos 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "419",
+      "name": "Lucky Streak X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "name": "Joker Ra Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "415",
+      "name": "Fresh Crush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "413",
+      "name": "Argonauts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "name": "Late Night Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "name": "Lord of the Seas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "name": "Giant Wild Goose Pagoda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "name": "Silk Road",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "name": "Green Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "name": "Multistar Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        }
+      ]
+    },
+    {
+      "id": "399",
+      "name": "Joker Ra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "397",
+      "name": "Lucky Cloverland Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "395",
+      "name": "Fruletta Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_1"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_3"
+        }
+      ]
+    },
+    {
+      "id": "393",
+      "name": "Cash Streak",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        }
+      ]
+    },
+    {
+      "id": "391",
+      "name": "Hell Hot Dice 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "389",
+      "name": "Hell Hot Dice 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "387",
+      "name": "2023 Hit Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_25",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_25"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_100",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_100"
+        }
+      ]
+    },
+    {
+      "id": "385",
+      "name": "Riches of Caliph",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_30",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_30"
+        }
+      ]
+    },
+    {
+      "id": "383",
+      "name": "Blue Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "381",
+      "name": "Hell Hot Dice 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "379",
+      "name": "Rabbits, Rabbits, Rabbits!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_3"
+        }
+      ]
+    },
+    {
+      "id": "377",
+      "name": "Santa's Gift",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "375",
+      "name": "The Vampires II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_3_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_3_PICKS"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_4_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_4_PICKS"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_5_PICKS",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_5_PICKS"
+        }
+      ]
+    },
+    {
+      "id": "373",
+      "name": "Crystal Skull",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_SECOND_LEVEL",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_SECOND_LEVEL"
+        }
+      ]
+    },
+    {
+      "id": "371",
+      "name": "Wild Streak",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "369",
+      "name": "Minotauros Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_MINOTAUR_REEL_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_MINOTAUR_REEL_2"
+        },
+        {
+          "key": "buy-BUYIN_MINOTAUR_REEL_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_MINOTAUR_REEL_3"
+        },
+        {
+          "key": "buy-BUYIN_MINOTAUR_REEL_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_MINOTAUR_REEL_4"
+        }
+      ]
+    },
+    {
+      "id": "367",
+      "name": "Rooster Fury Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_1"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_2"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_3"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_4"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_5"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_6"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_7"
+        }
+      ]
+    },
+    {
+      "id": "365",
+      "name": "100 Zombies Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "363",
+      "name": "Football:2022",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_PENALTY",
+          "type": "purchase",
+          "label": "Compra BUYIN_PENALTY"
+        }
+      ]
+    },
+    {
+      "id": "361",
+      "name": "Lumber Jack",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "359",
+      "name": "Mongol Treasures II: Archery Competition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAME",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAME"
+        }
+      ]
+    },
+    {
+      "id": "357",
+      "name": "The Emirate II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "355",
+      "name": "Dynamite Miner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        }
+      ]
+    },
+    {
+      "id": "353",
+      "name": "Samarkand's Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        }
+      ]
+    },
+    {
+      "id": "351",
+      "name": "Book of Vlad",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "349",
+      "name": "Glory of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "347",
+      "name": "Fisher King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        }
+      ]
+    },
+    {
+      "id": "342",
+      "name": "Cyber Wolf",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "338",
+      "name": "Lucky Cloverland",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "334",
+      "name": "2022 Hit Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "330",
+      "name": "Book of Lady",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "326",
+      "name": "King of Ghosts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "322",
+      "name": "Wild Love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "319",
+      "name": "Water Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_25",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_25"
+        }
+      ]
+    },
+    {
+      "id": "315",
+      "name": "Royal Xmass",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_25",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_25"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_100",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_100"
+        }
+      ]
+    },
+    {
+      "id": "311",
+      "name": "Solar Eclipse",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        }
+      ]
+    },
+    {
+      "id": "307",
+      "name": "3 Thunders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "303",
+      "name": "Hell Hot 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "299",
+      "name": "Magnum Opus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "295",
+      "name": "Book of Oil",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "291",
+      "name": "Hell Hot 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "287",
+      "name": "Akbar & Birbal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "283",
+      "name": "Fruletta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_1"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_3"
+        }
+      ]
+    },
+    {
+      "id": "279",
+      "name": "Joker Stoker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_30",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_30"
+        }
+      ]
+    },
+    {
+      "id": "275",
+      "name": "Rooster Fury",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_1"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_2"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_3"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_4"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_5"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_6"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_7"
+        }
+      ]
+    },
+    {
+      "id": "271",
+      "name": "Hell Hot 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "267",
+      "name": "2021 HIT SLOT",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "263",
+      "name": "Around the World",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "257",
+      "name": "Cricket Heroes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_30",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_30"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_45",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_45"
+        }
+      ]
+    },
+    {
+      "id": "253",
+      "name": "Gem Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "250",
+      "name": "Cupid",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "246",
+      "name": "Golden Ox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "242",
+      "name": "Chance Machine 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "238",
+      "name": "Diamond Chance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "233",
+      "name": "Chance Machine 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "227",
+      "name": "100 Zombies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "221",
+      "name": "Buffalo 50",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "name": "Chance Machine 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "name": "Red Cap",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "name": "Chance Machine 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "name": "The Rise of AI",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "name": "Asgardians",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "name": "Windy City",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "name": "Troll Haven",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "name": "2020 HIT SLOT",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "name": "Aus Dem Tal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "name": "Cash Tank",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "name": "Book of Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "name": "Almighty Sparta Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Little Panda Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "name": "Asgardians dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "name": "Sugar Glider Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Mystery Of Eldorado",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "name": "Lucky Dice 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "name": "Lucky Dice 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Lucky Dice 1",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "name": "Ancient Troy Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Voodoo Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Almighty Sparta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Ancient Troy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Lucky Streak 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "#luxurylife",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Lucky Streak 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "name": "Sugar Glider",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "Lucky Streak 1",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "Dia de Los Muertos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Kamchatka",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GEISER",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GEISER"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Lucky Lands",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "Football Superstar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Tribe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Taboo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_SECOND_LEVEL",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_SECOND_LEVEL"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Little Panda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Goddess of War",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "7 BONUS UP!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_1"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_3"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_4"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_5"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_6"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_7"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_8"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_ICON_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_ICON_9"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Slotomoji",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BALERINA_REEL_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BALERINA_REEL_2"
+        },
+        {
+          "key": "buy-BUYIN_DISCOMAN_REEL_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_DISCOMAN_REEL_3"
+        },
+        {
+          "key": "buy-BUYIN_SAMURAI_REEL_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_SAMURAI_REEL_4"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "IN JAZZ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "2027 ISS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "DIAMOND VAPOR",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Chunjie",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Voodoo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Twerk",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_1"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_2"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_3"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_4"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_5"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_6"
+        },
+        {
+          "key": "buy-BUYIN_DANCER_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_DANCER_7"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "2016 Gladiators",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_50",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_50"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Jetsetter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "346",
+      "name": "Ninja",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_WILDS_PLUS50",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_WILDS_PLUS50"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_WILDS_PLUS100",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_WILDS_PLUS100"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Minotauros",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_MINOTAUR_REEL_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_MINOTAUR_REEL_2"
+        },
+        {
+          "key": "buy-BUYIN_MINOTAUR_REEL_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_MINOTAUR_REEL_3"
+        },
+        {
+          "key": "buy-BUYIN_MINOTAUR_REEL_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_MINOTAUR_REEL_4"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Macarons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Wild Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Sushi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Safari",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Retromania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_1"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_2"
+        },
+        {
+          "key": "buy-BUYIN_BONUS_GAMES_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_BONUS_GAMES_3"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Geisha",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Temple Cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Undine's Deep",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Urartu",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "4 Of A King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Gems & Stones",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Football",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_15"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_30",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_30"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_45",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_45"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Sparkling Fresh",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Chimney Sweep",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "More Fresh Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "The King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "The Vampires",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Ultra Fresh",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "The Emirate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mongol Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_1",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_1"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_2",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_2"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_3",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_3"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_4",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_4"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_5",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_5"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_6",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_6"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_7",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_7"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_8",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_8"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_SPREADING_9",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_SPREADING_9"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Fresh Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Gladiators",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_10"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_20"
+        },
+        {
+          "key": "buy-BUYIN_FREE_GAMES_50",
+          "type": "purchase",
+          "label": "Compra BUYIN_FREE_GAMES_50"
+        }
+      ]
+    }
+  ]
+}

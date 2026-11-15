@@ -1,0 +1,2008 @@
+{
+  "id": "threeoaks",
+  "name": "3 Oaks Gaming",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "threeoaks.native",
+    "workspace_adapter": "collection_worker.py::threeoaks",
+    "continuations": "native continuation",
+    "closure": "settled response and wallet"
+  },
+  "games": [
+    {
+      "id": "4_hot_chillies",
+      "name": "4 Hot Chillies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "lucky_apple_x2500",
+      "name": "Lucky Apple x2500",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        },
+        {
+          "key": "booster-2",
+          "type": "booster",
+          "label": "booster-2"
+        },
+        {
+          "key": "booster-3",
+          "type": "booster",
+          "label": "booster-3"
+        },
+        {
+          "key": "booster-4",
+          "type": "booster",
+          "label": "booster-4"
+        }
+      ]
+    },
+    {
+      "id": "chili_coins_xxxl",
+      "name": "Chili Coins XXXL",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        },
+        {
+          "key": "booster-2",
+          "type": "booster",
+          "label": "booster-2"
+        }
+      ]
+    },
+    {
+      "id": "3_superpower_diamonds",
+      "name": "3 SuperPower Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "4_dragon_pearls",
+      "name": "4 Dragon Pearls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "4_super_clover_pots",
+      "name": "4 Super Clover Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        },
+        {
+          "key": "booster-2",
+          "type": "booster",
+          "label": "booster-2"
+        },
+        {
+          "key": "booster-3",
+          "type": "booster",
+          "label": "booster-3"
+        }
+      ]
+    },
+    {
+      "id": "lucky_penny_3_pots_super_wheel",
+      "name": "Lucky Penny 3 Pots: Super Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_super_hot_teapots",
+      "name": "3 Super Hot Teapots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "coinup_volcano",
+      "name": "Coin UP Volcano",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        }
+      ]
+    },
+    {
+      "id": "grand",
+      "name": "Grand",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "4_fortune_clovers",
+      "name": "4 Fortune Clovers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "super_hotfire_diamonds",
+      "name": "Super Hotfire Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "joker_glitz_x1000",
+      "name": "Joker Glitz x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        },
+        {
+          "key": "booster-2",
+          "type": "booster",
+          "label": "booster-2"
+        },
+        {
+          "key": "booster-3",
+          "type": "booster",
+          "label": "booster-3"
+        },
+        {
+          "key": "booster-4",
+          "type": "booster",
+          "label": "booster-4"
+        }
+      ]
+    },
+    {
+      "id": "4_clover_pots",
+      "name": "4 Clover Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "3_lucky_sparks",
+      "name": "3 Lucky Sparks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "supreme_diamond_xxl",
+      "name": "Supreme Diamond XXL",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "lucky_penny_powerscatter",
+      "name": "Lucky Penny Power Scatter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        }
+      ]
+    },
+    {
+      "id": "jungle_volcano",
+      "name": "Jungle Volcano",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "lucky_apple_x1000",
+      "name": "Lucky Apple x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "3_olymp_fortunes",
+      "name": "3 Olymp Fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "thunder_tiger",
+      "name": "Thunder Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "buy-4",
+          "type": "purchase",
+          "label": "buy-4"
+        }
+      ]
+    },
+    {
+      "id": "purple_diamond",
+      "name": "Purple Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "4_fairy_flowers",
+      "name": "4 Fairy Flowers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "dj_tiger_x1000",
+      "name": "DJ Tiger x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        },
+        {
+          "key": "booster-2",
+          "type": "booster",
+          "label": "booster-2"
+        },
+        {
+          "key": "booster-3",
+          "type": "booster",
+          "label": "booster-3"
+        }
+      ]
+    },
+    {
+      "id": "4_wolf_drums",
+      "name": "4 Wolf Drums",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "lord_of_thunder",
+      "name": "Lord of Thunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "chili_coins",
+      "name": "Chili Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_super_coin_volcanoes",
+      "name": "3 Super Coin Volcanoes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        }
+      ]
+    },
+    {
+      "id": "4_pots_of_egypt",
+      "name": "4 Pots of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "egypt_power_x1000",
+      "name": "Egypt Power x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "buy-4",
+          "type": "purchase",
+          "label": "buy-4"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        },
+        {
+          "key": "booster-2",
+          "type": "booster",
+          "label": "booster-2"
+        },
+        {
+          "key": "booster-3",
+          "type": "booster",
+          "label": "booster-3"
+        },
+        {
+          "key": "booster-4",
+          "type": "booster",
+          "label": "booster-4"
+        }
+      ]
+    },
+    {
+      "id": "4_african_drums",
+      "name": "4 African Drums",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "buy-4",
+          "type": "purchase",
+          "label": "buy-4"
+        }
+      ]
+    },
+    {
+      "id": "lava_coins_2",
+      "name": "Lava Coins 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        }
+      ]
+    },
+    {
+      "id": "egypt_fire_2",
+      "name": "Egypt Fire 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "power_sun_xxl",
+      "name": "Power Sun XXL",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "sun_of_egypt_5",
+      "name": "Sun of Egypt 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "super_hot_teapots",
+      "name": "Super Hot Teapots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "buy-4",
+          "type": "purchase",
+          "label": "buy-4"
+        }
+      ]
+    },
+    {
+      "id": "lucky_penny_2",
+      "name": "Lucky Penny 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "magic_clovers",
+      "name": "Magic Clovers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "coin_volcano_2",
+      "name": "Coin Volcano 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        }
+      ]
+    },
+    {
+      "id": "amazonia_wins",
+      "name": "Amazonia Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "777_fruity_coins",
+      "name": "777 Fruity Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "buy-4",
+          "type": "purchase",
+          "label": "buy-4"
+        }
+      ]
+    },
+    {
+      "id": "coin_princess_x1000",
+      "name": "Coin Princess x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "super_china_pots",
+      "name": "Super China Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "buy-4",
+          "type": "purchase",
+          "label": "buy-4"
+        }
+      ]
+    },
+    {
+      "id": "space_coins",
+      "name": "Space Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "3_super_hot_chillies",
+      "name": "3 Super Hot Chillies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        }
+      ]
+    },
+    {
+      "id": "dancing_joker",
+      "name": "Dancing Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_hot_teapots",
+      "name": "3 Hot Teapots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "coin_express",
+      "name": "Coin Express",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_aztec_temples",
+      "name": "3 Aztec Temples",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "power_sun",
+      "name": "Power Sun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_clover_pots_extra",
+      "name": "3 Clover Pots Extra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        }
+      ]
+    },
+    {
+      "id": "3_african_drums",
+      "name": "3 African Drums",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "lava_coins",
+      "name": "Lava Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_coin_volcanoes",
+      "name": "3 Coin Volcanoes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        }
+      ]
+    },
+    {
+      "id": "3_pots_of_egypt",
+      "name": "3 Pots of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hot_fire_fruits",
+      "name": "Hot Fire Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fortune_globe",
+      "name": "Fortune Globe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "lucky_penny",
+      "name": "Lucky Penny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "super_hot_chilli",
+      "name": "Super Hot Chilli",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "coin_lightning",
+      "name": "Coin UP: Lightning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        }
+      ]
+    },
+    {
+      "id": "golden_teapot",
+      "name": "Golden Teapot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "super_sticky_piggy",
+      "name": "Super Sticky Piggy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "fishing_bear",
+      "name": "Fishin' Bear",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        }
+      ]
+    },
+    {
+      "id": "3_china_pots",
+      "name": "3 China Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_clover_pots",
+      "name": "3 Clover Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_egypt_chests",
+      "name": "3 Egypt Chests",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "coin_up",
+      "name": "Coin UP: Hot Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "sun_of_egypt_4",
+      "name": "Sun of Egypt 4",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "aztec_fire_2",
+      "name": "Aztec Fire 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "gold_nuggets",
+      "name": "Gold Nuggets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "grab_more_gold",
+      "name": "Grab more Gold!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_hot_chillies",
+      "name": "3 Hot Chillies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        }
+      ]
+    },
+    {
+      "id": "777_coins",
+      "name": "777 Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "black_wolf_2",
+      "name": "Black Wolf 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "little_farm",
+      "name": "Little Farm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "green_chilli_2",
+      "name": "Green Chilli 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "coin_volcano",
+      "name": "Coin Volcano",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        }
+      ]
+    },
+    {
+      "id": "lady_fortune",
+      "name": "Lady Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy-1",
+          "type": "purchase",
+          "label": "buy-1"
+        },
+        {
+          "key": "buy-2",
+          "type": "purchase",
+          "label": "buy-2"
+        },
+        {
+          "key": "buy-3",
+          "type": "purchase",
+          "label": "buy-3"
+        },
+        {
+          "key": "booster-1",
+          "type": "booster",
+          "label": "booster-1"
+        }
+      ]
+    },
+    {
+      "id": "tiger_gems",
+      "name": "Tiger Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "grab_the_gold",
+      "name": "Grab the Gold!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "more_magic_apple",
+      "name": "More Magic Apple",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "egypt_fire",
+      "name": "Egypt Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "sunlight_princess",
+      "name": "Sunlight Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rio_gems",
+      "name": "Rio Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hit_more_gold",
+      "name": "Hit more Gold!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "green_chilli",
+      "name": "Green Chilli",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "big_heist",
+      "name": "Big Heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "aztec_fire",
+      "name": "Aztec Fire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "magic_apple_2",
+      "name": "Magic Apple 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "sun_of_egypt_3",
+      "name": "Sun of Egypt 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "gold_express",
+      "name": "Gold Express",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "tiger_jungle",
+      "name": "Tiger Jungle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wolf_night",
+      "name": "Wolf Night",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hit_the_gold",
+      "name": "Hit the Gold!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "magic_apple",
+      "name": "Magic Apple",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "3_coins",
+      "name": "3 Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "sun_of_egypt_2",
+      "name": "Sun of Egypt 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "scarab_temple",
+      "name": "Scarab Temple",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "15_dragon_pearls",
+      "name": "15 Dragon Pearls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "aztec_sun",
+      "name": "Aztec Sun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "moon_sisters",
+      "name": "Moon Sisters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "sun_of_egypt",
+      "name": "Sun of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "book_of_sun_multichance",
+      "name": "Book of Sun: Multichance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    }
+  ]
+}

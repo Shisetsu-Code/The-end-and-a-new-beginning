@@ -1,0 +1,120 @@
+{
+  "proveedor": "thunderspin",
+  "archivos": [
+    {
+      "ruta": "bindings/thunderspin.json",
+      "bytes": 17687,
+      "sha256": "76ea2bc24764e02360608726755fc213ff4db02ecad12b04998bbf5c328db142"
+    },
+    {
+      "ruta": "codigo/thunderspin.rs",
+      "bytes": 10826,
+      "sha256": "33610e9f83e6e26c7b0de4367e06dd941d1e77147b94b76cd0c70eab0fdf7f27"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 18384,
+      "sha256": "7234aabaad1344830983c9a5de22dcde05c0b2d4f8eb4baacb1be0261caf198c"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 129587,
+      "sha256": "db4ef5c8b47d054cc8fea333559b7496ae9b076f97e8e5ab2506867d55d83b54"
+    },
+    {
+      "ruta": "evidencia/thunderspin.json",
+      "bytes": 261387,
+      "sha256": "289820f2e2ba907187a97150c5a60784bdb10d0c54c070e6fbf5c78317fb80f8"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 18353,
+      "sha256": "647c8d06973d10d3c923a833fb5396e9a0b71dd97e3ca082e10bea01718324da"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 5069,
+      "sha256": "79c5d9eca79c560c75a2f281443aa13f772a23dd424c69abc94ff5baae0ba373"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/campaign.py",
+      "bytes": 12411,
+      "sha256": "dbf0730a2ded24a1e4764a1f0589850f58e9424fedb5734ce91fb87f65a08ab6"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/catalogue.py",
+      "bytes": 929,
+      "sha256": "e758e11e38ff9dbddd6c38c7fd5fba0413ff511bea862ae204818a2e3f04edab"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/contracts.py",
+      "bytes": 7728,
+      "sha256": "3afed53ce94273e091737163cb394e235ae4a50094f8ee515d585fa2941b5590"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/export_evidence.py",
+      "bytes": 7712,
+      "sha256": "d6cc6110730980f726f4b8679cb1603148c7b7658e968d7cb64216542fff4388"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/features.py",
+      "bytes": 3774,
+      "sha256": "56df126d2c16b668147ee393df1460033c095b663736aeca005c9f333a15c3d8"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/gamble.py",
+      "bytes": 4863,
+      "sha256": "316ab7dd43629e6afe79108470204abf68498d7328ca1f7c5ed208443bce0975"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/inspect_captures.py",
+      "bytes": 1969,
+      "sha256": "76cfbf80defbe591c2daaeb137ec55159f4f2ccf79c9ccb4c363d7f21f77bff1"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/native.py",
+      "bytes": 6301,
+      "sha256": "90706df91ace381cb1feff73d5f804051ad31bd24826cde3fde414cfdbbf33d0"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/recover_zeus.py",
+      "bytes": 1959,
+      "sha256": "50c6638afaa097064efed40bdfc6ff4bdf2bd33d8143f5938a4087d72baa4cb6"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/report.py",
+      "bytes": 4300,
+      "sha256": "4f648f217200ab5aea5599440c4c6ebdd8f7e65bf3ec68734a4baf05fd647079"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/restore_zeus.py",
+      "bytes": 2232,
+      "sha256": "8a72c7fcd0352044b442a4d1cdf7c0e3904123706ce778b0e0c8c52ad32277a9"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/resume.py",
+      "bytes": 914,
+      "sha256": "1c407162dbf234d3d02ef1e35ef2c764b156690ca1e58708d157267ac60632de"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/run_dragon.py",
+      "bytes": 4624,
+      "sha256": "f4a42ba6035eca40c7c5ef141de9ee75cd532c6ccffbf2f8220bb5bee737fa28"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/test_contracts.py",
+      "bytes": 7471,
+      "sha256": "de53cee946f94354dc2829b4a07fbf7157e20339f1aa7d58bb1920c3c7ee21fd"
+    },
+    {
+      "ruta": "referencias/provider-work/thunderspin-chat4/code/test_native.py",
+      "bytes": 4523,
+      "sha256": "820dd9ab48646cb09f189f9435aa2dc41465ef5b0ae1f89d7275580294e6c8be"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 647,
+      "sha256": "d5f80183009e0f30272a27f2b6dba1accd5c36a33823251c2fc6a1e88f11acaa"
+    }
+  ]
+}

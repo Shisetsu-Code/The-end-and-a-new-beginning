@@ -1,0 +1,32 @@
+{
+  "source_archive": "ENTREGA-CLAUDE.zip",
+  "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+  "sources": [
+    {
+      "path": "3-codigo-runners/provider-work/mocks/amusnet/harvest.py",
+      "sha256": "3d0dc32209369cd1f03645eb674bde5ccc2cce06ff0b6d86308e6e9aabc121d8"
+    }
+  ],
+  "games": {
+    "5031": {
+      "NONE": {
+        "kind": "normal",
+        "command": "BET"
+      },
+      "BUY_BONUS_GAME": {
+        "kind": "purchase",
+        "command": "TURBO_DRAW"
+      }
+    },
+    "5107": {
+      "NONE": {
+        "kind": "normal",
+        "command": "BET"
+      },
+      "BUY_BONUS_GAME": {
+        "kind": "purchase",
+        "command": "TURBO_DRAW"
+      }
+    }
+  }
+}

@@ -1,0 +1,2136 @@
+{
+  "id": "playson",
+  "name": "Playson",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "playson.micro-packets",
+    "workspace_adapter": "collection_full_node.py::playson",
+    "continuations": "native command packets",
+    "closure": "idle plus cash/bonus ledger"
+  },
+  "games": [
+    {
+      "id": "lucky-pots-x1000",
+      "name": "Lucky Pots x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Ante:2",
+          "type": "antebet",
+          "label": "Ante:2"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "3-roaring-bells-hold-and-win",
+      "name": "3 Roaring Bells: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "beez-turn-wild",
+      "name": "Beez turn Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Ante:5",
+          "type": "antebet",
+          "label": "Ante:5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "thunder-coin-xxl-boostercells",
+      "name": "Thunder Coins XXL: BoosterCells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Ante:4",
+          "type": "antebet",
+          "label": "Ante:4"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "golden-penny-x1000-super-wheel",
+      "name": "Golden Penny x1000: Super Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:2",
+          "type": "antebet",
+          "label": "Ante:2"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "coin-strike-xxl-multicoin",
+      "name": "Coin Strike XXL: Multicoin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Ante:5",
+          "type": "antebet",
+          "label": "Ante:5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "4-supershiny-diamonds-hold-and-win",
+      "name": "4 Supershiny Diamonds: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    },
+    {
+      "id": "clover-smash",
+      "name": "Clover Smash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        }
+      ]
+    },
+    {
+      "id": "4-chili-pots-hold-and-win",
+      "name": "4 Chili Pots: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "4-pots-riches-super-wheel",
+      "name": "4 Pots Riches: Super Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "pink-clovers-xxxl-hold-and-win",
+      "name": "Pink Clovers XXXL: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Ante:5",
+          "type": "antebet",
+          "label": "Ante:5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "sugar-piggy-hold-and-win",
+      "name": "Sugar Piggy: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "rhino-coins-hit-the-bonus",
+      "name": "Rhino Coins: Hit the BonusÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:2",
+          "type": "antebet",
+          "label": "Ante:2"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        },
+        {
+          "key": "Buy:2",
+          "type": "purchase",
+          "label": "Buy:2"
+        },
+        {
+          "key": "Buy:3",
+          "type": "purchase",
+          "label": "Buy:3"
+        },
+        {
+          "key": "Buy:4",
+          "type": "purchase",
+          "label": "Buy:4"
+        },
+        {
+          "key": "Buy:5",
+          "type": "purchase",
+          "label": "Buy:5"
+        }
+      ]
+    },
+    {
+      "id": "4-scarab-coins-hold-and-win",
+      "name": "4 Scarab Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "thunder-coins-xxl-multicoin",
+      "name": "Thunder Coins XXL: Multicoin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Ante:5",
+          "type": "antebet",
+          "label": "Ante:5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        },
+        {
+          "key": "Buy:2",
+          "type": "purchase",
+          "label": "Buy:2"
+        }
+      ]
+    },
+    {
+      "id": "timeless-diamonds-hold-and-win",
+      "name": "Timeless Diamonds: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "clover-strike-hold-and-win",
+      "name": "Clover Strike: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "sugar-teddy-x1000",
+      "name": "Sugar Teddy x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "4-supercharged-clovers-hold-and-win",
+      "name": "4 Supercharged Clovers: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "coin-strike-xxl-hold-and-win",
+      "name": "Coin Strike XXL: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "vegas-glitz",
+      "name": "Vegas Glitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:0/Choice:1",
+          "type": "purchase",
+          "label": "Buy:0/Choice:1"
+        }
+      ]
+    },
+    {
+      "id": "x1000-golden-penny-2",
+      "name": "X1000 Golden Penny 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "tornado-power-hold-and-win",
+      "name": "Tornado Power: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "diamonds-power-xxl-hold-and-win",
+      "name": "Diamonds Power XXL: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "flaming-bells",
+      "name": "Flaming Bells: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "crown-strike-hold-and-win",
+      "name": "Crown Strike: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "golden-penny-x1000",
+      "name": "Golden Penny x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "3-royal-coins-hold-and-win",
+      "name": "3 Royal Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "rockin-joker-hold-and-win",
+      "name": "Rockin' Joker: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "4-pots-riches-hold-and-win",
+      "name": "4 Pots Riches: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "coin-strike-2-hold-and-win",
+      "name": "Coin Strike 2: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        },
+        {
+          "key": "Buy:2",
+          "type": "purchase",
+          "label": "Buy:2"
+        }
+      ]
+    },
+    {
+      "id": "super-pink-joker-hold-and-win",
+      "name": "Super Pink Joker: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "thunder-coins-xxl-hold-and-win",
+      "name": "Thunder Coins XXL: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "king-of-the-sky-hit-the-bonus",
+      "name": "King of the Sky: Hit the BonusÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        },
+        {
+          "key": "Buy:2",
+          "type": "purchase",
+          "label": "Buy:2"
+        }
+      ]
+    },
+    {
+      "id": "royal-express-hold-and-win",
+      "name": "Royal Express: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    },
+    {
+      "id": "3-chillies-and-joker-hold-and-win",
+      "name": "3 Chillies and Joker: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "3-luxor-pots-hold-and-win",
+      "name": "3 Luxor Pots: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "25-cookies-hit-the-bonus",
+      "name": "25 Cookies: Hit the BonusÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        },
+        {
+          "key": "Buy:2",
+          "type": "purchase",
+          "label": "Buy:2"
+        }
+      ]
+    },
+    {
+      "id": "jingle-coins-hold-and-win",
+      "name": "Jingle Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    },
+    {
+      "id": "merry-giftmas-hold-and-win",
+      "name": "Merry Giftmas: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "pink-joker-hold-and-win",
+      "name": "Pink Joker: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "3-pirate-barrels-hold-and-win",
+      "name": "3 Pirate Barrels: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "piggy-power-hit-the-bonus",
+      "name": "Piggy Power: Hit the BonusÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "thunder-coins-hold-and-win",
+      "name": "Thunder Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "energy-joker-hold-and-win",
+      "name": "Energy Joker: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "arizona-heist-hold-and-win",
+      "name": "Arizona Heist: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "clover-charm-hit-the-bonus",
+      "name": "Clover Charm: Hit the Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "sunny-fruits-2-hold-and-win",
+      "name": "Sunny Fruits 2: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "3-magic-lamps-hold-and-win",
+      "name": "3 Magic Lamps: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "power-crown-hold-and-win",
+      "name": "Power Crown: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fire-temple-hold-and-win",
+      "name": "Fire Temple: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "diamonds-power-hold-and-win",
+      "name": "Diamonds Power: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fire-coins-hold-and-win",
+      "name": "Fire Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "energy-coins-hold-and-win",
+      "name": "Energy Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "empire-gold-hold-and-win",
+      "name": "Empire Gold: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "buffalo-power-2-hold-and-win",
+      "name": "Buffalo Power 2: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "coin-strike-hold-and-win",
+      "name": "Coin Strike: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "royal-joker-hold-and-win",
+      "name": "Royal Joker: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "pirate-chest-hold-and-win",
+      "name": "Pirate Chest: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "royal-coins-2-hold-and-win",
+      "name": "Royal Coins 2: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "ruby-hit-hold-and-win",
+      "name": "Ruby Hit: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "luxor-gold-hold-and-win",
+      "name": "Luxor Gold: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "lion-gems-hold-and-win",
+      "name": "Lion Gems: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jokers-coins-hold-and-win",
+      "name": "Joker's Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "burning-wins-x2",
+      "name": "Burning Wins x2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "royal-coins-hold-and-win",
+      "name": "Royal Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "hot-burning-wins",
+      "name": "Hot Burning Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "hot-coins-hold-and-win",
+      "name": "Hot Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wolf-power-hold-and-win",
+      "name": "Wolf Power: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "legend-of-cleopatra-megaways",
+      "name": "Legend of Cleopatra MegawaysÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    },
+    {
+      "id": "solar-king",
+      "name": "Solar King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "book-of-gold-multichance",
+      "name": "Book of Gold: Multichance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    },
+    {
+      "id": "diamond-wins-hold-and-win",
+      "name": "Diamond Wins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "buffalo-power-hold-and-win",
+      "name": "Buffalo Power: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "solar-temple",
+      "name": "Solar Temple",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "paddy-star-smash-and-win",
+      "name": "Paddy Star: Smash and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "3-carts-of-gold-hold-and-win",
+      "name": "3 Carts of Gold: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    },
+    {
+      "id": "3-pots-riches-extra-hold-and-win",
+      "name": "3 Pots Riches Extra: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "777-sizzling-wins-5-lines",
+      "name": "777 Sizzling Wins: 5 lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "crown-and-diamonds-hold-and-win",
+      "name": "Crown and Diamonds: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "3-pots-riches-hold-and-win",
+      "name": "3 Pots Riches: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "royal-fortunator-hold-and-win",
+      "name": "Royal Fortunator: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "treasures-of-fire-scatter-pays",
+      "name": "Treasures of Fire: Scatter Pays",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "book-del-sol-multiplier",
+      "name": "Book del Sol: Multiplier",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    },
+    {
+      "id": "wolf-power-megaways",
+      "name": "Wolf Power MegawaysÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "diamond-fortunator-hold-and-win",
+      "name": "Diamond Fortunator: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "buffalo-power-christmas",
+      "name": "Buffalo Power: Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "buffalo-power-megaways",
+      "name": "Buffalo Power MegawaysÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "3-gems-of-vegas-super-wheel",
+      "name": "3 Gems of Vegas: Super Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Ante:3",
+          "type": "antebet",
+          "label": "Ante:3"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "3-thunder-coins-hold-and-win",
+      "name": "3 Thunder Coins: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        }
+      ]
+    },
+    {
+      "id": "3-supercharged-diamonds-hold-and-win",
+      "name": "3 Supercharged Diamonds: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "4-chili-amigos-hold-and-win",
+      "name": "4 Chili Amigos: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "lion-gems-3-pots-hold-and-win",
+      "name": "Lion Gems 3 Pots: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "3x-catch",
+      "name": "3x Catch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        },
+        {
+          "key": "Buy:2",
+          "type": "purchase",
+          "label": "Buy:2"
+        }
+      ]
+    },
+    {
+      "id": "charge-the-clovers-hit-the-bonus",
+      "name": "Charge the Clovers: Hit the BonusÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:2",
+          "type": "antebet",
+          "label": "Ante:2"
+        },
+        {
+          "key": "Ante:3",
+          "type": "antebet",
+          "label": "Ante:3"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        },
+        {
+          "key": "Buy:2",
+          "type": "purchase",
+          "label": "Buy:2"
+        }
+      ]
+    },
+    {
+      "id": "burning-fortunator",
+      "name": "Burning Fortunator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-100-joker-staxx",
+      "name": "100 Joker Staxx",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-book-of-gold-classic",
+      "name": "Book of Gold: Classic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-burning-wins",
+      "name": "Burning Wins: classic 5 lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-fruits-and-jokers-20",
+      "name": "Fruits & Jokers: 20 lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-fruits-and-jokers-40",
+      "name": "Fruits & Jokers: 40 Lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-fruits-and-jokers-100",
+      "name": "Fruits & Jokers: 100 Lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-rise-of-egypt",
+      "name": "Rise of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-solar-queen",
+      "name": "Solar Queen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-sunny-fruits",
+      "name": "Sunny Fruits: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-super-burning-wins",
+      "name": "Super Burning Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-joker-expand",
+      "name": "Joker Expand: 5 Lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-sevens-n-fruits",
+      "name": "Sevens&Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "api-sevens-n-fruits-20",
+      "name": "Sevens&Fruits: 20 Lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "more-energy-coins-hold-and-win",
+      "name": "More Energy Coins: Hold and WIn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        }
+      ]
+    },
+    {
+      "id": "lightning-clovers-hit-the-bonus",
+      "name": "Lightning Clovers: Hit the Bonus™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        },
+        {
+          "key": "Buy:1",
+          "type": "purchase",
+          "label": "Buy:1"
+        }
+      ]
+    },
+    {
+      "id": "api-imperial-fruits-5",
+      "name": "Imperial Fruits: 5 Lines",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "supercharged-clovers-hold-and-win",
+      "name": "Supercharged Clovers: Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "4-supercharged-clovers-super-wheel",
+      "name": "4 Supercharged Clovers: Super Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Ante:1.5",
+          "type": "antebet",
+          "label": "Ante:1.5"
+        },
+        {
+          "key": "Buy:0",
+          "type": "purchase",
+          "label": "Buy:0"
+        }
+      ]
+    }
+  ]
+}

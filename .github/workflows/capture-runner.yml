@@ -1,0 +1,30 @@
+name: Capture runner
+on:
+  push:
+    paths: ['capture-runner/**', 'standalone info/**', '.github/workflows/capture-runner.yml']
+  pull_request:
+    paths: ['capture-runner/**', 'standalone info/**', '.github/workflows/capture-runner.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rust toolchain
+        run: rustup toolchain install 1.100.0 --profile minimal --component rustfmt --component clippy
+      - name: Formatting
+        run: cargo +1.100.0 fmt --manifest-path capture-runner/Cargo.toml --check
+      - name: Offline protocol and scheduler tests
+        run: cargo +1.100.0 test --locked --manifest-path capture-runner/Cargo.toml
+      - name: Lints
+        run: cargo +1.100.0 clippy --locked --manifest-path capture-runner/Cargo.toml --all-targets -- -D warnings
+      - name: Build Linux runner
+        run: cargo +1.100.0 build --release --locked --manifest-path capture-runner/Cargo.toml
+      - name: Upload Linux executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: capture-runner-linux-x86_64
+          path: capture-runner/target/release/capture-runner
+          if-no-files-found: error

@@ -1,0 +1,1251 @@
+{
+  "source_repository": "https://github.com/Shisetsu-Code/Standalone",
+  "source_commit": "749ae8e4ca8e50326cc756fda8efb916c47b0be8",
+  "source_archives": [
+    {
+      "file": "ENTREGA-CLAUDE.zip",
+      "sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "bytes": 14679600,
+      "files": 716,
+      "expanded_bytes": 14475044,
+      "member_prefix": "ENTREGA-CLAUDE/",
+      "included_in_repository": false
+    }
+  ],
+  "bindings": [
+    {
+      "file": "1spin4win.json",
+      "source": "game-runner/bindings/1spin4win.json",
+      "sha256": "e12f427794d6456f704596840a4236f776739c2efcc614e06cd383a5cd75a161",
+      "bytes": 61820,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "amusnet.json",
+      "source": "game-runner/bindings/amusnet.json",
+      "sha256": "a97a851b027685cb43eca77ddd7bd40d8f302c6f0900e42837dec2ac5ec43375",
+      "bytes": 84640,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "bgaming-extra.json",
+      "sha256": "ecfd1a6d62f86889c7802f18ecdd5e75d41e092ecd0761ab044a61131d819ecf",
+      "bytes": 13710,
+      "kind": "derived",
+      "transformation": "Exact inventory selectors for delivered legacy-v1, variant, choice and RPC families. Missing prepared-source families are excluded; historical success is not required.",
+      "sources": [
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_demo_qa.py",
+          "sha256": "191c0691235acf1ff25e9deaba26efefc934abf539161b681df887510ca13157"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/legacy_metadata.py",
+          "sha256": "cae961b7397c26e8202ae2b574908edd4500dcee48f0ede41162ec682c509a72"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/native_variants.py",
+          "sha256": "c70630e51cd0fa64f1c72fbe12eddb3df4045ed9f16e1fbe6a6254881c059a84"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/old_slots.py",
+          "sha256": "d5f224862fefcfa3c151a21745901e029cd1ca02aa9d2b17aec3e9c32246928a"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/classic_slots.py",
+          "sha256": "a72cbf0019fc98477d2ccf5c67b918c8e81689741a7b4ada94e83e2f97c28bdb"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/alice_choices.py",
+          "sha256": "05c1973b26525d4d124704b01be0a198a0311dcca939e2cfdf2182b069f4cdde"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cats_choices.py",
+          "sha256": "5db6023b66406ec194dc7b164f0654a5537f711f82963d0392b1221a83421e98"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/bonus_choices_extra.py",
+          "sha256": "0f79db9162462fa3a1f639fdae82c8df9a6f95361cdf4be37e86cda92653a193"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_wild_moon_manual.py",
+          "sha256": "a580566f05a15b1655b7307cf75dfda229cf1455dc9bcbe7a98cd77055613ee0"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/classic_gamble.py",
+          "sha256": "527d5280b71ac6e904009d946f6177a4f1e99449bdadf06a8450cd309b7ce090"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/finish_dig_conditional_choices.py",
+          "sha256": "eadf50946db70fbc062e3d83dc62ea5927285e6140768376371a67462db05283"
+        },
+        {
+          "path": "standalone info/bgaming/inventario.json",
+          "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json",
+          "sha256": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+        }
+      ]
+    },
+    {
+      "file": "bgaming-legacy-v2.json",
+      "sha256": "fdc4d8456d54b01c2e5fbd848d14a80db60cc9b0ae369fb3a7460ed90a089589",
+      "bytes": 37289,
+      "kind": "derived",
+      "transformation": "Exact legacy-v2 game/mode identities intersected with inventory; current source and native menu must prove the selector before dispatch.",
+      "sources": [
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/run_demo_qa.py",
+          "sha256": "191c0691235acf1ff25e9deaba26efefc934abf539161b681df887510ca13157"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/legacy_metadata.py",
+          "sha256": "cae961b7397c26e8202ae2b574908edd4500dcee48f0ede41162ec682c509a72"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/line_count_modes.py",
+          "sha256": "0f033953570693974217c4af077f918a61033ae2cdf9947f5a8ff2484ab1c63e"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/volatility_modes.py",
+          "sha256": "15375d6374135056babee547474170927e79dbd2affacc0c068693b35a4cc9fa"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/gold_symbols.py",
+          "sha256": "4a9ffa049286befd9e39dd9ab4e5a16c6ef300eaf93dcdf0e21b5ef3cc86e10e"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/freespin_types.py",
+          "sha256": "c9e00f1b7687d8e2e2d4cc744db528f7b5cf08f752ef3d0249f29b762d6914e2"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/indexed_rows.py",
+          "sha256": "82c2ab40901b731cd0c708e3f64f9c84455464e861e887ba39530049d6e7e08d"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/lucky_dragon_controls.py",
+          "sha256": "26956982b62d93e28b7d9c3dd1efac31cb6410201116aa261f6279eaf1f818e0"
+        },
+        {
+          "path": "standalone info/bgaming/inventario.json",
+          "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json",
+          "sha256": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+        }
+      ]
+    },
+    {
+      "file": "bgaming-rpc-contracts.json",
+      "sha256": "017181332feb2efca454e20fef57514ec931a19622e0da00ecd5005ab0345906",
+      "bytes": 19828,
+      "kind": "derived",
+      "transformation": "RPC request/control descriptors ported from the published Python family contracts; only games selected by bgaming-extra.json are executable.",
+      "sources": [
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/rpc_extra.py",
+          "sha256": "9a44fc0591659c6285c76fa2770e535b6130b7d6a6992b23ed1d9cf39f46ef0f"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/rpc_source_pins.py",
+          "sha256": "ce71724adebf3c5fa8713ad43754f5aa5d3f3e62b46cf225ccf0395f7f52bea3"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/four_modern_slots.py",
+          "sha256": "70c3942e6d81792fef48203ae6a28e028b4f7f2663845e054ce0ae4b5fb71840"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/product_round_rpc.py",
+          "sha256": "03397fda4e1155ba80ebeaafbe4076bee687447652dac4a8981ffeecc6667995"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/oga_classic.py",
+          "sha256": "bf11cd8e1ad8292d8e40235b397ab63f52a47e6d47b568cc9c48ae10a5026d01"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/star_choices.py",
+          "sha256": "075ae836cf8c9190d9314d4d07f4b4b6f6cd4feb7db451af225cec3e2119fc32"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/final_rpc_pair.py",
+          "sha256": "543b83ff54896ea91049465cedbcbe223bb677d4451c3f1ae56a6dab03208889"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cocos_metadata.py",
+          "sha256": "fb13dc2f0277db0e4c1eedf6f0a5b3586142f206ac91e29be0044390fa2b0fac"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cocos_adapter.py",
+          "sha256": "351b30c119da62a21edcb8d160078974614da41964e8bec7fd0a82264396a329"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/hyperhive_adapter.py",
+          "sha256": "354203eb3e80dfaf1d60fe9f8e6fcb302cf785e12024449379c80e0292c8750d"
+        },
+        {
+          "path": "standalone info/bgaming/inventario.json",
+          "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+        },
+        {
+          "path": "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json",
+          "sha256": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+        }
+      ]
+    },
+    {
+      "file": "egt-digital.json",
+      "source": "game-runner/bindings/egt-digital.json",
+      "sha256": "05bce352b02abea6837c53b1ad2e3c59312dc3f8781dd581db806d1aba01bb98",
+      "bytes": 92142,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "ela-games.json",
+      "source": "game-runner/bindings/ela-games.json",
+      "sha256": "2afa537916d95fb68c9e754a2d05a92afbe664d97d062f493f7dc73000691ecd",
+      "bytes": 15239,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "elk-bindings.json",
+      "sha256": "9937d3c131e6b627d019e822637d75606aad0bff7cf1fbe33d86fb7094379bcf",
+      "bytes": 36652,
+      "kind": "derived",
+      "transformation": "Join of immutable ELK catalogue game ID/XDM and inventory mode keys/kinds; protocol port includes variants, classic XML and native Boss progression.",
+      "sources": [
+        {
+          "path": "standalone info/elk/inventario.json",
+          "sha256": "825c22a4a8ef1a37ce3286904d06f9961b550ab8cb40b3677a2423c75fbd45bf"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk/catalog.json",
+          "sha256": "f9092d1885af70c4c1797f9741bb2c8adea336375d104a1279ed9d8b0da2f12b"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk_client.py",
+          "sha256": "2295fbd9f844c95d770eb525eed1464706605299872405d042a4843ea9f6825d"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk_protocol.py",
+          "sha256": "4e4e33bd51257121f977ef1fffa54824445389d3de65dfa9c669a388bfda57d6"
+        },
+        {
+          "path": "standalone info/elk/referencias/demo-dashboard/elk_boss.py",
+          "sha256": "47ba2fd0752bd126fb47d256ec8dc263d0b37640818f0ae8e5b0839f68f9382d"
+        }
+      ]
+    },
+    {
+      "file": "endorphina-catalog.json",
+      "source": "demo-dashboard/endorphina/catalog.json",
+      "sha256": "7bb60cc832605bc1b3aab9388482ee4cf6e7c7425bb3db3a054de4cce838475f",
+      "bytes": 65626,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "evoplay.json",
+      "source": "game-runner/bindings/evoplay.json",
+      "sha256": "017ce7836280b53b0663092c1b66baa86ff97b2ef353df092b33df482bac7ee4",
+      "bytes": 34421,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "gamesglobal-inventory.json",
+      "source": "game-runner/bindings/gamesglobal-inventory.json",
+      "sha256": "1629221a212d88816b6d7d3af340b01bb5ee4acc5cea66abf7da1af153591279",
+      "bytes": 18447,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "habanero.json",
+      "source": "game-runner/bindings/habanero.json",
+      "sha256": "df09a28bd04e6f079d36d36daf2d8dcbb1bb34a84398010c275bfe9fded7a6dd",
+      "bytes": 53009,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "kagaming.json",
+      "source": "game-runner/bindings/kagaming.json",
+      "sha256": "029ef4909a96814942c0b00a4074f7a4a654dd7d4125c6d1d1f6b5d486dfe681",
+      "bytes": 249790,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "mascot.json",
+      "source": "game-runner/bindings/mascot.json",
+      "sha256": "72419982212df2e9184b11bc98cc86393d87129fea65be980b5aae7fbfe6f61b",
+      "bytes": 41642,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-geco-modes.json",
+      "source": "game-runner/bindings/netent-geco-modes.json",
+      "sha256": "858836a0dad5f715ef97e9e893c5447f7848803ed3057737f5e303d997fd311a",
+      "bytes": 6565,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-geco.json",
+      "source": "game-runner/bindings/netent-geco.json",
+      "sha256": "da9c89453bfd36e4a02174fb91fd4c9a8d05dad17e93ee095306fcc6e375759a",
+      "bytes": 13578,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-horizon.json",
+      "source": "game-runner/bindings/netent-horizon.json",
+      "sha256": "94a9bb9069653300be8d2767e11bf5f321437897046d4b90d300f8e5171c7a39",
+      "bytes": 42423,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-launch.json",
+      "source": "game-runner/bindings/netent-launch.json",
+      "sha256": "0f5bb9dc09e5884d427ea960fbfa27efd816537926c410370e0bac0b9d842f0d",
+      "bytes": 19340,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "netent-redtiger.json",
+      "source": "game-runner/bindings/netent-redtiger.json",
+      "sha256": "fb14357c2b2d1bd664399e154b5e800002a190081a85f282677ed8e6d1027de4",
+      "bytes": 7346,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "nolimit-choice-fixtures.json",
+      "sha256": "3d29d21db565ae6b1f806c20442e5314dd943178a45cff08a2ec13843022c995",
+      "bytes": 49083,
+      "kind": "derived",
+      "transformation": "Synthetic state fixtures for101 archived choice contracts; expected requests and node IDs computed from immutable Python reference.",
+      "sources": [
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_protocol.py",
+          "sha256": "2a62ec2fd51ee405b791bc9f70dc228a2e51c98df0ecab155ddc1fb633ab3d25"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/1-100/choices-matrix.json",
+          "sha256": "7762136345d707634a481f852cf3c2607d0c603b78063838d0057d7fd6b2f5ba"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/101-141/choices-matrix.json",
+          "sha256": "94891c15683ca7bc1900f48df32b293fe9e9f4c243508e080c3161ff7f347599"
+        }
+      ]
+    },
+    {
+      "file": "nolimit-controls.json",
+      "sha256": "55afb4ad7d7a918260c7492e16af8bdcd85c6a85875ce1aa960ef75490f939e4",
+      "bytes": 204880,
+      "kind": "derived",
+      "transformation": "Exact native feature/side/cap selectors and display identities derived from archived inventory controls.",
+      "sources": [
+        {
+          "path": "docs/recolector/inventario/nolimit.json",
+          "sha256": "4c91caaaf56de08f5b25b142e57e3c04c0d1155acec6339c3a68104f81bb703a"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_protocol.py",
+          "sha256": "2a62ec2fd51ee405b791bc9f70dc228a2e51c98df0ecab155ddc1fb633ab3d25"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_client.py",
+          "sha256": "d565b4bbb998ab77d01ece99c41f37d9d98fad7318258ac1e9786ec056f4b42f"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_run.py",
+          "sha256": "332db1be983bb85cd7b30503dd95d0ad0384c7c3a2611d5ec671a8c5e2c9bdcd"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/1-100/inventory.json",
+          "sha256": "75cf988887a33fded3babe502d891da10f79510235f77be5195eb07637fa72f2"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/101-141/inventory.json",
+          "sha256": "2d50385e98f9715ae6513fe707735aedc85d298e91032d538df3dfdd74eaec5b"
+        }
+      ]
+    },
+    {
+      "file": "nolimit-init-fixtures.json",
+      "sha256": "4567ac9e53ed4a1835b3232e021069aa4cc3ac550c0332e23b7c0fef918de636",
+      "bytes": 741587,
+      "kind": "derived",
+      "transformation": "Reduced archived initializations for offline tests, without sessions, wallet or payout metadata.",
+      "sources": [
+        {
+          "path": "docs/recolector/inventario/nolimit.json",
+          "sha256": "4c91caaaf56de08f5b25b142e57e3c04c0d1155acec6339c3a68104f81bb703a"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_protocol.py",
+          "sha256": "2a62ec2fd51ee405b791bc9f70dc228a2e51c98df0ecab155ddc1fb633ab3d25"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_client.py",
+          "sha256": "d565b4bbb998ab77d01ece99c41f37d9d98fad7318258ac1e9786ec056f4b42f"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit_run.py",
+          "sha256": "332db1be983bb85cd7b30503dd95d0ad0384c7c3a2611d5ec671a8c5e2c9bdcd"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/1-100/inventory.json",
+          "sha256": "75cf988887a33fded3babe502d891da10f79510235f77be5195eb07637fa72f2"
+        },
+        {
+          "path": "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/101-141/inventory.json",
+          "sha256": "2d50385e98f9715ae6513fe707735aedc85d298e91032d538df3dfdd74eaec5b"
+        }
+      ]
+    },
+    {
+      "file": "peterandsons.json",
+      "source": "game-runner/bindings/peterandsons.json",
+      "sha256": "2187fc9638130bf27a5dbe05001e92945bc2afcdf602defd3de472fc7486afdd",
+      "bytes": 22015,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "playngo-tables.json",
+      "sha256": "848001c9004b8a7a2719a1114fb40a8536e2088840755c33ac82db816a494862",
+      "bytes": 7135,
+      "kind": "derived",
+      "transformation": "Public GID and native source pins for18 table/draw/classic games, with exact family selectors reconstructed from archived Python contracts.",
+      "sources": [
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_craps.py",
+          "sha256": "1f738a24b3474c421d2594d41c851d28e56e27b4b38a0adfb048c4d3dc9464f1"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_holdem.py",
+          "sha256": "cb87d60e938b42c8a0154cfbfc378d4af26fa5e189a0eafac11e135f9e307214"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_roulette.py",
+          "sha256": "a457d23295a1e3c0ee9e2c9955ba420131dc5e8930cbd1029596c406660f1fc1"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_draw_games.py",
+          "sha256": "700703f71882f3307027c319d708ae34c339aebb8c7000d3dabd0f6d1b99b47b"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_legacy_tables.py",
+          "sha256": "31b4e06ff795221632dff90fba851919b39ff8242620f7fe7828b0b71d739c83"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_table_rules.py",
+          "sha256": "8a7823a7651c5a2bfd3ada91ee57ecb2cea337e76ae3d051a0ab49e42dcf28e4"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_rules.py",
+          "sha256": "dbf389dea41ac94e6c0c1b9b1c0a9e91c6cdaa406223612d84fd1154844722ac"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_run.py",
+          "sha256": "ddc88369d98b52e4e34f479832730ce24d74dc1dbd4547d94b271ba3547a7488"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_client.py",
+          "sha256": "06e029632d1eaf099e46027bec2c3b26639590dd50dabcd120e7ed4f0a5ee811"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo_protocol.py",
+          "sha256": "a854adf36853047d14732b86db98205b7029034ff27b964ba569a2936ca24492"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/catalog.json",
+          "sha256": "a53a7ac5995e6055bb38a0a436b768102b3cab2a6a769c9269d324fbbefd8022"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/1-100/inventory.json",
+          "sha256": "ee446ba9a3012ed67b09894df231a1295d886c98c369251c513683dea91d3594"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/101-200/inventory.json",
+          "sha256": "367ec8b9f8ac883bd1726ef69e149a10b1ef9f553fc1dafda5453accfe675dd4"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/201-300/inventory.json",
+          "sha256": "07a7e80e4f3a6491b575476e9a2d1ca01c270270293970f7df4170d5b25412ca"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/301-400/inventory.json",
+          "sha256": "08eb61b61790e9a2de54003214fdfa9e5da1363cad1e4525272b9ba2da70e7a6"
+        },
+        {
+          "path": "standalone info/playngo/referencias/demo-dashboard/playngo/batches/401-477/inventory.json",
+          "sha256": "fe51d867216ec9350c0e1569a6a2bf8297b6dd9404831bc2c4b49cb2aa8e2e6d"
+        }
+      ]
+    },
+    {
+      "file": "playngo.json",
+      "source": "game-runner/bindings/playngo.json",
+      "sha256": "c33fd1e3697e6fcabf0d21161303a9779280dca2437e7141e70632b72dc9ccae",
+      "bytes": 80896,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "playson.json",
+      "source": "game-runner/bindings/playson.json",
+      "sha256": "dec80dc5afb11971e33af59aab61b64527918e89c4bc22cb2a2892f6d07777ae",
+      "bytes": 99134,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "rubyplay-rp47-source-index.json",
+      "source": "game-runner/bindings/rubyplay-rp47-source-index.json",
+      "sha256": "1d602cb6e0f6ecf9d369146583d323d6da3e26c73ef1246168ef90cd9ef1f66b",
+      "bytes": 87177,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "spinomenal-public-init.json",
+      "source": "game-runner/bindings/spinomenal-public-init.json",
+      "sha256": "2487196fcdea6b3007396bd8798a99a78cd2ce4e03ea4185665c918b1dc92fad",
+      "bytes": 219625,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "spinomenal.json",
+      "source": "game-runner/bindings/spinomenal.json",
+      "sha256": "7ec257e35ba125da2e0cf0a9973c8ac8fd35aa1900af40b0d54ab2955aca72bb",
+      "bytes": 219839,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "threeoaks-continuations.json",
+      "source": "demo-dashboard/threeoaks/reference/continuation-bindings.json",
+      "sha256": "ad7092bf66e2090d3935197a52d752dd9332a2b76e6e70791de6dfda0783d3ac",
+      "bytes": 36650,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "threeoaks-serializers.json",
+      "source": "demo-dashboard/threeoaks/reference/serializer-bindings.json",
+      "sha256": "02206b0fb8539c6ebd657b25721913445dc560892838dc07015334de694c2dbc",
+      "bytes": 24523,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "thunderspin.json",
+      "source": "game-runner/bindings/thunderspin.json",
+      "sha256": "76ea2bc24764e02360608726755fc213ff4db02ecad12b04998bbf5c328db142",
+      "bytes": 17687,
+      "kind": "exact_copy"
+    },
+    {
+      "file": "yggdrasil.json",
+      "sha256": "50119b56f08c7f1139bc007e3a23a79d2b83b0d2c265a3e9d72f3e0d14a8830a",
+      "bytes": 94559,
+      "kind": "derived",
+      "transformation": "All301 unique CSV game/mode/coin/amount entries intersected with inventory, including18 historical rejections; four identical observations deduplicated; request rule from supplied archive protocol.",
+      "sources": [
+        {
+          "path": "standalone info/yggdrasil/referencias/provider-work/yggdrasil-export/yggdrasil-rounds.csv",
+          "sha256": "f7c66f85ff4c82ebf4e5e235c5f6d9a7619dd1387b70dabc35301f0d9bcd3ebb"
+        },
+        {
+          "path": "handoff/traspaso-claude-20261114/yggdrasil/yggdrasil-checkpoint-20261107.json",
+          "sha256": "a312e22c959119802045c21f92d32ee5953455ca7e4710dd59567104732e5e99"
+        },
+        {
+          "path": "standalone info/yggdrasil/inventario.json",
+          "sha256": "2e8661d79d99f394186fb590302503fd64ef875f6be4079b14b6960c2ad845b3"
+        }
+      ]
+    },
+    {
+      "file": "1spin4win-extra.json",
+      "sha256": "97a250ad30c3795482c037ab7bc3f6fbaeb7002db01de532461627562fa913dc",
+      "bytes": 4476,
+      "kind": "derived",
+      "source_archive": "ENTREGA-CLAUDE.zip",
+      "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "transformation": "Explicit game/mode selectors cross-checked with the official-demo harvest and documented antebet controls. Lines and bet values come from fresh init; mock completion and wallet reconciliation do not authorize execution.",
+      "sources": [
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/inventarios/1spin4win-mock.json",
+          "sha256": "c032ec26832fce530e7d12f7733d1d36ab90b1a7741796a2a5b10296c5aec7b1",
+          "bytes": 39134
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/1spin4win/harvest.py",
+          "sha256": "ec3b0f42c4550c30327b497836d90b343cccd84b5dc029e672bfb5a04a339ff1",
+          "bytes": 14968
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/1spin4win/README.md",
+          "sha256": "f262ca53021b4a2f8c3119fd6e1d48fcda26b0bbdc4e815ce34b6e9c690dbcba",
+          "bytes": 5833
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/1spin4win/server.py",
+          "sha256": "dd31959f8cc428a9cb2f8eaa73049b6519ced5e9ca02af52727eadb21d244219",
+          "bytes": 13173
+        }
+      ]
+    },
+    {
+      "file": "amusnet-extra.json",
+      "sha256": "e2928af89944d07c792af466b83fe0420a21d405ec9eaf9b1b152fd00e561956",
+      "bytes": 727,
+      "kind": "derived",
+      "source_archive": "ENTREGA-CLAUDE.zip",
+      "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "transformation": "Exact dice entry and continuation controls for 5031/5107 extracted from the official FUN harvest. Option IDs, multipliers and bet groups are selected from fresh init; historical sessions are omitted.",
+      "sources": [
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/amusnet/harvest.py",
+          "sha256": "3d0dc32209369cd1f03645eb674bde5ccc2cce06ff0b6d86308e6e9aabc121d8",
+          "bytes": 19162
+        }
+      ]
+    },
+    {
+      "file": "betsoft-extra.json",
+      "sha256": "84592ac1da6b3ad6509cd227de4c9928203f7a1c7684a1d6da00ec5cfc288264",
+      "bytes": 21963,
+      "kind": "derived",
+      "source_archive": "ENTREGA-CLAUDE.zip",
+      "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "transformation": "Known game IDs and native FREE launch/control families joined with the immutable inventory. Fresh menus validate purchases and boosts. Native positive closure is required; 692/818 are excluded because their harvested closure used only missing STATE plus present BALANCE.",
+      "sources": [
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/betsoft/harvest.py",
+          "sha256": "48e07007b98c4395569d9da37c0bbf356ed2a2f609e11813fb14b7a0b75e01f4",
+          "bytes": 17147
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/4-analisis-otros-proveedores/betsoft.md",
+          "sha256": "b5bf64b2d59f9a55e6ba0c8219ea64efedfde74554eba2db4a38084a1a3c66be",
+          "bytes": 26132
+        },
+        {
+          "path": "standalone info/betsoft/inventario.json",
+          "source_commit": "749ae8e4ca8e50326cc756fda8efb916c47b0be8",
+          "sha256": "3ed40ca0902478e71524a13c9ec66346849ef5f975a601d65d63342f49309b1c",
+          "bytes": 122192
+        }
+      ]
+    },
+    {
+      "file": "irondog-integrated.json",
+      "sha256": "86965713845e91ffa1fbe637c0e946bc96fe45de5ec3dfd116813ce7b0c4725f",
+      "bytes": 4382,
+      "kind": "derived",
+      "source_archive": "ENTREGA-CLAUDE.zip",
+      "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "transformation": "All 61 explicit IntegratedSlots/game pairs from the supplemental inventory, native FUN harvest and report. The catalogue adds the 22 missing pairs without aliases (four games and two ante modes); existing identities and mode metadata are preserved. Native offers are checked at runtime and closure requires bet.settle. The three existing Morphic controls remain available.",
+      "sources": [
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/inventarios/irondog-mock.json",
+          "sha256": "99c73a69dd50824e9ab860ba52f62bf84a8e8ee1ab153e843950dd25d746a2a7",
+          "bytes": 5219
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/irondog/harvest.py",
+          "sha256": "1568d5630c14916719955289ba98542f4b93a989958cdbd2cc8b2b97d095e5da",
+          "bytes": 18127
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/4-analisis-otros-proveedores/irondog.md",
+          "sha256": "a28949db7072a389c689e1c564a3aa712f18ef0d1523082dd1fb63fa75713ba6",
+          "bytes": 45303
+        }
+      ]
+    },
+    {
+      "file": "kendoo-extra.json",
+      "sha256": "70761beff27554ac42559086170af3c9a589fc18d5b99eb5976561ee939ccf4a",
+      "bytes": 5025,
+      "kind": "derived",
+      "source_archive": "ENTREGA-CLAUDE.zip",
+      "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "transformation": "Documented slug/native-code associations and explicit normal, lines, ante and CoinDragon selected_mode controls. Official per-game launch links and current native menus are verified before dispatch; other purchase labels are not extrapolated.",
+      "sources": [
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/inventarios/kendoo-mock.json",
+          "sha256": "d8e92eb8022ed524a3eae531d93e23a7fbe04ff35f77be31cf911784d3a1645b",
+          "bytes": 1461
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/kendoo/compare.py",
+          "sha256": "5b7b4e9542108faf70798715365abb1031319131727ec25f0c46403dd5718708",
+          "bytes": 10964
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/kendoo/README.md",
+          "sha256": "0fa9827c3616b300243a9c5e1715e0317ee1e1a2c3bf5cd82e0f06a3ec8366f4",
+          "bytes": 3120
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/4-analisis-otros-proveedores/kendoo.md",
+          "sha256": "32959c16a175811e6aaab65bf0d558b0791fbee108aa972b2ac24612044aaba6",
+          "bytes": 10761
+        }
+      ]
+    },
+    {
+      "file": "mascot-extra.json",
+      "sha256": "9d35399820b02510821bf01f9cdce24f82107bdbe9c1bba9fb49c17f825a9e79",
+      "bytes": 269143,
+      "kind": "derived",
+      "source_archive": "ENTREGA-CLAUDE.zip",
+      "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "transformation": "Native init/request/response controls for 31 additional modes: 22 dynamic purchases and nine non-slot normal modes. Includes 31 reduced fixture chains with 330 steps; historical sessions, balances and payout reconciliation are not required.",
+      "sources": [
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/1win_zeus_the_thunderer_deluxe.jsonl",
+          "sha256": "cd44c81e95b19924de09d06864394fab45ca5353e58cd438ab7ada153eecf67f",
+          "bytes": 55108
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/1x_riot.jsonl",
+          "sha256": "a9cbfde106358930b8db2527fafa2064a821f72c538cb669945f2ac19854f80e",
+          "bytes": 56801
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/across_the_universe_keno.jsonl",
+          "sha256": "8f6884e93888f810418fbd2723a40e6e0c9acfa157ba547a19e034c38f4e238d",
+          "bytes": 5340
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/bamboo_bear_deluxe.jsonl",
+          "sha256": "83bf5b1d8fc1d143530dc94cedf2344754c1b77ba2e3058cd5aeba35bd7facca",
+          "bytes": 27593
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/bastet_and_cats_deluxe.jsonl",
+          "sha256": "17a6a77ccc9c7eaeec79448393291c2f8c2c36001f0fce2a5272c1227eeacd33",
+          "bytes": 42204
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/booming_fruity_boom.jsonl",
+          "sha256": "0cac3a60eb352bad935ea4fa8e024cc3318afc3bd2fa028a51b693f4270e677e",
+          "bytes": 73348
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/cancan_saloon_deluxe.jsonl",
+          "sha256": "f22e7b157469e639703096c5f8fbeb004b3f6b7b2400d0806dcafd0c659e2155",
+          "bytes": 15556
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/cleopatras_gems_bingo.jsonl",
+          "sha256": "627ce0dd24b0a3e19092819fad64d3881b7f3c218cd6842c69fe45bee73d3b0a",
+          "bytes": 17228
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/european_roulette.jsonl",
+          "sha256": "31f8f9ed07f9aecb5ff8bdd72ee84bf75d94f9b318d7ed5479f9e142ea0ba71f",
+          "bytes": 4290
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/fabulous_farm_slot.jsonl",
+          "sha256": "dcfc6936782247c4efc89d73590042360441bdac114ba8389035d23a6b483473",
+          "bytes": 37937
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/for_the_realm_deluxe.jsonl",
+          "sha256": "53e7fd7da597bbbffde563332c76cdd08ed61440fa9fc22fcdc59079541e5133",
+          "bytes": 38392
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/friar_tucks_inn.jsonl",
+          "sha256": "31cf2c4554476e479b75db2e5e6764aca48c9608d712a71f491bcfc0b96e188d",
+          "bytes": 32828
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/ice_number_one.jsonl",
+          "sha256": "e3ba70d8d87a32e9d02e570f6007acae7eb70e36e85f67afb3c1964796274685",
+          "bytes": 28506
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/lucky_sheriff_keno.jsonl",
+          "sha256": "68489889e2e36c7372370361f696345e8356243d10665d09c369d193e743a5ec",
+          "bytes": 5926
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/mayan_riches_bingo.jsonl",
+          "sha256": "43b2e3ee1b61cfaed77eb0bff9030106c58756ef7c701d7a12f9138a99af7bde",
+          "bytes": 18990
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/metal_frontiers.jsonl",
+          "sha256": "6f5c303926470c67f2d5ab5e471d9518be60913ad57ba0c207930a7a923256a5",
+          "bytes": 61675
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/ouija_secrets.jsonl",
+          "sha256": "dba647b96172abaa605503221d109658c64ab6c8de26ab565a43151d65864ade",
+          "bytes": 21655
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/plinball_machine.jsonl",
+          "sha256": "260e6a680574e29956ba60ed68ca7b58a3184d6c23601f90b79eea63adbbad51",
+          "bytes": 4049
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/reel_eldorado.jsonl",
+          "sha256": "e1435287a2fab13e49e7a32676d919a56d7a663d2dd063b7b484250c7cf4e135",
+          "bytes": 36584
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/riot_brutalskis_revenge.jsonl",
+          "sha256": "046a535ff43d69db3085a4b8d9ebd8b8879f35bc760046d681f4c612e278f8cb",
+          "bytes": 32821
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/riot_ultimate.jsonl",
+          "sha256": "a768aaa89682c8b1cca7448188765ada91efc6ef8d3437fa6cb3a2f77b2971b3",
+          "bytes": 61960
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/tessa_hunt_and_the_temple_of_horus.jsonl",
+          "sha256": "69ec860dd33767f538070a0bd769201c41d153c9391170527a00bce9c3d7ce3c",
+          "bytes": 31573
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/tessa_hunt_and_the_warrior_tomb.jsonl",
+          "sha256": "24b8e61c83281b12760e09657067151033b9704c8277c16515029ee15cf34106",
+          "bytes": 43323
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/the_candy_keno.jsonl",
+          "sha256": "6f107701ff2ade5f074559552812fc6a3c833d9fc6a6ec7089763d1d8b8c37fe",
+          "bytes": 5303
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/the_dawn_is_coming.jsonl",
+          "sha256": "34a899ca1ae805ff60092c6f647eef8ad46a4abe607f24bf02dee9edd8328c03",
+          "bytes": 27409
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/videopoker_3in1.jsonl",
+          "sha256": "c9692b95d57fcc13c634c788d4b84faf14c3f44682712534860be7c49fd3cff7",
+          "bytes": 8622
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/viking_fortune_keno.jsonl",
+          "sha256": "693334d41781b6c7a568a599c26b1eee720a43e8c9c8f226c08df320b3f303f6",
+          "bytes": 5931
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/wasteland_riches.jsonl",
+          "sha256": "bc734ac994de5179ed9434902cc841bb24ba2d8e6fa417bd087e546a9874e307",
+          "bytes": 24100
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/wild_spirit_deluxe.jsonl",
+          "sha256": "8f13d7b5819b5445f5c4fe34831cd4c736bdf26fb9fbf870c8e6810d9f3bcb31",
+          "bytes": 28523
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/wood_luck.jsonl",
+          "sha256": "3d57500c7536998e35ac34b8d40dd2bc9bbf9028f90512222b0e8a9b3ee9a1b2",
+          "bytes": 72412
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads-extra/zeus_the_invincible.jsonl",
+          "sha256": "705d692f1f89f40be1d03e07be9796ab5aacf4bb0e272dfbb8c3c7729f48f5de",
+          "bytes": 34200
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/1win_zeus_the_thunderer_deluxe.jsonl",
+          "sha256": "f076eb8b1f9c189cbf053f6edacd3e9ca8e0a8db758f4987e876443eeaf10694",
+          "bytes": 68715
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/1x_riot.jsonl",
+          "sha256": "0f9e1e1503465459b0b06c93b499d8ba731ac6d0d90bfc40efea895b87f1780a",
+          "bytes": 41416
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/across_the_universe_keno.jsonl",
+          "sha256": "72838ea85725a7a5074e08d362ce7d2cecc6bd7ed779821f57cc82315076cba8",
+          "bytes": 3133
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/bamboo_bear_deluxe.jsonl",
+          "sha256": "224b49780c46fac82e9e582a5c5ff54e33de71bbca1b5d1607183a51d993d5e9",
+          "bytes": 34436
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/bastet_and_cats_deluxe.jsonl",
+          "sha256": "320b52fc6caa5dcde53d48bb95ff1991357d402765090f1b7e7054ce61da77be",
+          "bytes": 41890
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/booming_fruity_boom.jsonl",
+          "sha256": "9c8c50dfd50517f8beb47b51da9c5b588143a90c8b4cd10995204f05d47afb17",
+          "bytes": 26277
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/cancan_saloon_deluxe.jsonl",
+          "sha256": "5542f5bf0c6acf1fcceba810e8c059700a994ba58566b0afe0f4600c075baae3",
+          "bytes": 18953
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/cleopatras_gems_bingo.jsonl",
+          "sha256": "e6c1e882ae7bde32ea16b7a7a44efdf94aa3bfbf1a2644b952150a48bc475c49",
+          "bytes": 5307
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/european_roulette.jsonl",
+          "sha256": "893983dc5cb09907008131d4a902cf73fb7b9160db0ea0d56b58f7330153f04e",
+          "bytes": 1417
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/fabulous_farm_slot.jsonl",
+          "sha256": "dd362e96f4e1d262f790b1b400bc39892956a6a958d00d714f9156cf4c057790",
+          "bytes": 33548
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/for_the_realm_deluxe.jsonl",
+          "sha256": "46f1cda144a04cc8499a09d504cec377c562b0d6be0924995d658d42cdd5e6dd",
+          "bytes": 30793
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/friar_tucks_inn.jsonl",
+          "sha256": "1c92b7817c4b749ca014c8cc5229c643b27c1e20109fe6c1ad70e9ef2165ad21",
+          "bytes": 20540
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/ice_number_one.jsonl",
+          "sha256": "bce1b97ba3040b27522dfeff75734b41c48c560764ed2ccef5a10afa05a4922f",
+          "bytes": 24456
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/lucky_sheriff_keno.jsonl",
+          "sha256": "99f928f5087d539a43f60e6c33f45296443035d129c4860bc8175151722bb001",
+          "bytes": 1900
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/mayan_riches_bingo.jsonl",
+          "sha256": "192b8e7bff73f9425d5197999deb4bdb06fc4accc10a613c277bcb059a826ad1",
+          "bytes": 5224
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/metal_frontiers.jsonl",
+          "sha256": "3f5a4a0cada431b56070d53d66698e6d54ae3e4d4a2cd193798c075089812409",
+          "bytes": 72827
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/ouija_secrets.jsonl",
+          "sha256": "abec7ed5145799469b69a933fe051f785b1a6a15393747721c9f604432d6fb2a",
+          "bytes": 18025
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/plinball_machine.jsonl",
+          "sha256": "f7b3bb494b5d819dcf9026cf64dbf826c65633133aa591a0f3a58bddb9974cf2",
+          "bytes": 1405
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/reel_eldorado.jsonl",
+          "sha256": "28af29e3a5b9b647bcb2a9b8a30f8b341a4e3006169560b038bbc7e50eb0777b",
+          "bytes": 27044
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/riot_brutalskis_revenge.jsonl",
+          "sha256": "95832807f1bc8261bcd2a34ae9853d5d906744ca5a966123d20a0ddba5ac5d97",
+          "bytes": 21309
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/riot_ultimate.jsonl",
+          "sha256": "648dcb991417fbfb3044cd274ad5c1937aaeb3f27dcc87703c8be220cba4e49d",
+          "bytes": 61247
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/tessa_hunt_and_the_temple_of_horus.jsonl",
+          "sha256": "0db66e8a4860bab9b03ec112fa39ea249df47edb63460fe06ee5a7549f7d3467",
+          "bytes": 30698
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/tessa_hunt_and_the_warrior_tomb.jsonl",
+          "sha256": "f268935da68acfb43d3972443f07be73bde1f73559fb8614d20c5ce97d86cd3d",
+          "bytes": 52226
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/the_candy_keno.jsonl",
+          "sha256": "d21e93ded8d19f88ca435f0dd0139efb8de9166ccf23e8b47f35bb3628b6ebf3",
+          "bytes": 3415
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/the_dawn_is_coming.jsonl",
+          "sha256": "b1c6394e0c7e3fbd22b7ef0f206070eda58dadba885eaef144bf683126af2412",
+          "bytes": 21954
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/videopoker_3in1.jsonl",
+          "sha256": "e7dc1e6fc7f61226beb8afdc2ccbba3fb1607120bd5ca4baad6d265ac4738e61",
+          "bytes": 2950
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/viking_fortune_keno.jsonl",
+          "sha256": "a463545cf1e59b30d9970ac0e884454ee71d220ddd9521dc8f0093c648371474",
+          "bytes": 1904
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/wasteland_riches.jsonl",
+          "sha256": "27a28e41021666a7e1959a577a9a987a6ee8a6b037f265154433fb45ac426282",
+          "bytes": 20467
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/wild_spirit_deluxe.jsonl",
+          "sha256": "1ff10a743146801036d9cf64a5bd49c0723577478983e6ca180c02282fe1d5f0",
+          "bytes": 24495
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/wood_luck.jsonl",
+          "sha256": "c53237c55f6ee0849d43d2499f24103763ccc7cf999a15c885021f9e66e03207",
+          "bytes": 50413
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/payloads/zeus_the_invincible.jsonl",
+          "sha256": "f95467ae4b81cdc297b5e50f461d6242dcf413383b0ead6797af279cac24f5be",
+          "bytes": 32256
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/1win_zeus_the_thunderer_deluxe.jsonl",
+          "sha256": "714588b085d29432a981b7fd35ba0a3fec78ead41c0281495e5b9dc77bc6671b",
+          "bytes": 55178
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/1x_riot.jsonl",
+          "sha256": "869f85a5c3a91ec4ea7c15cb490e4725ff6126247be2918742e1d2758db2acef",
+          "bytes": 48987
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/bamboo_bear_deluxe.jsonl",
+          "sha256": "eb316e5d8e1ebda61de458b26248648e2a2f364669d6cfd2a34d32e3d48a932b",
+          "bytes": 41388
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/bastet_and_cats_deluxe.jsonl",
+          "sha256": "f9feb54b88184d1727be0bac91258f7c983d66f2775cee26148d5aef7f51c57d",
+          "bytes": 38777
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/booming_fruity_boom.jsonl",
+          "sha256": "966e6253cbcadd03df40bc5d70b655bb688143c1c58696b259be145086db1a40",
+          "bytes": 25184
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/cancan_saloon_deluxe.jsonl",
+          "sha256": "7b8f78835c87cdd03cff2fbe874c802b848e1762e50bc9a80c9e35976d649fe7",
+          "bytes": 14652
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/fabulous_farm_slot.jsonl",
+          "sha256": "e2a19659d324e71cb100bcbbb363f201716832e1ddf470feaaca180ed311ce2f",
+          "bytes": 39531
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/for_the_realm_deluxe.jsonl",
+          "sha256": "bd232376d56cff18f48b9ea02966d99faaa5a9765bc74b8293a487773c15ba14",
+          "bytes": 30051
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/friar_tucks_inn.jsonl",
+          "sha256": "525fe761f92e318c20ac1cbd083b655992270c7cea429e283dbf2936464ae5e8",
+          "bytes": 35570
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/ice_number_one.jsonl",
+          "sha256": "9499920935f195a0bcecb957ad809e510e2b93e238ec2a5f07624f738da380fd",
+          "bytes": 24194
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/metal_frontiers.jsonl",
+          "sha256": "fd34558b34c7dd2934208e3c26e0ae7a7ed061ed2b1869922ecb1262d8d41124",
+          "bytes": 53341
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/ouija_secrets.jsonl",
+          "sha256": "0127890cfc064be91ca0a978d7f29e6d2dc9b522e07d95ddaef5e31f4d498a14",
+          "bytes": 32636
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/reel_eldorado.jsonl",
+          "sha256": "0b7fa456eff66209ef3560f90a716d966487e3c4992f6b1c1df9e7d955b174ad",
+          "bytes": 39308
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/riot_brutalskis_revenge.jsonl",
+          "sha256": "796f2cb9eccd6e892e1dbd6567a40a0c673bafd5e77072de6a946b589573af8a",
+          "bytes": 18152
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/riot_ultimate.jsonl",
+          "sha256": "ab5b84ac9b1c17a68954c2de9462ed818f3de14b8344ee671f94071f6ccfb892",
+          "bytes": 73793
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/tessa_hunt_and_the_temple_of_horus.jsonl",
+          "sha256": "da0df556fb3c1db06f3f7a86460770db6ee97c5a2ad501f79983894045c0abb2",
+          "bytes": 26426
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/tessa_hunt_and_the_warrior_tomb.jsonl",
+          "sha256": "788d12213e5b70786bf6a537bbdeef6cadf9700b705b254287881778f2ae2c18",
+          "bytes": 52408
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/the_dawn_is_coming.jsonl",
+          "sha256": "918e98fe89adb93ec318fb48b916d32a64e417dba9a27e28ff5b4b39d8032627",
+          "bytes": 20077
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/wasteland_riches.jsonl",
+          "sha256": "62f4d6c1033da2f813d306037efba970769e7a2200f3f78d578b411fde20c5b4",
+          "bytes": 47244
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/wild_spirit_deluxe.jsonl",
+          "sha256": "4cabdaa268dd13334b4577f307efbf9113ff6cd53210e7b8201b0f933fa81782",
+          "bytes": 17817
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/wood_luck.jsonl",
+          "sha256": "a5d8ed889d54ca61f6d48c9c83d0fc9fea0282fd72aeef86df1ba35bff6d4373",
+          "bytes": 43073
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/2-evidencia-claude/mascot-gaming/verify-payloads/zeus_the_invincible.jsonl",
+          "sha256": "6ced3df894411d66f64d734855b0791b3bdc09f09cf883868bb85e44a9e65c13",
+          "bytes": 32795
+        }
+      ]
+    },
+    {
+      "file": "rubyplay-extra.json",
+      "sha256": "d81099a26af2f98f60be161046516ff213baba0368cfaf4b0a15f86b3a3c746e",
+      "bytes": 3247,
+      "kind": "derived",
+      "source_archive": "ENTREGA-CLAUDE.zip",
+      "source_archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+      "transformation": "Exact game/protocol/math associations for eight additional normal modes and two literal freespin purchases. HTTP envelope controls determine sequence, continuation and closure while binary is journaled opaquely; no choice-index search, version extrapolation or financial acceptance gate. The original rp_47 decoder index is unchanged.",
+      "sources": [
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/4-analisis-otros-proveedores/rubyplay.md",
+          "sha256": "1599dee30ea00cb57d96e5e6aa7a54d3ef01a790f9b08940425a0dc194735413",
+          "bytes": 33270
+        },
+        {
+          "source_archive": "ENTREGA-CLAUDE.zip",
+          "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/rubyplay/capture.py",
+          "sha256": "a59f4b8eb275d945a71d2ee42fdd02be0f8a5fcada1dc4038c99bc5b348cb494",
+          "bytes": 10121
+        },
+        {
+          "path": "standalone info/rubyplay/referencias/provider-work/rubyplay-chat2/open_demo_session.py",
+          "source_commit": "749ae8e4ca8e50326cc756fda8efb916c47b0be8",
+          "sha256": "8951f253e4cbc0ab404008518d98a99488a0bf41187a9e29dd9abc920d938690",
+          "bytes": 1828
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+  "sources": [
+    {
+      "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/inventarios/irondog-mock.json",
+      "sha256": "99c73a69dd50824e9ab860ba52f62bf84a8e8ee1ab153e843950dd25d746a2a7"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/irondog/harvest.py",
+      "sha256": "1568d5630c14916719955289ba98542f4b93a989958cdbd2cc8b2b97d095e5da"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/4-analisis-otros-proveedores/irondog.md",
+      "sha256": "a28949db7072a389c689e1c564a3aa712f18ef0d1523082dd1fb63fa75713ba6"
+    }
+  ],
+  "games": {
+    "8142": {
+      "name": "Halloween Horrors Megaways 96",
+      "type": "WINWAYS",
+      "modes": {
+        "normal": "normal",
+        "buy 0": "purchase",
+        "buy 1": "purchase",
+        "buy 2": "purchase",
+        "buy 3": "purchase",
+        "buy 4": "purchase",
+        "buy 5": "purchase"
+      }
+    },
+    "8143": {
+      "name": "Gods of Olympus II 96",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "buy 0": "purchase",
+        "buy 1": "purchase",
+        "buy 2": "purchase"
+      }
+    },
+    "8150": {
+      "name": "Apex Strike Megaways 96",
+      "type": "WINWAYS",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "buy 0": "purchase"
+      }
+    },
+    "8157": {
+      "name": "Arriba Heat: Salsa Wilds 96",
+      "type": "WINWAYS",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "buy 0": "purchase",
+        "buy 2": "purchase",
+        "buy 1": "purchase"
+      }
+    },
+    "8158": {
+      "name": "Vegas Branded Hold & Win 96",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "8159": {
+      "name": "Sweet Candy Cash Megaways Deluxe 95",
+      "type": "WINWAYS",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "ante 101": "antebet",
+        "ante 102": "antebet",
+        "buy 0": "purchase",
+        "buy 1": "purchase",
+        "buy 2": "purchase",
+        "buy 3": "purchase"
+      }
+    },
+    "8160": {
+      "name": "Goal Blitz 95",
+      "type": "WINWAYS",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "buy 0": "purchase"
+      }
+    },
+    "8169": {
+      "name": "Red Zone Blitz 95",
+      "type": "WINWAYS",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "buy 0": "purchase"
+      }
+    },
+    "8171": {
+      "name": "Eagle Strike Lucky Cache 95",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "ante 101": "antebet",
+        "ante 102": "antebet"
+      }
+    },
+    "8173": {
+      "name": "Grizzly Strike Lucky Cache 95",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "ante 101": "antebet",
+        "ante 102": "antebet"
+      }
+    },
+    "8175": {
+      "name": "Solar Nova Megaways 96",
+      "type": "WINWAYS",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "buy 0": "purchase"
+      }
+    },
+    "8183": {
+      "name": "Apex Strike Lucky Cache 95",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet",
+        "ante 101": "antebet",
+        "ante 102": "antebet"
+      }
+    },
+    "8186": {
+      "name": "Everest Avalanche 95",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "ante 100": "antebet"
+      }
+    },
+    "8197": {
+      "name": "3 Hot Chilli Peppers 95",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "8501": {
+      "name": "Branded Book Of 96",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "buy 0": "purchase",
+        "buy 1": "purchase",
+        "buy 2": "purchase"
+      }
+    },
+    "9132": {
+      "name": "Cleopatra's Fortune 95",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "buy 0": "purchase",
+        "buy 1": "purchase"
+      }
+    },
+    "9143": {
+      "name": "Plucky Hens: Cluck Yeah 95",
+      "type": "PAYLINES",
+      "modes": {
+        "normal": "normal",
+        "buy 0": "purchase"
+      }
+    }
+  }
+}

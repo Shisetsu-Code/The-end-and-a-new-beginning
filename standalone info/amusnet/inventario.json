@@ -1,0 +1,7573 @@
+{
+  "id": "amusnet",
+  "name": "Amusnet",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "amusnet.gin",
+    "workspace_adapter": "collection_extra_misc.py::collect",
+    "continuations": "native option and bonus phase",
+    "closure": "round and wallet"
+  },
+  "games": [
+    {
+      "id": "375",
+      "name": "Tiki Tiki Boo Boo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "400",
+      "name": "Book of Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "401",
+      "name": "Secrets of Sherwood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "name": "Diamond Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "403",
+      "name": "Froggy Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "404",
+      "name": "Mighty Sparta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "405",
+      "name": "Candy Palace",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        }
+      ]
+    },
+    {
+      "id": "406",
+      "name": "Extreme Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "407",
+      "name": "Fruity Time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "408",
+      "name": "40 Luxury Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "409",
+      "name": "27 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "410",
+      "name": "Bulky Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "411",
+      "name": "Hot Deco",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "412",
+      "name": "Cocktail Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "414",
+      "name": "Richness Factory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "416",
+      "name": "Greek Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "417",
+      "name": "Fruits & Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "418",
+      "name": "20 Golden Coins Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "421",
+      "name": "27 Eternal Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "424",
+      "name": "Latin Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "425",
+      "name": "Drops of Water",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "name": "40 Power Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "427",
+      "name": "20 Bulky Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "428",
+      "name": "40 Bulky Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "430",
+      "name": "Gold & Crystals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "431",
+      "name": "Power Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "432",
+      "name": "Flaming Hot 6 Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "433",
+      "name": "Bulky Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "434",
+      "name": "100 Power Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "435",
+      "name": "20 Power Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "437",
+      "name": "Dancing Dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "438",
+      "name": "Dice Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "439",
+      "name": "Dice Deco",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "440",
+      "name": "Phoenix Star",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "441",
+      "name": "100 Bulky Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "442",
+      "name": "Cavemen and Dinosaurs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "443",
+      "name": "Aztec Forest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "444",
+      "name": "Dice of Sherwood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "445",
+      "name": "40 Bulky Fruits 6 Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "446",
+      "name": "Extra Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "447",
+      "name": "Easter Frog",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "449",
+      "name": "Art of Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "450",
+      "name": "Richness Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "451",
+      "name": "5 Glossy Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "452",
+      "name": "Kemet's Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "454",
+      "name": "Dice Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "455",
+      "name": "Candy Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        }
+      ]
+    },
+    {
+      "id": "456",
+      "name": "20 Bulky Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "457",
+      "name": "Aztec Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "459",
+      "name": "Clover Islands",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_GOLDEN_POTS_BONUS",
+          "type": "purchase",
+          "label": "BUY_GOLDEN_POTS_BONUS"
+        },
+        {
+          "key": "BUY_LUCKY_CHEST_BONUS",
+          "type": "purchase",
+          "label": "BUY_LUCKY_CHEST_BONUS"
+        },
+        {
+          "key": "BUY_CLOVER_ISLAND_BONUS",
+          "type": "purchase",
+          "label": "BUY_CLOVER_ISLAND_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "460",
+      "name": "Bier O'Meter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_WHEEL",
+          "type": "purchase",
+          "label": "BUY_WHEEL"
+        }
+      ]
+    },
+    {
+      "id": "461",
+      "name": "Vampire Beast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "463",
+      "name": "Secrets of Cairo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "464",
+      "name": "Orient Story Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "TEN_FREESPINS",
+          "type": "purchase",
+          "label": "TEN_FREESPINS"
+        },
+        {
+          "key": "TWELVE_FREESPINS",
+          "type": "purchase",
+          "label": "TWELVE_FREESPINS"
+        },
+        {
+          "key": "FIFTEEN_FREESPINS",
+          "type": "purchase",
+          "label": "FIFTEEN_FREESPINS"
+        },
+        {
+          "key": "THREE_RESPINS",
+          "type": "purchase",
+          "label": "THREE_RESPINS"
+        },
+        {
+          "key": "BOOSTED_BASE_GAME",
+          "type": "booster",
+          "label": "BOOSTED_BASE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "467",
+      "name": "Water Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "468",
+      "name": "40 Golden Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "470",
+      "name": "100 Golden Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "471",
+      "name": "Fruits & Gold Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "475",
+      "name": "Stoichkov #8",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "476",
+      "name": "20 Power Hot Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "477",
+      "name": "40 Power Hot Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "478",
+      "name": "100 Power Hot Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "479",
+      "name": "Wild Traces",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "480",
+      "name": "7 & Crystals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "482",
+      "name": "Gorgon's Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS_3",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_3"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS_2",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_2"
+        },
+        {
+          "key": "BUY_FREESPINS_1",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_1"
+        }
+      ]
+    },
+    {
+      "id": "484",
+      "name": "Dice Vikings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "485",
+      "name": "5 Glossy Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "486",
+      "name": "Cocktail Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "487",
+      "name": "Cocktail Rush - Easter Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "489",
+      "name": "Diamond Plus - Valentine's Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "490",
+      "name": "5 Power Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "491",
+      "name": "10 Power Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "492",
+      "name": "Extra Crown Classic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "495",
+      "name": "Diamond Plus Football Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "496",
+      "name": "5 Diamond Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "497",
+      "name": "20 Diamond Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "498",
+      "name": "40 Diamond Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "499",
+      "name": "Bison Charge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5000",
+      "name": "Shining Crown Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5003",
+      "name": "Alpha Instinct",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BOOSTED_DOUBLE_CHANCE",
+          "type": "booster",
+          "label": "BOOSTED_DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5005",
+      "name": "Easter Frog Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5009",
+      "name": "Power Of Triton Book of Water",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "501",
+      "name": "Fast Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5011",
+      "name": "Caramel Drops",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "ANTE_BET_3",
+          "type": "antebet",
+          "label": "ANTE_BET_3"
+        },
+        {
+          "key": "ANTE_BET_2",
+          "type": "antebet",
+          "label": "ANTE_BET_2"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_SUPER_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_SUPER_FREESPINS"
+        },
+        {
+          "key": "ANTE_BET_1",
+          "type": "antebet",
+          "label": "ANTE_BET_1"
+        }
+      ]
+    },
+    {
+      "id": "5012",
+      "name": "27 Wild Shots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5013",
+      "name": "20 Aztec Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5014",
+      "name": "Asian Palace",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        }
+      ]
+    },
+    {
+      "id": "5015",
+      "name": "Great Sparta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5016",
+      "name": "Book of Waka-Waka",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "502",
+      "name": "Magellan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5020",
+      "name": "Cherry Cherry Baby",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_NORMAL_BONUS",
+          "type": "purchase",
+          "label": "BUY_NORMAL_BONUS"
+        },
+        {
+          "key": "BUY_SUPER_BONUS",
+          "type": "purchase",
+          "label": "BUY_SUPER_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5021",
+      "name": "20 Golden Bass",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5022",
+      "name": "Legend of Zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        },
+        {
+          "key": "SUPER_BUY_BONUS",
+          "type": "purchase",
+          "label": "SUPER_BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5029",
+      "name": "Mystic Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5030",
+      "name": "Wild Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5031",
+      "name": "7 Fire Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS_GAME",
+          "type": "purchase",
+          "label": "BUY_BONUS_GAME"
+        }
+      ]
+    },
+    {
+      "id": "504",
+      "name": "Route of Mexico",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5042",
+      "name": "Roman Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5043",
+      "name": "Ancient Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "505",
+      "name": "Wonder Tree",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5054",
+      "name": "Clover Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "5056",
+      "name": "Caramelo Sortudo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5057",
+      "name": "Porko Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5058",
+      "name": "Pot o' Pumpkins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5059",
+      "name": "Hot Deco Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "506",
+      "name": "Caramel Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5063",
+      "name": "100 Art of Gold Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5064",
+      "name": "40 Art Of Gold 6 Reels Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5068",
+      "name": "Latin Heart Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5069",
+      "name": "20 Wild Goals Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5070",
+      "name": "Extra Crown Classic Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5071",
+      "name": "Vizier Of The North x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS_3",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_3"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS_2",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_2"
+        },
+        {
+          "key": "BUY_FREESPINS_1",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_1"
+        }
+      ]
+    },
+    {
+      "id": "5072",
+      "name": "Dice Deco Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "5074",
+      "name": "Bier O'Meter Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_WHEEL",
+          "type": "purchase",
+          "label": "BUY_WHEEL"
+        }
+      ]
+    },
+    {
+      "id": "5075",
+      "name": "27 Wild Shots Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5076",
+      "name": "Amaterasu's Treasures x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS_3",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_3"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS_2",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_2"
+        },
+        {
+          "key": "BUY_FREESPINS_1",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_1"
+        }
+      ]
+    },
+    {
+      "id": "5079",
+      "name": "Coin Gobbler Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "508",
+      "name": "Dragon Reborn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5080",
+      "name": "Mystic Urns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        },
+        {
+          "key": "ANTE_EXPANDING_WILD",
+          "type": "antebet",
+          "label": "ANTE_EXPANDING_WILD"
+        },
+        {
+          "key": "ANTE_ALL_POTS",
+          "type": "antebet",
+          "label": "ANTE_ALL_POTS"
+        },
+        {
+          "key": "BUY_ALL_POTS",
+          "type": "purchase",
+          "label": "BUY_ALL_POTS"
+        }
+      ]
+    },
+    {
+      "id": "5082",
+      "name": "Extra Crown Classic - Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5083",
+      "name": "20 Extra Crown - Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5084",
+      "name": "40 Extra Crown - Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5085",
+      "name": "100 Extra Crown - Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5086",
+      "name": "Bulky Fruits Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5087",
+      "name": "20 Bulky Fruits Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5088",
+      "name": "40 Bulky Fruits Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5089",
+      "name": "100 Bulky Fruits Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "509",
+      "name": "Flaming Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5090",
+      "name": "Cocktail Rush Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5091",
+      "name": "Vampire Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5094",
+      "name": "40 Vampire Beast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "510",
+      "name": "Legendary Rome",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5103",
+      "name": "Crazy Octopus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5105",
+      "name": "40 Power Hot Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5106",
+      "name": "Extra Clown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5107",
+      "name": "Ocean Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS_GAME",
+          "type": "purchase",
+          "label": "BUY_BONUS_GAME"
+        }
+      ]
+    },
+    {
+      "id": "5108",
+      "name": "40 Fruits & Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5109",
+      "name": "40 Glossy Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "511",
+      "name": "Aztec Glory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5110",
+      "name": "40 Extra Crown Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_PREMIUMS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_PREMIUMS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5111",
+      "name": "40 Glossy Hot Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5112",
+      "name": "40 Fruits & Gold Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_HIGH_COINS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_HIGH_COINS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5113",
+      "name": "40 Art Of Gold Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5115",
+      "name": "40 Lucky Wilds Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5116",
+      "name": "Football Palace 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS_2",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_2"
+        },
+        {
+          "key": "BUY_FREESPINS_1",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_1"
+        }
+      ]
+    },
+    {
+      "id": "5117",
+      "name": "40 Mystic Gem",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5119",
+      "name": "Golden Rabbit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "512",
+      "name": "Queen of Rio",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5120",
+      "name": "100 Bulky Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5121",
+      "name": "Phoenix Star Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "5123",
+      "name": "40 Extra Crown Classic Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5124",
+      "name": "Toad Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "513",
+      "name": "The Big Journey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "514",
+      "name": "Coral Island",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "515",
+      "name": "Like A Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5156",
+      "name": "Panda's Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5157",
+      "name": "Kebab Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_3_COLLECTS_GUARANTEED",
+          "type": "purchase",
+          "label": "BB_3_COLLECTS_GUARANTEED"
+        },
+        {
+          "key": "BB_EXTRA_MULTIPLIERS",
+          "type": "purchase",
+          "label": "BB_EXTRA_MULTIPLIERS"
+        },
+        {
+          "key": "BB_SUPER_BONUS",
+          "type": "purchase",
+          "label": "BB_SUPER_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "516",
+      "name": "More Like a Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5161",
+      "name": "Golden Tiger 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5163",
+      "name": "Golden Snake",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5164",
+      "name": "Golden Ox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5165",
+      "name": "Golden Mouse",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5166",
+      "name": "Golden Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5168",
+      "name": "20 Golden Coins: Reel Fishing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5169",
+      "name": "40 Golden Coins: Reel Fishing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5170",
+      "name": "100 Golden Coins: Reel Fishing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5172",
+      "name": "Cairo Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5173",
+      "name": "Sparta Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5174",
+      "name": "10 Alebrijes Eternal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5176",
+      "name": "40 Lucky Wilds Hot Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_HIGH_COINS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_HIGH_COINS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_PREMIUMS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_PREMIUMS_ONLY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5178",
+      "name": "Burning Hot Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5179",
+      "name": "20 Burning Hot Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "518",
+      "name": "Crazy Bugs II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5180",
+      "name": "40 Burning Hot Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5181",
+      "name": "100 Burning Hot Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5183",
+      "name": "Chicão Sortudo Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_3_COLLECTS_GUARANTEED",
+          "type": "purchase",
+          "label": "BB_3_COLLECTS_GUARANTEED"
+        },
+        {
+          "key": "BB_EXTRA_MULTIPLIERS",
+          "type": "purchase",
+          "label": "BB_EXTRA_MULTIPLIERS"
+        },
+        {
+          "key": "BB_SUPER_BONUS",
+          "type": "purchase",
+          "label": "BB_SUPER_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5196",
+      "name": "Triple Fortune Festival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5197",
+      "name": "Porko Collect Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "5198",
+      "name": "Porko Boost Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "520",
+      "name": "Almighty Ramses ||",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "521",
+      "name": "Caramel Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "522",
+      "name": "Amazons' Story",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "523",
+      "name": "Wonderheart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "525",
+      "name": "Brave Cat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "527",
+      "name": "100 Super Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5279",
+      "name": "El Dogiachi 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "528",
+      "name": "30 Spicy Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5282",
+      "name": "Crazy Red Nest Quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_REGULAR_WHEEL",
+          "type": "purchase",
+          "label": "BUY_REGULAR_WHEEL"
+        },
+        {
+          "key": "BUY_UPGRADED_WHEEL",
+          "type": "purchase",
+          "label": "BUY_UPGRADED_WHEEL"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5283",
+      "name": "Cheeky Cherry",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "5284",
+      "name": "40 Alebrijes Eternal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "529",
+      "name": "40 Burning Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5295",
+      "name": "Seker Baklava",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_WHEEL",
+          "type": "purchase",
+          "label": "BUY_WHEEL"
+        }
+      ]
+    },
+    {
+      "id": "5297",
+      "name": "Hot Deco Nonstop Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        },
+        {
+          "key": "BB_3_COLLECTS_GUARANTEE",
+          "type": "purchase",
+          "label": "BB_3_COLLECTS_GUARANTEE"
+        },
+        {
+          "key": "SUPER_BB",
+          "type": "purchase",
+          "label": "SUPER_BB"
+        }
+      ]
+    },
+    {
+      "id": "530",
+      "name": "20 Burning Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5301",
+      "name": "27 Eternal Hot Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_WHEEL",
+          "type": "purchase",
+          "label": "BUY_WHEEL"
+        }
+      ]
+    },
+    {
+      "id": "5305",
+      "name": "Super Crazy Red x1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS_3",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_3"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS_2",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_2"
+        },
+        {
+          "key": "BUY_FREESPINS_1",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_1"
+        }
+      ]
+    },
+    {
+      "id": "5307",
+      "name": "20 Wild Gobbler",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5308",
+      "name": "100 Wild Gobbler",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5309",
+      "name": "Candy Palace 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS_2",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_2"
+        },
+        {
+          "key": "BUY_FREESPINS_1",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_1"
+        }
+      ]
+    },
+    {
+      "id": "531",
+      "name": "40 Ultra Respin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "532",
+      "name": "5 Burning Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "533",
+      "name": "10 Burning Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5337",
+      "name": "Golden Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS_GAME",
+          "type": "purchase",
+          "label": "BUY_BONUS_GAME"
+        }
+      ]
+    },
+    {
+      "id": "5339",
+      "name": "20 Lucky Wilds Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "534",
+      "name": "100 Super Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5340",
+      "name": "100 Lucky Wilds Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5341",
+      "name": "100 Glossy Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5342",
+      "name": "100 Fruits & Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5343",
+      "name": "100 Power Hot Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_HIGH_COINS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_HIGH_COINS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_PREMIUMS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_PREMIUMS_ONLY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5344",
+      "name": "100 Extra Crown Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_HIGH_COINS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_HIGH_COINS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5345",
+      "name": "100 Glossy Hot Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_PREMIUMS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_PREMIUMS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5346",
+      "name": "100 Fruits & Gold Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_PREMIUMS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_PREMIUMS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5347",
+      "name": "100 Lucky Wilds Hot Coin Boost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_JACKPOTS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_JACKPOTS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_HIGH_COINS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_HIGH_COINS_ONLY_FREESPINS"
+        },
+        {
+          "key": "BUY_PREMIUMS_ONLY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_PREMIUMS_ONLY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "535",
+      "name": "30 Spicy Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5352",
+      "name": "Versailles Gold Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5353",
+      "name": "Majestic Forest Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5354",
+      "name": "Fortune Spells Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5355",
+      "name": "Royal Gardens Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5356",
+      "name": "Grace of Cleopatra Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5357",
+      "name": "Olympus Glory Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5358",
+      "name": "Aztec Glory Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5359",
+      "name": "Book of Waka-Waka Buy Bonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "536",
+      "name": "40 Burning Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5361",
+      "name": "Clover Dice Super Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BB_RANDOM_COLLECTS",
+          "type": "purchase",
+          "label": "BB_RANDOM_COLLECTS"
+        }
+      ]
+    },
+    {
+      "id": "5365",
+      "name": "40 Extra Crown Mystery Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5366",
+      "name": "100 Extra Crown Mystery Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5367",
+      "name": "40 Lucky Wilds Hot Mystery Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5368",
+      "name": "100 Lucky Wilds Hot Mystery Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "537",
+      "name": "20 Burning Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5374",
+      "name": "10 Lucky Wilds Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5375",
+      "name": "5 Lucky Wilds Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5376",
+      "name": "40 Golden Bass",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5377",
+      "name": "100 Golden Bass",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5391",
+      "name": "Crazy Red Nesting Season",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_REGULAR_WHEEL",
+          "type": "purchase",
+          "label": "BUY_REGULAR_WHEEL"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "5417",
+      "name": "5 Alebrijes Eternal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5418",
+      "name": "20 Alebrijes Eternal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5419",
+      "name": "100 Alebrijes Eternal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_2_WILDS_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_GUARANTEE"
+        },
+        {
+          "key": "BUY_2_WILDS_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_2_WILDS_GUARANTEE"
+        },
+        {
+          "key": "BUY_1_WILD_NON_GUARANTEE",
+          "type": "purchase",
+          "label": "BUY_1_WILD_NON_GUARANTEE"
+        },
+        {
+          "key": "BUY_3_WILDS",
+          "type": "purchase",
+          "label": "BUY_3_WILDS"
+        }
+      ]
+    },
+    {
+      "id": "5420",
+      "name": "5 Hot Corn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "544",
+      "name": "20 Dazzling Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "5448",
+      "name": "Tres Tesoros del Café",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "545",
+      "name": "40 Hot & Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "546",
+      "name": "40 Lucky King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "547",
+      "name": "40 Mega Clover",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "548",
+      "name": "100 Burning Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "549",
+      "name": "81 Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "553",
+      "name": "5 Great Star",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "554",
+      "name": "20 Joker Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "555",
+      "name": "Great 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "556",
+      "name": "27 Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "557",
+      "name": "5 Juggle Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "558",
+      "name": "20 Hot Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "559",
+      "name": "20 Joker Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "560",
+      "name": "Shining Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "561",
+      "name": "40 Almighty Ramses II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "562",
+      "name": "Vampire Night",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "563",
+      "name": "50 Amazons' Battle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "564",
+      "name": "Volcano Wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "565",
+      "name": "Burning Hot 6 reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "566",
+      "name": "40 Burning Hot 6 Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "567",
+      "name": "Ancient Dynasty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "568",
+      "name": "Flaming Hot Extreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "569",
+      "name": "40 King",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "570",
+      "name": "81 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "571",
+      "name": "Ice Valley",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "572",
+      "name": "Rainbow Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "573",
+      "name": "Lucky Wood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "574",
+      "name": "Knight's Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "575",
+      "name": "Retro Cabaret",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "576",
+      "name": "Pin Up Queens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "577",
+      "name": "Mythical Treasure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "578",
+      "name": "Emperor's Palace",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "579",
+      "name": "Dorothy's Fairyland",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "580",
+      "name": "The Story of Alexander II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "581",
+      "name": "30 Summer Bliss",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "588",
+      "name": "Egypt Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "589",
+      "name": "Brilliant Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "590",
+      "name": "Halloween Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "592",
+      "name": "20 Golden Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "593",
+      "name": "Orient Story",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "594",
+      "name": "Blue Oceans",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "595",
+      "name": "Tirol Fest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "596",
+      "name": "Viking Rising",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "597",
+      "name": "Kamakura",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "598",
+      "name": "Magic Guardians",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "599",
+      "name": "Empress Charm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "606",
+      "name": "20 Extra Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "607",
+      "name": "40 Extra Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "608",
+      "name": "20 Glossy Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "609",
+      "name": "5 Extra Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "610",
+      "name": "100 Extra Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "611",
+      "name": "Crazy Red",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "612",
+      "name": "Dice of Magic - Easter Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "613",
+      "name": "Dice & Roll - Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "614",
+      "name": "Rolling Dice - Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "615",
+      "name": "Caramel Dice - Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "616",
+      "name": "Caramel Hot - Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "617",
+      "name": "Crime King 1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS_3",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_3"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "BUY_FREESPINS_2",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_2"
+        },
+        {
+          "key": "BUY_FREESPINS_1",
+          "type": "purchase",
+          "label": "BUY_FREESPINS_1"
+        }
+      ]
+    },
+    {
+      "id": "619",
+      "name": "10 Bulky Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "620",
+      "name": "10 Glossy Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "621",
+      "name": "Candy Palace - Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        },
+        {
+          "key": "DOUBLE_CHANCE",
+          "type": "antebet",
+          "label": "DOUBLE_CHANCE"
+        }
+      ]
+    },
+    {
+      "id": "622",
+      "name": "20 Golden Coins - Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "623",
+      "name": "40 Extra Crown 6 Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "624",
+      "name": "100 Art Of Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "625",
+      "name": "7 & Crystals Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "626",
+      "name": "40 Wild Gobbler",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "627",
+      "name": "Art Of Gold 6 Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "629",
+      "name": "20 Wild Goals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "630",
+      "name": "100 Extra Crown 6 Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "632",
+      "name": "Extra Crown Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "TEN_FREESPINS",
+          "type": "purchase",
+          "label": "TEN_FREESPINS"
+        },
+        {
+          "key": "TWELVE_FREESPINS",
+          "type": "purchase",
+          "label": "TWELVE_FREESPINS"
+        },
+        {
+          "key": "FIFTEEN_FREESPINS",
+          "type": "purchase",
+          "label": "FIFTEEN_FREESPINS"
+        },
+        {
+          "key": "THREE_RESPINS",
+          "type": "purchase",
+          "label": "THREE_RESPINS"
+        },
+        {
+          "key": "BOOSTED_BASE_GAME",
+          "type": "booster",
+          "label": "BOOSTED_BASE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "635",
+      "name": "Wenshi Lion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "636",
+      "name": "40 Golden Coins Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "637",
+      "name": "100 Golden Coins Dice Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "638",
+      "name": "40 Bulky Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "639",
+      "name": "40 Bulky Dice 6 reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "640",
+      "name": "Kemet's Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "641",
+      "name": "20 Pirate Bombs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "645",
+      "name": "Sparta Legend",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "661",
+      "name": "10 Vampire Beast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "662",
+      "name": "20 Vampire Beast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "663",
+      "name": "Dice & Dinosaurs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "777",
+      "name": "Extra Crown Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8000",
+      "name": "40 Power Hot Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8001",
+      "name": "40 Extra Crown Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8002",
+      "name": "40 Mystic Gem Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8003",
+      "name": "100 Power Hot Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8004",
+      "name": "40 Bulky Fruits Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8005",
+      "name": "100 Bulky Fruits Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8006",
+      "name": "Art of Gold Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8007",
+      "name": "20 Glossy Hot Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8008",
+      "name": "40 Power Hot Triple Boost Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8009",
+      "name": "40 Vampire Beast Triple Boost Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_HOLD_AND_SPIN",
+          "type": "purchase",
+          "label": "BUY_HOLD_AND_SPIN"
+        }
+      ]
+    },
+    {
+      "id": "801",
+      "name": "Burning Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8010",
+      "name": "40 Extra Crown Triple Boost Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8011",
+      "name": "40 Lucky Wilds Hot Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8015",
+      "name": "40 Power Hot Dice Edition Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8016",
+      "name": "40 Bulky Dice Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8017",
+      "name": "100 Power Hot Dice Edition Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8018",
+      "name": "100 Bulky Dice Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8019",
+      "name": "40 Extra Crown Classic Dice Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "802",
+      "name": "Ultimate Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8020",
+      "name": "40 Art Of Gold Dice Edition Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8021",
+      "name": "100 Bulky Dice Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8022",
+      "name": "100 Bulky Fruits Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8023",
+      "name": "100 Power Hot Dice Edition Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8024",
+      "name": "100 Power Hot Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8025",
+      "name": "20 Glossy Hot Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8026",
+      "name": "40 Art Of Gold Dice Edition Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8027",
+      "name": "40 Bulky Dice Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8028",
+      "name": "40 Bulky Fruits Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8029",
+      "name": "40 Extra Crown Classic Dice Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "803",
+      "name": "20 Super Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8030",
+      "name": "40 Extra Crown Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8031",
+      "name": "40 Lucky Wilds Hot Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8032",
+      "name": "40 Mystic Gem Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8033",
+      "name": "40 Power Hot Dice Edition Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8034",
+      "name": "40 Power Hot Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8035",
+      "name": "Art of Gold Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8036",
+      "name": "Panda's Gold Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8037",
+      "name": "40 Power Hot Triple Boost Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8038",
+      "name": "Trophy Rush Triple Boost Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8039",
+      "name": "Pyramid Gold Triple Boost Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_HOLD_AND_SPIN",
+          "type": "purchase",
+          "label": "BUY_HOLD_AND_SPIN"
+        }
+      ]
+    },
+    {
+      "id": "804",
+      "name": "40 Super Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8040",
+      "name": "Panda's Gold Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8044",
+      "name": "40 Extra Crown Triple Boost Golden Coins Link VIP",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "805",
+      "name": "Flaming Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "8052",
+      "name": "Tesoro d'Oro Triple Boost Golden Coins Link",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_HOLD_AND_SPIN",
+          "type": "purchase",
+          "label": "BUY_HOLD_AND_SPIN"
+        }
+      ]
+    },
+    {
+      "id": "806",
+      "name": "Rise of Ra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "807",
+      "name": "Zodiac Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "808",
+      "name": "Amazing Amazonia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "809",
+      "name": "Royal Secrets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "810",
+      "name": "5 Dazzling Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "811",
+      "name": "Fruits Kingdom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "812",
+      "name": "Age of Troy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "813",
+      "name": "Dragon Reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "814",
+      "name": "Blue Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "815",
+      "name": "Witches' Charm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "817",
+      "name": "Grace of Cleopatra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "818",
+      "name": "Versailles Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "819",
+      "name": "Olympus Glory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "820",
+      "name": "Fortune Spells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "821",
+      "name": "Supreme Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "822",
+      "name": "Extra Stars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "823",
+      "name": "Game of Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "824",
+      "name": "Dice & Roll",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "825",
+      "name": "Egypt Sky",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "826",
+      "name": "Book of Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "828",
+      "name": "Secrets of Alchemy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "829",
+      "name": "Circus Brilliant",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "830",
+      "name": "Majestic Forest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "831",
+      "name": "Shining Crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "832",
+      "name": "Venezia D'oro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "833",
+      "name": "Halloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "834",
+      "name": "The Explorers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "835",
+      "name": "Forest Band",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "836",
+      "name": "Kangaroo Land",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "837",
+      "name": "Great Adventure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "839",
+      "name": "Ocean Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "841",
+      "name": "Imperial Wars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "842",
+      "name": "Burning Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "843",
+      "name": "20 Super Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "844",
+      "name": "40 Super Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "845",
+      "name": "Supreme Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "846",
+      "name": "Kashmir Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "847",
+      "name": "100 Cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "848",
+      "name": "Oil Company II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "849",
+      "name": "Lucky Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "850",
+      "name": "Casino Mania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "851",
+      "name": "Action Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "852",
+      "name": "Penguin Style",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "853",
+      "name": "Frog Story",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "854",
+      "name": "20 Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "855",
+      "name": "Summer Bliss",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "856",
+      "name": "Dice of Ra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "857",
+      "name": "Extra Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "858",
+      "name": "Dark Queen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "859",
+      "name": "Amazons' Battle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "860",
+      "name": "Rolling Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "861",
+      "name": "Neon Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "863",
+      "name": "The White Wolf",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "864",
+      "name": "Great Empire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "865",
+      "name": "Inca Gold II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "866",
+      "name": "Hot & Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "867",
+      "name": "Ice Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "868",
+      "name": "Lucky & Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "869",
+      "name": "More Lucky & Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "871",
+      "name": "Cats Royal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "872",
+      "name": "Genius of Leonardo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "873",
+      "name": "The Secrets of London",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "874",
+      "name": "Imperial Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "875",
+      "name": "More Dice & Roll",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "876",
+      "name": "Forest Tale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "877",
+      "name": "Dragon Spirit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "879",
+      "name": "50 Horses",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "880",
+      "name": "Extremely Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "881",
+      "name": "Lucky Buzz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "882",
+      "name": "2 Dragons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "883",
+      "name": "Royal Gardens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "884",
+      "name": "Aloha Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "885",
+      "name": "The Great Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "886",
+      "name": "5 Hot Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "888",
+      "name": "Dragon Hot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "889",
+      "name": "Retro Style",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "893",
+      "name": "100 Dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "894",
+      "name": "Dice of Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "895",
+      "name": "Spanish Passion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "896",
+      "name": "The Story of Alexander",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "897",
+      "name": "Super 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "898",
+      "name": "Mayan Spirit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "899",
+      "name": "Rich World",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9000",
+      "name": "Burning Hot EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9001",
+      "name": "20 Super Hot EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9002",
+      "name": "Egypt Sky EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9003",
+      "name": "20 Super Dice EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9004",
+      "name": "Burning Dice EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9005",
+      "name": "Egypt Dice EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9006",
+      "name": "Rise of Ra EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9007",
+      "name": "Dice of Ra EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9008",
+      "name": "Circus Brilliant EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9009",
+      "name": "Brilliant Dice EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9010",
+      "name": "Halloween EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9011",
+      "name": "Halloween Dice EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9024",
+      "name": "Pot O'Pumpkins EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9025",
+      "name": "Stoichkov #8 EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9026",
+      "name": "20 Lucky Wilds Hot EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9027",
+      "name": "20 Power Hot EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "9028",
+      "name": "Kemet's Treasures EQ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        }
+      ]
+    },
+    {
+      "id": "910",
+      "name": "Coin Gobbler",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    },
+    {
+      "id": "911",
+      "name": "Coin Gobbler - Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NONE",
+          "type": "normal",
+          "label": "NONE"
+        },
+        {
+          "key": "BUY_FREESPINS",
+          "type": "purchase",
+          "label": "BUY_FREESPINS"
+        }
+      ]
+    }
+  ]
+}

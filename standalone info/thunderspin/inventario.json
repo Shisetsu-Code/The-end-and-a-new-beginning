@@ -1,0 +1,921 @@
+{
+  "id": "thunderspin",
+  "name": "ThunderSpin",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "thunderspin.native",
+    "workspace_adapter": "collection_extra_chat4.py::collect",
+    "continuations": "client campaign contract",
+    "closure": "native final state and wallet"
+  },
+  "games": [
+    {
+      "id": "62",
+      "name": "Indian Call",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Illuminati Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Comeback",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Secret Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Fortune Jaguar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Steam Wilds Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Shadow Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Jingle Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Fiery Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Loco Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Candy Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Savannah Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Thunder Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Steam Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Tundra Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Holmes vs Moriarty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Santa vs Krampus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Aztec Artefacts 10000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Book of Witches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Pyramids Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Rich Leprechaun Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Money Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Book of Games 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Book of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Aztec Artefacts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Sakura Mystery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Western Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Book of Games",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Pyramids",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Book of Jam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Sky Lanterns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Halloween Witch Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Kingdom of Glory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Book of Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Vikings: Frozen Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Angels vs Demons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Spy Girls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Egypt Story",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Stellar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Cute Farm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "World Cup Football",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "The Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Crazy New Year",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Atomic Mushrooms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Indian Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Jolly Roger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Circus Train",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Necronomicon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Snailtown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Space Jail",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Magic Jam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Animals Steam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Joker Jack",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Candyland",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Calipso",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Chibi Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Monster Sushi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Zombie Slot Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Gold Sea",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "The Queen of Spades",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Zeus Riches Megaways",
+      "ready": false,
+      "block_reason": "historical_round_or_remote_block_requires_reconciliation",
+      "modes": []
+    }
+  ]
+}

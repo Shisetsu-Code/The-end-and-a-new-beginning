@@ -1,0 +1,237 @@
+{
+  "bee-hive-bonanza": {
+    "free_actions": [],
+    "game_id": "beehivebonanza_not_mobile_sw",
+    "modes": {
+      "FeatureBuy": {
+        "action": "featurebuy",
+        "factor": "100",
+        "params": {
+          "buyFeature": "true"
+        }
+      }
+    },
+    "source_path": "/games/beehivebonanza-client/init.js",
+    "source_sha256": "c02c009c5580ea3e227f1e3e79f26eaff47822eea6c606ed132a5896df67d909",
+    "table_id": "beehivebonanza00"
+  },
+  "busters-bones": {
+    "free_actions": [],
+    "game_id": "bustersbones_r96_f1_not_mobile_sw",
+    "modes": {
+      "FeatureBuy": {
+        "action": "featurebuy",
+        "factor": "60",
+        "params": {}
+      }
+    },
+    "source_path": "/games/bustersbones-client/init.js",
+    "source_sha256": "ba0fe93891cdeb3665b20e48bd6ee92453f48a4100b3007c2d742eb6e0e70213",
+    "table_id": "bustersboesr96f1"
+  },
+  "cupcakes": {
+    "free_actions": [],
+    "game_id": "cupcakes_r1_f1_not_mobile_sw",
+    "modes": {
+      "FeatureBuy": {
+        "action": "featurebuy",
+        "factor": "100",
+        "params": {
+          "bet.betlines": "",
+          "buyFeature": "true"
+        }
+      }
+    },
+    "source_path": "/games/cupcakes-client/init.js",
+    "source_sha256": "52706eb11c4f51d7e10cd1e33c4ff2791c67eaa361a6f2f8b83d4f90b8156261",
+    "table_id": "cupcakesr1f10000"
+  },
+  "funk-master": {
+    "free_actions": [],
+    "game_id": "funkmaster_not_mobile_sw",
+    "modes": {
+      "FeatureBuy": {
+        "action": "spin",
+        "factor": "125",
+        "params": {
+          "isbuyfeature": "true"
+        }
+      }
+    },
+    "source_path": "/games/funkmaster-client/main.js",
+    "source_sha256": "670347c1fc7ce93d09806f4ab172d0f9dc6f35496747ad1a22166449f1be771a",
+    "table_id": "funkmaster000000"
+  },
+  "koi-princess": {
+    "free_actions": [
+      "wild_reels_freespin",
+      "guaranteed_win_freespin",
+      "five_hit_pick",
+      "coin_win",
+      "init_five_hit",
+      "wild_reels_spin",
+      "random_wilds_spin",
+      "bonus_wheel_spin",
+      "init_bonus_wheel",
+      "bonus_feature_pick"
+    ],
+    "game_id": "koiprincess_not_mobile_sw",
+    "modes": {
+      "FeatureBet": {
+        "action": "spin",
+        "factor": "2",
+        "params": {
+          "feature.bet": "true"
+        }
+      }
+    },
+    "source_path": "/games/koiprincess_mobile_html/game/javascript/main.js",
+    "source_sha256": "78a30ec7d1ff9ef0d6ac79c9eff99813b3a692cd848c7ed0ca8aa401df8b8db0",
+    "table_id": "koiprincess00000"
+  },
+  "let-it-burn": {
+    "free_actions": [],
+    "game_id": "letitburn_r96_f1_not_mobile_sw",
+    "modes": {
+      "Buy:option1": {
+        "action": "featurebuy",
+        "factor": "100",
+        "params": {
+          "buyFeature": "true",
+          "featurebuyoption": "option1"
+        }
+      },
+      "Buy:option2": {
+        "action": "featurebuy",
+        "factor": "150",
+        "params": {
+          "buyFeature": "true",
+          "featurebuyoption": "option2"
+        }
+      },
+      "Buy:option3": {
+        "action": "featurebuy",
+        "factor": "200",
+        "params": {
+          "buyFeature": "true",
+          "featurebuyoption": "option3"
+        }
+      }
+    },
+    "source_path": "/games/letitburn-client/init.js",
+    "source_sha256": "4c207bcedcccc4697bbe570b06c134e794d18d6bd4304cf2df9cdf3d6b122505",
+    "table_id": "letitburnr96f100"
+  },
+  "milkshake-xxxtreme": {
+    "free_actions": [],
+    "game_id": "milkshakexxxtreme_r96_f1_not_mobile_sw",
+    "modes": {
+      "XXXtreme:1": {
+        "action": "spin",
+        "factor": "10",
+        "params": {
+          "bet.xxxtrememode": "1"
+        }
+      },
+      "XXXtreme:2": {
+        "action": "spin",
+        "factor": "95",
+        "params": {
+          "bet.xxxtrememode": "2"
+        }
+      }
+    },
+    "source_path": "/games/milkshakeextreme-client/init.js",
+    "source_sha256": "2d1f9fa65e44532ac11c73ed844ae4c8b601fa4846c62426ae160c6b71b42fc8",
+    "table_id": "milkshakexxr96f1"
+  },
+  "secret-of-the-stones": {
+    "free_actions": [],
+    "game_id": "secretofthestones_not_mobile_sw",
+    "modes": {
+      "MathMode:max": {
+        "action": "spin",
+        "factor": "1",
+        "params": {
+          "bet.mathMode": "max"
+        }
+      }
+    },
+    "source_path": "/games/secretofthestones_mobile_html/game/javascript/main.js",
+    "source_sha256": "25095d94999a67921791a8fd02dc5c5cebe5049e1918da2c49d47d5913a4f977",
+    "table_id": "secretofthestone"
+  },
+  "space-wars-2-powerpoints": {
+    "free_actions": [],
+    "game_id": "spacewars2_not_mobile_sw",
+    "modes": {
+      "FeatureBuy:1500": {
+        "action": "featurebuy",
+        "factor": "75.0",
+        "params": {
+          "bet.betModifier": "1500"
+        }
+      },
+      "FeatureBuy:2800": {
+        "action": "featurebuy",
+        "factor": "140.0",
+        "params": {
+          "bet.betModifier": "2800"
+        }
+      },
+      "FeatureBuy:5000": {
+        "action": "featurebuy",
+        "factor": "250.0",
+        "params": {
+          "bet.betModifier": "5000"
+        }
+      }
+    },
+    "source_path": "/games/spacewars2-client/main.js",
+    "source_sha256": "923ec430d0f27c540f3c3d6b232ee88dda3e95abdd60d2fa6fb87ff67bc46b26",
+    "table_id": "spacewars2000000"
+  },
+  "superstars": {
+    "free_actions": [
+      "space_wars_respin",
+      "bonusaction",
+      "final_game",
+      "initbonus",
+      "endbonus",
+      "roll_dice",
+      "gonzo",
+      "miss_banks",
+      "space_wars",
+      "finn",
+      "starburst",
+      "wheel_bonus"
+    ],
+    "game_id": "superstars_f1_not_mobile_sw",
+    "modes": {
+      "FeatureBuy": {
+        "action": "featurebuy",
+        "factor": "150",
+        "params": {}
+      }
+    },
+    "source_path": "/games/superstars-client/init.js",
+    "source_sha256": "cc7a40d4a9f62bdc7b40ede17f3de260805fd1cede03d50d068abd3777af6d75",
+    "table_id": "superstarsf10000"
+  },
+  "victorious": {
+    "free_actions": [],
+    "game_id": "victorious_not_mobile_sw",
+    "modes": {
+      "MathMode:max": {
+        "action": "spin",
+        "factor": "1",
+        "params": {
+          "bet.mathMode": "max"
+        }
+      }
+    },
+    "source_path": "/games/victorious_mobile_html/game/javascript/main.js",
+    "source_sha256": "cc99ebf3b8747156c9ce94e0d40e713054b45f7ae62459815a1a2268becfe0be",
+    "table_id": "victorious000000"
+  }
+}

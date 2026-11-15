@@ -1,0 +1,40 @@
+{
+  "proveedor": "microgaming",
+  "archivos": [
+    {
+      "ruta": "codigo/microgaming.rs",
+      "bytes": 28464,
+      "sha256": "9afe42ef34a95377361e9224b5f62d83a94da07f1f56e6c3fc3054ab3489e64e"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 34543,
+      "sha256": "a53ac9b3899e7f2f0366900d813523b8c72bbe6d0ab49fa6f2d83aa119521b02"
+    },
+    {
+      "ruta": "evidencia/microgaming-bindings.json",
+      "bytes": 5779,
+      "sha256": "d7b00e2cdfcae758251aee9e9700e1e252c23d752fed9ddc5626e9846bd2d5a3"
+    },
+    {
+      "ruta": "evidencia/microgaming.json",
+      "bytes": 74,
+      "sha256": "273181c7722a512c80541a84f1ae0888bacabcbc4765d1ec2b8d44c9af7efea8"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 32856,
+      "sha256": "a97b053c4ecc7179824a8652d3c61dca3f6f43e016233e7fbb6a2e136b23d53d"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 542,
+      "sha256": "29170826e02f675acdef7d06298404d81162122f902ee5e176e613d4ad121355"
+    }
+  ]
+}

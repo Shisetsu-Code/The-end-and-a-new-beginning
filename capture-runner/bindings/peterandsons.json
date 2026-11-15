@@ -1,0 +1,933 @@
+{
+  "abrakadabra": {
+    "title": "Abrakadabra",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS",
+      "buy_SFS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "3210cf96d4c69707ef498148c8289728d111584489c60519855e434d9573b81b"
+    ]
+  },
+  "alibi": {
+    "title": "Alibi",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "43969fe2ce30ce93ad8ba07ee3bfd70b723538cabf57cee9fc3abcd41951b843"
+    ]
+  },
+  "animafia": {
+    "title": "Animafia",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_20",
+      "buy_FS_6",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "2c1db8fde0fc2e173ac1c8fbb199caf8ccb816a7344ecc7a7c9479f08fde2776"
+    ]
+  },
+  "bad-santa": {
+    "title": "Bad Santa",
+    "wallet": "demo-preview",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_4SC",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "8590fa9f70da10e428b5ebd0e650a53c87ae6f873d7e66d5c047d6bc675a519b"
+    ]
+  },
+  "barbarossa": {
+    "title": "Barbarossa",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "1c60adfbe702736c46a777a05ddff04d6863ec3441c245cfa5ac7d8fec4aad72"
+    ]
+  },
+  "barbarossa-beyond-the-edge": {
+    "title": "Barbarossa: Beyond the Edge",
+    "wallet": "demo-preview",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_POWER_RANDOM",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "d8a4e569730ff1723f775b9fd29d851979815624d9bb595def6ff4da7da713c7"
+    ]
+  },
+  "barbarossa-dragon-empire": {
+    "title": "Barbarossa Dragon Empire",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_POWER_RANDOM",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "d865098b699d4a6e998ad5057a65d8d354a41f045fb7a92d4551d2b81de7a6ed"
+    ]
+  },
+  "barbarossa-revenge": {
+    "title": "Barbarossa Revenge",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "4aebbd8cd7d5b440df9db7f6f2d10e1edfbb70faf3ebc51a25abaa5ec0364644"
+    ]
+  },
+  "bear-patrol": {
+    "title": "Bear Patrol",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "c9fe98d6d4f2af41e809b6c86f433d45fd1b06e8d9c7ffea823e8e15fefc3fb4"
+    ]
+  },
+  "big-bounty-bandits": {
+    "title": "Big Bounty Bandits: 3 Pots",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet_GOLDEN_BET",
+      "bet_POWER_SPIN",
+      "buy_FS",
+      "buy_SUPER_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "d9e6b3e3eb4a72fdab8516ce80a8450fe1bcab5a2048c38ed3d2f0b4ddb5a3ac"
+    ]
+  },
+  "blood-club": {
+    "title": "Blood Club",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "16e739ca2961012846cfa8d817af432581cb12baeec5703bcf668adb7025c0c6"
+    ]
+  },
+  "bloody-mary": {
+    "title": "Bloody Mary: Pray for Prey",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_SFS_3SC",
+      "main"
+    ],
+    "authentication_sha256": [
+      "272068a0b262383539f65c68ad2504fa418edbec9652dbe37fc309fee6060819",
+      "74e00ff90511b87d639e91260caa467e4cdc6b5a9c964c5cfdbbffbea5da14a6",
+      "e087c56e901190defec2babcb40dbb30eada43470d948c1fa0629e17c0d745bb",
+      "eb0c744aab44e32b72c70463f79510048a9ad91cd2e31d75654b4107528753ed"
+    ]
+  },
+  "book-of-books": {
+    "title": "Book of Books",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_4SC",
+      "buy_FS_5SC",
+      "main"
+    ],
+    "authentication_sha256": [
+      "cd93afa68b80c4f748cfa42cbdd25ab38503cabb66a38ed6d9d0b489bc37f0c2"
+    ]
+  },
+  "boom-farm": {
+    "title": "Boom Farm",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_BOOSTED_FS",
+      "buy_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "7ccfb6becd3f9a5f7653cebce21d411b2cf8adad30e8db38c145e1c220331fbc"
+    ]
+  },
+  "bubblegum-robo": {
+    "title": "Bubblegum and Robo",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_POWER",
+      "buy_POWER_SPIN",
+      "main"
+    ],
+    "authentication_sha256": [
+      "b8da4f0f4d5b103bd7cd059b2a06b71dce07e908059ff40d1d1b32a16eddc633"
+    ]
+  },
+  "cauldron": {
+    "title": "Cauldron",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "fe70e67a984f66b6e399556ecdc2766f03b79d349c1ef738accb772f4cd0c2ed"
+    ]
+  },
+  "circus": {
+    "title": "DCirque",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "2fd2e758c0e808cc6764e5e0229010237f8a301639b80e0ec0b6633af4823528"
+    ]
+  },
+  "coin-blox": {
+    "title": "Coin Blox",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet_COINS",
+      "bet_FS",
+      "buy_BONUS",
+      "buy_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "6c82a5d1ac5dcdcc77a62bb9c07c53038d7f6a6ea2b4c75b0536e7bef1a32648"
+    ]
+  },
+  "cyber-runner": {
+    "title": "Cyber Runner",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "f230faddd9820cad4c176faf02343b7c3b51f9d2f340ebac260d8e7611d7426f"
+    ]
+  },
+  "dig-it": {
+    "title": "Dig It",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_5SC",
+      "main"
+    ],
+    "authentication_sha256": [
+      "da736b6a3ceb68775f86d5b8a7122d10da3a18189b893a5c818cb44dd20d0d5c"
+    ]
+  },
+  "dragon-blox": {
+    "title": "Dragon Blox",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_BONUS",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "b210e8dda4c07621f25644262b429dab8882d372d85d42ada4b7fc12dd59d467"
+    ]
+  },
+  "dragon-guardian": {
+    "title": "Dragon Guardians: 3 Pots",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS",
+      "buy_SUPER_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "be6defe9ba3bed805e148404ae952b5efdf86dbe25e96fe8f88d5947372a7543"
+    ]
+  },
+  "duel": {
+    "title": "Wild Duel",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "2de9dfa2344c70f3e5bda9ab67a7bd5be6bcee1f761412de2ae47914923ed381"
+    ]
+  },
+  "dungeon": {
+    "title": "Dungeon Tower",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "6cf721aacd5c1ae8559661650d025e40d5f9d2b49a105d0f6a97a36ae5fa4d6e"
+    ]
+  },
+  "epic-hellas": {
+    "title": "Epic Hellas",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_BONUS",
+      "buy_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "f93fff3dbcd625c4768eb09ac1c3f5c6cbcd17281e23979932838d42e3ff924c"
+    ]
+  },
+  "evil-devil": {
+    "title": "Evil Devil",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "cbe78e75a6221434161d2b13d7ee5912a37ade7bab5d4bd0a12fb4564a8d43e1"
+    ]
+  },
+  "frozen-age": {
+    "title": "Frozen Age",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_6SC",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "8732ca447256d96bd39e67ab0fcc9ac2628b9a8f7a48290c09f9f8ed0a76632a"
+    ]
+  },
+  "gears-of-fortune": {
+    "title": "Steamworks - Gears of fortune",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "513ac03962383538fabb39bcc516f381d12d9cd241290ff272050853d8cfc453"
+    ]
+  },
+  "ghostfather": {
+    "title": "Ghost Father",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "dc14810d16418f9785a2ec21b5ccd92a6c30e6763d00f5e74eea248154076f71"
+    ]
+  },
+  "ghostfather-awakened": {
+    "title": "Ghostfather - Awakened",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_4SC",
+      "buy_FS_5SC",
+      "main"
+    ],
+    "authentication_sha256": [
+      "ebb425120129cd2e7e090be9571ebcb0de103c1301abb58c4049690241a1f3ac"
+    ]
+  },
+  "ginger-wins": {
+    "title": "Ginger Wins",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "a35770bc8c487a961cf02445a751da58cf89a27f8b2cc8184fdf5c5eb1906e53"
+    ]
+  },
+  "gnomes-and-giants": {
+    "title": "Gnomes and Giants",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_6SC",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "cd04bedf3ce013bc9cd40348617322c2cd4d3b15eb64194b1270ae9323928db3"
+    ]
+  },
+  "greedy-alice": {
+    "title": "Greedy Alice",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_4SC",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "bd5ae442b6791fa0ce902b38f3fe5d54ff0306b930a88f22e47bf0025d8d5306"
+    ]
+  },
+  "greedy-alice-2": {
+    "title": "Greedy Alice 2: Bigger Bites",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_4SC",
+      "main"
+    ],
+    "authentication_sha256": [
+      "788139da307906f8e759dceec7ab12b18d5505fbfeea91842f6831430c2f5263"
+    ]
+  },
+  "gunpowder": {
+    "title": "Gunpowder",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "71ca6cd56ddd3ad9b3fedbae064f4c07711763286718828f0dca8cd9ee73505b"
+    ]
+  },
+  "hammer-of-gods": {
+    "title": "Hammer of Gods",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "4900ab805498ce7214993d0ebbf383e8ad68e15f29351797288da6a3e13f5e12"
+    ]
+  },
+  "hunter": {
+    "title": "Peter Hunter",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "4d7553d06a10a1ce95dd8e1881c8c14a56dcf4f2f4054e200516b6b1d44d3f2b"
+    ]
+  },
+  "johnan-legendarian": {
+    "title": "Johnan Legendarian",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "d5fc147c96117b2ce63c15e145ac3d0c1e2e2cea0dcd74546f9a8adad01d054c"
+    ]
+  },
+  "kaiser": {
+    "title": "Kaiser",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "c948ce80c4ef5d937d24c1c8483a1aaf7f0e37c272af5046c357cd5d70a63f19"
+    ]
+  },
+  "lucky-caiman": {
+    "title": "Lucky Caiman",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS",
+      "buy_POWER_SPIN",
+      "buy_SUPER_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "e863609266eb881b8299c1621677d8d7bd7a68fdac01b3267ca6a9552c0e7915"
+    ]
+  },
+  "mafiosi": {
+    "title": "The Mafiosi",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "da9e53e61aa50b589084863a4d95ec3a858758ce427d71a99720b6a379274ad7"
+    ]
+  },
+  "monster-blox": {
+    "title": "Monster Blox",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "38738f7970b08232ed69f2edeabe7fc540b64d3240e94aac498aee3788adf2dd"
+    ]
+  },
+  "muddy-waters": {
+    "title": "Muddy Waters",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_4SC",
+      "buy_FS_5SC",
+      "main"
+    ],
+    "authentication_sha256": [
+      "bcd7af7c7a4ae283cb310f10e50d1f1f368ce1663781a9f50f583ea9b3901242"
+    ]
+  },
+  "musashi": {
+    "title": "The Legend of Musashi",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "ccda4d9ecb7698eba727c05640f09e0cd834a8e0744e5cf49b10faa860266684"
+    ]
+  },
+  "mutagenes": {
+    "title": "Mutagenes",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "ea06120f5d7ce678c26e738456ee097453f41024c65ce1ae83c3ca5ba9514ea1"
+    ]
+  },
+  "pop-cop": {
+    "title": "Pop Cop",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "3489f235d5e73965182f8aef9645ed6f1b97e835cc56e3f8ac4e22cc9c6bffd8",
+      "6d5737ae0cc8722b83008f57484357ee6960c85e6d8a3d20d0c6d6669571eaeb"
+    ]
+  },
+  "potion-power": {
+    "title": "Potion Power",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_7",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "726c3eb1955a5ac4a23bf43efba940aa098101f16947501d1b93270dc0d941ac"
+    ]
+  },
+  "precious-7": {
+    "title": "Precious 7",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "c73b1322aa546d25e98bb8c80f1856b35ce229b716209e295ed55c445fc856e3"
+    ]
+  },
+  "punch-club": {
+    "title": "Punch Club",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "5c42650ac2225afc6011dbdcb54149646d3eac46ce981cd73413cc101435deb2"
+    ]
+  },
+  "roadquake": {
+    "title": "Roadquake",
+    "wallet": "demo-preview",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS",
+      "buy_FS_RANDOM",
+      "buy_MEGA_FS",
+      "buy_SUPER_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "77ce9b236f0b869cb1df5fd0fddd939279c690d45a67d86f45e678e7b058ffa7"
+    ]
+  },
+  "robin": {
+    "title": "Robin - Sherwood Marauders",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "54f14584ecc8001d09b70b75611577baa4783d583cc14a42c01f451cc6aa7926"
+    ]
+  },
+  "robin-not": {
+    "title": "Robin - Nottingham Raiders",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "85ae195bc44dbb160182e6d3c0570d73ab2478c5ff2bceb6b75043621b33f5f9"
+    ]
+  },
+  "roman-glory": {
+    "title": "Roman Glory",
+    "wallet": "demo-preview",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FIREBALL",
+      "buy_INFINITY",
+      "buy_MULTIPLIER",
+      "main"
+    ],
+    "authentication_sha256": [
+      "fe9a8baa0a0dd48aae5c023363718cde9b688a9e10ecf6f95f358c5c500ad5b4"
+    ]
+  },
+  "rome": {
+    "title": "Rome - The Conquerors",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "bde0ad4b4425b044cbe46fbb2f517a5ff31244ddb633ed9aaac23a9f9f16876d"
+    ]
+  },
+  "royal-hunt": {
+    "title": "Royal Hunt",
+    "wallet": "demo-preview",
+    "currency": "eur",
+    "verified_modes": [
+      "bet_3GUNS",
+      "bet_FREQ",
+      "bet_GUN6",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "a1a7e1c6058091731a5f555b81568065232900a486c37c9e44d28ab0769e1eaa"
+    ]
+  },
+  "rustworld": {
+    "title": "Rust World",
+    "wallet": "demo-preview",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_4SC",
+      "buy_FS_POWER",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "c2800bf1d9d07bd63daf4cda7288654f07d4adec379318d3bfaee0c0323db8b9"
+    ]
+  },
+  "sands-of-destiny": {
+    "title": "Sands of Destiny",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "main"
+    ],
+    "authentication_sha256": [
+      "9fdfaa28c957c106173fc074cc9418a2fd211f02a2165b25f660f9bb5629fd30"
+    ]
+  },
+  "sheriff-colt": {
+    "title": "Sheriff Colt",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "1210c8812fe5fe484f61d6ba3eb6330c0ac347dafe0e9f1f734582b81d9ca39a",
+      "55706ba0642ed6937e472f28954b4071f9a86a3786fc64601f04b2f8e4182d92"
+    ]
+  },
+  "soapranos": {
+    "title": "Soapranos",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_RANDOM",
+      "buy_SFS_4SC",
+      "main"
+    ],
+    "authentication_sha256": [
+      "c42e964f4c1f87760e752b1ee9d39e74a20bade76f799226b2fa71fe609186b5"
+    ]
+  },
+  "thunderhawk": {
+    "title": "Thunderhawk",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_BONUS",
+      "buy_FS",
+      "main"
+    ],
+    "authentication_sha256": [
+      "e9cb728551eb89d3ed52ffeb373d74be2a384b8adc10aa100a4a0833c74db005"
+    ]
+  },
+  "valkyries": {
+    "title": "Valkyries",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "1bac6fc4fcfb042e3c8573a9572ba42b9962893b877ef7966f2b69c6ee2e3643"
+    ]
+  },
+  "viking-legacy": {
+    "title": "VIKING LEGACY: HOLD & WIN",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "0cfc07a0d0b34620c14d1c156da2d56ed64c71f1d263645c35d00d070b97a4d4",
+      "1784493127410b03e2737a8ae158d83e0263f24e6151492fb6a23f2f42752b46",
+      "bbe6ac4ab24c5fd7fea5a945ffb6eb552df94740d098c8822719514af7865c32",
+      "c6167cef675ef7ff3eb523450305ed4148e5678f9400a15a41a89fd9e7316665"
+    ]
+  },
+  "voodoo-hex": {
+    "title": "Voodoo Hex",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy_FS_15",
+      "buy_FS_7",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "57dc5d2a0ea291cd5a54f770df9150ff9f788932942fb610adaef5d918274a44"
+    ]
+  },
+  "water-blox": {
+    "title": "Water Blox",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy_FS_20",
+      "buy_FS_5",
+      "buy_FS_RAND",
+      "main"
+    ],
+    "authentication_sha256": [
+      "de3ca8bd44b3bf9d6ebc13e5be7e15bbbf5baddb8f41ad236f59f6712ffd4951"
+    ]
+  },
+  "wild-bard": {
+    "title": "Wild Bard",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "a67a3e5ec32d338567d28bd94dc20754b2ae9126fefee8710009158197b52e64"
+    ]
+  },
+  "wild-one": {
+    "title": "Wild One",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "ccda44ab72dabde028b75b042651d7a870e6b5a4c149e52fb4082b3fe7a091a6"
+    ]
+  },
+  "workshop": {
+    "title": "Steamworks - The workshop",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "9560615ba0463a34c3ec7786d3511f9df2786c137b2eb929f21357afd4bcfd38"
+    ]
+  },
+  "xibalba": {
+    "title": "Xibalba",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "buy",
+      "main"
+    ],
+    "authentication_sha256": [
+      "96715aca3804a96c04cf89a87a9603b582ebdfe21370ffc9a6a1f8df9344f7f6"
+    ]
+  },
+  "zombie-road": {
+    "title": "Zombie Road",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "bet",
+      "buy_FS_3SC",
+      "buy_FS_RANDOM",
+      "main"
+    ],
+    "authentication_sha256": [
+      "3044a62f85518d2dbe4354357bad24c318caee22b355391d2f263dc7bf044ef8"
+    ]
+  },
+  "zombies": {
+    "title": "Zombies - At the door",
+    "wallet": "demo",
+    "currency": "eur",
+    "verified_modes": [
+      "main"
+    ],
+    "authentication_sha256": [
+      "7aa35ce2506fceb6d14f70448f374504702bf571950865d67c9c2fc45f13396d"
+    ]
+  }
+}

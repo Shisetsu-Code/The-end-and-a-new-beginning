@@ -1,0 +1,40 @@
+{
+  "proveedor": "betsoft",
+  "archivos": [
+    {
+      "ruta": "codigo/betsoft_live.rs",
+      "bytes": 9088,
+      "sha256": "6ccd71f801f3c67a29843f700df2459dcc7882f53dee640684b3ef72412a9bdd"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 122237,
+      "sha256": "71d106937a800db9201faadd37848b6da423ed36fd8100743ec9b200797f588f"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 521372,
+      "sha256": "8ed9f2b4e2650eaf48c831e508b4b88b6661a48bb74639dd8e48aa5a1292f251"
+    },
+    {
+      "ruta": "evidencia/betsoft.json",
+      "bytes": 770298,
+      "sha256": "39dab73656a26f9c685d7445553291eef8556fdfd9a55ecf14b041bab1657738"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 122192,
+      "sha256": "3ed40ca0902478e71524a13c9ec66346849ef5f975a601d65d63342f49309b1c"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 121521,
+      "sha256": "bbeadadf0c042a58fcfddeb755cafaccb4e8072b3a3842d58c6ce32bfd4f74b3"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 611,
+      "sha256": "ed9d8c1726af06e3dc021cab7ce06f755525c1416f0f5acdc741184924105271"
+    }
+  ]
+}

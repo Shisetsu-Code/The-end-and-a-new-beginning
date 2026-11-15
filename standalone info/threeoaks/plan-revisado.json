@@ -1,0 +1,2316 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "threeoaks",
+      "game": "4_hot_chillies",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_hot_chillies",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_hot_chillies",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "booster-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "booster-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x2500",
+      "mode": "booster-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "chili_coins_xxxl",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "chili_coins_xxxl",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "chili_coins_xxxl",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "chili_coins_xxxl",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "chili_coins_xxxl",
+      "mode": "booster-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_superpower_diamonds",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_superpower_diamonds",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_superpower_diamonds",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_dragon_pearls",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_super_clover_pots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_super_clover_pots",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_super_clover_pots",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_super_clover_pots",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_super_clover_pots",
+      "mode": "booster-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_super_clover_pots",
+      "mode": "booster-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_3_pots_super_wheel",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_super_hot_teapots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coinup_volcano",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coinup_volcano",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coinup_volcano",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coinup_volcano",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "grand",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "grand",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "grand",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_fortune_clovers",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_fortune_clovers",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_fortune_clovers",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_hotfire_diamonds",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "booster-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "booster-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "joker_glitz_x1000",
+      "mode": "booster-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_clover_pots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_clover_pots",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_clover_pots",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "supreme_diamond_xxl",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "supreme_diamond_xxl",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "supreme_diamond_xxl",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_powerscatter",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_powerscatter",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_powerscatter",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_powerscatter",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "jungle_volcano",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "jungle_volcano",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "jungle_volcano",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x1000",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_apple_x1000",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_olymp_fortunes",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "thunder_tiger",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "thunder_tiger",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "thunder_tiger",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "thunder_tiger",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "thunder_tiger",
+      "mode": "buy-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "purple_diamond",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_fairy_flowers",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dj_tiger_x1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dj_tiger_x1000",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dj_tiger_x1000",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dj_tiger_x1000",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dj_tiger_x1000",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dj_tiger_x1000",
+      "mode": "booster-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dj_tiger_x1000",
+      "mode": "booster-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_wolf_drums",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_wolf_drums",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_wolf_drums",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lord_of_thunder",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "chili_coins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_super_coin_volcanoes",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_super_coin_volcanoes",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_super_coin_volcanoes",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_super_coin_volcanoes",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_pots_of_egypt",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "buy-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "booster-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "booster-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_power_x1000",
+      "mode": "booster-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_african_drums",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_african_drums",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_african_drums",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_african_drums",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "4_african_drums",
+      "mode": "buy-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins_2",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins_2",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins_2",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins_2",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_fire_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "power_sun_xxl",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "power_sun_xxl",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "power_sun_xxl",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "sun_of_egypt_5",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_hot_teapots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_hot_teapots",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_hot_teapots",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_hot_teapots",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_hot_teapots",
+      "mode": "buy-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_2",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny_2",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "magic_clovers",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_volcano_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_volcano_2",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_volcano_2",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_volcano_2",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "amazonia_wins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "amazonia_wins",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "amazonia_wins",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "777_fruity_coins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "777_fruity_coins",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "777_fruity_coins",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "777_fruity_coins",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "777_fruity_coins",
+      "mode": "buy-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_princess_x1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_princess_x1000",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_princess_x1000",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_china_pots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_china_pots",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_china_pots",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_china_pots",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_china_pots",
+      "mode": "buy-4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "space_coins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "space_coins",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "space_coins",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_super_hot_chillies",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_super_hot_chillies",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "dancing_joker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_hot_teapots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_hot_teapots",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_hot_teapots",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_express",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_aztec_temples",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_aztec_temples",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_aztec_temples",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "power_sun",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_clover_pots_extra",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_clover_pots_extra",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_african_drums",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_african_drums",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_african_drums",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_coin_volcanoes",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_coin_volcanoes",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_coin_volcanoes",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_coin_volcanoes",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_pots_of_egypt",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "hot_fire_fruits",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "fortune_globe",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lucky_penny",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_hot_chilli",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_lightning",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_lightning",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_lightning",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_lightning",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "golden_teapot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_sticky_piggy",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_sticky_piggy",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "super_sticky_piggy",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "fishing_bear",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "fishing_bear",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_china_pots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_clover_pots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_egypt_chests",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_up",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_up",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_up",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "sun_of_egypt_4",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "aztec_fire_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "gold_nuggets",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "grab_more_gold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_hot_chillies",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_hot_chillies",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "777_coins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "black_wolf_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "little_farm",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "green_chilli_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_volcano",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_volcano",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "coin_volcano",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lady_fortune",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lady_fortune",
+      "mode": "buy-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lady_fortune",
+      "mode": "buy-2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lady_fortune",
+      "mode": "buy-3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lady_fortune",
+      "mode": "booster-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "tiger_gems",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "grab_the_gold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "more_magic_apple",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "egypt_fire",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "sunlight_princess",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "rio_gems",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "hit_more_gold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "green_chilli",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "big_heist",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "aztec_fire",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "magic_apple_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "sun_of_egypt_3",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "gold_express",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "tiger_jungle",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "wolf_night",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "hit_the_gold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "magic_apple",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "3_coins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "sun_of_egypt_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "scarab_temple",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "15_dragon_pearls",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "aztec_sun",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "moon_sisters",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "sun_of_egypt",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "book_of_sun_multichance",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    }
+  ],
+  "omisiones": []
+}

@@ -1,0 +1,45 @@
+{
+  "proveedor": "evoplay",
+  "archivos": [
+    {
+      "ruta": "bindings/evoplay.json",
+      "bytes": 34421,
+      "sha256": "017ce7836280b53b0663092c1b66baa86ff97b2ef353df092b33df482bac7ee4"
+    },
+    {
+      "ruta": "codigo/evoplay.rs",
+      "bytes": 13535,
+      "sha256": "1eb809183f97ef68696d146546d659f5f9696fc685a4715e3620213ed68088b4"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 180149,
+      "sha256": "f65e29661323339537d654ccec48c4bd3c82fa0c8f039e2b87c46b05af80be1c"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 817695,
+      "sha256": "dc234fa273f78b00fd068d10a1f267f34ee3fd51ab2b63c70e3f7b67f8d3f504"
+    },
+    {
+      "ruta": "evidencia/evoplay.json",
+      "bytes": 799663,
+      "sha256": "8de020ce06636a3a111560f2d347acf50f15479b8fbb2217a070a1eddc313a6f"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 180029,
+      "sha256": "2ff12594468f2373e5a482eec99027ac6d16fab1a333eee7d5f48e1440d3e30e"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 62949,
+      "sha256": "ab0fc2ae88932a0234ef43c5e9ef183822006c808042401eeef4a3e390a01dc6"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 609,
+      "sha256": "fd6ca6d0ec6ab846aacaa59ca9c4e3374217f9c3f318dcc72341dec9416fc073"
+    }
+  ]
+}

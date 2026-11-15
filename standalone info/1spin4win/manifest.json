@@ -1,0 +1,45 @@
+{
+  "proveedor": "1spin4win",
+  "archivos": [
+    {
+      "ruta": "bindings/1spin4win.json",
+      "bytes": 61820,
+      "sha256": "e12f427794d6456f704596840a4236f776739c2efcc614e06cd383a5cd75a161"
+    },
+    {
+      "ruta": "codigo/onespin4win.rs",
+      "bytes": 8204,
+      "sha256": "46daec91aa1f7f733034e6f62783c56acdbe4e296ff64e052c6ed62d0043899b"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 81296,
+      "sha256": "36d9688f21542b1bdcf97fc986a2d88516acce2c1fbe87c04588066101120007"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 305751,
+      "sha256": "5a3861d0ad1666f62098f48ef547417ef30b4473c8ce7fa544736cd1737a0350"
+    },
+    {
+      "ruta": "evidencia/1spin4win.json",
+      "bytes": 522421,
+      "sha256": "c0254eb5ec90be8b6fee95e80da1cc14e2a965af45f76b1cfb0505a9bba128e3"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 81284,
+      "sha256": "10f41fc7e507f59ed3fa5d7dc3cb73129ccf9e6d2bc7b29af3f6783b4807e939"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 39981,
+      "sha256": "c3c6de74ab8c23c9b8df3c465fb4a06838e05f46b4d5f7919cd779c3a41fff22"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 655,
+      "sha256": "cea22411238d797892e723641c46f29b1def195e18f4c03157bdb3eb01599704"
+    }
+  ]
+}

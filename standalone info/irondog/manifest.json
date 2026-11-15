@@ -1,0 +1,40 @@
+{
+  "proveedor": "irondog",
+  "archivos": [
+    {
+      "ruta": "codigo/irondog.rs",
+      "bytes": 34566,
+      "sha256": "c2dad9ebefbe0249e1933d9d0d34fee78f8c201edef0c0c1e10d3b02c68dbfbf"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 80523,
+      "sha256": "adbedd2ad8583951e4022d4bf1aa621d6a9621eb2932fa1294aff702bbb638c4"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 327130,
+      "sha256": "bc55b83faaa9e61e31b37ca6532116910e7408adfb77599c4765d323f223590d"
+    },
+    {
+      "ruta": "evidencia/irondog.json",
+      "bytes": 324940,
+      "sha256": "c5b49c2409f9d67eada26da2c693ee18a759b9608e54c91b9dbc1938a68fcd68"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 80490,
+      "sha256": "0ef87b41bc1efcd7584a8b5df0796eb2d3ebf29975b748a3369d0367784ebeca"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 20947,
+      "sha256": "0c38c15fb63d309b0a29210e83fb24a256dc8d8c83f2ed0acf05ad97f68fbb54"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 631,
+      "sha256": "383d7fad1af3829df02aca8f4a0570c3ed88901e74761a51fe9b581eae37d397"
+    }
+  ]
+}

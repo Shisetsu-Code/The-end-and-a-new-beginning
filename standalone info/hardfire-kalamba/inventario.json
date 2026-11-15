@@ -1,0 +1,3492 @@
+{
+  "id": "hardfire-kalamba",
+  "name": "Kalamba",
+  "ready": true,
+  "campaign_eligible": false,
+  "protocol": null,
+  "games": [
+    {
+      "id": "9blazingcashpots50k",
+      "name": "9blazingcashpots50k",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "9blazingcoinpots50k",
+      "name": "9blazingcoinpots50k",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "agent51",
+      "name": "agent51",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "ageofdragons",
+      "name": "ageofdragons",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ageofdragons-ice",
+      "name": "ageofdragons-ice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ageofdragons-minimax",
+      "name": "ageofdragons-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ageofhuracan",
+      "name": "ageofhuracan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "alieneggstractors",
+      "name": "alieneggstractors",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "allstar7s-hnw",
+      "name": "allstar7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "alohajuicy7s",
+      "name": "alohajuicy7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "atlantis",
+      "name": "atlantis",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "atlantis-eo",
+      "name": "atlantis-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "atlantis-stpatricks",
+      "name": "atlantis-stpatricks",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "aztecapocalypse-pm",
+      "name": "aztecapocalypse-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bangkokdreams",
+      "name": "bangkokdreams",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "bangkokdreams-lowmin",
+      "name": "bangkokdreams-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "beersonreels",
+      "name": "beersonreels",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "betmgm-cashquest",
+      "name": "betmgm-cashquest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "bets10candy7s-hnw",
+      "name": "bets10candy7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "bets10jokerspark7s",
+      "name": "bets10jokerspark7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "betssoncandy7s-hnw",
+      "name": "betssoncandy7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "betssonjokerspark7s",
+      "name": "betssonjokerspark7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "bigbountybill",
+      "name": "bigbountybill",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bigbountybill-boomboom",
+      "name": "bigbountybill-boomboom",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bisonado2-pm",
+      "name": "bisonado2-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bisonado2-pm-cds",
+      "name": "bisonado2-pm-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bisonado2-pm-cds-eov2",
+      "name": "bisonado2-pm-cds-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bisonado2-pm-dice",
+      "name": "bisonado2-pm-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bisonado-pm",
+      "name": "bisonado-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bisonmadness-pt",
+      "name": "bisonmadness-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bisonmadness-pt-eo",
+      "name": "bisonmadness-pt-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazingbull",
+      "name": "blazingbull",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazingbull-lowmin",
+      "name": "blazingbull-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazingbull2",
+      "name": "blazingbull2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "blazingbull2-minimax",
+      "name": "blazingbull2-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazingbull-cashquest",
+      "name": "blazingbull-cashquest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "blazingbull-minimax",
+      "name": "blazingbull-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazingbull-pm-cds",
+      "name": "blazingbull-pm-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "blazingbull-pm-cds-eo",
+      "name": "blazingbull-pm-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazingbull-pm-c2",
+      "name": "blazingbull-pm-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazinghorses-hnw",
+      "name": "blazinghorses-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazinghorses-hnw-cds",
+      "name": "blazinghorses-hnw-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazinghorses-hnw-cds-eo",
+      "name": "blazinghorses-hnw-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blazingspirit-holdandwin",
+      "name": "blazingspirit-holdandwin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blesseddragons-hnw",
+      "name": "blesseddragons-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "blesseddragons-hnw-cds",
+      "name": "blesseddragons-hnw-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "blesseddragons-hnw-cds-eo",
+      "name": "blesseddragons-hnw-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blesseddragons-hnw-c2",
+      "name": "blesseddragons-hnw-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "blingboyz",
+      "name": "blingboyz",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bloodmoonexpress",
+      "name": "bloodmoonexpress",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bountywheel-hnw",
+      "name": "bountywheel-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bountywheel-hnw-eov2",
+      "name": "bountywheel-hnw-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bullionrush7s-hnw",
+      "name": "bullionrush7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "bunnyhunt7s",
+      "name": "bunnyhunt7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "burningdiamonds",
+      "name": "burningdiamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "burningdiamonds-lowmin",
+      "name": "burningdiamonds-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "bushidoprincess",
+      "name": "bushidoprincess",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "caribbeananne",
+      "name": "caribbeananne",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "caribbeananne-lowmin",
+      "name": "caribbeananne-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "caribbeananne-minimax",
+      "name": "caribbeananne-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "caribbeananne2",
+      "name": "caribbeananne2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "caribbeananne-hnw",
+      "name": "caribbeananne-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "carnivalexpress7s",
+      "name": "carnivalexpress7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "carnivalexpress7s-eo",
+      "name": "carnivalexpress7s-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "cashpotkegs",
+      "name": "cashpotkegs",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "cashpotkegsmegaways",
+      "name": "cashpotkegsmegaways",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "cashpotstrike7s",
+      "name": "cashpotstrike7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "cashpotstrike7s-lowmin",
+      "name": "cashpotstrike7s-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "coinpotstrike7s",
+      "name": "coinpotstrike7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "cashpotstrike7s-cds",
+      "name": "cashpotstrike7s-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "cashpotstrike7s-cds-eo",
+      "name": "cashpotstrike7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "cashpotstrike7s-dice",
+      "name": "cashpotstrike7s-dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "championblitz-hnw",
+      "name": "championblitz-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "cherryrush7s",
+      "name": "cherryrush7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "cherryrush7s-dice",
+      "name": "cherryrush7s-dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "chestchaser-hnw",
+      "name": "chestchaser-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "chiliflame7s-cds",
+      "name": "chiliflame7s-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "chiliflame7s-cds-eo",
+      "name": "chiliflame7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "chiliflame7s-c2",
+      "name": "chiliflame7s-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "chiliflame7s-hnw",
+      "name": "chiliflame7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "chilimax7s-hnw",
+      "name": "chilimax7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "chilimax7s-hnw-cds",
+      "name": "chilimax7s-hnw-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "chilimax7s-hnw-cds-eov2",
+      "name": "chilimax7s-hnw-cds-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "cloverblitz-hnw",
+      "name": "cloverblitz-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "cloversupreme-hnw",
+      "name": "cloversupreme-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "clubhousebullrun",
+      "name": "clubhousebullrun",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "coinfall-hnw",
+      "name": "coinfall-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "coinfall-hnw-dice",
+      "name": "coinfall-hnw-dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "cosmiccharms",
+      "name": "cosmiccharms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "crowntriumph7s-hnw",
+      "name": "crowntriumph7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "crystalcavern",
+      "name": "crystalcavern",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "crystalcavern-minimax",
+      "name": "crystalcavern-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "desertgem",
+      "name": "desertgem",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "desertscarabs-pt",
+      "name": "desertscarabs-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "desertscarabs-pt-eov2",
+      "name": "desertscarabs-pt-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "desertscarabs-pt-dice",
+      "name": "desertscarabs-pt-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "diamondbounty7s-holdandwin",
+      "name": "diamondbounty7s-holdandwin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "diamondbounty7s-hnw",
+      "name": "diamondbounty7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "diamondbounty7s-cds",
+      "name": "diamondbounty7s-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "diamondbounty7s-cds-eo",
+      "name": "diamondbounty7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "diamondbounty7s-c2",
+      "name": "diamondbounty7s-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "diamondbountyxmas-cds",
+      "name": "diamondbountyxmas-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "diamondbountyxmas-cds-eo",
+      "name": "diamondbountyxmas-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "diamondbountyxmas-hnw",
+      "name": "diamondbountyxmas-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "diamondsupreme-holdandwin",
+      "name": "diamondsupreme-holdandwin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "diggingfrenzy",
+      "name": "diggingfrenzy",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "dinoodyssey",
+      "name": "dinoodyssey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "divinegongs",
+      "name": "divinegongs",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "divinegongs-cds",
+      "name": "divinegongs-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "divinegongs-cds-eo",
+      "name": "divinegongs-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "diwatasdream",
+      "name": "diwatasdream",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "dolphinriches-hnw",
+      "name": "dolphinriches-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "doublejewel-hnw",
+      "name": "doublejewel-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "doublejoker",
+      "name": "doublejoker",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "doublejoker-hnw",
+      "name": "doublejoker-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "doublejoker-hnw-lowmin",
+      "name": "doublejoker-hnw-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "doublejoker-hnw-eo",
+      "name": "doublejoker-hnw-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "dragonsglow-hnw",
+      "name": "dragonsglow-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "duckstilldawn",
+      "name": "duckstilldawn",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "duelofthedead",
+      "name": "duelofthedead",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "duelofthedead-boomboom",
+      "name": "duelofthedead-boomboom",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "dynastyspark7s",
+      "name": "dynastyspark7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "dynastyspark7s-cds",
+      "name": "dynastyspark7s-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "dynastyspark7s-cds-eo",
+      "name": "dynastyspark7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "eaglehonor7s",
+      "name": "eaglehonor7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "eaglehonor7s-cds",
+      "name": "eaglehonor7s-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "eaglehonor7s-cds-eo",
+      "name": "eaglehonor7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "electro",
+      "name": "electro",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "electroblast7s",
+      "name": "electroblast7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "electroblast7s-cds",
+      "name": "electroblast7s-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "electroblast7s-cds-eov2",
+      "name": "electroblast7s-cds-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "emeraldbisons-pm",
+      "name": "emeraldbisons-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "emeraldbounty7s-cds",
+      "name": "emeraldbounty7s-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "emeraldbounty7s-cds-eo",
+      "name": "emeraldbounty7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "emeraldbounty7s-c2",
+      "name": "emeraldbounty7s-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "emeraldbounty7s-hnw",
+      "name": "emeraldbounty7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "emeraldglory7s",
+      "name": "emeraldglory7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "emeraldglory7s-eo",
+      "name": "emeraldglory7s-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "emeraldglory7s-eov2",
+      "name": "emeraldglory7s-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "festivexmas7s",
+      "name": "festivexmas7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "finnegansbanditos",
+      "name": "finnegansbanditos",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "finnegansbanditos-eo",
+      "name": "finnegansbanditos-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "finnegansformula",
+      "name": "finnegansformula",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "finneganstreasure2",
+      "name": "finneganstreasure2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "finneganstreasure2-cds",
+      "name": "finneganstreasure2-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "finneganstreasure2-cds-eo",
+      "name": "finneganstreasure2-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "finneganstreasure7s",
+      "name": "finneganstreasure7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "fireboltmax7s-hnw",
+      "name": "fireboltmax7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fireboltmulti7s-cds",
+      "name": "fireboltmulti7s-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "fireboltmulti7s-cds-eo",
+      "name": "fireboltmulti7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fireboltmulti7s-c2",
+      "name": "fireboltmulti7s-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fireboltmulti7s-hnw",
+      "name": "fireboltmulti7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "fireboltmulti7s-hnw-lowmin",
+      "name": "fireboltmulti7s-hnw-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "firedrakesfortune",
+      "name": "firedrakesfortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "firedrakesfortune-lowmin",
+      "name": "firedrakesfortune-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "firedream7s-hnw",
+      "name": "firedream7s-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "firedreamxmas-hnw",
+      "name": "firedreamxmas-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "fireeagle",
+      "name": "fireeagle",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fireeagle-lowmin",
+      "name": "fireeagle-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fireeaglereborn",
+      "name": "fireeaglereborn",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fishlineloot-hnw",
+      "name": "fishlineloot-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "flamingscarabs",
+      "name": "flamingscarabs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "flamingscarabs-usefur",
+      "name": "flamingscarabs-usefur",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "flamingscarabs-cds",
+      "name": "flamingscarabs-cds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "flamingscarabs-cds-eo",
+      "name": "flamingscarabs-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "flamingscarabs-c2",
+      "name": "flamingscarabs-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fonbetbountywheel-hnw",
+      "name": "fonbetbountywheel-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "footballblast",
+      "name": "footballblast",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "footballblast-hnw",
+      "name": "footballblast-hnw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Normal"
+        }
+      ]
+    },
+    {
+      "id": "fortycrownchase-pt",
+      "name": "fortycrownchase-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fortyshamrockdiamonds-pt",
+      "name": "fortyshamrockdiamonds-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fortyshamrockdiamonds-pt-dice",
+      "name": "fortyshamrockdiamonds-pt-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fortywildcraze-pt",
+      "name": "fortywildcraze-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fourpotpiggysnatch-hnw",
+      "name": "fourpotpiggysnatch-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fourpotpiggysnatch-hnw-eov2",
+      "name": "fourpotpiggysnatch-hnw-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fourpotpiggysnatch-hnw-dice",
+      "name": "fourpotpiggysnatch-hnw-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "fruitmaxcashlinez",
+      "name": "fruitmaxcashlinez",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "game-baum-ssm",
+      "name": "game-baum-ssm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "gatesofbabylon",
+      "name": "gatesofbabylon",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "gatesofbabylon-minimax",
+      "name": "gatesofbabylon-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "glowburst7s",
+      "name": "glowburst7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "glowburst7s-eo",
+      "name": "glowburst7s-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "gobblingturkeys",
+      "name": "gobblingturkeys",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goblins",
+      "name": "goblins",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goblins-hitnroll",
+      "name": "goblins-hitnroll",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldenkegs50k",
+      "name": "goldenkegs50k",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldfire7s",
+      "name": "goldfire7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldmint7sdeluxe",
+      "name": "goldmint7sdeluxe",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldmint7s-hnw",
+      "name": "goldmint7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldmint7s-hnw-cds",
+      "name": "goldmint7s-hnw-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldmint7s-hnw-cds-eo",
+      "name": "goldmint7s-hnw-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldmint7s-hnw-dice",
+      "name": "goldmint7s-hnw-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "goldtracker7s",
+      "name": "goldtracker7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "griffinsquest",
+      "name": "griffinsquest",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "griffinsquest-lowmin",
+      "name": "griffinsquest-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "griffinsquest-xmas",
+      "name": "griffinsquest-xmas",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hauntedjoker-hnw",
+      "name": "hauntedjoker-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "heartsbountyblitz",
+      "name": "heartsbountyblitz",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "heimdallsgate",
+      "name": "heimdallsgate",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "heimdallsgatecashquest",
+      "name": "heimdallsgatecashquest",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "heimdallsgate-pm",
+      "name": "heimdallsgate-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "heimdallsgate-pm-cds",
+      "name": "heimdallsgate-pm-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "heimdallsgate-pm-cds-eo",
+      "name": "heimdallsgate-pm-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hellchef",
+      "name": "hellchef",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hellchefgoesfishing",
+      "name": "hellchefgoesfishing",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hellchefgoesfishing-usefur",
+      "name": "hellchefgoesfishing-usefur",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "homelandfortune7s-hnw",
+      "name": "homelandfortune7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "homelandfortune7s-hnw-eo",
+      "name": "homelandfortune7s-hnw-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "homelandfortune7s-hnw-c2",
+      "name": "homelandfortune7s-hnw-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hongbao",
+      "name": "hongbao",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "horusfire-pt",
+      "name": "horusfire-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "horusfire-pt-eo",
+      "name": "horusfire-pt-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hothats-hnw",
+      "name": "hothats-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hyperblitz-holdandwin",
+      "name": "hyperblitz-holdandwin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "hyperneko7s",
+      "name": "hyperneko7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "interwettenpyro7s-hnw",
+      "name": "interwettenpyro7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "interwettenpyropiggies-hnw",
+      "name": "interwettenpyropiggies-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jellydreamburst",
+      "name": "jellydreamburst",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jellydreamburst-cds",
+      "name": "jellydreamburst-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jellydreamburst-cds-eov2",
+      "name": "jellydreamburst-cds-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jetbahiscandy7s-hnw",
+      "name": "jetbahiscandy7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jetbahisjokerspark7s",
+      "name": "jetbahisjokerspark7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jewelsofjupiter",
+      "name": "jewelsofjupiter",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jewelsofjupiter-hnw",
+      "name": "jewelsofjupiter-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jewelsofjupiter-hnw-dice",
+      "name": "jewelsofjupiter-hnw-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jingle7s-hnw",
+      "name": "jingle7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jingleexpress7s",
+      "name": "jingleexpress7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "joker3600",
+      "name": "joker3600",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokercatcher7s",
+      "name": "jokercatcher7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokercatcher7s-cds",
+      "name": "jokercatcher7s-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokercatcher7s-cds-eov2",
+      "name": "jokercatcher7s-cds-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerfortuneblitz",
+      "name": "jokerfortuneblitz",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerfortuneblitz2",
+      "name": "jokerfortuneblitz2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerfright7s",
+      "name": "jokerfright7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokergifts7s",
+      "name": "jokergifts7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokergold7s",
+      "name": "jokergold7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "joker-hitngoal",
+      "name": "joker-hitngoal",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerlanterns",
+      "name": "jokerlanterns",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerlanterns-hitnroll",
+      "name": "jokerlanterns-hitnroll",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerlanterns-holdandwin",
+      "name": "jokerlanterns-holdandwin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerleprechauns",
+      "name": "jokerleprechauns",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerleprechauns-hitnroll",
+      "name": "jokerleprechauns-hitnroll",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerleprechauns-hnw",
+      "name": "jokerleprechauns-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokermax",
+      "name": "jokermax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokermax-lowmin",
+      "name": "jokermax-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokermax-ftn",
+      "name": "jokermax-ftn",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerhitnroll",
+      "name": "jokerhitnroll",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerhitnroll-xmas",
+      "name": "jokerhitnroll-xmas",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerrainbows",
+      "name": "jokerrainbows",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerravingrespins",
+      "name": "jokerravingrespins",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7s",
+      "name": "jokerspark7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7s-cds",
+      "name": "jokerspark7s-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7s-cds-eo",
+      "name": "jokerspark7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7sdeluxe",
+      "name": "jokerspark7sdeluxe",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7sdeluxe-eov2",
+      "name": "jokerspark7sdeluxe-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7sdeluxe-dice",
+      "name": "jokerspark7sdeluxe-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7sxmas",
+      "name": "jokerspark7sxmas",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokerspark7sxmas-eov2",
+      "name": "jokerspark7sxmas-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokersupreme",
+      "name": "jokersupreme",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokersupreme-xmas",
+      "name": "jokersupreme-xmas",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokertimes",
+      "name": "jokertimes",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokertimes-xmas",
+      "name": "jokertimes-xmas",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "jokertour7s",
+      "name": "jokertour7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "kl-bu-draculastreasure",
+      "name": "kl-bu-draculastreasure",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "kl-bu-funonreels",
+      "name": "kl-bu-funonreels",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "kl-bu-hotfruits",
+      "name": "kl-bu-hotfruits",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "kl-bu-luckoftheirish",
+      "name": "kl-bu-luckoftheirish",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "kl-bu-ramses",
+      "name": "kl-bu-ramses",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "kl-bu-riseofmaya",
+      "name": "kl-bu-riseofmaya",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "kl-bu-sevensonforty",
+      "name": "kl-bu-sevensonforty",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ladylava",
+      "name": "ladylava",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ladylava-externaloutcome",
+      "name": "ladylava-externaloutcome",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ladylava-eo",
+      "name": "ladylava-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ladylava-minimax",
+      "name": "ladylava-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ladylava-c2",
+      "name": "ladylava-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ladylava-usefur",
+      "name": "ladylava-usefur",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "legendofsenteng",
+      "name": "legendofsenteng",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "leovegas-cashquest",
+      "name": "leovegas-cashquest",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "lightningfortune",
+      "name": "lightningfortune",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "lightningfortune-cds",
+      "name": "lightningfortune-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "lightningfortune-cds-eo",
+      "name": "lightningfortune-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "lionsland-hnw",
+      "name": "lionsland-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "lonestarbison-pm",
+      "name": "lonestarbison-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "luckybitsvegas7s-hnw",
+      "name": "luckybitsvegas7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "machina",
+      "name": "machina",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "machina-minimax",
+      "name": "machina-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "machina-prizematch",
+      "name": "machina-prizematch",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "machina-prizematch-cds",
+      "name": "machina-prizematch-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "machina-prizematch-cds-eo",
+      "name": "machina-prizematch-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "machina-prizematch-c2",
+      "name": "machina-prizematch-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "machinareloaded",
+      "name": "machinareloaded",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mammothchase",
+      "name": "mammothchase",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mammothchase-eo",
+      "name": "mammothchase-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mammothchase-easter",
+      "name": "mammothchase-easter",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mangoexpress7s",
+      "name": "mangoexpress7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mangoexpress7s-eo",
+      "name": "mangoexpress7s-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mangoexpress7s-dice",
+      "name": "mangoexpress7s-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mangomulti7s-hnw",
+      "name": "mangomulti7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mangomulti7s-hnw-cds",
+      "name": "mangomulti7s-hnw-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mangomulti7s-hnw-cds-eov2",
+      "name": "mangomulti7s-hnw-cds-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mauimillions",
+      "name": "mauimillions",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mcluckrubyheist-hnw",
+      "name": "mcluckrubyheist-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mermaidsgalore",
+      "name": "mermaidsgalore",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "miamibonuswheel",
+      "name": "miamibonuswheel",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "miamibonuswheel-hitnroll",
+      "name": "miamibonuswheel-hitnroll",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "miamisunset7s-hnw",
+      "name": "miamisunset7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "midas",
+      "name": "midas",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "midas-minimax",
+      "name": "midas-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "missiondiamondhunt",
+      "name": "missiondiamondhunt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "missiondiamondhunt-lowmin",
+      "name": "missiondiamondhunt-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "odh-minimax",
+      "name": "odh-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "monkeygod",
+      "name": "monkeygod",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "monkeygod-lowmin",
+      "name": "monkeygod-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "monkeygod-buyfeature",
+      "name": "monkeygod-buyfeature",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "monkeygod-hnw-cds",
+      "name": "monkeygod-hnw-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "monkeygod-hnw-cds-eo",
+      "name": "monkeygod-hnw-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "monkeygod-holdandwin",
+      "name": "monkeygod-holdandwin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moonburstexpress",
+      "name": "moonburstexpress",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moonburstexpress-eo",
+      "name": "moonburstexpress-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moonburstexpress-dice",
+      "name": "moonburstexpress-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mooncakedragons-hnw",
+      "name": "mooncakedragons-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "mooncakeriches-hnw",
+      "name": "mooncakeriches-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moonrisefortunes-holdandwin",
+      "name": "moonrisefortunes-holdandwin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moonrisefortunes-hnw",
+      "name": "moonrisefortunes-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moonrisefortunes-hnw-eo",
+      "name": "moonrisefortunes-hnw-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moonrisefortunes-hnw-c2",
+      "name": "moonrisefortunes-hnw-c2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "moosnatchers",
+      "name": "moosnatchers",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "multiblitz7s",
+      "name": "multiblitz7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "multiblitz7smax",
+      "name": "multiblitz7smax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "multiblitz7smax-eov2",
+      "name": "multiblitz7smax-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "nineblazingcashpots",
+      "name": "nineblazingcashpots",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "nineblazingcashpotsmegaways",
+      "name": "nineblazingcashpotsmegaways",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "9bcmegaways",
+      "name": "9bcmegaways",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ninjazvsnarcos",
+      "name": "ninjazvsnarcos",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ninjazvsnarcos2",
+      "name": "ninjazvsnarcos2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pawprintsofpurrsia",
+      "name": "pawprintsofpurrsia",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pearlsofaphrodite",
+      "name": "pearlsofaphrodite",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pearlsofaphrodite-minimax",
+      "name": "pearlsofaphrodite-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "phantomfamily-pm",
+      "name": "phantomfamily-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pharaohsdynasty-pm",
+      "name": "pharaohsdynasty-pm",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pharaohsreign",
+      "name": "pharaohsreign",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pharaohsreign-eo",
+      "name": "pharaohsreign-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pharaohsreign-minimax",
+      "name": "pharaohsreign-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "phatcats",
+      "name": "phatcats",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "piggybankexpress",
+      "name": "piggybankexpress",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "piggybankplunder1000-hnw",
+      "name": "piggybankplunder1000-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "piggybankplunder-hnw",
+      "name": "piggybankplunder-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "piggybankplunder-hnw-dice",
+      "name": "piggybankplunder-hnw-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "piggybanktreasure-hnw",
+      "name": "piggybanktreasure-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pinataburst",
+      "name": "pinataburst",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "potionmax7s",
+      "name": "potionmax7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "potionmax7s-eo",
+      "name": "potionmax7s-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "prosperous8s-hnw",
+      "name": "prosperous8s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pulszglory7s",
+      "name": "pulszglory7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pyramidpiggies",
+      "name": "pyramidpiggies",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "pyropixies",
+      "name": "pyropixies",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ramsesblitz-hnw",
+      "name": "ramsesblitz-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "realprize7s",
+      "name": "realprize7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "rubyheist-hnw",
+      "name": "rubyheist-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "rubyhunter",
+      "name": "rubyhunter",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "rumbleratz",
+      "name": "rumbleratz",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "rumbleratz-htc",
+      "name": "rumbleratz-htc",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "sacredriches",
+      "name": "sacredriches",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "safarichase",
+      "name": "safarichase",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "safarichase-eo",
+      "name": "safarichase-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "safarichase-hitnroll",
+      "name": "safarichase-hitnroll",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "santablitz-hnw",
+      "name": "santablitz-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "santascookieexpress",
+      "name": "santascookieexpress",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "sapphiresupreme7s",
+      "name": "sapphiresupreme7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "sapphiresupreme7s-eov2",
+      "name": "sapphiresupreme7s-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "scarycherry7s",
+      "name": "scarycherry7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "shamrockparty7s",
+      "name": "shamrockparty7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "shamrockparty7s-cds",
+      "name": "shamrockparty7s-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "shamrockparty7s-cds-eo",
+      "name": "shamrockparty7s-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "sherlockholmes",
+      "name": "sherlockholmes",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "skullspirit7s-hnw",
+      "name": "skullspirit7s-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "skydefender-pt",
+      "name": "skydefender-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "skydefender-pt-cds",
+      "name": "skydefender-pt-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "skydefender-pt-cds-eov2",
+      "name": "skydefender-pt-cds-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "skyhunters",
+      "name": "skyhunters",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "skyhunters-lowmin",
+      "name": "skyhunters-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "snakefortune-hnw",
+      "name": "snakefortune-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "snakefortune-hnw-cds",
+      "name": "snakefortune-hnw-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "snakefortune-hnw-cds-eo",
+      "name": "snakefortune-hnw-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "soccerstorm-hnw",
+      "name": "soccerstorm-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "soloreelblitz",
+      "name": "soloreelblitz",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "soloreeldiamondbounty",
+      "name": "soloreeldiamondbounty",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "soloreeljokerspark",
+      "name": "soloreeljokerspark",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "soloreelpiggybankplunder",
+      "name": "soloreelpiggybankplunder",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "speakeasyboost",
+      "name": "speakeasyboost",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "sportzinospark7s",
+      "name": "sportzinospark7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "spreefortune7s",
+      "name": "spreefortune7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "spreewheel-hnw",
+      "name": "spreewheel-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "ssgunsandglyphs",
+      "name": "ssgunsandglyphs",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "starbell7s",
+      "name": "starbell7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "starbell7s-eo",
+      "name": "starbell7s-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "starbell7s-eov2",
+      "name": "starbell7s-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "starcasinospark7s",
+      "name": "starcasinospark7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "stpatricksaquamagic-hnw",
+      "name": "stpatricksaquamagic-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "sultanexpress7s",
+      "name": "sultanexpress7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "supersizeatlas",
+      "name": "supersizeatlas",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "templeofheroes",
+      "name": "templeofheroes",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "tenjesterwins-pt",
+      "name": "tenjesterwins-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threeblazingscarabs-hnw",
+      "name": "threeblazingscarabs-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threeblazingscarabs-hnw-eo",
+      "name": "threeblazingscarabs-hnw-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threecandypots-hnw",
+      "name": "threecandypots-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threehauntedcauldrons-hnw",
+      "name": "threehauntedcauldrons-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threemysteryxmasstockings",
+      "name": "threemysteryxmasstockings",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threepotmystery-hnw",
+      "name": "threepotmystery-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threepotmystery-hnw-eov2",
+      "name": "threepotmystery-hnw-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threepotodyssey-hnw",
+      "name": "threepotodyssey-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threepotpiggies-hnw",
+      "name": "threepotpiggies-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threepotpiggies-hnw-eov2",
+      "name": "threepotpiggies-hnw-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threewackypiggies-hnw",
+      "name": "threewackypiggies-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threewackypiggies-hnw-eov2",
+      "name": "threewackypiggies-hnw-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "threewackypiggies-hnw-dice",
+      "name": "threewackypiggies-hnw-dice",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "tigerclaws",
+      "name": "tigerclaws",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "tigerclaws-eo",
+      "name": "tigerclaws-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "touchdownthunder-hnw",
+      "name": "touchdownthunder-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "touchdownthunder-hnw-cds",
+      "name": "touchdownthunder-hnw-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "touchdownthunder-hnw-cds-eo",
+      "name": "touchdownthunder-hnw-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "treeofgold",
+      "name": "treeofgold",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "treeofgold-lowmin",
+      "name": "treeofgold-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "triplenuggettrail-hnw",
+      "name": "triplenuggettrail-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "triplespicy-hnw",
+      "name": "triplespicy-hnw",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "triplespicy-hnw-eov2",
+      "name": "triplespicy-hnw-eov2",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "vegasblast",
+      "name": "vegasblast",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "vegasblast-eo",
+      "name": "vegasblast-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "vegasblast-minimax",
+      "name": "vegasblast-minimax",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "vigilante",
+      "name": "vigilante",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "wildcraft",
+      "name": "wildcraft",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "wildmine",
+      "name": "wildmine",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "wildsfromthecrypt",
+      "name": "wildsfromthecrypt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "wolfwood-pt",
+      "name": "wolfwood-pt",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "wolfwood-pt-eo",
+      "name": "wolfwood-pt-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "xmaslightning",
+      "name": "xmaslightning",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "xmaslightning-cds",
+      "name": "xmaslightning-cds",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "xmaslightning-cds-eo",
+      "name": "xmaslightning-cds-eo",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "zombiequeen",
+      "name": "zombiequeen",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "zombiequeen-lowmin",
+      "name": "zombiequeen-lowmin",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    },
+    {
+      "id": "zulaspark7s",
+      "name": "zulaspark7s",
+      "ready": false,
+      "block_reason": "Sin ronda normal de demo conciliada",
+      "modes": []
+    }
+  ]
+}

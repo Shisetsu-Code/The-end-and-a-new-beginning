@@ -1,0 +1,1455 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "amigogaming",
+      "game": "200",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "200",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "199",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "199",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "197",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "197",
+      "mode": "BUY_TOKEN",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "193",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "193",
+      "mode": "BUY_TOKEN",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "190",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "189",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "191",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "191",
+      "mode": "BUY_FREE_GAME_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "187",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "187",
+      "mode": "BUY_TOKEN",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "183",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "183",
+      "mode": "BUY_FREE_GAME_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "188",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "188",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "185",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "185",
+      "mode": "BUY_FREE_GAME_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "179",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "173",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "173",
+      "mode": "BUY_TOKEN",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "181",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "181",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "178",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "178",
+      "mode": "BUY_FREE_GAME_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "174",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "174",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "174",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "168",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "175",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "175",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "177",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "166",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "166",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "171",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "170",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "170",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "164",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "164",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "161",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "163",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "163",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "158",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "158",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "159",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "159",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "160",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "160",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "156",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "156",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "152",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "152",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "151",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "149",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "149",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "148",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "147",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "146",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "146",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "144",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "144",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "143",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "141",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "136",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "136",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "135",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "135",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "134",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "133",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "132",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "131",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "137",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "137",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "128",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "125",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "125",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "124",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "123",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "123",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "122",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "120",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "118",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "117",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "117",
+      "mode": "BUY_PICKME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "116",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "114",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "113",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "111",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "110",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "110",
+      "mode": "BUY_FREE_GAMES",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "108",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "107",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "106",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "105",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "105",
+      "mode": "BUY_FREE_GAME_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "103",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "102",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "101",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "100",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "99",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "98",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "96",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "95",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "94",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "93",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "92",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "90",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "89",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "88",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "87",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "86",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "85",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "84",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "84",
+      "mode": "BUY_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "83",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "82",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "81",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "80",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "79",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "79",
+      "mode": "BUY_FREE_GAMES",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "78",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "77",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "75",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "74",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "73",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "76",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "72",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "72",
+      "mode": "BUY_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "71",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "71",
+      "mode": "BUY_FREE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "70",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "70",
+      "mode": "BUY_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "70",
+      "mode": "BUY_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "70",
+      "mode": "BUY_FREE_GAMES_12",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "69",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "68",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "67",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "66",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "65",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "64",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "64",
+      "mode": "BUY_FREE_GAMES_8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "64",
+      "mode": "BUY_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "64",
+      "mode": "BUY_FREE_GAMES_12",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "63",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "62",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "61",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "61",
+      "mode": "BUY_FREE_GAMES_10",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "61",
+      "mode": "BUY_FREE_GAMES_12",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "61",
+      "mode": "BUY_FREE_GAMES_15",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "61",
+      "mode": "BUY_FREE_GAMES_20",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "60",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "60",
+      "mode": "BUY_FREE_GAMES_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "59",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "58",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "57",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "56",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "55",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "54",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "53",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "52",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "52",
+      "mode": "BUY_FREE_GAMES",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "51",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "50",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "48",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "49",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "47",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "46",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "45",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "44",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "42",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "43",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "41",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "40",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "39",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "9",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "38",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "37",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "35",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "36",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "34",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "33",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "31",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "32",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "8",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "28",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "30",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "26",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "27",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "25",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "14",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "11",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "5",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "4",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "23",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "24",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "20",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "17",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "16",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "15",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "13",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "19",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "18",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "2",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "21",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amigogaming",
+      "game": "22",
+      "mode": "NORMAL",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": []
+}

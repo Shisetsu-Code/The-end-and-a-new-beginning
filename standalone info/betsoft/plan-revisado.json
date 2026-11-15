@@ -1,0 +1,5717 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "betsoft",
+      "game": "277",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "betsoft",
+      "game": "266",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "betsoft",
+      "game": "262",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "262",
+      "mode": "gamble-BLACK",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "262",
+      "mode": "gamble-RED",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1022",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1022",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "259",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1017",
+      "mode": "Dead",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1017",
+      "mode": "Duel",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1017",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1017",
+      "mode": "Train",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1018",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1018",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1018",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "258",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "258",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "258",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1019",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1019",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1019",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "248",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "247",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1024",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1024",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1024",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1025",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1025",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "236",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1026",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1026",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1026",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1028",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1028",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1028",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "228",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "226",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1030",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1030",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1030",
+      "mode": "boost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1030",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "225",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1031",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1031",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1031",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1031",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "224",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "222",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1052",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1052",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "221",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "220",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "210",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "350",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "194",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "193",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "180",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "178",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "177",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "173",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "426",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "426",
+      "mode": "gamble-BAD",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "426",
+      "mode": "gamble-GOOD",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "444",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "444",
+      "mode": "Carta 1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "444",
+      "mode": "Carta 2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "444",
+      "mode": "Carta 3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "444",
+      "mode": "Carta 0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "betsoft",
+      "game": "858",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "858",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "870",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "870",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "870",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "870",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "869",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "857",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "865",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "860",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "861",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "861",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "868",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "854",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "854",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "854",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "854",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "853",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "855",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "855",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "855",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "855",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "850",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "850",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "850",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "850",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "851",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "851",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "851",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "851",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "852",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "852",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "852",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "852",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "847",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "871",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "845",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "845",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "846",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "849",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "839",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "876",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "876",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "876",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "876",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "844",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "832",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "823",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "879",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "842",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "877",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "841",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "881",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "881",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "840",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "837",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "883",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "883",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "883",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "883",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "822",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "882",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "884",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "884",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "884",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "884",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "836",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "836",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "836",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "836",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "885",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "885",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "885",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "885",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "834",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "825",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "886",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "886",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "833",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "828",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "888",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "888",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "888",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "888",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "890",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "890",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "890",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "890",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "835",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "827",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "909",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "910",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "910",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "910",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "910",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "820",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "911",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "908",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "908",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "817",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "913",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "913",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "913",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "819",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "916",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "816",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "816",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "914",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "914",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "914",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "917",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "818",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "815",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "815",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "815",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "815",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "815",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "923",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "923",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "923",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "923",
+      "mode": "3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "923",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "924",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "924",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "814",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "814",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "814",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "814",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "814",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "929",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "929",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "929",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "929",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "927",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "813",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "931",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "931",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "931",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "931",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "935",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "935",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "812",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "812",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "812",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "812",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "812",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "937",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "937",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "937",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "10",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "11",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "6",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "7",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "8",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "9",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "934",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "811",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "811",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "811",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "811",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "811",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "947",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "941",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "941",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "926",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "926",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "926",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "926",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "810",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "810",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "810",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "810",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "810",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "944",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "944",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "944",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "944",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "809",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "809",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "809",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "809",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "809",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "938",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "938",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "945",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "945",
+      "mode": "boost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "945",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "807",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "807",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "807",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "807",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "807",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "948",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "806",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "806",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "806",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "806",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "806",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "951",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "952",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "952",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "805",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "805",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "805",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "805",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "805",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "805",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "956",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "804",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "804",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "804",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "804",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "804",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "804",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "955",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "955",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "957",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "957",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "802",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "802",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "802",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "802",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "802",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "802",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "961",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "961",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "965",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "798",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "798",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "798",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "798",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "798",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "798",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "801",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "801",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "801",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "801",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "801",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "801",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "966",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "966",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "969",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "969",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "800",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "800",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "800",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "800",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "800",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "800",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "971",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "971",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "973",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "973",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "973",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "796",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "796",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "796",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "796",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "796",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "796",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "975",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "975",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "976",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "976",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "794",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "794",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "794",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "794",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "794",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "794",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "978",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "978",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "980",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "980",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "793",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "793",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "793",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "793",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "793",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "988",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "988",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "987",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "987",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "792",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "792",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "792",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "792",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "792",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "968",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "968",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "968",
+      "mode": "boost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "968",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "788",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "788",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "788",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "788",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "788",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "984",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "984",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "784",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "784",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "784",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "784",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "784",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "991",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "991",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "775",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "775",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "775",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "775",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "775",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "995",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "995",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "998",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "998",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "996",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "996",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "771",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "771",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "771",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "771",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "771",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "767",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1000",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1000",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "763",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "763",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "763",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "763",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "763",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1002",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1002",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1003",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1003",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1003",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1004",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1004",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "759",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "759",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "759",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "759",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "759",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "755",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "755",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "755",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "755",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "755",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "751",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "751",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "751",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "751",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "751",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "747",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "747",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "747",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "747",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "747",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "704",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "704",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "704",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "704",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "704",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "692",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "719",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "719",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "719",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "719",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "719",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "727",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "727",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "727",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "727",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "727",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "700",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "700",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "700",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "700",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "700",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "691",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "691",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "691",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "691",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "691",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "654",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "654",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "654",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "654",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "654",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "647",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "647",
+      "mode": "gamble-HEADS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "647",
+      "mode": "gamble-HEADS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "647",
+      "mode": "gamble-TAILS-ALL",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "647",
+      "mode": "gamble-TAILS-HALF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1006",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1006",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "637",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "637",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "637",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "619",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "619",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "619",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "553",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "553",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "553",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1008",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1008",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1008",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1008",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "256",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1009",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1009",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "597",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "597",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "597",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "158",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "238",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "590",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "590",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "590",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "554",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1007",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1007",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "520",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "520",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "520",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "548",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "534",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "351",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "344",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "471",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "482",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1012",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1012",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1014",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1014",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "504",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "504",
+      "mode": "gamble-CATCH",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "504",
+      "mode": "gamble-MISS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "461",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "461",
+      "mode": "gamble-LEFT",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "461",
+      "mode": "gamble-RIGHT",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "500",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "500",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "500",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "512",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "478",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "478",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "478",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1010",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1010",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1010",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1013",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1013",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1013",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "229",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "384",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "384",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "384",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "402",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1011",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1011",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1011",
+      "mode": "2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1011",
+      "mode": "3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1011",
+      "mode": "boost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1011",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "341",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "341",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "341",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "323",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "308",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "308",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "308",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1016",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1016",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "300",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "300",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "300",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "295",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "295",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "295",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "288",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1015",
+      "mode": "0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1015",
+      "mode": "1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1015",
+      "mode": "boost-0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1015",
+      "mode": "boost-1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "1015",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "280",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "280",
+      "mode": "gamble-HEADS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "betsoft",
+      "game": "280",
+      "mode": "gamble-TAILS",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    }
+  ],
+  "omisiones": []
+}

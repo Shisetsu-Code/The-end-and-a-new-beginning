@@ -1,0 +1,2307 @@
+{
+  "AllwaysEgypt": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 80,
+      "lines": 243,
+      "source_sha256": "45b51fc4dada33b77fe786b6942288e2d52affd2d45b7c44af773bb8d3231da5"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "45b51fc4dada33b77fe786b6942288e2d52affd2d45b7c44af773bb8d3231da5"
+    }
+  },
+  "AllwaysEgyptFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "519b3acda4902195e86d8473859afd5c87f878672185cb695806c7b7770d7db9"
+    }
+  },
+  "AllwaysLuckyPot": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "044c954de6487f94f56781408d32e3398aaf274bf95af6572d006d79a3463ca9"
+    }
+  },
+  "AllwaysLuckySpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "b3222623ecc243bf97a020cf989c212fb36783b682f2781357a387af4db5402f"
+    }
+  },
+  "BookOfAllWays": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "f13fedecb6eaf81fd7d8542dbdd77db69e6d86a2c59bebae5e266d4acb698f0a"
+    }
+  },
+  "BookOfCorsairs": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "e0e8c805b12bb27688263acf0b3a211aaee0e6c732345b7247ff1e22ce4537f7"
+    }
+  },
+  "BookOfKnights": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "49b63b51d76a33baf7750a1437b0ecf5d288aea99b0af41665efaf056bbeb512"
+    }
+  },
+  "BookOfMoney": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "88a69af62f3ce6b200647061277967d94fe9f6992681c5940d8d657a631697c5"
+    }
+  },
+  "BookOfNibiru": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "c5eb78a17ab4ad8fe161efc804700f59bdac60e3c3af0a0a00da1b116ee75c39"
+    }
+  },
+  "BookOfWild": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "91081116e084c4821837b64bac3cae4e90a539884c3789be5a3e7024d80f167e"
+    }
+  },
+  "BoomingFruits10": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "b464997ede0221a4fd493b81b79a17f113266db6acf92c19ad611b5c6d396829"
+    }
+  },
+  "BoomingFruits100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 20,
+      "source_sha256": "eefa2be20bad0fba483b0a06b92ccc5a19aa46d04ed35c8d1afe5ad9e393309e"
+    }
+  },
+  "BoomingFruits20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "18923a4eeadae3bf2306071638163dabef0bc5485eeded3c310c31370540e337"
+    }
+  },
+  "BoomingFruits243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "52eee4f607c09aa4999db5eeb8cd68b158d26793408e48e935862802bdd6fc1a"
+    }
+  },
+  "BoomingFruits256": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "d50fcd875966d010ccad4138045fa3e467c7aa4a5635883c15520e9eb3bb9fb2"
+    }
+  },
+  "BoomingFruits27": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "d76d0e0901de29ec368063f5fd73929fae3b63c73de53551c48d5f330ba88753"
+    }
+  },
+  "BoomingFruits40": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 40,
+      "source_sha256": "3a2f1e3d306eca6ea840cdda7d7b1b0e0ffd1af12999f8a0a659ff29553a5d8f"
+    }
+  },
+  "BoomingFruits81x": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 81,
+      "source_sha256": "1814a5f156eea1203df1442c286743658b8898dd9d0da57b9d41160934d81659"
+    }
+  },
+  "BoomingFruitsX": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 20,
+      "source_sha256": "01c40143c97f9f0ea88bae34f21f3d1c97c3f2ecef93bf13f87f86a8dade2a3e"
+    }
+  },
+  "BoomingSpins243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "8f197b6bf1b9c4b5c782e8345eb4b3450f1425205030025661b34d5310d47102"
+    }
+  },
+  "Brumbys243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "5d98808e440b5582aafd7c0c69371678c957c647a6eed829c40f74e88779d18a"
+    }
+  },
+  "BuffalosWealth": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "de96b1ed8fb2fcf9a78308dd26d64cc86e62e37b9e533e4c7dc04a14638419a9"
+    }
+  },
+  "BuffalosWealthFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "2456e383a85be069e1af629c71a2b6828c0b413a25f20590bbb901ab1b75d0bd"
+    }
+  },
+  "BuffalosWealthHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "8fc35a6f30905490fe937e2ffb433985ac104b35e4b6a232f5cf3caf5cc1a860"
+    }
+  },
+  "BuffalosWealthWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "b42ee5091ca10354348193c5711ad6db9a99211dcfce10a2edaa92165e428351"
+    }
+  },
+  "BurningSpins243": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "2da8349e87511045339c20e9010ca39ffc847c7b82e32c3c1ca97489f5f1d007"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 56,
+      "lines": 243,
+      "source_sha256": "2da8349e87511045339c20e9010ca39ffc847c7b82e32c3c1ca97489f5f1d007"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "2da8349e87511045339c20e9010ca39ffc847c7b82e32c3c1ca97489f5f1d007"
+    }
+  },
+  "CashAmplifier243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "d91d66d0c8fb17299901828f00dd7401edb78680100ad7b8c663920e77b6f9ad"
+    }
+  },
+  "CashAndFruitsHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "c403565416760596c895c29baef2e44df8dcade464bd18f24033ad72934c1550"
+    }
+  },
+  "CashAndSpins243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "39348ea95c50e44c3bba14f5278bd26332b4ea707a61b73f0a06f26a69afdf61"
+    }
+  },
+  "CashTheGold": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "c8ced730528641fec6e9cf38aabbb4a9e5c360010f52781ffa4c4bb5cfad4d06"
+    }
+  },
+  "CashTheGoldHoldAndWin": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "c945e9fea3a350601e7ccf8f10a32eb9679ff2284cecfc055b9b1b6792d47601"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 50,
+      "lines": 243,
+      "source_sha256": "c945e9fea3a350601e7ccf8f10a32eb9679ff2284cecfc055b9b1b6792d47601"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "c945e9fea3a350601e7ccf8f10a32eb9679ff2284cecfc055b9b1b6792d47601"
+    }
+  },
+  "CashnFruits100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 20,
+      "source_sha256": "18a6216662b6d0a7547251f6dc99ed26d6b5eee756349afdcd2db12fe36d3655"
+    }
+  },
+  "CashnFruits100HoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "3380b67a34c338feba5084b6db03df21b7d1c7bdcc59afe7dd6ab7aea77c8602"
+    }
+  },
+  "CashnFruits243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "403dfe880d74bf2ae0e522e5c4ffce39d8a89451abb47beebce7214223d2373c"
+    }
+  },
+  "CashnFruits243x": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "8c577e12d8bb3d2b9d29cccbd3af4b22418df1c601658a670ad14e52ffa40462"
+    }
+  },
+  "CashnFruits256": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "5339aa2f320b918a14b7a7dfb84b112bb24cca0f7b986a405a4335f703d4f964"
+    }
+  },
+  "CashnFruits256HoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "7f76018a7c8bff985f677f1e6c29e65d6fe3aee839feb141cfe4acb6ebacdf10"
+    }
+  },
+  "CashnFruits27": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "95c15f32f278854edcd1cf86dd206fbadd86211bb7aab6b41f9c5c541cf34830"
+    }
+  },
+  "CashnFruits27HoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "d7028dd562ac87c17ceb5c4c0800af0e4c2c9bed7d5555366792aa28c230cb7c"
+    }
+  },
+  "CashnFruits40": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 40,
+      "source_sha256": "57fc63e883f38a5765f91f1c48777b7e92f38d12d6cb4d6f4bc6875f2b400ece"
+    }
+  },
+  "CashnFruitsFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 5,
+      "lines": 5,
+      "source_sha256": "e43f51142e8c79a45b342b912146a6a189ff495ca2c1d23d542f795588f67492"
+    }
+  },
+  "CashnFruitsFortune100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 100,
+      "source_sha256": "2299089224efbf22a21ab1b60baf5c5d739cafd00fda1e47f9c7b62924b673dd"
+    }
+  },
+  "CashnFruitsFortune243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "dbf3cee337875af4ba24ea73d75e485be26d19ffdfda395192b2128fdf1b8d29"
+    }
+  },
+  "CashnFruitsX": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "87120f4c152e9ae0950f508f05ba3fb42489ac80dd546898f5cb5377e8188233"
+    }
+  },
+  "CashnSpins243Plus": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "a44a2cfc35d1ab79eb01d938c0fc97db02bf7f86aa4caf673c6589a1ee422152"
+    }
+  },
+  "CashnSpins27Plus": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "2c1170820b1183cfe7cbd04df4e2c80ececc3c1b7f3b6e47a1513822e07ff8d0"
+    }
+  },
+  "ChineseLuck": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "fce0e9c9f55abfb0dc387725e5a43eeb9b68e71cc29c41224a9a65b6ca342c52"
+    }
+  },
+  "ChristmasGemsHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "efb0ad8f32efab179ba3a44ce2899d0edfa0952e20e9ae1327d6ec8d3b38935b"
+    }
+  },
+  "ClassicChili243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "42c04e4e1a5de4bd3b0eaf72b84478b4b4ae21f305006a989ef5b7e241e191cd"
+    }
+  },
+  "ClassicChilli": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "ec87f63aae1efd409f45ea38ddba5002a05c0704751cf1c362d8ac10cd3dbd46"
+    }
+  },
+  "ClassicChilli100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 50,
+      "lines": 100,
+      "source_sha256": "b1ee08f24bdaea7c743650daf9d244203be6a302adaad234d66f2e130e3feb4d"
+    }
+  },
+  "ClassicChilliFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "97ecd79afc88343d2ff2322ca98b37caee3ddd93e89fecb30acf9cc870840c8c"
+    }
+  },
+  "ClassicChilliHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "3931162981de2c3b9044039e0fc4b9fecefdcb59f14e86451bfad719e9d68555"
+    }
+  },
+  "ClassicChilliPlus": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "cb69a1f14f40f96d747caa1b6bbc8d944a32e03dde06776d6922139db396681b"
+    }
+  },
+  "CloverFest256": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "ac5df10ff27ccab4e7e15436952d81f3ba64444d833f55cd08713b2aebfa29fd"
+    }
+  },
+  "CloverFestHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "d03a12c2bbb1c169e5ae504bcd87fb39b00cd0330702d154c1d9a4ab4fcb3cda"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "d03a12c2bbb1c169e5ae504bcd87fb39b00cd0330702d154c1d9a4ab4fcb3cda"
+    }
+  },
+  "CoinsSnifferHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "606038b1f16da6a84c5922db375576becb993fe4f45eeff05d0b33322148b078"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "606038b1f16da6a84c5922db375576becb993fe4f45eeff05d0b33322148b078"
+    }
+  },
+  "CoinsnDiamondsFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "4de9e852ecc9ccb8938c8778d72227f6040dbc5e3012bfc9e841c21bb8b10e39"
+    }
+  },
+  "CoinsnDiamondsX": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "f40bca44adad61609cbcad57e7e6cefb37dff85b82137448171c466b1ad245a8"
+    }
+  },
+  "CoinsnFruits100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "58a330d571705df4bd74c46c3d91b9ce0d2e77c1a13013a19cf8588b7924b568"
+    }
+  },
+  "CoinsnFruits243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "a0578747de2fa4c9f87107fcf6493bb5b69ef871503de24f4f75a7336fa7e3ba"
+    }
+  },
+  "CoinsnFruitsSpins": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "73624c9b4934992d7fdf5e74d018092a43c8cf4d8ac1a61be42f0f9dabbd5512"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 56,
+      "lines": 243,
+      "source_sha256": "73624c9b4934992d7fdf5e74d018092a43c8cf4d8ac1a61be42f0f9dabbd5512"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "73624c9b4934992d7fdf5e74d018092a43c8cf4d8ac1a61be42f0f9dabbd5512"
+    }
+  },
+  "DeluxeCatsPlus": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "17cda95260114f3dd73c37ec06a828ac8eb5c4e7ec9b00e5aedce7b77604bd6c"
+    }
+  },
+  "DiamondEaster": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "1d4bba405acb3f8a98c00f6e5fae1b78982b8348f2d5bba53a71210287e7efd8"
+    }
+  },
+  "DiamondLuck243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "c611e3a55f72eb77723ef78750cbd4abe1857855bbd6b4adf9e2768651837595"
+    }
+  },
+  "DolphinsWealth": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "708dd367c3aa13fed1d7e691d61227a4af916475e56d4f1112820ae175978990"
+    }
+  },
+  "DolphinsWealthFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "068f174986b54c156398b1466cdc65588aff1e3d58d72860dcceb2d1c32e63f4"
+    }
+  },
+  "DolphinsWealthHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "6bf86d0c2de906987c1064c7fe9a2e0b0a8718c419bfc1a11e7373563358447b"
+    }
+  },
+  "DolphinsWealthWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "a93789f4eef04fdab4b9df4605853c5f4d8cdd00b8290222870d139874892202"
+    }
+  },
+  "DonCatLeoneHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "7aa3adfad43edd28e1136f85bad35604c80f789aa2a7932a3c822ae44ec8bf8b"
+    }
+  },
+  "DonCatLeoneWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "ab6d7ba925d3fb5cc1262fcc521d51ae17cb968a829a5333490fbc0231a15e61"
+    }
+  },
+  "FlatAndHotFruits20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "8b491735de5d7182f0a19a4ffc9c974c3bd34e95991b9d79d5d35bc5e938135d"
+    }
+  },
+  "FrozenCoins243": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "fd8692084f8e99a6ddcb85c8976f81f6cc196145bd0291171ec5c49e2357d20e"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 56,
+      "lines": 243,
+      "source_sha256": "fd8692084f8e99a6ddcb85c8976f81f6cc196145bd0291171ec5c49e2357d20e"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "fd8692084f8e99a6ddcb85c8976f81f6cc196145bd0291171ec5c49e2357d20e"
+    }
+  },
+  "FruitCafe20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "5301d297a199e452d574da81785b0910ad5b483cbb90ff103434c295879d1568"
+    }
+  },
+  "FruitDealers": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 76,
+      "lines": 243,
+      "source_sha256": "749bdcff7cb175f2de86df7ac269e2a7e0754974a540b3496c5677f7ca0285e3"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "749bdcff7cb175f2de86df7ac269e2a7e0754974a540b3496c5677f7ca0285e3"
+    }
+  },
+  "FruityChristmas": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 1024,
+      "source_sha256": "5a2d2058aa3835a9030bb718a9cf0a5bfc87c662f106ce76946ebd63c7165669"
+    }
+  },
+  "GemsAndCashHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "24cbc6c2f2568a8e31b3bff85168cb1981aaa7d02a2c57dc5fcec6d503ae0616"
+    }
+  },
+  "GemsAndCashWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "44699d1fba60f6b9013e593ad28347aac7a0f52367ac10113213e2168c85e09e"
+    }
+  },
+  "GemsOfLoveHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "bbf126900b6bf3cf555bd05c94f50832fca540e8254e2ee68e7b6d5100c1b94a"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "bbf126900b6bf3cf555bd05c94f50832fca540e8254e2ee68e7b6d5100c1b94a"
+    }
+  },
+  "GentleFoxHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "d3d1779bc6a70071419f49824629f2db7f2b15df62484a16769165beced17347"
+    }
+  },
+  "GoldOceanicaFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "76a81610bc2267eec6fcfd87e02278e644adedf80ce382bbd9053649a1109103"
+    }
+  },
+  "GoldOceanicaHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "39a5bada2d449f73ad21bc396a7cc15596577166c55f9c5f917f9c052feb8938"
+    }
+  },
+  "GoldenJoker100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "9405b27947e8a0cf36e1011ed94e3ce94e1dece24eb1a9c760b5fc5418d044de"
+    }
+  },
+  "GoldenJoker100HoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "c13e1df02b889d77038fafc5f2dfc381b7d7523ef806d87bbd34d3a6a38ce64c"
+    }
+  },
+  "GoldenJoker243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "d91dc2e50049fe89d8d75ebf77e175a7ec74e3b64ed6f3fd1a875cd4e4d07fd6"
+    }
+  },
+  "GoldenJoker243Fortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "784fb4354b1791af7b8afa043fe06f1c3346efc684c482f92f80b59f4bc1dc8c"
+    }
+  },
+  "GoldenJoker243HoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "cc23c16ded1c3176ca594554a90b3a5e738b27502c24f221dd168ae32b0569c3"
+    }
+  },
+  "GoldenJoker27": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "37714e0d23c56b518cf2a3165aeecf4f05885423ae784168bff786367b88c84c"
+    }
+  },
+  "GoldenJoker27HoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 50,
+      "lines": 27,
+      "source_sha256": "b49e0f8fdd74842154a6fca4a5751ce99f7639e1b088fd05be202776a84c4510"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "b49e0f8fdd74842154a6fca4a5751ce99f7639e1b088fd05be202776a84c4510"
+    }
+  },
+  "GoldenJokerFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "90675556f3652eecccf29c3738443b4090512cec63883a283ee7dbbdfbba3679"
+    }
+  },
+  "GoldenJokerHalloween": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "2149fc1c03bbadb9c78d4e2e69d807ad781ce4854d1e8ed31c70636f7f02036c"
+    }
+  },
+  "GoldenJokerPlus": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "026232c3360776db0386d67b8b87add870d4a6b1310d30c3896ec7e3fb3c1e80"
+    }
+  },
+  "GreatHookHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "e92bfd11aeaaa4a0817976c7e0b9fd632429cca87d7689eb13dd8a37e2f1b7dd"
+    }
+  },
+  "HoldTheGoldHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "f070b6303bfed46ca5e8f1d4ba191179bd5d30ee98efbc2904aabeb42e53498b"
+    }
+  },
+  "HotCoinsAndFruits100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 20,
+      "source_sha256": "0d4e00b8f15f354191fb46d2250b8e857e9f009565a0ca903d400b5fafa1bf2c"
+    }
+  },
+  "HotCoinsAndFruits243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "566eb933b1d51ed608bf5b9af3d89a5c0ee914ee4d2e08d82270dccbfc74f295"
+    }
+  },
+  "HotCoinsFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 50,
+      "lines": 100,
+      "source_sha256": "229549399059de64c275729ac4e6cc1c515f7711f1580cf234f09fb05da66d3f"
+    }
+  },
+  "HotCoinsFortune10": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "219f1b56436298dd67cb78bcd943fb504d9921cc92b6dde9e3e1d3fa23b5e63e"
+    }
+  },
+  "JuicySplash10": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 550,
+      "lines": 10,
+      "source_sha256": "d05d0ad9e1eb7cd4491bbc211af87aeec9b6069977767be5aa0dffe43fd44481"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "d05d0ad9e1eb7cd4491bbc211af87aeec9b6069977767be5aa0dffe43fd44481"
+    }
+  },
+  "JungleWealthHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "3cd82972890715be869c62b911cc22f25c9f1475154c0a1d548ced35d657af66"
+    }
+  },
+  "LadyAndFiredrake": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "ebfeef20ee67e57907527ba24802b72b542affbfd29411fc7cc07098418cc11a"
+    }
+  },
+  "LadyWild10": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "e4c35afc450eba348a05427db48a11c6b59b41cd2dbbb23b151f7fab2ba2cc84"
+    }
+  },
+  "LandyCandy": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "781c97b1a4ab8821b5ec4e3a694ae86a8217cacd400cf7035719016f8b92562f"
+    }
+  },
+  "LandyCandy100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "7868010551b035fd6694a39f1a70b4b6862560e50134b84afaf1203c4b5a713d"
+    }
+  },
+  "LandyCandySpins100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 100,
+      "source_sha256": "37778fd0df76b5868c68ac6b77ba14dca319a1e29fcd045e6f6cd45f68bba793"
+    }
+  },
+  "LeonardosSecret": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "7b16f8a0c8462a4c248494677789f403dbb05a35014f56b45a7e2872aa71856e"
+    }
+  },
+  "LoveGemsHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "e76174d6c3c1538ac471902e9e945359c7763372d8a52d40500a7878173b963b"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "e76174d6c3c1538ac471902e9e945359c7763372d8a52d40500a7878173b963b"
+    }
+  },
+  "LucknPower": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 90,
+      "lines": 243,
+      "source_sha256": "6b934d5faa74ffb0903c7c9d0ab0baa4b5ddb231b1e3fdacf1663704e5bce492"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "6b934d5faa74ffb0903c7c9d0ab0baa4b5ddb231b1e3fdacf1663704e5bce492"
+    }
+  },
+  "Lucky100Bells": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "f40ea2a3a4f62cbaa4543c527747afe5062004389cee50c9c8069ad5837ccf2a"
+    }
+  },
+  "Lucky10Bells": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "2672dce55c964508189aac987b1a259096f2ccfbe48d14645fed78f7e0e9abc9"
+    }
+  },
+  "Lucky1Spin4WinHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "3de4f6efe6c1f1b42f9bdd0aae2ce6aba8cb0240854bb496ac6d0c9f03d6f801"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "3de4f6efe6c1f1b42f9bdd0aae2ce6aba8cb0240854bb496ac6d0c9f03d6f801"
+    }
+  },
+  "Lucky20Bells": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "ab400c91c2a307869677096c306116b383057f53266dc4fa3eb8181107c4cf8e"
+    }
+  },
+  "Lucky2Ways": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 576,
+      "source_sha256": "bfb17e795e5b4acc9dde1100bce061b1bc03e75d1495d0ea1ddff8350d172a47"
+    }
+  },
+  "Lucky3Cherries": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 5,
+      "lines": 5,
+      "source_sha256": "80337b837c6e767b98205012c22e9229eaa80ddd5c0e15020669780cdb5475a1"
+    }
+  },
+  "Lucky432Ways": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 432,
+      "source_sha256": "25f01a9b040b877176cac81161effc3a6fe75cff9cc4971c0f67adf40121bced"
+    }
+  },
+  "Lucky5Bells": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 5,
+      "lines": 5,
+      "source_sha256": "2482f5be5659759bae8e636a35a4624fa2913fa72d327ecd5fbf2e79905abc7a"
+    }
+  },
+  "LuckyAndBraveFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "9f77074ba278cff90b56f20f2a2855a8083e65397f9f71c2d0eda59517f9bb2b"
+    }
+  },
+  "LuckyAndBraveHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "9b5f9e77b43cce369cac4df2279ebf4b05b6cc6e3bf37ead1a65c45c2a43ff79"
+    }
+  },
+  "LuckyAndBraveWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "379aae0c0968e563853832729bb8adf90ca9b6aefe8a7399d81b20a983d72b93"
+    }
+  },
+  "LuckyArenaHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "91212a895888b4511c7827829032cf449d4860aa87f5f0d7e3624b00f6d7cb92"
+    }
+  },
+  "LuckyBandHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "b267bedae5ae0a9e003489d5f1479e604c6b6a83c6b9efd9c095a1b616f034cf"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "b267bedae5ae0a9e003489d5f1479e604c6b6a83c6b9efd9c095a1b616f034cf"
+    }
+  },
+  "LuckyBroHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "f02451b07ab0399eeead62fc75ed51440b0fb786e57eb248089d9345244cda89"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "f02451b07ab0399eeead62fc75ed51440b0fb786e57eb248089d9345244cda89"
+    }
+  },
+  "LuckyCashAndSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "351e06598747e5052e993c2c1b5332a3113e9fe9fcd9fa8e494f4f7520877f27"
+    }
+  },
+  "LuckyCashnFruits": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 50,
+      "lines": 100,
+      "source_sha256": "6d92acf0c766e298ed2c244453a0a19e88e363acd6d8676bdecee8e138950e86"
+    }
+  },
+  "LuckyCashnFruits243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "344f0cc4798104a666608d81ec6ffc6d7e6af786f0adc712bd04414b0666e7ce"
+    }
+  },
+  "LuckyChristmas243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "c78f7c92ccf0c6921842fa9883b5815267021f78185f9b4287eec66ba37f73bb"
+    }
+  },
+  "LuckyClover243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "09988f4f4459340be4360758fd4b4ff60b0691ac83e7e438cf6aac1445660732"
+    }
+  },
+  "LuckyClover27": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "af7b6cefbe9553f12c5a3ca8a8ba9b09136f8c56bf6da767d8d3d6c0877155be"
+    }
+  },
+  "LuckyCloverSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "02a456b3b5e4230cc759b94efa6b5b421138c5ca9a8213603551d63550976abd"
+    }
+  },
+  "LuckyCoinWins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 100,
+      "source_sha256": "54b802e667098cbeeca2d69c3e1e9cd309dfdcecacfe48dc12e74440b22f88dc"
+    }
+  },
+  "LuckyCrown20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "bdc915244cca7b23fe21621883aae9093ae854cf60942f16180b290c02c1485c"
+    }
+  },
+  "LuckyCrown81x": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 81,
+      "source_sha256": "f662ed918c51d2188eabf0bd7c04ac4ee6903acec7b58804deeee4de483e7150"
+    }
+  },
+  "LuckyCrownHoldAndWin": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "a9a306d0e4deb44d7babbbc547b7594983cc5968439750092b801cfef2a8e673"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 55,
+      "lines": 243,
+      "source_sha256": "a9a306d0e4deb44d7babbbc547b7594983cc5968439750092b801cfef2a8e673"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "a9a306d0e4deb44d7babbbc547b7594983cc5968439750092b801cfef2a8e673"
+    }
+  },
+  "LuckyCrownPlus": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "7ef0c25b1da23cce68f592819e2de0d8ceea5afb8c42f24d70ad6f3af2a688fd"
+    }
+  },
+  "LuckyCrownSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "8b10232c9a11d1b43f40ff1d81cc283042e904911029690e855cd4ddc603cde2"
+    }
+  },
+  "LuckyEaster10": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 550,
+      "lines": 10,
+      "source_sha256": "51d0b980b07c8e45599446f35a2dc342b643e94b5a3cfe2cb9d7b5222d5b5ad8"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "51d0b980b07c8e45599446f35a2dc342b643e94b5a3cfe2cb9d7b5222d5b5ad8"
+    }
+  },
+  "LuckyEaster243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "ba8470efc51e5e380a0cfdfd8064ff68878a489ee0fad96050b33ae8aa490a56"
+    }
+  },
+  "LuckyEaster27HoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "be05fc6bd63292e2cb0c3ac360a03e46304b08bf68c4cd99d57158f984b257bd"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "be05fc6bd63292e2cb0c3ac360a03e46304b08bf68c4cd99d57158f984b257bd"
+    }
+  },
+  "LuckyEve100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 50,
+      "lines": 100,
+      "source_sha256": "9054247dc37bea889b070a30d05731e945454fa87afd2c4796467460cb1cee74"
+    }
+  },
+  "LuckyFestHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "45e45ce1dd0e3cffa762390186bb780e83b4f21440ed7fd7c515ba190babaf0a"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "45e45ce1dd0e3cffa762390186bb780e83b4f21440ed7fd7c515ba190babaf0a"
+    }
+  },
+  "LuckyFruitWins100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 30,
+      "lines": 60,
+      "source_sha256": "ee6b39b8a4b579e1bebe6595a9f595514a252857c624390af0744e2327afe8d1"
+    }
+  },
+  "LuckyFruitX": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "0a1c8125f053bdac5bd0d6439f524e3a21b2d2cb2ea4535f536868bbd3297a3b"
+    }
+  },
+  "LuckyGoal": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "71d10aa270e02cb27b6b769836eb794b4cad0f6ccead4a3aaadfd5eeb342ada2"
+    }
+  },
+  "LuckyGoldMiner": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "cafbff51e6a46eba6f9c2cd505483d63f7fc9b07b58f5a74bf99d8e7c7fd606c"
+    }
+  },
+  "LuckyHellowin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "1b0d368eb52c3f575407092b882b09b31829939a56a346dd1e8c617f2c5c1024"
+    }
+  },
+  "LuckyHerculesHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "de49fae460b8efef7be7a4fd05bc7c1262968e47111bab7dbf2ebbf90086876a"
+    }
+  },
+  "LuckyHoney": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "8740e3e2d0abe45a33a41183e6cd87d405dd7cbff87fe77b555c343c5350d71a"
+    }
+  },
+  "LuckyJaneAndAztecBook": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "444cf4bd296a4cf41704c6b5e591bccb46805c2a9ea596fe712ba5ed90155193"
+    }
+  },
+  "LuckyJaneInEgyptFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "878398334132b738fbcee3ad2f60267c93c2d49046329dca36522378ed628079"
+    }
+  },
+  "LuckyJaneInEgyptHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "1ddc54b35fcdc917fee84491e6dc1076428160d32aaf1e9f514fdbc753f58d6e"
+    }
+  },
+  "LuckyJaneInEgyptWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "e1e41058098d2a94bff92137f0fa0b8700bd2076ec9b7f7f8c76b864b8a14d73"
+    }
+  },
+  "LuckyJaneinEgypt": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "0291ece7e41b36f8fd91a7c9d37c3369d5c3c4a3b9eb34136d3a2eaed0bbe1fb"
+    }
+  },
+  "LuckyLadyBug": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "e0d65b24be4c85da21130952ce1677ff71f48166d5b66bf42a89be6c57a39d81"
+    }
+  },
+  "LuckyLegionFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "15c577eeb61355f2e40ea24b5fbb6a65462ab26d2ced08ef42c6ae5fb07da220"
+    }
+  },
+  "LuckyLegionHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "3e65dd695feb808910a49e07e47cc973cca3c8161b43f08571e2f694591a0cdc"
+    }
+  },
+  "LuckyRetroFruits": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "fe1b33b8883d0f065e4d4e6f2f481fc50b8a2c045c49b5af7e0c285c95fd7fd2"
+    }
+  },
+  "LuckyRetroFruits243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "e245f18dfe500494312444f17a12a23950c0bf731a55e1211da8a7f2115fb67d"
+    }
+  },
+  "LuckyRetroFruitsHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "97bf8762b957e934b21f2d5584c2efd28da2a25c701299f09ab1413eb36587f0"
+    }
+  },
+  "LuckyRobberyFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "8e5622bd7e37c4c4503b4eb057fb3263ce49e925980ddc754c5b60158afa5777"
+    }
+  },
+  "LuckyRobberyWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "91133bd2455618b6d3566b3c0621b0e5d2732b636b00587dea4ecabf4d0bd9ef"
+    }
+  },
+  "LuckySafariHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "6fe88ee9cdbe3c4f54cd0edcee02ffbfcaeb10de8e101acedbfe6caec3ac2569"
+    }
+  },
+  "LuckySakura": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "73eaad8c8f647fd0c16b29a613133d6b0c7b7ef2c85e7febceeb075bae48602c"
+    }
+  },
+  "LuckySakuraHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "f292357768ed430a6614ee717f4e8a90b729f8bb366b1876ee733c1222e02828"
+    }
+  },
+  "LuckySakuraWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "9f1eba5f5888841940b2751e6d44b60552acee219432c8afecf749ccfb3088f9"
+    }
+  },
+  "LuckySelvaHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "12309e15d4cdf40e98326de6b92c327a6106e68b2f4722a268a3d4677bf953e6"
+    }
+  },
+  "LuckySnowlight": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "5dd167f17d5453c422695c68cce4d900bbf8cb98ae76247de9461e2cec839552"
+    }
+  },
+  "LuckyTribe20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "38bf4ad411358a581fe07cce5cfb916834309f73edf4c180d3747f80d439f3c3"
+    }
+  },
+  "LuckyWinSpins": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "c95cc4a45f624f710bad7ac9c2c80c3fb58cc7dc428f0f92c8a0f2c384aef81e"
+    }
+  },
+  "LuckyWinSpinsX": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "331dcb63e06fb7680280a0eb6dda2122e9d789a0b55472160c2fcf5e4729eefc"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 60,
+      "lines": 243,
+      "source_sha256": "331dcb63e06fb7680280a0eb6dda2122e9d789a0b55472160c2fcf5e4729eefc"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "331dcb63e06fb7680280a0eb6dda2122e9d789a0b55472160c2fcf5e4729eefc"
+    }
+  },
+  "LuckyXBells": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "f0a878222520a8ac71f60cd365066c4876d3df26869b65789982d46e4d2f0536"
+    }
+  },
+  "LuckyXmas20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "5cd3c89c5760b2b865bf5b3d4594c210b0d51a8fc6248df728f31711851d411d"
+    }
+  },
+  "LuckyXmasBox": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "b2fcb665773c13c593757570f15c1c5c8a7965b5fba7285a5701500c373a6dbf"
+    }
+  },
+  "MadJackHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "1e65be5feb4b8dc4296a70af935f23cca45c960f5c8b076d14ab54085bb707fd"
+    }
+  },
+  "MegaBoomingDiamonds": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 1024,
+      "source_sha256": "9aab7ec6f54c47d0d7eea1e81bf57acb780f8e1fd67cb73fbb93fba70c7507f8"
+    }
+  },
+  "MegaBoomingFruits": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 1024,
+      "source_sha256": "355fae359319194171b71cb5f6dd9251fc7024dbec35f086ec51fdad0c477383"
+    }
+  },
+  "MegaCashTheGold": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "0d06c497874129d1644e0e7da3f62db9811a6b4897fcac00406a9fa45c500fbb"
+    }
+  },
+  "MegaCashnFruits": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 1024,
+      "source_sha256": "a7629f4d759b6a57414da1f4c6b1984d26a2a006ff8d2787758dbfd68ef33311"
+    }
+  },
+  "MegaDiamondX": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "343f82b6a7801e8d2d1e20f7274f2a77edcc92398b73d54f249eeb84292b6998"
+    }
+  },
+  "MegaDiamondsLuck": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 15,
+      "lines": 15,
+      "source_sha256": "dd2b0f0838e5702727e785475535c7c1b8e4085fa85e5259750b4430ab91c7bf"
+    }
+  },
+  "MegaLucky100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 50,
+      "lines": 100,
+      "source_sha256": "97fa997c5b918941c212bb9e26c0fd03d29ad45da53473d7110ba7f0f3440e75"
+    }
+  },
+  "MegaLucky243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "c366c6913efcef0f632b85366f9d0df7cc6eb00e1b4ed270241b0076394d3052"
+    }
+  },
+  "MegaLucky27": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "7ffc6bac9aa09cd92f7072e79aa56278e9a9f220ee0cbaa6fa606d859c21543b"
+    }
+  },
+  "MegaLucky576": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 576,
+      "source_sha256": "68cc47ca89129d14065da7f1aa7b057a6025b98892164dc8df87520573a39044"
+    }
+  },
+  "MegaLucky81x": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 81,
+      "source_sha256": "b379247aa847a66701507d03ce5642d390d4435d9529fbbcda824613bd50422c"
+    }
+  },
+  "MegaLuckyCashout": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "02a43c3f00cb85b6bc9034b03b839e20ae1da616634474139335e358ed7f4a71"
+    }
+  },
+  "MegaLuckyDiamonds": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "c209473cc8d83696eaa47ae5e83cb5fa577e1806e0f4febf27c2a113246ae184"
+    }
+  },
+  "MegaLuckyDiamondsHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "7a6c30d81d72dbdc50a50cfa1f8da3cf9ab71c2e4f6e1f263b836834c82b1586"
+    }
+  },
+  "MegaLuckyPot": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "456347f301eb80d7abe467ef5da98b542073e3c9586004000ba9dd5bec6f687d"
+    }
+  },
+  "MightyRed": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "39a5ddd84d1e41ccd59849863bb779c092f4b1bec6ffdedb3f97cdbdb6155098"
+    }
+  },
+  "MysteryCoin243": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "2c6c1bdae74e234055f036c3cca93eb5b1dcf66a1d61c9698444969df78f6128"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 68,
+      "lines": 243,
+      "source_sha256": "2c6c1bdae74e234055f036c3cca93eb5b1dcf66a1d61c9698444969df78f6128"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "2c6c1bdae74e234055f036c3cca93eb5b1dcf66a1d61c9698444969df78f6128"
+    }
+  },
+  "MysteryCoin27": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 27,
+      "source_sha256": "37686e85ecc74b38a788de7f256f128a5af7c61a8c3cfb298c3f6d6f43b2ac0f"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 59,
+      "lines": 27,
+      "source_sha256": "37686e85ecc74b38a788de7f256f128a5af7c61a8c3cfb298c3f6d6f43b2ac0f"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "37686e85ecc74b38a788de7f256f128a5af7c61a8c3cfb298c3f6d6f43b2ac0f"
+    }
+  },
+  "MysticalLuckHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "48e86dc173dfeef2575b73525f5db9d90ddb28f69f4af056204c70bffe510650"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "48e86dc173dfeef2575b73525f5db9d90ddb28f69f4af056204c70bffe510650"
+    }
+  },
+  "NorthernGoldRush": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "b5d481d6d5c7a3d49fd9a6772320286800a32139488ebe59675a376b537306d1"
+    }
+  },
+  "QueenOfDiamonds20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "a3f8b4b37d555e1d5ce4963ff46f29008c48f0d73cbde5ffc0ce94d37a7dfa4d"
+    }
+  },
+  "Retro432Ways": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 432,
+      "source_sha256": "c01276ad85e9f4b0a66010b7798d1a61090845c60d71499a92d1eff4cf6eb533"
+    }
+  },
+  "RetroFruits243Fortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "4ec765e5aeeac8630ba39facd5d580d2a094064cac913236e6a8d1ab864a8e2b"
+    }
+  },
+  "RetroMegaFruits": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 1024,
+      "source_sha256": "ad880a72d16d4108d66c022da792e8f18a00646d84efec664457f3a5570b6da0"
+    }
+  },
+  "RetroWins100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 30,
+      "lines": 60,
+      "source_sha256": "17786a8ad2cb47327930cc03e5d409837e1378e921867ba81ca22109b8a708cd"
+    }
+  },
+  "RollThePearlsHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "a93c759c2f8f4a14ac3e80c2e50e263ffa7fc39d717a992b54b691058d6023ec"
+    }
+  },
+  "SevenAndWild": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "4f892a07e039cc6f5fee24bfa47b49de9252d0b8b7e783a0755d9a3b0d3cfa86"
+    }
+  },
+  "SoundOfSteelHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "17cf649069dc7b2e4db50a3f44659091ad1295f63c7b2b4c5e5952fde62e9a69"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "17cf649069dc7b2e4db50a3f44659091ad1295f63c7b2b4c5e5952fde62e9a69"
+    }
+  },
+  "SpartansLuckHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "5635ebc239a01ba1ddf6e35598c27e8701dce4dbe1d978358ae2259f8fa6a044"
+    }
+  },
+  "SunTreasureHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "04d1475997b22ffb6906d205e59aa423d35695e600960815a3a2d752f6bc4e44"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "04d1475997b22ffb6906d205e59aa423d35695e600960815a3a2d752f6bc4e44"
+    }
+  },
+  "SweetSpins20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "36e457d83020c12b8b8aa55974d569b9584aa40aec9a26fa4ab2fa51dc4578a5"
+    }
+  },
+  "TenLuckySpins": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 670,
+      "lines": 10,
+      "source_sha256": "68b0580f2f3de18a2703855c02becc6ed3bb69c781c4da0b794a07b0eb52f6d4"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "68b0580f2f3de18a2703855c02becc6ed3bb69c781c4da0b794a07b0eb52f6d4"
+    }
+  },
+  "TigersStepsHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "9a4385272ee2b1ed6cc3042487c69299cc18c9fb65386f2d50eb7f40e33e3ca1"
+    }
+  },
+  "VeryLucky": {
+    "antebet": {
+      "continuation": 1,
+      "entry": 1,
+      "factor": 4,
+      "lines": 243,
+      "source_sha256": "efc03cb7199e6de794aa607fe1c89a293b32bbe551327308e53a2a07ad76956b"
+    },
+    "compra": {
+      "continuation": null,
+      "entry": 3,
+      "factor": 56,
+      "lines": 243,
+      "source_sha256": "efc03cb7199e6de794aa607fe1c89a293b32bbe551327308e53a2a07ad76956b"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "efc03cb7199e6de794aa607fe1c89a293b32bbe551327308e53a2a07ad76956b"
+    }
+  },
+  "VeryLucky1024": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 1024,
+      "source_sha256": "a1898bfc88d9e4ab568b323fb7eb10c14c677280a792832ae43dfd0545d0081a"
+    }
+  },
+  "VeryLucky243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "cba3ed2afc47ccb465e2b2920527700bd7c8a123c0e97f56cfb5b05f3fac3d70"
+    }
+  },
+  "VeryLucky256": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 256,
+      "source_sha256": "71b619856bcf07bfc46fec8e8eb9c0e846e340f3332549a6e4b77b368dd78346"
+    }
+  },
+  "VeryLucky27HoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "57d395ee7777a875e536da184b0a7ecca184da50039ef2d28fd1f1d97fe26da4"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "57d395ee7777a875e536da184b0a7ecca184da50039ef2d28fd1f1d97fe26da4"
+    }
+  },
+  "WarriorsLuck": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "f9aa732190fffd7a57528f26ee7588eb409b210bf19d511980f925008dadb37c"
+    }
+  },
+  "WayOfHonorHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "2ae7e542c6ae8540e0162fe9ed24297aa67b9cb398bc586b534b8e9963e40057"
+    }
+  },
+  "WelcomeToOctoberfest": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "a4e6bf9ee90e715325a3459fa7143c1c94243a190c883fb29370950790801296"
+    }
+  },
+  "WerewolfsNight": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 80,
+      "lines": 243,
+      "source_sha256": "1ed057070a49ca2158b83adbfd57596ec94f4e306f5fc498399029801772263f"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "1ed057070a49ca2158b83adbfd57596ec94f4e306f5fc498399029801772263f"
+    }
+  },
+  "WildBells100": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "9739658b58c1346b17df36b2e7d9db817e4d66de4e20a13755001a62319b550f"
+    }
+  },
+  "WildLadyCash": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "7371dea9b372c5db2701cc52e4e95dbdef5a1f80439eca5f9020119939add4e5"
+    }
+  },
+  "WildLadyCash10": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 10,
+      "lines": 10,
+      "source_sha256": "0953cb1fe869d8f588a371ad970d170ea1bda2afefc1f2ed9be5fd4b2aa1edab"
+    }
+  },
+  "WildLuckyChance": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "705ecacc2eb9683c3e12c30bf30452e56f84e9ec91a40dabd91796fb374b11c4"
+    }
+  },
+  "WildnLuck20": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 20,
+      "lines": 20,
+      "source_sha256": "b25ed4c70335748909d06d39a1dc6227cf3bc17a584c099f629fe6fa373c14ad"
+    }
+  },
+  "WishAndSpinFortune": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "80455e00426b4eb7c3094885a5f9dba20ac07f5b47780a9649f48e1a15d7df9f"
+    }
+  },
+  "WishAndSpinHoldAndWin": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "4280e222a454e8a642aa4ba07a58966ead2f230fcbea38c2f80ae63ca43ed18b"
+    }
+  },
+  "WishAndSpinPlus": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "e562a496f6397209ae346921915e0db8b9588c5be2aa997df821ad1e0af5a051"
+    }
+  },
+  "WolfSpins243": {
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 243,
+      "source_sha256": "f9434600d743e0fdeebae339693493d72be586c3ec172f4e8900d629fc4a352e"
+    }
+  },
+  "XmasLuckyTimeHoldAndWin": {
+    "compra": {
+      "continuation": null,
+      "entry": 1,
+      "factor": 47,
+      "lines": 27,
+      "source_sha256": "e9281faf576fdd705373d1c82884834c7d6b1f4a1607fb92c189c226740d4d86"
+    },
+    "normal": {
+      "continuation": null,
+      "entry": null,
+      "factor": 1,
+      "lines": 27,
+      "source_sha256": "e9281faf576fdd705373d1c82884834c7d6b1f4a1607fb92c189c226740d4d86"
+    }
+  }
+}

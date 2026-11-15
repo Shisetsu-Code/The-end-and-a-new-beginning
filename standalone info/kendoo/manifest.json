@@ -1,0 +1,50 @@
+{
+  "proveedor": "kendoo",
+  "archivos": [
+    {
+      "ruta": "codigo/kendoo.rs",
+      "bytes": 10020,
+      "sha256": "a3e2208ca56f5f4aa587d9264abbe9e92e1045036e3e700282433785e6d52d4d"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 13858,
+      "sha256": "e9f6879d8d2cb52a1bd75d4cdc7117aaf8c110d9cd54abc5232176d57cd90514"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 57007,
+      "sha256": "b98e94179690496ff71172699fb24a05653706a657fa50c455b9ee23d0428960"
+    },
+    {
+      "ruta": "evidencia/kendoo.json",
+      "bytes": 101764,
+      "sha256": "4f23d4720777096e40e85b1a9a4675917a625690371ad4a000521c2303893751"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 13821,
+      "sha256": "8241b8ac2b24382500f4599298f2795273aee1553cae93aec90be29647c1776d"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 5104,
+      "sha256": "9a731c2c4d636b853fe6a4d8ab616326b35b8667cfb762fcb74483d1e807a4a9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kendoo/index.html",
+      "bytes": 15874,
+      "sha256": "7c1246d9d0bd642b8acc65ee82d8085b2f6e0e5e793d32d73380d900d5b3cca5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kendoo/summary.json",
+      "bytes": 349996,
+      "sha256": "f60683f8e8c01c250a07a65428c7735feb5db7159701d7da2369cd51eacf77c6"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 610,
+      "sha256": "a3bf254c61393286dafaa5e1af6b679c2a08a029043096530e700878e90c142a"
+    }
+  ]
+}

@@ -1,0 +1,1513 @@
+{
+  "id": "reelkingdom",
+  "name": "Reel Kingdom",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "pragmatic.action",
+    "workspace_adapter": "collection_full_existing.py::pragmatic_complete",
+    "continuations": "na/bonus decision",
+    "closure": "native round and wallet"
+  },
+  "games": [
+    {
+      "id": "vs10gdchalleng",
+      "name": "8-golden-dragon-challenge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbextreme",
+      "name": "big-bass-amazon-xtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbbnz1000",
+      "name": "big-bass-bonanza-1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs5bb3reeler",
+      "name": "big-bass-bonanza-3-reeler",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vswaysbbb",
+      "name": "big-bass-bonanza-megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbbrlact",
+      "name": "big-bass-bonanza-reel-action",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbbonanza",
+      "name": "big-bass-bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbsplxmas",
+      "name": "big-bass-christmas-bash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbbnz",
+      "name": "big-bass-day-at-the-races",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbfloats",
+      "name": "big-bass-floats-my-boat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bhallbnza2",
+      "name": "big-bass-halloween-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        }
+      ]
+    },
+    {
+      "id": "vs10bhallbnza",
+      "name": "big-bass-halloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vswaysbbhas",
+      "name": "big-bass-hold-spinner-megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbfmission",
+      "name": "big-bass-mission-fishin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbrttr",
+      "name": "big-bass-return-to-the-races",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bblotgl",
+      "name": "big-bass-secrets-of-the-golden-lake",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10txbigbass",
+      "name": "big-bass-splash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbdoubled",
+      "name": "big-bass-double-down-deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbxext",
+      "name": "big-bass-xmas-extreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbhas",
+      "name": "big-bass-hold-spinner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bbkir",
+      "name": "big-bass-keeping-it-reel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10bburger",
+      "name": "big-burger-load-it-up-with-xtra-cheese",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs12bbbxmas",
+      "name": "bigger-bass-blizzard-christmas-catch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs12bbb",
+      "name": "bigger-bass-bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs12bgrbspl",
+      "name": "bigger-bass-splash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs25bkofkngdm",
+      "name": "book-of-kingdoms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs20terrorv",
+      "name": "cash-elevator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10bxmasbnza",
+      "name": "christmas-big-bass-bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        }
+      ]
+    },
+    {
+      "id": "vs12tropicana",
+      "name": "club-tropicana",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs40demonpots",
+      "name": "demon-pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10ddcbells",
+      "name": "ding-dong-christmas-bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10dgold88",
+      "name": "dragon-gold-88",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs5drhs",
+      "name": "dragon-hot-hold-and-spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10dkinghp",
+      "name": "dragon-king-hot-pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10dyndigd",
+      "name": "dynamite-diggin-doug",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs20eking",
+      "name": "emerald-king-slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs20ekingrr",
+      "name": "emerald-king-rainbow-road",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10eyestorm",
+      "name": "eye-of-the-storm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10fangfree",
+      "name": "fangtastic-freespins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10fisheye",
+      "name": "fish-eye",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10floatdrg",
+      "name": "floating-dragon-hold-and-spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vswaysfltdrg",
+      "name": "floating-dragon-megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        }
+      ]
+    },
+    {
+      "id": "vswaysfltdrgny",
+      "name": "floating-dragon-new-year-festival-ultra-megaways-hold-spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10fdrasbf",
+      "name": "floating-dragon-dragon-boat-festival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10fdsnake",
+      "name": "floating-dragon-year-of-the-snake",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10luckfort",
+      "name": "good-luck-good-fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs5hotbmult",
+      "name": "hot-to-burn-multiplier",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10hottb7fs",
+      "name": "hot-to-burn-7-deadly-free-spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs5hotburn",
+      "name": "hot-to-burn-slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs40hotburnx",
+      "name": "hot-to-burn-extreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        }
+      ]
+    },
+    {
+      "id": "vs20hburnhs",
+      "name": "hot-to-burn-hold-and-spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10kingofdth",
+      "name": "kingdom-of-the-dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs20lampinf",
+      "name": "lamp-of-infinity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs5littlegem",
+      "name": "little-gem",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs20lobcrab",
+      "name": "lobster-bobs-crazy-crab-shack",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs20lobseafd",
+      "name": "lobster-bobs-sea-food-and-win-it",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10luckcharm",
+      "name": "lucky-grace-and-charm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10mmm",
+      "name": "magic-money-maze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        }
+      ]
+    },
+    {
+      "id": "vs20mmmelon",
+      "name": "mighty-munching-melons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10frontrun",
+      "name": "odds-on-winner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10noodles",
+      "name": "oodles-of-noodles",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vswaystonypzz",
+      "name": "peppes-pepperoni-pizza-plaza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vswayspizza",
+      "name": "pizza-pizza-pizza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    },
+    {
+      "id": "vs10returndead",
+      "name": "return-of-the-dead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs20rockvegas",
+      "name": "rock-vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10snakeeyes",
+      "name": "snakes-ladders-snake-eyes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10snakeladd",
+      "name": "snakes-and-ladders-megadice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10spiritadv",
+      "name": "spirit-of-adventure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        }
+      ]
+    },
+    {
+      "id": "vs10starpirate",
+      "name": "star-pirates-code",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs10tictac",
+      "name": "tic-tac-take",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        }
+      ]
+    },
+    {
+      "id": "vs5ultrab",
+      "name": "ultra-burn-slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs5ultra",
+      "name": "ultra-hold-and-spin-slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vs20yotdk",
+      "name": "year-of-the-dragon-king",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pur-0",
+          "type": "purchase",
+          "label": "pur-0"
+        },
+        {
+          "key": "pur-1",
+          "type": "purchase",
+          "label": "pur-1"
+        },
+        {
+          "key": "pur-2",
+          "type": "purchase",
+          "label": "pur-2"
+        },
+        {
+          "key": "pur-3",
+          "type": "purchase",
+          "label": "pur-3"
+        },
+        {
+          "key": "bl-1",
+          "type": "variant",
+          "label": "bl-1"
+        }
+      ]
+    }
+  ]
+}

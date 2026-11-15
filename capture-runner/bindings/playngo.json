@@ -1,0 +1,3225 @@
+{
+  "1000": {
+    "gid": "lawnncompletedisorder",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "9d9a89707cd5263d3020c5f0e56396ccfba6b5d01b6bf01a70adc6970b58673c"
+  },
+  "1001": {
+    "gid": "wrappinmoregold",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "43fd18c00e2c60b5b6f5eda448e6202ae7b70f4a12098a822ae459d461f356bc"
+  },
+  "1002": {
+    "gid": "gnawngold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c17cbb2ea3f33002c81fd03de4b648ac2cee71c0ce41b067586e4710471b2e10"
+  },
+  "1003": {
+    "gid": "trackngold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3def8dd86e3d81e7397390262ce89156a407bab41e5e446d88c0d279101a78fa"
+  },
+  "1005": {
+    "gid": "legiongoldreckoning",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "f00142ceab3f7e6906e9a4ebc85b8a379e24ccef4c17fff0a9238ef32c06894f"
+  },
+  "1006": {
+    "gid": "mysteryeggsurprise",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c5886d28dec20c9f9e961f9a1b3c29576120d12f2271de64622a5bc55550ca24"
+  },
+  "1007": {
+    "gid": "firejoker100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ea5ed5e1964fae62d2eeeea3c4cc60c15e21c6a93021e39924de76ec2c836f3d"
+  },
+  "1008": {
+    "gid": "moonprincessorigins",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "057f0cc19d42709a3501269a6d9d7752e8ee737efdb063b31e801785e3ec19b1"
+  },
+  "1013": {
+    "gid": "tomeofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "921570247cc00c052d5e43dce55af8d8f2c4a532e30d7e6c715e064f593d12a1"
+  },
+  "1014": {
+    "gid": "ravingreels",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "62d3ff2d1d97de465b9b71a9ef91d3733c157e6956c307792f28dbe6ae0ee076"
+  },
+  "1015": {
+    "gid": "tomeofthelost",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a74500198e8ba4c02d3bca57515d930b6f8284de92a9b5695a9018b31c6cb4de"
+  },
+  "1016": {
+    "gid": "riseofolympusextreme",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4989925ab65d120255d3d5ad704382641b5efa5ec9b2b8975a89ba0292d6d731"
+  },
+  "1017": {
+    "gid": "firetoad2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f2d1053dd72767260e7cc35e93b3c09cf3ba5edb439de80e2c9f74670ba40777"
+  },
+  "1018": {
+    "gid": "dragonfatesfavor",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c58e0a9a47ae639a4da1582c20b85cdfb748619c5270feb2245b72e8f9a0633e"
+  },
+  "1019": {
+    "gid": "treatsofterror",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2a50f5d8ad7479ef1204934fe4a99e3894ddd339666279accce357bff5f69432"
+  },
+  "1020": {
+    "gid": "kingofsweets",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "49468b0837cc8035a34c45762aaca00b889cf507420026d7ffffe5edb5420c2c"
+  },
+  "1021": {
+    "gid": "bookofdeadgc",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e5e61187da4c872c5fff91d0576a431f05107cacb77ffb9ac387f4a2d3ff6e57"
+  },
+  "1022": {
+    "gid": "valhalluck",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8fe4539659dac8932448e80985c29a1f7f8eea285ecc6231242b9d76db9d74a5"
+  },
+  "1023": {
+    "gid": "cashinjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c85543576a981f18988435c6841943f798bb76128b57e0b34a3b48ef4dd167da"
+  },
+  "1024": {
+    "gid": "lofdestinyspins",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d38229961becdaf5599e9242de4424276ad45324445fa010ac2bcf9d7681fecd"
+  },
+  "1025": {
+    "gid": "herculesabyssways",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "66dc5d14c2c6eb0924640ebfc07b35b9f3dd528144adc3254ac3aa64dbaed151"
+  },
+  "1026": {
+    "gid": "firejokerblitz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5673888356528e4f801bf08c993731ae4191d6b00197063b66e23b7f2363fd82"
+  },
+  "1028": {
+    "gid": "bigwincatpawsperity",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d726da8889fe14c8012b228062b14926d408749663eb1ef80d940ba31d442bda"
+  },
+  "1029": {
+    "gid": "moledigger",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6441ca7cf51319b3b9089be0afac8b4212c95c169bd50d379159e50ffd33e9d4"
+  },
+  "1031": {
+    "gid": "cityofsound",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ac32cd00d3f99610f44389a85fa322946db03f89d43eef3c4c597fe876ac701b"
+  },
+  "1032": {
+    "gid": "superflipdeluxe",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0ee83a90bfba2f2274f47c80bbc04d175d272392030d47a03bbb8329ca48c809"
+  },
+  "1033": {
+    "gid": "rosyorbit",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c4bec0c0f113c27eb75ee244da5440b81e74a6f8a72a588b580b07dda76ffcd2"
+  },
+  "1035": {
+    "gid": "staticnightmare",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "17bbf6cd98da2da62f9023d2aa7262ab837c6537fbd1ded734d8830308a70649"
+  },
+  "1036": {
+    "gid": "legacyofundeaddragon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "495aac70bb013d47d63020268579f3dba35aa20330ff55b9f71452b785109dd3"
+  },
+  "1037": {
+    "gid": "labofmadness",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0cf92eeecdec423e10cb0b243fdef841188efd9f03a6831b5651aa19bd3191f1"
+  },
+  "1038": {
+    "gid": "leprechaunsdiamonddig",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0ee51573e5e5c5b168287c4fcc655a46e41a93248aaa9860572bc63041343841"
+  },
+  "1039": {
+    "gid": "ringsofprosperity",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9ad2974d59d7f08a41c9159b8dcd261136f561699547e4fbf45111122f7d7a1d"
+  },
+  "1041": {
+    "gid": "rasreckoning",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e0bcc93e6c80deff00bff3de458f474974024fdbbf0ece0bc48d6fb6bf8da60f"
+  },
+  "1042": {
+    "gid": "fateofdeadblitzways",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "109e570b26173e4288403b918549f752faed51ad8744621ec289f77a86403f61"
+  },
+  "1044": {
+    "gid": "riseofolympus1000",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "084925f41c8f5cd1ffd5114cd1b0a173770c4ebb3981e81f6f178d3922ccbe59"
+  },
+  "1047": {
+    "gid": "fangsandfire",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "bc70101150374d41d3308731d46bbc520ce04b14264eadddf29f8abc5df83e53"
+  },
+  "1048": {
+    "gid": "baoshi",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4571a1bfda2d6034e4f4544486af9f40fd739fd80b43d65ef1923ebbc67eb55b"
+  },
+  "1049": {
+    "gid": "megadontriplethreat",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "404c7bfd6e9f961163b6c755fc5fee4b349259b64e08e90a94b6ac088055febc"
+  },
+  "1051": {
+    "gid": "wheelofmictlan",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fb3bf89997584fae3c4e3ff20a3cc9674ffebd7bd95399588e286f1dbfd2d6d6"
+  },
+  "1052": {
+    "gid": "stadiumofriches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "33d020e11a31c9ae4d7fb1a0ddda7106b611fa4d79e12fea88aa0400a91f0fdb"
+  },
+  "1054": {
+    "gid": "wildnorthradiantskies",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "11f292b352f65057137d7293005d6d197f65767024d95205ca985aed7f94542e"
+  },
+  "1055": {
+    "gid": "bubblinriches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "099b854ffb192e2c20d1ae660933c3d0ee9adf8c82886a978c60ea5153354fd5"
+  },
+  "1057": {
+    "gid": "bananarush",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "318f3dae0224fbfb9c6037cbf2ee2d031d2d3ac3fa0b792cbaa5ca8e85213362"
+  },
+  "1058": {
+    "gid": "3bladesandblessings",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f3ad177295a66b1c54f48e404855063b15c2f710ab89aebe322b080b8f608d45"
+  },
+  "1059": {
+    "gid": "hopeunleashed",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "97c217727b02cfdd178f027989ff443b59305c307e474ba93057a827106147d1"
+  },
+  "1060": {
+    "gid": "piggyheist",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d3249769edd05e417d9a90cfdfcf0023fca86303f3d847f4baccaa8aa3e37b39"
+  },
+  "1061": {
+    "gid": "coltlightninginferno",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "27017d5455d3b68392de1207cab1536db32547dcee86f452baf708857f3e1adc"
+  },
+  "1062": {
+    "gid": "reactoonzblitzways",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c22ff3a118fb2544d3fda129e8602683631accdf3aeb9d4152c76a6d19feadc8"
+  },
+  "1063": {
+    "gid": "sailsofriches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1cd3f02aa4a3a0fe3a52db65792b849886d338acc047d31b4491690b03bfd667"
+  },
+  "1065": {
+    "gid": "primalrampage",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d910e83880205ccdf6edf2047b70e74326699711ca2910050f43f27a9aab1303"
+  },
+  "1066": {
+    "gid": "spicespicebaby",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4808ac4e6f25bc190360602069937fefbed9c9805c1cbed7743a98af47b54f3f"
+  },
+  "1067": {
+    "gid": "barnbusters",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "28eaae7c68407fd750a7a512966a59162b52baa6c38698160ac7cb455cecafdf"
+  },
+  "1068": {
+    "gid": "grannyswild",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "d9c146888c7a338c78617569d7e8f4fd328ac45f3e35d9ff68d47e99aaa5a97c"
+  },
+  "1069": {
+    "gid": "sharkfeast",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "8643febf03381d662781bf5808f1f259fd510d00e08a24a998f3859295cf50b8"
+  },
+  "1070": {
+    "gid": "mantamayhem",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "8d9048e50fb83a4991d3f79d2706efb79377c0ccaeca3a8b58a3cc4c313e4839"
+  },
+  "1071": {
+    "gid": "treatsofterrorii",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "4a3255a0c3cbe4bd485d93edd31426e63578d3f92e777a25fb85725f7266b0a9"
+  },
+  "1072": {
+    "gid": "fatesfortune",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6f1fbd7fa4ca915e745772f091061430536f1e35d8b7674cd1c8cd39474652f6"
+  },
+  "1073": {
+    "gid": "unigoat",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2005fa01b8c64cddeefee386e252a0a89f2b6f2345594c9fa842b05d69f90240"
+  },
+  "1074": {
+    "gid": "holymooep",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6539743b5098042ab4fa3b1c4eb3c4196c1053a329f299e77944b6dfa673a073"
+  },
+  "1075": {
+    "gid": "stompingold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "dcdf392c8a5d821a1b3ad3d19bfe7d4e1d08322ce10bccbe1dfe4ef32785cb8b"
+  },
+  "1077": {
+    "gid": "templeofthree",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "df62baf7c7a2a5da158e87c017a0a32c8303eebd9debc8f8801c27cb373fecca"
+  },
+  "1078": {
+    "gid": "nuggetnnonsense",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "22071e185018ee897774e3a7ec8de546a1075b38caf6d399b6e22853c56d0a57"
+  },
+  "1082": {
+    "gid": "cursedmoon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a9777e87e6c813b63cc8a1d96d7ac937645fe7d9ac4646863c6c9814f9d38fb7"
+  },
+  "1083": {
+    "gid": "chunkycarlosmoneymania",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5deed744c81931c5303f60f319cd7f332576a99b4d959df71fc6166da383ea71"
+  },
+  "1084": {
+    "gid": "redtailrobber",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "5ee5c451805f5037ba3e39cfc59607eca5dbd5d184fdeb032b859bc047290c66"
+  },
+  "1085": {
+    "gid": "throneofdead",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "f9b119d2d6552ddde6cace05df3f692f931c3def861317677a9429b222489aa8"
+  },
+  "1095": {
+    "gid": "triplebeastsoffortune",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "83cebbe3528e4728b0fb3f6a61aca20d21fa6867889a739dec75bb32f2363283"
+  },
+  "1096": {
+    "gid": "infernaltrinity",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "eb593b6874eb0ce6ec76d5f3c1939d1610d003634c0846eadcdc012f341a0f54"
+  },
+  "1098": {
+    "gid": "towerruntreasuresteps",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "39f2a67e5caec95a1d59d09f5680256e2da780d105d5f1db13effdeb7647a659"
+  },
+  "1100": {
+    "gid": "triplelaunchfortunewild",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "36a92a3e1be89e6b34209467e4525210ae6551991ad3f3cb20651a59c673f85a"
+  },
+  "1101": {
+    "gid": "moonprincessextreme",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ac88710c3a049efcec0aadaf17d60c51a850689a514900a139f747736b41c50e"
+  },
+  "1109": {
+    "gid": "vikingrunecraft1000",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "d64b2dd0d8bebb8fedd9b5b5c23e2fac44bf13052f6dc2f29646e46ceaf1b172"
+  },
+  "1113": {
+    "gid": "threepotsofthegenie",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c8f56d982bfba0d886eab6090e158be37fd537c9430318668c84b643cff85b10"
+  },
+  "193": {
+    "gid": "catsandcash",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fdb003dce35828f99fd0a2fcf430881350fb896989a7df8ab46822f281ef23a3"
+  },
+  "194": {
+    "gid": "copsnrobbers",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "37c1a817add57254fa935665b391036026ed1ec8b37a6af9dd082d52b19f7711"
+  },
+  "196": {
+    "gid": "fortuneteller",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f67b492178b31f0c35d18ae33eaa338a274c6df61ed03ecc328904833939df72"
+  },
+  "197": {
+    "gid": "photosafari",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "625611d41138cab457a12d7f29cb3c7559070be13fddb7ac023fa8d71d27cf66"
+  },
+  "198": {
+    "gid": "spacerace",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "33cb6f335717fcdd1a72c5ed5fab7fb37bf2fea29ac220ac5e22f83f70cffc16"
+  },
+  "199": {
+    "gid": "5xmagic",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0474de8f4afd3c42657f8f269a33833da3472c2ffac147ec89e8fcdd34f4481d"
+  },
+  "200": {
+    "gid": "irishgold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "181caa0c1dbfc7a288cb67625ebf185a6aacd88b0eee18b6eef57ae70ad4e4cd"
+  },
+  "225": {
+    "gid": "enchantedmeadow",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3826fd28037aba8dac497e2716c778239721a377aad1ee3d46b0617c4bb0e1cf"
+  },
+  "237": {
+    "gid": "richesofra",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "55aee8b1aae85bd497caf9d3fff602f2ba215a86885e1e96ede24d37f9b1ef74"
+  },
+  "238": {
+    "gid": "dragonship",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e7cdc4f8cae82d6ea70ee5a7c59a6c657fd090627b0b98f6c02e89bd5f604b0a"
+  },
+  "241": {
+    "gid": "pearllagoon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e19d469141326ec372bec38598344de7bd6ff3f09bbcd29bb52cdf06e633fc2e"
+  },
+  "242": {
+    "gid": "jewelbox",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5d311d4df822d0ccc34d82e98935fd9cca2d6c3be8f02baa83133954c96f06c5"
+  },
+  "243": {
+    "gid": "aztecidols",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1e0ef9105748131fa7810deec6aa545e3695ccb55eec6c549e54e49ebabf007d"
+  },
+  "245": {
+    "gid": "myth",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "710fb1ad1cf74472940ea53e8ae52b3a7bc4dc716299367512f5cba886444808"
+  },
+  "246": {
+    "gid": "goldtrophy2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fd8a7cc3eb4d56d61f0bc10341815e17cdeed00bffce736224e08bb1ea9d1a91"
+  },
+  "250": {
+    "gid": "wildblood",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6ef14c60238dffc5734c4bae3afe76bec51a27adf6f531280799568ee0789149"
+  },
+  "251": {
+    "gid": "leprechaungoesegypt",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cee85c80950b652a22770843fd41cfcb1e91eaf9631b6fccd65a098754a28abb"
+  },
+  "253": {
+    "gid": "ninjafruits",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fa668c8da98360b5ea1a5d6b8bc785f130b1e8819846fc79cd571e2ffeacb6f7"
+  },
+  "254": {
+    "gid": "trollhunters",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7d4713256676e26df6c962b6fbfa30bf191a5a596cf97de937327e981e2a951c"
+  },
+  "257": {
+    "gid": "ragetoriches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "02641f879e065458fe2a6c1292470ce3d19b43d6cfeecd4b6888ba36680357de"
+  },
+  "259": {
+    "gid": "enchantedcrystals",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4835091e04bd9ab89272e454a8e20e84a1bc8e8674aa2a0ca10a278c689dcbac"
+  },
+  "262": {
+    "gid": "energoonz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5a682ebf4ec85358f6c9e33b95850fb19c2c453a3dd13debeae421ad2237dfa0"
+  },
+  "277": {
+    "gid": "chinesenewyear",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f0653139ce1f9b17daa6f5613eef77873f7bc2ec3c3bd35bb132089bf5668e1a"
+  },
+  "278": {
+    "gid": "ladyoffortune",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4d6a4da2e6371b0f7aca8ed97c896c7bdc3123df34d0e4f02c62f6910de4df72"
+  },
+  "282": {
+    "gid": "pearlsofindia",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b18204f17366b99c453bfd0b39a0a44068629736c6c0a26a02af8dcfb37af1e0"
+  },
+  "283": {
+    "gid": "mysteryjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "101f9617250386850598c197f73d691f36658050c68a408c7cf801bfaf20a61e"
+  },
+  "284": {
+    "gid": "crazycows",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "315c1ebb80ed5680eba38ad5126aa09cee1d58515eeba1660e9aab392a41a028"
+  },
+  "285": {
+    "gid": "goldenticket",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5901689388f32c5cb366c8ef0f824618ed092102ff53bb876e105092146fc5ca"
+  },
+  "286": {
+    "gid": "gemix",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "22b4b3978af649a3e0f510972e3cfbed76138e56b6c6b70bcfad59aa562a8cad"
+  },
+  "287": {
+    "gid": "towerquest",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "17245a1c90c6c5caa4bcde31bf3f4c5372aeeef73a182bccdd17fe68c4158127"
+  },
+  "288": {
+    "gid": "merryxmas",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ab15bab2998e18a7c4192597a2c2db69821beee36aacf4fe674b04581bf5a8c3"
+  },
+  "290": {
+    "gid": "goldenlegend",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e345c48a855329fae40e2d6f3f00c2842261c02505e4664b7898277710314114"
+  },
+  "291": {
+    "gid": "pimped",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0bc104405d9c04ae2f763157b6ba3a83edb358aff24fbb80d9662a2e035e65e9"
+  },
+  "292": {
+    "gid": "spinparty",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3d3557080720877384442b052dd4e2f7d59927d0801dec7f7350d07eaeabae8f"
+  },
+  "293": {
+    "gid": "eastereggs",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "745e68de126aed5966d1ece17853940b4df05afca77026fcf7149cb93439028e"
+  },
+  "294": {
+    "gid": "wildnorth",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d3c89ce7c516bf9cbba9dad07fb08967b12eba1908a678bcbd1c1fcfb552294e"
+  },
+  "295": {
+    "gid": "superflip",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e0e78237ae6f16f0303ce6449e088d85cb151c5980d0dec447f116d7c606db84"
+  },
+  "297": {
+    "gid": "eyeofthekraken",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "594ecd6cad0a7dbbc56ebd68ecd7e7dcd7cf0058030f582a4ba31da3c4eee512"
+  },
+  "298": {
+    "gid": "masquerade",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f55dd74656bf8410dc6c916c76d9a6f48aa302a8e0f82d729a5a09386c8b4ae3"
+  },
+  "300": {
+    "gid": "cloudquest",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c2ef0d47a98c1eef0ad498eb8d6ba992b69efe48a8e3a9bf0d8f056e2533c06c"
+  },
+  "302": {
+    "gid": "wizardofgems",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "abd5e9e06bc1dba87abc54bb59e37edad86e3a0df7150d3999ef14671c285048"
+  },
+  "303": {
+    "gid": "grimmuerto",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "861dabc017b1e95d0cbe8e154919860024134a7bbe6cfd0b343d7b8b10113ae2"
+  },
+  "304": {
+    "gid": "sambacarnival",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "389a478131a327c759babfd2fed275b195066f9b77ae201aac29f56e649d5177"
+  },
+  "305": {
+    "gid": "happyhalloween",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0d3bf648b51606bf1d2a66a6569930c95644e8d8989e0c28a5bba17b9d2d61e6"
+  },
+  "306": {
+    "gid": "irongirl",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c566350ff7912d4ffd14a3501aa3237e594f19e45abbc4eca871f40333081e50"
+  },
+  "307": {
+    "gid": "firejoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d31eb0953030a354f796175a13b709fc0153d95e9f6ac00f81c6d7859a34fe35"
+  },
+  "309": {
+    "gid": "christmasjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c4b4bd28183a0b4e87546f5165a0c7e31d3978a2bf6682299fa0ce4de89be8f4"
+  },
+  "310": {
+    "gid": "bookofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fa9e10f59c24f7a28c5e41a9231712f9037a01a5fb7e02937de5015eba241f0c"
+  },
+  "311": {
+    "gid": "sailsofgold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4f739a0eb4982da3ca7a42f0eb485ccd11e4d3bb0f4cc251e6713877c1f2e1c6"
+  },
+  "312": {
+    "gid": "goldencaravan",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "aab26f305f513206353752b1299065b6eb7ce1075d1a3df833590236e4c22e3c"
+  },
+  "319": {
+    "gid": "vikingrunecraft",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "79d733e6b4d298274c24edeb8c14453e89e9ab6d707e988baf28fcc4b1e0f296"
+  },
+  "320": {
+    "gid": "matsuri",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2cadae7b886df8e746c844ed929441aeb23e3d5928b64ffb21803201b4ffa194"
+  },
+  "321": {
+    "gid": "sevensins",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f905f1150c918381224ab836f4e2b12887272a1c962b2f25bda0dadb8b6d0918"
+  },
+  "322": {
+    "gid": "hugo",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5c88338b6ae8edb2997f403f87ad436b826bdea5914744c42d658edd9a295cee"
+  },
+  "325": {
+    "gid": "prissyprincess",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "31762f266962b4491d572e52e3ec471582b848a05ad8cfcacf5bd30ab94271b2"
+  },
+  "326": {
+    "gid": "jademagician",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8d2d22a1978aa54babedf12a560b2cca082769a328d6c604463ed39c136c57fa"
+  },
+  "327": {
+    "gid": "holidayseason",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2990e0bedcda546371ff49195f1af825ca4514a00b1051ae8d29d9ef7c20c230"
+  },
+  "328": {
+    "gid": "prosperitypalace",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "650685e79cb8a46f5ecb01b3f696d4df693f2f157c017b2de419dd08b826d502"
+  },
+  "329": {
+    "gid": "mermaidsdiamond",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f467756aa26a28dffec999e9d1ebf91012446d246563a000f4055d157f1e5c3d"
+  },
+  "330": {
+    "gid": "multifruit81",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2c76c1664bede3629f46b8c1cbc08c894968285a7bebc5038d15e255dd268b54"
+  },
+  "331": {
+    "gid": "seahunter",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "38d8f2b9a893bd41b82df9f4e326623e509047687d5ae01cc2d3e5618251440a"
+  },
+  "332": {
+    "gid": "aztecwarriorprincess",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f4c3f3d11d19ef11a6fffced674127dad409e0046257917cd0578b2d622d9c51"
+  },
+  "333": {
+    "gid": "reactoonz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5dcdee1dae67dc5899fbf08edc91fc0ab1ed210b3c21f07772d2f7cd00d7b083"
+  },
+  "334": {
+    "gid": "moonprincess",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f98654357c8aa3ed4c959b63898e3ee58f500cba13930a80af36ddc6aa09dbee"
+  },
+  "335": {
+    "gid": "sweet27",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f245bc6bc8bd3393a47bcd21d9060494a77e4653e279d984932fb33c3507979e"
+  },
+  "336": {
+    "gid": "sweetalchemy",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2e543d83d7442b9153b89a559000c275390a942a307c49a88c57737376aa6391"
+  },
+  "337": {
+    "gid": "fuerdai",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4e88928d51e40bf06370c1bb6932530204138891dc4bf71c14bcfe67782f0abb"
+  },
+  "338": {
+    "gid": "mysteryjoker6000",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5965b953145ae936dce3a766d96a926415ddaa3040c0b2da6d8e6170b4b45cb9"
+  },
+  "339": {
+    "gid": "legacyofegypt",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "aeed0f3172c304729c47c1ef08ef63fac909b9c1064fefb4c013bf8a77806804"
+  },
+  "340": {
+    "gid": "starjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "53c0c7a793b3e9c0b8355f89cb051caa3bccbe295112337f9595a6461925cbb9"
+  },
+  "341": {
+    "gid": "goldking",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6ec6b52873ffdad4989de445d463486551a068693db0b0a12503b9634a3f2ecc"
+  },
+  "342": {
+    "gid": "bigwincat",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2a31d6db0057d8735503edc1a9b79fcb9d2a68d35ee1e94e493c461e92c917b8"
+  },
+  "344": {
+    "gid": "goldencolts",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7f8182a1cef55fdf557a8de471fc3e6b4fba5a140e9270eeca995722face225e"
+  },
+  "345": {
+    "gid": "planetfortune",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2197d23010b50e5e2058b594d7ccd7c1691cccab3051e2000feb98beba224325"
+  },
+  "346": {
+    "gid": "hugotwo",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9ce27ecfd870c814eae6b8b665068ee1e3b09c7d4f942a3c4909109780fb82b7"
+  },
+  "347": {
+    "gid": "bananarock",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "39901caac2f885814ead2bc15336783de7d8cf86dfd80066830cb6b690385bf4"
+  },
+  "348": {
+    "gid": "imperialopera",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cdbf73b6848a3caca9ba2f3e2195c2d3ef8f42ef1fdaad07c9756f0d426a9181"
+  },
+  "349": {
+    "gid": "bakerstreat",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1f7aee69c2cd86774bb577838de71683758a5d82040b295d4cf12410839e6837"
+  },
+  "350": {
+    "gid": "wildfalls",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "20dc576642396a675037bf2b31bb29255b0b81c5e2258257cf0d6a7d269d7c9e"
+  },
+  "351": {
+    "gid": "streetmagic",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4b3179d8c87aee7d38ff8521a736630430056ebac50216baa78dc2ec1de84835"
+  },
+  "352": {
+    "gid": "riseofolympus",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7030efd70bc21f7a12f54f723eac72f6625cc247a97e07f1514f6501e029dd30"
+  },
+  "354": {
+    "gid": "hugogoal",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b955735e81558af381a56b3abd689af2e036f0fb6acad0e419716c04805b1a7b"
+  },
+  "355": {
+    "gid": "dragonmaiden",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9b8a99cc75252d49cf069e117dc543b8bf0622f1d9889f2df9877af6dcccce53"
+  },
+  "356": {
+    "gid": "battleroyal",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a390d5465971ffc71e75b7c3e577651cbf0c0b01d8ee3129640c7a6e215df127"
+  },
+  "357": {
+    "gid": "sizzlingspins",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f7eb376732b770f7eb52a3122a43d51ac8dab926e90480c5e7902ab15ed16f6c"
+  },
+  "359": {
+    "gid": "contact",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f05fbcd17856d4051701214717348b90cc64d3f8c58e9fcb77956bfe7374f702"
+  },
+  "360": {
+    "gid": "divineshowdown",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8e7d842f06e505aa09491bf04c950aa170686da5adbeccd8c7f63f474a29d0d6"
+  },
+  "361": {
+    "gid": "ragingrex",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f41a2e54806c2ea325c822d21e53a0b6a63f6606c60f4f7762ba932a41e5014b"
+  },
+  "362": {
+    "gid": "mahjong88",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8c17fccd51a5120f23c0432334e7ed750df424fc8c38861cb57c9f141a70bcae"
+  },
+  "363": {
+    "gid": "queensdaytilt",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cf0958274484b2ca8d6f0e98389590003e9a1caef6404fde27afab2eaa9ba183"
+  },
+  "364": {
+    "gid": "fireflyfrenzy",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "46a2378239d2127762ff2c080e08c2bff7fcbf687ed3e6f5c01fd764ef464c1c"
+  },
+  "365": {
+    "gid": "tomeofmadness",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6aab7b4bc39d3b6201681e1f04abcd7d2c8e89aa00b6f44e4b174be6b54b898e"
+  },
+  "366": {
+    "gid": "infernostar",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9ca5b97a33f9c86f058dcb55d685e735d7005a39c68f1cf9ceb0754265de2895"
+  },
+  "367": {
+    "gid": "riseofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4d4a37a72ecadfb4308c41828abdbfd478bbc4fdd96f3a2f802427440024070e"
+  },
+  "369": {
+    "gid": "gameofgladiators",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d4e1ba2e684526593f88afab96ee951c2fd244bf7b41ff71fba78ae303cee170"
+  },
+  "370": {
+    "gid": "cashvandal",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4440afd28b247af0a24ff9192ddb59c4c1f64d2b95464da5b8b79afb9331d58b"
+  },
+  "371": {
+    "gid": "phoenixreborn",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fe6b33fe69658036c32edd7dc1cab77a298cfb1245d414f9269ebd2b13e263eb"
+  },
+  "372": {
+    "gid": "crystalsun",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e1d77e816a17465eb5b6145f801b474af25faae833db024a7c787e1f73a55033"
+  },
+  "373": {
+    "gid": "perfectgems",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ec423bcd369173602f85ed41d1b82d942ecc2f073bedf7f2ff477e0af5e6cdd1"
+  },
+  "374": {
+    "gid": "bigwin777",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a69d8d8abcaa1264b0a4211615050a5641a89e7a4d7e9abad3ad5339ed3d38fa"
+  },
+  "375": {
+    "gid": "honeyrush",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "02c5955d289c25864f0e21f9ce331b880fcc3642b342bca80e63bc63e21c0e16"
+  },
+  "376": {
+    "gid": "theswordandthegrail",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8ba3ae52073d277e668cce2cdf64d1514ccfaa46e4bfa5e48257b3371430072f"
+  },
+  "377": {
+    "gid": "riseofmerlin",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "14bdfc077a0f0e798d6a255675d6b937f8812c855851e835f6314e2aa6c39a7c"
+  },
+  "378": {
+    "gid": "sabaton",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "79d365cc911321f5bd2ab08b16bafc9a12a57587582c3804be0bd32ef0690bb2"
+  },
+  "379": {
+    "gid": "missioncash",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a2c7d593e89b5b1142f36e3f588281369975a097a48607558633ed9fd35e2472"
+  },
+  "384": {
+    "gid": "richesofrobin",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d48f2fafb4c6f0b46cfa8f283c57a15f4ac253b6f0a9aa53fb324875986eed45"
+  },
+  "385": {
+    "gid": "wildrails",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f674c4d3e9185d900e2d01ad066f035c55382eb2c39885da695276dd8e3fe65a"
+  },
+  "386": {
+    "gid": "blackmamba",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "273d165058a8ac15fcd295f3a5fa457eeb2d3d5171d560140b5c9d9f778a9a95"
+  },
+  "387": {
+    "gid": "ankhofanubis",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a3a19cb28c72d6f2f3df5a716669946571e6c8f1ae4e00bba278ce092909207d"
+  },
+  "388": {
+    "gid": "rainforestmagic",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d2ead3582f5d38d064896b725b12ea6e10c496ca4a3b1bf4cd767545ab4efb06"
+  },
+  "389": {
+    "gid": "chronosjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "47ee65f5035f9946eb601b8f3cb825d5e83322d1de1d7f4cd5407755cf49ead3"
+  },
+  "390": {
+    "gid": "xmasmagic",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5d293ae3bc6c155daf0c04e625b8e5ae70b27695828a02b473b00054d77c695a"
+  },
+  "392": {
+    "gid": "hugosadventure",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6b0d33de4eb42d70418e24b48435b96821b8615e62f9477963abcc65d479744d"
+  },
+  "393": {
+    "gid": "wildhoundderby",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "05d4abe3d6909a0b1a20fb51cec8a5ee2ea68b58fdb637d635d86ae104418b82"
+  },
+  "394": {
+    "gid": "demon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "950ed9c29d9a16d893c246318f9aa408245c962a7dfee2eedaa9bd6423187cb8"
+  },
+  "395": {
+    "gid": "coywolfcash",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4cf5829d3e2916d4ea292859434a044a9471253311cf0cff237a1c0c9bfea1fa"
+  },
+  "396": {
+    "gid": "trollhunters2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "34ac728f43b54c841c9af67c0f68d60725ecdf9aec28a84059e20583b87ce65e"
+  },
+  "397": {
+    "gid": "cashpump",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5cc77b43debd6f0f29956f5b5749d084cc701f410c491b0f03180791c82a1b39"
+  },
+  "398": {
+    "gid": "wildframes",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7f10200620d93b461b0ad71db0ac30be117fc7e9213e41e3b71154e89d0df4d7"
+  },
+  "399": {
+    "gid": "infernojoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5b8b0bb4fc476f078e00081460d3457948d36a3a96ce8535a162beb2ce3771ba"
+  },
+  "40": {
+    "gid": "jollyroger",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c24462fb2eee6b49b5715866786790e4388b016cb4507512a10b141eae3fa7a5"
+  },
+  "404": {
+    "gid": "wildblood2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "735093f2903ccfb3e419e9eab71bfcd3897ee4251d930e0ab5594c5592ee8f74"
+  },
+  "405": {
+    "gid": "agentdestiny",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cd59d4eb055d03a52b8d7b7b223352b9cd1cd4d8df4327a838b2cdd73cea5355"
+  },
+  "406": {
+    "gid": "testament",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e526449a689d3206f0f92c33885b6d6a0958b74428d982c36666fd635787b741"
+  },
+  "407": {
+    "gid": "dawnofegypt",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3cee75c766c9461610d278bb6882a53c42461ae00e1e3d3da3466682644a9944"
+  },
+  "408": {
+    "gid": "leprechaungoeswild",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "18c121ec6485a0c1df13baf777667681944f9e3ab65d2916f466c1be48bd24b6"
+  },
+  "410": {
+    "gid": "fortunesofalibaba",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b3402bd05de1befd8bbff247a53972dffb5c89c578ea019ca1ebe450d3c06174"
+  },
+  "411": {
+    "gid": "ringofodin",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a96eb1421ab1e8323b7eb9d8c5c6992c34525b2aca49cdbe8f52655d96f841eb"
+  },
+  "412": {
+    "gid": "stickyjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e2602cc75651c5535542a6242db6b7dea8705aaa5164beba51a74eb933506793"
+  },
+  "413": {
+    "gid": "shieldofathena",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9a5ea6b926ef57e96262cfcc747d19314596d87637108eaa0e08d9c94cf072e3"
+  },
+  "414": {
+    "gid": "thatsrich",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e3bc502b285f06776bfc1e4da67152fd62810c24ef02fa48fd4127cddf8ba0ae"
+  },
+  "415": {
+    "gid": "felinefury",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e02896c8d46720aeed5087445043a06f5b355067106148f788ca2dee1ed1b36f"
+  },
+  "416": {
+    "gid": "legacyofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c9788cfff4772336408402b662020e38c9cf9ab1b6c0ad623c0d03b586faf3fa"
+  },
+  "417": {
+    "gid": "doomofegypt",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "17ea255266dc81776698c3b4bfc70a4f13f8c3e389cda0c71ab243628708debe"
+  },
+  "418": {
+    "gid": "annihilator",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "380430f1d78272502c30846dcca4e69296e4ec87f9a3b53f487f1d5743b36c68"
+  },
+  "420": {
+    "gid": "rally4riches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ac340d94cb9578261cd2e5d6133e04dd2bf9e992c4e535ec10b7810871a9348a"
+  },
+  "421": {
+    "gid": "twistedsister",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "dffc450372d9fdbf459452c87b9ffdf1d393f63d87fdfb128a6b23510364285a"
+  },
+  "422": {
+    "gid": "saxon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b77adfdd0efb6abe7e3b9154c467bcdd15ac306369441b1000503459cc0a8162"
+  },
+  "423": {
+    "gid": "helloween",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cf17ae9968eee0f08a71a82898db8f9f2e65f8bff01f46953d5b4f9cd04db1b8"
+  },
+  "424": {
+    "gid": "goldvolcano",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1bbda7bca989142c46016f6085fd7ef037f142c495020c41ed09d3b752778813"
+  },
+  "425": {
+    "gid": "charliechancehelltopay",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b051b1e81420fd37ec6c9f069978e7aaa435545a78d2a02ecd3e96b1d04f32fe"
+  },
+  "426": {
+    "gid": "winabeest",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "423e4d48028f831c1d8929e16461e37fb38827b22f9370641541f0f973a257bc"
+  },
+  "427": {
+    "gid": "doomofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0dabda5c98251e3fe0b272aea0a446dfbdb2633de9341d9f934d497aca7685c6"
+  },
+  "428": {
+    "gid": "diamondvortex",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ee76b0f9bf467187cb32b63de2f5d076b940d5e7cd5adaca822c9c1415a5e722"
+  },
+  "429": {
+    "gid": "reactoonztwo",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f4de6cb84fc5807ab2e75e24bf8284b82f94808d8eb34f0c03ad505ec43f98de"
+  },
+  "430": {
+    "gid": "riddlereels",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6abf969420ea9416a9714111bfc68d9c114951518a58493dfa9460a3428445c1"
+  },
+  "435": {
+    "gid": "madameink",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "275773fee9852af913b515b2501bf99f2364ed77d2561b5367ced18cedd56e54"
+  },
+  "436": {
+    "gid": "goldenticket2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "53fae26713682315c2daf6d386941446727a756a8f479b08b0e623968266a302"
+  },
+  "441": {
+    "gid": "octopustreasure",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7fba11e04371fad66459eb48cbf0062bd93c2ca7fde676c5a3773a715fd491c4"
+  },
+  "442": {
+    "gid": "jollyroger2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c2df514249cdbb91b6bce0d087c3022953c2ebd9a070b0ee1da59e1663273e17"
+  },
+  "445": {
+    "gid": "rabbitholeriches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cd8b4f2f4507ff4eb341532c3fd7f4fe5da4592667e5b74eb038f7a8f3befc99"
+  },
+  "446": {
+    "gid": "blinged",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d48d1011372738ece7c060a955ac1af851dd925330e11a77ba3a8b5cfac04cb8"
+  },
+  "447": {
+    "gid": "goldenosiris",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "da5f1b82cf1b3f921945503a953ec7a21b6cfdb03ec033d993aff412357a8cfd"
+  },
+  "449": {
+    "gid": "discodiamonds",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0284887dd55b4abac340172846825ee6be7862046153d8099852510d971a0176"
+  },
+  "450": {
+    "gid": "twentyfourkdragon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f16f15f92ce27c99a0b8f5fa41311845ef6b3e38693a54cdf2196bd3dc448d9c"
+  },
+  "451": {
+    "gid": "riseofathena",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "52ce4d6444ccf26e07c2d4899fbe2d03b8b6b381de39cfe7db8aaaad838ed808"
+  },
+  "452": {
+    "gid": "coilsofcash",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "562a6c40e08c778462d1bd52eda1b527b2e4e2d6f02a6bf25dbdbd45eab26fbf"
+  },
+  "453": {
+    "gid": "frozengems",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c6a8441d69d5bb572bd41b5a875d0723cd1fca6beeda99ee1cda5b3ffbc887db"
+  },
+  "454": {
+    "gid": "icejoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cc851a9f694aad38ce4f10fa7775fd73d155bcfe6cc8012fdc0fbce22f78812d"
+  },
+  "456": {
+    "gid": "lostchapter",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e88820a4f90e59682d29e21b5f86f203f13b92b87d5156aa0994c097bbcfdc5f"
+  },
+  "457": {
+    "gid": "newyearriches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3488060d50d058f67e6d1a9e6aa6d00cb334f598432f4177952b6d318ec9249a"
+  },
+  "458": {
+    "gid": "piggybankfarm",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "249ab31bef9aede98d3479d642367c29b65a2e28e9ce18bf8038bae1b91de5de"
+  },
+  "459": {
+    "gid": "bullinachinashop",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "dd29d4d96d08ffb9dabd25cb995568fa43c551ac286bb59e1646880c0c364cf7"
+  },
+  "460": {
+    "gid": "catwildeeclipse",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b8275b7fb36b4a5f1bbdbd2507a06fce88ee18bbce534f6fb96332e5f4ee77eb"
+  },
+  "461": {
+    "gid": "minerdonkeytrouble",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7b38af039182ea9283685848448c01354d653b073cd3af5df780d1ad8984dbf7"
+  },
+  "462": {
+    "gid": "thefacesoffreya",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "554a4b12fe54e327709d75aca6bad8b4aeb1fc77f3bc4448927fa1a90c802664"
+  },
+  "463": {
+    "gid": "thunderscreech",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "27edeb77296b7147b16732eb2f495f72116c8f6037df6d2489970ab0d256e61b"
+  },
+  "464": {
+    "gid": "holidayspirits",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "765bab9128033954e7b599d0a6f185ff6e459bb22afecb79373bde6e0eed3d5e"
+  },
+  "465": {
+    "gid": "thepayingpianoclub",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a61e869b042ad04d7a58d4be0aef1006715f606a7824ce00ccb6f1ad7b85917b"
+  },
+  "466": {
+    "gid": "firetoad",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "23841fc1dafdcfdfc411a05fba4d2107d86f7a43fdd283d28bb336c291a34a69"
+  },
+  "467": {
+    "gid": "thecrypt",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8f391e28a8012a70fced7fb2a1e02a6cf7f661942b3271a7e4f48072e348035d"
+  },
+  "468": {
+    "gid": "gemix2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ded5f1e3423cbe0250fb2c4255cffa1c8b3fea0924a54ed50a101042ffafe349"
+  },
+  "469": {
+    "gid": "hammerfall",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "95ffb6058fafdd065d88a46b684b8ed3a76ac3bbc249860ac69b1f9c6579c2f6"
+  },
+  "470": {
+    "gid": "ladyofthelake",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "eabb63eab1ea49d99cb149a798b4e9188b8612d4dc0e78df591bab180a152121"
+  },
+  "471": {
+    "gid": "thegreenknight",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "31b9096ec4fbad8d2f695d9a7a4ea3d1ac6c35d3a0a1648308c3c6374f17fd68"
+  },
+  "472": {
+    "gid": "theshimmeringwoods",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ed95d2cc2afbd7c3fc590254cdc762d7c9e087c83887756725f8961be3b6d9ba"
+  },
+  "473": {
+    "gid": "firejokerfreeze",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fa26c5762e0a5c4afa32abbc9d88d4325e8af5e6b6d139a7746dca683809e197"
+  },
+  "474": {
+    "gid": "threeclownmonty",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6678b3a170b09954672285ab1ea11eac6103b7dfb846a5edd7e5ca26a419de8a"
+  },
+  "475": {
+    "gid": "amuletofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5bdd7857ffd8d9ec0f9feb3281c6f47e5d7d2186841f8f9f8b3fc7a52ff8482b"
+  },
+  "476": {
+    "gid": "derbywheel",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5e1dacaa080a042073ce5125e78087281a9b0b58819a75fc2dd195ba9b1602cf"
+  },
+  "477": {
+    "gid": "courtofhearts",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a537d73070b47868eff28886979c39dfc9a5dfed123c3af1d85f7084be2aadc5"
+  },
+  "478": {
+    "gid": "packandcash",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b9583e042430e81e3d69d1bf41f63188f8a53bf1766956a8d5dab946f47662e7"
+  },
+  "479": {
+    "gid": "hotelyetiway",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7eb372401f7623b3a88b73c85fa7aebaacc2b753ac02ed534f7806a014e7143e"
+  },
+  "530": {
+    "gid": "scrollofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f2e69fab454dcfe90a38d3543192d9a76e5738c0cb3ff1279ece3297b70ea4ed"
+  },
+  "531": {
+    "gid": "alicecooper",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b3fe3508650c65e5a67f96a69a28f1384241cfe89ebf8357ded17012d3ddce90"
+  },
+  "532": {
+    "gid": "prismofgems",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9a1b3196755bba73a9c63d46a76c8bf9aae42ac5ce7af9a863dca8acc70102c4"
+  },
+  "533": {
+    "gid": "blazinbullfrog",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5f55e0ca6ef9bc91fb86b791a3c919484370231ed50ae955ee7103a3f780bd52"
+  },
+  "534": {
+    "gid": "charliechance",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "95f4caca5257ad627f17582d3cda12d59341723628d6a9a4fa8031fadd3ff49d"
+  },
+  "535": {
+    "gid": "diamondsoftherealm",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6150a0ab3f4aacbec8b514fb321724806d14326372066ffcfe6534fbe214d11f"
+  },
+  "536": {
+    "gid": "candyislandprincess",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "04ec209ba0a42f47a103ef779b3285f924f7de83fb05b3209c09d2668f04188e"
+  },
+  "537": {
+    "gid": "odinprotectorofrealms",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "02a5f943fa8db296c54bf118140b40299347a617bf44308509270ce54975d7b9"
+  },
+  "538": {
+    "gid": "drtoonz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7b295f879a7f006b9c8a5457a589e8469ad6062fab897e7cef5f30058c7e9fb7"
+  },
+  "539": {
+    "gid": "curseofcleopatra",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "060e5ad6b51ca5428eac40af27ebc7295887721ad8eabec6f10ef42c7a34007f"
+  },
+  "540": {
+    "gid": "freereelinjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8cbc45d59bac32e54957c9f60982470b057908fece8f8932f555790652c03ec6"
+  },
+  "542": {
+    "gid": "agentofhearts",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "44badd3111a809df64c1249819b24e14106d3925df0f4dab826886db1a41d24b"
+  },
+  "545": {
+    "gid": "muertoenmictlan",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "746d246d50a251f5f1486b7c258a40206629140e2137acff6d229106f6098d1a"
+  },
+  "547": {
+    "gid": "sistersofthesun",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7ce2e6e79385bfd63ad666ad110c34bc8fb1bec498e488d9b68c3f4742a90f4f"
+  },
+  "548": {
+    "gid": "hugocarts",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9aef3dcc06ba80c32e5b3fa6d714b41fd5f075e6840c1b8c44d68be8ee22c3ea"
+  },
+  "549": {
+    "gid": "ghostofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6f9abd55fba0a266911894c5ebaa7f5f9c5ccd0418a704a3ebd49fd1415b9020"
+  },
+  "553": {
+    "gid": "kiss",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7563545baedcfaed4a7395b664db1d5f98d0e6c850c1e0eca6a07751b07cf56f"
+  },
+  "554": {
+    "gid": "thewildclass",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b00f366a41356ff3ae87a7ebdbdf5d407b9c2c5509f5ec8505773ad2f8ec3528"
+  },
+  "563": {
+    "gid": "wanderingcity",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f45ebb187440d73e536dcd211799db84c4402f9585c3fb278ac8aabe5f0115b0"
+  },
+  "564": {
+    "gid": "legendoftheicedragon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1ec465f3475551127f2877300b2f08b7cc9f06c78f0925bc580532c5d88fd697"
+  },
+  "565": {
+    "gid": "lokisfortune",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6d82ea38d1e1544fff9d4b2a1c34be914270409c608c5f615d164d77b37e5111"
+  },
+  "566": {
+    "gid": "sparkyandshortz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6b93a34d83f9158ca7ac4f41951ff42b01f0087425e6644012c9bcaf9715854f"
+  },
+  "567": {
+    "gid": "crystalroses",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3e5e10706d0210c9426aaf04d7d5e23e6ce8bf63876c529f756567a418b3cfe2"
+  },
+  "568": {
+    "gid": "hooliganhustle",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e9e3f6e72cca40d219713cd08539ed3b23318543c299f7800e49f6dd5d963aeb"
+  },
+  "570": {
+    "gid": "taleofkyubiko",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "402890d0553d2bef8f7d7c4b1194aea934ffeddf32a1e0aef8c5454022199918"
+  },
+  "574": {
+    "gid": "gigantoonz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c6837791d2b2c72e57ab0279784ca75a9c17c18d478238b74e5cb584a18b2039"
+  },
+  "579": {
+    "gid": "beastsoffire",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "013138975f8cb0d963223c21e3ff06c396bfcd6afc1bc40e04a1c0b98f42bc35"
+  },
+  "581": {
+    "gid": "icequeenmorgana",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e7a5d59ad5fcdd0f180330f88bed8a901557ac5d015ada27654e8190432ab622"
+  },
+  "583": {
+    "gid": "thelastsundown",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3289c19fb778ac564c9524b46c3c9f5df951dfee85077275ce89ed87f991fe4d"
+  },
+  "584": {
+    "gid": "riseofgodsreckoning",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b9b2aa576eb62bd3dd1dbe8468f0144a361be236c8bb735232063ceaf3bc0ce3"
+  },
+  "585": {
+    "gid": "captxenosadventure",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cfa9799d04431d2b02e995aba3c4c96ec352010d14c056dbd385e68611033cee"
+  },
+  "586": {
+    "gid": "roccogallo",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "68c9d5731f185b825d37d169c4bf7e9f302daa3d97f3d98962e67121226ee01a"
+  },
+  "587": {
+    "gid": "cashofcommand",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "636c5063cc0833fd64695f483301f222ccb8687ec068ddf7a19f998daddcd663"
+  },
+  "588": {
+    "gid": "championsofmithrune",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "cf2170e45e49391977acf63b10fbf9e5bbee91e4fab4ff4f9a1af32d3a92284b"
+  },
+  "590": {
+    "gid": "caninecarnage",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "bd8fae1863e8dc62d9a427e18e121d137b5c4f57376c27aa46674715faac34a4"
+  },
+  "591": {
+    "gid": "clashofcamelot",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "41aaabf168f818f26d90cb52c8de30c0fc0787b4684d24f57bc599dc16018ea8"
+  },
+  "593": {
+    "gid": "legacyofdynasties",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "687e060cc86d7a58704800dbef9ab022b03ad61e568f303d59761d08ee90779e"
+  },
+  "594": {
+    "gid": "tombofgold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e7187ae5cfc97e52cff2c2fd8e635f19e290f538cf5e0a87b02339fa51c8732b"
+  },
+  "595": {
+    "gid": "roninshonour",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "10d80b46b202887cdfabb3209ca7f6335ab6e4c00ca83d2c7b89d38055131739"
+  },
+  "596": {
+    "gid": "freyaswedding",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3bfde56ce9e5b8df8a20d221e6c404788f2b3dbbd25c8e4f9da49401ea62d939"
+  },
+  "600": {
+    "gid": "christmaskingdom",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6fb08ffb394b1e7f9edec92673e6eddbbd69f378e35b905318576d1093abb94b"
+  },
+  "603": {
+    "gid": "moonprincess100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1cb162632bfda9178031d572352b424eebcce722805e05bb9353fe6f5334f19e"
+  },
+  "606": {
+    "gid": "secretofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "800b53f160d75d22ce4a3d7ebbc99eb0f5affcd5f2c31f604ade4488252365e2"
+  },
+  "607": {
+    "gid": "ragingrex2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1ce890950962637b4d3f67e2ea32b374d801fdb68eaecc74679978b038cb2b1f"
+  },
+  "608": {
+    "gid": "lordi",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "82c4a91879dad15db2ec9849027da87fa926f3602afda807f2c3b76d7cc84c10"
+  },
+  "609": {
+    "gid": "forgeofgems",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "39aa1a1b66790b8c0f00247219fb712eedbd3ccbff9a264a363cba35cbfe7a6d"
+  },
+  "610": {
+    "gid": "lovejoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c96e750e772c0bf73494c3b03591c58e01b4209542beb80e6efa4b08b766d99a"
+  },
+  "612": {
+    "gid": "defleppard",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "528078eb6e39395bdfadd49a34ada7385a46a8558b5a83d266fe682769ff2083"
+  },
+  "613": {
+    "gid": "pyramidsofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ea00652a5556eac85120bdc9f1ddeafbd0959df556ebdc9bf44a77b645095582"
+  },
+  "614": {
+    "gid": "fatfrankies",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ea4f8a36b34a59fa0920c64268abc6af957092c41149b0974b31a29717bcb70e"
+  },
+  "616": {
+    "gid": "wildtrigger",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9893229a24176b16c3e0ce554fc9b961c3481d73a2f8501a430cce34e7f76fdc"
+  },
+  "617": {
+    "gid": "animalmadness",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4df188aa364e190e01a65f87ed8cd85a0e31c67af69f143c2e057e896b708055"
+  },
+  "618": {
+    "gid": "gatesoftroy",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "72daa01c966237a3bc56c4f42126eaf784ed895a008a4e7a6b5f49d907bbb005"
+  },
+  "619": {
+    "gid": "pueblaparade",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "bdb9bd065fd61804e5fdcf6678dc73fcc3f036309b6bd213c142b57dad2a33b6"
+  },
+  "620": {
+    "gid": "merlinsgrimoire",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7ca7dfc94dde9403d9d2686360153151183e5b0c53b47818c8120d05bf671941"
+  },
+  "622": {
+    "gid": "forgeoffortunes",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a4eb341dc6a1a66c475b85870b498d604596722c8a2d814f1d3a923c1c4e7816"
+  },
+  "623": {
+    "gid": "moonprincessstargazing",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "566cdf2390915a7f81cf7a49d68413a597a8d89348b3a47966a8dcedf5fe7c99"
+  },
+  "624": {
+    "gid": "rotiki",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a87c57c00a1db8083d41038d86830929b157411a54fe321f118637b6362f057f"
+  },
+  "625": {
+    "gid": "megadon",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4b3bb0f71d11c9afc17593450443190e1e4f6277c671031713a36349a1eb334d"
+  },
+  "629": {
+    "gid": "nsyncpop",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "28e932850920c739d9bf7e94cd1e67964b7bb211ad691590d87a3d0aa1c3f21e"
+  },
+  "632": {
+    "gid": "safariofwealth",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7d4631ea3c4ee88f5eb8236b14d43702115c18dac6692c0b7a16d74249f80218"
+  },
+  "633": {
+    "gid": "idoloffortune",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fb033b3f0a7658996d626e168d43edaa51e565ad224188f664002f1a09f12a9b"
+  },
+  "638": {
+    "gid": "eyeofatum",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "af90b681ee0a2681a08eda464a94b023ac92bacddafef5fff756c3b9eb1c60d8"
+  },
+  "639": {
+    "gid": "kingsmask",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "155a09bd935f07ee8c9de7531c65e1456138e4148b687ed49ae1e63a92f45bde"
+  },
+  "640": {
+    "gid": "piratehunter",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b3680d96549111f0d278367a564d1238f5c709848a48cea275d5df8118be159e"
+  },
+  "641": {
+    "gid": "immortails",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3d5840f6d3d6f969163609370d797069449e576e70f3c9987b3d424af00f929b"
+  },
+  "642": {
+    "gid": "gerardsgambit",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d1d7389b39e4cb63d050f8d0394a603b4efeab579f4b4aad2f1443336d31670d"
+  },
+  "643": {
+    "gid": "scalesofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f4109efc6cf5e99a822f4bf2b29a5192429bfb6c2beeb6e0ad3655421e5ddcf1"
+  },
+  "644": {
+    "gid": "motleycrue",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "72585382bc6b3678dbea03c896b01a31db7c886d3fe078edd6c7246c3506c477"
+  },
+  "645": {
+    "gid": "mountm",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7a827b308a5233d3bcd19e8bb42dcf30fc670538b58fd6d3f6842f549755c561"
+  },
+  "646": {
+    "gid": "bullinarodeo",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f39606f8395f21e455e98d8cb1f573ecec1cd0706ed7b2f3bfc556db057a10fb"
+  },
+  "647": {
+    "gid": "wildfalls2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d5130b69883d877f815d36fdf5bfa5151eb639f58054a53e27e628aae2700100"
+  },
+  "648": {
+    "gid": "vikingapocalypse",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "dbdaf58c2ff41cec8ab5def04e39f1d9450fdc7f08965d81668aec9de3228cb5"
+  },
+  "649": {
+    "gid": "foxmayhem",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "99bf0aaa2ece9e97d3fe64847092a06d3c515953a5dce14f0cdb44c61a33d93f"
+  },
+  "653": {
+    "gid": "dio",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6e03f6174e0a120ffeaac0f72dffc9ab720494cd43e11c3a23261b073b2da31c"
+  },
+  "656": {
+    "gid": "leprechaunsvault",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c1f544babea325aefc43d59662ca50ef5e6ab52a145d555fe0cb478691302d9c"
+  },
+  "659": {
+    "gid": "usaflip",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2db5372b7eb74f15964997c2c23b1fff32cbb93e582664c9f916d9107adbf290"
+  },
+  "660": {
+    "gid": "legiongold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "17ec1a160a0c5a909e2c74fb9225fae8305ac3799b834074d3d343bd02c8f5f1"
+  },
+  "661": {
+    "gid": "wildbandolier",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ec2652254d0d19f0740629315083eec1bc2d2df54ec135513e73b2e3cbb69046"
+  },
+  "662": {
+    "gid": "shamrockminer",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d69d25a36a4c308ac0c3a5da828be561107ed57d251fac3b4219232ab2592ef6"
+  },
+  "664": {
+    "gid": "boatbonanza",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8477e525887e82b2e60c1c8cb68f529365fab7bbbfbe36a5c7a6be2a594146cc"
+  },
+  "666": {
+    "gid": "houseofdoom",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "eb67c8b5b87aa520ec88cc289c7f68e8900c47e14b043fbf3ab57b02b31fdc88"
+  },
+  "670": {
+    "gid": "riseofolympus100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1d92bb422f10449b813f2241a1804bee782351a8842d4f8630f453ce9f930f67"
+  },
+  "671": {
+    "gid": "hiddenjoules",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "24318acb9e43994a569154d4dbd25f547d1dcc05bb05e7b9d3a42e61f8463728"
+  },
+  "672": {
+    "gid": "monkeyscrolls",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "663636850efc9916dee31cd831a452c603c348534fef2bf6296f57db761e4e66"
+  },
+  "673": {
+    "gid": "buildinbucks",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "366e60b38e9384eacc8bf409f44beb264e72a9944299a8f6a7527c603a8fba4b"
+  },
+  "674": {
+    "gid": "rascalriches",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "25ac343e351b337037446e1f6c8363dd9cf1e665bf717694c56d763a24e7af91"
+  },
+  "675": {
+    "gid": "colossalcatch",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "aadc8ab9d50aab299585c3741eaac6a058d5d4fe133fb4c04935860af92cdc95"
+  },
+  "676": {
+    "gid": "bonanzadownunder",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "698d15b0d20ae8331bc8220f1d2d3f33afa7c9e2803a0b135eaaa33176add790"
+  },
+  "677": {
+    "gid": "excalibur",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b5f7af4cfba8ac7981ee67348ae827e5c5aa40793a37e10b84416d72ab48efd3"
+  },
+  "678": {
+    "gid": "legiongoldunleashed",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2044ffaf1fb99e5ffb7ac5e7bc5751b2328768edf31a9cbb0d1f4d772c27d1c4"
+  },
+  "680": {
+    "gid": "returnofthegreenknight",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "24596125aef268695c3bdcf1e8e02eea8e2d8377810f028c16f2ce22a8e5f4bc"
+  },
+  "681": {
+    "gid": "sherwoodgold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4c48a6f44ad1d136ab2baffaadcf6002fe444e133f809e6d5fde017657793e99"
+  },
+  "682": {
+    "gid": "synsfortune",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5540fed87f56382edac01295bb3c59a93a537e1e2482663b76daa5cde48dcd3b"
+  },
+  "684": {
+    "gid": "pilgrimofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "59574d0f8497af87593bb19cfd264c978122cb3213985d8a4c5b25cd97b30925"
+  },
+  "685": {
+    "gid": "countjokula",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b938be7e4ee44c464968f33d4678d3f001b77dab9f8fc1b754fef59b446cd11f"
+  },
+  "686": {
+    "gid": "cashacabana",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8f95831055aca6eab285a542ca71f4a2a21bdcfeb5fa084f8ac4b851a85d4ada"
+  },
+  "688": {
+    "gid": "sparkofgenius",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2c41ed5d2ec83d1a4816b0016ae9249ba83b1d86b68620bf46c3e9f98ea3ccff"
+  },
+  "689": {
+    "gid": "invadingvegas",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9d62ddf5c24355fdd6aadc78e5e7bb02af5cce3e4bf0812cdc93208af713cc80"
+  },
+  "690": {
+    "gid": "pandorasboxofevil",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "bcd36937245c4a6f98fb4b677e4cbe5e9732655f722dbef4cf184617a8076e36"
+  },
+  "691": {
+    "gid": "threeclownmonty2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c9d3b8f2a69b1992a83cf71815f3c52aa9bff2bbc499c332b4e668b711ba3075"
+  },
+  "692": {
+    "gid": "ankhofanubisawakening",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3eac357d26af148f89796b1b367bba5e94566149156e262ac5c272cc7d38cd03"
+  },
+  "693": {
+    "gid": "goguprising",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ce63fd89408483a480dd08c2ae90e9c76a6fe36db752f479aba818f5cbfe465a"
+  },
+  "694": {
+    "gid": "jollyrogerwildkraken",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ca4627c4a17edb441945a390582b9bc06c93258b693b3cafbc5d5a0a00fc1dfa"
+  },
+  "695": {
+    "gid": "vikingrunecraft100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a72f6d4530d93dc895129e5dcaa8446b7d995121f0ad39c3b6774da628408b22"
+  },
+  "696": {
+    "gid": "journeyofflame",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ed2eaafee79d669774f18f8e980aa499fee250e21afb833c209611486f7f047d"
+  },
+  "697": {
+    "gid": "pandasticadventure",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f7df2c7f2e4e0ce072cbeeb043ac624461fdb262021c73a975ddac2184542426"
+  },
+  "698": {
+    "gid": "lootandlabyrinths",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "672c5fc17f0279af017437442907413c7e8a23f713a222306fba0834025ab63d"
+  },
+  "699": {
+    "gid": "baronlordofsaturday",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "369cbde59db63da9a9deb08bf1453ba898f498c39a914c857c4f155d494f7278"
+  },
+  "700": {
+    "gid": "templeofprosperity",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2c5176f138d0939d235dbdf52c4b6bbe012a3c6aba8622c1e7832f9c79b8aaef"
+  },
+  "701": {
+    "gid": "laschristmas",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "acbe7c9026dc6a18a4cafbde4941f4219d2912837bd42ec1bde20cfc8d6ef12d"
+  },
+  "702": {
+    "gid": "riseoforpheus",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3678cd17b1f29a153b0ca34dd8ff363f33b98211ec9f405414962bf2867d1521"
+  },
+  "704": {
+    "gid": "mysterygenie",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "34525f129dece8117d88b0805b987586bf5844e3a01817a695043eb4d41e9da9"
+  },
+  "705": {
+    "gid": "undefeatedxerxes",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "dad7e6ac5221e1f2435e16658429e92cc115d202bc36579aa1442e2505d87da2"
+  },
+  "707": {
+    "gid": "riseofolympusorigins",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d38a174282b1c8ec671b070349aea1c570e530d9845470e32f551f004cf44837"
+  },
+  "708": {
+    "gid": "athenaascending",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "97a053f258665560d775964a4004d65dcade9e4d0deb00e86b90e998abdca991"
+  },
+  "709": {
+    "gid": "slashimi",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "27b79d385db45624af82f80d36776ce353e59d453babe54aab91287ea576e983"
+  },
+  "710": {
+    "gid": "sweetalchemy2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4abd586796b182355f76d818a482848aaadeb8add854b55d997e96cf5f7a7f63"
+  },
+  "712": {
+    "gid": "moonprincesstrinity",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "dcee2af62c1ea255d544b0e19e198e864c965064bedb5b3a6c8a8a1d655181ce"
+  },
+  "713": {
+    "gid": "sweetalchemy100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3969db8cd44b986bde6b2e1c02d711fdbf13ceb4420fae4ee6e25f2083777e4d"
+  },
+  "714": {
+    "gid": "honeyrush100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ecb68405174fd43eb783ecf09f3e8f911682c6236706473a63067858c532dde4"
+  },
+  "721": {
+    "gid": "gargantoonz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3e2f9f1b598f6b4f76be3a48b65bc4b5ee713cb4de345cfe975778f46c21cbbe"
+  },
+  "722": {
+    "gid": "chambersofancients",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b7677e70b53e5aa790558c83d1eb7e6172c95f29f12f81869950ffb45010fbb8"
+  },
+  "724": {
+    "gid": "wildsurvivor",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8a540a3b1e61a2218cfdc7d85c5a761d4fed68cb0a194d772256b7076501678a"
+  },
+  "726": {
+    "gid": "ternion",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5497c6ef0f1b58842191a2416d83d86ce0f25e9be467731c27ee5617d023d88d"
+  },
+  "727": {
+    "gid": "hugolegacy",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2bd4b37f511d7a5f859b19fc9aff4e18ae596095c4ea3f2ce894e5aa86119086"
+  },
+  "728": {
+    "gid": "banquetofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5ab3e629fed2172f8a322cd80dde48e4833af6dea10f1416c8c42fe9136a451d"
+  },
+  "729": {
+    "gid": "ragingrex3",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a770f469918dadbda63d07cb360453850dfb97da88f41450fcfc778327b429b3"
+  },
+  "730": {
+    "gid": "scourgeofrome",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c482d8326fadde439afa96f63f4bf48a15c30a3b91b7239598fdd8346c51a3d0"
+  },
+  "731": {
+    "gid": "poweroflove",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "edfc86c03ea859b4eb2481c81da3015280c1f50f85db29ff2128abf424783510"
+  },
+  "732": {
+    "gid": "legacyofgemsblitzways",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1e45a66aae46c19dd0d53182d037fa7290394e19b8cd1f22287583092514d1ad"
+  },
+  "733": {
+    "gid": "templeoftollan",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "78ca1916cb8168deb41cfd95a48484c1f59b15078ff793e2ec016536d01845ce"
+  },
+  "734": {
+    "gid": "gemix100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "32d4d9c921b1a431de825e4e812ce1ff6a522071cfa756da5ce84f39f21fb87c"
+  },
+  "735": {
+    "gid": "luchamigos",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "fe682e027c848b243cfd2dd93381d8ed4464b051e06ffbd4444d63082c9a2832"
+  },
+  "736": {
+    "gid": "goldoffortunegod",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2c0d6c0a3e0db9370e7347ee2ce1f58ab920d706583f24b80ca27b356e3d8634"
+  },
+  "737": {
+    "gid": "freereelinjoker1000",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "544e381c35219bce76adffa83a886bd09a353cbf3547ed78bdb358b64394bf74"
+  },
+  "738": {
+    "gid": "towerquestlegacy",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "3ee06968d452c888b394a1880162acc9d907206b2e00ae271a69bb8512eae4d9"
+  },
+  "739": {
+    "gid": "coltlightningfirestorm",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b28e82f0e56c5709a5e57049ffa100dc4837592409248119ede7893f7db72941"
+  },
+  "740": {
+    "gid": "megadonfeedingfrenzy",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5c106eabc89318e267028696909f808e8c9b802a4ebcbd1698fec499e835e839"
+  },
+  "741": {
+    "gid": "vipercityheist",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "afd0e86e44666869e6a35fdc51b482b3929acb74ac245657d8067a87342cc89a"
+  },
+  "742": {
+    "gid": "trinityimpact",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6043581518bd6c4d7ea363bcc969454c8155bb2676ee2f35790ad38a2084f741"
+  },
+  "743": {
+    "gid": "treasuresofkongar",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5351167dd38a2380e3cea6eb576caa8943b77176a7debbdc45d67a601f665510"
+  },
+  "744": {
+    "gid": "incanquest",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "455128cd8ea185c6a28382262ea06803551b6a8620ae1b227d0ccb85ff56f740"
+  },
+  "745": {
+    "gid": "tomeofinsanity",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4988c143cc8c86cf3fa515bfdca68e541631e93075532b2b49f70887de6be34e"
+  },
+  "753": {
+    "gid": "steppingdiamonds",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2b25f772a2d307d55815663f0eb3b7cdd0d2c9e875b49c8e4bed445a26fcf8ba"
+  },
+  "754": {
+    "gid": "naughtynicksbook",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "dccd61d1d14d8d0a4f8f53b2256d0aa90694a91d8a406666b29ea52b7bc30874"
+  },
+  "755": {
+    "gid": "legacyofinca",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b2b02226455069a9a610d05b374caad682bbc516a9d1c80b30bb4949ec3c8429"
+  },
+  "787": {
+    "gid": "coltlightning",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "85371ba00d88f13ae3b0ab15cfc35f81f66bb27e885b453445fa1233da040eea"
+  },
+  "807": {
+    "gid": "scrollofseth",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "889106633fd99699c3c4e3b6530302d687f53a81f89348e43cd1ffb8f850e01e"
+  },
+  "808": {
+    "gid": "highwaylegends",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "6767671c44f3278b418a42305c3189bc6a075b6ceed0f19ac6421f0614bb5398"
+  },
+  "815": {
+    "gid": "mafiagold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9431c2302b05592f3d88421eceb614911e7ecf63fe2ec13e809cea2fabd51b1c"
+  },
+  "816": {
+    "gid": "ruffheist",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "64fcf645113425a378a41da48a826b7ed39dd82595e9f6425004efb7ef4b7483"
+  },
+  "850": {
+    "gid": "piranhapays",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ae684900b68f5e62c05d1b1c23bd585cfefd29afb1dc8ac468b2ecfaf152ef56"
+  },
+  "851": {
+    "gid": "kingsmaskeclipse",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "914244cb2d1659d345fa150a9ad13656fd04b463dd7aa05cbd8d7c52b8de1ff9"
+  },
+  "852": {
+    "gid": "fulong88",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "be7f2c9653b695f43a4bac26dd0ff442faeaabd4517c1828890958299d7860eb"
+  },
+  "853": {
+    "gid": "piggyblitz",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b5120adedf1166a3591a4e230babde87d91e34657a1071018453733be0ef58f4"
+  },
+  "869": {
+    "gid": "loveisinthefair",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "486149a5f5b71a739018ef5f66af0896e515c61a962f6642081e1d75800aafe1"
+  },
+  "871": {
+    "gid": "wildestgambit",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d0692c35e2c3b48584a41718f38dd2c40a30b6b32a9ea8c901e1f1319989957d"
+  },
+  "873": {
+    "gid": "reactoonz100",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7da22879ca372b35acf29a08dbc20b46a88dec05094a289d762c3bb7b834d2de"
+  },
+  "902": {
+    "gid": "merlinrealmofcharm",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f0b3b28d07c919b1665e6fbf6aa9a94ed73beb533bd60fac6b8790a8351d8466"
+  },
+  "904": {
+    "gid": "sobekspin",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "8a7de7b9ab581a95eec5bd56916cddf710e41a6dafff3aae0ffa718d576f909b"
+  },
+  "906": {
+    "gid": "lionsagaodyssey",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "edaabf71cc7f8f38849d9a0ed062614aeae6b60f95d2a205f672ecd76ce533a7"
+  },
+  "908": {
+    "gid": "bonanzacroconile",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "624f534b84cb92af42f2bd171cd4180573a18012bd0c1348ee0f109ba7bba328"
+  },
+  "910": {
+    "gid": "divinacommedia",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ec7beb6e9815aa21072e6d5dee9b955fbe554cb463eab33fb91faf129d6e8279"
+  },
+  "912": {
+    "gid": "pearlsofvishnu",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "00932249b26471bf4d3ce1e22f1c5a5726658446b8e7a0f9aafef6305f0b49a7"
+  },
+  "914": {
+    "gid": "tombofgold2",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "1181c31364df9b1f5564bfdb5a4a3d026e8d4d3ad9c28f04a2075ea024a9f9b3"
+  },
+  "918": {
+    "gid": "buildinmorebucks",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b4ddc30d65861a7596f5ba0572d4d36485cf26926a4587b03cf1c50824a733a5"
+  },
+  "920": {
+    "gid": "crabbysgold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c439d7093e0f8bbeaf5996489209039aa7be9d0f4e7fc8fce10e23ae124c2329"
+  },
+  "922": {
+    "gid": "honeyrushblackandyellow",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "215f2dd7341916e00323c8457d1875509564a710302b3e8937fe59cf3ac69569"
+  },
+  "924": {
+    "gid": "discogold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "2212f72ddfeb8660c5c78b76525ecff9a3d567c7dcb1f43cdb908a4038df0d9a"
+  },
+  "926": {
+    "gid": "bullionxpress",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b3b84a05120d898445fdbd240071fd73d3f13fdabcf99c2ae522812db8059cf3"
+  },
+  "928": {
+    "gid": "mirrorjoker",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ac09b45a413e8b4fd4eadc4a5ac399c404e5ffb29519af54a946b3de59c3b0f5"
+  },
+  "930": {
+    "gid": "beastsoffiremaximum",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4560c6ce6bfbe2101e5153cec2f617efb52c9d393b8260718e2c5ad6f9d7ac1e"
+  },
+  "932": {
+    "gid": "oasisofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "68606d8cf9333926d6120cc7e5041e3e3d3a81a7cf10825955d65848af3245d1"
+  },
+  "934": {
+    "gid": "eastereggspedition",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "e82eefa3d78cfcdc43bb9f6e898d5f378ab4d033f09a204e7b65080d9e8b2670"
+  },
+  "936": {
+    "gid": "journeytoparis",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "4291384de9f025652550af275f310a2139ed3d6a62c86bd5ce5adb0c2e6ac70a"
+  },
+  "938": {
+    "gid": "hotdogheist",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b045b01641a5dc53646932f5a544a8da1153c65e06e50b437b85f36f9d4ea188"
+  },
+  "962": {
+    "gid": "whisperingwinds",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "532c8ef531085112f781545b6f6631c4e99c63d2afe693d2f2a2193d77708636"
+  },
+  "964": {
+    "gid": "oathofthorns",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a5dd6246f902499845a85fd1db9bc9ace74f54163b1fbd47197af97ae763f38a"
+  },
+  "965": {
+    "gid": "legiongoldvictory",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "903b68293dfdd9d0d10d977fd6e6bd9cdf7bb3283479a6e90553d7b47f3c188e"
+  },
+  "966": {
+    "gid": "dansband",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "0dd6f3416376e8953d807b0fe027a83727167320f3c0e9bbdec271a26204839f"
+  },
+  "970": {
+    "gid": "sphinxofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c6c50b7b8f629ce28e1d36eeb59cd88165d7d7c171e507d4e62d7d7c3a80a452"
+  },
+  "972": {
+    "gid": "kingdombelow",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ef1b96f2b7b3ba54bc114c52c388aa5cdae6dce7a7384c53e57db0e2340fef2f"
+  },
+  "973": {
+    "gid": "crystalhall",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "520be1d15e2cafc40a11a31b25f9fb7334215cd4670acf7ecbcd1d8a276f9c16"
+  },
+  "974": {
+    "gid": "jokerflip",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "269d670b76e304a82257d9600b719ae748fa32b76004703091c2cc17b6b58eae"
+  },
+  "975": {
+    "gid": "ghostbooster",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "ceaa0b30a3cd0d11f841f7c7d72faccd7ac8ec7eb3f289f5c7baf1bc1ca3e7cf"
+  },
+  "976": {
+    "gid": "ladyoffortunerm",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9d1fa265220f359e95b100d289c2b68d7e771ae7bf0875666ac098b03472c520"
+  },
+  "977": {
+    "gid": "potionofmadness",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "614a0b4eca9a47f9ceffe5296eb489d9c1f8ca4e2a9c9259352869183aa53a18"
+  },
+  "981": {
+    "gid": "xmasboatbonanza",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d51625fc1a0df6147705df1697d78a54f3bfd2ef41b7838455b1981f65c6e407"
+  },
+  "983": {
+    "gid": "midnightgold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "c32107592555ea23d1e4adc74db62623b5d456ee5b63faa0fcddddc5ee63eb5f"
+  },
+  "984": {
+    "gid": "revengeonmars",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "7a39473ecbd789b8b024b8f2b5a5e126959d837de715ee8e0b8df5ee65001ce5"
+  },
+  "985": {
+    "gid": "geniefortunes",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "a2fdba964caf89d0671eb8d1ec3f2f2a318097f20b6ca7a515707d97e680be05"
+  },
+  "986": {
+    "gid": "spinninrecordsintothebeat",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9da88c67516c7f89cf980c43272f222ecd0efe6e8269ea5339d07cab4fefd525"
+  },
+  "987": {
+    "gid": "mythofdead",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "9e066b7dfe2ad61f29dbb32678c482dbcc80496eb5289508ca43f1634473b9e3"
+  },
+  "989": {
+    "gid": "medusasmadness",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "d7d09eb7f5a3801e871691036489decd77575223099a7a20087a252fe8d5c514"
+  },
+  "991": {
+    "gid": "wrappingold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "795c34eed1372fe376ad762a7f337de9959bea7038317505361aa58430b5e062"
+  },
+  "992": {
+    "gid": "buildinevenmorebucks",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "15bc833217911f2ced7df75e686d65731208be75b166687d5dc892f9cd8aed9a"
+  },
+  "993": {
+    "gid": "tombofgoldreimagined",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "b05df0e1b383936d35026b391306930d47fbcff25e3623bf9f3292eb5a41ce4f"
+  },
+  "994": {
+    "gid": "piggyblitzcasinogold",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "5300f1ce059b3c77c69c477f14531bf23a68e2a4130f822011b504c6408bed4e"
+  },
+  "995": {
+    "gid": "lawnndisorder",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "f7c4b7f0087040626f58f27ceefa69d53d36ce8caced80cd91136d7e64023ad9"
+  },
+  "996": {
+    "gid": "buffaloofwealth",
+    "modes": [
+      "normal"
+    ],
+    "source_sha256": "78f78cfa1c21ba1936b93ce0abf063baa8dab7ad9a7f57eb9affdaf125bde157"
+  },
+  "998": {
+    "gid": "crabbysgold2",
+    "modes": [
+      "go-ultra",
+      "normal"
+    ],
+    "source_sha256": "41a408eedeaaae53533148cf1234fbe0a4420fc6d6eef6641353e9e099a2b614"
+  }
+}

@@ -1,0 +1,2919 @@
+{
+  "id": "yggdrasil",
+  "name": "Yggdrasil",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": null,
+  "games": [
+    {
+      "id": "7301",
+      "name": "Jokerizer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7304",
+      "name": "Fruitoids",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7310",
+      "name": "The Dark Joker Rizes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7312",
+      "name": "Joker Millions",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7315",
+      "name": "Chibeasties",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7317",
+      "name": "Holmes & the Stolen Stones",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7319",
+      "name": "Nirvana",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7320",
+      "name": "Incinerator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7323",
+      "name": "Seasons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7324",
+      "name": "Empire Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7325",
+      "name": "The legend of the Golden Monkey",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "7326",
+      "name": "Bicicleta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7328",
+      "name": "Big Blox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7329",
+      "name": "Double Dragons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7332",
+      "name": "Alchymedes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7333",
+      "name": "Beauty & the Beast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7337",
+      "name": "Jungle Books",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7345",
+      "name": "Ozwin's Jackpots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7348",
+      "name": "Lucha Maniacs",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "7349",
+      "name": "Tut's Twister",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7350",
+      "name": "Penguin City",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7352",
+      "name": "Wolf Hunters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7353",
+      "name": "Dark Vortex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7354",
+      "name": "Baron Samedi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7356",
+      "name": "Time Travel Tigers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7360",
+      "name": "Dr Fortuno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7361",
+      "name": "Jackpot Raiders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7362",
+      "name": "Wilhelm Tell",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "7365",
+      "name": "Age of Asgard",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7366",
+      "name": "Wild Robo Factory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7370",
+      "name": "Yokozuna Clash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7372",
+      "name": "Aldo's Journey",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "7373",
+      "name": "Jackpot Express",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7374",
+      "name": "Temple Stacks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7375",
+      "name": "Brazil Bomba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7381",
+      "name": "Neon Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7386",
+      "name": "Football Glory",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7387",
+      "name": "Vault of Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7388",
+      "name": "Lightning Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7396",
+      "name": "Easter Island 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7397",
+      "name": "Atlantean GigaRise™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7398",
+      "name": "Frost Queen Jackpots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7400",
+      "name": "Vikings Go To Valhalla",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BUY_RAGNAROK",
+          "type": "purchase",
+          "label": "BUY_RAGNAROK",
+          "ready": true
+        },
+        {
+          "key": "BUY_WHEEL",
+          "type": "purchase",
+          "label": "BUY_WHEEL",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7401",
+      "name": "Gator Gold GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7406",
+      "name": "Suncatcher Gigablox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7408",
+      "name": "Raptor DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "7409",
+      "name": "Golden Fish Tank 2 Gigablox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "8301",
+      "name": "Orient Express",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "8302",
+      "name": "Trolls Bridge",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "8303",
+      "name": "The Royal Family",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "8304",
+      "name": "Pirates - Smugglers Paradise",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "8308",
+      "name": "Avatars - Gateway Guardians",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "8309",
+      "name": "Pirates 2 Mutiny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10021",
+      "name": "Golden Gorgon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10030",
+      "name": "Pushy Cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BUY_A_BONUS_10",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_10",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_20",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_20",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_30",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_30",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_40",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_40",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_50",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_50",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_60",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_60",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_70",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_70",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_80",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_80",
+          "ready": false
+        },
+        {
+          "key": "BUY_A_BONUS_90",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_90",
+          "ready": false
+        },
+        {
+          "key": "MAX_BUY_A_BONUS",
+          "type": "purchase",
+          "label": "MAX_BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10055",
+      "name": "Spiña Colada",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10073",
+      "name": "Rainbow Ryan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10094",
+      "name": "Valley Of The Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10101",
+      "name": "Vikings Go To Hell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10103",
+      "name": "Winterberries",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10114",
+      "name": "Valley of the Gods 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10122",
+      "name": "Multifly! MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10124",
+      "name": "Lucky Neko GigaBlox™",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "10125",
+      "name": "Hades",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10131",
+      "name": "Sunny Shores",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10132",
+      "name": "Dwarf Mine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10134",
+      "name": "Pumpkin Smash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10144",
+      "name": "Hyperburst",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10147",
+      "name": "Vikings Go Berzerk",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10148",
+      "name": "Vikings Go Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10158",
+      "name": "Champions of Rome",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_DEATHMATCH_1",
+          "type": "purchase",
+          "label": "BB_DEATHMATCH_1",
+          "ready": true
+        },
+        {
+          "key": "BB_DEATHMATCH_2",
+          "type": "purchase",
+          "label": "BB_DEATHMATCH_2",
+          "ready": true
+        },
+        {
+          "key": "BB_DEATHMATCH_3",
+          "type": "purchase",
+          "label": "BB_DEATHMATCH_3",
+          "ready": true
+        },
+        {
+          "key": "BB_TRAINING",
+          "type": "purchase",
+          "label": "BB_TRAINING",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10159",
+      "name": "Syncronite",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10160",
+      "name": "Arthur's Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10170",
+      "name": "Gator Gold Deluxe GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10173",
+      "name": "Vikings Go Berzerk Reloaded",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10188",
+      "name": "Cazino Zeppelin Reloaded",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_2",
+          "type": "purchase",
+          "label": "BUY_BONUS_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10255",
+      "name": "Boilin' Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10260",
+      "name": "MexoMax! MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "MAX_BUY_A_BONUS",
+          "type": "purchase",
+          "label": "MAX_BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10280",
+      "name": "Of Sabers and Monsters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BUY_RAGNAROK",
+          "type": "purchase",
+          "label": "BUY_RAGNAROK",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10287",
+      "name": "Neon Villains DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_2",
+          "type": "purchase",
+          "label": "BUY_BONUS_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10290",
+      "name": "Florageddon! DuoMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10292",
+      "name": "Calavera Crush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS",
+          "ready": true
+        },
+        {
+          "key": "SUPER_BUY_BONUS",
+          "type": "purchase",
+          "label": "SUPER_BUY_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10308",
+      "name": "Champion of the Underworld",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_HIGH",
+          "type": "purchase",
+          "label": "BUY_BONUS_HIGH",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_LOW",
+          "type": "purchase",
+          "label": "BUY_BONUS_LOW",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10327",
+      "name": "Firekick! MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS_6",
+          "type": "purchase",
+          "label": "BUY_A_BONUS_6",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10366",
+      "name": "Christmas Plaza DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10378",
+      "name": "Winterberries 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_GB_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_GB_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_GB_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_GB_1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10380",
+      "name": "E-Force",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10395",
+      "name": "Elysian Jackpots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10399",
+      "name": "Ragnawolves WildEnergy™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_3_SC",
+          "type": "purchase",
+          "label": "BB_3_SC",
+          "ready": true
+        },
+        {
+          "key": "BB_9_SC",
+          "type": "purchase",
+          "label": "BB_9_SC",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GB",
+          "type": "antebet",
+          "label": "GB",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10400",
+      "name": "Devour the Weak",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GB",
+          "type": "antebet",
+          "label": "GB",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10407",
+      "name": "Candyfinity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10409",
+      "name": "Nice Catch DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10417",
+      "name": "Giganimals GigaBlox™",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "10421",
+      "name": "Defenders of Mystica",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BONUS1",
+          "type": "purchase",
+          "label": "BONUS1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10431",
+      "name": "Shaker Club",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10447",
+      "name": "Badger Miners",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10450",
+      "name": "Enchanted Waters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GB",
+          "type": "antebet",
+          "label": "GB",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10452",
+      "name": "Wild Stack Frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10455",
+      "name": "Notre-Dame Tales GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_BASIC",
+          "type": "purchase",
+          "label": "BUY_BONUS_BASIC",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_GB",
+          "type": "purchase",
+          "label": "BUY_BONUS_GB",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10458",
+      "name": "Fatz’s Diner GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS",
+          "type": "purchase",
+          "label": "BUY_BONUS",
+          "ready": true
+        },
+        {
+          "key": "SUPER_BUY_BONUS",
+          "type": "purchase",
+          "label": "SUPER_BUY_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10472",
+      "name": "GigaGong GigaBlox™",
+      "ready": false,
+      "block_reason": "Sin rondas cerradas en el export de Claude",
+      "modes": [
+        {
+          "key": "BONUSBUY",
+          "type": "purchase",
+          "label": "BONUSBUY",
+          "ready": false
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": false
+        }
+      ]
+    },
+    {
+      "id": "10477",
+      "name": "Nice Catch 2 DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUYIN1",
+          "type": "purchase",
+          "label": "BUYIN1",
+          "ready": true
+        },
+        {
+          "key": "BUYIN2",
+          "type": "purchase",
+          "label": "BUYIN2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10481",
+      "name": "Ragnaravens WildEnergy™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10485",
+      "name": "Vampire Riches DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_2",
+          "type": "purchase",
+          "label": "BUY_BONUS_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10488",
+      "name": "Max Elements GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GB_0",
+          "type": "antebet",
+          "label": "GB_0",
+          "ready": true
+        },
+        {
+          "key": "GB_1",
+          "type": "antebet",
+          "label": "GB_1",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10489",
+      "name": "Rock Star Santa MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "MAX_BUY_A_BONUS",
+          "type": "purchase",
+          "label": "MAX_BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10503",
+      "name": "Trickstar Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10506",
+      "name": "Rainbow Ryan 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BB_3",
+          "type": "purchase",
+          "label": "BB_3",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10509",
+      "name": "Aphrodite Goes Wild RushingWilds™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_2",
+          "type": "purchase",
+          "label": "BUY_BONUS_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10510",
+      "name": "Valley of the Dead OnlyWins™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GB",
+          "type": "antebet",
+          "label": "GB",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10511",
+      "name": "3 Gladiators vs Caesar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_DEATHMATCH_1",
+          "type": "purchase",
+          "label": "BB_DEATHMATCH_1",
+          "ready": true
+        },
+        {
+          "key": "BB_DEATHMATCH_2",
+          "type": "purchase",
+          "label": "BB_DEATHMATCH_2",
+          "ready": true
+        },
+        {
+          "key": "BB_DEATHMATCH_3",
+          "type": "purchase",
+          "label": "BB_DEATHMATCH_3",
+          "ready": true
+        },
+        {
+          "key": "BB_TRAINING",
+          "type": "purchase",
+          "label": "BB_TRAINING",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10512",
+      "name": "Vikings Go To Olympus WildFight™ RushingWilds™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BB_5",
+          "type": "purchase",
+          "label": "BB_5",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10514",
+      "name": "Monkeys Go Bananas MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10515",
+      "name": "Gold Frontier Jackpots FastPot5™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10516",
+      "name": "Vikings Go To Egypt Wild Fight™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10517",
+      "name": "Fruitylicious DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_2",
+          "type": "purchase",
+          "label": "BUY_BONUS_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10570",
+      "name": "777 Volt GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GB",
+          "type": "antebet",
+          "label": "GB",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10595",
+      "name": "Golden Fish Tank Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GB",
+          "type": "antebet",
+          "label": "GB",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10638",
+      "name": "Lucky Ryan GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10673",
+      "name": "Dick the Farmer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BB_3",
+          "type": "purchase",
+          "label": "BB_3",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10685",
+      "name": "Vikings go to Vegas Wild Fight™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10688",
+      "name": "4 FOXX Crew WildEnergy™ MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "MAX_BUY_A_BONUS",
+          "type": "purchase",
+          "label": "MAX_BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET_WILD",
+          "type": "antebet",
+          "label": "GOLDEN_BET_WILD",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10704",
+      "name": "Buffalo Freedom DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_BONUS_0",
+          "type": "purchase",
+          "label": "BUY_BONUS_0",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_1",
+          "type": "purchase",
+          "label": "BUY_BONUS_1",
+          "ready": true
+        },
+        {
+          "key": "BUY_BONUS_2",
+          "type": "purchase",
+          "label": "BUY_BONUS_2",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10728",
+      "name": "Bob Marlin Goes Deep",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10729",
+      "name": "4 Wolves of Fortune DoubleMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10753",
+      "name": "MexoMax 2 WildEnergy™ MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "MAX_BUY_A_BONUS",
+          "type": "purchase",
+          "label": "MAX_BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET",
+          "type": "antebet",
+          "label": "GOLDEN_BET",
+          "ready": true
+        },
+        {
+          "key": "GOLDEN_BET_WILD",
+          "type": "antebet",
+          "label": "GOLDEN_BET_WILD",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10758",
+      "name": "Bob Marlin Goes Splashing Wild Fight™ RushingWilds™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BB_5",
+          "type": "purchase",
+          "label": "BB_5",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10762",
+      "name": "FruitPunk",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB",
+          "type": "purchase",
+          "label": "BB",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10797",
+      "name": "GoldStorm Ultra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUYRFS",
+          "type": "purchase",
+          "label": "BUYRFS",
+          "ready": true
+        },
+        {
+          "key": "BUYSFS",
+          "type": "purchase",
+          "label": "BUYSFS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10799",
+      "name": "Scara Bucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10802",
+      "name": "Neon West",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB",
+          "type": "purchase",
+          "label": "BB",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10803",
+      "name": "Your Own Island",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUYBG",
+          "type": "purchase",
+          "label": "BUYBG",
+          "ready": true
+        },
+        {
+          "key": "BUYFS",
+          "type": "purchase",
+          "label": "BUYFS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10857",
+      "name": "Coo Coo Cashoo LightningLines™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB1",
+          "type": "purchase",
+          "label": "BB1",
+          "ready": true
+        },
+        {
+          "key": "BB2",
+          "type": "purchase",
+          "label": "BB2",
+          "ready": true
+        },
+        {
+          "key": "BB3",
+          "type": "purchase",
+          "label": "BB3",
+          "ready": true
+        },
+        {
+          "key": "BB4",
+          "type": "purchase",
+          "label": "BB4",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10894",
+      "name": "MultiFly! 2 MultiMax™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BB_3",
+          "type": "purchase",
+          "label": "BB_3",
+          "ready": true
+        },
+        {
+          "key": "BB_4",
+          "type": "purchase",
+          "label": "BB_4",
+          "ready": true
+        },
+        {
+          "key": "BB_5",
+          "type": "purchase",
+          "label": "BB_5",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10911",
+      "name": "Timber Trail Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_0",
+          "type": "purchase",
+          "label": "BB_0",
+          "ready": true
+        },
+        {
+          "key": "BB_1",
+          "type": "purchase",
+          "label": "BB_1",
+          "ready": true
+        },
+        {
+          "key": "BB_2",
+          "type": "purchase",
+          "label": "BB_2",
+          "ready": true
+        },
+        {
+          "key": "BB_3",
+          "type": "purchase",
+          "label": "BB_3",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10915",
+      "name": "Goals of Olympus BoltLock™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10945",
+      "name": "3 Piggies of Bank",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BB_ALL",
+          "type": "purchase",
+          "label": "BB_ALL",
+          "ready": true
+        },
+        {
+          "key": "BB_BLUE",
+          "type": "purchase",
+          "label": "BB_BLUE",
+          "ready": true
+        },
+        {
+          "key": "BB_GREEN",
+          "type": "purchase",
+          "label": "BB_GREEN",
+          "ready": true
+        },
+        {
+          "key": "BB_RANDOM",
+          "type": "purchase",
+          "label": "BB_RANDOM",
+          "ready": true
+        },
+        {
+          "key": "BB_RED",
+          "type": "purchase",
+          "label": "BB_RED",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    },
+    {
+      "id": "10981",
+      "name": "Turbo Gold Deluxe GigaBlox™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "BUY_A_BONUS",
+          "type": "purchase",
+          "label": "BUY_A_BONUS",
+          "ready": true
+        },
+        {
+          "key": "BASIC",
+          "type": "normal",
+          "label": "BASIC",
+          "ready": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "id": "smartsoft",
+  "name": "SmartSoft Gaming",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "smartsoft.options",
+    "workspace_adapter": "collection_full_misc.py::_smartsoft",
+    "continuations": "native option/state",
+    "closure": "native closure and wallet"
+  },
+  "games": [
+    {
+      "id": "BaoSlot5X",
+      "name": "Bao Slot 5X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BlazingHot10",
+      "name": "Burning Ice 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BokaJamba10",
+      "name": "Boka Jamba 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfBonanza",
+      "name": "Book of Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfFuturia",
+      "name": "Book of Futuria",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BlazingHot40",
+      "name": "Burning Ice 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BlazingHot",
+      "name": "Burning Ice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CoinsOfAtlantis",
+      "name": "Coins Of Atlantis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DiceJungle",
+      "name": "Dice Jungle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DraculasFortune",
+      "name": "Dracula's Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DragonsCode",
+      "name": "Dragon's Code",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:1",
+          "type": "antebet",
+          "label": "RiskBet:1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FarmsFortune",
+      "name": "Farm's Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FoxyHot20",
+      "name": "Foxy Hot 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GatesOfMerlyn",
+      "name": "Gates of Merlyn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:1",
+          "type": "purchase",
+          "label": "PurchaseBonus:1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GemsCrownChargingWilds",
+      "name": "Gems Crown Charging Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:1",
+          "type": "antebet",
+          "label": "RiskBet:1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GeniesBonanza",
+      "name": "Genie's Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HabeshaFortune5",
+      "name": "Habesha Fortune 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HotSamba",
+      "name": "Hot Samba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JingleBellBonanza",
+      "name": "Jingle Bell Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JungleSisters",
+      "name": "Jungle Sisters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JungleSistersDeluxe",
+      "name": "Jungle Sisters Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MadSlot",
+      "name": "Mad Slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:1",
+          "type": "purchase",
+          "label": "PurchaseBonus:1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MariachiCoins",
+      "name": "Mariachi Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiFruitsChargingWilds",
+      "name": "Multi Fruits Charging Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:0",
+          "type": "antebet",
+          "label": "RiskBet:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "RiskBet:1",
+          "type": "antebet",
+          "label": "RiskBet:1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot100",
+      "name": "Multi Hot 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot20",
+      "name": "Multi Hot 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot40",
+      "name": "Multi Hot 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot5",
+      "name": "Multi Hot 5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot5BurnWilds",
+      "name": "Multi Hot 5 Burn Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot5Deluxe",
+      "name": "Multi Hot 5 Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot5SuperWilds",
+      "name": "Multi Hot 5 Super Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHot5Wild",
+      "name": "Multi Hot 5 Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHotWays",
+      "name": "Multi Hot Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MultiHotWildWays",
+      "name": "Multi Hot Wild Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PowerOfTiger",
+      "name": "Power of Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SafariSimba",
+      "name": "Safari Simba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Samurai",
+      "name": "Samurai",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SugarFiesta",
+      "name": "Sugar Fiesta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Vampires",
+      "name": "Vampires",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WildMultiStars",
+      "name": "Wild Multi Stars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WildsAndGods",
+      "name": "Wilds and Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:0",
+          "type": "purchase",
+          "label": "PurchaseBonus:0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "PurchaseBonus:1",
+          "type": "purchase",
+          "label": "PurchaseBonus:1",
+          "requires_prerequisites": false
+        }
+      ]
+    }
+  ]
+}

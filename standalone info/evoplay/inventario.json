@@ -1,0 +1,7479 @@
+{
+  "id": "evoplay",
+  "name": "Evoplay",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "evoplay.fullstate",
+    "workspace_adapter": "collection_full_playtech.py::collect",
+    "continuations": "available_actions",
+    "closure": "idle plus native payout ledger"
+  },
+  "games": [
+    {
+      "id": "ChristmasReachBonusBuy",
+      "name": "ChristmasReachBonusBuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "aceround",
+      "name": "aceround",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "adrenalinerushsb",
+      "name": "adrenalinerushsb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:1:random",
+          "type": "purchase",
+          "label": "buy:1:random"
+        },
+        {
+          "key": "buy:1:deathless",
+          "type": "purchase",
+          "label": "buy:1:deathless"
+        },
+        {
+          "key": "buy:1:clean_sean",
+          "type": "purchase",
+          "label": "buy:1:clean_sean"
+        },
+        {
+          "key": "buy:1:akemi",
+          "type": "purchase",
+          "label": "buy:1:akemi"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:2:random",
+          "type": "purchase",
+          "label": "buy:2:random"
+        },
+        {
+          "key": "buy:2:deathless",
+          "type": "purchase",
+          "label": "buy:2:deathless"
+        },
+        {
+          "key": "buy:2:clean_sean",
+          "type": "purchase",
+          "label": "buy:2:clean_sean"
+        },
+        {
+          "key": "buy:2:akemi",
+          "type": "purchase",
+          "label": "buy:2:akemi"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:3:random",
+          "type": "purchase",
+          "label": "buy:3:random"
+        },
+        {
+          "key": "buy:3:deathless",
+          "type": "purchase",
+          "label": "buy:3:deathless"
+        },
+        {
+          "key": "buy:3:clean_sean",
+          "type": "purchase",
+          "label": "buy:3:clean_sean"
+        },
+        {
+          "key": "buy:3:akemi",
+          "type": "purchase",
+          "label": "buy:3:akemi"
+        }
+      ]
+    },
+    {
+      "id": "aeronauts",
+      "name": "aeronauts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "americansevens",
+      "name": "americansevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "animalquest",
+      "name": "animalquest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "anubismoon",
+      "name": "anubismoon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "banditbonanza",
+      "name": "banditbonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "banditbust",
+      "name": "banditbust",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "banditbustbb",
+      "name": "banditbustbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "basketball",
+      "name": "basketball",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "basketbounty",
+      "name": "basketbounty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "beanstalkmagictreasures",
+      "name": "beanstalkmagictreasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "belfrybliss",
+      "name": "belfrybliss",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "belfryblissholdandwin",
+      "name": "belfryblissholdandwin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "blessedflame",
+      "name": "blessedflame",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "bookofrest",
+      "name": "bookofrest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "bookofthepriestess",
+      "name": "bookofthepriestess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "bookofthepriestessbb",
+      "name": "bookofthepriestessbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "brutalsanta",
+      "name": "brutalsanta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "budaireels",
+      "name": "budaireels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "budaireelsbonusbuy",
+      "name": "budaireelsbonusbuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "bullsclub",
+      "name": "bullsclub",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "burningacesjackpot",
+      "name": "burningacesjackpot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "cabaret",
+      "name": "cabaret",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "caminodechili",
+      "name": "caminodechili",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "caminodechilibb",
+      "name": "caminodechilibb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "candycraze",
+      "name": "candycraze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "candydreams",
+      "name": "candydreams",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "candydreamssweetplanet",
+      "name": "candydreamssweetplanet",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "candydreamssweetplanetbb",
+      "name": "candydreamssweetplanetbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "catchthewindbb",
+      "name": "catchthewindbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "catsblessing",
+      "name": "catsblessing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "charmingqueens",
+      "name": "charmingqueens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "chosenbythegods",
+      "name": "chosenbythegods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "christmasreach",
+      "name": "christmasreach",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "clashofpirates",
+      "name": "clashofpirates",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "coinburstsevens",
+      "name": "coinburstsevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "collapsedcastle",
+      "name": "collapsedcastle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "collapsedcastlebb",
+      "name": "collapsedcastlebb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "crimsoncrown",
+      "name": "crimsoncrown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "cursedcanbb",
+      "name": "cursedcanbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "curseofthepharaoh",
+      "name": "curseofthepharaoh",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "curseofthepharaohbonusbuy",
+      "name": "curseofthepharaohbonusbuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        },
+        {
+          "key": "buy:5",
+          "type": "purchase",
+          "label": "buy:5"
+        },
+        {
+          "key": "buy:6",
+          "type": "purchase",
+          "label": "buy:6"
+        },
+        {
+          "key": "buy:7",
+          "type": "purchase",
+          "label": "buy:7"
+        },
+        {
+          "key": "buy:8",
+          "type": "purchase",
+          "label": "buy:8"
+        },
+        {
+          "key": "buy:9",
+          "type": "purchase",
+          "label": "buy:9"
+        }
+      ]
+    },
+    {
+      "id": "cycleofluck",
+      "name": "cycleofluck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "cycleofluckbonusbuy",
+      "name": "cycleofluckbonusbuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "diamondhustle",
+      "name": "diamondhustle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "dolcedreams",
+      "name": "dolcedreams",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "donjuanpeppers",
+      "name": "donjuanpeppers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "dragonoffortune",
+      "name": "dragonoffortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "dungeon",
+      "name": "dungeon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "egyptgods",
+      "name": "egyptgods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "elfcoinhunt",
+      "name": "elfcoinhunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "ellensfortune",
+      "name": "ellensfortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "elvenprincesses",
+      "name": "elvenprincesses",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "emeraldbrewer",
+      "name": "emeraldbrewer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:1:bonus",
+          "type": "purchase",
+          "label": "buy:1:bonus"
+        },
+        {
+          "key": "buy:1:regular",
+          "type": "purchase",
+          "label": "buy:1:regular"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:2:bonus",
+          "type": "purchase",
+          "label": "buy:2:bonus"
+        },
+        {
+          "key": "buy:2:regular",
+          "type": "purchase",
+          "label": "buy:2:regular"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:3:bonus",
+          "type": "purchase",
+          "label": "buy:3:bonus"
+        },
+        {
+          "key": "buy:3:regular",
+          "type": "purchase",
+          "label": "buy:3:regular"
+        }
+      ]
+    },
+    {
+      "id": "emperorstomb",
+      "name": "emperorstomb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "epicgladiators",
+      "name": "epicgladiators",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "europetransit",
+      "name": "europetransit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "europetransitbb",
+      "name": "europetransitbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "europetransitsnowdrift",
+      "name": "europetransitsnowdrift",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "expandingmaster",
+      "name": "expandingmaster",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "explodingfruits",
+      "name": "explodingfruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "flameofra",
+      "name": "flameofra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "fogodobrasil777",
+      "name": "fogodobrasil777",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "name": "football",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "forestdreams",
+      "name": "forestdreams",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitburst",
+      "name": "fruitburst",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitdisco",
+      "name": "fruitdisco",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitfusionthreepots",
+      "name": "fruitfusionthreepots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "fruitnova",
+      "name": "fruitnova",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitsupernova",
+      "name": "fruitsupernova",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitsupernova100",
+      "name": "fruitsupernova100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitsupernova30",
+      "name": "fruitsupernova30",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitsupernova40",
+      "name": "fruitsupernova40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitsupernova60",
+      "name": "fruitsupernova60",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "fruitsupernova80",
+      "name": "fruitsupernova80",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "gangsternight",
+      "name": "gangsternight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "gemsofra",
+      "name": "gemsofra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "gobblegobblegold",
+      "name": "gobblegobblegold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "goddessofthenight",
+      "name": "goddessofthenight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "goddessofthenightbb",
+      "name": "goddessofthenightbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "goldenfishcollector",
+      "name": "goldenfishcollector",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "goldofsirens",
+      "name": "goldofsirens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "goldofsirensbonusbuy",
+      "name": "goldofsirensbonusbuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "goodluckspell",
+      "name": "goodluckspell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "heartofafricalionway",
+      "name": "heartofafricalionway",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "highvoltagefruits",
+      "name": "highvoltagefruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "hocuspocussorcery",
+      "name": "hocuspocussorcery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "honeyroyale",
+      "name": "honeyroyale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "doublechance:3",
+          "type": "antebet",
+          "label": "doublechance:3"
+        },
+        {
+          "key": "doublechance:4",
+          "type": "antebet",
+          "label": "doublechance:4"
+        }
+      ]
+    },
+    {
+      "id": "hotmania",
+      "name": "hotmania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hotrionights",
+      "name": "hotrionights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hotrionightsbb",
+      "name": "hotrionightsbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "hotriosamba",
+      "name": "hotriosamba",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hottriplesevens",
+      "name": "hottriplesevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hottriplesevenshw",
+      "name": "hottriplesevenshw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "hottriplesevensspecial",
+      "name": "hottriplesevensspecial",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hotvolcano",
+      "name": "hotvolcano",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "hotvolcanobb",
+      "name": "hotvolcanobb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "hungrynight",
+      "name": "hungrynight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "icemania",
+      "name": "icemania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ignisrex",
+      "name": "ignisrex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "imperialrelicsthreepots",
+      "name": "imperialrelicsthreepots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "indianasquest",
+      "name": "indianasquest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "innerfire",
+      "name": "innerfire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "innerfirebb",
+      "name": "innerfirebb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "irishreels",
+      "name": "irishreels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "irishweekend",
+      "name": "irishweekend",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "irishweekendbb",
+      "name": "irishweekendbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "jackmasterfruits",
+      "name": "jackmasterfruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "jellyboom",
+      "name": "jellyboom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "jewellerystore",
+      "name": "jewellerystore",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "jhanaofgodbb",
+      "name": "jhanaofgodbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "jokerjane",
+      "name": "jokerjane",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "joltcircuit",
+      "name": "joltcircuit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "juicyfruitcoinshw",
+      "name": "juicyfruitcoinshw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "juicygems",
+      "name": "juicygems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "juicygemsbb",
+      "name": "juicygemsbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "lavaburst",
+      "name": "lavaburst",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "legacyofthesages",
+      "name": "legacyofthesages",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "legacyofthesagesbb",
+      "name": "legacyofthesagesbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "legendofra",
+      "name": "legendofra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "libertyfireworks",
+      "name": "libertyfireworks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "loveandluckjoker",
+      "name": "loveandluckjoker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "luckreactor",
+      "name": "luckreactor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:1:bonus",
+          "type": "purchase",
+          "label": "buy:1:bonus"
+        },
+        {
+          "key": "buy:1:regular",
+          "type": "purchase",
+          "label": "buy:1:regular"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:2:bonus",
+          "type": "purchase",
+          "label": "buy:2:bonus"
+        },
+        {
+          "key": "buy:2:regular",
+          "type": "purchase",
+          "label": "buy:2:regular"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:3:bonus",
+          "type": "purchase",
+          "label": "buy:3:bonus"
+        },
+        {
+          "key": "buy:3:regular",
+          "type": "purchase",
+          "label": "buy:3:regular"
+        }
+      ]
+    },
+    {
+      "id": "luckygirls",
+      "name": "luckygirls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "luckyporker",
+      "name": "luckyporker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "luckyporkerbb",
+      "name": "luckyporkerbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "lufuvortex",
+      "name": "lufuvortex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "lunarwilds",
+      "name": "lunarwilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "massiveluck",
+      "name": "massiveluck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "massiveluckbb",
+      "name": "massiveluckbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "megaduckhunt",
+      "name": "megaduckhunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "megagreatestcatch",
+      "name": "megagreatestcatch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "megagreatestcatchbb",
+      "name": "megagreatestcatchbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "megagreatestcatchbluemarlin",
+      "name": "megagreatestcatchbluemarlin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "moneyminter",
+      "name": "moneyminter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "moneyminterbb",
+      "name": "moneyminterbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "mysteryplanet",
+      "name": "mysteryplanet",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "mysticalaska",
+      "name": "mysticalaska",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:1:bonus",
+          "type": "purchase",
+          "label": "buy:1:bonus"
+        },
+        {
+          "key": "buy:1:regular",
+          "type": "purchase",
+          "label": "buy:1:regular"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:2:bonus",
+          "type": "purchase",
+          "label": "buy:2:bonus"
+        },
+        {
+          "key": "buy:2:regular",
+          "type": "purchase",
+          "label": "buy:2:regular"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:3:bonus",
+          "type": "purchase",
+          "label": "buy:3:bonus"
+        },
+        {
+          "key": "buy:3:regular",
+          "type": "purchase",
+          "label": "buy:3:regular"
+        }
+      ]
+    },
+    {
+      "id": "mystictotems",
+      "name": "mystictotems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:4",
+          "type": "antebet",
+          "label": "doublechance:4"
+        }
+      ]
+    },
+    {
+      "id": "neoncapitalbb",
+      "name": "neoncapitalbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "northerntemple",
+      "name": "northerntemple",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "northerntemplebb",
+      "name": "northerntemplebb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "nukeworld",
+      "name": "nukeworld",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "oathofsteel",
+      "name": "oathofsteel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "oceancatch",
+      "name": "oceancatch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "oceancatchbb",
+      "name": "oceancatchbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        },
+        {
+          "key": "buy:5",
+          "type": "purchase",
+          "label": "buy:5"
+        },
+        {
+          "key": "buy:6",
+          "type": "purchase",
+          "label": "buy:6"
+        },
+        {
+          "key": "buy:7",
+          "type": "purchase",
+          "label": "buy:7"
+        },
+        {
+          "key": "buy:8",
+          "type": "purchase",
+          "label": "buy:8"
+        },
+        {
+          "key": "buy:9",
+          "type": "purchase",
+          "label": "buy:9"
+        },
+        {
+          "key": "buy:10",
+          "type": "purchase",
+          "label": "buy:10"
+        }
+      ]
+    },
+    {
+      "id": "olympusgoldrush",
+      "name": "olympusgoldrush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "pandascoins",
+      "name": "pandascoins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "patricksclubthreepots",
+      "name": "patricksclubthreepots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "penaltyshootoutsuperspin",
+      "name": "penaltyshootoutsuperspin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "piggybank3potsbonanza",
+      "name": "piggybank3potsbonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "piggybankcoinstorm",
+      "name": "piggybankcoinstorm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "piggyfestbonanza",
+      "name": "piggyfestbonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "piratecoins3chests",
+      "name": "piratecoins3chests",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "pyrojokerevo",
+      "name": "pyrojokerevo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "queenofsirens",
+      "name": "queenofsirens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "redcliff",
+      "name": "redcliff",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "reignofdragons",
+      "name": "reignofdragons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "richreels",
+      "name": "richreels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "riseofhorus",
+      "name": "riseofhorus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "robinhood",
+      "name": "robinhood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rocketstars",
+      "name": "rocketstars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "romanrule",
+      "name": "romanrule",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "ruedadechile",
+      "name": "ruedadechile",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ruedadechilebb",
+      "name": "ruedadechilebb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "rushriches",
+      "name": "rushriches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "safaricoins",
+      "name": "safaricoins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "seaofwealth",
+      "name": "seaofwealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "seaofwealthhuntforcoins",
+      "name": "seaofwealthhuntforcoins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "shadowofluxor",
+      "name": "shadowofluxor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "skysentinels",
+      "name": "skysentinels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "slavs",
+      "name": "slavs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "soldit",
+      "name": "soldit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "solditbb",
+      "name": "solditbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "starguardians",
+      "name": "starguardians",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "sunstoneriches",
+      "name": "sunstoneriches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "sweetsugar",
+      "name": "sweetsugar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "talismansoffortune",
+      "name": "talismansoffortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "templeofdead",
+      "name": "templeofdead",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "templeofdeadbonusbuy",
+      "name": "templeofdeadbonusbuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "templeofthunder",
+      "name": "templeofthunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "templeofthunder2",
+      "name": "templeofthunder2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "templeofthunder2bb",
+      "name": "templeofthunder2bb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "templeofthunder3",
+      "name": "templeofthunder3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        },
+        {
+          "key": "doublechance:5",
+          "type": "antebet",
+          "label": "doublechance:5"
+        },
+        {
+          "key": "doublechance:6",
+          "type": "antebet",
+          "label": "doublechance:6"
+        }
+      ]
+    },
+    {
+      "id": "thebeltofchampionbb",
+      "name": "thebeltofchampionbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "thecastleofslotenstein",
+      "name": "thecastleofslotenstein",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "theeastercatch",
+      "name": "theeastercatch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "thegreatconflict",
+      "name": "thegreatconflict",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "thegreatestcatch",
+      "name": "thegreatestcatch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "thegreatestcatchbonusbuy",
+      "name": "thegreatestcatchbonusbuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "thegreatestheist",
+      "name": "thegreatestheist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "thekingcrimsoncrown",
+      "name": "thekingcrimsoncrown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "threebunnypotsbonanza",
+      "name": "threebunnypotsbonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "threecrownscoinhunt",
+      "name": "threecrownscoinhunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "threeflamingclovers",
+      "name": "threeflamingclovers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "threesupervolcanoes",
+      "name": "threesupervolcanoes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "threetrojanhorses",
+      "name": "threetrojanhorses",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "thundermegasevens",
+      "name": "thundermegasevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "thundermegasevensbb",
+      "name": "thundermegasevensbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "tigeroffortune",
+      "name": "tigeroffortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "trainofrichescapitalexpress",
+      "name": "trainofrichescapitalexpress",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "treasuresnipes",
+      "name": "treasuresnipes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "treasuresnipesbb",
+      "name": "treasuresnipesbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "treasuresnipeschristmas",
+      "name": "treasuresnipeschristmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "treasuresnipeschristmasbb",
+      "name": "treasuresnipeschristmasbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "treeoflightfabledfruits",
+      "name": "treeoflightfabledfruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "trickortreatjoker",
+      "name": "trickortreatjoker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "triplechili",
+      "name": "triplechili",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ultrareelsfruteria",
+      "name": "ultrareelsfruteria",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "unlimitedtreasures",
+      "name": "unlimitedtreasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "unlimitedtreasuresbb",
+      "name": "unlimitedtreasuresbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "unlimitedwishes",
+      "name": "unlimitedwishes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "valleyofdreams",
+      "name": "valleyofdreams",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "vegasnights",
+      "name": "vegasnights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "velvetgems",
+      "name": "velvetgems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "venicefestival",
+      "name": "venicefestival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "wealthbells40",
+      "name": "wealthbells40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "wildbullets",
+      "name": "wildbullets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wildoverlords",
+      "name": "wildoverlords",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wildoverlordsbonusbuy",
+      "name": "wildoverlordsbonusbuy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "wildpounce",
+      "name": "wildpounce",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "doublechance:1",
+          "type": "antebet",
+          "label": "doublechance:1"
+        }
+      ]
+    },
+    {
+      "id": "winterhotsevens",
+      "name": "winterhotsevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "winterstar",
+      "name": "winterstar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "winterstarbb",
+      "name": "winterstarbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wolfhiding",
+      "name": "wolfhiding",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wolfhidingbb",
+      "name": "wolfhidingbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "wonderfarm",
+      "name": "wonderfarm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "wonderfarmbb",
+      "name": "wonderfarmbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "xdemon",
+      "name": "xdemon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "xdemonbb",
+      "name": "xdemonbb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        }
+      ]
+    },
+    {
+      "id": "youngbuffalocoins",
+      "name": "youngbuffalocoins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "youngbuffalocoinsspecial",
+      "name": "youngbuffalocoinsspecial",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "youngbuffalosong",
+      "name": "youngbuffalosong",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        },
+        {
+          "key": "buy:3",
+          "type": "purchase",
+          "label": "buy:3"
+        },
+        {
+          "key": "buy:4",
+          "type": "purchase",
+          "label": "buy:4"
+        }
+      ]
+    },
+    {
+      "id": "youngdeersong",
+      "name": "youngdeersong",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "youngeaglesong",
+      "name": "youngeaglesong",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        }
+      ]
+    },
+    {
+      "id": "youngwolfsong",
+      "name": "youngwolfsong",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy:1",
+          "type": "purchase",
+          "label": "buy:1"
+        },
+        {
+          "key": "buy:2",
+          "type": "purchase",
+          "label": "buy:2"
+        }
+      ]
+    },
+    {
+      "id": "thimbles",
+      "name": "thimbles",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:da5abf4810fe6ec4",
+          "type": "variant",
+          "label": "thimbles / spin / 10fe6ec4"
+        },
+        {
+          "key": "native:742925ab6473c020",
+          "type": "variant",
+          "label": "thimbles / spin / 6473c020"
+        }
+      ]
+    },
+    {
+      "id": "headsortails",
+      "name": "headsortails",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:d36c3d682127e493",
+          "type": "variant",
+          "label": "headsortails / spin / 2127e493"
+        },
+        {
+          "key": "native:59af7f5facaa9614",
+          "type": "variant",
+          "label": "headsortails / spin / acaa9614"
+        }
+      ]
+    },
+    {
+      "id": "magicwheel",
+      "name": "magicwheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:76abd4101acec6b2",
+          "type": "variant",
+          "label": "magicwheel / spin / 1acec6b2"
+        }
+      ]
+    },
+    {
+      "id": "rolldice",
+      "name": "rolldice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:74c9916c95caba97",
+          "type": "variant",
+          "label": "rolldice / spin / 95caba97"
+        },
+        {
+          "key": "native:ec24c89aaa654050",
+          "type": "variant",
+          "label": "rolldice / spin / aa654050"
+        },
+        {
+          "key": "native:5c0662591cf5df89",
+          "type": "variant",
+          "label": "rolldice / spin / 1cf5df89"
+        },
+        {
+          "key": "native:8404ef061a22aeec",
+          "type": "variant",
+          "label": "rolldice / spin / 1a22aeec"
+        },
+        {
+          "key": "native:11056fc6b374174c",
+          "type": "variant",
+          "label": "rolldice / spin / b374174c"
+        },
+        {
+          "key": "native:b1d7261438ba44a9",
+          "type": "variant",
+          "label": "rolldice / spin / 38ba44a9"
+        },
+        {
+          "key": "native:d0e4958ce4ea6597",
+          "type": "variant",
+          "label": "rolldice / spin / e4ea6597"
+        },
+        {
+          "key": "native:ad83aa4cece6cd8a",
+          "type": "variant",
+          "label": "rolldice / spin / ece6cd8a"
+        },
+        {
+          "key": "native:d34d18cc328e499b",
+          "type": "variant",
+          "label": "rolldice / spin / 328e499b"
+        },
+        {
+          "key": "native:6bdee7571aefc0d2",
+          "type": "variant",
+          "label": "rolldice / spin / 1aefc0d2"
+        },
+        {
+          "key": "native:060cc4d2f6d21135",
+          "type": "variant",
+          "label": "rolldice / spin / f6d21135"
+        },
+        {
+          "key": "native:36c3904a726878c3",
+          "type": "variant",
+          "label": "rolldice / spin / 726878c3"
+        },
+        {
+          "key": "native:a63d5672a5d54589",
+          "type": "variant",
+          "label": "rolldice / spin / a5d54589"
+        },
+        {
+          "key": "native:e61d3e76b07faf14",
+          "type": "variant",
+          "label": "rolldice / spin / b07faf14"
+        },
+        {
+          "key": "native:278cbc0e717c2c6b",
+          "type": "variant",
+          "label": "rolldice / spin / 717c2c6b"
+        },
+        {
+          "key": "native:f94c3092d5d9056a",
+          "type": "variant",
+          "label": "rolldice / spin / d5d9056a"
+        },
+        {
+          "key": "native:fa23be1e13adc1d0",
+          "type": "variant",
+          "label": "rolldice / spin / 13adc1d0"
+        },
+        {
+          "key": "native:6d79672992e38adf",
+          "type": "variant",
+          "label": "rolldice / spin / 92e38adf"
+        }
+      ]
+    },
+    {
+      "id": "plinkoblast",
+      "name": "plinkoblast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:5daaccc37da66403",
+          "type": "variant",
+          "label": "plinkoblast / spin / 7da66403"
+        },
+        {
+          "key": "native:9a011789465ab9ee",
+          "type": "variant",
+          "label": "plinkoblast / spin / 465ab9ee"
+        },
+        {
+          "key": "native:46e72b9ce9d18b48",
+          "type": "variant",
+          "label": "plinkoblast / spin / e9d18b48"
+        },
+        {
+          "key": "native:a59d77fce1978b6e",
+          "type": "variant",
+          "label": "plinkoblast / spin / e1978b6e"
+        },
+        {
+          "key": "native:bc6a48cae3f6a050",
+          "type": "variant",
+          "label": "plinkoblast / spin / e3f6a050"
+        },
+        {
+          "key": "native:7cbb704fb6186539",
+          "type": "variant",
+          "label": "plinkoblast / spin / b6186539"
+        },
+        {
+          "key": "native:cf8720d01bfeddb7",
+          "type": "variant",
+          "label": "plinkoblast / spin / 1bfeddb7"
+        },
+        {
+          "key": "native:4a73a9bb5b8358d8",
+          "type": "variant",
+          "label": "plinkoblast / spin / 5b8358d8"
+        },
+        {
+          "key": "native:55689937a3a707c5",
+          "type": "variant",
+          "label": "plinkoblast / spin / a3a707c5"
+        },
+        {
+          "key": "native:a94beadf31553391",
+          "type": "variant",
+          "label": "plinkoblast / spin / 31553391"
+        },
+        {
+          "key": "native:e07ec1df25e74e6b",
+          "type": "variant",
+          "label": "plinkoblast / spin / 25e74e6b"
+        },
+        {
+          "key": "native:49898a7735e026e3",
+          "type": "variant",
+          "label": "plinkoblast / spin / 35e026e3"
+        },
+        {
+          "key": "native:8095d42dfe928d4b",
+          "type": "variant",
+          "label": "plinkoblast / spin / fe928d4b"
+        },
+        {
+          "key": "native:859b9f63a45aafa0",
+          "type": "variant",
+          "label": "plinkoblast / spin / a45aafa0"
+        },
+        {
+          "key": "native:f7988112e04438bf",
+          "type": "variant",
+          "label": "plinkoblast / spin / e04438bf"
+        },
+        {
+          "key": "native:219f982bb1a6711c",
+          "type": "variant",
+          "label": "plinkoblast / spin / b1a6711c"
+        },
+        {
+          "key": "native:779adc71d7ee4501",
+          "type": "variant",
+          "label": "plinkoblast / spin / d7ee4501"
+        },
+        {
+          "key": "native:40703d21918c3e41",
+          "type": "variant",
+          "label": "plinkoblast / spin / 918c3e41"
+        },
+        {
+          "key": "native:ab1374ceecef63a3",
+          "type": "variant",
+          "label": "plinkoblast / spin / ecef63a3"
+        },
+        {
+          "key": "native:bb2acedc21b10833",
+          "type": "variant",
+          "label": "plinkoblast / spin / 21b10833"
+        },
+        {
+          "key": "native:e8cb6c6b98911696",
+          "type": "variant",
+          "label": "plinkoblast / spin / 98911696"
+        },
+        {
+          "key": "native:d74f1b7b3daddc46",
+          "type": "variant",
+          "label": "plinkoblast / spin / 3daddc46"
+        },
+        {
+          "key": "native:955d2d9809f78ead",
+          "type": "variant",
+          "label": "plinkoblast / spin / 09f78ead"
+        },
+        {
+          "key": "native:4a12528a1e6b01f5",
+          "type": "variant",
+          "label": "plinkoblast / spin / 1e6b01f5"
+        },
+        {
+          "key": "native:e76d5be900f556a4",
+          "type": "variant",
+          "label": "plinkoblast / spin / 00f556a4"
+        },
+        {
+          "key": "native:eb35971348a5b8cd",
+          "type": "variant",
+          "label": "plinkoblast / spin / 48a5b8cd"
+        },
+        {
+          "key": "native:5bda60d9e8218b9c",
+          "type": "variant",
+          "label": "plinkoblast / spin / e8218b9c"
+        },
+        {
+          "key": "native:65ade40bfc555e51",
+          "type": "variant",
+          "label": "plinkoblast / spin / fc555e51"
+        },
+        {
+          "key": "native:93b1142a47af6c9d",
+          "type": "variant",
+          "label": "plinkoblast / spin / 47af6c9d"
+        },
+        {
+          "key": "native:7eb058e52618347b",
+          "type": "variant",
+          "label": "plinkoblast / spin / 2618347b"
+        },
+        {
+          "key": "native:9beb8f40e831d8b6",
+          "type": "variant",
+          "label": "plinkoblast / spin / e831d8b6"
+        },
+        {
+          "key": "native:47d030bee9623ab3",
+          "type": "variant",
+          "label": "plinkoblast / spin / e9623ab3"
+        },
+        {
+          "key": "native:d22a7d8248b7725c",
+          "type": "variant",
+          "label": "plinkoblast / spin / 48b7725c"
+        },
+        {
+          "key": "native:4e506432f3255e5b",
+          "type": "variant",
+          "label": "plinkoblast / spin / f3255e5b"
+        },
+        {
+          "key": "native:e5c6f5f7d0455a9d",
+          "type": "variant",
+          "label": "plinkoblast / spin / d0455a9d"
+        },
+        {
+          "key": "native:02c35c5fe4a3b8f9",
+          "type": "variant",
+          "label": "plinkoblast / spin / e4a3b8f9"
+        }
+      ]
+    },
+    {
+      "id": "bookofkeno",
+      "name": "bookofkeno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:686b22ca5445aefd",
+          "type": "variant",
+          "label": "bookofkeno / spin / 5445aefd"
+        },
+        {
+          "key": "native:736a0a20e0afe5ce",
+          "type": "variant",
+          "label": "bookofkeno / spin / e0afe5ce"
+        },
+        {
+          "key": "native:5fd85e3ac829eb33",
+          "type": "variant",
+          "label": "bookofkeno / spin / c829eb33"
+        },
+        {
+          "key": "native:65412496543243b6",
+          "type": "variant",
+          "label": "bookofkeno / spin / 543243b6"
+        },
+        {
+          "key": "native:37206a0b61a0e833",
+          "type": "variant",
+          "label": "bookofkeno / spin / 61a0e833"
+        },
+        {
+          "key": "native:d61df51632f6d4db",
+          "type": "variant",
+          "label": "bookofkeno / spin / 32f6d4db"
+        },
+        {
+          "key": "native:7fb0514c57979ca4",
+          "type": "variant",
+          "label": "bookofkeno / spin / 57979ca4"
+        },
+        {
+          "key": "native:20598135bf261d6b",
+          "type": "variant",
+          "label": "bookofkeno / spin / bf261d6b"
+        },
+        {
+          "key": "native:479db79c3c19aae0",
+          "type": "variant",
+          "label": "bookofkeno / spin / 3c19aae0"
+        },
+        {
+          "key": "native:01be3ad987936e47",
+          "type": "variant",
+          "label": "bookofkeno / spin / 87936e47"
+        }
+      ]
+    },
+    {
+      "id": "scratchmatch",
+      "name": "scratchmatch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:d1c79c16a7737c32",
+          "type": "variant",
+          "label": "scratchmatch / spin / a7737c32"
+        },
+        {
+          "key": "native:439b71b83b1a9f5a",
+          "type": "variant",
+          "label": "scratchmatch / spin / 3b1a9f5a"
+        },
+        {
+          "key": "native:1ac437fe2ab9e67a",
+          "type": "variant",
+          "label": "scratchmatch / spin / 2ab9e67a"
+        },
+        {
+          "key": "native:3e73c1f92bc944b9",
+          "type": "variant",
+          "label": "scratchmatch / spin / 2bc944b9"
+        }
+      ]
+    },
+    {
+      "id": "scratchmatchdeluxe",
+      "name": "scratchmatchdeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:d1c79c16a7737c32",
+          "type": "variant",
+          "label": "scratchmatchdeluxe / spin / a7737c32"
+        },
+        {
+          "key": "native:1ac437fe2ab9e67a",
+          "type": "variant",
+          "label": "scratchmatchdeluxe / spin / 2ab9e67a"
+        }
+      ]
+    },
+    {
+      "id": "pumpkinmaster",
+      "name": "pumpkinmaster",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:848dc45f6c59c308",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 6c59c308"
+        },
+        {
+          "key": "native:a2ac16fc61f0d935",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 61f0d935"
+        },
+        {
+          "key": "native:d566d9e006b97d40",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 06b97d40"
+        },
+        {
+          "key": "native:0efc8e4e7ba6fadf",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 7ba6fadf"
+        },
+        {
+          "key": "native:3ac290e8e172aeae",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / e172aeae"
+        },
+        {
+          "key": "native:8b2a714de75df330",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / e75df330"
+        },
+        {
+          "key": "native:2cdfd5421f1cdf96",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 1f1cdf96"
+        },
+        {
+          "key": "native:6458f1fe8eccb1ef",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 8eccb1ef"
+        },
+        {
+          "key": "native:c203ba0cbc27f2cd",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / bc27f2cd"
+        },
+        {
+          "key": "native:6f93e47c80977fd6",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 80977fd6"
+        },
+        {
+          "key": "native:07c716572f036a9d",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 2f036a9d"
+        },
+        {
+          "key": "native:c44612e70f6c3d5a",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 0f6c3d5a"
+        },
+        {
+          "key": "native:80fb0fb533de80f0",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 33de80f0"
+        },
+        {
+          "key": "native:f25ec221cccd9c93",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / cccd9c93"
+        },
+        {
+          "key": "native:4d2f8cc1053e5aeb",
+          "type": "variant",
+          "label": "pumpkinmaster / spin / 053e5aeb"
+        }
+      ]
+    },
+    {
+      "id": "bballblitz",
+      "name": "bballblitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:e991b00e7fe1b465",
+          "type": "variant",
+          "label": "bballblitz / start / 7fe1b465"
+        },
+        {
+          "key": "native:22ffaa1b204578fd",
+          "type": "variant",
+          "label": "bballblitz / start / 204578fd"
+        },
+        {
+          "key": "native:4938d32ac546fd90",
+          "type": "variant",
+          "label": "bballblitz / start / c546fd90"
+        },
+        {
+          "key": "native:8e936e64dc4422b5",
+          "type": "variant",
+          "label": "bballblitz / start / dc4422b5"
+        },
+        {
+          "key": "native:0382d5ea3ae2f1e7",
+          "type": "variant",
+          "label": "bballblitz / start / 3ae2f1e7"
+        },
+        {
+          "key": "native:c782dfaaae7dbe84",
+          "type": "variant",
+          "label": "bballblitz / start / ae7dbe84"
+        },
+        {
+          "key": "native:cde18d20922e1f14",
+          "type": "variant",
+          "label": "bballblitz / start / 922e1f14"
+        },
+        {
+          "key": "native:19e09e38932cead9",
+          "type": "variant",
+          "label": "bballblitz / start / 932cead9"
+        },
+        {
+          "key": "native:0758a8f8b06a1752",
+          "type": "variant",
+          "label": "bballblitz / start / b06a1752"
+        },
+        {
+          "key": "native:9c0819fc1a4be096",
+          "type": "variant",
+          "label": "bballblitz / start / 1a4be096"
+        },
+        {
+          "key": "native:00959965d807a366",
+          "type": "variant",
+          "label": "bballblitz / start / d807a366"
+        },
+        {
+          "key": "native:047d146e5d9e0d33",
+          "type": "variant",
+          "label": "bballblitz / start / 5d9e0d33"
+        },
+        {
+          "key": "native:9153e31d0885267b",
+          "type": "variant",
+          "label": "bballblitz / start / 0885267b"
+        },
+        {
+          "key": "native:74587979cba5f8fe",
+          "type": "variant",
+          "label": "bballblitz / start / cba5f8fe"
+        },
+        {
+          "key": "native:acd018e8587fa8ed",
+          "type": "variant",
+          "label": "bballblitz / start / 587fa8ed"
+        },
+        {
+          "key": "native:4a84caa5bc74b5aa",
+          "type": "variant",
+          "label": "bballblitz / start / bc74b5aa"
+        },
+        {
+          "key": "native:4b79722f96bec3ba",
+          "type": "variant",
+          "label": "bballblitz / start / 96bec3ba"
+        },
+        {
+          "key": "native:15708eba7cafc86c",
+          "type": "variant",
+          "label": "bballblitz / start / 7cafc86c"
+        },
+        {
+          "key": "native:b8d12c90ce7c976f",
+          "type": "variant",
+          "label": "bballblitz / start / ce7c976f"
+        },
+        {
+          "key": "native:ea5b7b368300ff83",
+          "type": "variant",
+          "label": "bballblitz / start / 8300ff83"
+        },
+        {
+          "key": "native:9540729ca9c3abce",
+          "type": "variant",
+          "label": "bballblitz / start / a9c3abce"
+        },
+        {
+          "key": "native:9a7130ad19ae3407",
+          "type": "variant",
+          "label": "bballblitz / start / 19ae3407"
+        },
+        {
+          "key": "native:9e9874c834c2613c",
+          "type": "variant",
+          "label": "bballblitz / start / 34c2613c"
+        },
+        {
+          "key": "native:01ef707760e467d1",
+          "type": "variant",
+          "label": "bballblitz / start / 60e467d1"
+        },
+        {
+          "key": "native:4c7aac794e0e4bd9",
+          "type": "variant",
+          "label": "bballblitz / start / 4e0e4bd9"
+        },
+        {
+          "key": "native:9caece6fff980ef1",
+          "type": "variant",
+          "label": "bballblitz / start / ff980ef1"
+        },
+        {
+          "key": "native:2b10de53d66a5850",
+          "type": "variant",
+          "label": "bballblitz / start / d66a5850"
+        },
+        {
+          "key": "native:10f258a5a7ef017f",
+          "type": "variant",
+          "label": "bballblitz / start / a7ef017f"
+        },
+        {
+          "key": "native:812ce9466c644e36",
+          "type": "variant",
+          "label": "bballblitz / start / 6c644e36"
+        },
+        {
+          "key": "native:83a231d4087517b6",
+          "type": "variant",
+          "label": "bballblitz / start / 087517b6"
+        }
+      ]
+    },
+    {
+      "id": "penaltyshootout",
+      "name": "penaltyshootout",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:bed4afbec018c7bc",
+          "type": "variant",
+          "label": "penaltyshootout / start / c018c7bc"
+        }
+      ]
+    },
+    {
+      "id": "soccersolostriker",
+      "name": "soccersolostriker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:b1bc79d925bb3877",
+          "type": "variant",
+          "label": "soccersolostriker / start / 25bb3877"
+        },
+        {
+          "key": "native:e4bab56ea0b59e83",
+          "type": "variant",
+          "label": "soccersolostriker / start / a0b59e83"
+        },
+        {
+          "key": "native:2e6e3569988f58ed",
+          "type": "variant",
+          "label": "soccersolostriker / start / 988f58ed"
+        },
+        {
+          "key": "native:480848933a89df75",
+          "type": "variant",
+          "label": "soccersolostriker / start / 3a89df75"
+        },
+        {
+          "key": "native:75ae96f4ae5ad3b9",
+          "type": "variant",
+          "label": "soccersolostriker / start / ae5ad3b9"
+        },
+        {
+          "key": "native:db6d80fca3a80465",
+          "type": "variant",
+          "label": "soccersolostriker / start / a3a80465"
+        },
+        {
+          "key": "native:18b96eb0068d1741",
+          "type": "variant",
+          "label": "soccersolostriker / start / 068d1741"
+        },
+        {
+          "key": "native:8b990c17368048c6",
+          "type": "variant",
+          "label": "soccersolostriker / start / 368048c6"
+        },
+        {
+          "key": "native:d43648ace0d0ad20",
+          "type": "variant",
+          "label": "soccersolostriker / start / e0d0ad20"
+        },
+        {
+          "key": "native:f36978fc2f7c5f7c",
+          "type": "variant",
+          "label": "soccersolostriker / start / 2f7c5f7c"
+        },
+        {
+          "key": "native:b4bb441d32e28e95",
+          "type": "variant",
+          "label": "soccersolostriker / start / 32e28e95"
+        },
+        {
+          "key": "native:a2a85feee4cbed89",
+          "type": "variant",
+          "label": "soccersolostriker / start / e4cbed89"
+        },
+        {
+          "key": "native:0043f93f2e3102c1",
+          "type": "variant",
+          "label": "soccersolostriker / start / 2e3102c1"
+        },
+        {
+          "key": "native:8ddf8157617c7b96",
+          "type": "variant",
+          "label": "soccersolostriker / start / 617c7b96"
+        },
+        {
+          "key": "native:8c6ca081aaf1782c",
+          "type": "variant",
+          "label": "soccersolostriker / start / aaf1782c"
+        },
+        {
+          "key": "native:27f04112927bf607",
+          "type": "variant",
+          "label": "soccersolostriker / start / 927bf607"
+        },
+        {
+          "key": "native:0673b1060c425cb2",
+          "type": "variant",
+          "label": "soccersolostriker / start / 0c425cb2"
+        },
+        {
+          "key": "native:41e379616ebfebf6",
+          "type": "variant",
+          "label": "soccersolostriker / start / 6ebfebf6"
+        },
+        {
+          "key": "native:f8c993d2cff8a417",
+          "type": "variant",
+          "label": "soccersolostriker / start / cff8a417"
+        },
+        {
+          "key": "native:ea8dcfc37c84c630",
+          "type": "variant",
+          "label": "soccersolostriker / start / 7c84c630"
+        },
+        {
+          "key": "native:70ecbab9ade81433",
+          "type": "variant",
+          "label": "soccersolostriker / start / ade81433"
+        },
+        {
+          "key": "native:3e7ceee82c74e811",
+          "type": "variant",
+          "label": "soccersolostriker / start / 2c74e811"
+        },
+        {
+          "key": "native:21e96c69f5c81419",
+          "type": "variant",
+          "label": "soccersolostriker / start / f5c81419"
+        },
+        {
+          "key": "native:7e1dc810167d5087",
+          "type": "variant",
+          "label": "soccersolostriker / start / 167d5087"
+        }
+      ]
+    },
+    {
+      "id": "caramelodogluckyrun",
+      "name": "caramelodogluckyrun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:33cb970297cd4fd6",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / 97cd4fd6"
+        },
+        {
+          "key": "native:e30b1d68f7b2de0e",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / f7b2de0e"
+        },
+        {
+          "key": "native:e38f83bd1d0a8951",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / 1d0a8951"
+        },
+        {
+          "key": "native:aa63ab6eb260a179",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / b260a179"
+        },
+        {
+          "key": "native:24601345dd28be9e",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / dd28be9e"
+        },
+        {
+          "key": "native:e237032a24e00a53",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / 24e00a53"
+        },
+        {
+          "key": "native:f61ccd7d6d6a0203",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / 6d6a0203"
+        },
+        {
+          "key": "native:db4f25eccced1714",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / cced1714"
+        },
+        {
+          "key": "native:518c776a71967fb6",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / 71967fb6"
+        },
+        {
+          "key": "native:7b9ffbf9b1fcb359",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / b1fcb359"
+        },
+        {
+          "key": "native:39409cdf8a1415e1",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / 8a1415e1"
+        },
+        {
+          "key": "native:ea18fa8120ff20c3",
+          "type": "variant",
+          "label": "caramelodogluckyrun / start / 20ff20c3"
+        }
+      ]
+    },
+    {
+      "id": "europeanroulette",
+      "name": "europeanroulette",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:5b0015e13edb2567",
+          "type": "variant",
+          "label": "europeanroulette / spin / 3edb2567"
+        },
+        {
+          "key": "native:fc3e39ae7655f8fd",
+          "type": "variant",
+          "label": "europeanroulette / spin / 7655f8fd"
+        },
+        {
+          "key": "native:ef4e16482e2f1ac9",
+          "type": "variant",
+          "label": "europeanroulette / spin / 2e2f1ac9"
+        },
+        {
+          "key": "native:c0e7fffe8a09a474",
+          "type": "variant",
+          "label": "europeanroulette / spin / 8a09a474"
+        },
+        {
+          "key": "native:71a367bb43d2adb2",
+          "type": "variant",
+          "label": "europeanroulette / spin / 43d2adb2"
+        },
+        {
+          "key": "native:262297e65f40d344",
+          "type": "variant",
+          "label": "europeanroulette / spin / 5f40d344"
+        },
+        {
+          "key": "native:b47b0a2b762824f1",
+          "type": "variant",
+          "label": "europeanroulette / spin / 762824f1"
+        },
+        {
+          "key": "native:f65b7d3b58d11040",
+          "type": "variant",
+          "label": "europeanroulette / spin / 58d11040"
+        },
+        {
+          "key": "native:e2b37d30dba0158a",
+          "type": "variant",
+          "label": "europeanroulette / spin / dba0158a"
+        },
+        {
+          "key": "native:1f2048577bb1d80d",
+          "type": "variant",
+          "label": "europeanroulette / spin / 7bb1d80d"
+        },
+        {
+          "key": "native:e5a1783bf6a7c430",
+          "type": "variant",
+          "label": "europeanroulette / spin / f6a7c430"
+        },
+        {
+          "key": "native:4624461bdb49577b",
+          "type": "variant",
+          "label": "europeanroulette / spin / db49577b"
+        },
+        {
+          "key": "native:046e3c13a2133d6c",
+          "type": "variant",
+          "label": "europeanroulette / spin / a2133d6c"
+        },
+        {
+          "key": "native:38f0bf0cc548ac4b",
+          "type": "variant",
+          "label": "europeanroulette / spin / c548ac4b"
+        },
+        {
+          "key": "native:15faa7ba8900c739",
+          "type": "variant",
+          "label": "europeanroulette / spin / 8900c739"
+        },
+        {
+          "key": "native:6319a5ca1ab9a155",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1ab9a155"
+        },
+        {
+          "key": "native:b223a5da210cdcf6",
+          "type": "variant",
+          "label": "europeanroulette / spin / 210cdcf6"
+        },
+        {
+          "key": "native:3b6dbf83c34fc536",
+          "type": "variant",
+          "label": "europeanroulette / spin / c34fc536"
+        },
+        {
+          "key": "native:09cd3065e3af438a",
+          "type": "variant",
+          "label": "europeanroulette / spin / e3af438a"
+        },
+        {
+          "key": "native:1c8dc095af822cc8",
+          "type": "variant",
+          "label": "europeanroulette / spin / af822cc8"
+        },
+        {
+          "key": "native:c02404b834923525",
+          "type": "variant",
+          "label": "europeanroulette / spin / 34923525"
+        },
+        {
+          "key": "native:741051e47351f270",
+          "type": "variant",
+          "label": "europeanroulette / spin / 7351f270"
+        },
+        {
+          "key": "native:68cf26bcb6a5b16e",
+          "type": "variant",
+          "label": "europeanroulette / spin / b6a5b16e"
+        },
+        {
+          "key": "native:9b3208c427fc186c",
+          "type": "variant",
+          "label": "europeanroulette / spin / 27fc186c"
+        },
+        {
+          "key": "native:dc43d4bd3a8fc580",
+          "type": "variant",
+          "label": "europeanroulette / spin / 3a8fc580"
+        },
+        {
+          "key": "native:7f7895291e31e66c",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1e31e66c"
+        },
+        {
+          "key": "native:1a028c9066e981b8",
+          "type": "variant",
+          "label": "europeanroulette / spin / 66e981b8"
+        },
+        {
+          "key": "native:e33c8bbd4646d005",
+          "type": "variant",
+          "label": "europeanroulette / spin / 4646d005"
+        },
+        {
+          "key": "native:62abc6e0533f3c7a",
+          "type": "variant",
+          "label": "europeanroulette / spin / 533f3c7a"
+        },
+        {
+          "key": "native:b7577716eab1edb0",
+          "type": "variant",
+          "label": "europeanroulette / spin / eab1edb0"
+        },
+        {
+          "key": "native:30e5817306bdac40",
+          "type": "variant",
+          "label": "europeanroulette / spin / 06bdac40"
+        },
+        {
+          "key": "native:671eaef1bdf0ef35",
+          "type": "variant",
+          "label": "europeanroulette / spin / bdf0ef35"
+        },
+        {
+          "key": "native:ea786c113aedbd46",
+          "type": "variant",
+          "label": "europeanroulette / spin / 3aedbd46"
+        },
+        {
+          "key": "native:b1ad54dd1a6c102f",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1a6c102f"
+        },
+        {
+          "key": "native:9023ce6faa9c4f62",
+          "type": "variant",
+          "label": "europeanroulette / spin / aa9c4f62"
+        },
+        {
+          "key": "native:3d33cacf4e077bea",
+          "type": "variant",
+          "label": "europeanroulette / spin / 4e077bea"
+        },
+        {
+          "key": "native:7cb62ef69ddc509a",
+          "type": "variant",
+          "label": "europeanroulette / spin / 9ddc509a"
+        },
+        {
+          "key": "native:98ba6e8081b015f7",
+          "type": "variant",
+          "label": "europeanroulette / spin / 81b015f7"
+        },
+        {
+          "key": "native:ce58458afab9e8da",
+          "type": "variant",
+          "label": "europeanroulette / spin / fab9e8da"
+        },
+        {
+          "key": "native:653c2760c0c00808",
+          "type": "variant",
+          "label": "europeanroulette / spin / c0c00808"
+        },
+        {
+          "key": "native:e5b82ee661071eb9",
+          "type": "variant",
+          "label": "europeanroulette / spin / 61071eb9"
+        },
+        {
+          "key": "native:5be809e6c0e04cdb",
+          "type": "variant",
+          "label": "europeanroulette / spin / c0e04cdb"
+        },
+        {
+          "key": "native:1f7345d9615be5bc",
+          "type": "variant",
+          "label": "europeanroulette / spin / 615be5bc"
+        },
+        {
+          "key": "native:784147bec4418297",
+          "type": "variant",
+          "label": "europeanroulette / spin / c4418297"
+        },
+        {
+          "key": "native:849eed2db0b3f698",
+          "type": "variant",
+          "label": "europeanroulette / spin / b0b3f698"
+        },
+        {
+          "key": "native:e8f8e1d32c8baf2c",
+          "type": "variant",
+          "label": "europeanroulette / spin / 2c8baf2c"
+        },
+        {
+          "key": "native:b5752acc7f25035d",
+          "type": "variant",
+          "label": "europeanroulette / spin / 7f25035d"
+        },
+        {
+          "key": "native:2d3cc8c0b8204328",
+          "type": "variant",
+          "label": "europeanroulette / spin / b8204328"
+        },
+        {
+          "key": "native:36598ed599942d86",
+          "type": "variant",
+          "label": "europeanroulette / spin / 99942d86"
+        },
+        {
+          "key": "native:768b46b65357b0cd",
+          "type": "variant",
+          "label": "europeanroulette / spin / 5357b0cd"
+        },
+        {
+          "key": "native:bf887834cad8d744",
+          "type": "variant",
+          "label": "europeanroulette / spin / cad8d744"
+        },
+        {
+          "key": "native:e96b155bdb2593cc",
+          "type": "variant",
+          "label": "europeanroulette / spin / db2593cc"
+        },
+        {
+          "key": "native:fab8ca9f540f3939",
+          "type": "variant",
+          "label": "europeanroulette / spin / 540f3939"
+        },
+        {
+          "key": "native:1d55dcecc91c8608",
+          "type": "variant",
+          "label": "europeanroulette / spin / c91c8608"
+        },
+        {
+          "key": "native:85a5e9e5e12b838e",
+          "type": "variant",
+          "label": "europeanroulette / spin / e12b838e"
+        },
+        {
+          "key": "native:fe22d27bef18a9c2",
+          "type": "variant",
+          "label": "europeanroulette / spin / ef18a9c2"
+        },
+        {
+          "key": "native:de97587ed1d4a8bb",
+          "type": "variant",
+          "label": "europeanroulette / spin / d1d4a8bb"
+        },
+        {
+          "key": "native:3604da4d0e535863",
+          "type": "variant",
+          "label": "europeanroulette / spin / 0e535863"
+        },
+        {
+          "key": "native:5e0af27337babf72",
+          "type": "variant",
+          "label": "europeanroulette / spin / 37babf72"
+        },
+        {
+          "key": "native:c192d0d8da30e35c",
+          "type": "variant",
+          "label": "europeanroulette / spin / da30e35c"
+        },
+        {
+          "key": "native:771b454008c232c7",
+          "type": "variant",
+          "label": "europeanroulette / spin / 08c232c7"
+        },
+        {
+          "key": "native:f4eee1e7806e28f6",
+          "type": "variant",
+          "label": "europeanroulette / spin / 806e28f6"
+        },
+        {
+          "key": "native:5d6b229ade0dde8b",
+          "type": "variant",
+          "label": "europeanroulette / spin / de0dde8b"
+        },
+        {
+          "key": "native:4ef216677190d1c7",
+          "type": "variant",
+          "label": "europeanroulette / spin / 7190d1c7"
+        },
+        {
+          "key": "native:38a6bef17a7bccf4",
+          "type": "variant",
+          "label": "europeanroulette / spin / 7a7bccf4"
+        },
+        {
+          "key": "native:7bf1471fe5a3a3db",
+          "type": "variant",
+          "label": "europeanroulette / spin / e5a3a3db"
+        },
+        {
+          "key": "native:3f24862dd48bb104",
+          "type": "variant",
+          "label": "europeanroulette / spin / d48bb104"
+        },
+        {
+          "key": "native:067bfd9845dba4ee",
+          "type": "variant",
+          "label": "europeanroulette / spin / 45dba4ee"
+        },
+        {
+          "key": "native:2fd21de16fb74786",
+          "type": "variant",
+          "label": "europeanroulette / spin / 6fb74786"
+        },
+        {
+          "key": "native:2da8756ff22dcd50",
+          "type": "variant",
+          "label": "europeanroulette / spin / f22dcd50"
+        },
+        {
+          "key": "native:407ea5e9dbd5b77b",
+          "type": "variant",
+          "label": "europeanroulette / spin / dbd5b77b"
+        },
+        {
+          "key": "native:8931edfd8e34fe95",
+          "type": "variant",
+          "label": "europeanroulette / spin / 8e34fe95"
+        },
+        {
+          "key": "native:22fd1d4c20699965",
+          "type": "variant",
+          "label": "europeanroulette / spin / 20699965"
+        },
+        {
+          "key": "native:030f50111b45308d",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1b45308d"
+        },
+        {
+          "key": "native:f37237dd191ddcff",
+          "type": "variant",
+          "label": "europeanroulette / spin / 191ddcff"
+        },
+        {
+          "key": "native:f02f5736db29d42a",
+          "type": "variant",
+          "label": "europeanroulette / spin / db29d42a"
+        },
+        {
+          "key": "native:0d8c289455c37463",
+          "type": "variant",
+          "label": "europeanroulette / spin / 55c37463"
+        },
+        {
+          "key": "native:f12c6dce8daeb8ae",
+          "type": "variant",
+          "label": "europeanroulette / spin / 8daeb8ae"
+        },
+        {
+          "key": "native:c6a23f42b5a208dd",
+          "type": "variant",
+          "label": "europeanroulette / spin / b5a208dd"
+        },
+        {
+          "key": "native:305c7f708d97a79c",
+          "type": "variant",
+          "label": "europeanroulette / spin / 8d97a79c"
+        },
+        {
+          "key": "native:88ac0bf80197fb01",
+          "type": "variant",
+          "label": "europeanroulette / spin / 0197fb01"
+        },
+        {
+          "key": "native:b4b73c481f7d619e",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1f7d619e"
+        },
+        {
+          "key": "native:5e2074ec6ebe6464",
+          "type": "variant",
+          "label": "europeanroulette / spin / 6ebe6464"
+        },
+        {
+          "key": "native:2f9601cb44a05b32",
+          "type": "variant",
+          "label": "europeanroulette / spin / 44a05b32"
+        },
+        {
+          "key": "native:071626f21e268c39",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1e268c39"
+        },
+        {
+          "key": "native:378652f0aa73fa61",
+          "type": "variant",
+          "label": "europeanroulette / spin / aa73fa61"
+        },
+        {
+          "key": "native:fae020c00e711c0d",
+          "type": "variant",
+          "label": "europeanroulette / spin / 0e711c0d"
+        },
+        {
+          "key": "native:8ae718f4946214a8",
+          "type": "variant",
+          "label": "europeanroulette / spin / 946214a8"
+        },
+        {
+          "key": "native:e9478435839d71af",
+          "type": "variant",
+          "label": "europeanroulette / spin / 839d71af"
+        },
+        {
+          "key": "native:543fdd41454e34e0",
+          "type": "variant",
+          "label": "europeanroulette / spin / 454e34e0"
+        },
+        {
+          "key": "native:08e0832c050f9200",
+          "type": "variant",
+          "label": "europeanroulette / spin / 050f9200"
+        },
+        {
+          "key": "native:c0b581e4baec8dc6",
+          "type": "variant",
+          "label": "europeanroulette / spin / baec8dc6"
+        },
+        {
+          "key": "native:8c35e33a92146018",
+          "type": "variant",
+          "label": "europeanroulette / spin / 92146018"
+        },
+        {
+          "key": "native:dfe1c51edf7cd5fa",
+          "type": "variant",
+          "label": "europeanroulette / spin / df7cd5fa"
+        },
+        {
+          "key": "native:fe01eebefb636b86",
+          "type": "variant",
+          "label": "europeanroulette / spin / fb636b86"
+        },
+        {
+          "key": "native:aefb114f09e61815",
+          "type": "variant",
+          "label": "europeanroulette / spin / 09e61815"
+        },
+        {
+          "key": "native:27a84a7d665f0afd",
+          "type": "variant",
+          "label": "europeanroulette / spin / 665f0afd"
+        },
+        {
+          "key": "native:79d6dcf594a527ae",
+          "type": "variant",
+          "label": "europeanroulette / spin / 94a527ae"
+        },
+        {
+          "key": "native:26263b1880e798e6",
+          "type": "variant",
+          "label": "europeanroulette / spin / 80e798e6"
+        },
+        {
+          "key": "native:ba28ce0400b3a21a",
+          "type": "variant",
+          "label": "europeanroulette / spin / 00b3a21a"
+        },
+        {
+          "key": "native:ed58b574ae734f71",
+          "type": "variant",
+          "label": "europeanroulette / spin / ae734f71"
+        },
+        {
+          "key": "native:ec2fa79a38cd7fa1",
+          "type": "variant",
+          "label": "europeanroulette / spin / 38cd7fa1"
+        },
+        {
+          "key": "native:587f279bedf6e096",
+          "type": "variant",
+          "label": "europeanroulette / spin / edf6e096"
+        },
+        {
+          "key": "native:ef538e02d38ba7f6",
+          "type": "variant",
+          "label": "europeanroulette / spin / d38ba7f6"
+        },
+        {
+          "key": "native:c68fbff532b32387",
+          "type": "variant",
+          "label": "europeanroulette / spin / 32b32387"
+        },
+        {
+          "key": "native:a0ce6e8d6d9518d8",
+          "type": "variant",
+          "label": "europeanroulette / spin / 6d9518d8"
+        },
+        {
+          "key": "native:fa11e1e7f9fc6483",
+          "type": "variant",
+          "label": "europeanroulette / spin / f9fc6483"
+        },
+        {
+          "key": "native:48927cfac4de6ea9",
+          "type": "variant",
+          "label": "europeanroulette / spin / c4de6ea9"
+        },
+        {
+          "key": "native:1992b1d2ffc049a8",
+          "type": "variant",
+          "label": "europeanroulette / spin / ffc049a8"
+        },
+        {
+          "key": "native:b8235d77f9664f1b",
+          "type": "variant",
+          "label": "europeanroulette / spin / f9664f1b"
+        },
+        {
+          "key": "native:72fdb3491cab751c",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1cab751c"
+        },
+        {
+          "key": "native:53247d1b431cb552",
+          "type": "variant",
+          "label": "europeanroulette / spin / 431cb552"
+        },
+        {
+          "key": "native:309dd431dccfb83d",
+          "type": "variant",
+          "label": "europeanroulette / spin / dccfb83d"
+        },
+        {
+          "key": "native:7252d51ad4fc6830",
+          "type": "variant",
+          "label": "europeanroulette / spin / d4fc6830"
+        },
+        {
+          "key": "native:1bbf95eed47d8882",
+          "type": "variant",
+          "label": "europeanroulette / spin / d47d8882"
+        },
+        {
+          "key": "native:0fa1f141c2e12aa8",
+          "type": "variant",
+          "label": "europeanroulette / spin / c2e12aa8"
+        },
+        {
+          "key": "native:ad46228027f27d70",
+          "type": "variant",
+          "label": "europeanroulette / spin / 27f27d70"
+        },
+        {
+          "key": "native:fb3e90b7bb66af95",
+          "type": "variant",
+          "label": "europeanroulette / spin / bb66af95"
+        },
+        {
+          "key": "native:2e9c2a62b0f493dd",
+          "type": "variant",
+          "label": "europeanroulette / spin / b0f493dd"
+        },
+        {
+          "key": "native:14d822909771e1f2",
+          "type": "variant",
+          "label": "europeanroulette / spin / 9771e1f2"
+        },
+        {
+          "key": "native:8f99333ec30593ed",
+          "type": "variant",
+          "label": "europeanroulette / spin / c30593ed"
+        },
+        {
+          "key": "native:d8a378819a611137",
+          "type": "variant",
+          "label": "europeanroulette / spin / 9a611137"
+        },
+        {
+          "key": "native:9972f1824d4d13a7",
+          "type": "variant",
+          "label": "europeanroulette / spin / 4d4d13a7"
+        },
+        {
+          "key": "native:26f8a1b944ed5137",
+          "type": "variant",
+          "label": "europeanroulette / spin / 44ed5137"
+        },
+        {
+          "key": "native:93ee64cf88d6d422",
+          "type": "variant",
+          "label": "europeanroulette / spin / 88d6d422"
+        },
+        {
+          "key": "native:382c9d9955aff6ba",
+          "type": "variant",
+          "label": "europeanroulette / spin / 55aff6ba"
+        },
+        {
+          "key": "native:f53a06e378c04c1e",
+          "type": "variant",
+          "label": "europeanroulette / spin / 78c04c1e"
+        },
+        {
+          "key": "native:142719313211fc26",
+          "type": "variant",
+          "label": "europeanroulette / spin / 3211fc26"
+        },
+        {
+          "key": "native:f7defba5b1fc3975",
+          "type": "variant",
+          "label": "europeanroulette / spin / b1fc3975"
+        },
+        {
+          "key": "native:601b42f326f0aec7",
+          "type": "variant",
+          "label": "europeanroulette / spin / 26f0aec7"
+        },
+        {
+          "key": "native:3c414370baae73fa",
+          "type": "variant",
+          "label": "europeanroulette / spin / baae73fa"
+        },
+        {
+          "key": "native:ab04e63cedaf0d6d",
+          "type": "variant",
+          "label": "europeanroulette / spin / edaf0d6d"
+        },
+        {
+          "key": "native:e35c8e3c8b6e3b08",
+          "type": "variant",
+          "label": "europeanroulette / spin / 8b6e3b08"
+        },
+        {
+          "key": "native:f61cdf2ce7501aa4",
+          "type": "variant",
+          "label": "europeanroulette / spin / e7501aa4"
+        },
+        {
+          "key": "native:ddedcba97f4e6877",
+          "type": "variant",
+          "label": "europeanroulette / spin / 7f4e6877"
+        },
+        {
+          "key": "native:24307bb8379e783f",
+          "type": "variant",
+          "label": "europeanroulette / spin / 379e783f"
+        },
+        {
+          "key": "native:870526ba32402817",
+          "type": "variant",
+          "label": "europeanroulette / spin / 32402817"
+        },
+        {
+          "key": "native:847a439e09ce4b57",
+          "type": "variant",
+          "label": "europeanroulette / spin / 09ce4b57"
+        },
+        {
+          "key": "native:6895e314979ad925",
+          "type": "variant",
+          "label": "europeanroulette / spin / 979ad925"
+        },
+        {
+          "key": "native:1001d92803801e87",
+          "type": "variant",
+          "label": "europeanroulette / spin / 03801e87"
+        },
+        {
+          "key": "native:36042c8dcb70422a",
+          "type": "variant",
+          "label": "europeanroulette / spin / cb70422a"
+        },
+        {
+          "key": "native:031a18fbc570db10",
+          "type": "variant",
+          "label": "europeanroulette / spin / c570db10"
+        },
+        {
+          "key": "native:44f6f7b4b1367c44",
+          "type": "variant",
+          "label": "europeanroulette / spin / b1367c44"
+        },
+        {
+          "key": "native:da8f97b1538e5f21",
+          "type": "variant",
+          "label": "europeanroulette / spin / 538e5f21"
+        },
+        {
+          "key": "native:8413f1a91c9bad75",
+          "type": "variant",
+          "label": "europeanroulette / spin / 1c9bad75"
+        },
+        {
+          "key": "native:aa4964e25bcc459a",
+          "type": "variant",
+          "label": "europeanroulette / spin / 5bcc459a"
+        },
+        {
+          "key": "native:a8ea9613bfbe3660",
+          "type": "variant",
+          "label": "europeanroulette / spin / bfbe3660"
+        },
+        {
+          "key": "native:8e6dcceaa17f2d30",
+          "type": "variant",
+          "label": "europeanroulette / spin / a17f2d30"
+        },
+        {
+          "key": "native:50d02620dc050eb9",
+          "type": "variant",
+          "label": "europeanroulette / spin / dc050eb9"
+        },
+        {
+          "key": "native:56b22728cb4e9969",
+          "type": "variant",
+          "label": "europeanroulette / spin / cb4e9969"
+        },
+        {
+          "key": "native:24fd51d9df066a70",
+          "type": "variant",
+          "label": "europeanroulette / spin / df066a70"
+        }
+      ]
+    },
+    {
+      "id": "videopoker",
+      "name": "videopoker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:52a39523351a0a5d",
+          "type": "variant",
+          "label": "videopoker / deal / 351a0a5d"
+        },
+        {
+          "key": "native:674aec47e8583030",
+          "type": "variant",
+          "label": "videopoker / deal / e8583030"
+        },
+        {
+          "key": "native:fd3a0b6a891ec43f",
+          "type": "variant",
+          "label": "videopoker / deal / 891ec43f"
+        },
+        {
+          "key": "native:c812e568f4e7d643",
+          "type": "variant",
+          "label": "videopoker / deal / f4e7d643"
+        },
+        {
+          "key": "native:791bfa31d89dbe00",
+          "type": "variant",
+          "label": "videopoker / deal / d89dbe00"
+        },
+        {
+          "key": "native:daf4cb9a00142d22",
+          "type": "variant",
+          "label": "videopoker / deal / 00142d22"
+        },
+        {
+          "key": "native:e5ec2c5a42af7ce9",
+          "type": "variant",
+          "label": "videopoker / deal / 42af7ce9"
+        },
+        {
+          "key": "native:3e228417eacb2932",
+          "type": "variant",
+          "label": "videopoker / deal / eacb2932"
+        },
+        {
+          "key": "native:472036f82672bfd2",
+          "type": "variant",
+          "label": "videopoker / deal / 2672bfd2"
+        },
+        {
+          "key": "native:602b7d3d020f7e3e",
+          "type": "variant",
+          "label": "videopoker / deal / 020f7e3e"
+        },
+        {
+          "key": "native:514f7d883e65ab94",
+          "type": "variant",
+          "label": "videopoker / deal / 3e65ab94"
+        },
+        {
+          "key": "native:dffb530e277a12c3",
+          "type": "variant",
+          "label": "videopoker / deal / 277a12c3"
+        },
+        {
+          "key": "native:a6114b238ac02421",
+          "type": "variant",
+          "label": "videopoker / deal / 8ac02421"
+        },
+        {
+          "key": "native:4469d9fe39762f02",
+          "type": "variant",
+          "label": "videopoker / deal / 39762f02"
+        },
+        {
+          "key": "native:015c65ef68fae191",
+          "type": "variant",
+          "label": "videopoker / deal / 68fae191"
+        },
+        {
+          "key": "native:8f062bd438508baf",
+          "type": "variant",
+          "label": "videopoker / deal / 38508baf"
+        },
+        {
+          "key": "native:7218221bea8d3cb3",
+          "type": "variant",
+          "label": "videopoker / deal / ea8d3cb3"
+        },
+        {
+          "key": "native:02c02789969c686a",
+          "type": "variant",
+          "label": "videopoker / deal / 969c686a"
+        },
+        {
+          "key": "native:221efa9807d2cd2a",
+          "type": "variant",
+          "label": "videopoker / deal / 07d2cd2a"
+        },
+        {
+          "key": "native:50bb78b640410eaf",
+          "type": "variant",
+          "label": "videopoker / deal / 40410eaf"
+        },
+        {
+          "key": "native:8170199d79795e0c",
+          "type": "variant",
+          "label": "videopoker / deal / 79795e0c"
+        },
+        {
+          "key": "native:7e5560936aec3a05",
+          "type": "variant",
+          "label": "videopoker / deal / 6aec3a05"
+        },
+        {
+          "key": "native:da80f2e056b08f47",
+          "type": "variant",
+          "label": "videopoker / deal / 56b08f47"
+        },
+        {
+          "key": "native:1967dfc2c57c1f4e",
+          "type": "variant",
+          "label": "videopoker / deal / c57c1f4e"
+        },
+        {
+          "key": "native:5aa9676e3d28dc22",
+          "type": "variant",
+          "label": "videopoker / deal / 3d28dc22"
+        },
+        {
+          "key": "native:0c7db7d9dcff093e",
+          "type": "variant",
+          "label": "videopoker / deal / dcff093e"
+        },
+        {
+          "key": "native:ad8d8f0b3c949e4c",
+          "type": "variant",
+          "label": "videopoker / deal / 3c949e4c"
+        },
+        {
+          "key": "native:fccbfe2914d7c429",
+          "type": "variant",
+          "label": "videopoker / deal / 14d7c429"
+        },
+        {
+          "key": "native:be437f80e497bc1d",
+          "type": "variant",
+          "label": "videopoker / deal / e497bc1d"
+        },
+        {
+          "key": "native:3abede2f8b21132d",
+          "type": "variant",
+          "label": "videopoker / deal / 8b21132d"
+        },
+        {
+          "key": "native:6591b9a6fec32c93",
+          "type": "variant",
+          "label": "videopoker / deal / fec32c93"
+        },
+        {
+          "key": "native:4d145ab8ec2bec37",
+          "type": "variant",
+          "label": "videopoker / deal / ec2bec37"
+        },
+        {
+          "key": "native:b2eb82f946640590",
+          "type": "variant",
+          "label": "videopoker / deal / 46640590"
+        },
+        {
+          "key": "native:c7b302c679f026e1",
+          "type": "variant",
+          "label": "videopoker / deal / 79f026e1"
+        },
+        {
+          "key": "native:95285d0f84813f84",
+          "type": "variant",
+          "label": "videopoker / deal / 84813f84"
+        },
+        {
+          "key": "native:83c2d447c507c037",
+          "type": "variant",
+          "label": "videopoker / deal / c507c037"
+        },
+        {
+          "key": "native:fbea6849a4028ebc",
+          "type": "variant",
+          "label": "videopoker / deal / a4028ebc"
+        },
+        {
+          "key": "native:6e30e062a3004f60",
+          "type": "variant",
+          "label": "videopoker / deal / a3004f60"
+        },
+        {
+          "key": "native:0f4ad0a908ee4fd5",
+          "type": "variant",
+          "label": "videopoker / deal / 08ee4fd5"
+        },
+        {
+          "key": "native:3cd01702f72f8f30",
+          "type": "variant",
+          "label": "videopoker / deal / f72f8f30"
+        },
+        {
+          "key": "native:c3b471e8a5a2ccab",
+          "type": "variant",
+          "label": "videopoker / deal / a5a2ccab"
+        },
+        {
+          "key": "native:f6384e1427cf85e3",
+          "type": "variant",
+          "label": "videopoker / deal / 27cf85e3"
+        },
+        {
+          "key": "native:f3824df24c1cedcf",
+          "type": "variant",
+          "label": "videopoker / deal / 4c1cedcf"
+        },
+        {
+          "key": "native:2a16ebf1d1849196",
+          "type": "variant",
+          "label": "videopoker / deal / d1849196"
+        },
+        {
+          "key": "native:c199332beff63907",
+          "type": "variant",
+          "label": "videopoker / deal / eff63907"
+        },
+        {
+          "key": "native:3f19ce7417f268e8",
+          "type": "variant",
+          "label": "videopoker / deal / 17f268e8"
+        },
+        {
+          "key": "native:35e6dfd7dc6319aa",
+          "type": "variant",
+          "label": "videopoker / deal / dc6319aa"
+        },
+        {
+          "key": "native:9065b276996fbe01",
+          "type": "variant",
+          "label": "videopoker / deal / 996fbe01"
+        },
+        {
+          "key": "native:833f10b95880bcbe",
+          "type": "variant",
+          "label": "videopoker / deal / 5880bcbe"
+        },
+        {
+          "key": "native:8896ef5d5044255a",
+          "type": "variant",
+          "label": "videopoker / deal / 5044255a"
+        },
+        {
+          "key": "native:414484f4b8799029",
+          "type": "variant",
+          "label": "videopoker / deal / b8799029"
+        },
+        {
+          "key": "native:454b519dedf974c9",
+          "type": "variant",
+          "label": "videopoker / deal / edf974c9"
+        },
+        {
+          "key": "native:232df17aef8570c0",
+          "type": "variant",
+          "label": "videopoker / deal / ef8570c0"
+        },
+        {
+          "key": "native:f9bb06075da6be3b",
+          "type": "variant",
+          "label": "videopoker / deal / 5da6be3b"
+        },
+        {
+          "key": "native:1bbd6b6e6013b370",
+          "type": "variant",
+          "label": "videopoker / deal / 6013b370"
+        },
+        {
+          "key": "native:7090f47f28c05c37",
+          "type": "variant",
+          "label": "videopoker / deal / 28c05c37"
+        },
+        {
+          "key": "native:2005e94ad99b2811",
+          "type": "variant",
+          "label": "videopoker / deal / d99b2811"
+        },
+        {
+          "key": "native:c0173c664a09033f",
+          "type": "variant",
+          "label": "videopoker / deal / 4a09033f"
+        },
+        {
+          "key": "native:d6dd26cbb2fe1ddd",
+          "type": "variant",
+          "label": "videopoker / deal / b2fe1ddd"
+        }
+      ]
+    },
+    {
+      "id": "oasispokerclassic",
+      "name": "oasispokerclassic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:81588f11c2bb2780",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / c2bb2780"
+        },
+        {
+          "key": "native:c93c484bad6052fe",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / ad6052fe"
+        },
+        {
+          "key": "native:40dc9aac2d4a8de4",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 2d4a8de4"
+        },
+        {
+          "key": "native:6b73b705e54a6011",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / e54a6011"
+        },
+        {
+          "key": "native:4de8736f4653d4e6",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 4653d4e6"
+        },
+        {
+          "key": "native:b84526cae6fbf5a4",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / e6fbf5a4"
+        },
+        {
+          "key": "native:89601e297661e09c",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 7661e09c"
+        },
+        {
+          "key": "native:a28407b60520408b",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 0520408b"
+        },
+        {
+          "key": "native:e29af0b3a09b1df2",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / a09b1df2"
+        },
+        {
+          "key": "native:e42c762ae32c23d2",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / e32c23d2"
+        },
+        {
+          "key": "native:9df746605a045fc4",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 5a045fc4"
+        },
+        {
+          "key": "native:2a736d8116f577df",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 16f577df"
+        },
+        {
+          "key": "native:d990d028eda2fcce",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / eda2fcce"
+        },
+        {
+          "key": "native:b93c06461970adad",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 1970adad"
+        },
+        {
+          "key": "native:174158d54e505259",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 4e505259"
+        },
+        {
+          "key": "native:65caff293432fc51",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 3432fc51"
+        },
+        {
+          "key": "native:1545f79c4d9a1205",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 4d9a1205"
+        },
+        {
+          "key": "native:5e5dfc051572c4fe",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 1572c4fe"
+        },
+        {
+          "key": "native:f602c6451519b114",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 1519b114"
+        },
+        {
+          "key": "native:1ddadb42de34dc87",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / de34dc87"
+        },
+        {
+          "key": "native:59229c248225cec6",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 8225cec6"
+        },
+        {
+          "key": "native:224871a2d9d98776",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / d9d98776"
+        },
+        {
+          "key": "native:5162aa3b5899ef77",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 5899ef77"
+        },
+        {
+          "key": "native:0b37d296a2d70e50",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / a2d70e50"
+        },
+        {
+          "key": "native:feaf3494e92e6809",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / e92e6809"
+        },
+        {
+          "key": "native:6aebad9539e5b0ee",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 39e5b0ee"
+        },
+        {
+          "key": "native:da08e50eef4943b3",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / ef4943b3"
+        },
+        {
+          "key": "native:447cbb48933d90f7",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 933d90f7"
+        },
+        {
+          "key": "native:bce4d9d148d61a7c",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 48d61a7c"
+        },
+        {
+          "key": "native:bf67719eba5a2b45",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / ba5a2b45"
+        },
+        {
+          "key": "native:d6535b9c44f59b40",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 44f59b40"
+        },
+        {
+          "key": "native:7c8d94047d2cde51",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 7d2cde51"
+        },
+        {
+          "key": "native:138ffaa038a1da72",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 38a1da72"
+        },
+        {
+          "key": "native:0513fee3ce0b53a5",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / ce0b53a5"
+        },
+        {
+          "key": "native:5102fe08852ca73f",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 852ca73f"
+        },
+        {
+          "key": "native:25b532394667881a",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 4667881a"
+        },
+        {
+          "key": "native:7eff04045fb19e2d",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 5fb19e2d"
+        },
+        {
+          "key": "native:158737eee0be520c",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / e0be520c"
+        },
+        {
+          "key": "native:92c01a7f394aad4a",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 394aad4a"
+        },
+        {
+          "key": "native:c40673c3933dd635",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 933dd635"
+        },
+        {
+          "key": "native:e56533517f24883e",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 7f24883e"
+        },
+        {
+          "key": "native:993338fea9bf78e0",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / a9bf78e0"
+        },
+        {
+          "key": "native:1460ed00200a40fb",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 200a40fb"
+        },
+        {
+          "key": "native:627204845f72258b",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 5f72258b"
+        },
+        {
+          "key": "native:f7b23f2930023895",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 30023895"
+        },
+        {
+          "key": "native:5978d8b7d1b82580",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / d1b82580"
+        },
+        {
+          "key": "native:5b5b001d2ab5ff95",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 2ab5ff95"
+        },
+        {
+          "key": "native:77c431e284d0119d",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 84d0119d"
+        },
+        {
+          "key": "native:8a291efa86673627",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 86673627"
+        },
+        {
+          "key": "native:69deb1b16bcc92cc",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 6bcc92cc"
+        },
+        {
+          "key": "native:ce354bb268ff6d28",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 68ff6d28"
+        },
+        {
+          "key": "native:4d30570784bdefab",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 84bdefab"
+        },
+        {
+          "key": "native:dbe6f425c5c999ad",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / c5c999ad"
+        },
+        {
+          "key": "native:acf33a2f8c81b02d",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 8c81b02d"
+        },
+        {
+          "key": "native:904263842079b9d7",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 2079b9d7"
+        },
+        {
+          "key": "native:6e371cb8b56640d8",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / b56640d8"
+        },
+        {
+          "key": "native:6f51842715c31eb9",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 15c31eb9"
+        },
+        {
+          "key": "native:9bc96966ddf57597",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / ddf57597"
+        },
+        {
+          "key": "native:ede101dbdbac271a",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / dbac271a"
+        },
+        {
+          "key": "native:7ebc0d4df11d8426",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / f11d8426"
+        },
+        {
+          "key": "native:63a5c1e2935e0fcb",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / 935e0fcb"
+        },
+        {
+          "key": "native:c7a63c02e9f1959a",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / e9f1959a"
+        },
+        {
+          "key": "native:760b1ebecc5a0e2b",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / cc5a0e2b"
+        },
+        {
+          "key": "native:c721be2ece3edd44",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / ce3edd44"
+        },
+        {
+          "key": "native:3b87d23aaaae6cb6",
+          "type": "variant",
+          "label": "oasispokerclassic / deal / aaae6cb6"
+        }
+      ]
+    },
+    {
+      "id": "penaltyseries",
+      "name": "penaltyseries",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:c50345c11a3d28dc",
+          "type": "variant",
+          "label": "penaltyseries / start / 1a3d28dc"
+        },
+        {
+          "key": "native:4260f53c8ebc2e56",
+          "type": "variant",
+          "label": "penaltyseries / start / 8ebc2e56"
+        },
+        {
+          "key": "native:062b0f485c5f8929",
+          "type": "variant",
+          "label": "penaltyseries / start / 5c5f8929"
+        },
+        {
+          "key": "native:693712b336b0949c",
+          "type": "variant",
+          "label": "penaltyseries / start / 36b0949c"
+        },
+        {
+          "key": "native:f4eddede0826cfde",
+          "type": "variant",
+          "label": "penaltyseries / start / 0826cfde"
+        },
+        {
+          "key": "native:b93991038213a522",
+          "type": "variant",
+          "label": "penaltyseries / start / 8213a522"
+        },
+        {
+          "key": "native:d572a3ba8f77674e",
+          "type": "variant",
+          "label": "penaltyseries / start / 8f77674e"
+        },
+        {
+          "key": "native:d19398d086f646be",
+          "type": "variant",
+          "label": "penaltyseries / start / 86f646be"
+        },
+        {
+          "key": "native:179e634d1b1f4567",
+          "type": "variant",
+          "label": "penaltyseries / start / 1b1f4567"
+        },
+        {
+          "key": "native:651b739208eb34dc",
+          "type": "variant",
+          "label": "penaltyseries / start / 08eb34dc"
+        },
+        {
+          "key": "native:46c9c7450fca92e5",
+          "type": "variant",
+          "label": "penaltyseries / start / 0fca92e5"
+        },
+        {
+          "key": "native:f9eba674f9777a79",
+          "type": "variant",
+          "label": "penaltyseries / start / f9777a79"
+        },
+        {
+          "key": "native:85227384a0d211b8",
+          "type": "variant",
+          "label": "penaltyseries / start / a0d211b8"
+        },
+        {
+          "key": "native:1ab354155e694074",
+          "type": "variant",
+          "label": "penaltyseries / start / 5e694074"
+        },
+        {
+          "key": "native:ae9abe576e66d288",
+          "type": "variant",
+          "label": "penaltyseries / start / 6e66d288"
+        }
+      ]
+    },
+    {
+      "id": "minefield",
+      "name": "minefield",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:3013e3e25b5f530f",
+          "type": "variant",
+          "label": "minefield / start / 5b5f530f"
+        },
+        {
+          "key": "native:9b0f163381c598d2",
+          "type": "variant",
+          "label": "minefield / start / 81c598d2"
+        },
+        {
+          "key": "native:685f6f74ff97eac4",
+          "type": "variant",
+          "label": "minefield / start / ff97eac4"
+        },
+        {
+          "key": "native:fa0cf28ecf0e3255",
+          "type": "variant",
+          "label": "minefield / start / cf0e3255"
+        },
+        {
+          "key": "native:b19c0ddf6c8e53fd",
+          "type": "variant",
+          "label": "minefield / start / 6c8e53fd"
+        },
+        {
+          "key": "native:8379fef5666e0dd7",
+          "type": "variant",
+          "label": "minefield / start / 666e0dd7"
+        },
+        {
+          "key": "native:8afe27a667ea510b",
+          "type": "variant",
+          "label": "minefield / start / 67ea510b"
+        },
+        {
+          "key": "native:ee25ac9f0132c4e3",
+          "type": "variant",
+          "label": "minefield / start / 0132c4e3"
+        },
+        {
+          "key": "native:86485aa2e030fec1",
+          "type": "variant",
+          "label": "minefield / start / e030fec1"
+        },
+        {
+          "key": "native:9a263d54e5a9e814",
+          "type": "variant",
+          "label": "minefield / start / e5a9e814"
+        },
+        {
+          "key": "native:5ca9fb12cdb94c0b",
+          "type": "variant",
+          "label": "minefield / start / cdb94c0b"
+        },
+        {
+          "key": "native:44ec8045ab35d307",
+          "type": "variant",
+          "label": "minefield / start / ab35d307"
+        },
+        {
+          "key": "native:d66354590294c9e1",
+          "type": "variant",
+          "label": "minefield / start / 0294c9e1"
+        },
+        {
+          "key": "native:ed4eb2ccd33c6660",
+          "type": "variant",
+          "label": "minefield / start / d33c6660"
+        },
+        {
+          "key": "native:ee6dd17780ec6ad2",
+          "type": "variant",
+          "label": "minefield / start / 80ec6ad2"
+        },
+        {
+          "key": "native:ab01fec0edc724c4",
+          "type": "variant",
+          "label": "minefield / start / edc724c4"
+        },
+        {
+          "key": "native:5ad2e70705f12dce",
+          "type": "variant",
+          "label": "minefield / start / 05f12dce"
+        },
+        {
+          "key": "native:198b86ddfcbd9540",
+          "type": "variant",
+          "label": "minefield / start / fcbd9540"
+        },
+        {
+          "key": "native:a1a5169fb6d66f78",
+          "type": "variant",
+          "label": "minefield / start / b6d66f78"
+        },
+        {
+          "key": "native:1194dc781144baa7",
+          "type": "variant",
+          "label": "minefield / start / 1144baa7"
+        },
+        {
+          "key": "native:29c5731b03265c68",
+          "type": "variant",
+          "label": "minefield / start / 03265c68"
+        },
+        {
+          "key": "native:4d6d98e2948d2a4b",
+          "type": "variant",
+          "label": "minefield / start / 948d2a4b"
+        },
+        {
+          "key": "native:9599dab035853e47",
+          "type": "variant",
+          "label": "minefield / start / 35853e47"
+        },
+        {
+          "key": "native:7a56bdf4eda76be9",
+          "type": "variant",
+          "label": "minefield / start / eda76be9"
+        },
+        {
+          "key": "native:a6aba21c471f0ad7",
+          "type": "variant",
+          "label": "minefield / start / 471f0ad7"
+        },
+        {
+          "key": "native:39080b9e44cfcc91",
+          "type": "variant",
+          "label": "minefield / start / 44cfcc91"
+        },
+        {
+          "key": "native:76ca5059463d7b3b",
+          "type": "variant",
+          "label": "minefield / start / 463d7b3b"
+        },
+        {
+          "key": "native:6144cdbdc3346723",
+          "type": "variant",
+          "label": "minefield / start / c3346723"
+        },
+        {
+          "key": "native:50c073b2e5cf093a",
+          "type": "variant",
+          "label": "minefield / start / e5cf093a"
+        },
+        {
+          "key": "native:4ac020cfda3746f2",
+          "type": "variant",
+          "label": "minefield / start / da3746f2"
+        },
+        {
+          "key": "native:1dcf57b43c8ffe58",
+          "type": "variant",
+          "label": "minefield / start / 3c8ffe58"
+        },
+        {
+          "key": "native:7f63df80fedc6980",
+          "type": "variant",
+          "label": "minefield / start / fedc6980"
+        },
+        {
+          "key": "native:966b891d6956c3cc",
+          "type": "variant",
+          "label": "minefield / start / 6956c3cc"
+        },
+        {
+          "key": "native:cffbabb7d594f21b",
+          "type": "variant",
+          "label": "minefield / start / d594f21b"
+        },
+        {
+          "key": "native:1e067cc29708b159",
+          "type": "variant",
+          "label": "minefield / start / 9708b159"
+        },
+        {
+          "key": "native:a6ba02d757fd4a96",
+          "type": "variant",
+          "label": "minefield / start / 57fd4a96"
+        },
+        {
+          "key": "native:5ff4f06bf98ab729",
+          "type": "variant",
+          "label": "minefield / start / f98ab729"
+        }
+      ]
+    },
+    {
+      "id": "blackjack",
+      "name": "blackjack",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "native:f1fb6604cf5b4d75",
+          "type": "variant",
+          "label": "blackjack / deal / cf5b4d75"
+        },
+        {
+          "key": "native:4ffeba5ad790247a",
+          "type": "variant",
+          "label": "blackjack / deal / d790247a"
+        },
+        {
+          "key": "native:ec3da66be1ae3379",
+          "type": "variant",
+          "label": "blackjack / deal / e1ae3379"
+        },
+        {
+          "key": "native:b51580e12799db4c",
+          "type": "variant",
+          "label": "blackjack / deal / 2799db4c"
+        }
+      ]
+    },
+    {
+      "id": "adrenalinerush",
+      "name": "adrenalinerush",
+      "ready": false,
+      "block_reason": "initialized_only_no_processed_paid_round_contract",
+      "modes": [
+        {
+          "key": "native-family",
+          "type": "variant",
+          "label": "Native family round",
+          "ready": false
+        }
+      ]
+    }
+  ]
+}

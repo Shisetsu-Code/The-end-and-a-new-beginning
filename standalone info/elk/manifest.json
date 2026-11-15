@@ -1,0 +1,205 @@
+{
+  "proveedor": "elk",
+  "archivos": [
+    {
+      "ruta": "codigo/elk.rs",
+      "bytes": 45969,
+      "sha256": "c2edb21bc7bf52700870f82426052ec565b82545af1d0b9b257e1474a4bdd5ba"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 108362,
+      "sha256": "a15dd7e908cc951a556c5005d75d565cafb579a126135a041404c060c3d9d384"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 340199,
+      "sha256": "55af468cd1505bf3789a1eacb04dd45cb455a5fb50fbada29e08f079c493f8eb"
+    },
+    {
+      "ruta": "evidencia/elk.json",
+      "bytes": 909795,
+      "sha256": "bdcda602300a71c0ed3929dd5f46047a9fd62d6a84949605dab31f0712bf1a59"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 108304,
+      "sha256": "825c22a4a8ef1a37ce3286904d06f9961b550ab8cb40b3677a2423c75fbd45bf"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 170941,
+      "sha256": "296127b7c1c07fcf8886acaabb7af8e243716b35e78ae2245efb21c61446bfec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/1-100/audit.json",
+      "bytes": 207866,
+      "sha256": "585ab183d211e5ca61606d73cb3925ba064271a23d91e9b14cc2700e7249d760"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/1-100/blocked-variants.json",
+      "bytes": 1076,
+      "sha256": "91f35da0fe079696f6b991645b96e3ae283976c67d88ad1f2df8bb6b02a2bbc0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/1-100/catalog.json",
+      "bytes": 19409,
+      "sha256": "6d0382d2f26c0243da4170973d280f7fe0202cfe779527ec17be5a197341ee7d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/1-100/index.html",
+      "bytes": 98810,
+      "sha256": "863519a8406dd66ba77181120255b303db7a1d6159ba6af506ce6a91d7b42f95"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/1-100/inventory.json",
+      "bytes": 3114376,
+      "sha256": "eed7c6061c4d04f0681a166d6f2eab116be7484b2755f069e9d1ee30393a4be3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/1-100/prior-providers-proof.json",
+      "bytes": 886,
+      "sha256": "fa8164a727d4e514254450182823a4972eb33b0ad9e3696b1c354ec2096262dc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/1-100/rounds.json",
+      "bytes": 386051,
+      "sha256": "2b90bd51d7530c7c2be99793d12af34d7a18ab11c37069a5c069ccc3d6b9a4ab"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/audit.json",
+      "bytes": 33671,
+      "sha256": "35783def58da74eab5bc2b73e73025e43e72d8736d96b985418a2ff7f262fa5a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/boss-proof-update-61e0737f933b4da1878a664c7e6680a0.json",
+      "bytes": 1920,
+      "sha256": "05b9571d05b927252e3bea34e726c2473838b7526cc2d13c125e192515e2ff0a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/catalog.json",
+      "bytes": 11380,
+      "sha256": "130f07197e27518de23ea497eb2870dadce42c6da86cc52e9c03ddec7e918f73"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/index.html",
+      "bytes": 26445,
+      "sha256": "9bad26449894ea099610e4db72805b4b0c4a3cb6d486f29d5d935d65b996d75f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/inventory.json",
+      "bytes": 844347,
+      "sha256": "dea56104f4510dbceab890b6b44f3808953aa7592082339c2fec32097bf89c7d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/prior-providers-proof-before-boss-61e0737f933b4da1878a664c7e6680a0.json",
+      "bytes": 86027,
+      "sha256": "9162028ac394b7d88bbe21f56b82b8921a0f8f762b42864deb244e5ed9889c72"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/prior-providers-proof.json",
+      "bytes": 86027,
+      "sha256": "e7c48efae1032fcac1cbc3fb978852d55af9ed729cf2ca91000666e498b8e3f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/batches/101-159/rounds.json",
+      "bytes": 79159,
+      "sha256": "6e959ab15ac2f55eec7e7691efd341524606a77b7a024e532923e86ac601f543"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/boss-progress.json",
+      "bytes": 54,
+      "sha256": "e6066a159899a48657da1565db19af12693ee438dc68558eb8d1c989da0308d5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/boss.html",
+      "bytes": 2942,
+      "sha256": "88fa1c6097209401eff6ecdf5736d794dfea8800c3b75e2881161a194db61b2a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/catalog.json",
+      "bytes": 30786,
+      "sha256": "f9092d1885af70c4c1797f9741bb2c8adea336375d104a1279ed9d8b0da2f12b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/index.html",
+      "bytes": 29495,
+      "sha256": "a6a3309508b38044d0cbf07ad0e1da90f42a0941725dd32a00acf0741fc82a43"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/README.md",
+      "bytes": 3143,
+      "sha256": "b254673da6557a3e8e0ed969f22720b2003697bfb466b1c623a158a2d6002634"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/round.html",
+      "bytes": 3919,
+      "sha256": "a3655078064f804dd27da247ed732285e7fbc74d6ec16f45056b8e67d1ff2cf6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk/sources.json",
+      "bytes": 1190,
+      "sha256": "70c7671c87a33b70ef0a04265ddfb45d6fa1f603e0d5cfb2452be68e60719023"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_audit.py",
+      "bytes": 17786,
+      "sha256": "e48742cffc1865e63d1ff01cba9cb6e43ba7f4bb4a22e5741ec1be3a77b2fce6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_boss.py",
+      "bytes": 9125,
+      "sha256": "47ba2fd0752bd126fb47d256ec8dc263d0b37640818f0ae8e5b0839f68f9382d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_boss_audit.py",
+      "bytes": 10311,
+      "sha256": "d597680aae8212ccf1ad619fb7e405925ed05a66732a9fc2643dd45b6db41fdd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_boss_publish.py",
+      "bytes": 3499,
+      "sha256": "0c6166666252e112eb016f0322bca006f0bba3fdc8cc01fdcd2d5923a604ca8c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_client.py",
+      "bytes": 5996,
+      "sha256": "2295fbd9f844c95d770eb525eed1464706605299872405d042a4843ea9f6825d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_import.py",
+      "bytes": 3276,
+      "sha256": "1af4404ba9ca841e7c7c937156798e65051208d953c663a08b65169e8f1dec99"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_paths.py",
+      "bytes": 593,
+      "sha256": "4188603a73d5d0fd142dea54bd78653b932193aac2bf7b62779ea7e234ab595e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_protocol.py",
+      "bytes": 12640,
+      "sha256": "4e4e33bd51257121f977ef1fffa54824445389d3de65dfa9c669a388bfda57d6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_reconcile.py",
+      "bytes": 1885,
+      "sha256": "4ee391da469c91913b4cc0c05b5183257034345e5a8b21c8ea9cfc5103238e28"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_reports.py",
+      "bytes": 11427,
+      "sha256": "98347ef09ac2d986398bd4b6f982bd0b7b32068572d592b4c1e24a45fa317b1f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/elk_run.py",
+      "bytes": 6443,
+      "sha256": "18ffa63a99b65a4a8a404f2265ebe6ad7a2c07b265054015cd985bb8b77c2cab"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 546,
+      "sha256": "8617cbba46e22105fa043f01ddabf3d6922c7cc204d8b6ba5bd5d9a92ff1764a"
+    }
+  ]
+}

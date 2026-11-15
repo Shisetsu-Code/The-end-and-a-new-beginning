@@ -1,0 +1,8036 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "elk",
+      "game": "propaganda-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "game_id": "10276",
+        "xdm": "0"
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wonder-train",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wonder-train",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wonder-train",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wonder-train",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wonder-train",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wonder-train",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bamboo-pandits",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bamboo-pandits",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bamboo-pandits",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bamboo-pandits",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bamboo-pandits",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bamboo-pandits",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "concrete-cowboys",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "concrete-cowboys",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "concrete-cowboys",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "concrete-cowboys",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "concrete-cowboys",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "concrete-cowboys",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "grizzly-stampede",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "grizzly-stampede",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "grizzly-stampede",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "grizzly-stampede",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "grizzly-stampede",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "grizzly-stampede",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "langley-street-23",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "langley-street-23",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "langley-street-23",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "langley-street-23",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "langley-street-23",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "langley-street-23",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "quackers",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "quackers",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "quackers",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "quackers",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "quackers",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "quackers",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "DEF:boss",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X01:boss",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X02:boss",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X03:boss",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X04:boss",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X05:boss",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "DEF:nest",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X01:nest",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X02:nest",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X03:nest",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X04:nest",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X05:nest",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "DEF:ship",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X01:ship",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X02:ship",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X03:ship",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X04:ship",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X05:ship",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "DEF:temple",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X01:temple",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X02:temple",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X03:temple",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X04:temple",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-5",
+      "mode": "X05:temple",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "boomberries",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "boomberries",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "boomberries",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "boomberries",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "boomberries",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "boomberries",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "spark-of-creation",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "spark-of-creation",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "spark-of-creation",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "spark-of-creation",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "spark-of-creation",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "spark-of-creation",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "DEF:day",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X01:day",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X02:day",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X03:day",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X04:day",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X05:day",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "DEF:night",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X01:night",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X02:night",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X03:night",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X04:night",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-3",
+      "mode": "X05:night",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadcode",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadcode",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadcode",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadcode",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadcode",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadcode",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "DEF:garden",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X01:garden",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X02:garden",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X03:garden",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X04:garden",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X05:garden",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "DEF:springbreak",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X01:springbreak",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X02:springbreak",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X03:springbreak",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X04:springbreak",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "huff-n-puff-collectr",
+      "mode": "X05:springbreak",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-3",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-3",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-3",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-3",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-3",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-3",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bushido-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bushido-gold",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bushido-gold",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bushido-gold",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bushido-gold",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bushido-gold",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bonzos-bananza",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bonzos-bananza",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bonzos-bananza",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bonzos-bananza",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bonzos-bananza",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bonzos-bananza",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "arcanum",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "arcanum",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "arcanum",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "arcanum",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "arcanum",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "arcanum",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-5",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-5",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-5",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-5",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-5",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-5",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ice-wolf-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ice-wolf-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ice-wolf-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ice-wolf-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ice-wolf-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ice-wolf-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-6",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-6",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-6",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-6",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-6",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-6",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "world-eaters",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro911",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro911",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro911",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro911",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro911",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro911",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "skibblings",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "skibblings",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "skibblings",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "skibblings",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "skibblings",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "skibblings",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "giraffalot",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "giraffalot",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "giraffalot",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "giraffalot",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "giraffalot",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "giraffalot",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cathedral-9",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cathedral-9",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cathedral-9",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cathedral-9",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cathedral-9",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cathedral-9",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "crescendo",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "crescendo",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "crescendo",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "crescendo",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "crescendo",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "crescendo",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "DEF:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X01:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X02:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X03:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X04:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X05:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "DEF:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X01:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X02:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X03:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X04:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X05:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "DEF:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X01:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X02:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X03:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X04:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-inferno",
+      "mode": "X05:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadeye",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadeye",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadeye",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadeye",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadeye",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "deadeye",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-x",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-x",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-x",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-x",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-x",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-x",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "DEF:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X01:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X02:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X03:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X04:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X05:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "DEF:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X01:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X02:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X03:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X04:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X05:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "DEF:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X01:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X02:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X03:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X04:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4-frozen-fury",
+      "mode": "X05:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fish-and-bird",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fish-and-bird",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fish-and-bird",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fish-and-bird",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fish-and-bird",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fish-and-bird",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard-ii",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard-ii",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard-ii",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard-ii",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard-ii",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard-ii",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "DEF:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X01:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X02:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X03:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X04:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X05:fire",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "DEF:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X01:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X02:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X03:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X04:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X05:ice",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "DEF:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X01:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X02:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X03:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X04:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-4",
+      "mode": "X05:space",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rex-stampede",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rex-stampede",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rex-stampede",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rex-stampede",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rex-stampede",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rex-stampede",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "heist-guys",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nightmaker",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nightmaker",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nightmaker",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nightmaker",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nightmaker",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nightmaker",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mine-defender",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mine-defender",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mine-defender",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mine-defender",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mine-defender",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mine-defender",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zaplab",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zaplab",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zaplab",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zaplab",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zaplab",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zaplab",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "knight-fight",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "knight-fight",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "knight-fight",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "knight-fight",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "knight-fight",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "knight-fight",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "in-the-zone",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "in-the-zone",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "in-the-zone",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "in-the-zone",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "in-the-zone",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "in-the-zone",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "orbitfall",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "orbitfall",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "orbitfall",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "orbitfall",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "orbitfall",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "orbitfall",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-tv",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-tv",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-tv",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-tv",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-tv",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-tv",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-4",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-4",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-4",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-4",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-4",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-4",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tinkerbot",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tinkerbot",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tinkerbot",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tinkerbot",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tinkerbot",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tinkerbot",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-5",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-5",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-5",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-5",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-5",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-5",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "shadow-shifter",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "shadow-shifter",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "shadow-shifter",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "shadow-shifter",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "shadow-shifter",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "shadow-shifter",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "reindeer-royale",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "reindeer-royale",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "reindeer-royale",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "reindeer-royale",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "reindeer-royale",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "reindeer-royale",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "catemple",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "catemple",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "catemple",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "catemple",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "catemple",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "catemple",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ryze",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-x",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-x",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-x",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-x",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-x",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-x",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-kingdom",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-kingdom",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-kingdom",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-kingdom",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-kingdom",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-kingdom",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "thoro",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "thoro",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "thoro",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "thoro",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "thoro",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "thoro",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "slurpy",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "slurpy",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "slurpy",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "slurpy",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "slurpy",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "slurpy",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "squeeze",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "squeeze",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "squeeze",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "squeeze",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "squeeze",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "squeeze",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-5",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-5",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-5",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-5",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-5",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-5",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "man-vs-gator",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "man-vs-gator",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "man-vs-gator",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "man-vs-gator",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "man-vs-gator",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "man-vs-gator",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots3",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots3",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots3",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots3",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots3",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots3",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka-eternal",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka-eternal",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka-eternal",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka-eternal",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka-eternal",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka-eternal",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pug-thugs-of-nitropolis",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pug-thugs-of-nitropolis",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pug-thugs-of-nitropolis",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pug-thugs-of-nitropolis",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pug-thugs-of-nitropolis",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pug-thugs-of-nitropolis",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-3",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-3",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-3",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-3",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-3",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-3",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dirty-dawgs-of-nitropolis",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dirty-dawgs-of-nitropolis",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dirty-dawgs-of-nitropolis",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dirty-dawgs-of-nitropolis",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dirty-dawgs-of-nitropolis",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dirty-dawgs-of-nitropolis",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "frogblox",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "frogblox",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "frogblox",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "frogblox",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "frogblox",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "frogblox",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rogue-rats",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rogue-rats",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rogue-rats",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rogue-rats",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rogue-rats",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rogue-rats",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buggin",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buggin",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buggin",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buggin",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buggin",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buggin",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gritty-kitty",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gritty-kitty",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gritty-kitty",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gritty-kitty",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gritty-kitty",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gritty-kitty",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-4",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-4",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-4",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-4",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-4",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-4",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "oxygen",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dam-beavers",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dam-beavers",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dam-beavers",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dam-beavers",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dam-beavers",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dam-beavers",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gladiatoro",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gladiatoro",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gladiatoro",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gladiatoro",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gladiatoro",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "gladiatoro",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "jeff-scully",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "jeff-scully",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "jeff-scully",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "jeff-scully",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "jeff-scully",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "jeff-scully",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "j-pop",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "j-pop",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "j-pop",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "j-pop",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "j-pop",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "j-pop",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "valhall-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "valhall-gold",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "valhall-gold",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "valhall-gold",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "valhall-gold",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "valhall-gold",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hula-balua",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hula-balua",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hula-balua",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hula-balua",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hula-balua",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hula-balua",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba-reborn",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba-reborn",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba-reborn",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba-reborn",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba-reborn",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba-reborn",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-3",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-3",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-3",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-3",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-3",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-3",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-shogun",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-shogun",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-shogun",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-shogun",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-shogun",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-shogun",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dead-mans-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dead-mans-gold",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dead-mans-gold",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dead-mans-gold",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dead-mans-gold",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dead-mans-gold",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ashoka",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rabbit-royale",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rabbit-royale",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rabbit-royale",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rabbit-royale",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rabbit-royale",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "rabbit-royale",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-x",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-x",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-x",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-x",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-x",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-x",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pirots",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-4",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-4",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-4",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-4",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-4",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-4",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-sam",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-sam",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-sam",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-sam",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-sam",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-sam",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "sumo-sumo",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "sumo-sumo",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "sumo-sumo",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "sumo-sumo",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "sumo-sumo",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "sumo-sumo",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-gold",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-gold",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-gold",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-gold",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "avalon-gold",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "freeway-7",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "freeway-7",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "freeway-7",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "freeway-7",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "freeway-7",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "freeway-7",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "propaganda",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dropz",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dropz",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dropz",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dropz",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dropz",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dropz",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buffalo-toro",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buffalo-toro",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buffalo-toro",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buffalo-toro",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buffalo-toro",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "buffalo-toro",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "coba",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers-deralied",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers-deralied",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers-deralied",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers-deralied",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers-deralied",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers-deralied",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "phoenix-graveyard",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-3",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-3",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-3",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-3",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-3",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-3",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pacific-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pacific-gold",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pacific-gold",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pacific-gold",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pacific-gold",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "pacific-gold",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "illogicool",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "illogicool",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "illogicool",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "illogicool",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "illogicool",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "illogicool",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mystic-orbs",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mystic-orbs",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mystic-orbs",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mystic-orbs",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mystic-orbs",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "mystic-orbs",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "stars-of-orion",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "stars-of-orion",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "stars-of-orion",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "stars-of-orion",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "stars-of-orion",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "stars-of-orion",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-7s",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-7s",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-7s",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-7s",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-7s",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "toro-7s",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-toro",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-toro",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-toro",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-toro",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-toro",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "book-of-toro",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zulu-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zulu-gold",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zulu-gold",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zulu-gold",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zulu-gold",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "zulu-gold",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fate-of-fortune",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fate-of-fortune",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fate-of-fortune",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fate-of-fortune",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fate-of-fortune",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "fate-of-fortune",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "night-trax",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "night-trax",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "night-trax",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "night-trax",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "night-trax",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "night-trax",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dream-diver",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dream-diver",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dream-diver",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dream-diver",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dream-diver",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dream-diver",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tropicool",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-2",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-2",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-2",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-2",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-2",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis-2",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-slide",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-slide",
+      "mode": "X01",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-slide",
+      "mode": "X02",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-slide",
+      "mode": "X03",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-slide",
+      "mode": "X04",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cluster-slide",
+      "mode": "X05",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bompers",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bompers",
+      "mode": "BB1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bompers",
+      "mode": "BB2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bompers",
+      "mode": "BB3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bompers",
+      "mode": "BB4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "miss-wildfire",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "knockout-diamonds",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-gold",
+      "mode": "BB1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-gold",
+      "mode": "BB2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis",
+      "mode": "BB1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis",
+      "mode": "BB2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "visitors",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "the-grand-galore",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "diablo-reels",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dreamzone",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "io",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "black-river-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "blood-lust",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "crusader",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "micro-knights",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hit-it-hard",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "cygnus",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ice-wolf",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "voodoo-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "win-win",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "respin-circus",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "tahiti-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "chi",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hit-it-big",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ecuador-gold",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "the-wiz",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "valkyrie",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "vegas-diamonds",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "joker-gems",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "platooners",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "birthday",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "lakes-five",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "kaiju",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ho-ho-tower",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "route-777",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hidden",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "ivanhoe",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "hong-kong-tower",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "sam-on-the-beach",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers-saving-christmas",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "wild-toro",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "poltava",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "bloopers",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "dj-wild",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "taco-brothers",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "elk",
+      "game": "electric-sam",
+      "mode": "DEF",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    }
+  ],
+  "omisiones": []
+}

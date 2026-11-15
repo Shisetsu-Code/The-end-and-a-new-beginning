@@ -1,0 +1,2323 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "egt-digital",
+      "game": "ALGKLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ALGKLSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ARSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ARSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ARSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ABSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BCBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BDBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BESlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCHRSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCHRSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BFCHRSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BHBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BGSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BGSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BGSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BHESlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BORHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BLBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BORJWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BORJWSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BOSHBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BORSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BOSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BOSHJWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BOSHJWSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BSBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "CKHGKLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "CKHGKLSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BPBLBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "CRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "DRHCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "DWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "DWSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "DWSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "EDSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "EITHHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "EITHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "EPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "EWCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBCSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBHBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBHBLSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBHBLSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBHBLSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBHSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FBRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FCHJSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FDCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FDHBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FDHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FHBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FHBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FHEBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FHESlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FLKBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FLKSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FMCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRBPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRCHTSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRCLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRDCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRDHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRDRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRJHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRJRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRLKEBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRLRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRSHBLBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRSHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRSPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRSRBHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRSRBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FRSRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSCBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSFBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSFSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSFSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSFSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSFSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSFSlot",
+      "mode": "4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSFSlot",
+      "mode": "5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSHBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FTBRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVBPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVCHTSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVCLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVDRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVJHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVLRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVSFSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVSHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVSPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FVSRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FXSFSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FYHBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FZWBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "GAGKLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "GAGKLSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "GKBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "GKBLSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "GKBLSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "GKBLSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTHRSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTHRSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTHRSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "HFTTSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JCCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JCESlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JCESlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JCESlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JCESlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JCESlot",
+      "mode": "4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JCESlot",
+      "mode": "5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "JWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "KTSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "LHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "LTHCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "MDBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "MDSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "MHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "MHSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "MHSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "MSHCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OBCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OBHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ODJWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ODJWSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ODJWSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OGGKLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OGGKLSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHBPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHBRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHCHTSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHCLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHDCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHDHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHDRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHJHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHJRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHLRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHSHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHSPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OHSRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ORSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ORSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OSFSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OSHSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDHRSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDHRSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDHRSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSDSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSVSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSVSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSVSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "OTSVSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PCHCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PGASlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PGASlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PGASlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRCJWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRCJWSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRCJWSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PROSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PROSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PROSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRRJWHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRRJWHRSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRRJWHRSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRRJWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRRJWSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PRRJWSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PVHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "PVSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "QAHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "QAHRSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "QAHRSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "QASlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "QASlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "QASlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "RORGKLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "RORGKLSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "RORSASlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "RORSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "RSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SACBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SACRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SBBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SBSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SBSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCCHSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCCHSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCDSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCDSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCDSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCDSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCDSlot",
+      "mode": "4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCDSlot",
+      "mode": "5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SDSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SDSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SDSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SJSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SMSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SPBLBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "STOTSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "STOTSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "STOTSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "STOTSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "STSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "STSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "STSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SUCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SVSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SVSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SVSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SWSSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SWSSSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SWSSSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SXSFSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SXSFSSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SXSFSSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SXSFSSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TADSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TBCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TBHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TBHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TCHJSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TCWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TDCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TDHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TFWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "THBSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "THSFSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNBCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNBPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNBRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNCHTSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNCLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNDCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNDHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNJHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNLRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNSFSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNSHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNSPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNSRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJHRSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJHRSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJHRSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJSlot",
+      "mode": "1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJSlot",
+      "mode": "2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TNTJSlot",
+      "mode": "3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSDHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSDPWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSDSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSFBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSHBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSHSASlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSPCSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TSSSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TVHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TVSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWBHCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWBPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWBRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWCHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWCLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWDRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWGSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWJHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWLHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWLRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWSHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWSHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWSPSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "TWSRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "UFSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "UHSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "VGSASlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "VGSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "VNBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "VNSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ZWBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ZWSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "ZWXBLSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "FSHSASlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "egt-digital",
+      "game": "BOSHHRSlot",
+      "mode": "0",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": []
+}

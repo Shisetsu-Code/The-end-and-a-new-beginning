@@ -1,0 +1,2586 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "rubyplay",
+      "game": "rp_236",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_214",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_214",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_220",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_220",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_216",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_216",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_211",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_211",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_200",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_200",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_228",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_206",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_206",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_191",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_191",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_172",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_172",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_215",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_215",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_210",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_210",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_173",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_173",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_170",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_170",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_194",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_203",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_198",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_198",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_182",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_182",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_190",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_190",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_189",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_189",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_204",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_204",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_199",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_199",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_188",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_188",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_180",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_180",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_187",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_187",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_181",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_181",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_177",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_186",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_186",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_185",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_185",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_176",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_176",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_171",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_171",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_167",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_167",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_169",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_169",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_168",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_168",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_164",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_164",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_153",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_153",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_151",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_151",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_162",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_162",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_152",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_152",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_166",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_166",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_147",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_147",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_148",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_148",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_140",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_140",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_161",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_161",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_160",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_160",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_92",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_92",
+      "mode": "buy_feature:select",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_139",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_139",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_149",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_149",
+      "mode": "buy_feature:select",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_165",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_165",
+      "mode": "buy_feature:minispin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_163",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_163",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_120",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_120",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_155",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_155",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_145",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_145",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_150",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_150",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_159",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_159",
+      "mode": "buy_feature:minispin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_146",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_146",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_143",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_143",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_130",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_130",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_138",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_138",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_144",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_144",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_129",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_129",
+      "mode": "buy_feature:respin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_141",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_141",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_142",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_142",
+      "mode": "buy_feature:minispin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_136",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_136",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_126",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_126",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_125",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_125",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_133",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_133",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_131",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_131",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_132",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_132",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_119",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_119",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_128",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_128",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_109",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_109",
+      "mode": "buy_feature:minispin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_124",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_124",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_114",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_114",
+      "mode": "buy_feature:select",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_118",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_118",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_103",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_103",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_106",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_106",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_112",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_112",
+      "mode": "buy_feature:select",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_108",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_108",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_111",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_104",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_107",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_107",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_101",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_94",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_98",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_102",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_102",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_90",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_99",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_96",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_97",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_91",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_95",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_89",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_158",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_158",
+      "mode": "buy_feature:freespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_93",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_85",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_88",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_87",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_84",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_81",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_83",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_80",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_16",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_79",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_78",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_77",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_76",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_74",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_73",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_71",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_72",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_70",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_69",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_68",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_66",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_65",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_65",
+      "mode": "ruby_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_67",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_63",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_60",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_62",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_61",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_58",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_59",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_57",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_57",
+      "mode": "ruby_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_56",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_53",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_54",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_55",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_52",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_51",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_50",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_49",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_48",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_47",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_46",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_45",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_44",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_43",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_42",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_41",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_40",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_38",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_37",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_37",
+      "mode": "ruby_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_36",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_21",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_35",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_29",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_29",
+      "mode": "ruby_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_34",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_33",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_28",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_24",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_30",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_31",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_15",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_25",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_23",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_14",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_18",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_17",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_27",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_32",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_22",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_7",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_9",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_19",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_20",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_11",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_8",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_13",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_10",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_4",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_6",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_5",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_3",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_1",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_12",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    }
+  ],
+  "omisiones": []
+}

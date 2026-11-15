@@ -1,0 +1,45 @@
+{
+  "proveedor": "egt-digital",
+  "archivos": [
+    {
+      "ruta": "bindings/egt-digital.json",
+      "bytes": 92142,
+      "sha256": "05bce352b02abea6837c53b1ad2e3c59312dc3f8781dd581db806d1aba01bb98"
+    },
+    {
+      "ruta": "codigo/egt_digital.rs",
+      "bytes": 10262,
+      "sha256": "6620b8647c2ec324244bea936538269e04963c67c67ce360da73ac76c963cde2"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 80602,
+      "sha256": "9859917920e26e03b81956d8676240c959b3492cbce6a1ca9a4c792e5c0ee515"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 455580,
+      "sha256": "4f3853d4473c21fe25f0668fb63b001b8fac5a302ccb1d9392a92c2760cb63e0"
+    },
+    {
+      "ruta": "evidencia/egt-digital.json",
+      "bytes": 502356,
+      "sha256": "da45af5642a209aa065872a2a681fc292796088bcf6a994842747959b1fd26e2"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 80550,
+      "sha256": "72fc0fc5cf24bf383bdb372796bfea99526c522b4fadc945e65ed194b13a1bee"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 46062,
+      "sha256": "ea892e228a72ec170e23a03b615f7c89d4aa1542dd37bd82f7dda7fdbb422cc3"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 632,
+      "sha256": "62ea30692458788b82316110e39a64aeb95b6b4ddacc2d4e4f317f394b592dcc"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "proveedor": "peterandsons",
+  "archivos": [
+    {
+      "ruta": "bindings/peterandsons.json",
+      "bytes": 22015,
+      "sha256": "2187fc9638130bf27a5dbe05001e92945bc2afcdf602defd3de472fc7486afdd"
+    },
+    {
+      "ruta": "codigo/peterandsons.rs",
+      "bytes": 18938,
+      "sha256": "12ac5f4beebdf889640605722f74e930b17ac11d43ca33c8dc12fbc832d08946"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 36687,
+      "sha256": "c9d9b285dd7199d221cb9e349bbcc0e9bf795be72e17e40a632cbcc9de66dbf1"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 169760,
+      "sha256": "105015991183c0cbb3c6ab95f1e5b9f3f13ccc690bef9d5dba929eb4749d9daa"
+    },
+    {
+      "ruta": "evidencia/peterandsons.json",
+      "bytes": 423285,
+      "sha256": "a24b6ddcbcaee6711c0ec0389eee7ed368ba2eeee46448ccf0b9f7232203cf37"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 36663,
+      "sha256": "22bfd7d7a4356eb225e264006fc6eab8d74dac9ab34ee767a0963d35f337c111"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 75216,
+      "sha256": "92ed4ec913820d19100efc44a2a1bda2ada45aefb89ab708dfd097270c5d90cc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/peterandsons/index.html",
+      "bytes": 40691,
+      "sha256": "e962e47f90d0dd5c5356c037cb363745c893339328dffae3c767a9d80d711500"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/peterandsons/report.json",
+      "bytes": 355370,
+      "sha256": "ed9f8ebb45e5194b595fcb1a838c94272e00978ff579db78145ec210f071338a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/peterandsons/verification-summary.json",
+      "bytes": 2230,
+      "sha256": "fd414e314047c61542c19b94d1a9c83511f1cf7bb5623ef8accef5d8ba2977a7"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/AGENTS.md",
+      "bytes": 2447,
+      "sha256": "daadef1a9abcc6f2e105c262e8b51166fa0464c7ee9a0b2041ddcf1f5ffc1a24"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/analyze_hars.py",
+      "bytes": 6253,
+      "sha256": "3ea0069e9cc40d75a0937b5c9d924a050f4a04a187ba93d8bb057ea268f33fd9"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/campaign.py",
+      "bytes": 13755,
+      "sha256": "c8827c9839dfa97dad02efbf1a7b77114038761dab4f8ddcca23cc14d4d9ff83"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/conditional_cases.py",
+      "bytes": 5847,
+      "sha256": "e924be22244cc1431123271cbd3c453204fcd53c85e1ae5d34ebf88404fb2d78"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/final_audit.py",
+      "bytes": 11229,
+      "sha256": "35d2ab81013746ebbb24e2332a753cbc4de043e9cfd0312d1c0ddda8550bd1f5"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/protocol.py",
+      "bytes": 6980,
+      "sha256": "6d3e159c0c39173ed1e00888176ac4707a165f8611cf5d45e2b6c382d11e7e51"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/test_campaign.py",
+      "bytes": 2822,
+      "sha256": "c97379d7d7436406da8fea0c991b67572a496cfbfe6c23ac10f60815b03a8669"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/test_conditional.py",
+      "bytes": 2917,
+      "sha256": "41d46efbc8a7b5ff6f943bc2f8c4e144585add6d52d8646e0e9675823724a657"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/code/test_protocol.py",
+      "bytes": 5133,
+      "sha256": "a80151258c1801249ffbf1f246708eba0c8acdfb21109472cd6f2e4147574394"
+    },
+    {
+      "ruta": "referencias/provider-work/peterandsons-chat4/CONTINUITY.md",
+      "bytes": 11990,
+      "sha256": "cabab7a6a37d89e92e3d68365c7b1b1760897c610ae48e9beee2db2a32416804"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 716,
+      "sha256": "36476fdb77765b30122f4f896d47f3aae1d903477faa812282f11bc6411acf45"
+    }
+  ]
+}

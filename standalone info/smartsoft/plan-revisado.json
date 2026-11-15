@@ -1,0 +1,656 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "smartsoft",
+      "game": "BaoSlot5X",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BlazingHot10",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BokaJamba10",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BookOfBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BookOfBonanza",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BookOfBonanza",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BookOfFuturia",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BookOfFuturia",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BookOfFuturia",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BlazingHot40",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "BlazingHot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "CoinsOfAtlantis",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "CoinsOfAtlantis",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "CoinsOfAtlantis",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "DiceJungle",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "DraculasFortune",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "DragonsCode",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "DragonsCode",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "DragonsCode",
+      "mode": "RiskBet:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "FarmsFortune",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "FoxyHot20",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GatesOfMerlyn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GatesOfMerlyn",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GatesOfMerlyn",
+      "mode": "PurchaseBonus:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GatesOfMerlyn",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GemsCrownChargingWilds",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GemsCrownChargingWilds",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GemsCrownChargingWilds",
+      "mode": "RiskBet:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GeniesBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GeniesBonanza",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GeniesBonanza",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "HabeshaFortune5",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "HotSamba",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "JingleBellBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "JungleSisters",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "JungleSisters",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "JungleSistersDeluxe",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "JungleSistersDeluxe",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MadSlot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MadSlot",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MadSlot",
+      "mode": "PurchaseBonus:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MadSlot",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MariachiCoins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MariachiCoins",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiFruitsChargingWilds",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiFruitsChargingWilds",
+      "mode": "RiskBet:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiFruitsChargingWilds",
+      "mode": "RiskBet:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot100",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot20",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot40",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot5",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot5BurnWilds",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot5Deluxe",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot5SuperWilds",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHot5Wild",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHotWays",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "MultiHotWildWays",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "PowerOfTiger",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "SafariSimba",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "SugarFiesta",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "Vampires",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "WildMultiStars",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "WildsAndGods",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "WildsAndGods",
+      "mode": "PurchaseBonus:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "game": "WildsAndGods",
+      "mode": "PurchaseBonus:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    }
+  ],
+  "omisiones": []
+}

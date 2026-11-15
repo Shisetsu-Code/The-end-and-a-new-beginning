@@ -1,0 +1,567 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "irondog",
+      "game": "90110",
+      "mode": "ante 100",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "irondog",
+      "game": "90110",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "irondog",
+      "game": "90140",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": [
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90030",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90030",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90040",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90040",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90061",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90061",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90090",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90090",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90150",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90150",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90150",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90190",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90190",
+      "mode": "buy 1",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90190",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90220",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90220",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90240",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90240",
+      "mode": "buy 1",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90240",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90260",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90260",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90260",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90280",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90280",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90290",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90290",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90300",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90300",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90300",
+      "mode": "buy 1",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90300",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90310",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90310",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90310",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90330",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90330",
+      "mode": "buy 1",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90330",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90340",
+      "mode": "ante 100",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "antebet"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90340",
+      "mode": "buy 0",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90340",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "8117",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "8167",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "8179",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "8199",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "9134",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "9141",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90020",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90160",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90180",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "No independently observed closing balance in the reviewed Iron Dog demo evidence",
+        "suite: suite local prerequisites unavailable: [\"suite_missing_source:provider-work/mocks/irondog/harvest.py\"]"
+      ],
+      "game": "90210",
+      "mode": "normal",
+      "provider": "irondog",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    }
+  ]
+}

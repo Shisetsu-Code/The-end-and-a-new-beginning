@@ -1,0 +1,1030 @@
+{
+  "proveedor": "bgaming",
+  "archivos": [
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 140080,
+      "sha256": "9a51f2ebc7139342bf10aecec4afbeefbdbe881c73e9706a41052790fab0a525"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 451643,
+      "sha256": "c754fd0f0bd61f842a4ab958e87eab4bc652033e9d2c7e1a9168ca8d1a682800"
+    },
+    {
+      "ruta": "evidencia/bgaming.json",
+      "bytes": 796703,
+      "sha256": "151ded6ef1693505261aa35ffbe2de20510bf1aa5259f01504aeff5be12b7539"
+    },
+    {
+      "ruta": "evidencia/ciclos-historicos.json",
+      "bytes": 7427,
+      "sha256": "a619a8855e8c34eb2d8a0837743a89b02646d34a9946c275f1390fb044cc2622"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 140043,
+      "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 147112,
+      "sha256": "31bf2df3fd7041be858b3c211ce0367448fb5197f0edaa4ca7e3557d145d987a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/bgaming/excluded.html",
+      "bytes": 7408,
+      "sha256": "af44c5c056ecc4e245992a9487fadb15dd93e51d8e440b5033ca3c736cce57d9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/bgaming/index.html",
+      "bytes": 96919,
+      "sha256": "b748378b984f3989a9778da1fd239dba59854fdc26863dbee4ac1db7a487dcdd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/bgaming/summary.json",
+      "bytes": 374357,
+      "sha256": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/alice_choices.py",
+      "bytes": 3146,
+      "sha256": "05c1973b26525d4d124704b01be0a198a0311dcca939e2cfdf2182b069f4cdde"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/all_lucky_catalog_report.py",
+      "bytes": 5448,
+      "sha256": "2418956d0de0c7c32994b6ef968585f20564cf1babb36172fe704c42bb37effe"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/all_lucky_variants.py",
+      "bytes": 15062,
+      "sha256": "655699eed37b576fa227e4d04bb51d22e302f23141bf6b44ed0932f4daac4264"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/analyze.py",
+      "bytes": 9083,
+      "sha256": "859d66af6e973bd16ca0213f6f3a2c512ffd87ea1949074f6ab0510285c4926a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/audit_live.py",
+      "bytes": 20040,
+      "sha256": "c112115c2a69c8c46bedfccb8db6525dd0c938834e08fd98b5c0cd39b8e219a7"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/blackjack_extra.py",
+      "bytes": 23789,
+      "sha256": "30d278433ca21fae57188198e5df05af238b0f95f90e42dcfc3a3edba1bdcee7"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/bonus_choices_extra.py",
+      "bytes": 25761,
+      "sha256": "0f79db9162462fa3a1f639fdae82c8df9a6f95361cdf4be37e86cda92653a193"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/cats_choices.py",
+      "bytes": 2090,
+      "sha256": "5db6023b66406ec194dc7b164f0654a5537f711f82963d0392b1221a83421e98"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/check_interruption.py",
+      "bytes": 3012,
+      "sha256": "2d02930cc8e260e60ea9f3eb1b2f1fa5f660c29fbca6eb1f8cdef0cb5de223f8"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/checkpoint_guard.py",
+      "bytes": 769,
+      "sha256": "71800b7d53c512c146d1533a785acf15197dbd0a72e534e6bb00ecb84a803cc9"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/classic_gamble.py",
+      "bytes": 2956,
+      "sha256": "527d5280b71ac6e904009d946f6177a4f1e99449bdadf06a8450cd309b7ce090"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/classic_heads.py",
+      "bytes": 2862,
+      "sha256": "756190cdf478acea529a103c94bed84fbf87f30971fb5b4fc057a45f85c92ee8"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/classic_plinko.py",
+      "bytes": 2825,
+      "sha256": "d296a7a78493afc2f02bf9e9ad59799644b6bdb1c97db4d6ac1f6cc6d4704cd3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/classic_roulette.py",
+      "bytes": 4024,
+      "sha256": "65b71627b0e9485466ed1b70b4e8208cf365fb6cd3a99f4f6a0837dd7bf81df3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/classic_slots.py",
+      "bytes": 1510,
+      "sha256": "a72cbf0019fc98477d2ccf5c67b918c8e81689741a7b4ada94e83e2f97c28bdb"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/cocos_adapter.py",
+      "bytes": 4556,
+      "sha256": "351b30c119da62a21edcb8d160078974614da41964e8bec7fd0a82264396a329"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/cocos_audit.py",
+      "bytes": 4576,
+      "sha256": "c0b82c36b54c73436a276f5df6b336f140e1d60a09853984d47da887830cc8bc"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/cocos_finish.py",
+      "bytes": 2749,
+      "sha256": "11a4e663692e8cdbf0911e736c719a44f609d1fe73538b4b8afe2ce0a29d0336"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/cocos_metadata.py",
+      "bytes": 5861,
+      "sha256": "fb13dc2f0277db0e4c1eedf6f0a5b3586142f206ac91e29be0044390fa2b0fac"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/cocos_probe.py",
+      "bytes": 2254,
+      "sha256": "10dcefab7cd93d5e52a291c70bdd23da8de6bd647de267d97eea43ad0ff5fdab"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/cocos_rpc.py",
+      "bytes": 3632,
+      "sha256": "85b15137655b33185e49a0fe72da4fb3a7e35440341443e6f00a93afb17d5a77"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/collect_catalog.py",
+      "bytes": 2715,
+      "sha256": "d1fdb76ae530c78efb233e57e26bfe961abea2b03b03e4383dd09a6ba5b54aa3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/continue_all_lucky_received.py",
+      "bytes": 16373,
+      "sha256": "f9bd51cfee144fe03df644f403b708bb0059f307b8e47c0ff725b4501edec1bb"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/coverage_live.py",
+      "bytes": 1543,
+      "sha256": "e1a2cff894684c64074ffb6102e48bde13703d710d4a5e996ffb2a5b9f11e6f6"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/diagnose_all_lucky_redirect.py",
+      "bytes": 9902,
+      "sha256": "f2b89bf1e8deed696235be06ed13dd0ce667774e1db43c71f723388d5b241b91"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/enqueue_prepared_v2.py",
+      "bytes": 4825,
+      "sha256": "4158d95e17a5c4df1ddb17c0add02105a1ffd5958d786d99e7895c338d0b9316"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/explore_bonus_extras.py",
+      "bytes": 3458,
+      "sha256": "8ad2b3736b7ce696bce17d296a1831e5ee7b903dbc20eb4dad59a3d34ddd5c2b"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/explore_classic_gamble.py",
+      "bytes": 7174,
+      "sha256": "b562be37c6382ab96b7d174450781e919e771f2e22f3cc18043e66159acc4377"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/fetch_legacy_source.py",
+      "bytes": 1032,
+      "sha256": "276476d2263d9dde0fee6222eeb5270550e0aa6ba5873606d5b69de502e6a3e1"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/fetch_static.py",
+      "bytes": 1057,
+      "sha256": "a1c24846347193e4e36ee99b07a4b058c9ddcc3cc68584c25046a0249f1d4702"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/final_rpc_pair.py",
+      "bytes": 19195,
+      "sha256": "543b83ff54896ea91049465cedbcbe223bb677d4451c3f1ae56a6dab03208889"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/finish_chicken_fire_bonus.py",
+      "bytes": 10663,
+      "sha256": "b63942a5f6d9174f3ec8059b549910fb40fa5f9e7d4bc2a2f265eca22ed1b59a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/finish_dig_conditional_choices.py",
+      "bytes": 18040,
+      "sha256": "eadf50946db70fbc062e3d83dc62ea5927285e6140768376371a67462db05283"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/finish_lucky_dragon_controls.py",
+      "bytes": 13137,
+      "sha256": "b3a228a40100cbff34ba7249bcd3b7460d96cdae9cc7daae01eea15f96639b8d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/finish_scratch_funded_modes.py",
+      "bytes": 3986,
+      "sha256": "5a00508103eec5ed1c08d867af41fe315c2ac812b7caec4e5e736385151b056a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/finish_v1_feature.py",
+      "bytes": 5347,
+      "sha256": "51a24896a617f970a4df1e8a8f743ca618a48ea9a58de954e80ab5cd04e5a13e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/flat_rpc.py",
+      "bytes": 3714,
+      "sha256": "30712076d90147e2a8d4091862d44a5bb6385e68a28154fd244af07ff6d4cbb0"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/four_modern_slots.py",
+      "bytes": 18752,
+      "sha256": "70c3942e6d81792fef48203ae6a28e028b4f7f2663845e054ce0ae4b5fb71840"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/freespin_types.py",
+      "bytes": 1665,
+      "sha256": "c9e00f1b7687d8e2e2d4cc744db528f7b5cf08f752ef3d0249f29b762d6914e2"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/gold_symbols.py",
+      "bytes": 3177,
+      "sha256": "4a9ffa049286befd9e39dd9ab4e5a16c6ef300eaf93dcdf0e21b5ef3cc86e10e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/hyperhive_adapter.py",
+      "bytes": 19833,
+      "sha256": "354203eb3e80dfaf1d60fe9f8e6fcb302cf785e12024449379c80e0292c8750d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/indexed_rows.py",
+      "bytes": 2271,
+      "sha256": "82c2ab40901b731cd0c708e3f64f9c84455464e861e887ba39530049d6e7e08d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/inspect_client_sources.py",
+      "bytes": 929,
+      "sha256": "431e63e25560139f269dd9ba545294ce8823a13aa45c5263cba0c9380c9695e8"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/inspect_har.py",
+      "bytes": 179,
+      "sha256": "352f784dc8ee87f79115ca1fd9d6ca80dc14140b29054230ad6b66a1dbec5fd4"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/inspect_launch_protocols.py",
+      "bytes": 1164,
+      "sha256": "b6c09200f88874074d02e4cb65c59e957a238738637324151c8d367958fab2d3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/inspect_rpc_frontends.py",
+      "bytes": 1911,
+      "sha256": "6d8fab34b1473c4d0617bd7dbf7b0b85a6c51b07223a31b1e69c4476e64107c5"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/legacy_metadata.py",
+      "bytes": 12819,
+      "sha256": "cae961b7397c26e8202ae2b574908edd4500dcee48f0ede41162ec682c509a72"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/legacy_recovery.py",
+      "bytes": 5342,
+      "sha256": "dba297885fcba23bcff4a196b1da95af45d38a2147da19347e37cb84e3d78c65"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/limbo.py",
+      "bytes": 3123,
+      "sha256": "8e4c4e5033ed88260741a75e4026cb20e363da91f2e6d8b6baea668fdba5e45d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/line_count_modes.py",
+      "bytes": 2774,
+      "sha256": "0f033953570693974217c4af077f918a61033ae2cdf9947f5a8ff2484ab1c63e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/lucky_birds.py",
+      "bytes": 4646,
+      "sha256": "d5baa14afb36d1e4ab1770ec846a724e2ef1e4454377e6b64be02659053822c6"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/lucky_dragon_controls.py",
+      "bytes": 2221,
+      "sha256": "26956982b62d93e28b7d9c3dd1efac31cb6410201116aa261f6279eaf1f818e0"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/native_modes_extra.py",
+      "bytes": 42538,
+      "sha256": "3f505e079a4777ac5be2dff362d26bc6599011c1b1db9a2c849c50aa484a259d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/native_play_modes.py",
+      "bytes": 3409,
+      "sha256": "6b4a638fb5e18488721acd10b0e46e9547e71fb1713a95097c6a4dc716c24bf6"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/native_tables_extra.py",
+      "bytes": 13709,
+      "sha256": "3f2967c7acc4f5cc8408cfea337cbc16052a70b08108511d9b10c17161f33161"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/native_variants.py",
+      "bytes": 4539,
+      "sha256": "c70630e51cd0fa64f1c72fbe12eddb3df4045ed9f16e1fbe6a6254881c059a84"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/observe_all_lucky_once.py",
+      "bytes": 2320,
+      "sha256": "b77361da506bfa1c34c8ced60e62b31c0ed6e13f39af5e90574c9da2e5721207"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/oga_classic.py",
+      "bytes": 4795,
+      "sha256": "bf11cd8e1ad8292d8e40235b397ab63f52a47e6d47b568cc9c48ae10a5026d01"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/old_slots.py",
+      "bytes": 7072,
+      "sha256": "d5f224862fefcfa3c151a21745901e029cd1ca02aa9d2b17aec3e9c32246928a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/prepare_classic_slots.py",
+      "bytes": 2145,
+      "sha256": "de5bfb0e6339421ba626bd79b10992016b53bcd81c6045aae84d4d53509a6fc6"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/prepare_custom_entries.py",
+      "bytes": 2301,
+      "sha256": "348e2cbfbdf4254d4c27ad2e2cf1391b362271d2e9f6ae262506acd40a5d3fce"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/prepare_native_clients.py",
+      "bytes": 1396,
+      "sha256": "3a1ce1f2b15bc3401dda970931e998a8a18c0a36a4ad4e2220ce24d4b324eff3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/prepare_old_slots.py",
+      "bytes": 3333,
+      "sha256": "d723ac6951ac87006d40559fd20ebcefc51a8698a05ab7f185c7004cde11529a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/prepare_pending_sources.py",
+      "bytes": 1318,
+      "sha256": "140d8658cf6238563a164e0b19d4a21df8dfd357ffb31b571ffe2d4f8f948391"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/prepare_price_retries.py",
+      "bytes": 3369,
+      "sha256": "65dd46329f9efa49367bdedcaaa293ce1a05fd80784818c664fcaa9de978616d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/privacy_live.py",
+      "bytes": 1349,
+      "sha256": "9489101b30be5072c4de1282202e07e3e85313a7891ad544e065ccf304cfc034"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/probe.py",
+      "bytes": 179,
+      "sha256": "352f784dc8ee87f79115ca1fd9d6ca80dc14140b29054230ad6b66a1dbec5fd4"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/probe_classic_gamble.py",
+      "bytes": 2699,
+      "sha256": "0f9214defb730fc5500fa2dc7f2d32d4ca6021523ecf4b8e5fd7156dc5dbcb13"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/probe_old_slot.py",
+      "bytes": 2155,
+      "sha256": "f64afa7576e0353b44c5943ba10804215b69f5841cd745e4715d31ff47276a2d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/probe_v1_feature_buy.py",
+      "bytes": 3867,
+      "sha256": "44d739881cfb627b13296694a40ae344742d59fe186ef68be5804a044827d726"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/probe_ws_bootstrap.py",
+      "bytes": 4359,
+      "sha256": "ce4b25d424ef4c532c4d79b754887473aaeb6c9f1929386d7cd3d322a7d3b2c1"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/product_round_rpc.py",
+      "bytes": 6129,
+      "sha256": "03397fda4e1155ba80ebeaafbe4076bee687447652dac4a8981ffeecc6667995"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/publish_financial_revalidation.py",
+      "bytes": 3212,
+      "sha256": "c250aaef10d057a603ba0c11b5c01c226cbdd4ef3e9a3fa8b772f3a52907b5ae"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/read_qa_state.py",
+      "bytes": 2768,
+      "sha256": "05b27f4845f0d9a0a005654862fa4b519b9f88c1c1207fb1a9d191f0245c7470"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/record_oga_closures.py",
+      "bytes": 2836,
+      "sha256": "f0db3a754700a44c52fc06a7f2383c611676b4458d55fd55f7af0eb335dde597"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/requeue_bootstrap_only.py",
+      "bytes": 1710,
+      "sha256": "080828b87339995d17a20e73055e724a25333a0492312532af28fc09fce260ad"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/requeue_cache_query.py",
+      "bytes": 1696,
+      "sha256": "04c8b5a320a1c997db029acc9db953f8b64a1ee6603872beeeb7d1b1c63a9e85"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/requeue_classified_preplay.py",
+      "bytes": 2691,
+      "sha256": "d5a7d124cf39be308d007413a41d4cb5c2ee953988860e7c4b2be86eba1aa4a3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/requeue_init_only.py",
+      "bytes": 1939,
+      "sha256": "8a05f012ee87fcad52d71bc53c54300b8efdc105276c454e0cd66f9d5f05f53e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/requeue_prepared_protocols.py",
+      "bytes": 2828,
+      "sha256": "096ad029006acd3e97d4226dc14f57c0160358d35dbd7bc2686acdc97015ab90"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/requeue_verified_recovery.py",
+      "bytes": 3143,
+      "sha256": "0d3225a721b74e3e11732cc1bb0eb211f22a19d5bcd8f4aeda57fd57cf2f1754"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_alice.py",
+      "bytes": 3970,
+      "sha256": "c78864b8cf990465c94619fd3a4ccd72ce3283b4d7b31ab7e1fc134a82b276e6"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_baccarat.py",
+      "bytes": 4046,
+      "sha256": "a64308cac1fc0eb0658cd720d8e556313f6299734bfadfdc181bd04588987024"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_blackjack_received.py",
+      "bytes": 8491,
+      "sha256": "5641f3a27c6ff91c03da4f9329271eb2c1a629bd8d8e88ac4abac0eba0ccec43"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_bonus_extras.py",
+      "bytes": 4891,
+      "sha256": "a135eac33fc1b96134d955ea0f60fdb06c4483d3b1de8be8a0c11703872ec2de"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_cats_choices.py",
+      "bytes": 2877,
+      "sha256": "db923837defc81ebd42cc1b98f6b4b4566b99de6e9fae52e44686154077f26d3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_dig_choices.py",
+      "bytes": 17727,
+      "sha256": "96cca0618dbfbda80ba37fed87cd61bbcb40863615d999f36d8440d63317081b"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_dig_received_close.py",
+      "bytes": 14421,
+      "sha256": "cf9a52e87419aacf1b2cd85d3437cdf79d9d7d34dbd406a39c9c01741b46f6de"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_dig_received_closed.py",
+      "bytes": 15197,
+      "sha256": "e773370d4fda4df0b3865350a6f1edab0d2c4dfef59dbbfec2bab29dbbd13011"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_freespin_types.py",
+      "bytes": 3107,
+      "sha256": "581b15c69f29f78c5e2ea10ee95fcabb565d38a9328c859d1fb06bc6992cfa86"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_frenzy.py",
+      "bytes": 5418,
+      "sha256": "bb4ce5bb70f1a180fbd0c2d2d65e9ed8b15084aafb6e585f04485e1be57fb069"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_gold_symbols.py",
+      "bytes": 4662,
+      "sha256": "a204ced4ea2db848ff1e36ad2814e2f22e5162ea3280674593ccc80397a8ff02"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_jungle_received.py",
+      "bytes": 4079,
+      "sha256": "ddf3b8dc1575fc8e07cb867266d8890ea66a0e43a9c1ce7fee90bbd1a6517c42"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_known_bonus.py",
+      "bytes": 2998,
+      "sha256": "31b350e0190ae9b4f6b38e2bfe589bbe4af53719498a26d94d2566e13bafbb6c"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_lucky_dragon_controls.py",
+      "bytes": 2458,
+      "sha256": "7550ccea5aee8bf92333cec56cd64f7fd7d6664de3136b807ef577f4a3eb365e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_native_received.py",
+      "bytes": 4173,
+      "sha256": "4710f4f7fae02ed27b65d0bb1368560de92280a3a3bff46211eb29d29f9a8954"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_oga_combined.py",
+      "bytes": 6662,
+      "sha256": "c864ab001a6d2e6ee35f8f8f3905b1fe3cd6062c9521172901e1dd7a6585b1cf"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_rocket_received.py",
+      "bytes": 3152,
+      "sha256": "56881c319b14f627a1914513baf157abb123db505a04aa3c6f49fb42d833f20d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_rows.py",
+      "bytes": 3681,
+      "sha256": "5be938efcf8df2116557da0bd59d72e89d3a2d9a52ad45f489e28c69b68a86cf"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_royal_roulette.py",
+      "bytes": 2551,
+      "sha256": "d21343058467c2ba077c1d67d885811e2e0feb1abf3df20deb77296ed4f82990"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_star_choices.py",
+      "bytes": 6078,
+      "sha256": "f4205545b41f72ece45a10eed6a908c4089faa933b222b2a91c602870225cd8d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_sugar.py",
+      "bytes": 4450,
+      "sha256": "5cf304d5320da191c56f3ed9816221b499a6c83ec67e136b4b1c046a090d8b3d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/resume_yommi_received_normal.py",
+      "bytes": 9356,
+      "sha256": "b0471dd8cdce759625cbd3da8f3ca096e08aad46ff625dd7b5ed00f755c657d5"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/retry_conditional_modes.py",
+      "bytes": 17518,
+      "sha256": "acbeef3a117d4ee840ba40d040e8389f14d77bf8153894ccbed5cf1321f1d147"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/revalidate_financial_slots.py",
+      "bytes": 9198,
+      "sha256": "9df6887c74feef64c308ab37869caa3aab1c9eff04eb7256fd892163bcd09aa4"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/review_pending_sources.py",
+      "bytes": 1171,
+      "sha256": "52c1e1f286b9b69962f915fc3b58a3f1980623f4f5b89f81ec16c1c24bb58d5c"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/review_remaining.py",
+      "bytes": 13303,
+      "sha256": "6818eaddc5acfbe2a1bff50ae9259c5ba0503bcccc1e56d56f29cd580032d8b7"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/review_rpc_resources.py",
+      "bytes": 3030,
+      "sha256": "478312a68f18cd6ef7cd76cfe4f56aac33ed2721f36430e54bcecb58938cd13c"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/royal_roulette.py",
+      "bytes": 3789,
+      "sha256": "1e93467d5ea03daa5bd909e82b5039a130fc38b2dd42babebc3fc657b073f015"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/rpc_audit_hotrocket.py",
+      "bytes": 6115,
+      "sha256": "e9227ffa0e11e7b1b306a893f6090731ec7c8f8ea52f00dabbb339bc1acf458a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/rpc_extra.py",
+      "bytes": 28972,
+      "sha256": "9a44fc0591659c6285c76fa2770e535b6130b7d6a6992b23ed1d9cf39f46ef0f"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/rpc_finish.py",
+      "bytes": 1368,
+      "sha256": "84982bd0ee6a45708d0471d777dda1f60bcbacb7ecf9d5e242f055f49fae839b"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/rpc_hotrocket.py",
+      "bytes": 3490,
+      "sha256": "783a8cdf5f788a49758a4e4184c0f826f74a2b7b5c457fcd466a0109ddc3fa44"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/rpc_probe.py",
+      "bytes": 3489,
+      "sha256": "2095bcbb94c0f05b3a57b2af63f31748668745be1aae35e3bab0009e48fd7936"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/rpc_source_pins.py",
+      "bytes": 6090,
+      "sha256": "ce71724adebf3c5fa8713ad43754f5aa5d3f3e62b46cf225ccf0395f7f52bea3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/run_all_lucky_variants.py",
+      "bytes": 7506,
+      "sha256": "03f2d6213d05bec114fb3a500412fa9c97a4fa5d58b3efeaf967f001c5a94b4c"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/run_demo_qa.py",
+      "bytes": 39416,
+      "sha256": "191c0691235acf1ff25e9deaba26efefc934abf539161b681df887510ca13157"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/run_finish_lucky_dragon.py",
+      "bytes": 9417,
+      "sha256": "ba003228d91056e93a967938a28567ab16ac396f724fd107453d93909df9cf7d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/run_lucky_lady_cards.py",
+      "bytes": 17803,
+      "sha256": "88d51a2eba8282d09affd4c97fd3ec2ab1b3e2167ed544334aebef2eb0bbc3dc"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/run_remaining_oga.py",
+      "bytes": 4137,
+      "sha256": "c704b4a0c363bf7061543d88e623e1dfe4004521761380589c407179ebcae985"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/run_wild_moon_manual.py",
+      "bytes": 19674,
+      "sha256": "a580566f05a15b1655b7307cf75dfda229cf1455dc9bcbe7a98cd77055613ee0"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/scope_slots.py",
+      "bytes": 4224,
+      "sha256": "ee345446efa6955815e59cdab9ef1345a6e9b6909a5e2bc940aae237210af5aa"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/scratch_packs.py",
+      "bytes": 2782,
+      "sha256": "39b1e93c637a75d4779df772efb766f2fa7766ca7d6743cad45645a4752b97e4"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/snapshot_qa.py",
+      "bytes": 4650,
+      "sha256": "a6089f6e65c02efcea93df55cbb44672b9b17ecf27e4b86dc0daac7381a11d5f"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/star_choices.py",
+      "bytes": 3760,
+      "sha256": "075ae836cf8c9190d9314d4d07f4b4b6f6cd4feb7db451af225cec3e2119fc32"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_alice_choices.py",
+      "bytes": 2027,
+      "sha256": "ff9db1a29662a920e29aa84e8693b05174aa9d13dbd4f512a968228380329797"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_all_lucky_catalog_report.py",
+      "bytes": 537,
+      "sha256": "447474952e315e54e5f379b84e2e487deee46b3e2aa5867ee7d08c39cb3cc976"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_all_lucky_variants.py",
+      "bytes": 10125,
+      "sha256": "dad46d7e7ed2b1ac7f9c5cf1f429f47752f9612936cd08018c20140ff8cbd9ec"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_analysis.py",
+      "bytes": 2250,
+      "sha256": "387f48eb6be19aefdda559227ff11b0c6b9b7431634ec11519203f8c10e27aeb"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_blackjack_extra.py",
+      "bytes": 14115,
+      "sha256": "88bad25d5b77ff651d04b5de049408a024708c28bba188e5311c4053ec7ef2bb"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_bonus_choices_extra.py",
+      "bytes": 15109,
+      "sha256": "11e9547b45b84c0ff96d85577d19cc01d321c6b902c28abde332b0d0d8b64886"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_bonus_extras.py",
+      "bytes": 2443,
+      "sha256": "5d77e99350afd4a443a91c6d7e35718900c7b891f7dac4b28f371d6f73927a3a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_bootstrap_retention.py",
+      "bytes": 829,
+      "sha256": "7edbd9c98e0ca90c5c8906608b40ca8b33a1c72cbcc145998b9ed94eb3df07f1"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_cats_choices.py",
+      "bytes": 967,
+      "sha256": "5f081183b9d5a50ce9759f0862f6d9898fd8ff9ee64f70a3c8faaef0bc2b885b"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_checkpoint_guard.py",
+      "bytes": 1162,
+      "sha256": "ea2a9f1c441517291e02df57551c5bd7b30e8fd6e0977cacaadec9504504a369"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_classic_gamble.py",
+      "bytes": 2045,
+      "sha256": "f5009455c072d1e4d63b3f466b2439a040c26017b9257e6a9a844d6863a42db1"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_classic_heads.py",
+      "bytes": 1109,
+      "sha256": "844c478f4d575a6314e1589e2bffadec0a0ea6c6866958a866f3090d29c17d36"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_classic_plinko.py",
+      "bytes": 1759,
+      "sha256": "a0d66ce39a2052602eb64b8a97542b59bce030190f645ef533d86c671aad5340"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_classic_roulette.py",
+      "bytes": 1038,
+      "sha256": "b91730a39b3e666ae9e14c0623569e8c50acf0a458e87559f497e323b7613e2a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_classic_slots.py",
+      "bytes": 747,
+      "sha256": "b8c0063fd43b08eecb755113aeef985faa9f623a1fa11b7ba4337da3d55fef04"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_client_routes.py",
+      "bytes": 861,
+      "sha256": "63baf8385178078119b2e4973f13e23769fea3ed98cd280fba0600bb8367088a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_cocos.py",
+      "bytes": 1965,
+      "sha256": "196f344f4fec8236b979c6f4432e17acec8a23e268f6c78289e875c8af01b0f0"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_continue_all_lucky_received.py",
+      "bytes": 8859,
+      "sha256": "a35923ffb7fb914ada7b339b51b6ec5dc965aa397637f40ffbcb381468549834"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_diagnose_all_lucky_redirect.py",
+      "bytes": 5637,
+      "sha256": "d37bc5a123ddba08a2d5cf72c906959396575de32dcaaf0fb25f20c82e81a91e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_dig_native_audit_extra.py",
+      "bytes": 3289,
+      "sha256": "27ec35f499acb75ec6735a891fec1b1f1c809045837f1b6f4e3777a12cf90aab"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_final_rpc_pair.py",
+      "bytes": 7762,
+      "sha256": "160a18fc70f29486130d39c212dc6f1a43a4548b48d09a75c317669632b32a3b"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_financial_revalidation.py",
+      "bytes": 2859,
+      "sha256": "a1b8cdeb89d147499c9b041655b7ce31f89b24e12bcaa931de455eeb11770d40"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_finish_chicken_fire_bonus.py",
+      "bytes": 4899,
+      "sha256": "73a7242c2843aca66a753ef9e5f0e6ecd2a5baf216e4cc8fdbdb957a26506adb"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_finish_dig_conditional_choices.py",
+      "bytes": 7901,
+      "sha256": "be79ab24dd663898d9aee71186553545e37b83257410264ec12409a04145f881"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_finish_lucky_dragon_controls.py",
+      "bytes": 8340,
+      "sha256": "53c716d88a675029ceec0a89bceecd81f42b6c45d2d30f3ba4e947a88629b585"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_flat_rpc.py",
+      "bytes": 1146,
+      "sha256": "346c8456332cff1959b8f03fb2a28eac89a792f4c104db6e98ef4fb4c0ed91cc"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_four_modern_slots.py",
+      "bytes": 9372,
+      "sha256": "89c5bed238dd27fbcf6a42bb70d8fbc6ec81ab3626ae94e9057e29e78ca39f00"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_freespin_types.py",
+      "bytes": 2302,
+      "sha256": "251e6247347e8eae486fa3c69ffb40926a3ee865626450d2fef03721b7288af4"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_gold_symbols.py",
+      "bytes": 1511,
+      "sha256": "c621b2d6acfb0aa6ed5498751cd9804dc1a45fb4defb09de1b528b5b65086979"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_hyperhive.py",
+      "bytes": 2670,
+      "sha256": "4b8e528115af65e7c01e9612dab1ffc834f90c17f9c79188f10c05789dc66f27"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_indexed_rows.py",
+      "bytes": 1268,
+      "sha256": "e03724311aa409b3bbd156507970adaf4691ffa5ff87279e3e776e835898dcf7"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_init_refresh.py",
+      "bytes": 1820,
+      "sha256": "5f62f411e7105baa3613bf181c125d421e9673cdaf8241faea7bf7662570f40c"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_limbo.py",
+      "bytes": 1087,
+      "sha256": "b61db7f0bcac7533ddd629e930c9fd7e1f19785e442fd50ef3213f55288f9b51"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_line_count_modes.py",
+      "bytes": 2347,
+      "sha256": "264f78061f0e13f0b7cb6c44fb8a6764b05a5458938a1ed13c51c6ada6be260d"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_lucky_birds.py",
+      "bytes": 1062,
+      "sha256": "9a79e42e7cbc9ff75425c9b8aabe8e1795957c74b0604bef3a75d877f0e68adf"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_lucky_dragon_controls.py",
+      "bytes": 985,
+      "sha256": "1c4b9f03ba751ecc2dcefdb3d7ef56e5de23bd6cec36bd057c5d49a5ebdf4fb0"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_lucky_lady_cards.py",
+      "bytes": 5988,
+      "sha256": "ac115ca9ea40e4ad3b3ca7aeea2a282c1e888ce874cb780dd57d0232417dfbaa"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_modes.py",
+      "bytes": 8988,
+      "sha256": "ad3abede65ece34f4e1d4d4a9060c265f7ed255b8b15886041a99b6eaae7708f"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_native_modes_extra.py",
+      "bytes": 32353,
+      "sha256": "bc7e0ae94bbe1d4c73ff00514e89ef45bde78bf2b422a120a89b11658d2364e5"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_native_play_modes.py",
+      "bytes": 1007,
+      "sha256": "bab548350ed5cb7096b40db605f9a546fcab268fe26d01c6d8e0aef01d30426e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_native_tables_extra.py",
+      "bytes": 12774,
+      "sha256": "66a73f3e17e0d634344a7d96dfd1a4341759c02c02b7b881309690b19458debc"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_native_variants.py",
+      "bytes": 1171,
+      "sha256": "e02517ab7d8e81e41cf431df3b471b9fe2e1a961fbcf719968f1f04ce14edf4a"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_oga_classic.py",
+      "bytes": 4980,
+      "sha256": "808bf33ae397792af22145c8df387368c01120e7cf888920cd173008ca9dad25"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_old_slots.py",
+      "bytes": 5822,
+      "sha256": "54179a1ef229784f4bb575c0427dfd846a11e0cf1eff3263e909818cf0861f8e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_portal_recovery.py",
+      "bytes": 1765,
+      "sha256": "efc1ef02bcb3a80ef5d100c811e50b184e88bf2066c84f0ed7ac91769971f308"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_preselection.py",
+      "bytes": 1660,
+      "sha256": "92cd782a03eed1667b6c6a8ddc574a8b7ba7de8343230d98e0c455fc5c29b87c"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_product_round.py",
+      "bytes": 3073,
+      "sha256": "050de9e9b186a78b5498bcecd176f90f97136a703a3cba590499a93eaf780581"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_rejected_checkpoint.py",
+      "bytes": 930,
+      "sha256": "5314265abbed091c306b1b25c2eb3ae182dbb2d379cd1534725203ff53580820"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_resume_blackjack_received.py",
+      "bytes": 5242,
+      "sha256": "a6d36802cc85dd76b14a62f59a4b59411ae977f34bc154c29fe15c6e8d153e70"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_resume_dig_choices.py",
+      "bytes": 7281,
+      "sha256": "ead0c033f324b36d0e84e6baae45119e5f56e9c45d1f1c970715b731097b4e4f"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_resume_dig_received_close.py",
+      "bytes": 5337,
+      "sha256": "99136c4172cbf82447e515ea11b44aa0fed4270a0827558bc20e790d34d91649"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_resume_dig_received_closed.py",
+      "bytes": 5804,
+      "sha256": "38b36250be725124fdc878248d8834e197a550a5463d67a0325b7e81921c11dd"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_resume_yommi_received_normal.py",
+      "bytes": 4816,
+      "sha256": "5a8efee70a905defd607b345bfee419e86ed2cec0770cf33e3461a6d37514594"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_retry_conditional_modes.py",
+      "bytes": 9061,
+      "sha256": "c5ce1f2990d4dbb7730d9fb7a22a5b80a5be612e42e85a72a63a47694f7eb1e3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_royal_roulette.py",
+      "bytes": 1125,
+      "sha256": "abcc415029ce2a0f0fc05b98ef7b73e51e2dfcc3fa1c7ff82e6c032b0c2fc624"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_rpc_extra.py",
+      "bytes": 13220,
+      "sha256": "f6a13618b5eb84bf0ff9938bc72b21eec675f63b1827ae641dd3d6c21feebd6e"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_rpc_script_entries.py",
+      "bytes": 617,
+      "sha256": "8a0249aeb25be95a3588cd53dff1804a195970bf527e5c436d74daf7a6d404de"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_rpc_source_pins.py",
+      "bytes": 4050,
+      "sha256": "7ca044fe32ed9be31f664f952bfde1939d62507b435692d726a9aa17bce26548"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_run_finish_lucky_dragon.py",
+      "bytes": 7787,
+      "sha256": "ba64bfd83034b7c8ce5d88b3e9a70cab2c0c2d67e233e00f1e9584f31ccd4504"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_scratch_packs.py",
+      "bytes": 986,
+      "sha256": "96c9f3cab9d74054e42daa627ba632abeaeb439e2fc22bfb7b6c68efb4519819"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_star_choices.py",
+      "bytes": 1861,
+      "sha256": "8ed58b3a082e3a6b3dd6827acb7ad6f97b373966e11166d8e24783b31b971d62"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_unparsed_response.py",
+      "bytes": 1125,
+      "sha256": "d6454633e6480e325ffe58bbefcb5b28c8ec27d89368332a05067a859fe489d3"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_volatility_modes.py",
+      "bytes": 1093,
+      "sha256": "bbbc8f05ea272197b04f2beb4ebbea3cd861aaac5738dbb033d0316bf7a45340"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_wild_moon_manual.py",
+      "bytes": 9061,
+      "sha256": "36bb7b1bde4891e5289f8b06c78b73772245e76dcbf9ce9bd9e65ff2408b9eb8"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_ws_crash_extra.py",
+      "bytes": 11588,
+      "sha256": "3ce8d813e1f7b74357b2f96dbbad01bf63385eb3a88d7b45c23c31f7563d85d7"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/test_ws_crash_runtime.py",
+      "bytes": 9815,
+      "sha256": "822dd02d639fe4de4d99f659a0f96b25ee6d68af11da1eaffdd3e04f9a6f9696"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/volatility_modes.py",
+      "bytes": 1610,
+      "sha256": "15375d6374135056babee547474170927e79dbd2affacc0c068693b35a4cc9fa"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/write_slot_results.py",
+      "bytes": 6862,
+      "sha256": "d2b8ec32f317566dbeba21899eca1cdb862d57d794aad77b2e92ec3cf663a9be"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/ws_crash_extra.py",
+      "bytes": 25163,
+      "sha256": "9eb35550461625ecab27e0089d74ed947b77ddd6c7a637a7d0a9ec6e70d05fc5"
+    },
+    {
+      "ruta": "referencias/provider-work/bgaming-chat4/ws_crash_runtime.py",
+      "bytes": 15403,
+      "sha256": "97e22e62ec79b998dee6afde27222c5657cccbddc3a8151817cedf0c2ccfe14f"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 622,
+      "sha256": "a86de5ace0d21897aedf9c9e5235ea70b9f6cf82c3b17dcca886cc634d2fd026"
+    }
+  ]
+}

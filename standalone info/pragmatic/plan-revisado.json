@@ -1,0 +1,5438 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmonkey",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmonkey",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50aladdin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25kingdoms",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1024lionsd",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243lionsgold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243lions",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayssevenc",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayssevenc",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs7monkeys",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs7pigs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5t8goldfp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20eightdragons",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1dragon8",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20hotzone",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20hotzone",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20aladdinsorc",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50amt",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10egyptcls",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10egypt",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs15fghtmultlv",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs15fghtmultlv",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25asgard",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs7776aztec",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9aztecgemsdx",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysaztec",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5aztecgems",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trswild3",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trswild3",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10beekeep",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10beekeep",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10beekeep",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbasblitz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbasblitz",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbasblitz",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbnz1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbnz1000",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbnz1000",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbnz1000",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5bb3reeler",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5bb3reeler",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5bb3reeler",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5bb3reeler",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbbb",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbrlact",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbrlact",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbrlact",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbbrnd",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbbrnd",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbbrnd",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbbbrnd",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbfloats",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbfloats",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbfloats",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbfloats",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bhallbnza3",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bhallbnza3",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bhallbnza3",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bhallbnza3",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bhallbnza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bhallbnza",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bhallbnza",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbsplashx",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbsplashx",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbsplashx",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbsplashx",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbtrphfshn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbtrphfshn",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbtrphfshn",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbtrphfshn",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbveg1000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbveg1000",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbveg1000",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbveg1000",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbdoubled",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbdoubled",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbdoubled",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbdoubled",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbkir",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbkir",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bbkir",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bburger",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bburger",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bburger",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40bigjuan",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40bigjuan",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12bbbxmas",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12bbbxmas",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12bbbxmas",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12bbb",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs30bingomania",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs30bingomania",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs30bingomania",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs30bingomania",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trswild2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trswild2",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mergedwndw",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mergedwndw",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfirewmw",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfirewmw",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lightblitz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lightblitz",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25bomb",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbook",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbook",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25bkofkngdm",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystut",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystut",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystut",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25btygold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bhunter",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bhunter",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bhunter",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bhunter",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbufking",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbufking",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbufking",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbkingasc",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbkingasc",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbkingasc",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs4096bufking",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs4096bufking",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243caishien",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243fortune",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20candybltz2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20candybltz2",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fourmc",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fourmc",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fourmc",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayschilhtwo",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayschilhtwo",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayschilhtwo",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbankbonz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20cashmachine",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20cashmachine",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20terrorv",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25copsrobbers",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscashsurg",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysexpandng",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysexpandng",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscheetah",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscheetah",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscheetah",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscheetah",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20chickdrop",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20chickdrop",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10chillihmr",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10chillihmr",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25chilli",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bxmasbnza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bxmasbnza",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20cleocatra",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20cleocatra",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mustanggld2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12tropicana",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12tropicana",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12tropicana",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5spjokfp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20colcashzone",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscongcash",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscongcash",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs432congocash",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mysteryst",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mysteryst",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10cowgold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20crankit",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20crankit",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10crownfire",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscryscav",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscryscav",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswerewolf",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswerewolf",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243dancingpar",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20daydead",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20daydead",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50frenzy",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50frenzy",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50frenzy",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20devilic",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20devilic",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20devilic",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs15diamond",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayseternity",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10ddcbells",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10ddcbells",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10ddcbells",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5tdragresk",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10djneko",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10djneko",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20underground",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5drhs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10dkinghp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10dkinghp",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10dkinghp",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5drmystery",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25dragonkingdom",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20drtgold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20drtgold",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysspltsym",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysspltsym",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25dwarves",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25dwarves_new",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20egypttrs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayselements",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10dublin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10dublin",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10dublin",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20eking",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20ekingrr",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10emotiwins",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fireice",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fireice",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fireice",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20excalibur",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20excalibur",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fruity2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40cleoeye",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40cleoeye",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs15eyeofspart",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs15eyeofspart",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs15eyeofspart",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10eyestorm",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs15fairytale",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fangfree",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fangfree",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fangfree",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20beefed",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20beefed",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20beefed",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10gbseries",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10gbseries",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fingerlfs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fingerlfs",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fingerlfs",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs7fire88",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25archer",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25archer",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs100firehot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40firehot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5firehot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfirest2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfirest2",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfirest3",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfirest3",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysstampede",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysstampede",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10firestrike2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10firestrike",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysconcoll",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysconcoll",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fisheye",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fisheye",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fisheye",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10goldfish",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10floatdrg",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fdwhorses",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fdwhorses",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fdwhorses",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fdwhorses",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fonzofff",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fonzofff",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fonzofff",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fonzofff",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20forgewilds",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20forgewilds",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20forgewilds",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40wildrun",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40wildrun",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20amuleteg",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysstrlght",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysstrlght",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20frankie",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20frankie",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20frankie",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fparty2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fparty2",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fruitparty",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fruitparty",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40frrainbow",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fortbon",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fortbon",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fortbon",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfuryodin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfuryodin",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysfuryodin",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympx",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympx",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympx",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10olymppop",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympxmas",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympxmas",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympxmas",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympgate",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympgate",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20olympgate",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10runes",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10runes",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9gemtrio",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9gemtrio",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9gemtrio",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9gemtrio",
+      "mode": "pur-2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20goldfever",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20goldfever",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lcount",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20rome",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10gizagods",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10gizagods",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysincwnd",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysincwnd",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysincwnd",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25goldparty",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25goldparty",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25goldrush",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs3train",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10luckfort",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10luckfort",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10luckfort",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1024gmayhem",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1024gmayhem",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25sea",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20rhino",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20rhinoluxe",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fortnpig",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fortnpig",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fortnpig",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20wolfie",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20wolfie",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243fortseren",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20midas2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20midas2",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40mstrwild",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40mstrwild",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fishptrn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20fishptrn",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25rio",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20hstgldngt",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20hstgldngt",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20hercpeg",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50hercules",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20shootstars",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20shootstars",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5himalaw",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5himalaw",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5himalaw",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20hockey",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9hockey",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20honey",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9hotroll",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25hotfiesta",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25hotfiesta",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25hotfiesta",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25safari",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5hotbmult",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5hotbmult",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10hottb7fs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10hottb7fs",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10hottb7fs",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5hotburn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40hotburnx",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40hotburnx",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20hburnhs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10hottuna",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10hottuna",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10hottuna",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs100hsandks",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs100hsandks",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs100hsandks",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20stickypos",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20stickypos",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20popbottles",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20popbottles",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20thunder",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20thunder",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20thunder",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40infwild",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40infwild",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20irishcrown",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20irishcrown",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20irishcrown",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1024butterfly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10jnmntzma",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10jnmntzma",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mvwild",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jellyc",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20jewelparty",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20jewelparty",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs7776secrets",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10mayangods",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bermuda",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bermuda",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25davinci",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25scarabqueen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25jokerking",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jokerjc",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jokjewhs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10jokerhot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jjwild",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5joker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jkrrevenge",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jkrrevenge",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jkrrevenge",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5jkrrevenge",
+      "mode": "pur-2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25journey",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50jfmulthold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50jfmulthold",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50juicyfr",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50juicyfr",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50juicyfr",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20gorilla",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs4096jurassic",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25spotz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20godiva",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs13ladyofmoon",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysrocktrls",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysrocktrls",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysrocktrls",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysrocktrls",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20leprexmas",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20leprechaun",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5littlegem",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lobcrab",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lobcrab",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lobcrab",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lobseafd",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lobseafd",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lobseafd",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lobseafd",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lbstrhouse",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lbstrhouse",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lbstrhouse",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20loksriches",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20loksriches",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fortnhsly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckdce88",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckydogly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50chinesecharms",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vssg5luckycol",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10luckcharm",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayslight",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayslight",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckymly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10forwildly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25newyear",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5lckpnd",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5lckpnd",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckyphnly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckytigly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckyt1kly",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysladythf",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysladythf",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmadame",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmadame",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmadame",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10madame",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243crystalcave",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs8magicjourn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmwss",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmwss",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmajhng3p",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25goldrexp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25goldrexp",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9chen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1mjokfp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1masterjoker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20medusast",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20medusast",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20medusast",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50mightra",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50kingkong",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20clreacts",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20clreacts",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25mmouse",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9madmonkey",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243mwarrior",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20superlanche",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20superlanche",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20superlanche",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25mustang",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10trail",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10trail",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs4096mystery",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmorient",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmorient",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswest",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs7fire88fp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-6",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-7",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-9",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-10",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20octobeer",
+      "mode": "pur-11",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10frontrun",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10frontrun",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10frontrun",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10noodles",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10noodles",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10noodles",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25pandatemple",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25pandagold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25pantherqueen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10powerlines",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10powerlines",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10powerlines",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25peking",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10lckfshmn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10lckfshmn",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystonypzz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystonypzz",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystonypzz",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20phoenixf",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25pfarmfp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9piggybank",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20piggybank",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20piggybank",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20ltng",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20ltng",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mtreasure",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40pirate",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9outlaw",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9outlaw",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50pixie",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayspizza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayspizza",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayspizza",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1dragon888",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20stckwldsc",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20stckwldsc",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20stckwldsc",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lvlup",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20lvlup",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25pyramid",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1024atlantis",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10egrich",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243queenie",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs243queenie",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20goldclust",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20goldclust",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmltchmgw",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmltchmgw",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysmltchmgw",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20rainbowg",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20rainbowg",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40rainbowr",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40rainbowr",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10forwild",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20powerpays",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20powerpays",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25rlbank",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25rlbank",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysresurich",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysresurich",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10returndead",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9ridelightng",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9ridelightng",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40stckwldlvl",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40stckwldlvl",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40stckwldlvl",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10nudgeit",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10nudgeit",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayshexhaus",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayshexhaus",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayshexhaus",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20rockvegas",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25romeoandjuliet",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscashconv",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscashconv",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayscashconv",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50safariking",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12scode",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12scode",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs12scode",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20santa",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10santasl",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10santasl",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10santasl",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20santawonder",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20santawonder",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayssavlgnd",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayssavlgnd",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25spgldways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25spgldways",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20sparta",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs100sh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20sh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40sh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5sh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50jucier",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50jucier",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50jucier",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25sleepdrag",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25sleepdrag",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25sleepdrag",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10sleepdud",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10sleepdud",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10sleepdud",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10sleepdud",
+      "mode": "pur-2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10sleepdud",
+      "mode": "pur-3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20smugcove",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20smugcove",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10snakeeyes",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10snakeladd",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40spartaking",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20splmystery",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20splmystery",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayshive",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayshive",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10starpirate",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20schristmas",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20schristmas",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20schristmas",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20starlightx",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20starlightx",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20starlightx",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysjapan",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysjapan",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysjapan",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20starlight",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20starlight",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20starlight",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs117649starz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40streetracer",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5strh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20sugarnudge",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20sugarnudge",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5super7",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5spjoker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20superx",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20superx",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20egypt",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10diamondrgh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10diamondrgh",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10amm",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs30catz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs9catz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20doghousemh",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20doghousemh",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20doghouse2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20doghouse2",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhcluster2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhcluster2",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhcluster2",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhcluster2",
+      "mode": "pur-2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhsuper",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhsuper",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhsuper",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20doghouse",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20chicken",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20stickysymbol",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20midas",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20midas",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20midas",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20midas",
+      "mode": "pur-2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20midas",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20sknights",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20sknights",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20magicpot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysredqueen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20ultim5",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildgang",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildgang",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildgang",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40madwheel",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10threestar",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10tictac",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10tictac",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystimber",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystimber",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaystimber",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50fatfrogs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50fatfrogs",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs50fatfrogs",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10fortnhs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20theights",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs18mashang",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-6",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-7",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-8",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-9",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-10",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20trsbox",
+      "mode": "pur-11",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1fortunetree",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20treesot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20treesot",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5trdragons",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5trjokers",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysasiatrzn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysasiatrzn",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysasiatrzn",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs1tigers",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysraghex",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysraghex",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckytwr",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5luckytwr",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhcluster",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20dhcluster",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5ultrab",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5ultra",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10vampwolf",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20vegasmagic",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25vegas",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs5wfrog",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildeq",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildeq",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildeq",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bchprty",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20bchprty",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysrsm",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysrsm",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysrsm",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40wanderw",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25gladiator",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mparty",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mparty",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20wildpix",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25wildspells",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25walker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20wwgcluster",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20wwgcluster",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20wwgcluster",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20wwgcluster",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40wildwest",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs40wildwest",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildwest",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildwest",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildwest",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswwhex",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswwhex",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswwjoker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswwjoker",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswwjoker",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswwjoker",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayspearls",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayspearls",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayspearls",
+      "mode": "pur-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayspearls",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs576treasures",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs576treasures",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbufstamp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysbufstamp",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25wildies",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25wildies",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20procountx",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20procountx",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20procountx",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20procount",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20procount",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20procount",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildbrst",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildbrst",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayswildbrst",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25quadwolf",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25quadwolf",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs25wolfgold",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mesmult",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs20mesmult",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10piggybank",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10piggybank",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10piggybank",
+      "mode": "bl-1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayszombcarn",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswayszombcarn",
+      "mode": "pur-0",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": []
+}

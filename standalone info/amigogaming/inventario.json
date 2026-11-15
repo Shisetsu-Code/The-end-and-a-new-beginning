@@ -1,0 +1,2304 @@
+{
+  "id": "amigogaming",
+  "name": "Amigo Gaming",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "amigo.native",
+    "workspace_adapter": "collection_extra_chat4.py::collect",
+    "continuations": "native free game",
+    "closure": "native final state and wallet"
+  },
+  "games": [
+    {
+      "id": "200",
+      "name": "lucky-mariachi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "name": "spooky-sweets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "name": "black-flag-fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_TOKEN",
+          "type": "purchase",
+          "label": "BUY_TOKEN"
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "name": "fortune-spores",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_TOKEN",
+          "type": "purchase",
+          "label": "BUY_TOKEN"
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "name": "1000-amigo-monkeys",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "name": "88-ace-royale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "name": "3-fat-kings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME_2",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME_2"
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "name": "3-fisher-cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_TOKEN",
+          "type": "purchase",
+          "label": "BUY_TOKEN"
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "name": "fortune-balloons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME_2",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME_2"
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "name": "lucha-heroes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "name": "cai-shen-prosperity",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME_2",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME_2"
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "name": "royal-invaders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "name": "5-candy-eggs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_TOKEN",
+          "type": "purchase",
+          "label": "BUY_TOKEN"
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "name": "joker-tricks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "name": "trinity-crowns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME_2",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME_2"
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "name": "book-of-zeus-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "name": "1000-moon-girls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "name": "nitro-storm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "name": "fortune-dice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "name": "3-lucky-idols",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "name": "football-hits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "name": "coinboy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "name": "88-hot-pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "name": "olympus-destiny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "name": "cybercats-2088",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "name": "splash-clash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "name": "warage-online",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "name": "mega-mushrooms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "name": "12-fortune-signs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "name": "buddha-gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "name": "fortune-love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "name": "1001-fruit-wishes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "name": "1000-olympus-rivals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "name": "vip-fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "name": "3-frozen-crowns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "name": "gift-mania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "name": "1st-cricket-league",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "name": "crime-town",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "name": "3-muertos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "name": "3-totem-animals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "name": "gods-of-sand",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "name": "3-energy-crowns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "name": "diamond-raid",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "name": "olympus-rivals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "chili-xxx",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "name": "dice-invaders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "name": "cube-guys",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "name": "5-fruit-invaders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "3-spirit-volcanoes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "name": "fortune-bags",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "name": "3-tombs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "coinboy-riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "3-fortune-souls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_PICKME",
+          "type": "purchase",
+          "label": "BUY_PICKME"
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "fortune-bros",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "max-fury",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "samurai-cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "lamp-of-wishes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "clover-hell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "dice-club",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "galaxy-chase",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "thunder-and-love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "sizzling-coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME_2",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME_2"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "moon-girls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "regal-fruits-1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "xmas-invaders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "blazing-crown-deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "ocean-journey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "name": "piggy-coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "hades-power",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "vampire-joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "amigo-monkey-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "el-dorado-fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "kingdom-crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": "joker-empire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "fruits-and-coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "penguin-holidays",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "voodoo-charms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "fruit-invaders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "alexanders-fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "candy-time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_8"
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "fruit-eruption",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "super-chili",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "olympus-blessing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "easy-cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "animal-housing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "lion-kingdom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "sun-crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "skull-coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "golden-toro",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "ali-babas-bounty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "crypto-hit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "golden-cloverfield",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_8"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "mystery-lady",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAME",
+          "type": "purchase",
+          "label": "BUY_FREE_GAME"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "beat-coin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_8"
+        },
+        {
+          "key": "BUY_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_10"
+        },
+        {
+          "key": "BUY_FREE_GAMES_12",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_12"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "most-wanted",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "destiny-dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "luxury-fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "regal-crown-100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "frozen-crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "jaguar-treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES_8",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_8"
+        },
+        {
+          "key": "BUY_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_10"
+        },
+        {
+          "key": "BUY_FREE_GAMES_12",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_12"
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "crystal-hunters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "jokers-twist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "miss-neko",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES_10",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_10"
+        },
+        {
+          "key": "BUY_FREE_GAMES_12",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_12"
+        },
+        {
+          "key": "BUY_FREE_GAMES_15",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_15"
+        },
+        {
+          "key": "BUY_FREE_GAMES_20",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_20"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "book-of-sorcery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES_1",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES_1"
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "punky-monkey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "wildfire-joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "burning-phoenix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "regal-crown-50",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "9-circles-of-hell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "nostradamus-the-prophet",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "sunshine-fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "jokers-joy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "BUY_FREE_GAMES",
+          "type": "purchase",
+          "label": "BUY_FREE_GAMES"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "gold-of-mermaid",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "epic-coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "amigo-multifruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "rabbit-bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "elephant-splash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "amigo-lucky-fruits-pin-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "eagle-wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "hearts-go-wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "regal-crown-25",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "carnevale-di-venezia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "gift-store",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "book-of-jurassic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "book-of-amigo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "amigo-monkey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "amigo-hot-classic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "fiesta-de-los-muertos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "arena",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "wanted-10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "amigo-mighty-stars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "thai-charm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "vasco-da-gama",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "amigo-wild-luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "vikings-quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "american-spirit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "mega-crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "miamix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "rainbow-lands",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "amigo-lucky-fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "amigo-double-classic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "wild-coyote",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "barbarian-stash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "book-of-zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "regal-fruits-40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "regal-fruits-100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "blazing-crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "amigo-gold-classic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "amigo-silver-classic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "amigo-bronze-classic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "amigo-hot100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "amigo-hot40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "amigo-hot20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "amigo-fruits-5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "regal-fruits-5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "regal-fruits-20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "name": "3-pharaohs",
+      "ready": false,
+      "block_reason": "historical_round_or_remote_block_requires_reconciliation",
+      "modes": []
+    }
+  ]
+}

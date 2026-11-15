@@ -1,0 +1,1137 @@
+{
+  "source_repository": "https://github.com/Shisetsu-Code/Standalone",
+  "source_commit": "02176d12635a18174e7231bf3cbe7bc61c07073b",
+  "note": "Initial imported files before destination-specific documentation and new evidence updates. Original inventory bytes are preserved.",
+  "files": [
+    {
+      "path": ".github/workflows/capture-runner.yml",
+      "bytes": 1249,
+      "sha256": "be3f0550a214d30e08d7c9d8726a87c9e85ddb338a93084b673208aee1361b18"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 108,
+      "sha256": "deb7a268774b21c6813d1319f47288c199101565f43ac114fb3bb431efa61da2"
+    },
+    {
+      "path": "capture-runner/.gitattributes",
+      "bytes": 166,
+      "sha256": "45bade6d22921166fff6284bd8afeab6e31f4c34d5da828df726bafc4ecb113e"
+    },
+    {
+      "path": "capture-runner/.gitignore",
+      "bytes": 45,
+      "sha256": "08fbf03ccfcb0362b395c79d76ab04edfde87c2c8b7ae77c519f25e53c3600ad"
+    },
+    {
+      "path": "capture-runner/AGENTS.md",
+      "bytes": 819,
+      "sha256": "0b4f99d14bb9990aa16866ec36320ecf506337401b7baa9a6b4566611e43a65e"
+    },
+    {
+      "path": "capture-runner/Cargo.lock",
+      "bytes": 63127,
+      "sha256": "63f367aa019608e5cf8f9130cc70be9c07c626d7779a8fd1ea038b7393b4f7a2"
+    },
+    {
+      "path": "capture-runner/Cargo.toml",
+      "bytes": 1099,
+      "sha256": "ecc65ff869d2a079127a79592a871a60b644215fac6bcda41bdd1f0fce7bb96a"
+    },
+    {
+      "path": "capture-runner/INTERFACES.md",
+      "bytes": 6402,
+      "sha256": "a018433122ce124ead539a5ac48840b823fddf9593906f99c878a6d3dd2949cd"
+    },
+    {
+      "path": "capture-runner/README.md",
+      "bytes": 11039,
+      "sha256": "f167778d9e685e7a314e737a07febba57c2f3f1294d6d2e86ea97bce163b1e85"
+    },
+    {
+      "path": "capture-runner/bindings/1spin4win-extra.json",
+      "bytes": 4476,
+      "sha256": "97a250ad30c3795482c037ab7bc3f6fbaeb7002db01de532461627562fa913dc"
+    },
+    {
+      "path": "capture-runner/bindings/1spin4win.json",
+      "bytes": 61820,
+      "sha256": "e12f427794d6456f704596840a4236f776739c2efcc614e06cd383a5cd75a161"
+    },
+    {
+      "path": "capture-runner/bindings/amusnet-extra.json",
+      "bytes": 727,
+      "sha256": "e2928af89944d07c792af466b83fe0420a21d405ec9eaf9b1b152fd00e561956"
+    },
+    {
+      "path": "capture-runner/bindings/amusnet.json",
+      "bytes": 84640,
+      "sha256": "a97a851b027685cb43eca77ddd7bd40d8f302c6f0900e42837dec2ac5ec43375"
+    },
+    {
+      "path": "capture-runner/bindings/betsoft-extra.json",
+      "bytes": 21963,
+      "sha256": "84592ac1da6b3ad6509cd227de4c9928203f7a1c7684a1d6da00ec5cfc288264"
+    },
+    {
+      "path": "capture-runner/bindings/bgaming-extra.json",
+      "bytes": 13710,
+      "sha256": "ecfd1a6d62f86889c7802f18ecdd5e75d41e092ecd0761ab044a61131d819ecf"
+    },
+    {
+      "path": "capture-runner/bindings/bgaming-legacy-v2.json",
+      "bytes": 37289,
+      "sha256": "fdc4d8456d54b01c2e5fbd848d14a80db60cc9b0ae369fb3a7460ed90a089589"
+    },
+    {
+      "path": "capture-runner/bindings/bgaming-rpc-contracts.json",
+      "bytes": 19828,
+      "sha256": "017181332feb2efca454e20fef57514ec931a19622e0da00ecd5005ab0345906"
+    },
+    {
+      "path": "capture-runner/bindings/egt-digital.json",
+      "bytes": 92142,
+      "sha256": "05bce352b02abea6837c53b1ad2e3c59312dc3f8781dd581db806d1aba01bb98"
+    },
+    {
+      "path": "capture-runner/bindings/ela-games.json",
+      "bytes": 15239,
+      "sha256": "2afa537916d95fb68c9e754a2d05a92afbe664d97d062f493f7dc73000691ecd"
+    },
+    {
+      "path": "capture-runner/bindings/elk-bindings.json",
+      "bytes": 36652,
+      "sha256": "9937d3c131e6b627d019e822637d75606aad0bff7cf1fbe33d86fb7094379bcf"
+    },
+    {
+      "path": "capture-runner/bindings/endorphina-catalog.json",
+      "bytes": 65626,
+      "sha256": "7bb60cc832605bc1b3aab9388482ee4cf6e7c7425bb3db3a054de4cce838475f"
+    },
+    {
+      "path": "capture-runner/bindings/evoplay.json",
+      "bytes": 34421,
+      "sha256": "017ce7836280b53b0663092c1b66baa86ff97b2ef353df092b33df482bac7ee4"
+    },
+    {
+      "path": "capture-runner/bindings/gamesglobal-inventory.json",
+      "bytes": 18447,
+      "sha256": "1629221a212d88816b6d7d3af340b01bb5ee4acc5cea66abf7da1af153591279"
+    },
+    {
+      "path": "capture-runner/bindings/habanero.json",
+      "bytes": 53009,
+      "sha256": "df09a28bd04e6f079d36d36daf2d8dcbb1bb34a84398010c275bfe9fded7a6dd"
+    },
+    {
+      "path": "capture-runner/bindings/irondog-integrated.json",
+      "bytes": 4382,
+      "sha256": "86965713845e91ffa1fbe637c0e946bc96fe45de5ec3dfd116813ce7b0c4725f"
+    },
+    {
+      "path": "capture-runner/bindings/kagaming.json",
+      "bytes": 249790,
+      "sha256": "029ef4909a96814942c0b00a4074f7a4a654dd7d4125c6d1d1f6b5d486dfe681"
+    },
+    {
+      "path": "capture-runner/bindings/kendoo-extra.json",
+      "bytes": 5025,
+      "sha256": "70761beff27554ac42559086170af3c9a589fc18d5b99eb5976561ee939ccf4a"
+    },
+    {
+      "path": "capture-runner/bindings/mascot-extra.json",
+      "bytes": 269143,
+      "sha256": "9d35399820b02510821bf01f9cdce24f82107bdbe9c1bba9fb49c17f825a9e79"
+    },
+    {
+      "path": "capture-runner/bindings/mascot.json",
+      "bytes": 41642,
+      "sha256": "72419982212df2e9184b11bc98cc86393d87129fea65be980b5aae7fbfe6f61b"
+    },
+    {
+      "path": "capture-runner/bindings/netent-geco-modes.json",
+      "bytes": 6565,
+      "sha256": "858836a0dad5f715ef97e9e893c5447f7848803ed3057737f5e303d997fd311a"
+    },
+    {
+      "path": "capture-runner/bindings/netent-geco.json",
+      "bytes": 13578,
+      "sha256": "da9c89453bfd36e4a02174fb91fd4c9a8d05dad17e93ee095306fcc6e375759a"
+    },
+    {
+      "path": "capture-runner/bindings/netent-horizon.json",
+      "bytes": 42423,
+      "sha256": "94a9bb9069653300be8d2767e11bf5f321437897046d4b90d300f8e5171c7a39"
+    },
+    {
+      "path": "capture-runner/bindings/netent-launch.json",
+      "bytes": 19340,
+      "sha256": "0f5bb9dc09e5884d427ea960fbfa27efd816537926c410370e0bac0b9d842f0d"
+    },
+    {
+      "path": "capture-runner/bindings/netent-redtiger.json",
+      "bytes": 7346,
+      "sha256": "fb14357c2b2d1bd664399e154b5e800002a190081a85f282677ed8e6d1027de4"
+    },
+    {
+      "path": "capture-runner/bindings/nolimit-choice-fixtures.json",
+      "bytes": 49083,
+      "sha256": "3d29d21db565ae6b1f806c20442e5314dd943178a45cff08a2ec13843022c995"
+    },
+    {
+      "path": "capture-runner/bindings/nolimit-controls.json",
+      "bytes": 204880,
+      "sha256": "55afb4ad7d7a918260c7492e16af8bdcd85c6a85875ce1aa960ef75490f939e4"
+    },
+    {
+      "path": "capture-runner/bindings/nolimit-init-fixtures.json",
+      "bytes": 741587,
+      "sha256": "4567ac9e53ed4a1835b3232e021069aa4cc3ac550c0332e23b7c0fef918de636"
+    },
+    {
+      "path": "capture-runner/bindings/peterandsons.json",
+      "bytes": 22015,
+      "sha256": "2187fc9638130bf27a5dbe05001e92945bc2afcdf602defd3de472fc7486afdd"
+    },
+    {
+      "path": "capture-runner/bindings/playngo-tables.json",
+      "bytes": 7135,
+      "sha256": "848001c9004b8a7a2719a1114fb40a8536e2088840755c33ac82db816a494862"
+    },
+    {
+      "path": "capture-runner/bindings/playngo.json",
+      "bytes": 80896,
+      "sha256": "c33fd1e3697e6fcabf0d21161303a9779280dca2437e7141e70632b72dc9ccae"
+    },
+    {
+      "path": "capture-runner/bindings/playson.json",
+      "bytes": 99134,
+      "sha256": "dec80dc5afb11971e33af59aab61b64527918e89c4bc22cb2a2892f6d07777ae"
+    },
+    {
+      "path": "capture-runner/bindings/rubyplay-extra.json",
+      "bytes": 3247,
+      "sha256": "d81099a26af2f98f60be161046516ff213baba0368cfaf4b0a15f86b3a3c746e"
+    },
+    {
+      "path": "capture-runner/bindings/rubyplay-rp47-source-index.json",
+      "bytes": 87177,
+      "sha256": "1d602cb6e0f6ecf9d369146583d323d6da3e26c73ef1246168ef90cd9ef1f66b"
+    },
+    {
+      "path": "capture-runner/bindings/spinomenal-public-init.json",
+      "bytes": 219625,
+      "sha256": "2487196fcdea6b3007396bd8798a99a78cd2ce4e03ea4185665c918b1dc92fad"
+    },
+    {
+      "path": "capture-runner/bindings/spinomenal.json",
+      "bytes": 219839,
+      "sha256": "7ec257e35ba125da2e0cf0a9973c8ac8fd35aa1900af40b0d54ab2955aca72bb"
+    },
+    {
+      "path": "capture-runner/bindings/threeoaks-continuations.json",
+      "bytes": 36650,
+      "sha256": "ad7092bf66e2090d3935197a52d752dd9332a2b76e6e70791de6dfda0783d3ac"
+    },
+    {
+      "path": "capture-runner/bindings/threeoaks-serializers.json",
+      "bytes": 24523,
+      "sha256": "02206b0fb8539c6ebd657b25721913445dc560892838dc07015334de694c2dbc"
+    },
+    {
+      "path": "capture-runner/bindings/thunderspin.json",
+      "bytes": 17687,
+      "sha256": "76ea2bc24764e02360608726755fc213ff4db02ecad12b04998bbf5c328db142"
+    },
+    {
+      "path": "capture-runner/bindings/yggdrasil.json",
+      "bytes": 94559,
+      "sha256": "50119b56f08c7f1139bc007e3a23a79d2b83b0d2c265a3e9d72f3e0d14a8830a"
+    },
+    {
+      "path": "capture-runner/docs/BINDINGS.sha256",
+      "bytes": 4396,
+      "sha256": "d7acba6100758394407361bad3ef47eca748671effd08d07a03bc3cc0b33c576"
+    },
+    {
+      "path": "capture-runner/docs/COVERAGE.md",
+      "bytes": 4499,
+      "sha256": "e47ee837ffe67e33f801880315256244eb199de738667f911c28318cb67b1dcd"
+    },
+    {
+      "path": "capture-runner/docs/MISSING-EVIDENCE.md",
+      "bytes": 12420,
+      "sha256": "35a8d59290e41ff12653d5675d4277430587176ef734ff9f393ebbff22a07a0a"
+    },
+    {
+      "path": "capture-runner/docs/PROVENANCE.md",
+      "bytes": 11089,
+      "sha256": "c9093f5ad59f5e7a0043dd198222c65841cdc819f25df9ec88f95d290bbb4039"
+    },
+    {
+      "path": "capture-runner/docs/VERIFICATION.md",
+      "bytes": 4377,
+      "sha256": "0f21c62e271b9a0412afb46db047ad632698f4e0e8a045d8add48aebfdf894e3"
+    },
+    {
+      "path": "capture-runner/docs/WIREGUARD.md",
+      "bytes": 10328,
+      "sha256": "69aee382b921aed52c82f4a486fa48d339c8f0d43b7c4ccba8585a2d92b31857"
+    },
+    {
+      "path": "capture-runner/docs/binding-provenance.json",
+      "bytes": 58644,
+      "sha256": "8da348f0e7c989673087677440849b1852d4fa84d2775d13c7f4291b01d8511f"
+    },
+    {
+      "path": "capture-runner/docs/coverage.json",
+      "bytes": 1202841,
+      "sha256": "570a299cd9a2e837c78db8eab2d4897c34ee29bff16eb2ef91a62493fdb25492"
+    },
+    {
+      "path": "capture-runner/examples/direct-explicit.json",
+      "bytes": 185,
+      "sha256": "e0a6f2ece39ada0907302af4e2bb2938dbd9423106ea5bf93a54a370b7097f25"
+    },
+    {
+      "path": "capture-runner/examples/wireguard-directory.json",
+      "bytes": 351,
+      "sha256": "df79f0891eba1f3bbc226dfa2ff6026f2bde1983da945f22cf3fa3c1a1cfa2c3"
+    },
+    {
+      "path": "capture-runner/examples/wireguard-overrides.json",
+      "bytes": 607,
+      "sha256": "2e6179df96f11be5d461571ab245d0bfcc3df8352f40d701c897778d9a76ab06"
+    },
+    {
+      "path": "capture-runner/src/adapters/amigogaming.rs",
+      "bytes": 15408,
+      "sha256": "13e914e5e810b9846870a1708ae591aceab007f1e101dcd1d6d3d43ccf24aff9"
+    },
+    {
+      "path": "capture-runner/src/adapters/amusnet.rs",
+      "bytes": 20995,
+      "sha256": "d2aa55d7d0e71b12a0139c4ca39cbcb013f2e186b01098808997cee08768dccc"
+    },
+    {
+      "path": "capture-runner/src/adapters/belatra.rs",
+      "bytes": 12422,
+      "sha256": "6ce41619e6b3a6ef2271fb382684a6bc0570a6e5e19609b1fc74e98116b962e7"
+    },
+    {
+      "path": "capture-runner/src/adapters/belatra_crypto.rs",
+      "bytes": 2626,
+      "sha256": "0e9773bd31a1f8b63675140d3b680abd654c81d693ea1df9a9359e6d272c18ae"
+    },
+    {
+      "path": "capture-runner/src/adapters/betsoft_live.rs",
+      "bytes": 22692,
+      "sha256": "f7e176b82bf80102956bdffbe0cdba96615b6da8977bbd5c3601a1bc0ac976d7"
+    },
+    {
+      "path": "capture-runner/src/adapters/bgaming.rs",
+      "bytes": 53380,
+      "sha256": "f59c1e19f390cdfa61b70ea8faa278f9fae3fe2ada696959e5d61da085511e2c"
+    },
+    {
+      "path": "capture-runner/src/adapters/bgaming_legacy_extra.rs",
+      "bytes": 27281,
+      "sha256": "ede97a884e178cba6372076821a02cc4289c601e625fad4e6cf49672bfd4dc52"
+    },
+    {
+      "path": "capture-runner/src/adapters/bgaming_rpc_extra.rs",
+      "bytes": 62778,
+      "sha256": "ef14dfe27ce452420958b7730d90faaf01d5879bab01a005c9a61344626bda4f"
+    },
+    {
+      "path": "capture-runner/src/adapters/bgaming_source.rs",
+      "bytes": 13173,
+      "sha256": "4b2bcff767dd44ed43cf1f5ad24edd0531a187dd3bab75a40b8698a568b9c0ee"
+    },
+    {
+      "path": "capture-runner/src/adapters/egt_digital.rs",
+      "bytes": 9766,
+      "sha256": "cff7a780cf27c6727527f3aaeda69be2020214787b121c63572f4f3bd22c1714"
+    },
+    {
+      "path": "capture-runner/src/adapters/ela_games.rs",
+      "bytes": 13544,
+      "sha256": "bdbb7ffa679308c2a13ac2176eadbeaac2b22abc27a4d13153c41d62fd0404be"
+    },
+    {
+      "path": "capture-runner/src/adapters/elk.rs",
+      "bytes": 38620,
+      "sha256": "2bc1567224966fd9f68f1506e19c52300223074a0a10c9661c0bb3003d34716d"
+    },
+    {
+      "path": "capture-runner/src/adapters/endorphina.rs",
+      "bytes": 22542,
+      "sha256": "56ad6cda21cc0b6bd00cc9df1bd0a72c100487518d63e8e69c377ef34727791f"
+    },
+    {
+      "path": "capture-runner/src/adapters/evoplay.rs",
+      "bytes": 12641,
+      "sha256": "7774b7853176c616dbfbdbd31b57c625deadbe73d0dc61e965a12e1ae4551f79"
+    },
+    {
+      "path": "capture-runner/src/adapters/gamesglobal.rs",
+      "bytes": 15340,
+      "sha256": "592d15bf980551b4d88996a385ed170a33d25c01945370fd881edf2bd57b3225"
+    },
+    {
+      "path": "capture-runner/src/adapters/habanero.rs",
+      "bytes": 14487,
+      "sha256": "3b8d3f019c9a3ceebe5b0dd691f459356700da24bdb0689f1776ba6444901b89"
+    },
+    {
+      "path": "capture-runner/src/adapters/hacksaw.rs",
+      "bytes": 9453,
+      "sha256": "598362e9af8b640aaafced5a3b8daf634b4a5a0bafaacfa21c3429934e77bc11"
+    },
+    {
+      "path": "capture-runner/src/adapters/irondog.rs",
+      "bytes": 38779,
+      "sha256": "80bbb98cd20a4503a4a224340d2245f864c3ee9081657a137efb3973e55854da"
+    },
+    {
+      "path": "capture-runner/src/adapters/kagaming.rs",
+      "bytes": 15615,
+      "sha256": "1f97f644ccbcaa63422d76c066d0ae484a5c6e81c639809031c75c0327600a11"
+    },
+    {
+      "path": "capture-runner/src/adapters/kalamba.rs",
+      "bytes": 13285,
+      "sha256": "df89288af70678d442891e884954345e6b92a1d61234814f603c832e622e554f"
+    },
+    {
+      "path": "capture-runner/src/adapters/kendoo.rs",
+      "bytes": 15376,
+      "sha256": "17711301e2baa606f2229bbb8fd66f560e6a246829bcaa5566f2e3e9d8b97b47"
+    },
+    {
+      "path": "capture-runner/src/adapters/mascot.rs",
+      "bytes": 20159,
+      "sha256": "fa62acb8bac24e2e88455344dd4296a6ea20f25b8339c809f3a689cd86167ee8"
+    },
+    {
+      "path": "capture-runner/src/adapters/microgaming.rs",
+      "bytes": 9484,
+      "sha256": "75d5e146c05032d9b7a41b6d3633b4ee5d51eb47a673bc7c021839740576f126"
+    },
+    {
+      "path": "capture-runner/src/adapters/mod.rs",
+      "bytes": 6138,
+      "sha256": "3f4e024757a18ade490695f28189f61612e587723b2738562a80aeccd27dc4d5"
+    },
+    {
+      "path": "capture-runner/src/adapters/netent.rs",
+      "bytes": 1024,
+      "sha256": "4896b4bcc09d97d48dcacb3769de8af028585e2e44bd3de6b491ff91496b0c41"
+    },
+    {
+      "path": "capture-runner/src/adapters/netent_geco.rs",
+      "bytes": 14386,
+      "sha256": "4a937caa124b2ef8f540d546a172fa92fc9b503ca1178e967da019e229e33548"
+    },
+    {
+      "path": "capture-runner/src/adapters/netent_horizon.rs",
+      "bytes": 20746,
+      "sha256": "3309773acbe684eba98309774858fcc0019eb0737cad343aedb9c1434bb54e54"
+    },
+    {
+      "path": "capture-runner/src/adapters/netent_launch.rs",
+      "bytes": 11633,
+      "sha256": "a86455199f5eaf3b70c0b079b2316f02d1cce16039f9f19c655739cc73e8a397"
+    },
+    {
+      "path": "capture-runner/src/adapters/netent_redtiger.rs",
+      "bytes": 8519,
+      "sha256": "f00d9c411b01509864b245cdc14336358ace3f2f50c0dbb8a259298ffc579093"
+    },
+    {
+      "path": "capture-runner/src/adapters/nolimit.rs",
+      "bytes": 43005,
+      "sha256": "38d94bf1d875d0cf775112a735433ad7dcd5f01e43ec2206f5b06ef2293f4b2e"
+    },
+    {
+      "path": "capture-runner/src/adapters/onespin4win.rs",
+      "bytes": 10901,
+      "sha256": "c5a55a105a296898b2bdb0ff200a18aa581fcc0461ca076704e7b6bfe3cc6914"
+    },
+    {
+      "path": "capture-runner/src/adapters/peterandsons.rs",
+      "bytes": 13686,
+      "sha256": "682f3bc9571cc252624a4458e6eeb5bab0278c33112c8f8d78698580cc1f9952"
+    },
+    {
+      "path": "capture-runner/src/adapters/playngo.rs",
+      "bytes": 37272,
+      "sha256": "679e0c30c4195b33b13f034a8b3b1a58a1b1e04b72908af08a9b9f5b84a5fa10"
+    },
+    {
+      "path": "capture-runner/src/adapters/playngo_tables.rs",
+      "bytes": 35619,
+      "sha256": "9028bcea24acceec13cf89394e9a4c7f3c6fe6b8af8990d3694b8db08f853856"
+    },
+    {
+      "path": "capture-runner/src/adapters/playson.rs",
+      "bytes": 24268,
+      "sha256": "eeb6a882c2ff5b60693cc90439f28e06acdf2ec6e6fa16d2ff6fae3c9f6c8850"
+    },
+    {
+      "path": "capture-runner/src/adapters/playtech.rs",
+      "bytes": 10051,
+      "sha256": "e224db8d8c45b1f39a86e8661c0f806509086d215c1523b00db95cb908646683"
+    },
+    {
+      "path": "capture-runner/src/adapters/pragmatic.rs",
+      "bytes": 23129,
+      "sha256": "35229efb9cb18968027f0ea49a98b118b32721975325968cc20cd7d35930eeec"
+    },
+    {
+      "path": "capture-runner/src/adapters/redtiger.rs",
+      "bytes": 15679,
+      "sha256": "188cfe7c133f8653d084d986e8e226192ea55e57c9151f931f55388725d91d60"
+    },
+    {
+      "path": "capture-runner/src/adapters/rubyplay.rs",
+      "bytes": 12927,
+      "sha256": "8f28c2fb08d907c443f36e1d95109b8fea2e8cb2ca7a659804bb58f747ed1b3d"
+    },
+    {
+      "path": "capture-runner/src/adapters/rubyplay_extra.rs",
+      "bytes": 23556,
+      "sha256": "d732aa71c268fc70f60d9429af92a9b026ebb4a06fb3391bdc04d2fb2794fd4b"
+    },
+    {
+      "path": "capture-runner/src/adapters/smartsoft.rs",
+      "bytes": 15149,
+      "sha256": "390040f1372414677ccb2427a4118584a5805e8c74f96de6e27038471114b78c"
+    },
+    {
+      "path": "capture-runner/src/adapters/spinomenal.rs",
+      "bytes": 18461,
+      "sha256": "8c5df7668603a292366369aa70c0110e9268d889a2e8d89ca0214fc907a19348"
+    },
+    {
+      "path": "capture-runner/src/adapters/threeoaks.rs",
+      "bytes": 19948,
+      "sha256": "30ac6e5fd82eb3ae7f052cb3d668104170db90371e8bf2bbab40da384104b8a9"
+    },
+    {
+      "path": "capture-runner/src/adapters/thunderspin.rs",
+      "bytes": 10280,
+      "sha256": "d8db5431f618da230f34b34075f5d96f2edc92eab6944a258b12fff66f292c31"
+    },
+    {
+      "path": "capture-runner/src/adapters/yggdrasil.rs",
+      "bytes": 19863,
+      "sha256": "c21c1acc3336587477fc68788d3888f7d23de29964f393ed35e76532d8d4d042"
+    },
+    {
+      "path": "capture-runner/src/catalog.rs",
+      "bytes": 18554,
+      "sha256": "7d803196ba0a87e38d218bd14bf4c608d71a4a0e9962307cddb1b9a6cd69ea51"
+    },
+    {
+      "path": "capture-runner/src/config.rs",
+      "bytes": 11415,
+      "sha256": "2d219ddec6823c0fcaa298b62b26dc964464f08880a0986e5daf9d69d3081d3d"
+    },
+    {
+      "path": "capture-runner/src/context.rs",
+      "bytes": 43630,
+      "sha256": "776e4a35e414837be547ffd02408f783eeb3afbe891d1da7a45cba1969d9dc5e"
+    },
+    {
+      "path": "capture-runner/src/engine.rs",
+      "bytes": 15032,
+      "sha256": "19423154c5a96419cf4a54c53a6b46b507a20bbfb0989c63d99c38af5346f3ee"
+    },
+    {
+      "path": "capture-runner/src/journal.rs",
+      "bytes": 4687,
+      "sha256": "8cf7b01704a529d50ab26e22f5e04a88b6101982dc404cf4f03359f0060edeb0"
+    },
+    {
+      "path": "capture-runner/src/lib.rs",
+      "bytes": 155,
+      "sha256": "11acf5f28ced61c01eeb9304978a01114215ceea871c2232a4b14cb6dcb6751a"
+    },
+    {
+      "path": "capture-runner/src/main.rs",
+      "bytes": 4939,
+      "sha256": "e048704c2894dce126ae6007d2c3ad81632b0f2c488f560b00f501daa4a3c7ed"
+    },
+    {
+      "path": "capture-runner/src/model.rs",
+      "bytes": 9164,
+      "sha256": "d88612a5d2733400cb4daec004d82e8c160107c6523d986bc42fd0b69ac7ade5"
+    },
+    {
+      "path": "capture-runner/src/supervisor.rs",
+      "bytes": 15324,
+      "sha256": "ea695e1070ab85f4aee1c8655ad04a2f6d94a0a53eb79957b132660512579500"
+    },
+    {
+      "path": "capture-runner/src/wireguard.rs",
+      "bytes": 45446,
+      "sha256": "5400deaa251d18e50daeac6da13157e7263a2c8376b0a1ffbd57634741fbf49b"
+    },
+    {
+      "path": "capture-runner/tests/cli.rs",
+      "bytes": 4007,
+      "sha256": "cde4bf76a98e745b4636117966069a16f3a7e36b408e41fb83e2ae4ef6cbb43d"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-11-14-capture-runner-plan.md",
+      "bytes": 5826,
+      "sha256": "9cd83216cd25edeb9a2481134aca1cf3883c794e8c1687a5f622e0a018f9fc83"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-11-14-capture-runner-design.md",
+      "bytes": 3487,
+      "sha256": "3441ed5acfc2459d55e225627307b1ce67b8c66390e886f7dfe208ebb0e13dbf"
+    },
+    {
+      "path": "standalone info/1spin4win/inventario.json",
+      "bytes": 81284,
+      "sha256": "10f41fc7e507f59ed3fa5d7dc3cb73129ccf9e6d2bc7b29af3f6783b4807e939"
+    },
+    {
+      "path": "standalone info/1spin4win/manifest.json",
+      "bytes": 1302,
+      "sha256": "f5aa77bebced50b91fce491d01202b8f02059aae5ded8164ca4a558c3b0fb0db"
+    },
+    {
+      "path": "standalone info/1spin4win/plan-revisado.json",
+      "bytes": 39981,
+      "sha256": "c3c6de74ab8c23c9b8df3c465fb4a06838e05f46b4d5f7919cd779c3a41fff22"
+    },
+    {
+      "path": "standalone info/amigogaming/inventario.json",
+      "bytes": 46027,
+      "sha256": "6045577a6950fcc5caeb6c2a1491347d5e850ec0411b492245cd03ca1029dea2"
+    },
+    {
+      "path": "standalone info/amigogaming/manifest.json",
+      "bytes": 3736,
+      "sha256": "2641a5f6c9d277f7d0ce4575e2173eb924278c1f0f32e8d187f6ef157b6f057e"
+    },
+    {
+      "path": "standalone info/amigogaming/plan-revisado.json",
+      "bytes": 29117,
+      "sha256": "0c33c75416d1944bd3e1b22612e44e1ef3de6cb2b421c46480a36916dde6c974"
+    },
+    {
+      "path": "standalone info/amusnet/inventario.json",
+      "bytes": 157901,
+      "sha256": "8561962efe7b77231bc31be018308bfae3f210f5e2c27e716b83b68c8ecb55a0"
+    },
+    {
+      "path": "standalone info/amusnet/manifest.json",
+      "bytes": 1298,
+      "sha256": "f7da6a10fe374a41968bcf269cf3550c455215fcd103b57410a1aa4aa612da30"
+    },
+    {
+      "path": "standalone info/amusnet/plan-revisado.json",
+      "bytes": 105457,
+      "sha256": "f3a4b055316d3802d969cf79ab054ac7e259c1464b7e0bcca0f0129cd88db32f"
+    },
+    {
+      "path": "standalone info/belatra/inventario.json",
+      "bytes": 52139,
+      "sha256": "2808fb1e8ffe4ee985f1804a39f7e0929239b41bdc4ba615458df93c7b50cbee"
+    },
+    {
+      "path": "standalone info/belatra/manifest.json",
+      "bytes": 1636,
+      "sha256": "5f3a1c0378fc2249fd61f785b08fdcfa9843004be8836f647164ff5b6d0cb8ad"
+    },
+    {
+      "path": "standalone info/belatra/plan-revisado.json",
+      "bytes": 38878,
+      "sha256": "fe2f345516cba7ab22ea64cfc40f87753580b9c0bae7540e69a366b6f7fa7c91"
+    },
+    {
+      "path": "standalone info/betsoft/inventario.json",
+      "bytes": 122192,
+      "sha256": "3ed40ca0902478e71524a13c9ec66346849ef5f975a601d65d63342f49309b1c"
+    },
+    {
+      "path": "standalone info/betsoft/manifest.json",
+      "bytes": 1143,
+      "sha256": "828bd466bc236ca9a80f28590e53992cb12d459a1c130907ab6b78b0dcb51a79"
+    },
+    {
+      "path": "standalone info/betsoft/plan-revisado.json",
+      "bytes": 121521,
+      "sha256": "bbeadadf0c042a58fcfddeb755cafaccb4e8072b3a3842d58c6ce32bfd4f74b3"
+    },
+    {
+      "path": "standalone info/bgaming/inventario.json",
+      "bytes": 140043,
+      "sha256": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796"
+    },
+    {
+      "path": "standalone info/bgaming/manifest.json",
+      "bytes": 40075,
+      "sha256": "663c26be585a298f5ec3b4d919b2b153407634cc5fa525903752cd95ed462b8d"
+    },
+    {
+      "path": "standalone info/bgaming/plan-revisado.json",
+      "bytes": 147112,
+      "sha256": "31bf2df3fd7041be858b3c211ce0367448fb5197f0edaa4ca7e3557d145d987a"
+    },
+    {
+      "path": "standalone info/egt-digital/inventario.json",
+      "bytes": 80550,
+      "sha256": "72fc0fc5cf24bf383bdb372796bfea99526c522b4fadc945e65ed194b13a1bee"
+    },
+    {
+      "path": "standalone info/egt-digital/manifest.json",
+      "bytes": 1309,
+      "sha256": "342d880b47c5477d7e57311207ebbab3f9293891f37562184d597096e1528018"
+    },
+    {
+      "path": "standalone info/egt-digital/plan-revisado.json",
+      "bytes": 46062,
+      "sha256": "ea892e228a72ec170e23a03b615f7c89d4aa1542dd37bd82f7dda7fdbb422cc3"
+    },
+    {
+      "path": "standalone info/ela-games/inventario.json",
+      "bytes": 26273,
+      "sha256": "f11706f4607f6b1c363cdeed042ab58b810eae3b441d0c02e3bdd517ec4216a4"
+    },
+    {
+      "path": "standalone info/ela-games/manifest.json",
+      "bytes": 1460,
+      "sha256": "37a2cf0dd251ac9926f00b340820681776227023fee96a8da94dba30e4b0bbe7"
+    },
+    {
+      "path": "standalone info/ela-games/plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "path": "standalone info/elk/inventario.json",
+      "bytes": 108304,
+      "sha256": "825c22a4a8ef1a37ce3286904d06f9961b550ab8cb40b3677a2423c75fbd45bf"
+    },
+    {
+      "path": "standalone info/elk/manifest.json",
+      "bytes": 7351,
+      "sha256": "f98835334b4bbc1afa7e8cd4bb812db59aab2e02073becd55a26a18291adc3b1"
+    },
+    {
+      "path": "standalone info/elk/plan-revisado.json",
+      "bytes": 170941,
+      "sha256": "296127b7c1c07fcf8886acaabb7af8e243716b35e78ae2245efb21c61446bfec"
+    },
+    {
+      "path": "standalone info/elk/referencias/demo-dashboard/elk/batches/1-100/inventory.json",
+      "bytes": 3114376,
+      "sha256": "eed7c6061c4d04f0681a166d6f2eab116be7484b2755f069e9d1ee30393a4be3"
+    },
+    {
+      "path": "standalone info/elk/referencias/demo-dashboard/elk/batches/101-159/inventory.json",
+      "bytes": 844347,
+      "sha256": "dea56104f4510dbceab890b6b44f3808953aa7592082339c2fec32097bf89c7d"
+    },
+    {
+      "path": "standalone info/endorphina/inventario.json",
+      "bytes": 109956,
+      "sha256": "e001656d06df7eef1601fe53821b3502e2769c1dc200d5d83dcdf853b94590be"
+    },
+    {
+      "path": "standalone info/endorphina/manifest.json",
+      "bytes": 14588,
+      "sha256": "3f90b47969e7ae33d0f73d224d93a2ac553c1e02dc9470d6fb86e31fe0c50fe9"
+    },
+    {
+      "path": "standalone info/endorphina/plan-revisado.json",
+      "bytes": 130141,
+      "sha256": "094bb381a175cde3966031cffe8d02da99e7fff12a54c2b1314875d467f4f8f0"
+    },
+    {
+      "path": "standalone info/evoplay/inventario.json",
+      "bytes": 180029,
+      "sha256": "2ff12594468f2373e5a482eec99027ac6d16fab1a333eee7d5f48e1440d3e30e"
+    },
+    {
+      "path": "standalone info/evoplay/manifest.json",
+      "bytes": 1295,
+      "sha256": "90721a41f521e0d07131dff080b672feaa4fb1b7428a1d6082303bde817b31a7"
+    },
+    {
+      "path": "standalone info/evoplay/plan-revisado.json",
+      "bytes": 62949,
+      "sha256": "ab0fc2ae88932a0234ef43c5e9ef183822006c808042401eeef4a3e390a01dc6"
+    },
+    {
+      "path": "standalone info/gamesglobal/inventario.json",
+      "bytes": 18951,
+      "sha256": "5a3a10adffe008be64f0f446b41d51f1ed62d2a0c262f47c2811002d2fae3ee7"
+    },
+    {
+      "path": "standalone info/gamesglobal/manifest.json",
+      "bytes": 1321,
+      "sha256": "a3579306cc82a9f366b5e4eb723fdad4c7de741ad0ef51a428fb96c3d11a863e"
+    },
+    {
+      "path": "standalone info/gamesglobal/plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "path": "standalone info/habanero/inventario.json",
+      "bytes": 65961,
+      "sha256": "0d1a945bae4f8add14bde6bda0671324bed1e06c4c7ccc8f80f392f48ed7633c"
+    },
+    {
+      "path": "standalone info/habanero/manifest.json",
+      "bytes": 1716,
+      "sha256": "42406a22be0faffbb95cb28b1f37050731558666dfec885fc1f606574b302615"
+    },
+    {
+      "path": "standalone info/habanero/plan-revisado.json",
+      "bytes": 47353,
+      "sha256": "fd2e92177f0806841812ba211af28cdafdc2e3cabc9f7038214a08c680bce62f"
+    },
+    {
+      "path": "standalone info/hacksaw/inventario.json",
+      "bytes": 104880,
+      "sha256": "56009c99382717ffcbaac0b78f699890fc7c25a533e071ed63923a7a65a0e85b"
+    },
+    {
+      "path": "standalone info/hacksaw/manifest.json",
+      "bytes": 8696,
+      "sha256": "0b551a182d79c69cacc5e90899d67a598cca64867d6b87fe5c1586a087956e9d"
+    },
+    {
+      "path": "standalone info/hacksaw/plan-revisado.json",
+      "bytes": 102114,
+      "sha256": "11e4b2c142ddcf749c145c1ea19c3d0449bbf44cf355fdc9d0e90e15fc7f30d8"
+    },
+    {
+      "path": "standalone info/hardfire-kalamba/inventario.json",
+      "bytes": 88748,
+      "sha256": "f640e875091e738f227f17a1087b97b68fd23f558271d2f493ff1097d287e089"
+    },
+    {
+      "path": "standalone info/hardfire-kalamba/manifest.json",
+      "bytes": 1164,
+      "sha256": "7f2d663c5ad23d3fca0d52d6e5cf7427720398092e1889dd4116f596aff5b787"
+    },
+    {
+      "path": "standalone info/hardfire-kalamba/plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "path": "standalone info/irondog/inventario.json",
+      "bytes": 80490,
+      "sha256": "0ef87b41bc1efcd7584a8b5df0796eb2d3ebf29975b748a3369d0367784ebeca"
+    },
+    {
+      "path": "standalone info/irondog/manifest.json",
+      "bytes": 1136,
+      "sha256": "b28def0336464f64c31b244c455540388bfe41aead7da738fd299baf721fd56f"
+    },
+    {
+      "path": "standalone info/irondog/plan-revisado.json",
+      "bytes": 20947,
+      "sha256": "0c38c15fb63d309b0a29210e83fb24a256dc8d8c83f2ed0acf05ad97f68fbb54"
+    },
+    {
+      "path": "standalone info/kagaming/inventario.json",
+      "bytes": 227220,
+      "sha256": "38fc70a95e9eccf686094fe35834c309e67de1d70f68d3793af9be98985f9ce6"
+    },
+    {
+      "path": "standalone info/kagaming/manifest.json",
+      "bytes": 192535,
+      "sha256": "985fbdeb493927b42d2ab436ad8aeeea7fe7e77d1cffd78e5e8dc0379e1eca9f"
+    },
+    {
+      "path": "standalone info/kagaming/plan-revisado.json",
+      "bytes": 128032,
+      "sha256": "6ff6e2a02fbf3e0c0120eb5a4a16b1466a6976c5561fc974be2d8717a30d3273"
+    },
+    {
+      "path": "standalone info/kendoo/inventario.json",
+      "bytes": 13821,
+      "sha256": "8241b8ac2b24382500f4599298f2795273aee1553cae93aec90be29647c1776d"
+    },
+    {
+      "path": "standalone info/kendoo/manifest.json",
+      "bytes": 1494,
+      "sha256": "86f810753c72d0df5388f34611aec7d5ebe014362416b29172345d20f9018694"
+    },
+    {
+      "path": "standalone info/kendoo/plan-revisado.json",
+      "bytes": 5104,
+      "sha256": "9a731c2c4d636b853fe6a4d8ab616326b35b8667cfb762fcb74483d1e807a4a9"
+    },
+    {
+      "path": "standalone info/mascot/inventario.json",
+      "bytes": 51904,
+      "sha256": "bdca432fe788a260e81a29d3f6df07a5b3e1687abec83758f720540917595510"
+    },
+    {
+      "path": "standalone info/mascot/manifest.json",
+      "bytes": 1126,
+      "sha256": "be2866c910e6b5374d31394e34ce864e08bb2a067e243fb4b31d0808ecbfd77f"
+    },
+    {
+      "path": "standalone info/mascot/plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "path": "standalone info/microgaming/inventario.json",
+      "bytes": 32856,
+      "sha256": "a97b053c4ecc7179824a8652d3c61dca3f6f43e016233e7fbb6a2e136b23d53d"
+    },
+    {
+      "path": "standalone info/microgaming/manifest.json",
+      "bytes": 1152,
+      "sha256": "ce809e04141cdbfd6e5bf9767c8c21f32aed1cbe2deac7420a12a641d6c97556"
+    },
+    {
+      "path": "standalone info/microgaming/plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "path": "standalone info/netent/inventario.json",
+      "bytes": 88002,
+      "sha256": "19f484cc6b4139e8cae26f363d53fac445ebc0fa2ed16508ab49481dbcc889ca"
+    },
+    {
+      "path": "standalone info/netent/manifest.json",
+      "bytes": 58934,
+      "sha256": "b0a385243545054e4ce5b463f5b6c4e1c7592ce7d85780f0a7f8b51aa4bb8b80"
+    },
+    {
+      "path": "standalone info/netent/plan-revisado.json",
+      "bytes": 63534,
+      "sha256": "76729257d4598a5f6680987472bab1d93e03fd5c516f0237c72b9d1dbe2fdb6c"
+    },
+    {
+      "path": "standalone info/nolimit/inventario.json",
+      "bytes": 175192,
+      "sha256": "4c91caaaf56de08f5b25b142e57e3c04c0d1155acec6339c3a68104f81bb703a"
+    },
+    {
+      "path": "standalone info/nolimit/manifest.json",
+      "bytes": 7491,
+      "sha256": "8d9b9ce2266f7b6ffdcfc78f7470a0a2be9718efe7a58a98272f0150b18c0ac3"
+    },
+    {
+      "path": "standalone info/nolimit/plan-revisado.json",
+      "bytes": 265145,
+      "sha256": "02f8025a90cda21ffd121da9c222a314f4cfc0db380a1c9034f6c881ae026f24"
+    },
+    {
+      "path": "standalone info/peterandsons/inventario.json",
+      "bytes": 36663,
+      "sha256": "22bfd7d7a4356eb225e264006fc6eab8d74dac9ab34ee767a0963d35f337c111"
+    },
+    {
+      "path": "standalone info/peterandsons/manifest.json",
+      "bytes": 3874,
+      "sha256": "96435d35f7bada9bf32626454db9d3179f71dfcd7fbb31ee9f9fb4ca798ea3e5"
+    },
+    {
+      "path": "standalone info/peterandsons/plan-revisado.json",
+      "bytes": 75216,
+      "sha256": "92ed4ec913820d19100efc44a2a1bda2ada45aefb89ab708dfd097270c5d90cc"
+    },
+    {
+      "path": "standalone info/playngo/inventario.json",
+      "bytes": 123556,
+      "sha256": "8cd2ef7fb6a409982334966b5bca578e3bf9b3ebfc2a4c1b5409d53206f2bbc9"
+    },
+    {
+      "path": "standalone info/playngo/manifest.json",
+      "bytes": 11734,
+      "sha256": "ada4bbe7d103d403ea9acd50cadd3b20d0f55cdfb988444f967446c44d96b9e3"
+    },
+    {
+      "path": "standalone info/playngo/plan-revisado.json",
+      "bytes": 100511,
+      "sha256": "7e360ffe2cebcbe94d57f88c94557aa21ecd9bf83862e3d730ab42a0cea4faa0"
+    },
+    {
+      "path": "standalone info/playson/inventario.json",
+      "bytes": 47348,
+      "sha256": "cb1c6298b4030626c43da2fe8bc997365ad4ddcf8e32b0471a242c3ed36fb287"
+    },
+    {
+      "path": "standalone info/playson/manifest.json",
+      "bytes": 62319,
+      "sha256": "4ee10b8f58b765e7d773f5498153b025b426bff93c49fd295ddd6c074718b7c4"
+    },
+    {
+      "path": "standalone info/playson/plan-revisado.json",
+      "bytes": 283672,
+      "sha256": "cb746363a91e1e03b562dd378ab0fd2e4ea0b2e4796ca95dcaef92b2ca261111"
+    },
+    {
+      "path": "standalone info/playtech/inventario.json",
+      "bytes": 920098,
+      "sha256": "91ded62df00b4ebf5617669ff5e6db94cbf2550348ca054af6e732e6dea30876"
+    },
+    {
+      "path": "standalone info/playtech/manifest.json",
+      "bytes": 728878,
+      "sha256": "4aaf19a61a8f4beda542732103d8a07cd7bebb2acc68c80cc4f794c30c103ae1"
+    },
+    {
+      "path": "standalone info/playtech/plan-revisado.json",
+      "bytes": 942793,
+      "sha256": "39cff1c5de5fecc91627e5f871c785d70043a5829d65e503449efe944bd002cf"
+    },
+    {
+      "path": "standalone info/pragmatic/inventario.json",
+      "bytes": 286044,
+      "sha256": "1f4b83c6181d36961371bc7508ab8fabfd4930afafa8a424986e48085a3cc009"
+    },
+    {
+      "path": "standalone info/pragmatic/manifest.json",
+      "bytes": 1147,
+      "sha256": "fbd54bc67760f76aabf979aa47524cb9aeaacf455e5191bd37145996209298ff"
+    },
+    {
+      "path": "standalone info/pragmatic/plan-revisado.json",
+      "bytes": 112936,
+      "sha256": "ea5590cae4dee9834befb9e684f23954189948268a168f568379c59db4280f03"
+    },
+    {
+      "path": "standalone info/redtiger/inventario.json",
+      "bytes": 145998,
+      "sha256": "20096c599ea4dbd213fefa37ca66d2967b54e357515d88badca50a8a457fb895"
+    },
+    {
+      "path": "standalone info/redtiger/manifest.json",
+      "bytes": 1645,
+      "sha256": "c280fa1577e8f3c24fea708c9733aff1a7c67b45a928a2089fc21f78512d0a39"
+    },
+    {
+      "path": "standalone info/redtiger/plan-revisado.json",
+      "bytes": 133036,
+      "sha256": "c085b17f7b7f7f7519f5c2a8f4bf158eb6b69cfc9adf71097e96d7afd227135d"
+    },
+    {
+      "path": "standalone info/reelkingdom/inventario.json",
+      "bytes": 31817,
+      "sha256": "547c0e8b84f464f39e1ff01e3d7fe40603a530a93e730a2f36be60d2cc933d70"
+    },
+    {
+      "path": "standalone info/reelkingdom/manifest.json",
+      "bytes": 1144,
+      "sha256": "4a730b924f00be91fefa8a86756c8e34be66d05dc0077079e16ba9cd016f3573"
+    },
+    {
+      "path": "standalone info/reelkingdom/plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "path": "standalone info/rubyplay/inventario.json",
+      "bytes": 58538,
+      "sha256": "e143f1ea8d68e5a72e89c4bd84ce8b5bfb34b2a944461477c2c1723c543c1f20"
+    },
+    {
+      "path": "standalone info/rubyplay/manifest.json",
+      "bytes": 7273,
+      "sha256": "7a8286cffd1c8ecb7dd8db349b0307b254a54e36441222640fe757c9081d090b"
+    },
+    {
+      "path": "standalone info/rubyplay/plan-revisado.json",
+      "bytes": 56514,
+      "sha256": "8b454cdc99d8c2425ff5546c969353de9e177d6b77d24a9e2461eba6ecce4bbb"
+    },
+    {
+      "path": "standalone info/smartsoft/inventario.json",
+      "bytes": 17060,
+      "sha256": "da64d230931a43f9376b61c3fb11ab1fc3eaa2689eafdc485b79098952831a23"
+    },
+    {
+      "path": "standalone info/smartsoft/manifest.json",
+      "bytes": 1321,
+      "sha256": "28d360232e413d9ec6c70fe54290507ed83c35f08ef92b9bb931eea092b405c6"
+    },
+    {
+      "path": "standalone info/smartsoft/plan-revisado.json",
+      "bytes": 14770,
+      "sha256": "2f9006c37bbaedaa4569365c058a2ae087c905a38739b004e939e61c3dd03f78"
+    },
+    {
+      "path": "standalone info/spinomenal/inventario.json",
+      "bytes": 378899,
+      "sha256": "630a0c324d13a2ebd6de1fa4715b43fe9ff54e8bc6f5ef729cdb1f4fe39fcc89"
+    },
+    {
+      "path": "standalone info/spinomenal/manifest.json",
+      "bytes": 1813,
+      "sha256": "16e83977a4d688c62f606e0726691f402467f45c28d0b65f655a1084ff1e13eb"
+    },
+    {
+      "path": "standalone info/spinomenal/plan-revisado.json",
+      "bytes": 290475,
+      "sha256": "61561c7312d5b8059aa5a457ff3c48ab471d27a37c81982210208a02757c3817"
+    },
+    {
+      "path": "standalone info/threeoaks/inventario.json",
+      "bytes": 41888,
+      "sha256": "4bf39678dd138073f80576b31cc44923f69e58ea72158d30dd98a3369018ad40"
+    },
+    {
+      "path": "standalone info/threeoaks/manifest.json",
+      "bytes": 5999,
+      "sha256": "2abdc6f7a4a9d0d5d28e85b5f503a7cf77f24a82aee68e56d8f720bb63fb8230"
+    },
+    {
+      "path": "standalone info/threeoaks/plan-revisado.json",
+      "bytes": 51990,
+      "sha256": "b45dafb7603e68aed5313575e289cfc0985f58e7152c4cfb854972e2d1fcde88"
+    },
+    {
+      "path": "standalone info/thunderspin/inventario.json",
+      "bytes": 18353,
+      "sha256": "647c8d06973d10d3c923a833fb5396e9a0b71dd97e3ca082e10bea01718324da"
+    },
+    {
+      "path": "standalone info/thunderspin/manifest.json",
+      "bytes": 4260,
+      "sha256": "2e7b61513bed3eb272437cbb4fe8fafc8ec8498d9a9948f6f290450dd0efdba3"
+    },
+    {
+      "path": "standalone info/thunderspin/plan-revisado.json",
+      "bytes": 5069,
+      "sha256": "79c5d9eca79c560c75a2f281443aa13f772a23dd424c69abc94ff5baae0ba373"
+    },
+    {
+      "path": "standalone info/yggdrasil/inventario.json",
+      "bytes": 62594,
+      "sha256": "2e8661d79d99f394186fb590302503fd64ef875f6be4079b14b6960c2ad845b3"
+    },
+    {
+      "path": "standalone info/yggdrasil/manifest.json",
+      "bytes": 1541,
+      "sha256": "200f373fd36114b7ae832c1f42db3ec75869be91d9006e7da5880617e9f2aba5"
+    },
+    {
+      "path": "standalone info/yggdrasil/plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "path": "standalone info/yggdrasil/referencias/provider-work/yggdrasil-export/yggdrasil-rounds.csv",
+      "bytes": 34727,
+      "sha256": "f7c66f85ff4c82ebf4e5e235c5f6d9a7619dd1387b70dabc35301f0d9bcd3ebb"
+    }
+  ]
+}

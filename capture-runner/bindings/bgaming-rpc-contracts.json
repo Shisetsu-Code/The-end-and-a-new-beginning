@@ -1,0 +1,522 @@
+{
+  "protocol_source": "standalone info/bgaming/referencias/provider-work/bgaming-chat4/rpc_extra.py",
+  "families": {
+    "recycle-riches": {
+      "required_tokens": [
+        "purchaseFeaturesConfig:[{id:\"chance\"",
+        "custom_field:null==i?void 0:i.id,purchased_feature:null==i?void 0:i.type",
+        "sendPlay({bet:this.wrapperModel.bet.base",
+        "result.resp.roundData",
+        "get bet(){const e=$r(this._bet,this.buyChanceMultiplier);return{base:this._bet,value:e,",
+        "id:\"chance\",type:\"buy_chance\",configFeatureType:\"buy_chance\",betPriceMultiplier:2",
+        "id:\"buy_random\",type:\"buy_bonus\",configFeatureType:\"buy_bonus\",price:100",
+        "id:\"buy_max\",type:\"buy_bonus\",configFeatureType:\"buy_bonus\",price:300"
+      ],
+      "products": [
+        {
+          "id": "chance",
+          "feature": "buy_chance",
+          "factor": "2",
+          "request": {
+            "custom_field": "chance",
+            "purchased_feature": "buy_chance"
+          }
+        },
+        {
+          "id": "buy_random",
+          "feature": "buy_bonus",
+          "factor": "100",
+          "request": {
+            "custom_field": "buy_random",
+            "purchased_feature": "buy_bonus"
+          }
+        },
+        {
+          "id": "buy_max",
+          "feature": "buy_bonus",
+          "factor": "300",
+          "request": {
+            "custom_field": "buy_max",
+            "purchased_feature": "buy_bonus"
+          }
+        }
+      ]
+    },
+    "blackbeards-bounty": {
+      "required_tokens": [
+        "bonus_multiplier_type:\"freeSpinRandom\"",
+        "goldenBetMulti:1.5",
+        "const e=zb(),t=100*e.bet,n=200*e.bet",
+        "bet:e.bet,purchased_feature:\"buy_bonus\",bonus_multiplier_type:\"freeSpin\"",
+        "bet:e.bet,purchased_feature:\"buy_bonus\",bonus_multiplier_type:\"freeSpinRandom\"",
+        "bet_type:t?\"freebet\":\"bet\"",
+        "e.total+=n.winResult.multipliedTotalWin",
+        "t.total+e.commonGame.totalWin",
+        "e.stepCount>t||"
+      ],
+      "products": [
+        {
+          "id": "buy_chance",
+          "feature": "buy_chance",
+          "factor": "1.5",
+          "request": {
+            "bet_type": "bet",
+            "purchased_feature": "buy_chance"
+          }
+        },
+        {
+          "id": "freeSpin",
+          "feature": "buy_bonus",
+          "factor": "100",
+          "request": {
+            "purchased_feature": "buy_bonus",
+            "bonus_multiplier_type": "freeSpin"
+          }
+        },
+        {
+          "id": "freeSpinRandom",
+          "feature": "buy_bonus",
+          "factor": "200",
+          "request": {
+            "purchased_feature": "buy_bonus",
+            "bonus_multiplier_type": "freeSpinRandom"
+          }
+        }
+      ]
+    },
+    "blazing-firepots": {
+      "required_tokens": [
+        "bet_type:\"betting\",action:\"wheel\"",
+        "bet_type:\"betting\",action:\"spin\"",
+        "bet_type:\"betting\",action:\"bonus\"",
+        "bet_type:\"betting\",purchased_feature:\"buy_chance\"",
+        "bet_type:\"betting\",purchased_feature:\"buy_bonus\"",
+        "this.isHistoryBuyBonus?this.statusBar.updateBalance(i-100*s+e)",
+        "this.isAnteSpinActive?this.statusBar.updateBalance(i-1.4*s+e)",
+        "result.resp.game.totalWin",
+        "\"BONUS\"===r||\"WHEEL\"===r"
+      ],
+      "products": [
+        {
+          "id": "buy_chance",
+          "feature": "buy_chance",
+          "factor": "1.4",
+          "request": {
+            "bet_type": "betting",
+            "purchased_feature": "buy_chance"
+          }
+        },
+        {
+          "id": "buy_bonus",
+          "feature": "buy_bonus",
+          "factor": "100",
+          "request": {
+            "bet_type": "betting",
+            "purchased_feature": "buy_bonus"
+          }
+        }
+      ]
+    },
+    "jungle-queen": {
+      "required_tokens": [
+        "const n=\"buybonus\",s=\"buybonus\"",
+        "req:{bet:l,action:r,bet_type:o}",
+        "\"BASE\"===e?r=\"spin\"",
+        "\"FREEGAME\"===e&&(r=\"freespin\")",
+        "let t,s,a,r=\"\",o=\"bet\"",
+        "action:n,id:s,purchased_feature:\"buy_bonus\"",
+        "const ha=20,ua=100",
+        "formatWin(da*ua)",
+        "Fo.totalWin=Number(t.results.win.total)/vr"
+      ],
+      "products": [
+        {
+          "id": "buybonus",
+          "feature": "buy_bonus",
+          "factor": "100",
+          "request": {
+            "action": "buybonus",
+            "id": "buybonus",
+            "purchased_feature": "buy_bonus"
+          }
+        }
+      ]
+    },
+    "sugar-mix": {
+      "required_tokens": [
+        "class rl{toJson(){return{bet:this.bet,bet_type:this.betType,purchased_feature:this.purchasedFeature}}}",
+        "this.roundBase=1,this.roundBaseForBet=1,this.fsMultiplier=50",
+        "r.bet=this._session.slotSession.currentBet.bet/this._session.slotSession.currentBet.roundBaseForBet,r.betType=\"default\"",
+        "r.purchasedFeature=\"\"==this._session.slotSession.BonusType?null:this._session.slotSession.BonusType",
+        "this._session.slotSession.BonusType=\"\"",
+        "this._slotSession.BonusType=\"buy_bonus\"",
+        "betLimits:e.bet_limits?Array.from(e.bet_limits)",
+        "n.totalWin=i.totalWin/this.session.slotSession.bet.subunits",
+        "this._stateMachine.curResponse.freeSpinsInfo.totalWin-this._stateMachine.curResponse.totalWin"
+      ],
+      "products": [
+        {
+          "id": "buy_bonus",
+          "feature": "buy_bonus",
+          "factor": "50",
+          "request": {
+            "bet_type": "default",
+            "purchased_feature": "buy_bonus"
+          }
+        }
+      ]
+    },
+    "treasure-explorer": {
+      "required_tokens": [
+        "const Iv={buy_chance:1.4,buy_bonus:100,buy_bonus_and_chance:250}",
+        "machineId:\"6\"",
+        "bets:n.result.config.bet_limits.map((e=>e/this.params.maxLines))",
+        "req:{bet:e.bet*this.params.maxLines,machineId:e.spinParams?.machineId?parseInt(e.spinParams.machineId,10):0",
+        "t.machineId=this._session.slotSession.GameId.toString()",
+        "req:{bet:e.params.bet*this.params.maxLines,machineId:parseInt(e.params.machineId,10),purchased_feature:e.params.feature}",
+        "e||\"buy_chance\"!==this._buyBonusStore.state?.feature?this._spinResponseProvider.doRequest(e):this._buyBonusResponseProvider.doRequest(e)",
+        "machineState:s.result.resp",
+        "n.totalWin=t.totalWin??0"
+      ],
+      "products": [
+        {
+          "id": "buy_chance",
+          "feature": "buy_chance",
+          "factor": "1.4",
+          "request": {
+            "machineId": 6,
+            "purchased_feature": "buy_chance"
+          }
+        },
+        {
+          "id": "buy_bonus",
+          "feature": "buy_bonus",
+          "factor": "100",
+          "request": {
+            "machineId": 6,
+            "purchased_feature": "buy_bonus"
+          }
+        },
+        {
+          "id": "buy_bonus_and_chance",
+          "feature": "buy_bonus_and_chance",
+          "factor": "250",
+          "request": {
+            "machineId": 6,
+            "purchased_feature": "buy_bonus_and_chance"
+          }
+        }
+      ]
+    },
+    "zeus-goes-wild": {
+      "required_tokens": [
+        "custom_field:\"custom_value\",fe_exponent:this.globalState.feBetExponent",
+        "req:{bet:e,bet_type:s,custom_field:\"custom_value\",fe_exponent:this.globalState.feBetExponent}",
+        "\"freebet\":\"default\"",
+        "bet:10,reels:3",
+        "this.determine_exponent=(t,e)=>{let i=0;",
+        "this.calculate_exponent=(t,e)=>{let i=t/e.subunits,s=i.toString().includes(\".\")?i.toString().split(\".\")[1].length+1:0;",
+        "this.showWin(s.totalWin/h.Config.bet*t,!0)",
+        "const t=i.resp?.super_spin.bet"
+      ],
+      "products": []
+    },
+    "robospin": {
+      "required_tokens": [
+        "window.console.log(\"robospin v1.0.5\")",
+        "i.command===\"spin\"&&(i.command=\"play\",a=i.options.req,a.bet=i.options.bet||s.data.bet",
+        "available_bets:a.bet_limits,default_bet:a.default_bet",
+        "function lr(i){i.outcome=i.resp",
+        "const r=e.outcome&&e.outcome.win",
+        "super.spinRequest({req:{traits_to_win:s.all.traitsToWin.value,selected_traits:{hat:",
+        "if(e.isLeftSelected)return\"left\";if(e.isRightSelected)return\"right\"",
+        "const fi=6,cr=[[1,1,1.96],[2,1,1.3],[2,2,3.92]",
+        "[6,1,NaN],[6,2,1.1],[6,3,1.49],[6,4,2.85],[6,5,8.95],[6,6,62.72]"
+      ],
+      "products": []
+    },
+    "keepers-secret": {
+      "required_tokens": [
+        "this[\"mGameName\"]='kots_',this[\"mCoefBonus\"]=0x78",
+        "class BSPOSTBGManager",
+        "_0x42528f[\"req\"][\"bet\"]=Math[\"round\"](Player[\"getTotalBetValue\"]()*Player['getDivisorAfterPoint']())[\"toString\"]()",
+        "_0x42528f[\"req\"][\"purchased_feature\"]=\"buy_bonus\"",
+        "this[\"mRollCB\"](_0x51fe42[\"step\"],_0x78d84,_0x357664)",
+        "_0x24eef8[\"_checkRollOnWin\"](_0xef6a4a['c'],_0x52f076,_0x18a04a,eConnectionType[\"POST\"],_0xef6a4a[\"win\"])"
+      ],
+      "products": [
+        {
+          "id": "buy_bonus",
+          "feature": "buy_bonus",
+          "factor": "120",
+          "request": {
+            "purchased_feature": "buy_bonus"
+          }
+        }
+      ]
+    },
+    "grand-patron": {
+      "required_tokens": [
+        "eBetsIDs={'DEFAULT':0x0,'SHOP':0x1,'SHOP_2':0x2,'SHOP_3':0x3,'ANTE':0x4}",
+        "_0x577c5b[\"req\"]['bid']=Player[\"getCurBetID\"]()",
+        "_0x577c5b[\"req\"][\"purchased_feature\"]=\"buy_bonus\"",
+        "this['mRollCB'](_0x5bf425['step'],_0x412451,_0x5c78ab)",
+        "_0x5053d9[\"modeType\"],_0x5f3916[\"win\"])",
+        "Math[\"round\"](Player[\"getTotalBetValue\"]()*Player['getDivisorAfterPoint']())['toString']()"
+      ],
+      "products": []
+    },
+    "big-bucks-saloon": {
+      "required_tokens": [
+        "title:\"Big Bucks Saloon\"",
+        "var a={req:{bet:s.A.data.bet}}",
+        "initBalance(t){this.buyBonusMultiplier=120,super.initBalance(t)}",
+        "buyBonus(){this.spin(!0,{purchased_feature:\"buy_bonus\"})",
+        "s.A.data.initialAvailableBets=i.bet_limits",
+        "this.replayPostSpinBalanse+Number(t.result.resp.round.win)",
+        "if(s.A.data.infoLine.freespinsLeft<0)return;this.spin()"
+      ],
+      "products": [
+        {
+          "id": "buy_bonus",
+          "feature": "buy_bonus",
+          "factor": "120",
+          "request": {
+            "purchased_feature": "buy_bonus"
+          }
+        }
+      ]
+    },
+    "clash-gods": {
+      "required_tokens": [
+        "feature_buy:e,purchased_feature:r,bonus_type:this.globalState.bonusType,buyBonusModeMultiplier:o",
+        "this.buyBonusModeMultiplier1=100,this.buyBonusModeMultiplier2=300,this.businessmanModeMultiplier1=3,this.businessmanModeMultiplier2=10,this.businessmanModeMultiplier3=800",
+        "case h.ante_0:this.globalState.selectedBusinesssmanModeMultiplier=this.globalState.businessmanModeMultiplier2",
+        "case h.ante_1:this.globalState.selectedBusinesssmanModeMultiplier=this.globalState.businessmanModeMultiplier1",
+        "case h.ante_2:this.globalState.selectedBusinesssmanModeMultiplier=this.globalState.businessmanModeMultiplier3",
+        "this.pointerdownHandler(\"1\",\"anubis\")",
+        "this.pointerdownHandler(\"0\",\"hades\")",
+        "this.text_freespins_amount.container.visible&&(r=null,e=null)",
+        "bet:10,reels:5",
+        "this.showWin(s.totalWin/h.Config.bet*t,!0)"
+      ],
+      "products": [
+        {
+          "id": "normal_hades",
+          "feature": null,
+          "factor": "1",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": null,
+            "purchased_feature": null,
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "normal_anubis",
+          "feature": null,
+          "factor": "1",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": null,
+            "purchased_feature": null,
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "ante_0_hades",
+          "feature": "buy_chance",
+          "factor": "10",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "ante_0",
+            "purchased_feature": "buy_chance",
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "ante_0_anubis",
+          "feature": "buy_chance",
+          "factor": "10",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "ante_0",
+            "purchased_feature": "buy_chance",
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "ante_1_hades",
+          "feature": "buy_chance",
+          "factor": "3",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "ante_1",
+            "purchased_feature": "buy_chance",
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "ante_1_anubis",
+          "feature": "buy_chance",
+          "factor": "3",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "ante_1",
+            "purchased_feature": "buy_chance",
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "ante_2_hades",
+          "feature": "buy_chance",
+          "factor": "800",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "ante_2",
+            "purchased_feature": "buy_chance",
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "ante_2_anubis",
+          "feature": "buy_chance",
+          "factor": "800",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "ante_2",
+            "purchased_feature": "buy_chance",
+            "buyBonusModeMultiplier": 1
+          }
+        },
+        {
+          "id": "buy_bonus_hades",
+          "feature": "buy_bonus",
+          "factor": "100",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "buy_bonus",
+            "purchased_feature": "buy_bonus",
+            "buyBonusModeMultiplier": 100
+          }
+        },
+        {
+          "id": "buy_bonus_anubis",
+          "feature": "buy_bonus",
+          "factor": "100",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "buy_bonus",
+            "purchased_feature": "buy_bonus",
+            "buyBonusModeMultiplier": 100
+          }
+        },
+        {
+          "id": "super_buy_bonus_hades",
+          "feature": "buy_bonus",
+          "factor": "300",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "super_buy_bonus",
+            "purchased_feature": "buy_bonus",
+            "buyBonusModeMultiplier": 300
+          }
+        },
+        {
+          "id": "super_buy_bonus_anubis",
+          "feature": "buy_bonus",
+          "factor": "300",
+          "request": {
+            "bet_type": "default",
+            "feature_buy": "super_buy_bonus",
+            "purchased_feature": "buy_bonus",
+            "buyBonusModeMultiplier": 300
+          }
+        }
+      ]
+    },
+    "aztecs-claw": {
+      "required_tokens": [
+        "playBonusEnd:async()=>{try{const i=",
+        "t.result.custom_params=bV()",
+        "function bV(){return{win:!1",
+        "instant_bonus_game_multiplier:\"80\",init_slot:wV(),ante_bet_multiplier:\"2.0\"",
+        "OT=We(5)",
+        "...n?{instant_bonus_game:n}:{},...n?{purchased_feature:\"buy_bonus\"}:{},...e?{ante_bet:!0}:{},...t?{wild_bet:!0}:{}",
+        "$t=(i,e=2,t=2,n=-1)=>{const s=Number(i/10**e);return wo(s,t)},yr=(i,e=2)=>Number(Number(i*10**e).toFixed(0))",
+        "kb=hs([li,Pi],([i,e])=>e===null?0:yr(i,e))",
+        "Bi.set(y),Ik(y),y&&oi.set(!1)",
+        "oi.set(y),Mk(y),y&&Bi.set(!1)",
+        "let h=l.resp.win_amount;const u=await H0.playBonus()",
+        "bonus_game:\"WILD_DICES\"",
+        "bonus_game:\"WILD_DICES_FINISH\"",
+        "await H0.playBonusEnd()",
+        "jl.set(Te(jl)+Te(d0))"
+      ],
+      "products": [
+        {
+          "id": "ante_bet",
+          "feature": "buy_chance",
+          "factor": "2",
+          "request": {
+            "bet_type": "bet",
+            "ante_bet": true
+          }
+        },
+        {
+          "id": "wild_bet",
+          "feature": "buy_bonus_and_chance",
+          "factor": "5",
+          "request": {
+            "bet_type": "bet",
+            "wild_bet": true
+          }
+        },
+        {
+          "id": "instant_bonus",
+          "feature": "buy_bonus",
+          "factor": "80",
+          "request": {
+            "bet_type": "bet",
+            "instant_bonus_game": true,
+            "purchased_feature": "buy_bonus"
+          }
+        }
+      ]
+    }
+  },
+  "modern_pins": {
+    "CatsLoveYummy": {
+      "/public/main-CLI_bTL5.js": "be3b766f0ce97ca4f7bcb2991c24caca49b595b0e4696b258b6b9f0fc08c8772",
+      "/slot_assets/gameConfig.json": "efb86fc0671d2d3d08b4c09173d51fc2943ba0cb5bd7635b7cfc8258f303ba88"
+    },
+    "RedHotChilliChickens": {
+      "/main.js": "28652da884003877001e520669c43ca36dabf882c1e05a0df0812035c61c5602"
+    },
+    "ChickenFire": {
+      "/assets/index-CoAzB5sA.js": "3447e6d2577faf09770c691dff91c15e10106981158b523080c99ac887c2ca33"
+    },
+    "MysticReels": {
+      "/build/bpPlatformBGaming.js": "1e3fa6fe00d7b6692a485b12c87ffccb941ac03a38fe97c2dd5ceca080e473bb",
+      "/build/platformBGaming.js": "113f693f13a72ba380c3aeb325a61c6ccd0d3b6bc6d7b2d9691e55a864cd2634",
+      "/build/bpClientLibs.js": "ec95c5fb936a090a9dee4e785f215f82a9743a1718b938ce636e16a41e9fb760",
+      "/build/all.js": "d377f9423317cf0bc268a0a34b2c964cfa3487f1a580bb9fffa706c458bb111d",
+      "/lookup_table_1.0.18.json": "9b785b82e86f98e8cbdb513e3b16b926b42e771dd1861883470f83748b17d093",
+      "/config/config.4d47dec95fae43ee37dd7fc68240022c0a4b41cf.json": "1657ee8e88c9ed3389c1b83bbb94e6c0f2182871e159c044547b5fc1a8a1ab2c"
+    }
+  },
+  "source_sha256": {
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/rpc_extra.py": "9a44fc0591659c6285c76fa2770e535b6130b7d6a6992b23ed1d9cf39f46ef0f",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/rpc_source_pins.py": "ce71724adebf3c5fa8713ad43754f5aa5d3f3e62b46cf225ccf0395f7f52bea3",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/four_modern_slots.py": "70c3942e6d81792fef48203ae6a28e028b4f7f2663845e054ce0ae4b5fb71840",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/product_round_rpc.py": "03397fda4e1155ba80ebeaafbe4076bee687447652dac4a8981ffeecc6667995",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/oga_classic.py": "bf11cd8e1ad8292d8e40235b397ab63f52a47e6d47b568cc9c48ae10a5026d01",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/star_choices.py": "075ae836cf8c9190d9314d4d07f4b4b6f6cd4feb7db451af225cec3e2119fc32",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/final_rpc_pair.py": "543b83ff54896ea91049465cedbcbe223bb677d4451c3f1ae56a6dab03208889",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cocos_metadata.py": "fb13dc2f0277db0e4c1eedf6f0a5b3586142f206ac91e29be0044390fa2b0fac",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/cocos_adapter.py": "351b30c119da62a21edcb8d160078974614da41964e8bec7fd0a82264396a329",
+    "standalone info/bgaming/referencias/provider-work/bgaming-chat4/hyperhive_adapter.py": "354203eb3e80dfaf1d60fe9f8e6fcb302cf785e12024449379c80e0292c8750d",
+    "standalone info/bgaming/inventario.json": "edbd0b783db2087f1f6fff2e8ac3692926d7a5e8cecc95d7341ee82365fef796",
+    "standalone info/bgaming/referencias/demo-dashboard/bgaming/summary.json": "812a49f44d87a31e2a35a8ca5e159f622bc19f843fa8a3e5967f6b232938da30"
+  }
+}

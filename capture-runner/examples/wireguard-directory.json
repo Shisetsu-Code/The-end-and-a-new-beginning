@@ -1,0 +1,14 @@
+{
+  "evidence_root": "../../standalone info",
+  "data_root": "/var/lib/capture-runner/captures",
+  "run_id": "campaign-001",
+  "default_parallel_games": 4,
+  "samples_per_mode": 1,
+  "max_steps": 256,
+  "timeout_seconds": 30,
+  "providers": [],
+  "wireguard_dir": "/etc/capture-runner/wireguard",
+  "run_as": "capture",
+  "games": [],
+  "modes": []
+}

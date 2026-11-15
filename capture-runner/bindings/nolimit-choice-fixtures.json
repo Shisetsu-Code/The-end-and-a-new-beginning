@@ -1,0 +1,2171 @@
+{
+  "schema": 1,
+  "description": "Synthetic native states covering every distinct archived game/mode/option contract; expected requests evaluated from immutable Python reference. These are offline regression fixtures, not fresh captures.",
+  "source_sha256": {
+    "standalone info/nolimit/referencias/demo-dashboard/nolimit_protocol.py": "2a62ec2fd51ee405b791bc9f70dc228a2e51c98df0ecab155ddc1fb633ab3d25",
+    "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/1-100/choices-matrix.json": "7762136345d707634a481f852cf3c2607d0c603b78063838d0057d7fd6b2f5ba",
+    "standalone info/nolimit/referencias/demo-dashboard/nolimit/batches/101-141/choices-matrix.json": "94891c15683ca7bc1900f48df32b293fe9e9f4c243508e080c3161ff7f347599"
+  },
+  "cases": [
+    {
+      "code": "BookOfShadows",
+      "native": {
+        "nextMode": "GAMBLE",
+        "playedRowsInBase": 5,
+        "wasFeatureBuy": false,
+        "numberOfGamblesDone": 0,
+        "numberOfGamblesAllowed": 2,
+        "gambleOptions": {
+          "FiftyFifty": "1",
+          "FeatureWin": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "gambleBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "gambleCollected": true
+        }
+      },
+      "archived_choice_node": "89be205068b663f3"
+    },
+    {
+      "code": "BookOfShadows",
+      "native": {
+        "nextMode": "GAMBLE",
+        "playedRowsInBase": 5,
+        "wasFeatureBuy": false,
+        "numberOfGamblesDone": 0,
+        "numberOfGamblesAllowed": 2,
+        "gambleOptions": {
+          "FiftyFifty": "1",
+          "FeatureWin": "1"
+        }
+      },
+      "selected": "RED",
+      "expected": {
+        "type": "gambleBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "gambleCollected": false,
+          "gambleOption": "0",
+          "gambleSelection": "1"
+        }
+      },
+      "archived_choice_node": "89be205068b663f3"
+    },
+    {
+      "code": "BookOfShadows",
+      "native": {
+        "nextMode": "GAMBLE",
+        "playedRowsInBase": 5,
+        "wasFeatureBuy": false,
+        "numberOfGamblesDone": 0,
+        "numberOfGamblesAllowed": 2,
+        "gambleOptions": {
+          "FiftyFifty": "1",
+          "FeatureWin": "1"
+        }
+      },
+      "selected": "BLACK",
+      "expected": {
+        "type": "gambleBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "gambleCollected": false,
+          "gambleOption": "0",
+          "gambleSelection": "2"
+        }
+      },
+      "archived_choice_node": "89be205068b663f3"
+    },
+    {
+      "code": "BookOfShadows",
+      "native": {
+        "nextMode": "GAMBLE",
+        "playedRowsInBase": 5,
+        "wasFeatureBuy": false,
+        "numberOfGamblesDone": 0,
+        "numberOfGamblesAllowed": 2,
+        "gambleOptions": {
+          "FiftyFifty": "1",
+          "FeatureWin": "1"
+        }
+      },
+      "selected": "FEATURE",
+      "expected": {
+        "type": "gambleBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "gambleCollected": false,
+          "gambleOption": "1",
+          "gambleSelection": "-1"
+        }
+      },
+      "archived_choice_node": "89be205068b663f3"
+    },
+    {
+      "code": "SixFeetUnder",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "da4f2eb1c9042262"
+    },
+    {
+      "code": "SixFeetUnder",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "da4f2eb1c9042262"
+    },
+    {
+      "code": "GatorHunters2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "388dec79ca7d2439"
+    },
+    {
+      "code": "GatorHunters2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "388dec79ca7d2439"
+    },
+    {
+      "code": "DingDongDeath",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "d6ec3473c88d219e"
+    },
+    {
+      "code": "DingDongDeath",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "d6ec3473c88d219e"
+    },
+    {
+      "code": "Outsourced2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "c6e72541a3a895b2"
+    },
+    {
+      "code": "Outsourced2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "c6e72541a3a895b2"
+    },
+    {
+      "code": "DuckHunters2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "NO"
+        }
+      },
+      "archived_choice_node": "d7e7d434ee863f7a"
+    },
+    {
+      "code": "DuckHunters2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "HALF",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "HALF"
+        }
+      },
+      "archived_choice_node": "d7e7d434ee863f7a"
+    },
+    {
+      "code": "DuckHunters2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "SAME",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "SAME"
+        }
+      },
+      "archived_choice_node": "d7e7d434ee863f7a"
+    },
+    {
+      "code": "SoakedBySeamen",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "9e99b2fcb9afca88"
+    },
+    {
+      "code": "SoakedBySeamen",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "9e99b2fcb9afca88"
+    },
+    {
+      "code": "TrueGrit2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "extraSpin": "no"
+        }
+      },
+      "archived_choice_node": "9d0a9e2165c3a099"
+    },
+    {
+      "code": "TrueGrit2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "extraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "9d0a9e2165c3a099"
+    },
+    {
+      "code": "TombstoneBegins",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "ee1d3658ee02289e"
+    },
+    {
+      "code": "TombstoneBegins",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "ee1d3658ee02289e"
+    },
+    {
+      "code": "PunkRocker3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "d850547f40a1611c"
+    },
+    {
+      "code": "PunkRocker3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "d850547f40a1611c"
+    },
+    {
+      "code": "CatfishHunters",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "ba9d39431f23c263"
+    },
+    {
+      "code": "CatfishHunters",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "ba9d39431f23c263"
+    },
+    {
+      "code": "Supersized",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "8e45af8d4273914d"
+    },
+    {
+      "code": "Supersized",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "8e45af8d4273914d"
+    },
+    {
+      "code": "DuckHuntersHappyHour",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "f80c8991a0d08da3"
+    },
+    {
+      "code": "DuckHuntersHappyHour",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "f80c8991a0d08da3"
+    },
+    {
+      "code": "GoldenShower",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": 0
+        }
+      },
+      "archived_choice_node": "3a72b42ff2bd8a5a"
+    },
+    {
+      "code": "GoldenShower",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": 1
+        }
+      },
+      "archived_choice_node": "3a72b42ff2bd8a5a"
+    },
+    {
+      "code": "DasxBoot2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "13cd4e74eb679c16"
+    },
+    {
+      "code": "DasxBoot2",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "13cd4e74eb679c16"
+    },
+    {
+      "code": "Bizarre",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "e24a0b801ca856e0"
+    },
+    {
+      "code": "Bizarre",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "e24a0b801ca856e0"
+    },
+    {
+      "code": "Disorder",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": "0"
+        }
+      },
+      "archived_choice_node": "f16b2ff8d041f08e"
+    },
+    {
+      "code": "Disorder",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": "1"
+        }
+      },
+      "archived_choice_node": "f16b2ff8d041f08e"
+    },
+    {
+      "code": "DeadMenWalking",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": 0
+        }
+      },
+      "archived_choice_node": "980354dc75c49874"
+    },
+    {
+      "code": "DeadMenWalking",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playerSelectedExtraSpin": 1
+        }
+      },
+      "archived_choice_node": "980354dc75c49874"
+    },
+    {
+      "code": "GatorHunters",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "24f60a7c95ffaf1a"
+    },
+    {
+      "code": "GatorHunters",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "24f60a7c95ffaf1a"
+    },
+    {
+      "code": "Tanked3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "large": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "nonono"
+        }
+      },
+      "archived_choice_node": "7de611652f0f2821"
+    },
+    {
+      "code": "Tanked3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "GR": "1"
+        }
+      },
+      "selected": "GR",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "GR"
+        }
+      },
+      "archived_choice_node": "7de611652f0f2821"
+    },
+    {
+      "code": "Tanked3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "GW": "1"
+        }
+      },
+      "selected": "GW",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "GW"
+        }
+      },
+      "archived_choice_node": "7de611652f0f2821"
+    },
+    {
+      "code": "Tanked3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "RO": "1"
+        }
+      },
+      "selected": "RO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "RO"
+        }
+      },
+      "archived_choice_node": "7de611652f0f2821"
+    },
+    {
+      "code": "Tanked3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "AS": "1"
+        }
+      },
+      "selected": "AS",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "AS"
+        }
+      },
+      "archived_choice_node": "7de611652f0f2821"
+    },
+    {
+      "code": "Tanked3",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "FT": "1"
+        }
+      },
+      "selected": "FT",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "FT"
+        }
+      },
+      "archived_choice_node": "7de611652f0f2821"
+    },
+    {
+      "code": "Seamen",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "4cf167f9188c6053"
+    },
+    {
+      "code": "Seamen",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "4cf167f9188c6053"
+    },
+    {
+      "code": "TsarWars",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "8c9980b537ce71fd"
+    },
+    {
+      "code": "TsarWars",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "8c9980b537ce71fd"
+    },
+    {
+      "code": "TsarWars",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "3",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "3"
+        }
+      },
+      "archived_choice_node": "8c9980b537ce71fd"
+    },
+    {
+      "code": "FlightMode",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "0286d439d41e6e3e"
+    },
+    {
+      "code": "FlightMode",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "0286d439d41e6e3e"
+    },
+    {
+      "code": "KillEmAll",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "86c89895d2e7d2a2"
+    },
+    {
+      "code": "KillEmAll",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "86c89895d2e7d2a2"
+    },
+    {
+      "code": "DuckHunters",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "c43cc59d418e25d2"
+    },
+    {
+      "code": "DuckHunters",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "c43cc59d418e25d2"
+    },
+    {
+      "code": "HighwayToHell",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "no"
+        }
+      },
+      "archived_choice_node": "f8598af4150cf29b"
+    },
+    {
+      "code": "HighwayToHell",
+      "native": {
+        "nextMode": "EXTRA_SPIN",
+        "extraSpinCost": "1",
+        "accumulatedRoundWin": "9",
+        "extraSpinCostMap": {
+          "HALF": "1",
+          "SAME": "1",
+          "low": "1",
+          "medium": "1",
+          "high": "1"
+        }
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playExtraSpin": "yes"
+        }
+      },
+      "archived_choice_node": "f8598af4150cf29b"
+    },
+    {
+      "code": "SanQuentin2",
+      "native": {
+        "nextMode": "FREESPIN_SETUP1"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "254d06cbccc5dd63"
+    },
+    {
+      "code": "SanQuentin2",
+      "native": {
+        "nextMode": "FREESPIN_SETUP1"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "254d06cbccc5dd63"
+    },
+    {
+      "code": "Outsourced",
+      "native": {
+        "nextMode": "UPGRADE_BET",
+        "upgradeBetCost": "1",
+        "accumulatedRoundWin": "1"
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playUpgradeBet": 0
+        }
+      },
+      "archived_choice_node": "0a402320e29fc8b9"
+    },
+    {
+      "code": "Outsourced",
+      "native": {
+        "nextMode": "UPGRADE_BET",
+        "upgradeBetCost": "1",
+        "accumulatedRoundWin": "1"
+      },
+      "selected": "YES",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "playUpgradeBet": 1
+        }
+      },
+      "archived_choice_node": "0a402320e29fc8b9"
+    },
+    {
+      "code": "Beheaded",
+      "native": {
+        "nextMode": "SUPER_FREESPIN_END"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "0fb0ee2de0eec6ea"
+    },
+    {
+      "code": "Beheaded",
+      "native": {
+        "nextMode": "SUPER_FREESPIN_END"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "0fb0ee2de0eec6ea"
+    },
+    {
+      "code": "Loner",
+      "native": {
+        "nextMode": "FEATURE_TICK_TICK_BOOM"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "ec3769983e2d6593"
+    },
+    {
+      "code": "Loner",
+      "native": {
+        "nextMode": "FEATURE_TICK_TICK_BOOM"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "ec3769983e2d6593"
+    },
+    {
+      "code": "Loner",
+      "native": {
+        "nextMode": "FEATURE_TICK_TICK_BOOM"
+      },
+      "selected": "3",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "3"
+        }
+      },
+      "archived_choice_node": "ec3769983e2d6593"
+    },
+    {
+      "code": "BrickSnake2000",
+      "native": {
+        "nextMode": "GAMBLE_FIFTY_FIFTY"
+      },
+      "selected": "0",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "0"
+        }
+      },
+      "archived_choice_node": "052a38dfc4cc5d31"
+    },
+    {
+      "code": "BrickSnake2000",
+      "native": {
+        "nextMode": "GAMBLE_FIFTY_FIFTY"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "052a38dfc4cc5d31"
+    },
+    {
+      "code": "DDay",
+      "native": {
+        "nextMode": "FS_PICK",
+        "fsPicks": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "selected": "0",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "0"
+        }
+      },
+      "archived_choice_node": "e91d75e5651c7444"
+    },
+    {
+      "code": "DDay",
+      "native": {
+        "nextMode": "FS_PICK",
+        "fsPicks": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "e91d75e5651c7444"
+    },
+    {
+      "code": "DDay",
+      "native": {
+        "nextMode": "FS_PICK",
+        "fsPicks": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "e91d75e5651c7444"
+    },
+    {
+      "code": "DDay",
+      "native": {
+        "nextMode": "FS_PICK",
+        "fsPicks": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "selected": "3",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "3"
+        }
+      },
+      "archived_choice_node": "e91d75e5651c7444"
+    },
+    {
+      "code": "DDay",
+      "native": {
+        "nextMode": "FS_PICK",
+        "fsPicks": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "selected": "4",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "4"
+        }
+      },
+      "archived_choice_node": "e91d75e5651c7444"
+    },
+    {
+      "code": "Deadwood",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "cc164c0157006628"
+    },
+    {
+      "code": "Deadwood",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "cc164c0157006628"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "0",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "0"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "3",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "3"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "4",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "4"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "5",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "5"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "6",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "6"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "7",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "7"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "GaelicGold",
+      "native": {
+        "nextMode": "FREESPIN_PICKS",
+        "pickedIndexesAfter": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "selected": "8",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "8"
+        }
+      },
+      "archived_choice_node": "34b6bac45d5e344e"
+    },
+    {
+      "code": "DragonTribe",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "57b31501361a6404"
+    },
+    {
+      "code": "DragonTribe",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "57b31501361a6404"
+    },
+    {
+      "code": "BookOfShadows",
+      "native": {
+        "nextMode": "FREESPIN_PICK",
+        "playedRowsInBase": 5,
+        "wasFeatureBuy": false,
+        "numberOfGamblesDone": 0,
+        "numberOfGamblesAllowed": 2,
+        "gambleOptions": {
+          "FiftyFifty": "1",
+          "FeatureWin": "1"
+        }
+      },
+      "selected": "NO",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "3"
+        }
+      },
+      "archived_choice_node": "8bbc9b07709245a4"
+    },
+    {
+      "code": "BookOfShadows",
+      "native": {
+        "nextMode": "FREESPIN_PICK",
+        "playedRowsInBase": 5,
+        "wasFeatureBuy": false,
+        "numberOfGamblesDone": 0,
+        "numberOfGamblesAllowed": 2,
+        "gambleOptions": {
+          "FiftyFifty": "1",
+          "FeatureWin": "1"
+        }
+      },
+      "selected": "REDRAW",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedRedraw": "2"
+        }
+      },
+      "archived_choice_node": "8bbc9b07709245a4"
+    },
+    {
+      "code": "BuffaloHunter",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "a03fb51da84dc00e"
+    },
+    {
+      "code": "BuffaloHunter",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "a03fb51da84dc00e"
+    },
+    {
+      "code": "EastVsWest",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "4ae5d0c634b81aa8"
+    },
+    {
+      "code": "EastVsWest",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "4ae5d0c634b81aa8"
+    },
+    {
+      "code": "ElPaso",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "6d9c9498be257543"
+    },
+    {
+      "code": "ElPaso",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "6d9c9498be257543"
+    },
+    {
+      "code": "Infectious5",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": 1
+        }
+      },
+      "archived_choice_node": "b1c707957aac1069"
+    },
+    {
+      "code": "Infectious5",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": 2
+        }
+      },
+      "archived_choice_node": "b1c707957aac1069"
+    },
+    {
+      "code": "MiseryMining",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "1",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "1"
+        }
+      },
+      "archived_choice_node": "9ef56fa78ebf264f"
+    },
+    {
+      "code": "MiseryMining",
+      "native": {
+        "nextMode": "FREESPIN_PICK"
+      },
+      "selected": "2",
+      "expected": {
+        "type": "zeroBet",
+        "bet": "0.00",
+        "playerInteraction": {
+          "selectedIndex": "2"
+        }
+      },
+      "archived_choice_node": "9ef56fa78ebf264f"
+    }
+  ]
+}

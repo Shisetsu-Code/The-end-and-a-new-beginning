@@ -1,0 +1,40 @@
+{
+  "proveedor": "mascot",
+  "archivos": [
+    {
+      "ruta": "bindings/mascot.json",
+      "bytes": 41642,
+      "sha256": "72419982212df2e9184b11bc98cc86393d87129fea65be980b5aae7fbfe6f61b"
+    },
+    {
+      "ruta": "codigo/mascot.rs",
+      "bytes": 10208,
+      "sha256": "f114aa1eec4fef7dcfebd4f8d164f329c3014ce4871ea81a410ec9753a91712f"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 53790,
+      "sha256": "d2713c6eb5cacda6eac1bf16cf5e0c2eebc84555610c3042bc534c21e88b688e"
+    },
+    {
+      "ruta": "evidencia/mascot.json",
+      "bytes": 11119,
+      "sha256": "a4dbda9e5f8a75d11369d870529d76de2c79b61ae093d00289d43df12926aaa6"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 51904,
+      "sha256": "bdca432fe788a260e81a29d3f6df07a5b3e1687abec83758f720540917595510"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 630,
+      "sha256": "193f2f6c822dc741c817f87c700a4bed31f8db410c9b0a5319364cadb618fd7c"
+    }
+  ]
+}

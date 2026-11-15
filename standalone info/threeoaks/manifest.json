@@ -1,0 +1,165 @@
+{
+  "proveedor": "threeoaks",
+  "archivos": [
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 41934,
+      "sha256": "1b9b276b3b4d3ba0c4d5852fca1d962502f28d7c557877d1a087d3c630026ea5"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 146216,
+      "sha256": "4c7e6975d74c86f275ba9fa07b23ed714942a8ce8a42dbb78dc3e499a60ec8e3"
+    },
+    {
+      "ruta": "evidencia/ciclos-historicos.json",
+      "bytes": 5090,
+      "sha256": "a2f41b045f2090fa3723bac0dd07ce7307074fc693fd8165b412e2fa9bbc1d7d"
+    },
+    {
+      "ruta": "evidencia/threeoaks.json",
+      "bytes": 579298,
+      "sha256": "d22957c481f5b305401904a8b15f1e989e22e35186f2bebeb87fa2864cdfdd10"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 41888,
+      "sha256": "4bf39678dd138073f80576b31cc44923f69e58ea72158d30dd98a3369018ad40"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 51990,
+      "sha256": "b45dafb7603e68aed5313575e289cfc0985f58e7152c4cfb854972e2d1fcde88"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/1-100/audit.json",
+      "bytes": 2147408,
+      "sha256": "d20b1a3abd54c156d601d99c462a6e8f2a65864e2e45145273ef6a8a5f40b20f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/1-100/catalog.json",
+      "bytes": 27820,
+      "sha256": "076031e1aefe6b54e908b1014b578a62215c31ad0fbfa87cc74f41bde209c69a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/1-100/index.html",
+      "bytes": 36665,
+      "sha256": "05c524041d3f13e3ccd25e492bdb57b465378b1b3827956bf8b4d9cf3f104c3b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/1-100/inventory.json",
+      "bytes": 3683343,
+      "sha256": "3498a1a612b0202d98052462becc040c68eea08ac49ca4c64da2073b80bf729d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/1-100/previous-providers-proof.json",
+      "bytes": 2079474,
+      "sha256": "ac12df15e65248605a9591cfde4df7f9f3cac00ccdab946e2d4a865f9a15098a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/1-100/rounds.json",
+      "bytes": 98427,
+      "sha256": "72ff837c1a381aa4ec09775d7239531ddee0d03fb61ba70bcfc8ec945d6152a0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/1-100/run-status.json",
+      "bytes": 247,
+      "sha256": "7a2c8e5008467e2f3852bf9f7e630af52794f98e694eee434031b6a3264bb069"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/101-103/audit.json",
+      "bytes": 2129184,
+      "sha256": "9a737c6def1148cd188ca117d6159a8bb41b5b894f04dad63b4f51fbd361f551"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/101-103/catalog.json",
+      "bytes": 863,
+      "sha256": "d40111c00907aac4b13e48237042cbd493c247f7578ebbe72c85d3b0d527e131"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/101-103/index.html",
+      "bytes": 2729,
+      "sha256": "15b271592d04b925e6ec987d47c3e96d8e85e47b2dd765e1b655931746260bdf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/101-103/inventory.json",
+      "bytes": 103312,
+      "sha256": "12a7091f74252eeca398570994907662f9a3e6ce5d849952cf5656099eddf49d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/101-103/previous-providers-proof.json",
+      "bytes": 2125399,
+      "sha256": "88dc7ff062cced855d771efa9df6ddd4b6b1691dacf1e2ea75aa4589e37626b6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/101-103/rounds.json",
+      "bytes": 1289,
+      "sha256": "ba105170a169983365238c1023138dba86376bc69f825c55de958b783aa46d9e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/batches/101-103/run-status.json",
+      "bytes": 216,
+      "sha256": "083d462ac11d38e805425ede977c22365537e33f698568624876c69fb33c2fb9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/catalog.json",
+      "bytes": 28678,
+      "sha256": "ab52b01ad0e92ebc5c81fd6eab3fd15c8a6e021abf011c7f70d57dfa32e2dc07"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/index.html",
+      "bytes": 11783,
+      "sha256": "dfbe4326675bd9d85b3b0cccba527e81002f1b3dbe4ae798e0d6b45dfc8a7844"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/rate-limit.json",
+      "bytes": 182,
+      "sha256": "cee88b946777151e8e6207e1cec295689d9f179fbcacfcb2ed34b0ec5d5472d9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks/round.html",
+      "bytes": 4213,
+      "sha256": "1a5885713bd79d57f7618364a946ebe9db974a9e04228323055b2b578a395a3f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks_audit.py",
+      "bytes": 10349,
+      "sha256": "39c253fd408120cf1e1bd93178455d29c0bf37a2b71c9e479200e0950dc5875e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks_browser_bridge.py",
+      "bytes": 8158,
+      "sha256": "7e884103d8cd359f3cc7c8f800df5a6b13420c1c3e94cbfa622346e333ae7923"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks_client.py",
+      "bytes": 11163,
+      "sha256": "3896967b5be5c1a80d63b0b72910502d1179bfdcdf9368e05d2a6dc6bbf0837d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks_core.py",
+      "bytes": 9819,
+      "sha256": "e7d55aaefb16f02712b31f0d34828f1887d6acce370510a8255407f102f649a2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks_layout.py",
+      "bytes": 877,
+      "sha256": "2dc7d5e4fde137eadd28c85bd09285d8ef3a4e4dc382edf4c3aad32ba4b2e9e5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks_reports.py",
+      "bytes": 9821,
+      "sha256": "05d558d91251409c3b9ebd8e21b80e252a40a500092d9b5e7371b6bff028210c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/threeoaks_run.py",
+      "bytes": 10903,
+      "sha256": "5d44b0da558e52afaa4042c75a82c9ff7eadd217619fedecce74e6f606e3981e"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 569,
+      "sha256": "7c6bbc648283015049d80e9a86dc3312a9633da50a4176f56acd5ae3782ba8e5"
+    }
+  ]
+}

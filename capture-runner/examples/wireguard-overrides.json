@@ -1,0 +1,24 @@
+{
+  "evidence_root": "../../standalone info",
+  "data_root": "/var/lib/capture-runner/captures",
+  "run_id": "campaign-002",
+  "default_parallel_games": 4,
+  "samples_per_mode": 1,
+  "max_steps": 256,
+  "timeout_seconds": 30,
+  "providers": [
+    {"id": "hacksaw", "parallel_games": 6},
+    {"id": "pragmatic", "parallel_games": 3}
+  ],
+  "wireguard_dir": "/etc/capture-runner/wireguard",
+  "exits": [
+    {
+      "id": "exit-01",
+      "wireguard_config": "/etc/capture-runner/wireguard/exit-01.conf",
+      "parallel_games": {"hacksaw": 8}
+    }
+  ],
+  "run_as": "capture",
+  "games": [],
+  "modes": []
+}

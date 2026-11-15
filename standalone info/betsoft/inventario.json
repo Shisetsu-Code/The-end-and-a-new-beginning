@@ -1,0 +1,5210 @@
+{
+  "id": "betsoft",
+  "name": "Betsoft",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "betsoft.command",
+    "workspace_adapter": "collection_full_misc.py::_betsoft",
+    "continuations": "native command/state",
+    "closure": "terminal award and balance"
+  },
+  "games": [
+    {
+      "id": "277",
+      "name": "rooks-revenge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "266",
+      "name": "at-the-movies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "262",
+      "name": "the-exterminator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-BLACK",
+          "type": "variant",
+          "label": "gamble-BLACK",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-RED",
+          "type": "variant",
+          "label": "gamble-RED",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "1022",
+      "name": "super-stampede",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "259",
+      "name": "under-the-sea",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1017",
+      "name": "the-oil-barons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Dead",
+          "type": "purchase",
+          "label": "Dead",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "Duel",
+          "type": "purchase",
+          "label": "Duel",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "Train",
+          "type": "purchase",
+          "label": "Train",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1018",
+      "name": "gold-nugget-rush-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "258",
+      "name": "slots-angels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "1019",
+      "name": "the-game-show",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "248",
+      "name": "lost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "247",
+      "name": "madder-scientist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1024",
+      "name": "good-girl-bad-girl-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1025",
+      "name": "the-vip",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "236",
+      "name": "true-illusions",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1026",
+      "name": "the-queen-of-social-media",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "234",
+      "name": "a-night-in-paris",
+      "ready": false,
+      "block_reason": "processed_official_demo_has_no_verified_native_wager_contract",
+      "modes": [
+        {
+          "key": "Demo oficial",
+          "type": "variant",
+          "label": "Demo oficial",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1028",
+      "name": "3-pots-of-venice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "228",
+      "name": "viking-age",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "226",
+      "name": "arrival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1030",
+      "name": "birds-in-the-city",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "boost",
+          "type": "booster",
+          "label": "boost",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "225",
+      "name": "paco-and-the-popping-peppers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1031",
+      "name": "phoenix-inferno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "224",
+      "name": "2-million-b-c",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "222",
+      "name": "gold-diggers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1052",
+      "name": "sweet-pop-1000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy_bonus",
+          "type": "purchase",
+          "label": "buy_bonus",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "221",
+      "name": "house-of-fun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "name": "rockstar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "name": "mr-vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "350",
+      "name": "enchanted",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "name": "barbary-coast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "name": "once-upon-a-time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "name": "heist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "name": "the-slotfather",
+      "ready": false,
+      "block_reason": "processed_official_demo_has_no_verified_native_wager_contract",
+      "modes": [
+        {
+          "key": "Demo oficial",
+          "type": "variant",
+          "label": "Demo oficial",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "name": "gladiator",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "name": "genies-fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "name": "the-glam-life",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "426",
+      "name": "good-girl-bad-girl",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-BAD",
+          "type": "variant",
+          "label": "gamble-BAD",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-GOOD",
+          "type": "variant",
+          "label": "gamble-GOOD",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "444",
+      "name": "more-gold-diggin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "Carta 1",
+          "type": "variant",
+          "label": "Carta 1",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "Carta 2",
+          "type": "variant",
+          "label": "Carta 2",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "Carta 3",
+          "type": "variant",
+          "label": "Carta 3",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "Carta 0",
+          "type": "variant",
+          "label": "Carta 0",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "lucky7",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "858",
+      "name": "alkemors-elements",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "870",
+      "name": "winds-of-wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "869",
+      "name": "captains-quest-treasure-island",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "857",
+      "name": "primal-wilderness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "865",
+      "name": "kensei-blades",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "860",
+      "name": "gemini-joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "861",
+      "name": "book-of-helios",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "868",
+      "name": "wilds-of-fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "854",
+      "name": "lost-mystery-chests",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "853",
+      "name": "triple-juicy-drops",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "855",
+      "name": "gold-tiger-ascent",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "850",
+      "name": "take-the-kingdom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "851",
+      "name": "stay-frosty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "852",
+      "name": "thai-blossoms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "847",
+      "name": "return-to-paris",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "871",
+      "name": "rags-to-witches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "845",
+      "name": "tower-of-fortuna",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "846",
+      "name": "7-fortune-frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "849",
+      "name": "88-frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "839",
+      "name": "wild-drops",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "876",
+      "name": "trinity-reels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "844",
+      "name": "mr-macau",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "832",
+      "name": "hat-trick-hero",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "823",
+      "name": "lava-gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "879",
+      "name": "sleighin-it",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "842",
+      "name": "jungle-stripes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "877",
+      "name": "golden-dragon-inferno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "841",
+      "name": "safari-sam-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "881",
+      "name": "woodlanders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "840",
+      "name": "stacked",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "837",
+      "name": "take-olympus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "883",
+      "name": "bounding-luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "822",
+      "name": "golden-horns",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "882",
+      "name": "hearts-desire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "884",
+      "name": "expansion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "836",
+      "name": "take-santas-shop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "885",
+      "name": "mr-vegas-2-big-money-tower",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "834",
+      "name": "gears-of-time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "825",
+      "name": "book-of-darkness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "886",
+      "name": "charms-and-treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "833",
+      "name": "primal-hunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "828",
+      "name": "dim-sum-prize",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "888",
+      "name": "hot-lucky-7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "890",
+      "name": "pho-sho",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "835",
+      "name": "mystic-hive",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "827",
+      "name": "the-hive",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "909",
+      "name": "wish-granted",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "910",
+      "name": "april-fury-and-the-chamber-of-scarabs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "820",
+      "name": "quest-to-the-west",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "911",
+      "name": "72-fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "908",
+      "name": "super-golden-dragon-inferno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "817",
+      "name": "back-to-venus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "913",
+      "name": "rise-of-triton",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "819",
+      "name": "monster-pop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "916",
+      "name": "triple-lucky-8s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "816",
+      "name": "spring-tails",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "914",
+      "name": "enchanted-forest-of-fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "917",
+      "name": "tycoons-billionaire-bucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "818",
+      "name": "total-overdrive",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "815",
+      "name": "super-sweets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "923",
+      "name": "rockstar-world-tour-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "924",
+      "name": "take-the-vault-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "814",
+      "name": "dragon-phoenix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "929",
+      "name": "tigers-luck-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "927",
+      "name": "coins-of-ra-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "813",
+      "name": "take-the-bank",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "931",
+      "name": "heist-bank-rush-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "935",
+      "name": "stampede-gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "812",
+      "name": "caishens-arrival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "937",
+      "name": "caishen-god-of-fortune-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "934",
+      "name": "the-slotfather-book-of-wins-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "10",
+          "type": "purchase",
+          "label": "10",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "11",
+          "type": "purchase",
+          "label": "11",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "4",
+          "type": "purchase",
+          "label": "4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "5",
+          "type": "purchase",
+          "label": "5",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "6",
+          "type": "purchase",
+          "label": "6",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "7",
+          "type": "purchase",
+          "label": "7",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "8",
+          "type": "purchase",
+          "label": "8",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "9",
+          "type": "purchase",
+          "label": "9",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "811",
+      "name": "gemmed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "947",
+      "name": "coins-of-alkemor-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "941",
+      "name": "a-big-catch-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "926",
+      "name": "take-the-shot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "810",
+      "name": "wolf-moon-rising",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "944",
+      "name": "golden-destiny-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "809",
+      "name": "gold-canyon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "938",
+      "name": "chillipop-get-em-all-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "945",
+      "name": "treasures-of-cleopatra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "boost",
+          "type": "booster",
+          "label": "boost",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "807",
+      "name": "spinfinity-man",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "948",
+      "name": "super-sugar-pop-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "806",
+      "name": "bamboo-rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "951",
+      "name": "coins-of-zeus-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "952",
+      "name": "ultimate-golden-dragon-inferno-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "805",
+      "name": "viking-voyage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "956",
+      "name": "coins-of-christmas-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "804",
+      "name": "fruitbat-crazy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "955",
+      "name": "fury-dragon-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "957",
+      "name": "the-tipsy-tourist-beach-bonanza-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "802",
+      "name": "carnaval-forever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "961",
+      "name": "coins-of-ra-power-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "965",
+      "name": "mad-scientist-breaking-beakers-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "798",
+      "name": "faerie-spells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "801",
+      "name": "yak-yeti-roll",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "966",
+      "name": "gold-nugget-rush-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "969",
+      "name": "island-desire-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "800",
+      "name": "chillipop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "971",
+      "name": "coins-of-alkemor-extreme-magic-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "973",
+      "name": "pots-of-great-fortune-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "796",
+      "name": "dragon-kings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "975",
+      "name": "coins-of-leprechaun-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "976",
+      "name": "3-pots-of-lunar-wolf-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "794",
+      "name": "the-golden-owl-of-athena",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "978",
+      "name": "coins-of-ra-deluxe-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "980",
+      "name": "disco-farm-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "793",
+      "name": "ogre-empire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "988",
+      "name": "coins-of-halloween-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "987",
+      "name": "return-to-the-copa-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "792",
+      "name": "reels-of-wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "968",
+      "name": "carnival-rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "boost",
+          "type": "booster",
+          "label": "boost",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "788",
+      "name": "tigers-claw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "984",
+      "name": "the-tipsy-tourist-christmas-vacation-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "784",
+      "name": "sugarpop-2-double-dipped",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "991",
+      "name": "greedy-goblins-that-stole-christmas-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "775",
+      "name": "legend-of-the-nile",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "995",
+      "name": "coins-of-dragon-hold-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "998",
+      "name": "the-king-of-social-media",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "996",
+      "name": "once-again-upon-a-time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "771",
+      "name": "stampede",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "767",
+      "name": "jumbo-joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1000",
+      "name": "3-pots-of-olympus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "763",
+      "name": "blood-eternal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "dr-jekyll-mr-hyde-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "name": "3-pots-of-wishes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1004",
+      "name": "the-jealous-ex",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "759",
+      "name": "giovannis-gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "755",
+      "name": "fire-steel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "751",
+      "name": "magic-shoppe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "747",
+      "name": "the-angler",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "704",
+      "name": "the-slotfather-part-ii",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "692",
+      "name": "fa-fa-twins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "719",
+      "name": "sin-city-nights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "727",
+      "name": "kawaii-kitty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "700",
+      "name": "great-88",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "691",
+      "name": "charms-clovers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "654",
+      "name": "birds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "647",
+      "name": "frankenslots-monster",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS-ALL",
+          "type": "variant",
+          "label": "gamble-HEADS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-HEADS-HALF",
+          "type": "variant",
+          "label": "gamble-HEADS-HALF",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-ALL",
+          "type": "variant",
+          "label": "gamble-TAILS-ALL",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS-HALF",
+          "type": "variant",
+          "label": "gamble-TAILS-HALF",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "name": "after-night-falls-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "637",
+      "name": "four-seasons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "619",
+      "name": "a-christmas-carol",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "553",
+      "name": "alkemors-tower",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "1008",
+      "name": "the-auction-house",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "256",
+      "name": "black-gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1009",
+      "name": "the-neighbor-wars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "597",
+      "name": "the-tipsy-tourist",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "name": "treasure-room",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "238",
+      "name": "mamma-mia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "590",
+      "name": "weekend-in-vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "554",
+      "name": "mega-glam-life",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1007",
+      "name": "mamma-mia-2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "520",
+      "name": "pinocchio",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "548",
+      "name": "event-horizon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "534",
+      "name": "mega-gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "351",
+      "name": "a-night-in-paris-jp",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "344",
+      "name": "the-slotfather-jp",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "471",
+      "name": "tycoons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "482",
+      "name": "puppy-love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1012",
+      "name": "midnight-bandits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1014",
+      "name": "the-bonus-day",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "504",
+      "name": "it-came-from-venus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-CATCH",
+          "type": "variant",
+          "label": "gamble-CATCH",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-MISS",
+          "type": "variant",
+          "label": "gamble-MISS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "461",
+      "name": "the-curious-machine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-LEFT",
+          "type": "variant",
+          "label": "gamble-LEFT",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-RIGHT",
+          "type": "variant",
+          "label": "gamble-RIGHT",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "500",
+      "name": "dr-jekyll-mr-hyde",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "512",
+      "name": "fruit-zen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "478",
+      "name": "gypsy-rose",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "1010",
+      "name": "the-kingdom-of-cardia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1013",
+      "name": "3-million-b-c",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "229",
+      "name": "7th-heaven",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "384",
+      "name": "the-true-sheriff",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "402",
+      "name": "sugar-pop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1011",
+      "name": "the-gem-master",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "boost",
+          "type": "booster",
+          "label": "boost",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "341",
+      "name": "greedy-goblins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "323",
+      "name": "boomanji",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "308",
+      "name": "under-the-bed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "1016",
+      "name": "the-robbery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "300",
+      "name": "at-the-copa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "295",
+      "name": "after-night-falls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "288",
+      "name": "sushi-bar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "1015",
+      "name": "the-governor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "boost-0",
+          "type": "booster",
+          "label": "boost-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "boost-1",
+          "type": "booster",
+          "label": "boost-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "280",
+      "name": "safari-sam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "gamble-HEADS",
+          "type": "variant",
+          "label": "gamble-HEADS",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "gamble-TAILS",
+          "type": "variant",
+          "label": "gamble-TAILS",
+          "requires_prerequisites": true
+        }
+      ]
+    }
+  ]
+}

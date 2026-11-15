@@ -1,0 +1,4105 @@
+{
+  "ABSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 30,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 30
+      },
+      "evidence_run": "29618290-7027-4fcb-91e2-3c7d6e501207",
+      "kind": "normal"
+    }
+  },
+  "ALGKLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 5,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "21be09b3-f9d6-4cfa-ab78-de0fd6045d8c",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "5632a4f1-6f0a-45fe-8a1a-9c1063935d7f",
+      "kind": "normal"
+    }
+  },
+  "ARSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "0e9d48f4-7045-4a8c-bfe4-cdd2f33ddd07",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "988da5a2-4d92-4af7-84c8-212677dbc9e2",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "c91dab99-2c7c-4d93-a77b-aa90127dce49",
+      "kind": "purchase"
+    }
+  },
+  "BCBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "3aaccd00-2710-465c-9140-5a880f5fc73c",
+      "kind": "normal"
+    }
+  },
+  "BCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "775bb3a8-a941-4359-bac0-65fd5d184945",
+      "kind": "normal"
+    }
+  },
+  "BDBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "beb07a68-9618-4f5c-a08b-5e4ec9a23313",
+      "kind": "normal"
+    }
+  },
+  "BESlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 6561
+      },
+      "evidence_run": "d09aa83d-625d-4819-b6f8-8fd564ccd384",
+      "kind": "normal"
+    }
+  },
+  "BFCHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 1024
+      },
+      "evidence_run": "1dbd7e0d-bb32-4d59-9569-62fd9875dfa6",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 1024
+      },
+      "evidence_run": "5d149d7f-99af-4e6b-aa41-d1da09dd95d1",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 1024
+      },
+      "evidence_run": "11bc83fa-872f-4544-833a-603ebb144021",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 1024
+      },
+      "evidence_run": "5215437a-88e7-4c40-a01c-a5fb67b880d2",
+      "kind": "purchase"
+    }
+  },
+  "BFCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "46d63c64-5bb6-4b5a-88c9-efdf01048cc4",
+      "kind": "purchase"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "92e53035-2029-49c7-8ba4-ededc48f451c",
+      "kind": "normal"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "1bde270c-3a1c-4bb2-a890-e4a02402acc9",
+      "kind": "variant"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "640a8a98-9ea1-4675-86f5-5a0d48c2c402",
+      "kind": "purchase"
+    }
+  },
+  "BGSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "efe8ce54-82ef-4cdf-8a1c-828c1ed9d4e9",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 30,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "1f005218-b59f-409d-9ffd-3d0cacb7f487",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 1500,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "79ee9714-fa06-495e-a5a8-09ed0dbff77a",
+      "kind": "purchase"
+    }
+  },
+  "BHBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "875546f5-1e51-43e3-b8b6-052685bcc144",
+      "kind": "normal"
+    }
+  },
+  "BHESlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "70d716b9-8497-4df0-bb01-f95ed155f7f1",
+      "kind": "normal"
+    }
+  },
+  "BHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 2,
+        "lines": 5
+      },
+      "evidence_run": "0095edb6-695e-4abb-a409-f682dc685f44",
+      "kind": "normal"
+    }
+  },
+  "BLBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "7d0783d2-1544-4ce4-b1b9-c1473d4e8568",
+      "kind": "normal"
+    }
+  },
+  "BORHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "758f0647-f88a-4c4a-a69c-a3886bd72b45",
+      "kind": "normal"
+    }
+  },
+  "BORJWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "0d5d85ea-c6bf-4a1e-98ad-6d54f06a1346",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 750,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "d5484674-b4b1-491e-b3fc-86146e4615c9",
+      "kind": "purchase"
+    }
+  },
+  "BORSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "7ba72fe4-984b-48e6-bd31-776f7e96ab0e",
+      "kind": "normal"
+    }
+  },
+  "BOSHBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "9f491aea-9ef1-4e00-9634-28dac94ddf90",
+      "kind": "normal"
+    }
+  },
+  "BOSHHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "egt-demo-round-closure.jsonl#sha256=91c90a3109901bfa2963d0aac6a204dbaefe1f9cc90da2a704c5835bae81e077",
+      "kind": "normal"
+    }
+  },
+  "BOSHJWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "1924e1af-86e5-4846-a12c-8d315ade9235",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 1000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "3d0d9946-1a8c-418f-b407-ad2597f49716",
+      "kind": "purchase"
+    }
+  },
+  "BOSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "33ee7bd7-03fb-45b6-a961-801604a0272b",
+      "kind": "normal"
+    }
+  },
+  "BPBLBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "7f6527de-98bb-49de-872a-afedb4fbbbec",
+      "kind": "normal"
+    }
+  },
+  "BSBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "6924aa56-67bb-4df8-b711-388f0b0065d0",
+      "kind": "normal"
+    }
+  },
+  "CKHGKLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 5,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "f30ddf84-ead5-469f-b4ce-7a84b93a8479",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "faf5bdd2-6328-441e-877b-095924fbe005",
+      "kind": "normal"
+    }
+  },
+  "CRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "21e3221c-a4e8-4bcc-93a7-8f7122bb0071",
+      "kind": "normal"
+    }
+  },
+  "DRHCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "942881b5-111f-4f0a-ab00-9c82af2c21eb",
+      "kind": "normal"
+    }
+  },
+  "DWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "9560b9e8-a49e-4238-b464-14094d54f0c7",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "2196ead9-4627-4e7e-aa07-97cc73cd66ab",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "3c90796f-1359-4392-9370-d64ae7d957b4",
+      "kind": "purchase"
+    }
+  },
+  "EDSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "a2fafcc4-c0ee-411e-89b1-4ba5ad2dc23d",
+      "kind": "normal"
+    }
+  },
+  "EITHHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 81
+      },
+      "evidence_run": "dcda9dd0-04e0-4790-bcb0-25cc3080634e",
+      "kind": "normal"
+    }
+  },
+  "EITHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 81
+      },
+      "evidence_run": "15f01a8d-9738-47f0-ac43-b1d525471953",
+      "kind": "normal"
+    }
+  },
+  "EPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 30,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 30
+      },
+      "evidence_run": "fcea88e4-fe68-4959-8437-2d606f69b88e",
+      "kind": "normal"
+    }
+  },
+  "EWCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "98443f0f-b201-4cd5-8691-cf8ab9dcff1d",
+      "kind": "normal"
+    }
+  },
+  "FBCSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "7d05de8b-0d59-4411-a64b-0934ad8c61dd",
+      "kind": "normal"
+    }
+  },
+  "FBCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "ec62ddcb-46f0-4753-ad9c-adf723a900fb",
+      "kind": "normal"
+    }
+  },
+  "FBHBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2500,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "c9e529a1-8b81-4e3d-9e73-a1ec6791515f",
+      "kind": "purchase"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 3750,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "7974a029-61e0-498a-a6be-2bd5b988cc13",
+      "kind": "purchase"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5000,
+        "gameMode": "MEGA_BUY_BONUS",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "ad22d32e-d8d1-414c-b4be-80ba9b347a43",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "e663ca98-75d9-4f80-9359-22831a534e2f",
+      "kind": "normal"
+    }
+  },
+  "FBHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "ddeb25f1-b6cf-46d3-9516-c35aed3e7354",
+      "kind": "normal"
+    }
+  },
+  "FBHSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "ac3c4fa9-37fd-472b-8425-0cc0a4e728c5",
+      "kind": "normal"
+    }
+  },
+  "FBHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "cb1c52ce-dab2-43c1-8635-071f69732968",
+      "kind": "normal"
+    }
+  },
+  "FBRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "4729920d-a940-48e5-8c67-4905355a00be",
+      "kind": "normal"
+    }
+  },
+  "FCHJSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "0ae8f135-9c29-46f2-a80f-b66d1f92760c",
+      "kind": "normal"
+    }
+  },
+  "FCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "254c0b0f-91ee-4706-8e46-8080b4fca723",
+      "kind": "normal"
+    }
+  },
+  "FDCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "30c130ef-4346-43cc-91ed-2522372b8aa9",
+      "kind": "normal"
+    }
+  },
+  "FDHBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "9fc0c7e4-5317-4588-a0be-2790b3cc4c05",
+      "kind": "normal"
+    }
+  },
+  "FDHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "e4dae7e5-4bf7-4c3a-bb80-c07876723b6f",
+      "kind": "normal"
+    }
+  },
+  "FHBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "7da1ca73-5ca9-4f0b-a03b-70b5d4f240ec",
+      "kind": "normal"
+    }
+  },
+  "FHBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "b64c1187-1484-4600-ad6c-23f54284df5c",
+      "kind": "normal"
+    }
+  },
+  "FHEBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 10,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "cfd162ec-1b7d-4160-b47e-c0470a6ffcd0",
+      "kind": "normal"
+    }
+  },
+  "FHESlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "98fc694e-20e9-479c-908c-5742dccf174c",
+      "kind": "normal"
+    }
+  },
+  "FHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "dab4e7d0-65f8-475f-a84f-3362196aef7c",
+      "kind": "normal"
+    }
+  },
+  "FLKBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "5de5ee25-9961-4737-9502-a550f0cee2a2",
+      "kind": "normal"
+    }
+  },
+  "FLKSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "9c91e0f6-42d9-48a5-8c8b-dc64b9a870c0",
+      "kind": "normal"
+    }
+  },
+  "FMCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "c96afd82-5866-4d0a-8542-578a77340332",
+      "kind": "normal"
+    }
+  },
+  "FRBPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "af8f0b97-fb65-4195-89e4-b0599c6ff6de",
+      "kind": "normal"
+    }
+  },
+  "FRCHTSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "e27a88ca-d2e8-475e-93d4-7f422abf4cba",
+      "kind": "normal"
+    }
+  },
+  "FRCLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "0db87673-cf6c-4220-934f-8ab3d7215898",
+      "kind": "normal"
+    }
+  },
+  "FRDCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "f7542e5f-f6cd-4c25-bda0-b9abc70fa222",
+      "kind": "normal"
+    }
+  },
+  "FRDHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "e45f86f6-a17d-4860-a393-648253183bb0",
+      "kind": "normal"
+    }
+  },
+  "FRDRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "10b42075-1c21-4a2c-8aae-eaa6150b4c7b",
+      "kind": "normal"
+    }
+  },
+  "FRJHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "8d81634f-334a-4241-b6ab-700f2880bfeb",
+      "kind": "normal"
+    }
+  },
+  "FRJRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "a024fcf1-d8e9-4db7-8dd1-020728b4eccf",
+      "kind": "normal"
+    }
+  },
+  "FRLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "af7ccec4-dcd1-44c9-b976-06de48285cda",
+      "kind": "normal"
+    }
+  },
+  "FRLKEBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "30b1b311-7f56-4401-b847-25ec235201c9",
+      "kind": "normal"
+    }
+  },
+  "FRLRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "57758afa-9c4f-4f02-aa57-cd50aa00fdbf",
+      "kind": "normal"
+    }
+  },
+  "FRSHBLBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "33c933b9-626c-474f-ac50-c8195426eb68",
+      "kind": "normal"
+    }
+  },
+  "FRSHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "068ea665-1592-4b22-8630-a737bacf31e4",
+      "kind": "normal"
+    }
+  },
+  "FRSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "adbf7c5c-01a6-48d3-828a-e99592c9007f",
+      "kind": "normal"
+    }
+  },
+  "FRSPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "cf6a789c-31c0-4496-ae20-a29efdcb48fc",
+      "kind": "normal"
+    }
+  },
+  "FRSRBHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "d5fa4fe8-ac34-4020-b8cd-f71ec4a96507",
+      "kind": "normal"
+    }
+  },
+  "FRSRBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "6496891e-7dd9-4c24-b163-1a0d9112a289",
+      "kind": "normal"
+    }
+  },
+  "FRSRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "cd94b6ef-02ae-419f-9c26-31303b8f6c6f",
+      "kind": "normal"
+    }
+  },
+  "FSCBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "ebb6ecbd-b002-4af2-ac0f-c784be409744",
+      "kind": "normal"
+    }
+  },
+  "FSCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "fc9498e8-c21c-4ece-8cf6-f5195653fbbd",
+      "kind": "normal"
+    }
+  },
+  "FSFBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "c2782567-45f2-4cad-a9ef-30adbb1aa1ee",
+      "kind": "normal"
+    }
+  },
+  "FSFSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "5c518bae-e5c4-445e-8f85-56b40cb2ec59",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 430,
+        "gameMode": "BUY_1_WILD_LOCK_WIN",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "3722a85a-28f9-4004-b50e-4c7dcecf0313",
+      "kind": "purchase"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 1050,
+        "gameMode": "BUY_2_WILDS_LOCK_WIN",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "4d6df764-8f9d-4cdd-a1ee-c3f8023737bb",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2940,
+        "gameMode": "BUY_3_WILDS_LOCK_WIN",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "4d48e0e3-5bf2-4609-9112-2740c0ab3349",
+      "kind": "purchase"
+    },
+    "4": {
+      "bet": {
+        "denomination": 1,
+        "factor": 180,
+        "gameMode": "BUY_1_WILD",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "18b41bc3-06e2-40b4-b548-bf61de519a45",
+      "kind": "purchase"
+    },
+    "5": {
+      "bet": {
+        "denomination": 1,
+        "factor": 660,
+        "gameMode": "BUY_2_WILDS",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "1d9ca186-9ba4-4c67-81d9-13bf91ab5d2d",
+      "kind": "purchase"
+    }
+  },
+  "FSHBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "abb6996b-6017-4d62-9d33-f8612b9c5204",
+      "kind": "normal"
+    }
+  },
+  "FSHSASlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "8e90972a-f2fc-4402-8b40-05c5180b42bb",
+      "kind": "normal"
+    }
+  },
+  "FSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "67d859a3-b104-4402-8227-6c8e453ca749",
+      "kind": "normal"
+    }
+  },
+  "FTBRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "67ef66e1-ce3e-426b-b166-c1922fd00814",
+      "kind": "normal"
+    }
+  },
+  "FVBPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "ff4e928f-c1b4-4719-ab4b-04fe85451fca",
+      "kind": "normal"
+    }
+  },
+  "FVCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "e5873309-5ad6-4e56-ae74-237a8ed0513b",
+      "kind": "normal"
+    }
+  },
+  "FVCHTSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "56452163-2c5f-4d9d-b91b-de06cfea1587",
+      "kind": "normal"
+    }
+  },
+  "FVCLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "20356a1a-a7e8-43ea-a819-aca6ffc4e804",
+      "kind": "normal"
+    }
+  },
+  "FVDRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "dacdc0da-f8cb-4fcd-a602-9debb16ca9ba",
+      "kind": "normal"
+    }
+  },
+  "FVJHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "a8f06d76-e427-42d1-a473-067f98a6da12",
+      "kind": "normal"
+    }
+  },
+  "FVLRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "71740d8c-90d5-4e7a-a23c-a999ad456a6f",
+      "kind": "normal"
+    }
+  },
+  "FVSFSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "1cef16aa-1094-4d0f-9abf-7f2b5824726a",
+      "kind": "normal"
+    }
+  },
+  "FVSHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "908b00a2-bc7a-4636-b57d-1241e2dfc7a6",
+      "kind": "normal"
+    }
+  },
+  "FVSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "b3051ce6-abb0-4b9e-9bc2-3a6e95bb9b17",
+      "kind": "normal"
+    }
+  },
+  "FVSPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "b0d1c59a-e195-4640-b265-9559c1e0015c",
+      "kind": "normal"
+    }
+  },
+  "FVSRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "ef3cabab-cca8-430f-9ee1-340fa8bb7524",
+      "kind": "normal"
+    }
+  },
+  "FXSFSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "6704df64-87bf-4bf0-ae4f-16c906ce92fb",
+      "kind": "normal"
+    }
+  },
+  "FYHBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "998a546c-f671-48b6-b740-dcda7c9d0fe3",
+      "kind": "normal"
+    }
+  },
+  "FZWBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "c3122eee-c7f3-401d-b136-333238f79680",
+      "kind": "normal"
+    }
+  },
+  "GAGKLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 5,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "f693e5dc-6722-4131-aa73-8eee9962c269",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "b3e9cd45-4073-446d-b7e5-99862b2196b7",
+      "kind": "normal"
+    }
+  },
+  "GKBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "b247455e-d3f0-4c0c-96ad-2b5ec3a1b692",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2500,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "8201d184-d4f7-4485-bcfb-78293deefdee",
+      "kind": "purchase"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 3750,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "fbb51a4f-b1d1-4331-a6e3-e84b6ddc9c15",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5000,
+        "gameMode": "MEGA_BUY_BONUS",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "71f94197-a83f-48a9-adc3-e499a4245cf0",
+      "kind": "purchase"
+    }
+  },
+  "HFSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "23d5bc06-da25-4476-be70-9ee79800ae06",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "7181429a-3ebf-4b1a-9a11-04bf3498e65d",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "bd343134-a34a-4dff-aa72-4292849b9be9",
+      "kind": "purchase"
+    }
+  },
+  "HFTTHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "c4ef6baa-73fe-42b9-a3b4-3b8e0fb23a1a",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "35515e86-5c9c-4fa6-ba77-06fc53ff3293",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "c3cfecde-6c34-4b3d-9a8b-4e4a17bf9ebe",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "aed3bf27-3f93-4961-8e16-43ccb5ec9bfa",
+      "kind": "purchase"
+    }
+  },
+  "HFTTSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "09215c44-c657-41c0-8ff0-004588cacef0",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "d9e7249d-3051-47c5-a11f-9d2e01e523d1",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "4aa7d6ad-68d5-4f3b-ba84-38a09c35335f",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "007cbdd4-4e66-4773-bc4a-3a1097758600",
+      "kind": "purchase"
+    }
+  },
+  "JCCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "94e1c099-ac9c-4c96-b6e5-2eb861c924c5",
+      "kind": "normal"
+    }
+  },
+  "JCESlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "6a0d3d83-5fd5-49c5-a766-73a42ce97271",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 93,
+        "gameMode": "BUY_1_WILD_LOCK_WIN",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "ab864c0b-1c73-4a5c-ac3d-2e9af00d5023",
+      "kind": "purchase"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 229,
+        "gameMode": "BUY_2_WILDS_LOCK_WIN",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "cb0e89ec-0111-4792-9748-7757bd163fd7",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 715,
+        "gameMode": "BUY_3_WILDS_LOCK_WIN",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "e99ef601-dc1d-47b1-bb50-4e4229e3bce9",
+      "kind": "purchase"
+    },
+    "4": {
+      "bet": {
+        "denomination": 1,
+        "factor": 45,
+        "gameMode": "BUY_1_WILD",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "ed5d41dd-919e-46c7-b933-2d3678429423",
+      "kind": "purchase"
+    },
+    "5": {
+      "bet": {
+        "denomination": 1,
+        "factor": 150,
+        "gameMode": "BUY_2_WILDS",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "c3a45a32-c9e4-4545-9eaa-14a5ca38b6aa",
+      "kind": "purchase"
+    }
+  },
+  "JWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "bd1fe97a-ffed-4f74-bfcb-cdeff7ebfa5b",
+      "kind": "normal"
+    }
+  },
+  "KTSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "94882527-9536-4e5b-9387-46b696723491",
+      "kind": "normal"
+    }
+  },
+  "LHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "b8639810-8c5e-482a-95de-9d7ce08ad2e4",
+      "kind": "normal"
+    }
+  },
+  "LTHCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "9682f1c2-2aa2-4007-b4f2-6b2681b74cec",
+      "kind": "normal"
+    }
+  },
+  "MDBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "57cfdfaa-cc60-4405-b085-ea88e9733012",
+      "kind": "normal"
+    }
+  },
+  "MDSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "d674918d-d88d-41f7-b97e-3c3783c557c9",
+      "kind": "normal"
+    }
+  },
+  "MHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "66311f08-54bf-40c7-aa34-0646be83ba2a",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "ac5f7b17-de85-499f-b4a7-0c5b78b6c732",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "ca8e553f-8184-4126-a343-7d35871a4a97",
+      "kind": "purchase"
+    }
+  },
+  "MSHCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "c4eac6d0-d552-4a75-bcf7-d1c1bcbcfe80",
+      "kind": "normal"
+    }
+  },
+  "OBCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "d720a249-d823-4427-91e0-94757bdd9497",
+      "kind": "normal"
+    }
+  },
+  "OBHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "d75a1088-dcfb-47f1-9f11-4b977484cbed",
+      "kind": "normal"
+    }
+  },
+  "ODJWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "44415ac8-4505-433f-be75-dab5a6fc9ee3",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "51163501-7142-4772-acb2-9f6f0fc35668",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "46e49954-1a89-4258-87a5-fc9c6492db09",
+      "kind": "purchase"
+    }
+  },
+  "OGGKLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 5,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "14d8be30-9079-40d2-abc8-01615ad354f6",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "6e34b27b-40fd-428c-942d-977d81f3b4e3",
+      "kind": "normal"
+    }
+  },
+  "OHBPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "f5cbeded-071d-4f3a-bab6-c3637d362687",
+      "kind": "normal"
+    }
+  },
+  "OHBRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "de1eb3ef-3d7b-46d5-8b0e-8040215bc85c",
+      "kind": "normal"
+    }
+  },
+  "OHCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "289d812c-1559-4772-8946-a8b4726a4217",
+      "kind": "normal"
+    }
+  },
+  "OHCHTSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "3e6341c3-506f-4b35-bca5-d7ba391aaa5d",
+      "kind": "normal"
+    }
+  },
+  "OHCLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "5d6163d1-6e1c-4449-a9b7-1e654044f850",
+      "kind": "normal"
+    }
+  },
+  "OHDCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "79674386-07e5-41b9-9b88-b2e6d2327824",
+      "kind": "normal"
+    }
+  },
+  "OHDHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "be43961f-d47d-4c2a-b041-c57200aa7dc6",
+      "kind": "normal"
+    }
+  },
+  "OHDRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "5f873c28-f5f1-4163-a355-e5b57e670c4a",
+      "kind": "normal"
+    }
+  },
+  "OHJHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "79b212ea-3d75-4a7b-a5bd-0bccda08157d",
+      "kind": "normal"
+    }
+  },
+  "OHJRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "fa2343ef-0679-48af-bbbf-15f5addbcf33",
+      "kind": "normal"
+    }
+  },
+  "OHLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "b8985678-bcba-438f-a6cc-36282112c268",
+      "kind": "normal"
+    }
+  },
+  "OHLRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "6d841ef0-a118-445e-bf4f-015899a11a0e",
+      "kind": "normal"
+    }
+  },
+  "OHSHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "2180107e-76a5-409c-b842-e45841bd29a4",
+      "kind": "normal"
+    }
+  },
+  "OHSPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "89d2794b-201b-40d5-8c19-4692a3a4c51b",
+      "kind": "normal"
+    }
+  },
+  "OHSRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "3861ad0a-d396-48f2-a01d-c69457b8da5b",
+      "kind": "normal"
+    }
+  },
+  "OLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "439c222e-a4b5-4fe4-8636-f3f20634296e",
+      "kind": "normal"
+    }
+  },
+  "ORSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 75,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 75
+      },
+      "evidence_run": "1640067a-c7c1-447d-bfd7-bf08e18e2264",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 7500,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 75
+      },
+      "evidence_run": "2f1a5e32-e3f3-4b84-a221-644ebc2f1545",
+      "kind": "purchase"
+    }
+  },
+  "OSFSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "4d04c30e-3730-4d35-801e-839d9843f6f5",
+      "kind": "normal"
+    }
+  },
+  "OSHSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "a9728b96-a4f5-4d65-aef5-aa7abfb7775a",
+      "kind": "normal"
+    }
+  },
+  "OSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 100
+      },
+      "evidence_run": "9bcf63a4-7869-42c6-8cac-b92363776a12",
+      "kind": "normal"
+    }
+  },
+  "OTSDHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "a9b4c804-9c9f-4f24-9edb-a2c9aae2c286",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "09eef6e7-2c66-4187-bd64-242f2ad1ade5",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "7efc5903-c3ac-48f1-9188-98bdeb7d563f",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "656b2f95-9ed4-46e7-98e5-389c8b3238f7",
+      "kind": "purchase"
+    }
+  },
+  "OTSDSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "2a7b9eb7-99cf-4771-8477-3a28bf99a420",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "666f9151-14fa-45e1-ab92-ff49986bf7ab",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "9c21dece-7891-4c06-a266-f8db3662a5a2",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "af79713e-600c-4278-be28-bb2edeab75e2",
+      "kind": "purchase"
+    }
+  },
+  "OTSVSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "ed204305-6796-4561-91d4-093417c35db4",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "1982bb08-d7f4-422b-a1a1-870d15018a31",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "f7d5acff-93c6-400d-b4c5-31e4029195f3",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "67a4f574-dc18-4f35-9b4f-5b392065a742",
+      "kind": "purchase"
+    }
+  },
+  "PCHCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "2e4f2c08-0e46-4b47-996d-d5c09184d4a0",
+      "kind": "normal"
+    }
+  },
+  "PGASlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "7037e171-44af-4f21-b671-9308463360fe",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "4717c53b-4efb-410f-afa8-9786f6df62ee",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "c770ed68-f2f8-41f3-99d9-063cbefeb6f3",
+      "kind": "purchase"
+    }
+  },
+  "PRCJWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "bc2e946d-e9f8-40a8-9669-4faa682de179",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "ca9145ff-1a23-4750-9ce3-7eeb7cf0e637",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "c72ef55e-22d2-4c96-8933-a1a3a3371c05",
+      "kind": "purchase"
+    }
+  },
+  "PROSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "e7b1c2b3-9a38-40ed-9011-8a47f7fc8ff4",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "9deee395-20e6-4584-9d3f-bea6d661cc97",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "bd1a707c-770d-4c7c-b483-f3a3382c04af",
+      "kind": "purchase"
+    }
+  },
+  "PRRJWHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "a0c4ec6a-47de-4809-9b20-368010d03cd3",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "3e99255a-7d6d-4ae7-945e-73a6e5ba2031",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "432eb560-902d-4a69-bb1a-6757cc612039",
+      "kind": "purchase"
+    }
+  },
+  "PRRJWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "7ad397f4-b304-49f5-9cfb-de6390f3fe3d",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "39fc101e-27c4-4d13-81a4-fc41b9ee6dc4",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "6bb098b4-0b1f-46c9-9af6-9a031e1470d4",
+      "kind": "purchase"
+    }
+  },
+  "PVHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "4929ab3d-a623-46a9-8d13-7584f874893b",
+      "kind": "normal"
+    }
+  },
+  "PVSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "d7e9119e-3a6f-455a-bb26-01a5eb86d966",
+      "kind": "normal"
+    }
+  },
+  "QAHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "16b182fb-a250-40e7-b7e1-fac12c29330c",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "070fd8ec-1e9e-4872-aa02-f563bb9bc8be",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "c214e0a7-2077-41f0-b907-241bd25766b1",
+      "kind": "purchase"
+    }
+  },
+  "QASlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "850198fc-81a6-4fc4-8443-5f0aef5f3fb3",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "6d35e1c0-891a-47dd-88cd-d2be1625465a",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "92af9d91-5903-45a0-8cb8-98a25de975b9",
+      "kind": "purchase"
+    }
+  },
+  "RORGKLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 5,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "87151ea4-d24a-43ff-81e3-026eab166367",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "8c92bc68-aba9-46d3-a505-fc08f7e33aee",
+      "kind": "normal"
+    }
+  },
+  "RORSASlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 15,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 15
+      },
+      "evidence_run": "42c8574a-907e-4ff5-ae1a-80ea53e68e21",
+      "kind": "normal"
+    }
+  },
+  "RORSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 15,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 15
+      },
+      "evidence_run": "301af9c8-352a-4963-9819-afad7609a987",
+      "kind": "normal"
+    }
+  },
+  "RSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "25edbd2f-ad95-41fb-9bb2-9b19c8daadeb",
+      "kind": "normal"
+    }
+  },
+  "SACBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "7676a7cd-44da-4716-bd25-cf2044a80f99",
+      "kind": "normal"
+    }
+  },
+  "SACRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "7c4cff7c-8ab3-428d-992f-f6f7f7e72f64",
+      "kind": "normal"
+    }
+  },
+  "SBBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "7a4d0c4c-a40a-4ea6-9512-27ef42ac8e58",
+      "kind": "normal"
+    }
+  },
+  "SBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "f020f87f-b644-4a04-8708-d131f2893cb7",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "07316898-ba3c-4933-a84e-774dfd1e637f",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "9a95648f-68fb-4657-8c56-d4d7bf1399da",
+      "kind": "purchase"
+    }
+  },
+  "SCBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "64c4bff2-29de-4031-93ed-584cff9a8df5",
+      "kind": "normal"
+    }
+  },
+  "SCCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 750,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "dd020450-eb4f-40b9-b80a-b418b4e56dc2",
+      "kind": "purchase"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 1250,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "f17a976b-bd2c-4cec-8071-850e5be2f8a5",
+      "kind": "purchase"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "caca2e66-0e3c-442a-a0f2-e0025760c9fc",
+      "kind": "normal"
+    }
+  },
+  "SCDSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "27f575f5-ca4d-4bee-ba8c-1326254744cc",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 93,
+        "gameMode": "BUY_1_WILD_LOCK_WIN",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "d898d799-a80c-4698-9aed-9e4fd616b233",
+      "kind": "purchase"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 229,
+        "gameMode": "BUY_2_WILDS_LOCK_WIN",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "d21235cc-2804-4edb-be0e-3260abacb02a",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 715,
+        "gameMode": "BUY_3_WILDS_LOCK_WIN",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "95d5adbe-dce1-4565-99ec-cbafa087ad51",
+      "kind": "purchase"
+    },
+    "4": {
+      "bet": {
+        "denomination": 1,
+        "factor": 45,
+        "gameMode": "BUY_1_WILD",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "73bec20b-8730-4dec-b0bd-f86d500b781f",
+      "kind": "purchase"
+    },
+    "5": {
+      "bet": {
+        "denomination": 1,
+        "factor": 150,
+        "gameMode": "BUY_2_WILDS",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "0f85e5bb-1ab9-47d2-bee9-b636ec10ddb4",
+      "kind": "purchase"
+    }
+  },
+  "SCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "a31d33d8-0609-44ee-a555-6d2b5b12cfab",
+      "kind": "normal"
+    }
+  },
+  "SDSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "1cf0b366-7e75-490c-b5ea-a94548d74ead",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "cd38b38c-51ed-439e-b004-6c62d196d9fc",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "9e273cc5-66f8-4c9b-9fcf-dc55437801ea",
+      "kind": "purchase"
+    }
+  },
+  "SJSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "535c9338-624f-4184-954f-ccebe5008af8",
+      "kind": "normal"
+    }
+  },
+  "SMSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "22a3174d-2c23-4b6c-b57b-108597d99d78",
+      "kind": "normal"
+    }
+  },
+  "SPBLBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "3733bfc8-e3fb-410f-b0fb-d0a40fe7f009",
+      "kind": "normal"
+    }
+  },
+  "STOTSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "31b0f023-14cd-4b70-840f-c505abf4b103",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "18bf8724-05af-46e9-aac9-bb15e6c79a99",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "d033b8ef-c71d-4e78-9dc5-80ffc744fcd8",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "cf884aae-4b72-4f3a-ab12-fe2ab093bbf5",
+      "kind": "purchase"
+    }
+  },
+  "STSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "553f586d-74e1-4d88-a95e-e0af515bae83",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "c7c90490-7d0d-47d4-b322-8718a28f47e6",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "a90a6d06-4e66-4113-b4d4-0e14ff9c9f57",
+      "kind": "purchase"
+    }
+  },
+  "SUCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 27
+      },
+      "evidence_run": "1e757202-e55c-4a9c-8e73-f15aa10d7869",
+      "kind": "normal"
+    }
+  },
+  "SVSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "e1e3ac9d-d157-4406-a394-4d49dd6bd440",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "eba51318-1f5d-425f-8435-d52a263f838f",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "b7541fe2-5761-4b23-8f21-93eacaf871cb",
+      "kind": "purchase"
+    }
+  },
+  "SWSSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "54187871-4fb0-4b82-9de8-d867d7583d45",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 12,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "03a82991-ab3f-463b-b3b8-08ac5625cbfb",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 1000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "8a8d0e7f-ca9f-4366-a772-24819b3ab399",
+      "kind": "purchase"
+    }
+  },
+  "SXSFSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "f75b3032-d01d-4a58-835f-3b4bf281f209",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 100,
+        "gameMode": "LOW_MULTIPLIER",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "839f627f-ab53-473a-a2e5-e62fcfe34a0b",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 200,
+        "gameMode": "MEDIUM_MULTIPLIER",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "8b0b6cad-4cf4-4395-9fad-1a76712b6906",
+      "kind": "variant"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 300,
+        "gameMode": "HIGH_MULTIPLIER",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "3c5a969e-89ce-4b2c-94e6-f1d1619092b9",
+      "kind": "variant"
+    }
+  },
+  "TADSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "96164a2d-b547-4dc4-ae2d-087b89de4f38",
+      "kind": "normal"
+    }
+  },
+  "TBCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "ce1c2614-8ca6-4ea0-8bcd-f3d81e06d05a",
+      "kind": "normal"
+    }
+  },
+  "TBHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "70e5ac16-cf0d-4fb0-b0a8-40204b159ebc",
+      "kind": "normal"
+    }
+  },
+  "TBHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "8f060893-8b9b-4c29-bc0a-5d3fe2d6b407",
+      "kind": "normal"
+    }
+  },
+  "TBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 40,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 40
+      },
+      "evidence_run": "be31b7f9-3833-49cf-b3b9-370c9ffced75",
+      "kind": "normal"
+    }
+  },
+  "TCHJSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "ff746f53-e596-4a70-82fa-ac1f1c3fa777",
+      "kind": "normal"
+    }
+  },
+  "TCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "3f27e7c7-3a63-4bd6-a776-a24967fdde7b",
+      "kind": "normal"
+    }
+  },
+  "TCWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "5048398a-6bba-463b-94cc-7852e453b60f",
+      "kind": "normal"
+    }
+  },
+  "TDCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "f37d5d7f-5aa0-4f49-9a74-0f1a770ef363",
+      "kind": "normal"
+    }
+  },
+  "TDHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "181bad56-3478-4467-993c-9df72eb6eb26",
+      "kind": "normal"
+    }
+  },
+  "TFWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "909025af-a7e8-48a8-ba0c-4f5834eef912",
+      "kind": "normal"
+    }
+  },
+  "THBSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "18906e06-a6e0-4739-908a-bdccc2b10b28",
+      "kind": "normal"
+    }
+  },
+  "THSFSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 30,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 30
+      },
+      "evidence_run": "93717df8-7db3-4766-95f1-db427dfa0622",
+      "kind": "normal"
+    }
+  },
+  "TNBCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "93608bd9-4073-4797-8d76-491f89eb1751",
+      "kind": "normal"
+    }
+  },
+  "TNBPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "b2f880e4-b1e0-4c93-b699-fd747e371d01",
+      "kind": "normal"
+    }
+  },
+  "TNBRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "71c9cfc0-3bc5-424e-86a0-e052a318f3bd",
+      "kind": "normal"
+    }
+  },
+  "TNCHTSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "dcd93a76-1c87-4a92-b022-c4b6da016a88",
+      "kind": "normal"
+    }
+  },
+  "TNCLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "b95bc3e6-50c6-4cb2-a29e-c5211e6d4247",
+      "kind": "normal"
+    }
+  },
+  "TNDCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "3d87ac9d-6f4d-41d9-b1da-7fc55fa0e588",
+      "kind": "normal"
+    }
+  },
+  "TNDHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "7c3b3497-dc0e-43d9-a268-5ac2c5bbc4f0",
+      "kind": "normal"
+    }
+  },
+  "TNJHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "e360c98a-404e-46cf-ad40-71e487c63a2d",
+      "kind": "normal"
+    }
+  },
+  "TNLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "5bf1fbfa-7ac6-4f2e-8efa-d2731b5ad9de",
+      "kind": "normal"
+    }
+  },
+  "TNLRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "479a47b7-54af-47c1-b42c-54364f80ee1a",
+      "kind": "normal"
+    }
+  },
+  "TNSFSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "77d171d6-806d-4347-8f32-0cdd08ea24ae",
+      "kind": "normal"
+    }
+  },
+  "TNSHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "498d5721-5c1c-4693-a9ed-fe6a560132c5",
+      "kind": "normal"
+    }
+  },
+  "TNSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "524ae474-269a-4766-870c-e0c0637e3df0",
+      "kind": "normal"
+    }
+  },
+  "TNSPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "798a1136-97fd-448d-b835-db61a72490d3",
+      "kind": "normal"
+    }
+  },
+  "TNSRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "f2f5e84c-5f75-41c3-a6f7-fb107a206e9e",
+      "kind": "normal"
+    }
+  },
+  "TNTJHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "0f4e0d94-ef4a-47cb-82a1-d1a57c68b5a5",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "0a5a1f79-cfce-4b8c-a3af-ad852ba8c7e5",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "966d7bf6-90cd-4f0a-8097-c274caad3dc6",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "b020ba6a-b8e8-47d6-b2d8-132d58687723",
+      "kind": "purchase"
+    }
+  },
+  "TNTJSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "3e8c329d-77ad-48da-b0c5-ffb9b7e4dca9",
+      "kind": "normal"
+    },
+    "1": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "DOUBLE_CHANCE",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "53edf863-4cdc-4d61-8d72-1c7d4e0fdedf",
+      "kind": "variant"
+    },
+    "2": {
+      "bet": {
+        "denomination": 1,
+        "factor": 2000,
+        "gameMode": "BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "5743521d-8d22-4424-a64d-5fdf50f3ef4d",
+      "kind": "purchase"
+    },
+    "3": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10000,
+        "gameMode": "SUPER_BUY_BONUS",
+        "level": 1,
+        "lines": 0
+      },
+      "evidence_run": "66dc804e-0282-4e12-b8b5-2ab6907ca8da",
+      "kind": "purchase"
+    }
+  },
+  "TSDHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "0fb71b56-5bbf-4329-84c2-30313283a16a",
+      "kind": "normal"
+    }
+  },
+  "TSDPWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "e2c98d75-b931-4623-99f4-6e976256b3d0",
+      "kind": "normal"
+    }
+  },
+  "TSDSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "24e8cd08-ba1d-496d-921c-a274bb8d5ec0",
+      "kind": "normal"
+    }
+  },
+  "TSFBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "542fa5b3-b9a2-4da9-b586-d969719b3219",
+      "kind": "normal"
+    }
+  },
+  "TSHBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "eebc60d4-8336-4f87-9bdb-efa19a5ff53b",
+      "kind": "normal"
+    }
+  },
+  "TSHSASlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "d4abe5f7-090c-4d50-a3de-13a709b28596",
+      "kind": "normal"
+    }
+  },
+  "TSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "df020916-167a-4295-a605-9bd71a7c6ca8",
+      "kind": "normal"
+    }
+  },
+  "TSPCSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "64f5c1c3-c2c1-4a54-9abe-cc73b63aa733",
+      "kind": "normal"
+    }
+  },
+  "TSSSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 30,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 30
+      },
+      "evidence_run": "04cca7e3-2ec5-41e2-ac49-f4b8f7eb600d",
+      "kind": "normal"
+    }
+  },
+  "TVHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "6688cdd3-c416-450e-bd08-b82cf3de27ae",
+      "kind": "normal"
+    }
+  },
+  "TVSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "dc79cec7-aeca-4871-87bb-0c4ab4e8b1df",
+      "kind": "normal"
+    }
+  },
+  "TWBHCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "28fc85bd-8673-4dab-a8d5-3ec4a6cfc4cd",
+      "kind": "normal"
+    }
+  },
+  "TWBPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "ff7c0b2c-ffda-457f-be51-bd5bfeaf79fc",
+      "kind": "normal"
+    }
+  },
+  "TWBRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "961e8f57-9c24-48af-b43f-d5927dac7a1d",
+      "kind": "normal"
+    }
+  },
+  "TWCHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "1ff0cd40-bf81-4f9f-9383-dacbfb5a548c",
+      "kind": "normal"
+    }
+  },
+  "TWCLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "75c12ed5-aeb9-48f4-ab72-22afba4711f5",
+      "kind": "normal"
+    }
+  },
+  "TWDRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "2a4557e7-190b-4cd2-891a-fe240bcba61d",
+      "kind": "normal"
+    }
+  },
+  "TWGSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 25,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 25
+      },
+      "evidence_run": "99d1fcd7-35ac-4511-a701-4da725d3b5f7",
+      "kind": "normal"
+    }
+  },
+  "TWJHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "9f4fd2bc-e863-4239-95a5-90deea72b2f9",
+      "kind": "normal"
+    }
+  },
+  "TWLHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "53bc9c05-350b-449b-95e6-a083fe214ca9",
+      "kind": "normal"
+    }
+  },
+  "TWLRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "71398d65-da1c-4add-a8f4-99190f35767a",
+      "kind": "normal"
+    }
+  },
+  "TWSHRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "4c0da6c5-e6a4-4529-a09e-e7e39fb14b4a",
+      "kind": "normal"
+    }
+  },
+  "TWSHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "f23aeab6-9e6e-4599-93dd-1b99d38b1c4f",
+      "kind": "normal"
+    }
+  },
+  "TWSPSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "d5461f60-4ba5-4771-9adc-e6b216a544c9",
+      "kind": "normal"
+    }
+  },
+  "TWSRSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 20,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 20
+      },
+      "evidence_run": "f0f1605a-9c38-4bc5-a467-d0751b8980b3",
+      "kind": "normal"
+    }
+  },
+  "UFSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "9565bf40-990b-4717-8340-ff55c41022e8",
+      "kind": "normal"
+    }
+  },
+  "UHSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "10f3d50c-ce82-451d-a42c-f07dc20a1e45",
+      "kind": "normal"
+    }
+  },
+  "VGSASlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "1b1a9ecf-642d-424a-a6ef-357742fe1b46",
+      "kind": "normal"
+    }
+  },
+  "VGSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 10,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 10
+      },
+      "evidence_run": "fea2b5f0-bf10-404e-b289-7a74bc82db37",
+      "kind": "normal"
+    }
+  },
+  "VNBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "5a5f26ba-cbbb-4e7c-bafe-62de4ab5e6f9",
+      "kind": "normal"
+    }
+  },
+  "VNSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "749d755d-94d0-4032-901e-29abab47c53b",
+      "kind": "normal"
+    }
+  },
+  "ZWBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "148d47e0-aa7b-4c2d-8861-f479a73fc96f",
+      "kind": "normal"
+    }
+  },
+  "ZWSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 5,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 5
+      },
+      "evidence_run": "3deaad16-c3d4-445f-a4b6-a7705167d561",
+      "kind": "normal"
+    }
+  },
+  "ZWXBLSlot": {
+    "0": {
+      "bet": {
+        "denomination": 1,
+        "factor": 50,
+        "gameMode": "NORMAL_MODE",
+        "level": 1,
+        "lines": 50
+      },
+      "evidence_run": "37d6e5dd-e27a-44ab-8a6b-48d0bcc525e8",
+      "kind": "normal"
+    }
+  }
+}

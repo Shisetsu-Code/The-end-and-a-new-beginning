@@ -1,0 +1,5214 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "hacksaw",
+      "game": "2405",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2405",
+      "mode": "mod_blue",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2405",
+      "mode": "mod_red",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2405",
+      "mode": "mod_highroller",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2405",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2405",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2405",
+      "mode": "fs_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2269",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2269",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2269",
+      "mode": "mod_coffee",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2269",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2269",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2670",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2670",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2670",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2347",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2347",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2347",
+      "mode": "mod_spread",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2347",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2347",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2091",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2091",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2091",
+      "mode": "mod_feature",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2091",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2091",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2582",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2582",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2582",
+      "mode": "mod_rainbow",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2582",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2582",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2582",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2253",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2253",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2253",
+      "mode": "mod_laser",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2253",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2253",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2536",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2536",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2536",
+      "mode": "mod_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2536",
+      "mode": "mod_expand_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2536",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2536",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2465",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2465",
+      "mode": "mod_rainbow",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2465",
+      "mode": "mod_rainbow_gold",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2620",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2620",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2620",
+      "mode": "mod_hunt",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2620",
+      "mode": "mod_stampede",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2620",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2620",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2248",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2248",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2248",
+      "mode": "mod_pot",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2248",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2248",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2492",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2492",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2492",
+      "mode": "mod_feature",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2492",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2492",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2408",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2408",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2408",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2408",
+      "mode": "fs_consume",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2408",
+      "mode": "fs_progressive",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2408",
+      "mode": "fs_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2356",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2356",
+      "mode": "mod_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2356",
+      "mode": "mod_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2356",
+      "mode": "mod_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2356",
+      "mode": "mod_4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2613",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2613",
+      "mode": "mod_rainbow",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2613",
+      "mode": "mod_rainbow_gold",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2458",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2458",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2458",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2458",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2458",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2378",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2378",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2378",
+      "mode": "mod_collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2378",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2378",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2413",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2413",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2413",
+      "mode": "mod_rainbow",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2413",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2413",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2413",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2166",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2166",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2166",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2166",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2166",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2319",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2319",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2319",
+      "mode": "mod_vs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2319",
+      "mode": "mod_death",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2319",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2319",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2328",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2328",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2328",
+      "mode": "mod_nitro",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2328",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2328",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2334",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2334",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2334",
+      "mode": "mod_feature",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2334",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2334",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2303",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2303",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2303",
+      "mode": "mod_hunt",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2303",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2303",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2438",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2438",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2438",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2438",
+      "mode": "fs_consume",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2438",
+      "mode": "fs_progressive",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2470",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2470",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2470",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2470",
+      "mode": "fs_consume",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2470",
+      "mode": "fs_progressive",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2213",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2213",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2213",
+      "mode": "mod_wheel",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2213",
+      "mode": "mod_jackpot",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2213",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2213",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2296",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2296",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2296",
+      "mode": "mod_pot",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2296",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2296",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2274",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2274",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2274",
+      "mode": "mod_rascal_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2274",
+      "mode": "mod_rascal_10",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2274",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2274",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2243",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2243",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2243",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2243",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2243",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2258",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2258",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2258",
+      "mode": "mod_hat",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2258",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2258",
+      "mode": "persistent_fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2229",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2229",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2229",
+      "mode": "mod_dig",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2229",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2229",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2082",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2082",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2082",
+      "mode": "mod_duel",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2082",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2082",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2108",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2108",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2108",
+      "mode": "mod_kraken",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2108",
+      "mode": "fs_buy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2108",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2234",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2234",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2234",
+      "mode": "mod_wheel",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2234",
+      "mode": "mod_wheel_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2234",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2234",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2219",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2219",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2219",
+      "mode": "mod_sunframe",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2219",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2219",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2185",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2185",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2185",
+      "mode": "mod_duel",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2185",
+      "mode": "mod_bounty",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2185",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2185",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2185",
+      "mode": "fs_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2195",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2195",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2195",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2195",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2195",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2190",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2190",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2190",
+      "mode": "mod_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2190",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2190",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2148",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2148",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2148",
+      "mode": "mod_vs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2148",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2148",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2148",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2143",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2143",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2143",
+      "mode": "mod_colossal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2143",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2143",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2062",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2062",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2062",
+      "mode": "mod_ross",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2062",
+      "mode": "mod_ross_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2062",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2062",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2062",
+      "mode": "epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2138",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2138",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2138",
+      "mode": "mod_lightning",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2138",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2138",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2077",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2077",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2077",
+      "mode": "mod_mystery",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2077",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2077",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2057",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2057",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2057",
+      "mode": "mod_rainbow",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2057",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2057",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2057",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2115",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2115",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2115",
+      "mode": "mod_six",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2115",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2115",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2000",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2000",
+      "mode": "mod_poker",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2000",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2000",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2019",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2019",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2019",
+      "mode": "mod_tree",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2019",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2019",
+      "mode": "super",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1981",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1981",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1981",
+      "mode": "mod_feature",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1981",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1981",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1981",
+      "mode": "epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1971",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1971",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1971",
+      "mode": "mod_replace",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1971",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1971",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2004",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2004",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2004",
+      "mode": "mod_cash",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2004",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2004",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1946",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1946",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1946",
+      "mode": "mod_laser",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1946",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1946",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1977",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1977",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1977",
+      "mode": "mod_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1977",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1977",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1965",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1965",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1965",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1965",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1965",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1938",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1938",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1938",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1938",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1938",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1871",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1871",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1871",
+      "mode": "mod_canister",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1871",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1871",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1924",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1924",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1924",
+      "mode": "mod_feature",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1924",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1924",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1914",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1914",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1914",
+      "mode": "mod_sunframe",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1914",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1914",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1803",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1803",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1803",
+      "mode": "mod_drac",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1803",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1803",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1928",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1928",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1928",
+      "mode": "mod_cash",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1928",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1928",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1891",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1891",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1891",
+      "mode": "mod_cluster",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1891",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1891",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1867",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1867",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1867",
+      "mode": "mod_drop",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1867",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1867",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1875",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1875",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1875",
+      "mode": "mod_thunder",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1875",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1875",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1830",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1830",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1830",
+      "mode": "mod_mystery",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1830",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1830",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1744",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1744",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1744",
+      "mode": "mod_legend",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1744",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1744",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1824",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1824",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1824",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1824",
+      "mode": "mod_mission",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1824",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1824",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1799",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1799",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1799",
+      "mode": "mod_duel",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1799",
+      "mode": "mod_bounty",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1799",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1799",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1811",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1811",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1811",
+      "mode": "mod_collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1811",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1811",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1811",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1817",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1817",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1817",
+      "mode": "mod_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1817",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1817",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1756",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1756",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1756",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1756",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1756",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1897",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1897",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1897",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1897",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1740",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1740",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1740",
+      "mode": "mod_medusa",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1740",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1740",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1791",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1791",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1791",
+      "mode": "mod_respin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1791",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1791",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1787",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1787",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1787",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1787",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1787",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1229",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1229",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1229",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1229",
+      "mode": "freespins2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1783",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1783",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1783",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1783",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1760",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1760",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1760",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1760",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1760",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1760",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1752",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1752",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1752",
+      "mode": "mod_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1752",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1752",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1736",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1736",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1736",
+      "mode": "mod_pray",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1736",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1736",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1685",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1685",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1685",
+      "mode": "mod_danny",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1685",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1685",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1732",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1732",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1732",
+      "mode": "mod_feature",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1732",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1732",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1728",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1728",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1728",
+      "mode": "mod_cash",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1728",
+      "mode": "mod_cash_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1728",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1728",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1715",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1715",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1715",
+      "mode": "mod_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1715",
+      "mode": "mod_expand_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1715",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1715",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1711",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1711",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1711",
+      "mode": "mod_cats",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1711",
+      "mode": "mod_cats_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1711",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1460",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1460",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1460",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1460",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1460",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1430",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1430",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1430",
+      "mode": "mod_chest",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1430",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1430",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1697",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1697",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1697",
+      "mode": "mod_rotator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1697",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1697",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1697",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1666",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1666",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1666",
+      "mode": "mod_hounds",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1666",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1666",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1693",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1693",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1693",
+      "mode": "mod_banana",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1693",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1693",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1681",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1681",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1681",
+      "mode": "mod_collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1681",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1681",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1675",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1675",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1675",
+      "mode": "mod_vs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1675",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1675",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1689",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1689",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1689",
+      "mode": "mod_coins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1689",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1689",
+      "mode": "fs_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1438",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1438",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1438",
+      "mode": "mod_needle",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1438",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1438",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1640",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1640",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1640",
+      "mode": "mod_bombs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1640",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1640",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1608",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1608",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1608",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1608",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1608",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1554",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1554",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1554",
+      "mode": "fs_student",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1554",
+      "mode": "fs_master",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1558",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1558",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1558",
+      "mode": "mod_revolver",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1558",
+      "mode": "collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1558",
+      "mode": "sticky_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1620",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1620",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1620",
+      "mode": "mod_duel",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1620",
+      "mode": "mod_outlaw",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1620",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1620",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1612",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1612",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1612",
+      "mode": "mod_orbs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1612",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1612",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1616",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1616",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1616",
+      "mode": "mod_ymir",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1616",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1616",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1616",
+      "mode": "fs_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1580",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1580",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1580",
+      "mode": "mod_jumping",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1580",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1580",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1602",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1602",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1602",
+      "mode": "mod_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1602",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1602",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1562",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1562",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1562",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1562",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1562",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1570",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1570",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1570",
+      "mode": "mod_epic",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1570",
+      "mode": "mod_eye",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1570",
+      "mode": "fs_peek",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1570",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1584",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1584",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1584",
+      "mode": "mod_octo",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1584",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1584",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1530",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1530",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1530",
+      "mode": "mod_donny",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1530",
+      "mode": "sticky",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1530",
+      "mode": "collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1360",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1360",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1360",
+      "mode": "mod_charred",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1360",
+      "mode": "fs_lair",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1360",
+      "mode": "fs_hatchery",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1534",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1534",
+      "mode": "mod_blue",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1534",
+      "mode": "mod_red",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1534",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1534",
+      "mode": "bonus_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1478",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1478",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1478",
+      "mode": "mod_hat",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1478",
+      "mode": "mod_hat_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1478",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1478",
+      "mode": "persistent_fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1514",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1514",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1514",
+      "mode": "mod_flask",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1514",
+      "mode": "mod_flask_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1514",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1514",
+      "mode": "fs_rotato",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1508",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1508",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1508",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1508",
+      "mode": "fs_consume",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1508",
+      "mode": "fs_progressive",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1434",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1434",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1434",
+      "mode": "mod_curse_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1434",
+      "mode": "mod_curse_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1434",
+      "mode": "fs_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1434",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "mod_vs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "mod_vs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "bob_3_fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1482",
+      "mode": "bob_3_fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1452",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1452",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1452",
+      "mode": "mod_slice",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1452",
+      "mode": "fs_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1494",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1494",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1494",
+      "mode": "mod_collector",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1494",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1494",
+      "mode": "fs_locked",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1490",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1490",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1490",
+      "mode": "mod_sticky",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1490",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1490",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1474",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1474",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1474",
+      "mode": "mod_fortune",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1474",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1474",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1456",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1456",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1456",
+      "mode": "mod_cash",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1456",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1456",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1404",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1404",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1404",
+      "mode": "mod_wild",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1404",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1404",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1422",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1422",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1422",
+      "mode": "mod_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1422",
+      "mode": "mod_reveal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1422",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1422",
+      "mode": "freespins_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "mod_book",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "mod_book_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "bob_3_fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1442",
+      "mode": "bob_3_fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1408",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1408",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1408",
+      "mode": "mod_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1408",
+      "mode": "mod_expand_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1408",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1408",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "mod_bonus_low",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "mod_bonus_extreme",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "mod_cats_low",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "mod_cats_extreme",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "mod_cats_2_low",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "mod_cats_2_extreme",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "freespins_low",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "freespins_extreme",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1426",
+      "mode": "mode-extreme",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1372",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1372",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1372",
+      "mode": "mod_speaker",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1372",
+      "mode": "mod_speaker_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1372",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1372",
+      "mode": "freespins_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1400",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1400",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1400",
+      "mode": "mod_revolver",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1400",
+      "mode": "collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1400",
+      "mode": "sticky_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1400",
+      "mode": "bob_3_collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1400",
+      "mode": "bob_3_sticky_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1392",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1392",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1392",
+      "mode": "fs_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1392",
+      "mode": "fs_rise_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1396",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1396",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1396",
+      "mode": "mod_2_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1396",
+      "mode": "mod_3_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1396",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1396",
+      "mode": "progressive_fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1364",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1364",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1364",
+      "mode": "fs_moon",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1364",
+      "mode": "fs_awakening",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1344",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1344",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1344",
+      "mode": "mod_mults",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1344",
+      "mode": "fs_collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1344",
+      "mode": "fs_sticky",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1356",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1356",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1356",
+      "mode": "mod_stack_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1356",
+      "mode": "mod_stack_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1356",
+      "mode": "fs_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1356",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1352",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1352",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1352",
+      "mode": "mod_reel_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1352",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1352",
+      "mode": "bob_3_fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1352",
+      "mode": "fs_super",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1352",
+      "mode": "bob_3_fs_super",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1348",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1348",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1348",
+      "mode": "mod_densho",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1348",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1348",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1309",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1309",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1309",
+      "mode": "mod_activator",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1309",
+      "mode": "fs_consume",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1309",
+      "mode": "fs_progressive",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1267",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1267",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1267",
+      "mode": "mod_stack",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1267",
+      "mode": "fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1267",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1314",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1314",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1314",
+      "mode": "mod_drop_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1314",
+      "mode": "mod_drop_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1314",
+      "mode": "fs_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1314",
+      "mode": "fs_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1340",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1340",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1340",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1340",
+      "mode": "freespins_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1279",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1279",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1279",
+      "mode": "mod_siren",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1279",
+      "mode": "fs_siren",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1279",
+      "mode": "fs_below",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1305",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1305",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1305",
+      "mode": "mod_masks",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1305",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1237",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1237",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1237",
+      "mode": "mod_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1237",
+      "mode": "fs_sticky",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1237",
+      "mode": "fs_mult",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1275",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1275",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1275",
+      "mode": "mod_stack",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1275",
+      "mode": "fs_stack",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1275",
+      "mode": "fs_coin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1233",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1233",
+      "mode": "mod_bonus",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1233",
+      "mode": "mod_2_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1233",
+      "mode": "mod_3_expand",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1233",
+      "mode": "freespins",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1233",
+      "mode": "progressive_fs",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1067",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1067",
+      "mode": "freespins_train",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1067",
+      "mode": "freespins_duel",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1067",
+      "mode": "freespins_dead",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1059",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1059",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": []
+}

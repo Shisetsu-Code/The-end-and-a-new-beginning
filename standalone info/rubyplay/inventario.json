@@ -1,0 +1,2768 @@
+{
+  "id": "rubyplay",
+  "name": "RubyPlay",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "rubyplay.native-binary",
+    "workspace_adapter": "collection_full_node.py::rubyplay",
+    "continuations": "phaseNext/native source plan",
+    "closure": "native round and funding ledger"
+  },
+  "games": [
+    {
+      "id": "listing-title:e18d686e3429be69",
+      "name": "Mad Hit® Mr Coin SE",
+      "ready": false,
+      "block_reason": "official_listing_has_no_native_identity_or_public_demo_url",
+      "modes": []
+    },
+    {
+      "id": "rp_222",
+      "name": "Mad Hit® Diamonds Extreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_236",
+      "name": "J Mania® 3 Loose Cannons",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_214",
+      "name": "J Mania® Chili Champs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_220",
+      "name": "Giga Match® Gems Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_216",
+      "name": "Bufón Fortuna Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_211",
+      "name": "Mad Hit® Diamonds Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_200",
+      "name": "Diamond Explosion® 777",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_228",
+      "name": "J Mania® Goal Nations",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_206",
+      "name": "Immortal Ways® 3 Fates",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_191",
+      "name": "Rush Fever® Catch’em All",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_172",
+      "name": "Match Blitz® Scatter Shock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_215",
+      "name": "Mad Hit® Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_210",
+      "name": "Mad Hit® Easter Eggsplosion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_173",
+      "name": "Immortal Ways® Heart to Heart",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_170",
+      "name": "Fu Double Luck Diamond Explosion®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_194",
+      "name": "Bufón Fortuna",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_203",
+      "name": "J Mania® Triple Jam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_198",
+      "name": "Book of Riches Deluxe: Chapter 2 SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_182",
+      "name": "Ten Ton Ways® Odin’s Gifts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_190",
+      "name": "Mad Hit® Ho Ho Hot Pudding",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_189",
+      "name": "Immortal Ways® Magic Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_204",
+      "name": "Giga Match® Mahjong",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_199",
+      "name": "Egyptian Sun SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_188",
+      "name": "Mad Hit® Slippery Soap",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_180",
+      "name": "Mad Hit® Mr Coin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_187",
+      "name": "Giga Match® Phantasmal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_181",
+      "name": "J Mania® Maniac",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_177",
+      "name": "J Mania® Lucky Pyggs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_186",
+      "name": "Mad Hit® Devil",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_185",
+      "name": "J Mania® Hot Asses",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_176",
+      "name": "Giga Match® Moolah",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_171",
+      "name": "Go High® Safari",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_167",
+      "name": "Mad Hit® Jokester",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_169",
+      "name": "Mad Hit® Gorillatron",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_168",
+      "name": "Giga Match® Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_164",
+      "name": "Ten Ton Ways® Stampede",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_153",
+      "name": "Giga Match® Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_151",
+      "name": "Rush Fever® 7s Deluxe SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_162",
+      "name": "Immortal Ways® Volcano",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_152",
+      "name": "J Mania® 3 Buffalo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_166",
+      "name": "J Mania® Loco Habanero",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_147",
+      "name": "Vegas No Limit Wins SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_148",
+      "name": "Zeus Rush Fever® Deluxe SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_140",
+      "name": "Mad Hit® Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_161",
+      "name": "Immortal Ways® Gallina Harvest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_160",
+      "name": "Giga Match® Bunny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_92",
+      "name": "Stampede Rush® Trident",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:select",
+          "type": "purchase",
+          "label": "buy_feature:select"
+        }
+      ]
+    },
+    {
+      "id": "rp_139",
+      "name": "Mad Hit® Full Steam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_149",
+      "name": "Elephant Stampede SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:select",
+          "type": "purchase",
+          "label": "buy_feature:select"
+        }
+      ]
+    },
+    {
+      "id": "rp_165",
+      "name": "Go High® Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:minispin",
+          "type": "purchase",
+          "label": "buy_feature:minispin"
+        }
+      ]
+    },
+    {
+      "id": "rp_163",
+      "name": "Ten Ton Ways® Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_120",
+      "name": "Rush Fever® Soda Pop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_155",
+      "name": "Mad Hit® Savannah",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_145",
+      "name": "Immortal Ways® Diamonds SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_150",
+      "name": "Volcano Rising SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_159",
+      "name": "Go High® Puppy Love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:minispin",
+          "type": "purchase",
+          "label": "buy_feature:minispin"
+        }
+      ]
+    },
+    {
+      "id": "rp_146",
+      "name": "Diamond Explosion® 7s SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_143",
+      "name": "Immortal Ways® Cleopatra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_130",
+      "name": "Giga Match® Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_138",
+      "name": "Giga Match® North Pole",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_144",
+      "name": "Diamond Explosion® Christmas Tango",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_129",
+      "name": "Ten Ton Ways® Goldfish",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:respin",
+          "type": "purchase",
+          "label": "buy_feature:respin"
+        }
+      ]
+    },
+    {
+      "id": "rp_141",
+      "name": "Immortal Ways® Buffalo SE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_142",
+      "name": "Go High® Gallina",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:minispin",
+          "type": "purchase",
+          "label": "buy_feature:minispin"
+        }
+      ]
+    },
+    {
+      "id": "rp_136",
+      "name": "Giga Match® Sugar Skull",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_126",
+      "name": "Immortal Ways® Spooktacular",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_125",
+      "name": "Gummy Giga Match®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_133",
+      "name": "Mad Hit® Bearhaus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_131",
+      "name": "Immortal Ways® Lady Moon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_132",
+      "name": "J Mania® Turkey Chef",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_119",
+      "name": "Sugar Rush Fever®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_128",
+      "name": "Immortal Ways® Champions",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_109",
+      "name": "Go High® Panda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:minispin",
+          "type": "purchase",
+          "label": "buy_feature:minispin"
+        }
+      ]
+    },
+    {
+      "id": "rp_124",
+      "name": "Diamond Explosion® Patriots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_114",
+      "name": "Go High® Olympus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:select",
+          "type": "purchase",
+          "label": "buy_feature:select"
+        }
+      ]
+    },
+    {
+      "id": "rp_118",
+      "name": "J Mania® Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_103",
+      "name": "Mad Hit® Hidden Cities",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_106",
+      "name": "Immortal Ways® Sweet Coin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_112",
+      "name": "Go High® Fruit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:select",
+          "type": "purchase",
+          "label": "buy_feature:select"
+        }
+      ]
+    },
+    {
+      "id": "rp_108",
+      "name": "Mad Hit® Supernova",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_111",
+      "name": "Go High® Gone Fishing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_104",
+      "name": "J Mania® Golden Eggs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_107",
+      "name": "Mad Hit® Wild Alice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_101",
+      "name": "Diamond Explosion® Sweet Love",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_94",
+      "name": "Immortal Ways® 88 Charms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_98",
+      "name": "Go High® Harvest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_102",
+      "name": "Mad Hit® Marlin Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_90",
+      "name": "Yo Ho Ho",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_99",
+      "name": "Stampede Rush® Speedy Santa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_96",
+      "name": "Mad Hit® Oasis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_97",
+      "name": "Stampede Rush® Wicked",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_91",
+      "name": "ZapOtec Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_95",
+      "name": "Immortal Ways® Piñata",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_89",
+      "name": "Grand Express Fiesta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_158",
+      "name": "Immortal Ways® Luva",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy_feature:freespin",
+          "type": "purchase",
+          "label": "buy_feature:freespin"
+        }
+      ]
+    },
+    {
+      "id": "rp_93",
+      "name": "Immortal Ways® Buffalo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_85",
+      "name": "Prince of Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_88",
+      "name": "Immortal Ways® Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_87",
+      "name": "True Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_84",
+      "name": "Vegas Repeat Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_81",
+      "name": "Cache Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_83",
+      "name": "Rockin’ Gorilla",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_80",
+      "name": "Prosperity Blessing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_16",
+      "name": "Immortal Empress",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_79",
+      "name": "Royal Griffin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_78",
+      "name": "Tiki Blaze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_77",
+      "name": "Clovers of Luck 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_76",
+      "name": "Native Spirit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_74",
+      "name": "Grand Mariachi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_73",
+      "name": "Rush Fever 7s Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_71",
+      "name": "Arabian Secret",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_72",
+      "name": "Diamond Explosion ® 7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_70",
+      "name": "Golden Forge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_69",
+      "name": "Viking Crusade",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_68",
+      "name": "Zeus Rush Fever Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_66",
+      "name": "More Dragon Ladies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_65",
+      "name": "Mayan Blaze",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ruby_buy",
+          "type": "purchase",
+          "label": "ruby_buy",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "rp_67",
+      "name": "Roman Legend",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_63",
+      "name": "Book of Riches Deluxe: Chapter 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_60",
+      "name": "Mucho Loco Habanero",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_62",
+      "name": "New Year Rising",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_61",
+      "name": "Shake Shake Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_58",
+      "name": "Volcano Rising",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_59",
+      "name": "Ancient Pharaoh",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_57",
+      "name": "Clovers of Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ruby_buy",
+          "type": "purchase",
+          "label": "ruby_buy",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "rp_56",
+      "name": "Wizard’s Spell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_53",
+      "name": "Alice and the Mad Respin Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_54",
+      "name": "Feliz Día de los Muertos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_55",
+      "name": "Grand Express Diamond Class",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_52",
+      "name": "Vegas No Limit Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_51",
+      "name": "Adventures of Li’l Red",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_50",
+      "name": "Enter the Vault",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_49",
+      "name": "Bull Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_48",
+      "name": "Grand Express Action Class",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_47",
+      "name": "African Cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_46",
+      "name": "Book of 8 Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_45",
+      "name": "Silver & Gold Mine",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_44",
+      "name": "Rush Fever 7s",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_43",
+      "name": "Dawn of the Incas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_42",
+      "name": "Elephant Stampede",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_41",
+      "name": "Prosperity Journey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_40",
+      "name": "Christmas Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_38",
+      "name": "Zeus Rush Fever",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_37",
+      "name": "Blazing Tiger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ruby_buy",
+          "type": "purchase",
+          "label": "ruby_buy",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "rp_36",
+      "name": "He He Yang",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_21",
+      "name": "Dr. Frankenstein",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_26",
+      "name": "Wolf Haven",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ruby_buy",
+          "type": "purchase",
+          "label": "ruby_buy",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "rp_35",
+      "name": "Shake Shake Leprechaun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_29",
+      "name": "#Alice in the Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "ruby_buy",
+          "type": "purchase",
+          "label": "ruby_buy",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "rp_34",
+      "name": "Sun of Ra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_33",
+      "name": "Dragon 8s 25x",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_28",
+      "name": "Egyptian Sun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_24",
+      "name": "Arcane Beauties",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_30",
+      "name": "Reel All-Stars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_31",
+      "name": "Pirate’s Booty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_15",
+      "name": "Brilliant Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_25",
+      "name": "Shake Shake Money Tree",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_23",
+      "name": "Quest of Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_14",
+      "name": "Dragoness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_18",
+      "name": "Gallantry",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_17",
+      "name": "Savage Lion",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_27",
+      "name": "New Year Happiness",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_32",
+      "name": "Mayan Cache",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_22",
+      "name": "Book of Riches Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_7",
+      "name": "Dragon Ladies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_9",
+      "name": "Wild Thirst",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_19",
+      "name": "Vegas Hotties",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_20",
+      "name": "Loco Habanero",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_11",
+      "name": "Bamboo Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_8",
+      "name": "Lady Phoenix",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_13",
+      "name": "Rio Pleasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_10",
+      "name": "Book of Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_4",
+      "name": "Piggy Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_6",
+      "name": "Macau Beauties",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_5",
+      "name": "Hot and Heavy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_3",
+      "name": "Dragon Prophecy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_1",
+      "name": "Madame Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_2",
+      "name": "Medusa Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "rp_12",
+      "name": "Sheerluck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    }
+  ]
+}

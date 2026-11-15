@@ -1,0 +1,3541 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "peterandsons",
+      "game": "royal-hunt",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_3GUNS",
+          "bet_FREQ",
+          "bet_GUN6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "royal-hunt",
+      "mode": "bet_3GUNS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_3GUNS",
+          "bet_FREQ",
+          "bet_GUN6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "royal-hunt",
+      "mode": "bet_FREQ",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_3GUNS",
+          "bet_FREQ",
+          "bet_GUN6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "royal-hunt",
+      "mode": "bet_GUN6",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_3GUNS",
+          "bet_FREQ",
+          "bet_GUN6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "royal-hunt",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_3GUNS",
+          "bet_FREQ",
+          "bet_GUN6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-beyond-the-edge",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-beyond-the-edge",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-beyond-the-edge",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-beyond-the-edge",
+      "mode": "buy_FS_POWER_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-beyond-the-edge",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "viking-legacy",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "viking-legacy",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "viking-legacy",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bloody-mary",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_SFS_3SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bloody-mary",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_SFS_3SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bloody-mary",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_SFS_3SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bloody-mary",
+      "mode": "buy_SFS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_SFS_3SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-guardian",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-guardian",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-guardian",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-guardian",
+      "mode": "buy_SUPER_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "lucky-caiman",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_POWER_SPIN",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "lucky-caiman",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_POWER_SPIN",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "lucky-caiman",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_POWER_SPIN",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "lucky-caiman",
+      "mode": "buy_POWER_SPIN",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_POWER_SPIN",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "lucky-caiman",
+      "mode": "buy_SUPER_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_POWER_SPIN",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bear-patrol",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bear-patrol",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bear-patrol",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice-2",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice-2",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice-2",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice-2",
+      "mode": "buy_FS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "cyber-runner",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "cyber-runner",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "cyber-runner",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "big-bounty-bandits",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_GOLDEN_BET",
+          "bet_POWER_SPIN",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "big-bounty-bandits",
+      "mode": "bet_GOLDEN_BET",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_GOLDEN_BET",
+          "bet_POWER_SPIN",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "big-bounty-bandits",
+      "mode": "bet_POWER_SPIN",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_GOLDEN_BET",
+          "bet_POWER_SPIN",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "big-bounty-bandits",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_GOLDEN_BET",
+          "bet_POWER_SPIN",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "big-bounty-bandits",
+      "mode": "buy_SUPER_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_GOLDEN_BET",
+          "bet_POWER_SPIN",
+          "buy_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ginger-wins",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ginger-wins",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "soapranos",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "buy_SFS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "soapranos",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "buy_SFS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "soapranos",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "buy_SFS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "soapranos",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "buy_SFS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "soapranos",
+      "mode": "buy_SFS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "buy_SFS_4SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roadquake",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_FS_RANDOM",
+          "buy_MEGA_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roadquake",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_FS_RANDOM",
+          "buy_MEGA_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roadquake",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_FS_RANDOM",
+          "buy_MEGA_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roadquake",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_FS_RANDOM",
+          "buy_MEGA_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roadquake",
+      "mode": "buy_MEGA_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_FS_RANDOM",
+          "buy_MEGA_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roadquake",
+      "mode": "buy_SUPER_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_FS_RANDOM",
+          "buy_MEGA_FS",
+          "buy_SUPER_FS",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roman-glory",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FIREBALL",
+          "buy_INFINITY",
+          "buy_MULTIPLIER",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roman-glory",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FIREBALL",
+          "buy_INFINITY",
+          "buy_MULTIPLIER",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roman-glory",
+      "mode": "buy_FIREBALL",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FIREBALL",
+          "buy_INFINITY",
+          "buy_MULTIPLIER",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roman-glory",
+      "mode": "buy_INFINITY",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FIREBALL",
+          "buy_INFINITY",
+          "buy_MULTIPLIER",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "roman-glory",
+      "mode": "buy_MULTIPLIER",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FIREBALL",
+          "buy_INFINITY",
+          "buy_MULTIPLIER",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "rustworld",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_POWER",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "rustworld",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_POWER",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "rustworld",
+      "mode": "buy_FS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_POWER",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "rustworld",
+      "mode": "buy_FS_POWER",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_POWER",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "rustworld",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_POWER",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-dragon-empire",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-dragon-empire",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-dragon-empire",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-dragon-empire",
+      "mode": "buy_FS_POWER_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-dragon-empire",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER_RANDOM",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bad-santa",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bad-santa",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bad-santa",
+      "mode": "buy_FS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bad-santa",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo-preview"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gnomes-and-giants",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gnomes-and-giants",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gnomes-and-giants",
+      "mode": "buy_FS_6SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gnomes-and-giants",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "zombie-road",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "zombie-road",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "zombie-road",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "zombie-road",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bubblegum-robo",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER",
+          "buy_POWER_SPIN",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bubblegum-robo",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER",
+          "buy_POWER_SPIN",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bubblegum-robo",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER",
+          "buy_POWER_SPIN",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bubblegum-robo",
+      "mode": "buy_FS_POWER",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER",
+          "buy_POWER_SPIN",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bubblegum-robo",
+      "mode": "buy_POWER_SPIN",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_POWER",
+          "buy_POWER_SPIN",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dig-it",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dig-it",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dig-it",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dig-it",
+      "mode": "buy_FS_5SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "alibi",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "alibi",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "alibi",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "alibi",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "boom-farm",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BOOSTED_FS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "boom-farm",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BOOSTED_FS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "boom-farm",
+      "mode": "buy_BOOSTED_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BOOSTED_FS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "boom-farm",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BOOSTED_FS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather-awakened",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather-awakened",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather-awakened",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather-awakened",
+      "mode": "buy_FS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather-awakened",
+      "mode": "buy_FS_5SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "blood-club",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "blood-club",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "blood-club",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "blood-club",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice",
+      "mode": "buy_FS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "greedy-alice",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_4SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "potion-power",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "potion-power",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "potion-power",
+      "mode": "buy_FS_7",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "potion-power",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gears-of-fortune",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "epic-hellas",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "epic-hellas",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "epic-hellas",
+      "mode": "buy_BONUS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "epic-hellas",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-revenge",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-revenge",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-revenge",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa-revenge",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "muddy-waters",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "muddy-waters",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "muddy-waters",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "muddy-waters",
+      "mode": "buy_FS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "muddy-waters",
+      "mode": "buy_FS_5SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "workshop",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "workshop",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gunpowder",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gunpowder",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "gunpowder",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "evil-devil",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "evil-devil",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "sands-of-destiny",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "sands-of-destiny",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "ghostfather",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "mutagenes",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "mutagenes",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "mutagenes",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "coin-blox",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_COINS",
+          "bet_FS",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "coin-blox",
+      "mode": "bet_COINS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_COINS",
+          "bet_FS",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "coin-blox",
+      "mode": "bet_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_COINS",
+          "bet_FS",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "coin-blox",
+      "mode": "buy_BONUS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_COINS",
+          "bet_FS",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "coin-blox",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet_COINS",
+          "bet_FS",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "pop-cop",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "pop-cop",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "pop-cop",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "cauldron",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "hunter",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "hunter",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "abrakadabra",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SFS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "abrakadabra",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SFS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "abrakadabra",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SFS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "abrakadabra",
+      "mode": "buy_SFS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS",
+          "buy_SFS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "animafia",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_20",
+          "buy_FS_6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "animafia",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_20",
+          "buy_FS_6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "animafia",
+      "mode": "buy_FS_20",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_20",
+          "buy_FS_6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "animafia",
+      "mode": "buy_FS_6",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_20",
+          "buy_FS_6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "animafia",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_20",
+          "buy_FS_6",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "thunderhawk",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "thunderhawk",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "thunderhawk",
+      "mode": "buy_BONUS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "thunderhawk",
+      "mode": "buy_FS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "barbarossa",
+      "mode": "buy_FS_RANDOM",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_RANDOM",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "book-of-books",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "book-of-books",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "book-of-books",
+      "mode": "buy_FS_3SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "book-of-books",
+      "mode": "buy_FS_4SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "book-of-books",
+      "mode": "buy_FS_5SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_3SC",
+          "buy_FS_4SC",
+          "buy_FS_5SC",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "frozen-age",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "frozen-age",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "frozen-age",
+      "mode": "buy_FS_6SC",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "frozen-age",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_FS_6SC",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-blox",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-blox",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-blox",
+      "mode": "buy_BONUS",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dragon-blox",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy_BONUS",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "musashi",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "musashi",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dungeon",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dungeon",
+      "mode": "bet",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "dungeon",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "bet",
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "voodoo-hex",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_15",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "voodoo-hex",
+      "mode": "buy_FS_15",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_15",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "voodoo-hex",
+      "mode": "buy_FS_7",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_15",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "voodoo-hex",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_15",
+          "buy_FS_7",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "wild-one",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "wild-one",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "water-blox",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_20",
+          "buy_FS_5",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "water-blox",
+      "mode": "buy_FS_20",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_20",
+          "buy_FS_5",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "water-blox",
+      "mode": "buy_FS_5",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_20",
+          "buy_FS_5",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "water-blox",
+      "mode": "buy_FS_RAND",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy_FS_20",
+          "buy_FS_5",
+          "buy_FS_RAND",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "duel",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "duel",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "xibalba",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "xibalba",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "valkyries",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "valkyries",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "monster-blox",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "monster-blox",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "robin-not",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "robin-not",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "hammer-of-gods",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "hammer-of-gods",
+      "mode": "buy",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "buy",
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "robin",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "johnan-legendarian",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "precious-7",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "kaiser",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "mafiosi",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "zombies",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "wild-bard",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "rome",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "punch-club",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "sheriff-colt",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "game": "circus",
+      "mode": "main",
+      "samples": 1,
+      "settings": {
+        "currency": "eur",
+        "verified_modes": [
+          "main"
+        ],
+        "wallet": "demo"
+      }
+    }
+  ],
+  "omisiones": []
+}

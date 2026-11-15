@@ -1,0 +1,4370 @@
+{
+  "proveedor": "kagaming",
+  "archivos": [
+    {
+      "ruta": "bindings/kagaming.json",
+      "bytes": 249790,
+      "sha256": "029ef4909a96814942c0b00a4074f7a4a654dd7d4125c6d1d1f6b5d486dfe681"
+    },
+    {
+      "ruta": "codigo/kagaming.rs",
+      "bytes": 24463,
+      "sha256": "c2adf57abf16516767aa4648e215a92f99ee965eabee12d65185af5eb48cd230"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 227341,
+      "sha256": "ac66e7a6799ad9bd6cc6c3d95aa11c9d0d35ddea70211785201028078d99b61a"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 1876455,
+      "sha256": "027b706fff8f34540fac01cdde6e88ebb62c47e80903463d91e24f0247ee621e"
+    },
+    {
+      "ruta": "evidencia/kagaming.json",
+      "bytes": 4131999,
+      "sha256": "1ae86dbd792fa8d7a5c4467f27f969468e561e92482f6abe0bcabcdcb6f4dce1"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 227220,
+      "sha256": "38fc70a95e9eccf686094fe35834c309e67de1d70f68d3793af9be98985f9ce6"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 128032,
+      "sha256": "6ff6e2a02fbf3e0c0120eb5a4a16b1466a6976c5561fc974be2d8717a30d3273"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/attempts/FrenchRoulette-58-recovery-state.json",
+      "bytes": 9950,
+      "sha256": "2a06611c4e8896b972cf2f391a5ac7b4a4e8b1df04e7e62f672cf136cce7d5d6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/attempts/HomeRunDerby-confirmed-initial-before-continuation.json",
+      "bytes": 3690,
+      "sha256": "f6db510d4099d63910c8a28d5032f1a9b765b1626be3f9ffa577b9f400702a5a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/attempts/HotCoinBF-reauthenticated-history.json",
+      "bytes": 234572,
+      "sha256": "12203fb52ef3c55d58e9569aefa18e6972064b3ffa7fa3173fc6d342087440c2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/attempts/HotCoinBF-session-reauthentication.json",
+      "bytes": 6991,
+      "sha256": "bdf0365f025d6433e4902ad0f2cfb9c623708009b6ca1bd5d3d4bcb4fbcc243f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/attempts/JungleWar-excluded-observation.json",
+      "bytes": 374,
+      "sha256": "fed96ed1f9f0da9afab852ca9a4272d0e654b8ac57a0151423b7eb94bac6e6f3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/attempts/Treasurebowl-preflight-source-review.json",
+      "bytes": 177,
+      "sha256": "5e3c50b767b12a8d2056b0ffeba0fa0fbf5fb8fb592576451a1810d8a08c6adf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/audit.json",
+      "bytes": 76009,
+      "sha256": "d3944dab713c95c8c621a4cfda946e458b6996972715bf4ddb8f5f84a946aa2e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/campaign.json",
+      "bytes": 333,
+      "sha256": "33236e76d197e99ab1325a4079d3a2d149887017bff9dc284d3b355b74825950"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/catalog.json",
+      "bytes": 97819,
+      "sha256": "5ba3943af2dfc575d68646302e23dd534e032db3d5164f588f36ac4287d2aa50"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/coverage.json",
+      "bytes": 45616,
+      "sha256": "a69baf0d2eb0664c20e4507d4690652f123e718849ca659c0e843a15b40797b8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/deferred.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/excluded.json",
+      "bytes": 1299,
+      "sha256": "53a88d9ff011d723b96262258c21d767e43a48e7b779ca684a8f3d941ddf129b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/index.html",
+      "bytes": 36800,
+      "sha256": "24d4a0cf4aa5db358e27a1dcfe61eeedf68a0e502fca51b2ed8fc83c7dca5787"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/AlienDairy.json",
+      "bytes": 2656,
+      "sha256": "5bb14b6050b8c1e246e58ded95a1dfb97f51ca4cea3ec83b39f8e82e2fd21086"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Area51.json",
+      "bytes": 12866,
+      "sha256": "a57be3fc25aae6227915330393eab20b314fb66e3547c39f12fc079bbde450a4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/AstroPets.json",
+      "bytes": 9162,
+      "sha256": "149eab2922ab9c1c878a3b25920eba95bc0c00bc33c08a3df107c7425416242f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BaseballFever.json",
+      "bytes": 8940,
+      "sha256": "809d8d2b178ea23e81bf9d4c7700fb334b9a0cf8689e87b0efc465f1db508eda"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BeautifulLady.json",
+      "bytes": 6548,
+      "sha256": "7253ce529447f0836d183f62929f3012edc30434c74710a41cc711f9a741fd64"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BlazingBuffalo.json",
+      "bytes": 37023,
+      "sha256": "5a692d7dd82867f9e43d9f38031b06f700711aec6b79bf77ba7186cf3ef6b4a2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BombingFruit.json",
+      "bytes": 8850,
+      "sha256": "ad6bb79804df9be93b3ce55845a7f0713c83ae6f5420bd07274951f2cad4b591"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BonusMania.json",
+      "bytes": 7611,
+      "sha256": "1a2e6c0a8fab8034b5176254c6a5bc47adb0fc2f05da7edd9cc307d50aec26d3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BonusPoker.json",
+      "bytes": 3133,
+      "sha256": "4daf06c60c19c60ea93b651c708757f63fa600d9f8f6abd001f440645ec4ad92"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BoomX.json",
+      "bytes": 2873,
+      "sha256": "01bab899791f2bc31ee30ae4b6b3d89a220c494fffc08353bceafa20b8699c79"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/BoxingRoo.json",
+      "bytes": 7379,
+      "sha256": "1eca8dec3cf5ef373cd2d7de3ca1697462c38ee3a49979e2bbd52d57fbaa7661"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/CarnivalBeauty.json",
+      "bytes": 12949,
+      "sha256": "24c866cd4bbf6793bed6a4928dfff4bb263a49966e064fae4471e778399a63a0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/ChristmasCandy.json",
+      "bytes": 6256,
+      "sha256": "8547e4b4434e3c34ff422462f243854065c1587d38db62971f1db66bc2e2ebbb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Crazy777.json",
+      "bytes": 6072,
+      "sha256": "5af2aef0ec26a716f52f19df852d220c6dcf7d3b9771a5fd4303be45d4b6745e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/CrazyCircus.json",
+      "bytes": 7655,
+      "sha256": "651101a8a94020f040b68a2c9e61f95d1c6080c915e2fb31471546c5fbfaf878"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/DaGuanYuan.json",
+      "bytes": 11025,
+      "sha256": "e427e25f2b6d2bf8305fe682ba6e321e33ee29d010b09318926f6ff93dc0c74c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/DayOfTheDead.json",
+      "bytes": 10946,
+      "sha256": "c6b34f1fc9d0c0f61ab90b6ac66175b3b24809f316a2b2734e24ee509ea2460f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/DesertIslandAdventure.json",
+      "bytes": 9807,
+      "sha256": "8a885bcf8f3b0eda9c8470537e82529967af75e761d6e342de0e24a694c07b31"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/DetectiveDee.json",
+      "bytes": 7591,
+      "sha256": "f0be21d47a4aca01d6296a58a8f6559aa8e6ac6c07a4b92b4d74ea0bfbec825e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Dracula.json",
+      "bytes": 10605,
+      "sha256": "585cfd3e9018316d53c940c9177419ed13a4df12fed03a70ff33a9944b5b543c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/DrMad.json",
+      "bytes": 5662,
+      "sha256": "44a4cc8af17062ecfc2718efdb45a11fe4ef3294a82d6c83b5ccf11c70064274"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/DumbHero.json",
+      "bytes": 22690,
+      "sha256": "98e6d0d90a67723895326edf7e807fc1adb5ce508fab7f7a8f18af9bc575f3a1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/EasterEggParty.json",
+      "bytes": 6894,
+      "sha256": "b1f2244b66e841b9707f8b9b5da5d13732679125fdca9f28ad3940a16d8c8eb5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Ecstasy.json",
+      "bytes": 10112,
+      "sha256": "7c72195c5c7b1bf8f75c67d3bd9cd7ed484253e0bb16a7cebcecfc508f3e99a4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Fantasy777.json",
+      "bytes": 5687,
+      "sha256": "b829dc21f15a75f7407a38ae34f6b82ea22df6b5f87ca1113172b3f0657cf747"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FantasyCircus.json",
+      "bytes": 5258,
+      "sha256": "39b05e70c6502bdd2ab52fe603cc9116081a76f7df291c8b8abebb934165f753"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FantasyWar.json",
+      "bytes": 13637,
+      "sha256": "82cd1164335cf11b644c559b1d3d65bc85197b9b0e32060d599174be5d1a8bdd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FastBlast.json",
+      "bytes": 8114,
+      "sha256": "0a91c41813990fe016702c12734741aa5eac83060b024e29aa2de480999b3684"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FightingGirls.json",
+      "bytes": 8524,
+      "sha256": "442cd9de5f18f019f67f1cea150da470fa8648f66b5d0d28acbf8699eafe5347"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Firefighters.json",
+      "bytes": 8978,
+      "sha256": "fb8b333c50aeae16400fcd68e59e673d61289a5f80cf656c88480d0f8c3844f9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FluffyBuddy.json",
+      "bytes": 6164,
+      "sha256": "c4baa91228ae29004c7d64574ce6b3fbdbb7980206fd7e94861fbc35bde845b3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FortuneFunland.json",
+      "bytes": 4650,
+      "sha256": "03e4c92c1faa640b5ee924abb25b4803bfef647e798bcbd4d756a7ee52ea1815"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FortuneSkyLanterns.json",
+      "bytes": 2447,
+      "sha256": "c5130c77edd4ba7e68c5f7216e3ffcd4873e2b0aa7062a857c77c7c8c0556cec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FourScholars.json",
+      "bytes": 11613,
+      "sha256": "071abfffb57d8acf012bd8a4805fd8c5cbace3589aa7bd7cebcceaba4cbd7f3a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FrenchRoulette.json",
+      "bytes": 7933,
+      "sha256": "7a18bd9487c8ff87890dd0f386c9b994bae8fce2209599c63543895910e8d36b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/FruitParty.json",
+      "bytes": 9791,
+      "sha256": "0277a2b2c81c783078adf4ad586c0b792dd11febda48cc662b66cc55941ecd0d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/GachaGacha.json",
+      "bytes": 6910,
+      "sha256": "828b483330d2d24f0c6e44a62ff302d7b172bf0c85b82f9f83790ac3b55a71a3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/GokudoBentou.json",
+      "bytes": 16836,
+      "sha256": "75d8b7169648d180120106133f2a9dd0b632386281484854095e2250f3d27b28"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/GoldenBeansScratch.json",
+      "bytes": 6134,
+      "sha256": "bff0e2571d4d4f4037a1101b1bdc3157f73a6f63b27a3cfb31bb24780cf0517a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/GoldenBull.json",
+      "bytes": 37006,
+      "sha256": "1b258113dcce69499ebd323227e3a67cdc27e41e2d741788e2fb02cde6e45cdb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/GoldenDragon.json",
+      "bytes": 2981,
+      "sha256": "bcb7eb366cac3fc41cb50e0d56c05deee0eb6d35c0db5315dd4f6b23db3678f0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/GoldRush.json",
+      "bytes": 8155,
+      "sha256": "2bd023d6926be858c4957bccc456d78d5c3c2dec4a5651859201f3102f21c962"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/GridironClash.json",
+      "bytes": 10731,
+      "sha256": "d7382f80a11a42668d7ad184cb232d7ba738477605c8083c600a91b90e829583"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/HomeRunDerby.json",
+      "bytes": 3552,
+      "sha256": "d677ae710041e8979a8609fb550a56393236f315b988dab8471e1fcbb43be58d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/HotCoin.json",
+      "bytes": 6985,
+      "sha256": "f2215c373ee68ad4486a24f9b2fd6b1af816a0f42873908a53b4b1b34a341c58"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/HotCoinBF.json",
+      "bytes": 7061,
+      "sha256": "e738d3923bdd5f4c118f46000f4df8e83448dc5ec64ce33dab7256fd7c02620c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/JadeQuest.json",
+      "bytes": 13942,
+      "sha256": "e76c517bb91a137fb89f394cc76f08c52e8b6977203956bbf437b8a2f4cd1989"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Jingwei.json",
+      "bytes": 9951,
+      "sha256": "169ad335b781b7784f92aaa39dbf112141f41e774baffb1a87a038f1dd540a21"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/JumpingFatGuy.json",
+      "bytes": 10899,
+      "sha256": "99a59b839351c88d2f892cbcb4c3945c4658e484b59850e26c4f86495f1a8ab4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/KickCashMonkey2.json",
+      "bytes": 11351,
+      "sha256": "e674ae5bb33682702911d31613663b86356367ac91384291a4f56dfcaec50cd8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/KingOfDragon.json",
+      "bytes": 14807,
+      "sha256": "054b9f27960e6863bd1f1ac2680a6633343e7d7f3486b09473605bf61feeb6bb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/LegendOfAthena.json",
+      "bytes": 9580,
+      "sha256": "d3764c397490ee12c76a29a8a3992b9e3d819ff13b21777302e28dbe41db49c9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Luck88.json",
+      "bytes": 8363,
+      "sha256": "a7cc0d84965e3ec11a31e4c9292dd39b07bf842c72d50da31e250a2632296268"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/LuckysMillionsScratch.json",
+      "bytes": 6154,
+      "sha256": "b3f83854744d814d76592fc8b7c1a7245ebbd9cdb07de8c8044cced9bac1f499"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/MayanCivilization.json",
+      "bytes": 10656,
+      "sha256": "20f04120e713e5f5111d0a0da20ee57dfc7adbd2301703db5fe1859ff81e36de"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/MidnightDeparture.json",
+      "bytes": 11193,
+      "sha256": "a5a6e345728606b9548563376f586755cf7577c99bbe4da03545048890fad4d3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/MoleMoney.json",
+      "bytes": 7148,
+      "sha256": "f6f521d3a0e2f699edfa6ec6392793f6746f0281d279fa8051bca236be1b94fe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/MouseOnThePrairie.json",
+      "bytes": 7011,
+      "sha256": "0aa6aff237ea0e4ad35785c5998282bf18af5aba184078b00ffed4c687ea0d2a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Neanderthals.json",
+      "bytes": 8302,
+      "sha256": "117cb8266230a01cabf479df68a5242e710c6d8baf704974d69be72c6efed673"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/NightOnTheNile.json",
+      "bytes": 10151,
+      "sha256": "b833ba5c4d8efccee2841a7ef1b6ffbb6a5819f8639ed935e6ad15fa97d29094"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/PartyGirlDeluxe.json",
+      "bytes": 9204,
+      "sha256": "7010e01e0a28f63686f7bfda0df122e69ad7893ab79f063f10a450450e43e8dc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/PhantomThief.json",
+      "bytes": 6531,
+      "sha256": "1f5d6be0ea1da83ad6e4ae394ab0c07e4cc2a5556a627cad65b416c5c701e052"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Pinocchio.json",
+      "bytes": 6072,
+      "sha256": "c71b33acf50f8e83207e4a155cc05461272edbafa3fe62af3332cd2a3bb7c0df"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/PufferSwimming.json",
+      "bytes": 2919,
+      "sha256": "128216cbedae8e34036c649d8df66a11d6ccdfa8de2bd2f74253b0a619129144"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/RedBoy.json",
+      "bytes": 9759,
+      "sha256": "09b2a8dfe7f0a306e6aff7d78904f5a7695e95e9de2697deb5188409ba34de78"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/RedSorghum.json",
+      "bytes": 12102,
+      "sha256": "cd1ba480a36bffebee3544cf9ba24d976fdbe54e32cb2074802d89ab07d39ffc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/RockParrot.json",
+      "bytes": 5721,
+      "sha256": "c40904526bc013823b891b313dced8c1f780fdc2e9998eac41a4b3b704fe0b81"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/SanctuaryOfDarkness.json",
+      "bytes": 13134,
+      "sha256": "c7b754b9cadb90b9d40ff6582df255920716c5d59f4bb12d0ac30d0b4f1802fa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/ShaolinLegend.json",
+      "bytes": 26266,
+      "sha256": "84a4e7a398b084ea170594382317dcb21943cc2b421143540e3b202ccdf47d36"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Shennong.json",
+      "bytes": 8730,
+      "sha256": "c77a14197b025585490185a84190b1bc966e8b16f3dd2461a263445a47cea5c3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Shopping.json",
+      "bytes": 2682,
+      "sha256": "2e8cd9d031aad9876d62a38bfaed54816ea1d896c9edf4110f4505d3eb0a2c81"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/SilkRoad.json",
+      "bytes": 8434,
+      "sha256": "553f1df782042da2bb55a19345acd6ab52d1e18c948204115f7a4285daaaea61"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Sleepy.json",
+      "bytes": 6660,
+      "sha256": "a7423c1d31bb5a7e2b535e91db7aa6a3a7ef569b6be7c952e361ba7a75b64749"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/SNS.json",
+      "bytes": 8732,
+      "sha256": "b9c2d437080621db6bfa88c0a9aa63f7d40f0e7408588cad9d88f83d062b292c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Speakeasy.json",
+      "bytes": 12218,
+      "sha256": "102d8b2cc9e88b788e4f744c009987d120b74bcc653ae3a44483a24f236a7be9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Submariner.json",
+      "bytes": 10135,
+      "sha256": "23ad42ade03e2593e155012f4f7639f22c1bccb11ac2cbbdeb52e66951812b1b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/SuperEnergy.json",
+      "bytes": 14254,
+      "sha256": "a15d62b7e9ed7b25d687da248c65f4cc5e68e560b6ce90ffb43a8a80fa630530"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/TaiChi.json",
+      "bytes": 19683,
+      "sha256": "bae2b91c924a2a56681a0a6d1613a10b4e49fb55a2cea2fb37cee4e329307b8d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/TheMasterCat.json",
+      "bytes": 6608,
+      "sha256": "5af4cd05d507265f25500a7a184a17a1b9b090c4f5fda6ebda2527c80e28fb28"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/TombHeroes.json",
+      "bytes": 7263,
+      "sha256": "ed3fc7b4cf88e883e592d40a9182063dac1180e0a56849525759da12d9442248"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/ToroAmigo.json",
+      "bytes": 16422,
+      "sha256": "d07faf81b005a30935bc2c9feb42fdefd2897ae4554423d6fa1960dd0751ca85"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/TowerofBabel.json",
+      "bytes": 6258,
+      "sha256": "bb08125439e2e3021f5b7e34ccc474443393ee87884543e347895d4bf496631a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/Treasurebowl.json",
+      "bytes": 8393,
+      "sha256": "1023c7b8cd3ad34af44e9a1f811d6b9b1b34186e47514415458faf9057bd7263"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/TrickOrTreat.json",
+      "bytes": 13867,
+      "sha256": "c5b1b0ee0c734f4d5a5c3de1405832d429ad9ef0596cde58db94cfff6fe60c37"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/VeggiesPlot.json",
+      "bytes": 6693,
+      "sha256": "3f52f4ac84ebe43720f1554c47df27964e77d8fed12c46849feb808961de9c0b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/WalkingOz.json",
+      "bytes": 5914,
+      "sha256": "de930e792cf840542e2685990adfb620eed9b1c39391ad22cb6316ad97176e15"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/WenDing.json",
+      "bytes": 18759,
+      "sha256": "46eba6dc9124f0758efff3543b995dcc82b8597dac1a356eedd94aed395751fc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/WildernessCowboy.json",
+      "bytes": 9472,
+      "sha256": "43539124bbb6073ff48427c07fdd83870b032bb00baf5b867c9723a36ebdcbd0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/WildJungle.json",
+      "bytes": 6955,
+      "sha256": "83cce2beb5343a1a906859619f59be1ad8422e37b00af6ea7389e3254664f97c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/WindLionGod.json",
+      "bytes": 38493,
+      "sha256": "11657ed60c6c7b41914657ddce1634d13072d177aa063ffed5c0c808d7845e40"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/WitchAcademy.json",
+      "bytes": 5743,
+      "sha256": "842d4024cb99e7a2e917640152b4afd56d590ee1d05e5d14e7ee0095fb1c235c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/WrestlingQueen.json",
+      "bytes": 9480,
+      "sha256": "80da8818706afa59d5ee1658c3d4be7e8b56c7a4c1698a216fdc8b707da4fce9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/initializations/XmasWishes.json",
+      "bytes": 10073,
+      "sha256": "7433c9c66b1b77cb527c12321f89ff43a10dce5712036d44327a1c65507593b7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/status.html",
+      "bytes": 1740,
+      "sha256": "06e6e91159d18c40f2ca024d06d61670cd584663e624bd51ad30f1f08b39a78a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/AlienDairy-normal.json",
+      "bytes": 33376,
+      "sha256": "752bdfec0d476a3df19c87341fa570b8d3f95db22dc50e7693be53b73d6255dc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Area51-normal.json",
+      "bytes": 4832,
+      "sha256": "7549c42f0de563d9a0f7d16a1563fd655b988b6459cb9b280eebbfecf8a3787d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/AstroPets-normal.json",
+      "bytes": 3151,
+      "sha256": "7e21e3b25dd52e8db6cbdd8a5a503e783ca618fa245ac2524898c9ad50b0c63b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BaseballFever-normal.json",
+      "bytes": 3702,
+      "sha256": "5ebbec13f446be3ece2ff5da63aaf97118b6d2e9c43a8f25afb95d6973b9c471"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BeautifulLady-normal.json",
+      "bytes": 3810,
+      "sha256": "702da0b52bc36fab1059ad44582d3f6e87e8dc634a2081ab6a02fa54b646ae30"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BlazingBuffalo-ante-1.json",
+      "bytes": 3231,
+      "sha256": "cf6cb73c6f58cc927e4dad666a72b31c269058fc6cbf8f5d720b2256350ada7c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BlazingBuffalo-ante-2.json",
+      "bytes": 3228,
+      "sha256": "4b9c561102f27ef4503df8b9d48abd5dcceb9a727c3d2b05e785069eadeeec6b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BlazingBuffalo-ante-3.json",
+      "bytes": 3048,
+      "sha256": "6fa6525068dcf26b6fad7e8538b5d9d719fea4988b06773041978264fb3eca24"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BlazingBuffalo-ante-4.json",
+      "bytes": 3048,
+      "sha256": "4f6a8e1d6e1819f99c0760826a4738e5f5631ddec55c33be792ddc14a48c565f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BlazingBuffalo-normal.json",
+      "bytes": 3228,
+      "sha256": "d95072b90874dba75e1b40b700454ffc5284492ad7eca6721a8f85b865ee6bc3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BombingFruit-normal.json",
+      "bytes": 5512,
+      "sha256": "6ddef5ff27090fab787961b4644ebfa4df9103c5432121172c530db8638b38aa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BonusMania-normal.json",
+      "bytes": 2657,
+      "sha256": "2b11360b66322f8f820eea611c30c254dca41075cec2eae93b2bbae4d74e9907"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BonusPoker-normal.json",
+      "bytes": 5924,
+      "sha256": "25f7106c54fb3f60f9fd67ae77b395a3234279791727275709a385e03a311207"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BoomX-normal.json",
+      "bytes": 2575,
+      "sha256": "4767846628f640503a7e1ba9e097c399571c2e829780a3b00ec66e4016009572"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/BoxingRoo-normal.json",
+      "bytes": 3831,
+      "sha256": "80c6a39dd64b05ef772b827b9e31999f38ffda1553a499dcb08df3a93a5f3f7d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/CarnivalBeauty-buy-1.json",
+      "bytes": 52457,
+      "sha256": "1c578900006a3dfd4261fd176553e3e008c3b2b83102b4c8c0f111e1fd909f36"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/CarnivalBeauty-normal.json",
+      "bytes": 5358,
+      "sha256": "1170772eb2cb1a843dd1ac72781a41846c1618665a0bf5f5206178360b9962ea"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/ChristmasCandy-normal.json",
+      "bytes": 3045,
+      "sha256": "ee578d265a99ac6d131bac4edcd27f2b15b08661d92dd26416b527dc8d471aa4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Crazy777-normal.json",
+      "bytes": 2927,
+      "sha256": "943a4d4d8844ec57cddf428e6c981621c739d9e6233052dcfcd0f1d087aa8464"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/CrazyCircus-normal.json",
+      "bytes": 4052,
+      "sha256": "5598254fd1f2b7f5c6e636bbe078b58c6a7a96ab74fbb95ccd24bf0528261b93"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/DaGuanYuan-normal.json",
+      "bytes": 5333,
+      "sha256": "664cc30769d5aeafa79bd5b1c523eb5ccf43306e9eb4774000c0dcd34700ea57"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/DayOfTheDead-normal.json",
+      "bytes": 3883,
+      "sha256": "2b8ed7849f6d8ef293781926ee511f583e33fc3b90a22f95f5b2d89c77a39e32"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/DesertIslandAdventure-normal.json",
+      "bytes": 4576,
+      "sha256": "b18a5803667607322c4f56bab82b0e2e39c3c41f47786fe5110cf5a6c9070060"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/DetectiveDee-normal.json",
+      "bytes": 2975,
+      "sha256": "d3132da04722c1161481aceedc33074186a8e0a902b8a90c9734b6ea6de6ba5d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Dracula-normal.json",
+      "bytes": 5337,
+      "sha256": "4e43ad86044fb1853f2f28a5a3d9eeb0a71745ead0b91abfc69a69b1764dd6a1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/DrMad-normal.json",
+      "bytes": 3796,
+      "sha256": "e2cef2e9222a0102f579866bc237f609e31151d13c8118bde22a569800192a66"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/DumbHero-normal.json",
+      "bytes": 3643,
+      "sha256": "fd773114633fc0551658b565f9d13fd212bcc554df20457174dc1f4aace6d844"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/EasterEggParty-normal.json",
+      "bytes": 3844,
+      "sha256": "bdfb2690f66d6a0ccfe9f3745737d7c2556591fc8e723b8e6daa672230d9b8f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Ecstasy-normal.json",
+      "bytes": 3510,
+      "sha256": "d5f2996b32f435b1d4c1cdf092cc75aa8bbb96117d8a6ea7c1aed173a9e95be8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Fantasy777-normal.json",
+      "bytes": 3635,
+      "sha256": "d6039049782ceebc58ee03b60a500f02ca6c0006054ffc940a3c00c829115daf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FantasyCircus-normal.json",
+      "bytes": 3082,
+      "sha256": "07297254c3d030a761dcf732da5c9ab234272a752b1295869c2db521db422dad"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FantasyWar-normal.json",
+      "bytes": 6086,
+      "sha256": "d24fb6cda6537434a77afef75423c31b797acdcdd36238089b1ba36a695b4a7d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FastBlast-normal.json",
+      "bytes": 4288,
+      "sha256": "cf4776d9dce5c9eaeaac15a500411ea5980db01ba111e804cf414080cbb23d0f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FightingGirls-normal.json",
+      "bytes": 4728,
+      "sha256": "f84a624e1fe8567e4b8e343481f88116bc9bd4cd8276071c0b6f79a3e894afe4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Firefighters-normal.json",
+      "bytes": 5276,
+      "sha256": "9eeaa76e35926f596e2c427afc9a5ed4c60409cbb11771655dada676c076cba1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FluffyBuddy-normal.json",
+      "bytes": 3957,
+      "sha256": "e5f082cb17ff36ceab106a4b9abd2ce6cb8cc337af37b08050e660c71bd1a5fe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneFunland-normal.json",
+      "bytes": 3098,
+      "sha256": "1c80b8f2a8a33383c1b0b6a482d9fa1e1495a9de9571e024545c5a26e74dedd7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-10.json",
+      "bytes": 2921,
+      "sha256": "062e7e5976fc73b024ea310be79d8aa79d67eb002eb69682c815c86de702dd0b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-2.json",
+      "bytes": 2910,
+      "sha256": "936095d509e06d6fb94a4b0787d924559632ef39dd52166d06d7d9be88829480"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-3.json",
+      "bytes": 2909,
+      "sha256": "43945e27e6eab51225dc2b83d22182a8310cff2b3360cc7a75520b2c4d82f18e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-4.json",
+      "bytes": 2910,
+      "sha256": "a0fffbfb4ef2ac74fbda913fd76d850b8bf787d92bf67517210c056008c1311c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-5.json",
+      "bytes": 2908,
+      "sha256": "d340d93e35076e1b06f11fc202006275517a2e886a3568cf0e84b74246a02322"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-6.json",
+      "bytes": 2919,
+      "sha256": "6fe09b7e0abbe6acb5e31320ee98cf48a59f5f4af8e194572ccc7ce52ea752e2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-7.json",
+      "bytes": 2919,
+      "sha256": "e9cea4227007192a250731700f318e959949041428aaec4c5b6cf91da962c528"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-8.json",
+      "bytes": 2912,
+      "sha256": "9dcc1f754159116f4a1dcb71f9adaed96ee1f15163f6f17ee1be6007f01e0138"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-lantern-9.json",
+      "bytes": 2921,
+      "sha256": "3f0aa5865ce34eb12d0f9e51ce4c26a31a587b5567e09f25bfc1c889d121c6d9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FortuneSkyLanterns-normal.json",
+      "bytes": 2906,
+      "sha256": "d695698c5f0bd501ba5ca996dbd413ce5267f77a8038cd33929e13cea8bc1c76"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FourScholars-normal.json",
+      "bytes": 8435,
+      "sha256": "d831f7f77f0a9c0ab0a3e8460410eea67a89645793d5c5e4b0815e594d0fb233"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-normal.json",
+      "bytes": 16893,
+      "sha256": "cb9f0aff6e722d0a96db83e16704a5b0f2752553de84744d6c4d45b48b913f2c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-racetrack-37.json",
+      "bytes": 16818,
+      "sha256": "0a63e4dc5577c553abe4d045cc61b7eb7dc2ad1396b242ffb908d7a87998a92f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-racetrack-38.json",
+      "bytes": 16824,
+      "sha256": "486c1c60f8bf57bdf06d21cb05274ca45f3157ef7bd9e9245fcc86aa555b7cb5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-racetrack-39.json",
+      "bytes": 16847,
+      "sha256": "a92ca22ff120ea25f42ee2a112fb643d410686c8acd756b66b7d7f6c8d3eb8b4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-racetrack-40.json",
+      "bytes": 16830,
+      "sha256": "305337d674ec6c578957dcad346fd7110ac06c4441a44193712858935c372352"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-1.json",
+      "bytes": 16897,
+      "sha256": "df197721facb20966ca341893c9bfa9f09d854bf8c0fd63b442c3ca13fdb8a85"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-10.json",
+      "bytes": 16901,
+      "sha256": "a9e8752f69430beedc46020260786d5718860b12c1973f6cf6609d5125f9d8f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-100.json",
+      "bytes": 16800,
+      "sha256": "c137a386707f68bc7791a87c7f6aafaa6e9b69b760486592a2f3ca12d18d8cf7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-101.json",
+      "bytes": 16800,
+      "sha256": "355a8e7949d10ebd80876b0074506ae18846a62ef513ae9a728ea6cccab2b7f5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-102.json",
+      "bytes": 16798,
+      "sha256": "054ade62f16404f6e32ec804f0a5d6794cbb91dab0b56753eed244654413d0eb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-103.json",
+      "bytes": 16800,
+      "sha256": "2278311b0731d5f13ec7c16e690c951e6d160d555767706c0554f18aa1499529"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-104.json",
+      "bytes": 16799,
+      "sha256": "7f41e320a4dcf19801d914f3688d4bd7c6c24c03b6a6835a1289823f525b2897"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-105.json",
+      "bytes": 16799,
+      "sha256": "b3eb8b2ed072447fe793db135d97bef4e12076751636d9b54e10efffba5309ce"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-106.json",
+      "bytes": 16800,
+      "sha256": "d00757adaf9413db1b8291a430f59fe76e646aba6cab60beeba9a1dbdb7a25a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-107.json",
+      "bytes": 16799,
+      "sha256": "3462d13fa11c54393e678c5a9c661ab11d157894575ecb204015eb9a517e97de"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-108.json",
+      "bytes": 16800,
+      "sha256": "01364bd803a2b21a767269929f80c00c98b269a5edc54ab3ae18e4a23f0ce76e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-109.json",
+      "bytes": 16799,
+      "sha256": "8a98c13bd967ab0c7a94d0f1ace9d915c04751b0b707b849ffed19a28d9d3e78"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-11.json",
+      "bytes": 16917,
+      "sha256": "0e1e1860f7785644f7c7a063d3bb08b98366d367e653d36552d907262b07ccac"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-110.json",
+      "bytes": 16800,
+      "sha256": "75cbc66b592e1567d5cedb8ec944a7bd58cf66dab5ecd8ea424c52876e130d15"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-111.json",
+      "bytes": 16799,
+      "sha256": "985d97c850925984093cb864e036402fabcc4ba4663180a2d802da59293437ea"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-112.json",
+      "bytes": 16798,
+      "sha256": "2fc57eeec78b1d997978f67e4e15ab595a65158255318a36fdbf4f2b1b37540e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-113.json",
+      "bytes": 16800,
+      "sha256": "f651487ff47e8fb867ff321b245aa3781049896c5cbd83e81d754e9389287b56"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-114.json",
+      "bytes": 16800,
+      "sha256": "256dd2a6026d223e25ad47a1ec3ac05a0978746539515b0b8557f6c0e86016be"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-115.json",
+      "bytes": 16800,
+      "sha256": "fa31e516dfe413ca427c7d432953fbf31e9b81071afa45e56788253274d9e5f7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-116.json",
+      "bytes": 16798,
+      "sha256": "d51bc4125c8cf4322a212bab80b9d6cc179b41ae36e12f85ebd38bf31d37ec34"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-117.json",
+      "bytes": 16800,
+      "sha256": "801d7d75f6baa0e7b80314de8708042a778962c0d5ab5d1930a572fbd91bad68"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-118.json",
+      "bytes": 16800,
+      "sha256": "03be656c13a919f2f7870fe5c55f5655aea55423ae55e7c98523a892ea62bf97"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-119.json",
+      "bytes": 16798,
+      "sha256": "6ebd9ecc10b65cce74f476743acfce1a55b4381d7a07c27308074bdfa91e4de9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-12.json",
+      "bytes": 16911,
+      "sha256": "6a417ad60469d8bdf0f6f16b132a9e1eb42a5b030b9e497027e33d348a22581b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-120.json",
+      "bytes": 16800,
+      "sha256": "5563f354255a319ab5da3617ec5dfb50e840b65985e93a0aef35ac3e82450f4d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-121.json",
+      "bytes": 16800,
+      "sha256": "c0fe82c2bccdec340c930d731e540104e15c8f4ab5476d68d1712f5061d4a744"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-122.json",
+      "bytes": 16799,
+      "sha256": "13887c4fcbe5d71472baa6ba9c5c1fd02b6952b1a0c1a748d16b24a348bde2c7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-123.json",
+      "bytes": 16805,
+      "sha256": "9448bf28b2dccc0030ba9add37d5efb1b43facf0beeae82d281f1e364881f4c3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-124.json",
+      "bytes": 16799,
+      "sha256": "baa925ddb7b30f47494184f6ed00e04d131ad42a89bd2d1381ffb5bc874376f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-125.json",
+      "bytes": 16800,
+      "sha256": "4268d3846ea34be96baf9d06561ae4f05a955f0f4504cb697373f517c6025402"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-126.json",
+      "bytes": 16800,
+      "sha256": "447eb43d3409dba6c6952d6cd06f30d7161ce0d2974556f64e66987554906261"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-127.json",
+      "bytes": 16798,
+      "sha256": "3e1d2ecd6cb9a5dae04b72ca12188d80eba35df8c71e6927e4f306c2a7dc3f07"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-128.json",
+      "bytes": 16799,
+      "sha256": "b0627e0902bd32eb95754711a62aee70a6e7996d8089ac8c63ab4da5a441741a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-129.json",
+      "bytes": 16806,
+      "sha256": "69f5d4f3f5689ded00869774a376aefd2b6367a128a110ad2c616644ae3057bb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-13.json",
+      "bytes": 16911,
+      "sha256": "963fdf27d1a7bad16a1275afafa1c04397c0d073fa67553e313adcda19df0013"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-130.json",
+      "bytes": 16800,
+      "sha256": "fea2858368599a01645e4fb7da058ebea58bdfa9c7a45b7bf363b4f7d1b01a65"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-131.json",
+      "bytes": 16800,
+      "sha256": "7a413bbae5e20be2a0b71cbaf6ebc38f4b24710bd3b46cb67d4ea35f67b15cd0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-132.json",
+      "bytes": 16800,
+      "sha256": "e558c6f8763bb4cdaaf117fad8076b7d223ecb440b876d44ea01d3d2395beb84"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-133.json",
+      "bytes": 16798,
+      "sha256": "1b956fa6c7981f77f17a6c709c37fc0518d3bd2bc2f1a5c342aedc6cb5ad81e0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-134.json",
+      "bytes": 16799,
+      "sha256": "479405ea4cce37740a709951bb28378ae4f5cdab03c19f05019950bf89ec4aed"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-135.json",
+      "bytes": 16808,
+      "sha256": "88843bedac5e095685dc61b787ef6c5927a26918c2fbbd7f7a75f51d2aef44a0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-136.json",
+      "bytes": 16800,
+      "sha256": "4055fdd4b0609057c7dba018e528431a80937ca66bd8055290476d288284ca97"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-137.json",
+      "bytes": 16808,
+      "sha256": "e212da23d26ab309a078a3c089346bdd10d0e5468af77d1007f61c4dbe85fe9a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-138.json",
+      "bytes": 16799,
+      "sha256": "e857515d612a33cee648eaa6d4ad12186571ebaa7d1b2b4b95b2dc39aef70411"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-139.json",
+      "bytes": 16800,
+      "sha256": "323ed61b5dce6a3150e4072955155f22f910556f9634da47e047595c8dbd21d3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-14.json",
+      "bytes": 16911,
+      "sha256": "52eff30056f2b6cffd5af2ef94e37109beb11a3db1e23cc479210c7e7e4e0d1b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-140.json",
+      "bytes": 16799,
+      "sha256": "a801649198bcdf4039f69404706fba9b384a99de9de9e26d3e6aba4c33bc8f3d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-141.json",
+      "bytes": 16799,
+      "sha256": "37385f118e6e9dde345533d145d9aef04862253277400f2a4fa48fea5d102a1e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-142.json",
+      "bytes": 16798,
+      "sha256": "e47504d4d3a79889816b2676af27449d0c390fae212656259f630a0d0bf0a471"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-143.json",
+      "bytes": 16799,
+      "sha256": "6e562853aa3beabbe83460b0de38ca557470c84297c61d2c120a04cfe3512d92"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-144.json",
+      "bytes": 16800,
+      "sha256": "269dbab5406703e1c644245e23a47fab4724fa7cae7bd0536aa44f5faa49949e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-145.json",
+      "bytes": 16800,
+      "sha256": "a8d67b488f46f8ba738c01ec8bd008219d32c6ed80869faf5595f34d100adcfb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-146.json",
+      "bytes": 16799,
+      "sha256": "22d6138185a96b75515fdd8d91ad60de1db87ea0b85d9f91cfea455be7314d9e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-147.json",
+      "bytes": 16797,
+      "sha256": "bef1e3962bf46a2ac12fb4bc7e73e079723b2e702d2f771ef33390ee4f36e601"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-148.json",
+      "bytes": 16796,
+      "sha256": "f60eb04882dc9fdec2fec3de1990f57e26d9ae7a9d0fead3b4a8393602c781b3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-149.json",
+      "bytes": 16800,
+      "sha256": "151520f27a02be97acbad47bbd1b5f19c8b6bbb0fe4a30d9c61dec5b28e5e6d2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-15.json",
+      "bytes": 16910,
+      "sha256": "e183efe5239030b2b9a41c1e48e29e785fd8e1cb5b50872c1c7bbef1ff3bca06"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-150.json",
+      "bytes": 16798,
+      "sha256": "1495d689d7427607b7abb25c393c4fa666dd306719f24bdacb29d635d39c0ede"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-151.json",
+      "bytes": 16799,
+      "sha256": "4bcc3f801b20fea7829e63667aa903742c47f7a33d53a9d9b1b6447b5abc342b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-152.json",
+      "bytes": 16799,
+      "sha256": "6319fac27190b1e7940061a682e97d990cda9751b7ac4a5e3865279d91462ec9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-153.json",
+      "bytes": 16798,
+      "sha256": "9e3ea69b87aef23d596dfefd5aa60ea2e405c023adbf24ca076b76f7d2cb7ae1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-154.json",
+      "bytes": 16800,
+      "sha256": "1d6bcb7d739fa7eaca1fdec2986845e517925ed873584f0765cc5ec5a5aca766"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-155.json",
+      "bytes": 16800,
+      "sha256": "10ba1ebff1ba26cd6cb3838ae09355f94ead1c4b18105292d7b33a906a80c0cf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-156.json",
+      "bytes": 16800,
+      "sha256": "927bb0f18c3e59aa4c9769d57b60acd31f06c7ce52784109c5976f32f4e4bf86"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-16.json",
+      "bytes": 16911,
+      "sha256": "ed65eec37335e6da814e0f924084716aa1118b26c42e7803af6320eb53b1f0df"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-17.json",
+      "bytes": 16910,
+      "sha256": "63f970f88d363027357f5c81a1beda98f7c20555dfe019c48bc32196e8e3483e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-18.json",
+      "bytes": 16909,
+      "sha256": "aff1eb429a63dcb32be3baebeea46919b1509ca4c502bd1794d4b3a8a75c07ca"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-19.json",
+      "bytes": 16909,
+      "sha256": "32452e5a3b341085240f804871d6df4a462837fac3b76353f6ec5e5040c76832"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-2.json",
+      "bytes": 16895,
+      "sha256": "9692defef66030bdb66926a4bf2a4e60553b866e755abfeaec336b9553d4b6a3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-20.json",
+      "bytes": 16908,
+      "sha256": "3f584ac8f4166e24a7fd0088d1566ed84fb1ce1d32a96351a6307e3bba60740f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-21.json",
+      "bytes": 16909,
+      "sha256": "7b13f6d8c8fcef6a3753e105906086a62c8db7175696230fd9a954602e503458"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-22.json",
+      "bytes": 16911,
+      "sha256": "e0022795459cf00da808d54c5bc6799652ba22b3fdca69829cbad5d716f9d0f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-23.json",
+      "bytes": 16911,
+      "sha256": "7b6f5663909cab671b3a5e55e3112d87f43d86e87dbac7ecb8d899e01324f0bb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-24.json",
+      "bytes": 16909,
+      "sha256": "b51ccf3766f4ac51242182a89d72c63bf88f4f2a45a4d072ec8ae959eb1de0e2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-25.json",
+      "bytes": 16911,
+      "sha256": "42d0ac8c9f5bf98d187c53f1a5940a342fcb88eace4e8dcc06f3cdf2a7554655"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-26.json",
+      "bytes": 16920,
+      "sha256": "b157e4fc70ea97fd129eb3c2ac2a8c37cefc02e5472937330b166b594f6b0aa8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-27.json",
+      "bytes": 16909,
+      "sha256": "c60da939595aca5d7ea145f1855d3f3970300b15082a9c87439a8405dff0ae6a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-28.json",
+      "bytes": 16920,
+      "sha256": "8ae7537fa8b8122fcf5540c0033fc811889557ab1b147a523b8cd1cb375d850e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-29.json",
+      "bytes": 16909,
+      "sha256": "13e356468768a7ffbca95fe023aadb5396db3b06ed8bd3cfd16909fd916ef88f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-3.json",
+      "bytes": 16894,
+      "sha256": "5ec37e3477135e61c3a4d38d306f87e158b60b3bb1371956c8f17c2d373a0d7a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-30.json",
+      "bytes": 16910,
+      "sha256": "c013d57f9957e72755bbf7f7dc6537dc75ccaa51860bee47a198c1a3638cda83"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-31.json",
+      "bytes": 16912,
+      "sha256": "790fce58e031737e0227f00404529b02e565eb3d4a06f9767e15cdddfcc9375f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-32.json",
+      "bytes": 16911,
+      "sha256": "d87cde5e84fb33406eade66ecc5217128d9b2a076b858824e6a090ce85b1a344"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-33.json",
+      "bytes": 16912,
+      "sha256": "6b9cacaeda19d3d6d54b2101db3a4c3ab52f30c381fb7013ecf2a9d9e8142e9e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-34.json",
+      "bytes": 16912,
+      "sha256": "adb857ce265850d23f8b1db788e18c6e13c988ea341d47ee6cb0a39c204c621f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-35.json",
+      "bytes": 16912,
+      "sha256": "bbe0d9d8c5fc487eb49241d5b7a39142a4b5086f0cf9cf2088c1a7df16438dc7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-36.json",
+      "bytes": 16910,
+      "sha256": "2c73420a2598b06c7c7f40ba0fdcc6ca6542231b0d30917687f870702520cb36"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-37.json",
+      "bytes": 16917,
+      "sha256": "22595faf32930cb2bceb35b0280366bad6cee8583a4547f738574f703d9b1c28"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-38.json",
+      "bytes": 16910,
+      "sha256": "bafc8c34e2e6bd1c12b4b389033a279c91f08d02b066d36ad25edffc37412314"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-39.json",
+      "bytes": 16917,
+      "sha256": "12e78edd7fd7b0f86d8d4f6a01a1742482c762ffe12eb3e1e966faef24386519"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-4.json",
+      "bytes": 16894,
+      "sha256": "472e50b736f97cac5f3f732af3b0ce97d2a5559d2a6372ba17f87e62e33b4a6a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-40.json",
+      "bytes": 16910,
+      "sha256": "044e30c0df58e31436f07d7ebc2bb1d4566cddcde4d988646ff08bb93d2ac783"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-41.json",
+      "bytes": 16917,
+      "sha256": "7d262fdb6b36d177235736ead947ef877ec5ec4740ffd540861184809735a995"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-42.json",
+      "bytes": 16910,
+      "sha256": "a90437ede121f8647c487bae84f2843d3159c51b4877e523262ec73f4b4666ec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-43.json",
+      "bytes": 16911,
+      "sha256": "7b0283a9ff4193bd08f0708dd508ee089aab06d46469d754edb70b574d6380f0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-44.json",
+      "bytes": 16918,
+      "sha256": "87295dfee6977b738cfc3473391addc4cb9691df8ffcf246c7aec2cd5d90d79d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-45.json",
+      "bytes": 16911,
+      "sha256": "e41e1df7402ba285333fa9335ad67f984cf9c5ea3e67e39d681211b1880aac97"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-46.json",
+      "bytes": 16911,
+      "sha256": "2c6b523bf30ffe6ab4294e2d313527e339ba83483aec4d96e36adb7260b87279"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-47.json",
+      "bytes": 16912,
+      "sha256": "586c818be095fb8ea78f5e3052423e8b2ec60543fa1f0cf1066017e900ccb8b5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-48.json",
+      "bytes": 16912,
+      "sha256": "7ec571ce58412ab49b4bea011975e4f2287acd4587f64893d1bdf5117d4a921d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-49.json",
+      "bytes": 16911,
+      "sha256": "29daebe38bcf6ac633a6b292533bb38cc2437f86206beffc891fe8674d2c0d6b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-5.json",
+      "bytes": 16897,
+      "sha256": "e26542f1390b9e8ad527e51834b189ab7e2c6ea67e1ad255d6898a426022651e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-50.json",
+      "bytes": 16912,
+      "sha256": "bd50ac6800af50244c01765be65cf1e328e4b7cda7996f9790a62de33e04a70e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-51.json",
+      "bytes": 16912,
+      "sha256": "d29724b162d025cc4543f93b36b5e690b1015a8a0d63446610bc1963a6c667ed"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-52.json",
+      "bytes": 16918,
+      "sha256": "8e1157fc37cf9d64be9ec51825d58bd4307e2184d586632622d2b14fa4ff2fd0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-53.json",
+      "bytes": 16910,
+      "sha256": "35876655e586026f399b1d70f53f1f2e01b8133d6d7ec7e022a4fe0b636d5962"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-54.json",
+      "bytes": 16920,
+      "sha256": "fb948d8a746f04b427a127d40fa01a5823cdc1417957b409d045270a3e9618fe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-55.json",
+      "bytes": 16910,
+      "sha256": "b4711bdfb986ac45ecf036461ed3fb420df58b278cc8286178fd6c318cbd3763"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-56.json",
+      "bytes": 16911,
+      "sha256": "6a30fc639fc1b73e38e4f69132e8229c3c9aa89534ee3937d4e69e2c6f648244"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-57.json",
+      "bytes": 16910,
+      "sha256": "0ecab126e293ea1397043c543a07b67c49157f2e77618fd4bdc53160ee5287aa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-58.json",
+      "bytes": 21026,
+      "sha256": "23e99f5795f42b761c47406fa80fee3a469d2c7b23bf574a465ae43cb2945901"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-59.json",
+      "bytes": 16790,
+      "sha256": "d6afa5b1c364141bfb4e124196da1c3ecdf85bd41468e5fcdb4bebbdc0cff282"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-6.json",
+      "bytes": 16895,
+      "sha256": "83e587c810269be905fdfb072935b20059f54a12be8040a93da6311907e4bba3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-60.json",
+      "bytes": 16792,
+      "sha256": "55f50fc9ee613f81ca6acac2203940343dc0d8b23b3bdfd7e4c4c4409d398b7b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-61.json",
+      "bytes": 16791,
+      "sha256": "0f5611d43b88efb6968ef3f9966898544e2283161e014183f3c5692db551ae5d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-62.json",
+      "bytes": 16791,
+      "sha256": "3e030ba5521149fc3802bff1a50c581f998ebafddbceda8be628d849bf6796bb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-63.json",
+      "bytes": 16792,
+      "sha256": "c50a01f7a56b18837b4ff2b649fa854497b1e41b03b0e36b218f9fb284e73f6f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-64.json",
+      "bytes": 16791,
+      "sha256": "ae3cba8c892c3cbba0a54b4892ebb9a8379ddbedf7d9088b8c2b284d736a68c2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-65.json",
+      "bytes": 16789,
+      "sha256": "953b95c597a1ef93be71972c2266b0e63f92c58feb1e2813e511ecfcc1ccd98c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-66.json",
+      "bytes": 16791,
+      "sha256": "f572dc7f947002a1681fe2e3d08de59a9436ba0337d6d85325bacaa48e63e425"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-67.json",
+      "bytes": 16791,
+      "sha256": "0c0c706beedd9fad3c22dba94e58139f40b5e3b54bedaf93c44ec9393b529976"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-68.json",
+      "bytes": 16792,
+      "sha256": "f89a0747677f6b5f06836f499436086391db94b414c1613d789e5fc085e343a8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-69.json",
+      "bytes": 16792,
+      "sha256": "27087d0d3d935d3e9ccd4802a542dc8ed98affa6ac9ee51ddea19c72982bf74d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-7.json",
+      "bytes": 16897,
+      "sha256": "8a3657d1ff8ae11810248c190fe27e68d80134072ff9b74523e9a12587422c0c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-70.json",
+      "bytes": 16793,
+      "sha256": "bae06fe356facd64318a8b682a871bd6180e389422640e8e713e2177e81be443"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-71.json",
+      "bytes": 16792,
+      "sha256": "029ab4848004284d4b7d436f5aaa5d293e900b05cc44ac409919cb9cf3a92d70"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-72.json",
+      "bytes": 16790,
+      "sha256": "75502d99534f4bc1af4293ddade9b2ec2c88e111f49f7e1826939497972f09bb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-73.json",
+      "bytes": 16791,
+      "sha256": "61bb4483999f6f6b1a819173578e808482a0ca74ce62ef80ba41bfa0f343406a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-74.json",
+      "bytes": 16793,
+      "sha256": "587acdca55b039ecf45cb8da0882ec9e990630cf2a8bfcb260a9de27a73be0ca"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-75.json",
+      "bytes": 16792,
+      "sha256": "c00b87ab634463f92799216eac29bda18e671e33b0de927da4f69247ac215dfc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-76.json",
+      "bytes": 16792,
+      "sha256": "4e3d48d8c86fac23723fd86444819e09426bd52d97fe51971d5b348988bcc1cb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-77.json",
+      "bytes": 16790,
+      "sha256": "616ff6e058b974a88239c58630b208bb9b44c973e941d6f7351ae285c0b3927a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-78.json",
+      "bytes": 16792,
+      "sha256": "1a4ad390d130bdbe535c402c0f32f72276c23ad4907aa3de52ed8154a7ea996d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-79.json",
+      "bytes": 16792,
+      "sha256": "ca055a7e1fa134b011a793ff50001395df35fb13151adc8b5714cb3f8ae0029d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-8.json",
+      "bytes": 16896,
+      "sha256": "54c3082d3dc579339c52143dd3f5bab34dab772c66b684c5be068554b3789ecf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-80.json",
+      "bytes": 16792,
+      "sha256": "5bf761a0607c118ebe526fe47e2cf032ed7ffac937f8b98adb1a82739c5598de"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-81.json",
+      "bytes": 16791,
+      "sha256": "f519ca2d7dbaf4c30386b9dacc536fddd220d53193cc594e520d908262e2a949"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-82.json",
+      "bytes": 16791,
+      "sha256": "764a318bde31de2584ce03611a16a02a92044606e4a37801b8494da1f5a7c4c1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-83.json",
+      "bytes": 16792,
+      "sha256": "25e52cc2f7ca28270a3e3809c67ced66eebadc0fc4102526a86ea94150e32666"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-84.json",
+      "bytes": 16793,
+      "sha256": "fecd631bab9e4cec47ddfe491f4667e5279062842618fc2622fb09a4b2aa7d25"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-85.json",
+      "bytes": 16799,
+      "sha256": "74d04363023bd8078427cd51644066eefdd1d4ffbdd1f96818449ee6125317c4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-86.json",
+      "bytes": 16795,
+      "sha256": "580cd62ae97a0abc71c58580a57538a69852e2daac8f452791b3233d308d344b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-87.json",
+      "bytes": 16795,
+      "sha256": "7e7454021817e6729df42bf408ee42f6b9ddd1619f7ed2af1f02a44cda35e351"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-88.json",
+      "bytes": 16793,
+      "sha256": "ba99a1cefa21d61c5dfcfe5a4092f85c1c57298b0b95b9a2cdd94e9c70377997"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-89.json",
+      "bytes": 16793,
+      "sha256": "d76ddd90124dc6e405e7776b8d31ee357f2285a4c88b7e1f7053f3e92d5ecdbd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-9.json",
+      "bytes": 16899,
+      "sha256": "5d57961ad97be3d10bffe12bbd97d756e79b6d372fb4ff461381340ffd139264"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-90.json",
+      "bytes": 16794,
+      "sha256": "d3decbab6fa9eb470ab88504aae94ac0c5e9bc0db929ec04e3f6d819a5614300"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-91.json",
+      "bytes": 16795,
+      "sha256": "af5b89d1c23dc532f80ae6ca29a983e57781773ab40e6680e05601e792845304"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-92.json",
+      "bytes": 16795,
+      "sha256": "66c29261422895d4b50f7657ffe79d736a5b8e73e915b2e812173b8f75ccc294"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-93.json",
+      "bytes": 16794,
+      "sha256": "b6f0218843e16ca03d47258052a3dde8c6187c09e7195db85293fdfd21787de1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-94.json",
+      "bytes": 16795,
+      "sha256": "b95d9390c9260916d95a55da4daaa00e63ae73fcd23c12049f043a03c3c864ae"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-95.json",
+      "bytes": 16794,
+      "sha256": "f811af5e9ccf42ae61821d50f6c781a392d3c4015b4c8aa0012f5ee06e8c062e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-96.json",
+      "bytes": 16794,
+      "sha256": "89275aa186c81dcf1690a996061d8cd33bb6e5c08dadda7f72cf5299ad2c5739"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-97.json",
+      "bytes": 16795,
+      "sha256": "6843a6c76c1e83b89bf71217cc48bd615928c9141b621a9779fbb77d31f9a0eb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-98.json",
+      "bytes": 16794,
+      "sha256": "5993e010b32cc3603da6e8d2c36ee6b563b71d8121bd1355d25f1a8ee4fb0685"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FrenchRoulette-roulette-99.json",
+      "bytes": 16803,
+      "sha256": "5505094cda1b937e16e6bba411aa4b5c91f445a3011b0453cb03c7463b12babd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/FruitParty-normal.json",
+      "bytes": 4990,
+      "sha256": "31ee9b6656221fda359666e93213fdf8f07914c8b4c600a9934beb6ca18d655d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GachaGacha-normal.json",
+      "bytes": 3431,
+      "sha256": "17f4963f90e3b99b62bbbb4e6de3b1543868cd6480d1b6feb2c2708e408c41e9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GokudoBentou-normal.json",
+      "bytes": 3578,
+      "sha256": "788cec74711510299b290b62feb9193f9304413f768cd0a3621570b903c917a1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldenBeansScratch-normal.json",
+      "bytes": 2940,
+      "sha256": "5a556e7f2714605914ecfd2002a6eec6a3032fb5b58f2eb765c7b3831f16db2e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldenBull-ante-1.json",
+      "bytes": 3118,
+      "sha256": "a0481c5838b47dafb1c6f2b181f24251adcfd77b79ecc9833b7a169705f68048"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldenBull-ante-2.json",
+      "bytes": 3117,
+      "sha256": "9aee4085563fc9f7b595e29b8773cc3d2f2c682c3b2464fcba5df1e00cedce06"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldenBull-ante-3.json",
+      "bytes": 3116,
+      "sha256": "ca56c76af46e6658e1870648d9321efd72132822210ea31bf0bfdb8c1ba2d428"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldenBull-ante-4.json",
+      "bytes": 3116,
+      "sha256": "34fb9e478dbf269ca63ce214044bbd9ec5cf35b5d8ac49e8e1f8f2285df5864d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldenBull-normal.json",
+      "bytes": 3315,
+      "sha256": "18c39cf244978137dbec0db7b464933d6c9b45668e366644b55b1e43c1aea0a9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldenDragon-normal.json",
+      "bytes": 1320,
+      "sha256": "e9b76f11fe0b901950ad7a8b4fb99a293ffe8dd4a48bda6c3715a1397026e1ea"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GoldRush-normal.json",
+      "bytes": 5161,
+      "sha256": "1c017133d99c52032766689998de71b3af112fcfd889e29e22ed438405526477"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/GridironClash-normal.json",
+      "bytes": 5684,
+      "sha256": "ed38ed0022cd4a83f40b2e5b01ba453750db91f38cc803d7dd5f353f37979d02"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HomeRunDerby-normal.json",
+      "bytes": 7140,
+      "sha256": "70d0c49c005e36baa884ca111f644818d31a336be0b9ceadf47e0260c9b9abae"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoin-normal.json",
+      "bytes": 3918,
+      "sha256": "b82ba6bcb3dbf4df3932e002a9c43fef39b4612fca4b9284aaa005060d011c7d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-1.json",
+      "bytes": 39484,
+      "sha256": "549f6e1d4465fe49500342b2f1685be8b8b80811f065db8ddec77b5f33799e96"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-2.json",
+      "bytes": 38648,
+      "sha256": "d6310fc846b3325d681e3d68bcc18eabf68521f33961d520ec6cf9fca13e97eb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-3.json",
+      "bytes": 38649,
+      "sha256": "11b5436df3f26dcd057e7ed13ea62ae2c829b8fa5594203a9b177b76bbf5e9cc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-4.json",
+      "bytes": 73051,
+      "sha256": "461f81084acaf7a8a09dbc483a6c3f43e0763dff279f2a0e6d83e917d525b6a1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-5.json",
+      "bytes": 73074,
+      "sha256": "d66f0b916256fee72341afa1d8f6e12457937152454e1aa14d3ffa1565ae2b1a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-6.json",
+      "bytes": 75714,
+      "sha256": "81ea14a7459c41414fd017f11b2d0b8c496e3746e5392f70b135f7c2ec21d487"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-7.json",
+      "bytes": 73279,
+      "sha256": "379675bc25e6ba9db411151dee1f571e14d66ff754cffb57c1e48f6c6a6b997d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-8.json",
+      "bytes": 73359,
+      "sha256": "93920985841740d134f78b6140c0c9f2eae476212f8798e42c88cfb5dfce5317"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-buy-atb-9.json",
+      "bytes": 73292,
+      "sha256": "6a4cb391117a3e0f709553ee204dbe81f474ed2afd5ec77c17a0e6279dfa6bd0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/HotCoinBF-normal.json",
+      "bytes": 4332,
+      "sha256": "1a439682fad41f8780fedae693ee5a6dcda58976895eba2e842e7bf4f84ed55b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/JadeQuest-buy-1.json",
+      "bytes": 39179,
+      "sha256": "2ac421454a372d0bf8b964832d5a94dcc6d81d57e9bbcaca0e1c6c7a39e5af11"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/JadeQuest-normal.json",
+      "bytes": 4912,
+      "sha256": "3767dae4dcf575da3b468de2c663e81c0b09cb3013845cbbccdfa9d572179fe1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Jingwei-normal.json",
+      "bytes": 3072,
+      "sha256": "3429c3d12c3e6f09848569f668bf5f0b217db5209f5261fc66f127df965cce03"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/JumpingFatGuy-normal.json",
+      "bytes": 4104,
+      "sha256": "d694e8b01779261bbc1960ee0da06d8e33b223b3e66904f9831f8ad2f43087f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/KickCashMonkey2-buy-1.json",
+      "bytes": 46641,
+      "sha256": "d94bdc68e9cb6d35dc2ca08a53ca546011168e0a29b3f3b2964bd7af4ed6174a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/KickCashMonkey2-normal.json",
+      "bytes": 4193,
+      "sha256": "c1b37957edf6a2b175cef074faaee40f9cef2f1528d279b881138769c94b266b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/KingOfDragon-normal.json",
+      "bytes": 4551,
+      "sha256": "e89acaafec4654235de11fc1a8546f8ca884bbd7988daf820f5ba3f4617a21a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/LegendOfAthena-normal.json",
+      "bytes": 5362,
+      "sha256": "b0568a6cc2d68f12ebe19e90bb4de0b7623c513ef2781d988912c650857eb1d1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Luck88-normal.json",
+      "bytes": 2924,
+      "sha256": "176ae0fdafc5ceac7e2adf1f302fafae6f6de21e0761f25265cc8c801bb68b88"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/LuckysMillionsScratch-normal.json",
+      "bytes": 2881,
+      "sha256": "da8d80aa530a84c9d11974c2b68fd2eaefa37c3c3d557cb230d65ee186b84676"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/MayanCivilization-normal.json",
+      "bytes": 2955,
+      "sha256": "ea170b0c5ca45d0857757d0d109a1d8d2f53b6673545eb2ff516b6c09cadb6c5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/MidnightDeparture-normal.json",
+      "bytes": 4960,
+      "sha256": "8a96b7a681a95f84ec0382f334831fe854a077300b27c2941e6cd1ab05b5d2cb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/MoleMoney-normal.json",
+      "bytes": 4048,
+      "sha256": "70174b408fb319c5296dd9a4365d4350b786588ea7e1f4bcc7441003d5a1ceed"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/MouseOnThePrairie-normal.json",
+      "bytes": 4036,
+      "sha256": "1ea7738080359f094dbe31eb943abd27bfb8b6c3fa80e24efb1a4f5885676603"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Neanderthals-normal.json",
+      "bytes": 2989,
+      "sha256": "e647b2c892562481d79956f6dde7d559799162814ed4868dc6ef2af9ce52d8f3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/NightOnTheNile-normal.json",
+      "bytes": 3827,
+      "sha256": "b98dba97caf8a856844cdfd33e675f7a6b462134fc9567350e8178156600fabb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/PartyGirlDeluxe-normal.json",
+      "bytes": 3258,
+      "sha256": "78a940a6f897369a187d4c17d8cbbaf5238de52224f7495b630c0567c246decb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/PhantomThief-normal.json",
+      "bytes": 4045,
+      "sha256": "3b8dc94ede9c4f47c7d53bff57c948b1c2e26e7017e8de490fbb04985d8cb722"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Pinocchio-normal.json",
+      "bytes": 4025,
+      "sha256": "16cf419d0baef4e3ab193b93c16bdc98e0890f392e8d6c9bb2f090d143316552"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/PufferSwimming-normal.json",
+      "bytes": 2609,
+      "sha256": "9e8ec54be70a7b454eecdd9c27c17860d74cd4c6086fd1b70dd52be276ce2dc1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/RedBoy-normal.json",
+      "bytes": 3108,
+      "sha256": "6e9c29eb056c123c2fe7096ecd13d3d2dbbeebe4510822306d0fff008648ddf4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/RedSorghum-normal.json",
+      "bytes": 4300,
+      "sha256": "a434f38f67f4525f53790870077832d4e44575f20118cbe00700e8da1c76d891"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/RockParrot-normal.json",
+      "bytes": 3138,
+      "sha256": "f7007fe1dfb9605e236dcd8932ba4373fc3b975d12c7eef0ccd50cb80e083241"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/SanctuaryOfDarkness-normal.json",
+      "bytes": 3044,
+      "sha256": "44c991a67ef2dded7b99a8994bf1ceffe5ec66946903a6b28ec4ae699fdd794d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/ShaolinLegend-normal.json",
+      "bytes": 3836,
+      "sha256": "8c31966ed60223adf9fd0a9e28eecc9fab4a9d8454f35ac5453b5f357878a147"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Shennong-normal.json",
+      "bytes": 3064,
+      "sha256": "e76ebfcc61b486755e06a3aa2616b1960d15f5a28529b863035dec4c44668b99"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Shopping-normal.json",
+      "bytes": 9681,
+      "sha256": "a6d8ae2f19827b723a5369263eca1aef50857a5b02e3fbb25d6961ea8a80ed71"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/SilkRoad-normal.json",
+      "bytes": 4588,
+      "sha256": "d8090e0e6da64aecb278a87ed6c6f028aa647ddb06513f33dd848868804c6b0e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Sleepy-normal.json",
+      "bytes": 3544,
+      "sha256": "2cc77420922ea647616c8c3407786fcc9bf9790dc6cff4179704a2e5ff206c04"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/SNS-normal.json",
+      "bytes": 4789,
+      "sha256": "4904fac2e500018024b24d3810ae6ceacd9670b9682313657fd4131059f101c9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Speakeasy-normal.json",
+      "bytes": 3489,
+      "sha256": "051b5a036b119f19a77707549b32e55abe9ff842120dc3d136ec7f3f29765d7c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Submariner-normal.json",
+      "bytes": 3588,
+      "sha256": "e2a89ee789c67cb5aa95662012f590e32ab6f355c919eec0a1ff9eef063e19f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/SuperEnergy-normal.json",
+      "bytes": 3959,
+      "sha256": "4f2a0e3355a9ce6cbb794074dd03044f9470176cbc9c966a237301bcd4133e79"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/TaiChi-normal.json",
+      "bytes": 5383,
+      "sha256": "9ac5a6f5d6da6db4aadaef57d72b41ba5e1d32c07ac4078b105c865c7a0c8cce"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/TheMasterCat-normal.json",
+      "bytes": 2905,
+      "sha256": "7f7d37638f76a8c03cba59e4f9736695867750737799ded344c0ef1a650f4822"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/TombHeroes-normal.json",
+      "bytes": 5354,
+      "sha256": "4905bce6efc33eb1e0c823b1969d6047865b7704d3b242ef0a7ca4b186a5edc2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/ToroAmigo-normal.json",
+      "bytes": 4068,
+      "sha256": "189fc44968da122abab15628b10c787a68886948b198165cbaf41b4e8e39c8c9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/TowerofBabel-normal.json",
+      "bytes": 3789,
+      "sha256": "211bf33b48a05d68b79a1ab44286753f627392f2f223a3e3c5c952677955e616"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/Treasurebowl-normal.json",
+      "bytes": 2936,
+      "sha256": "31376aa0f99e99450c6e4505786f0f4de34f2d8087b399df74f398a7002b34ac"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/TrickOrTreat-normal.json",
+      "bytes": 4622,
+      "sha256": "c8ff7eecaba46bc98e509bcc8b2523634a71de8183186ba76d146b40699be0fb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/VeggiesPlot-normal.json",
+      "bytes": 4493,
+      "sha256": "b08da436e2a9050948e1d128262c009758283480e22a84145ec70aff7e5cc5ef"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/WalkingOz-normal.json",
+      "bytes": 4269,
+      "sha256": "7562b1041e28a09c78d58b4dab96d5c23a69c2364da7b67f7d5f4509e3f57374"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/WenDing-normal.json",
+      "bytes": 3080,
+      "sha256": "1bf0c2088db49071c7ecbf590b2465b0df7961ec58cf4fe10fbb005a2aa624be"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/WildernessCowboy-normal.json",
+      "bytes": 4055,
+      "sha256": "816a4ca1d7c007563643c65da70ab8aeab499ccdb546513e42016a613babc05b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/WildJungle-normal.json",
+      "bytes": 4838,
+      "sha256": "be43430b3dfe2b5282415162a84f7ff7539e5aeb09b1f83b9b60652e1a28bc97"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/WindLionGod-normal.json",
+      "bytes": 3140,
+      "sha256": "315edca3ea7d6df90716653c78c2e8d0270a38caa602e51ce397c03414fa4c0d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/WitchAcademy-normal.json",
+      "bytes": 3157,
+      "sha256": "94ed3c82c516c5eb73482688db6ef5f3b8181fa394a4d83b7125791b0857e46a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/WrestlingQueen-normal.json",
+      "bytes": 5283,
+      "sha256": "e4d2b1c078831672257dc99e93e61351eb533a8ba8063ae1a05198ae70f68668"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/1-100/traces/XmasWishes-normal.json",
+      "bytes": 5353,
+      "sha256": "3bb4f102d81950711ffd7a77f18e1e14709b2c5a3f74211a6566b70350aed129"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/audit.json",
+      "bytes": 24949,
+      "sha256": "118f183005e2ac197fe3d3ddcdf39ce61cc1fea31afc34f5cebc777aca584081"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/campaign.json",
+      "bytes": 389,
+      "sha256": "4996964385dae2098a9211356795ac77c3e68fe8742929ac7ddcda684e098357"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/catalog.json",
+      "bytes": 98007,
+      "sha256": "64ca28bbe016246e4275d98c5202f53afa4de8fe0138ec88fdad374f788f8309"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/coverage.json",
+      "bytes": 20032,
+      "sha256": "7cc00ed33159d581f1d7c70cbedf11bac9b00688beaf2bc9cc472a7eb96e9e8b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/deferred.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/excluded.json",
+      "bytes": 3266,
+      "sha256": "e3fdb70ff5ef05cb6e1d026d5420387574f6ab14a0201af891a28b502fe4da51"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/index.html",
+      "bytes": 20303,
+      "sha256": "677f36e4446909572d9a44e5cb59940872c1933b6212050eba0883a41d09cade"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/777Vegas.json",
+      "bytes": 5740,
+      "sha256": "4e347ff999fae8150db547a6b6a2c468273f20f453e62df8748d1e6fbcd5e713"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/AmericanRoulette.json",
+      "bytes": 7964,
+      "sha256": "01f0878f28a2fc2063e3dd32b5bbbd44a6e21324c204e6f89666665ed0d6d925"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Ares.json",
+      "bytes": 9677,
+      "sha256": "50a61d54eaf628bd2e2b9296777a6f0dcce4b90fd4313adf166286ff2123411b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/BonkersChicken.json",
+      "bytes": 12294,
+      "sha256": "44f7bdb6f10b33cb81c15492e858f87b27f178c4218fd17a5b1a7f214f0d751c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ButterflyLovers.json",
+      "bytes": 6075,
+      "sha256": "4632c46d8172063ff38ca48c8beb17acd2b52af646876197e19c8d2dc169b07c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/CalabashBoys.json",
+      "bytes": 9265,
+      "sha256": "1b94fafc990ccfead0f967ad4054e0d93fb878f849d5fd5d1fa2d5a22736822e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/CaptainsBounty.json",
+      "bytes": 6158,
+      "sha256": "9e6881c7effd428ff3b7a094efe45daa4b8ac102fecbc3380fbd3066779b6993"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/CatchTheThief.json",
+      "bytes": 8697,
+      "sha256": "fffb8a177b1567a351048189974e285e8bdefc6995b4e023c3f7467e370ad34d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ChaosCombat.json",
+      "bytes": 16680,
+      "sha256": "30f77dda88330df15b67ff1ca6e3275d719858fcc276327473312228eab6af1c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ChickenQuest.json",
+      "bytes": 3560,
+      "sha256": "5a8e8061ab872a378bacdcd0221ef800dc4e9c27f5ef9e9af2b69676facbcb6c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ChineseAncientTomb.json",
+      "bytes": 8982,
+      "sha256": "d7c1eaf6b71562f7b089d970edba1e55d03c57b1b5ec7c0dda1992ac3d42a5b1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ClassicalDollhouse.json",
+      "bytes": 9655,
+      "sha256": "f14832e9e0413be8b584b283b1039b00b30c91af5e2e31dd1b94c20fc701f859"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Cocorico.json",
+      "bytes": 6247,
+      "sha256": "7d7407120fb7888372fd65c66ca299c0282cfdd398f2690b178c929fdcae0f15"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/CouchPotato.json",
+      "bytes": 8086,
+      "sha256": "d49d110f0c823963e71e7457dafe11aa645b9d3e1d43b085789893cd9dba8623"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/DevilsMessenger.json",
+      "bytes": 10646,
+      "sha256": "76fd2426080266748259c8c89be34d960fcb9188d34508a2fe3c92d4866cb68d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/DinosaurCarnival.json",
+      "bytes": 11009,
+      "sha256": "8978526ead8c2d396c8c267971b0ee8583252a676fc2790d9bd34ff291bfdc8a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/DollTheater.json",
+      "bytes": 21367,
+      "sha256": "fd6462db0b47c96c2612a7c7f46de6da4bcf69e8ce349843360e9535dc3ded87"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/DragonLegend.json",
+      "bytes": 11805,
+      "sha256": "29fd7adfaf1c7e4e4d4620c6022ab43e7c079d112b85f3ff966c67083f89738d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/DragonTurtle.json",
+      "bytes": 11140,
+      "sha256": "b84061a09cb913d7a89a3f4ced01d0354fc7bb14a71a5809108780a1a5e98dc6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/FairyDust.json",
+      "bytes": 7630,
+      "sha256": "6a5d67a7bf21ab1bfd98313bea144884802c55bdbe88247f046bd1b08d8c4c36"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Flaming7.json",
+      "bytes": 5005,
+      "sha256": "ad1935252b1396abc69b42d577c9db887eb3fa2675ec1afe3c78fb8d729a1b3f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/FortuneGaneshaVIP.json",
+      "bytes": 8456,
+      "sha256": "cf0968e5bb97b7fa9ef95fb3ebb7dba2c9ad4c50eb63fc1ad18e43027e32b2be"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/GodofLove.json",
+      "bytes": 6284,
+      "sha256": "5f7a4b6369e9128e8790a25f918cafcb35e2e91f3b6e8a8bfc8fd4547392da93"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/GoldenEgg.json",
+      "bytes": 11130,
+      "sha256": "6af09fa53c8343936df4e848bf9b19e95e35a44f1d1ed613d742155b53357e9a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/GolfMaster.json",
+      "bytes": 2901,
+      "sha256": "02fe3ab8403b4680c1ddab50e7ace6a6338c23e6e3fedabfde2e17e719b4b53f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/GreatestShow.json",
+      "bytes": 8557,
+      "sha256": "b201876beef64d347aa7f002edc7290deaba915d758c00a9e1cf9d01938c722f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/HappyThanksgiving.json",
+      "bytes": 10027,
+      "sha256": "0ae4eb47054d8344598ec18519de001cc9dfcca9be8bed614acfbccae0e047a5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/HolyBeast.json",
+      "bytes": 8417,
+      "sha256": "20e6e05c22d9bcc1adcf868471483df7176da6850d822bff7b440c87b3f71c8a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/HomeRunX.json",
+      "bytes": 2887,
+      "sha256": "b3f625d10e7beef5ed92cf6bdee1a1291325e1c10ba43de0047158d16ce2c183"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/HouYi.json",
+      "bytes": 7560,
+      "sha256": "07b08496b59557bb84fd1ea0c3ed775fe7e96bf6e62c9dd32f92bd6309c2a772"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/IncaFantasy.json",
+      "bytes": 7611,
+      "sha256": "6a9aa320a580c935b2dd48eac9a295bb8235e3fa305970bbb81d31e14dba5442"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/InterstellarHome.json",
+      "bytes": 8656,
+      "sha256": "76dc2266f9ebcae37cd288a08427ab4156a0702c920b8e02aa7db3bda0a60e3c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/JadePower.json",
+      "bytes": 10839,
+      "sha256": "915fcd78b54ed0eb3740c5144f90d656a683e87ddd0492a256f65862b2351234"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/JokerFruit.json",
+      "bytes": 6965,
+      "sha256": "6c41442c8b95f603adece8ecde5f692a70d51f90f6ed024329cf023b4028e452"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Jungle.json",
+      "bytes": 9763,
+      "sha256": "f41cbab6a6667938e01b3848571d67e3a950a64ab6a5372a15634c05563d4635"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/KAAllStarSportsDay.json",
+      "bytes": 17074,
+      "sha256": "5b356aab7528bfc0c4745fd2c95f08d7e5eeba2d71da4641d679a19c8c5e4837"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/KingOfTheGodZeus.json",
+      "bytes": 12138,
+      "sha256": "589eebca1bbe6863b7e703ec2fe1bc0cc5763a83ea7067f0954177a510b58cb2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Kitty.json",
+      "bytes": 11768,
+      "sha256": "6c64e1152e4ec79101e490c0fb830c76fb9a2bb374851bbf9d1d2110001a0245"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/KnightsFolly.json",
+      "bytes": 14026,
+      "sha256": "9c6c6d61b62a9bbdcca7da69929d6ba2d1fcbbebe9d478f7286f65efac683c40"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/KungFu.json",
+      "bytes": 6775,
+      "sha256": "823a4f79ed76987fc86db42df9587c0cd37cace48147f223266bd21a9ab0d390"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/LazyRich.json",
+      "bytes": 7369,
+      "sha256": "f78cab82e97b0476325ee0d7b2d74216e69b5a40049554f37dca255c837959a8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/LeagueOfGods.json",
+      "bytes": 8507,
+      "sha256": "7021ab631361b067335c212f9650da83d785f75febed17b9e3ed978465af0e2c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/LittleMonk.json",
+      "bytes": 7854,
+      "sha256": "26d364e9ac2a68b89ac096d4c52b195142a059520026d8e88e09800430f61edc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/LoungeClub.json",
+      "bytes": 5785,
+      "sha256": "5b96f405ab4b462876064e424b6aa3c6ae8f4391a6e13f02fb6690c730de37dc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/LuckyCat.json",
+      "bytes": 10319,
+      "sha256": "8ca5d520027196eee2322be23086f70a72146d37264c10bbcfe79faf0408dff1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/LuckyStar.json",
+      "bytes": 12212,
+      "sha256": "f3c22fde2edf8b027a422db7c2bf5a7eeab5ae0a335c5014da31827d3068b6fe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/LuxuryGarage.json",
+      "bytes": 7866,
+      "sha256": "f99d634016a0041b288aa8eaa0ba3816766796769d2e1c212c6f84663963f5f6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/MagicianMerlin.json",
+      "bytes": 8535,
+      "sha256": "4a0aa63c6ecd6fa33c7bcbd8274eb6a40f8c27d656432344a668fa0d9c275151"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/MagicQueen.json",
+      "bytes": 8524,
+      "sha256": "fc4d75c886a206f86f5a57b82b62f43f9cf9d6292588912cd98ba83b2ee8b37d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/MedievalWarfare.json",
+      "bytes": 11522,
+      "sha256": "dafb06980784f90045fc05c23416d8e6a4bbc9df2564c247a9ea86e31246a3e9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/MilkGirl.json",
+      "bytes": 11682,
+      "sha256": "3ebd60164a017f9e46de8395cb7c2bb14c89c82835998b13765e12feeb054e38"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Musketeers.json",
+      "bytes": 8468,
+      "sha256": "1026648f2baa4fc19503efa260326b334808381fc259e2350bd6b572a6c866bd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/OutbreakEscape.json",
+      "bytes": 13701,
+      "sha256": "6c103944c202b46546ec78df216b5d5767633cc894a11a2f87cbfe9d0ffd078b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/PenaltyShootout.json",
+      "bytes": 2417,
+      "sha256": "b925b155917e6c82498b89d8cf260b7c20e31dec6bc7d08b1fe386ad0580c39d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Pets.json",
+      "bytes": 37927,
+      "sha256": "35037eb795f65a4843d6a1b6aa7f822b4a9afe5dac1fec438a349a39b803eb25"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/PhilosopherRoulette.json",
+      "bytes": 8168,
+      "sha256": "9bb02e4f032f38c7a030d222af979eee27f32417d85a29c0534e18550d8956a9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/PiedPiper.json",
+      "bytes": 7721,
+      "sha256": "c0359e5269def0bd1a2d7316b41686285e380c9e77db4f17b61501692dc9adb0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/QuickGarden.json",
+      "bytes": 7463,
+      "sha256": "a76fed32bc4f000dac6d4fe8b0f7dd234719e7754441e67d70e1b6580da7b7ab"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/RichFarm.json",
+      "bytes": 9032,
+      "sha256": "f7e89010effb6c35ed0409ed699dae672e76f67ee0d64c8304c15da99ceca1e4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/RichSquire.json",
+      "bytes": 6060,
+      "sha256": "65ab7472f94a3c2859e345d3f12a18bab45b5097384b6bc3a04e4501d1281f76"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Route66.json",
+      "bytes": 8866,
+      "sha256": "37115acc6c9acfa4af9bbfeea0d53c2ee938cec20e2ede12c3d68a95235eebb5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ShroveTuesday.json",
+      "bytes": 7062,
+      "sha256": "56f1bd79009b5e812e837a0ea06813c92324846d0f270585cd9eaa3b25f1beb9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/SkyJourney.json",
+      "bytes": 16353,
+      "sha256": "97c4ad9fc4087759a92cf0f165419f3b6eb827e8b9566b1975fcc58aa8d68f49"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/SlavicFantasy.json",
+      "bytes": 12258,
+      "sha256": "11acacf06c508b9a282d1c0d72b821dff1381a3367ae798051eb767625fa8385"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/SleepwalkingSheep.json",
+      "bytes": 7632,
+      "sha256": "bbc1f95a2510dd7cf34f9b5a99c8d6e666fc0e6131380760437fe853b5b14c6e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/SoccerShowdown.json",
+      "bytes": 10194,
+      "sha256": "79b68f0c3d1849cfcc32f8a7bf067e673da06519ac1af60732d89a584aa38cb5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/Space.json",
+      "bytes": 8305,
+      "sha256": "28221378790494baf0b358ee326a25974dffd326750e5a2e9cdb03ea14a1a391"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/SpiderGoblin.json",
+      "bytes": 9972,
+      "sha256": "133448f6c486af1dde43fd27e1fcb020cf9e9cd173337a230bb42666bdb80ae8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/SummerFireworksFestival.json",
+      "bytes": 7810,
+      "sha256": "7c5f861e43fc3573060ad7f7ffccf145f469196babc6c3bb8b3b7685e34abdbc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/TangoTwirl.json",
+      "bytes": 26243,
+      "sha256": "49ac917f662cecccbbd12d16b155ff68759aa273527c1d19104eadf70bf06ca8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/TheGingerbreadLand.json",
+      "bytes": 7867,
+      "sha256": "259aeb06c0d17b5e57cd4329ff2e9870095f07122b8352804b3f83fddebd048b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/TheGrandmaster.json",
+      "bytes": 8468,
+      "sha256": "df01df153dd393ced2dd42b8a70cc0caa5b3f34dbbd425131a92095b51d74cbe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/TheKingProducer.json",
+      "bytes": 11310,
+      "sha256": "12f64b0166d1a69b47c90613533619c964b61897e13677c15f09f6267c95b5c4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ThePeonyPavilion.json",
+      "bytes": 10192,
+      "sha256": "26460a250934f1a15a676aa652c97e13cccb20bc878720a0d55951facec8f7de"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ThirstyCrow.json",
+      "bytes": 8093,
+      "sha256": "04451c67cc6601b381c35ece3af89fc94f20aff24e7c613155d86a62dabc7c82"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ThreeBandits.json",
+      "bytes": 7454,
+      "sha256": "be390eb99d37213f612ea3261d5ded0a08aefa5682ef6446ffb92fc4eddb965b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ThreeGods.json",
+      "bytes": 6811,
+      "sha256": "5b7c6db21d268433b247c08468fe8409dfed941a1846cdb82df95380bf824b6d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/ToyWorld.json",
+      "bytes": 11988,
+      "sha256": "9cb330a32213c3dde60453750aa1cd3df69de4f8885fae771191810a4db8a899"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/TreasureGoblin.json",
+      "bytes": 11057,
+      "sha256": "19ed32edacb3c3203340da661010141d13177d18fa5a034f36c3a9e59fbbd6df"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/WestChamber.json",
+      "bytes": 6560,
+      "sha256": "5e87e1318e3077eb13163a77e8804256e804caa08af412377e5d9c1ae7809c39"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/WildChristmas.json",
+      "bytes": 12304,
+      "sha256": "0668e40fd380e935f93f2719648fa08a748ed1b5378a605a4b793e9c3d4567e3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/WolfWarrior.json",
+      "bytes": 6002,
+      "sha256": "0a89cd53d45ea7304a5284a6bb3514261e641c61a4cfa194487c2a73cb94689b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/WuSong.json",
+      "bytes": 10482,
+      "sha256": "09b0afc17fbc8db4ffc70a5cc31f83ea8169f21830aed0d78aa10bd1e2faf061"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/WuZetian.json",
+      "bytes": 8240,
+      "sha256": "6b874118c9df96fae5ab92f086892e534d01d7885b19c0200c6869815779eada"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/YearOfTheRabbit.json",
+      "bytes": 8970,
+      "sha256": "501c2d2b75316d93151fa7a63f5e213f591985fae9f8633324ddd19a7e76ee33"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/initializations/YuGong.json",
+      "bytes": 7001,
+      "sha256": "cec976b9f9fde2f08c5a2b809a41adca3ba4cdcff828da4ff841ff19a6743f76"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/non-slots-audit.json",
+      "bytes": 79835,
+      "sha256": "8f1d01a49906ad58d6e949447a322abc50e0e0a0629d1131fa16fcca956c5b8d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/non-slots.html",
+      "bytes": 31851,
+      "sha256": "d5ab926cc1860eea3bc655f041d9a66402dda0c9b1e0e95dd2ba0228bfed8f37"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/non-slots.json",
+      "bytes": 159467,
+      "sha256": "47d94d98e919690c8369299092587576679c71e83e570f91c0b9ac2c17bce239"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/previous-batch-proof.json",
+      "bytes": 52272,
+      "sha256": "ee0da80c0c6905a9ce31ec96ca191c26e1927ce05ddfad2640a222f534fed369"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/scope.json",
+      "bytes": 367,
+      "sha256": "32fb9679a4460afddb1c00038ff92ef47e5f9ffe837970a494f25e1d2bdad751"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/status.html",
+      "bytes": 1847,
+      "sha256": "dc040140181eb0f25d4f1f4182b443894a1737171e8bc7ce6292d68dcce0a45c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/777Vegas-normal.json",
+      "bytes": 3630,
+      "sha256": "d0d2b35b501475939be29e33ca068773d9fe0d2c5f25f533e706cf540632efd7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-normal.json",
+      "bytes": 18935,
+      "sha256": "4aa376a484d4900d6ac1783d571743d272614756e7fc73329c4dd9b13be8168c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-1.json",
+      "bytes": 18939,
+      "sha256": "cf68809e611c796cf9c3d19608b9f82d8bad188ae8b168ecf4d62fae363b1324"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-10.json",
+      "bytes": 18943,
+      "sha256": "97e7b4e9508876a112c0051cc174c7b3dab386559a3cbd57564b9e4e2e251724"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-11.json",
+      "bytes": 18944,
+      "sha256": "de9b766becc502fdc36c22bae5c5bfd924e554b04b5100d2fc3814ba42568078"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-12.json",
+      "bytes": 18942,
+      "sha256": "e4c17e5a272c23ae9fa6cc3c3d2306960884822180adcd1c37b5729243eae0b3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-13.json",
+      "bytes": 18942,
+      "sha256": "dbe8de3ea9066317c2cf1ecb6cbfa7f2026e4aa60a35ab75e7f6c4917e01c44a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-14.json",
+      "bytes": 18941,
+      "sha256": "23ed29c7f31a8305f4f86bd5541ade6f6d28458e69a39cb0a038b572da9a5efd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-15.json",
+      "bytes": 18944,
+      "sha256": "9a82479814c74f05c2eab1cb67639d197f3b09155f6534486acc2a8c9598c565"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-16.json",
+      "bytes": 18942,
+      "sha256": "68437cbe8b0cc756d906d92177a949599a8b852b550eb6bdce6a43da41ccbe64"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-17.json",
+      "bytes": 18945,
+      "sha256": "abaa717c05d2ddda1f88148fed83a75550f9396259fa66eee402333d3faa9e72"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-18.json",
+      "bytes": 18944,
+      "sha256": "006a29c39a105054a6727ec2e023cd8634c4b6371dc8b354910184ef95bee8a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-19.json",
+      "bytes": 18944,
+      "sha256": "7b0f29b6ade1c33dd927fe645e18a2e15f7f5e8e562b9a6d839b13524d9936fd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-2.json",
+      "bytes": 18939,
+      "sha256": "52634d81734c60678c1ab8377f1c632482cf863dc9cd133dabe6822cd6009969"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-20.json",
+      "bytes": 18944,
+      "sha256": "60989884061ccce04f5be577ba42bde9c5c3df0560e76204dfc6fbda998ea89e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-21.json",
+      "bytes": 18944,
+      "sha256": "028ebbcce57c0de1334092387760880508954ebf8663747042d2f26e57f3e6e5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-22.json",
+      "bytes": 18944,
+      "sha256": "622b1bed796826c320207f1b00720bdbecb04ff9b16afb90a142d4b2f3d6030e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-23.json",
+      "bytes": 18943,
+      "sha256": "d8d8222191c411e748da4719fccdea5398da050dfb0fa07948d1f7aaebaf1583"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-24.json",
+      "bytes": 18943,
+      "sha256": "76d0489ac8791ddf8965640ed1e3ced4ea64da773aaaf308debf722692324024"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-25.json",
+      "bytes": 18944,
+      "sha256": "f65e5803a621d96429f52253950716cd8b3060b07addd79fee795533ba277fa0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-26.json",
+      "bytes": 18943,
+      "sha256": "c048b870e16948c339326f4b64e7e89392929573fbb83d5cb684cbd838b47ec9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-27.json",
+      "bytes": 18943,
+      "sha256": "2d65c547b610531a05c75ad9c6c3341d6e07889eab2223dfefe1ca25df61d795"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-28.json",
+      "bytes": 18944,
+      "sha256": "cac2b6e684548198bbfccff35a6049a0d5b567722b0c5ec7051234825b084730"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-29.json",
+      "bytes": 18944,
+      "sha256": "1baa7bb9225273b9b175a2ab1ed40335646d3a308ec4bd78c755af852393c8b2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-3.json",
+      "bytes": 18939,
+      "sha256": "a0899783c40a308ad3a76c71d2512451b3f76a63266e3481e16ed0cf174dfaf3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-30.json",
+      "bytes": 18943,
+      "sha256": "bd95d2bfaaa46eeb0ff963138bea6929ec0d906675adf6edf112068157a2823a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-31.json",
+      "bytes": 18944,
+      "sha256": "e9d66a90e6ba2b4f57cdfe35c47e238b62cb29c52afc912149d013fd23d7b509"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-32.json",
+      "bytes": 18944,
+      "sha256": "9d4fbc5d0be3fcb032a1cdc4566d7193124aba343b2ff426095c4af1239c1505"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-33.json",
+      "bytes": 18943,
+      "sha256": "87bd74865274f03cc0e42a4c02252ecfe40fceaff47b9b91b6abde68a374fe26"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-34.json",
+      "bytes": 18942,
+      "sha256": "e68ba78f8d37007d2f7779d356004bce2a3e8b3bdb908b38e81ff329e1e7429b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-35.json",
+      "bytes": 18944,
+      "sha256": "6799a1e66a7296a2cf80c89f6c4fe0b56b45aceea162fbdf7a6344a3a87c251f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-36.json",
+      "bytes": 18942,
+      "sha256": "d5cbc616a82ed5b5fc210815f43551bf784766a1cb92534d5d0c3a611a3160dc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-37.json",
+      "bytes": 18942,
+      "sha256": "463148742db5f7b6a3090e51a961e551951205f0a7ec241d3fa3e7740209a77b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-38.json",
+      "bytes": 18952,
+      "sha256": "736752c529e4ddaeda212cfbbd86b1778c1c4c6b30faf2a04e74e558e665d427"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-39.json",
+      "bytes": 18946,
+      "sha256": "99ef2cdb19ba1dbfcd8564af9708cc18e4288778b6d9afa82a751255c20e44e0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-4.json",
+      "bytes": 18940,
+      "sha256": "1e4cf584b80ded0e421feeb501ccbe05a117459c17b6953ec17a43d6242a46fd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-40.json",
+      "bytes": 18951,
+      "sha256": "2c5b0810f28e3000909dbcc89b8cdcae8dcf8aa0e9304c44632deaa1854ebec1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-41.json",
+      "bytes": 18945,
+      "sha256": "b25f13aa64c772d0344ee87f8410a4e97ec98afc05b2488f54383266da581527"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-42.json",
+      "bytes": 18945,
+      "sha256": "c1bc3c97c93ba6cad953695f61b79bdddb7d4d0714021d6eff045e309993bb72"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-43.json",
+      "bytes": 18946,
+      "sha256": "3de1563152d64bc118bd5618f950b17f259c3c6933f27a810af9f0ca9c228915"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-44.json",
+      "bytes": 18951,
+      "sha256": "cfd46827bd0b14a5a3f6dedc83eb714a747aa16a7bbbac4a8b113851939b86f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-45.json",
+      "bytes": 18945,
+      "sha256": "a2a3c500d29182c62c422269919a73685acdad3a9649fae25a7c12ae87b41270"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-46.json",
+      "bytes": 18953,
+      "sha256": "de11566a6100f805c080d4192edfbcb5b6aae2584b5263b13b94989a7669dc01"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-47.json",
+      "bytes": 18947,
+      "sha256": "db9bd196c8f8da6e8822380ba4e9b45bea76fbe4e49a41fbbea48e772ae463f1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-48.json",
+      "bytes": 18952,
+      "sha256": "0c612433488aaa6efaf6401ee329250cbd05637f7544633771e4617935db3877"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-49.json",
+      "bytes": 18945,
+      "sha256": "2188e98ca6961e4a051c6678fbb423c4183898899f8705bce25f4fb33fbfffbf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-5.json",
+      "bytes": 18938,
+      "sha256": "5080f7273b10a83eb178c3c2fd048aad8e210ef7cf860898c5ce82db255bad0c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-50.json",
+      "bytes": 18946,
+      "sha256": "0dae109f4a9d60c905181a52c78953056309f2ec6a71bc6333ea5cd506730c22"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-51.json",
+      "bytes": 18945,
+      "sha256": "97c5b8d4bd567403e6b0e11e83d0fa53da17fd4faba6a5fe35ce144ce9b83343"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-52.json",
+      "bytes": 18946,
+      "sha256": "85b978f4557ebb852cb3bb932c3161a703f2ae0791722567bde01de707ee2b93"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-53.json",
+      "bytes": 18944,
+      "sha256": "42a2fd4e9d1a3a2bf4fefb0f1fd73040651b7abb2c3f89e9dcb746aa1cb28159"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-54.json",
+      "bytes": 18947,
+      "sha256": "93df2037048fc8e40848f62b9d19a94a5129f6f3e2662d40397076c0972cf3fb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-55.json",
+      "bytes": 18947,
+      "sha256": "1506fae5f55e6542c98cc69a176593f9f25eac4d138aa9b6a91e39017ee7cda6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-56.json",
+      "bytes": 18947,
+      "sha256": "d2636fdaffc66111c3222ce87f0ec2a4ff1eb3a79fab0d1a4d83c391f17f707d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-57.json",
+      "bytes": 18947,
+      "sha256": "ff68b3f9dff7df062620a76e7c29d7f5191f5fbb73881a4345574b325ca012f1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-58.json",
+      "bytes": 18946,
+      "sha256": "3e22adec601026649dc0c61d27ddcbf03af4008173bda1259343ce3c1377cbd8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-59.json",
+      "bytes": 18945,
+      "sha256": "2546872454f6380ecdd7ed9a51410ef420c71def4eb2bff8445db8ceddc3de49"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-6.json",
+      "bytes": 18939,
+      "sha256": "bdc91004a76c57c53bd015adc397261257f2b1411996c46cb7cf7b1b0ce898f9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-60.json",
+      "bytes": 18947,
+      "sha256": "7faf1dd9b9e9a5601508fae2222a168bc5516a6e2062326cd35308d38fc45916"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-61.json",
+      "bytes": 18947,
+      "sha256": "000a917c2966ccb80101f40b6f087bfc476b6d18913a74bc94e7b85055f7cd1a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-62.json",
+      "bytes": 18947,
+      "sha256": "16970fe96f2bd9f0e4c13528b1e7f7e79f606075b4b150c00c3dd58f17605b4a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-63.json",
+      "bytes": 18947,
+      "sha256": "4c7369c7ca4039c3f5b70fe4ada36201f430e55d6c8927923b7e9e8a69835413"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-64.json",
+      "bytes": 18946,
+      "sha256": "1fe2ed6fb7f8553b790525fef0c182747e65f9e4853c3129c57abc432b0489eb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-65.json",
+      "bytes": 18946,
+      "sha256": "c663d5f0760e84969f72392f1bd4bc2486a33c739f0cede94aa397a89e07734a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-66.json",
+      "bytes": 18946,
+      "sha256": "f66a3026ed67088c538ff2afccd1357633722d6af16df32800fb1899f66543be"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-67.json",
+      "bytes": 18945,
+      "sha256": "5f27de33d52b535979ea51c9f4772dd183a481a9a98fbb8a7a83f981c156db0a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-68.json",
+      "bytes": 18945,
+      "sha256": "927b3118393be21022a643a2e89bcfe1044c7d6fe73cacb6dffe4400105d2a77"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-69.json",
+      "bytes": 18945,
+      "sha256": "53c9660326f2ce7224e7651d000a9d96cc5e7d53f04e517b1994e6c1f4de62f0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-7.json",
+      "bytes": 18938,
+      "sha256": "18dd1e1cd8a6803d9a578b8c545e8b2c420e3a4f886189791de6b3a811d405e6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-70.json",
+      "bytes": 18946,
+      "sha256": "57a095d8b92232f4d436875bee684266251e916af878bf5d4a9ea6e073caeb5a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-71.json",
+      "bytes": 18946,
+      "sha256": "c68cfbc4067ef8ce7f0ee6bf371966cec85df21081304b4d2d78879f1ee095e4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-72.json",
+      "bytes": 18946,
+      "sha256": "0ba4b708c4a269bee6ca7af628b685875f7c5c0d6ec112c36df960a9c8c4fa64"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-73.json",
+      "bytes": 18948,
+      "sha256": "01de9cbddab17c931ec9979793e9f708224b28186a4fdeafd9ae12d86aa04135"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-74.json",
+      "bytes": 18947,
+      "sha256": "61600439c8be20eedf1a8e9083237c9dcccd3450b3d2bf384d65d8a445545159"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-75.json",
+      "bytes": 18946,
+      "sha256": "1b35c6e9823b8830ded522b0ebd75d894ad4e745ece526109261c099df73957c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-76.json",
+      "bytes": 18946,
+      "sha256": "1d42835b0ba88045853be87e9a201ffd1d118bea7abede188a720266f43a3188"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-77.json",
+      "bytes": 18946,
+      "sha256": "68e4a02e962dcef4720521fce20007ff4c4825fbb36a2a1bdb864517cb052adb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-78.json",
+      "bytes": 18946,
+      "sha256": "df3b718b47f05d713946b748c064d6f75dd6d33f7ba36c008739f8a22d2cccf2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-79.json",
+      "bytes": 18947,
+      "sha256": "6886ffd8d022e62b9a49953072a0ac5d76a170bb546f501d732f2115d5a188f5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-8.json",
+      "bytes": 18938,
+      "sha256": "cd601fb425b168e8a35caad078e5816b75d9d77438467cf5aa2a6dfa461bdff3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-80.json",
+      "bytes": 18947,
+      "sha256": "6e6892eac0cb95ca5b4bf00a68b05f5ed6467e5e9df7da8e0a82f56d6e0d77f7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-81.json",
+      "bytes": 18948,
+      "sha256": "dcdf794ee789edd930bb27d350f8882ce7e96f50e7e094355536d06cb166f667"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-82.json",
+      "bytes": 18947,
+      "sha256": "d212fd193554feee3513cd4196cf96e83a852ae164b9958f592795b32e4b78b8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-83.json",
+      "bytes": 18952,
+      "sha256": "e1dcd52d3f293b5b1350f139251238255229f0ab68ab7b2d6d55cc5bd08d5751"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-84.json",
+      "bytes": 18946,
+      "sha256": "fde6134325e0041c3d70aeb718ad70f06ed0e38dcde94f6ce9fd783476cf3021"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-85.json",
+      "bytes": 18946,
+      "sha256": "117f42179df9cf226ee7776d1c761d4f5e213b304afff4c4cac506beab826c66"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-86.json",
+      "bytes": 18947,
+      "sha256": "54baa12d1d6c99af263ccd24db5229acfd3e79ac6807d5db240e52310a4c8128"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-87.json",
+      "bytes": 18945,
+      "sha256": "0288d6a171bc8cded1959e0232a7d3b8ee8f8264662b78fe11cb57da19851daf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-88.json",
+      "bytes": 18952,
+      "sha256": "12ee7ea134690b348dbd45b842be32db5ba344d75c1ac63553337e500e003dde"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-89.json",
+      "bytes": 18947,
+      "sha256": "0ac02b2dc3f4c07ff1f7fd5091b53d59ba0e4e0c1c517808c648a14ae9736dbf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-9.json",
+      "bytes": 18941,
+      "sha256": "b5b6cde56e7c86ab9379970561c033a02ad12c19832c8451629798f44217b7cd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-90.json",
+      "bytes": 18947,
+      "sha256": "8649cf0284c4cab976c7039fb793ae602a6be6983f96189710698f6a5563dd96"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-91.json",
+      "bytes": 18947,
+      "sha256": "66d37633aa660ffe6caf281f78083c42cbfec3ce152f40c1b886d220acfbb966"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-92.json",
+      "bytes": 18946,
+      "sha256": "5b247f1e3eca8bfbe559a0aae6bf1da8ccc5b4754c4a3c274ba6f2fff8f5b392"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-93.json",
+      "bytes": 18946,
+      "sha256": "289e2368a85ed362adf5f1db18ceb53432872e010ba2c5999a1acfa0a3549169"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-94.json",
+      "bytes": 18943,
+      "sha256": "fb90e0d499fc528dd42afb6781befa3d5cdadf6de9bea6e1a0e57f5ca2506726"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-95.json",
+      "bytes": 18946,
+      "sha256": "3ad0438b635a10a0bc8d568177f12b1528241f57b06b477d4433f03831cb3ec0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/AmericanRoulette-roulette-96.json",
+      "bytes": 18947,
+      "sha256": "a7928209f8cf056146d0158c6d3e7f7711dcb4c4016ce8095c19c592c3f45960"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Ares-normal.json",
+      "bytes": 6054,
+      "sha256": "614b443cd02ef73cb376ec2cd69247a870e5fc3b4f3bb919102d2003ecde790c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/BonkersChicken-normal.json",
+      "bytes": 3895,
+      "sha256": "08c3215828138d6f1a69e8dbc4b9830e2800d1b7e6ca006b293cfce3e1918dba"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ButterflyLovers-normal.json",
+      "bytes": 4063,
+      "sha256": "d12728f088e97a23f99622971fb2787c0d5316124f3c33dbb9cbce218811efd6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/CalabashBoys-normal.json",
+      "bytes": 2986,
+      "sha256": "ed9e9ef2df8596741798b6ebc153b17fe6a84428b8f3081dd9dc528f4568bf74"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/CaptainsBounty-normal.json",
+      "bytes": 2998,
+      "sha256": "897a3ab0dec3a57d5c589492dbec40c2393a083f9eb6f9cd729a1f10abcc6606"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/CatchTheThief-normal.json",
+      "bytes": 4301,
+      "sha256": "854b28f26f48aa339c0177802fccde1d9a5f3ff44c9fc2c84279cf24b0c3a4e2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ChaosCombat-buy-1.json",
+      "bytes": 41223,
+      "sha256": "5c1b1aecb0467a4f1d16ec75bc6eb01c72da1174038dc6ee63bc1e5e5652cf0b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ChaosCombat-normal.json",
+      "bytes": 4340,
+      "sha256": "af30363dceed963cb84f3d11f67356bf9b4b42948c9f277597913ee2efbc579a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ChickenQuest-normal.json",
+      "bytes": 9860,
+      "sha256": "c6e9d6c9d9f7984a9b04d8abeb917ddfbf19b4d39aefd7bd89889fb058ee5c9c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ChineseAncientTomb-normal.json",
+      "bytes": 4044,
+      "sha256": "39454b85d6b3b32c11432dfc2531fefdecb3d1cc4c8441871645039b9b3719ab"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ClassicalDollhouse-normal.json",
+      "bytes": 3557,
+      "sha256": "bceb5fb3181abcc215f0ae9b6fe87bcbfbe8cb6d04c0aba6d0c5be3cd1b55c48"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Cocorico-normal.json",
+      "bytes": 4252,
+      "sha256": "e18c7630b6a490ffb7568e8198fe347e3a3d7ae1e038f86840e5c600d16f05c0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/CouchPotato-normal.json",
+      "bytes": 3158,
+      "sha256": "771bd6356b85584dc58a463453c1f7506308b381a01330694a7f1d5b42d543c0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/DevilsMessenger-normal.json",
+      "bytes": 5362,
+      "sha256": "97b6f2c5642d068700b3779d2c125b459c753d192babfe1e548c7806dc05b565"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/DinosaurCarnival-normal.json",
+      "bytes": 3075,
+      "sha256": "77bb793a185a434b535d2ceae00338f321364d85cfe79741d7f9d4dcf61b2cc3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/DollTheater-normal.json",
+      "bytes": 5588,
+      "sha256": "45b8c9be9bb9e856a5ff77ea05096713165750299b2fa9a34b44733ce4132eb9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/DragonLegend-normal.json",
+      "bytes": 5720,
+      "sha256": "6e6a43a0d4183011f413d4882b26eac842842485b1e82d8d656f8a86ace05db7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/DragonTurtle-normal.json",
+      "bytes": 3586,
+      "sha256": "24749dfb8fbe691d6a53ef6ca9e4550f70ef0d0c238e53ee40cda16835625bea"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/FairyDust-normal.json",
+      "bytes": 5248,
+      "sha256": "d2bfd207b7e8eb2ca485265423f6aa8798c4afe737d5783323ef93fe46f21776"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Flaming7-normal.json",
+      "bytes": 2728,
+      "sha256": "4c6b880c996299ce11b1fd910a5c80bb9067264b7a524a302f8a739b197c0c41"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/FortuneGaneshaVIP-normal.json",
+      "bytes": 3142,
+      "sha256": "9ede6ac9e5ec425bd3653a49295ba44ba00d5915aff97802bc73aef0f24fd817"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/GodofLove-normal.json",
+      "bytes": 4625,
+      "sha256": "124196362699a9c6b08a023f5f8c29d852e1202a456b49e81b6bdf88f03bf1ad"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/GoldenEgg-normal.json",
+      "bytes": 3572,
+      "sha256": "156ebce8703cab90e5add1cc562ad8b36b74d1ae81149554278dd3e553826a0c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/GolfMaster-normal.json",
+      "bytes": 2591,
+      "sha256": "1761021a20baf4cc4f46f63c8fbb607c43ba5e628bca12111d35f735b6c6180e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/GreatestShow-normal.json",
+      "bytes": 5312,
+      "sha256": "f603135e82eb1686ab266f62a1734f6d28d3a61b4bc909b9d4274022a464a419"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/HappyThanksgiving-normal.json",
+      "bytes": 3107,
+      "sha256": "5a73734654772c8c9a905402d5601c4678e97aae7eea39ba63593517b0ee5cd4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/HolyBeast-normal.json",
+      "bytes": 3538,
+      "sha256": "fd0cd1c509b61fe3614421bac402a47a00c21a0f448572a56a8bcd2e35af7ec6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/HomeRunX-normal.json",
+      "bytes": 2585,
+      "sha256": "99285ec733623b4b7b024137ae247bcef317a4bd00d0bc0df6692ae3bcb6f4c7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/HouYi-normal.json",
+      "bytes": 3199,
+      "sha256": "ab7469c4a6b2f7346c2c55fbf2116cc64d483ceef09a92d4624c2b792c0afe4b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/IncaFantasy-normal.json",
+      "bytes": 3833,
+      "sha256": "616e1126e767161c7dfe4ab6c1387f8e1a84a7250e8fe8284e2c98d7630a11b9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/InterstellarHome-normal.json",
+      "bytes": 3327,
+      "sha256": "a1342346d0d1d5aa55a921d5a6dea3e0cbc60c08e216e5e9af9af084d1f66c96"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/JadePower-normal.json",
+      "bytes": 4856,
+      "sha256": "e79356adfa8ee9c44f66fbb9e7a40489812a9a5f93a27b1b981a87172e81fca9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/JokerFruit-normal.json",
+      "bytes": 3080,
+      "sha256": "f547eb0973fd5dcc6b4e287e09aa67f829390b589805bfe02ac003ff0823c6fb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Jungle-normal.json",
+      "bytes": 4975,
+      "sha256": "0e86509a3ebff1de74fa98511fad48f60ffdb3608b898fda086f6e57a368cab0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/KAAllStarSportsDay-normal.json",
+      "bytes": 3156,
+      "sha256": "45141435bde78c008853dafea17d238233ff2ad8d15229b255f14d1061b38c7c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/KingOfTheGodZeus-normal.json",
+      "bytes": 4901,
+      "sha256": "0ef0166270af80a853403118906855496701ea2bc3b71d534a58822c336f466c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Kitty-normal.json",
+      "bytes": 8939,
+      "sha256": "50c76711dc7748ed9dcbfa89e665bf5b29427dc5ee575569f3d23e72482ba05e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/KnightsFolly-normal.json",
+      "bytes": 4297,
+      "sha256": "856072eff68c8b012c0f51fc35604f18b02df86ac4d054898fe4a28a014a642e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/KungFu-normal.json",
+      "bytes": 4199,
+      "sha256": "1ee5d41803af0b83c95558c83d20652a82eb985ee2cf284add51d4a616998df5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/LazyRich-normal.json",
+      "bytes": 3846,
+      "sha256": "dca4a8c7cdcd1506607900ab6e7a723583ba98f771e742ef6a8da270dadba033"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/LeagueOfGods-normal.json",
+      "bytes": 5308,
+      "sha256": "5c48f6cdb2689e04ad579fab07067c04849339f3d656ff0ea2894c282338c29c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/LittleMonk-normal.json",
+      "bytes": 4036,
+      "sha256": "fd6e778d85ec8833455fd16df227facde64970fbdda17e854a4e6f30be8b6fb9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/LoungeClub-normal.json",
+      "bytes": 3406,
+      "sha256": "2ecbd7727a54f2ed30243b6305d4483502c4ca37b043431c757fa4b6a239cc79"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/LuckyCat-normal.json",
+      "bytes": 4124,
+      "sha256": "a35cbac0c4368088586bec456c000349f81f10325f579ad7b094fd642fc0777c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/LuckyStar-normal.json",
+      "bytes": 3124,
+      "sha256": "de3cf4cd9f671c84c0660e466ce365110de3d86448d90fa6a4def8278ce63026"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/LuxuryGarage-normal.json",
+      "bytes": 4457,
+      "sha256": "3efe8faa2084787128258d3d589980aeeb004686e24ab400385a4b10746a2eaa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/MagicianMerlin-normal.json",
+      "bytes": 5321,
+      "sha256": "9904a170e0950ce67144018acf3c3b604f0010fb56576b1653b05b2aec0120c4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/MagicQueen-normal.json",
+      "bytes": 5300,
+      "sha256": "375d36f1d0f8c359c39f4c6bb27d6d998d4bdf98ff66bd6456360a582fffe738"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/MedievalWarfare-normal.json",
+      "bytes": 3973,
+      "sha256": "52eb985a35e042f2ed49aa3a9128da76844b7bd6f9a3ae1d2002b34fb2c4c08b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/MilkGirl-normal.json",
+      "bytes": 4303,
+      "sha256": "f22c82a44f6ce2b63c3c307d3b1c613f1da1b13ae444dafb414e4616734ee695"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Musketeers-normal.json",
+      "bytes": 4892,
+      "sha256": "08be94db33d902b1efb7ddd510de047439545f21372b738ba5430210488d2d9b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/OutbreakEscape-normal.json",
+      "bytes": 5393,
+      "sha256": "8776e44d878488bbb3e0dfe382493d32aca43526882824733c765424e1863923"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-normal.json",
+      "bytes": 2932,
+      "sha256": "5a046bfd7178b1c342daa76b7950cd218de8fa356208cf6fca1712fe44e9a9ac"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-1.json",
+      "bytes": 2934,
+      "sha256": "c92dd96cf8661b04938bb6232c401c6e479848a512c7cc413b8437ee32f19f09"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-2.json",
+      "bytes": 2935,
+      "sha256": "2c4288c1e43b96363b179c5a901dd7a8ca92ca404e35d67e4d3fe0b0b6f015ce"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-3.json",
+      "bytes": 2935,
+      "sha256": "ecf6fee42053faa0792c8e10cbe3ff952710f227f070cae9a7d2bae6024fc468"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-4.json",
+      "bytes": 2935,
+      "sha256": "8a568bdf198a0fd8c6eb400da141f59db8351fee9a734cd4fbec2ad42127f045"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-5.json",
+      "bytes": 2935,
+      "sha256": "89eb8c68bf65ebd4156959b4f7fb31fbe5648de99d7398601240acf33553b776"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-6.json",
+      "bytes": 2935,
+      "sha256": "0a233c5244b9a3d87ca95d6ea56499042611fdc6a0c0fe5d05053e49d6c75dbd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-7.json",
+      "bytes": 2933,
+      "sha256": "8e2630c140337bfb2466d4a5f90453ca5133a426af38e5e87a292e2773ce09ed"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-8.json",
+      "bytes": 2946,
+      "sha256": "2d59cee5e13a23310dcc442054ef6522abf3ea5221bee1aba92f2a0a7d11f8e7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PenaltyShootout-target-9.json",
+      "bytes": 2944,
+      "sha256": "4e6e5e07dc4b8ed70e1441a590bc3ac719a0c5bb91650c001d4970ca95500f19"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Pets-normal.json",
+      "bytes": 3088,
+      "sha256": "8dbebeb9217b0dcf8632f6f1cce6501b15b33434245f8c66636f1253f0090fff"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-normal.json",
+      "bytes": 17057,
+      "sha256": "f952d30cd11845763007b6fd34dd8ba193df73017aa4bc59586a216d5f008271"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-1.json",
+      "bytes": 17062,
+      "sha256": "c3211b76851cbcd36b9ff08520ce85e5e423a9bf28d74e9c587c1aa2d354e0fc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-10.json",
+      "bytes": 17067,
+      "sha256": "738eb2cd25c6a21daf81f2aa08d5602597c3246e33bf5d15add8713c42f3fbee"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-100.json",
+      "bytes": 17083,
+      "sha256": "d2eccaa86e20741b9c163dc0a1d6b3f2e5fe58ceaa1aa0070ebe267c9c370761"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-101.json",
+      "bytes": 17083,
+      "sha256": "0964cd395fc680e8c3756e6e4629fd31ac0f56528ebab48b383f3dfb327069b4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-102.json",
+      "bytes": 17082,
+      "sha256": "b964b700d37458a405ee6d1edeb07b02bca8ff84227314d055497dadb60d9680"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-103.json",
+      "bytes": 17089,
+      "sha256": "7c0ceab0d0c43c10f927aac10605f5c1574cf51e4709c9bcaa1cccbcd1810c5e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-104.json",
+      "bytes": 17082,
+      "sha256": "cd977148f354723de57e93445c38e3892c332d8df3574e8d29d24b515ac92cbb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-105.json",
+      "bytes": 17081,
+      "sha256": "e53103d3f5db860d1caa0d7f56cfa2a3adca4a5280b44bbb3dc877dd474802ee"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-106.json",
+      "bytes": 17091,
+      "sha256": "c59569eb6915e88bbf1b3aacebb1153c2710ca03e0c5e2cfec7d54d50b010cf8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-107.json",
+      "bytes": 17083,
+      "sha256": "d9f825e5513a815e2a74d06e3db29116bd243ab81e9f188e4c66d06628023450"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-108.json",
+      "bytes": 17083,
+      "sha256": "c1da883b339434dbb9445501a0fd7effc0dd372a0a253dbd374aa152e6b3f004"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-109.json",
+      "bytes": 17082,
+      "sha256": "18e7ff7bb13e8bf5f9494e190300542d35b0c3488936e1cdc1a8da5a75b88c73"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-11.json",
+      "bytes": 17066,
+      "sha256": "5461d11aeebdc1bbd8cdec9d8de4c9253ab1984c98e56a7c47af494e8eea6863"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-110.json",
+      "bytes": 17081,
+      "sha256": "18d3bcb3a3132d86bc6f77dca6488c54e887cecc7ac13bc82ca46626dc9cc07d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-111.json",
+      "bytes": 26794,
+      "sha256": "cea3ae38bc672bae43cd5371d31589c353d01a5995c76a7e9b14084093145020"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-112.json",
+      "bytes": 17083,
+      "sha256": "7847978a87d61e1c6623d700f6e93f2ea8500a343f3bba3767f7597a70e92180"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-113.json",
+      "bytes": 17081,
+      "sha256": "cbdb216c482a6b3624e408660d6d502398733d633d16f0d7c9c1eb552ea37cdc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-114.json",
+      "bytes": 17082,
+      "sha256": "a91f0083dc4b422a60ad89bf72086bc95e477e8c0da5119f5a3c459d8fd865ca"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-115.json",
+      "bytes": 17083,
+      "sha256": "042ebfd452987bf35d259bd69a795d01391704914ad64208d4ecadce0a1586d5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-116.json",
+      "bytes": 26782,
+      "sha256": "ec8f44ea57795bdb914594d08068938d1ca612f5d6a62dc16a51b158451b15ec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-117.json",
+      "bytes": 17083,
+      "sha256": "e7984ca4c90215cdb9ecd44ba731e9f82ad390c43f8e3bed7e48a3f8d41db37f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-118.json",
+      "bytes": 17081,
+      "sha256": "f5d95679cff3c57c5a9b3cbd09d0887e8a8a6e3c619aae88d3a0589189c12720"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-119.json",
+      "bytes": 17082,
+      "sha256": "6ffb8a1bf154c237becaa820dadc7a0a032fa0004a3073390a320caf0c34903d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-12.json",
+      "bytes": 17067,
+      "sha256": "32a21ecd1ea1de611212085d301a0fd7426741620952725df021c1168c21adaa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-120.json",
+      "bytes": 17081,
+      "sha256": "3341e1f45d5922633e9fb1cd77afdf11760ba7aceb3796935d2614882ee50328"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-121.json",
+      "bytes": 17083,
+      "sha256": "eabb773fec8fb65d6decf9a0e40f5b898225ce9fe9b55698a96e232163a85378"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-122.json",
+      "bytes": 26796,
+      "sha256": "16f9ed4a7e72eb7e55fce4b6e1dd9ea539559dda9e801574112938c12124a9fd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-123.json",
+      "bytes": 17082,
+      "sha256": "f5c6c1ed392ce6f2d1cdba3bb2c9425fbc9da83a5ead4a72d72a341f5efa5205"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-124.json",
+      "bytes": 17082,
+      "sha256": "b296d641e3a79595bec92c16511aab113c06d16a03e1cbe6edd40b0a64d07171"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-125.json",
+      "bytes": 17083,
+      "sha256": "1372b3f0a80c767a030ab78121584f542061b70941c1d3f44cbedf23ac9c0257"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-126.json",
+      "bytes": 17081,
+      "sha256": "fcfff1afa7cd5ba822c6b06748fa157495d38305efaac6126c1a8a79deec27d5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-127.json",
+      "bytes": 17082,
+      "sha256": "27bcf74c8341dd664c243008bd8dbf7bfa840625bf86a474d3abe2deb45cebdf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-128.json",
+      "bytes": 17083,
+      "sha256": "a62a253d1b65730bff753fbe574348ea938a1babdaa60e807c13cdd8106d94bf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-129.json",
+      "bytes": 17081,
+      "sha256": "1bbe372fe79ad10f1930528e178a047f9c768c33edc53fa9b69e0f0697c1f755"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-13.json",
+      "bytes": 17066,
+      "sha256": "949ccd9eeeb75c3366e137961cfe6fe768cd57001a52e324fbf3f276cde5a181"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-130.json",
+      "bytes": 17083,
+      "sha256": "3e02b73b99069138f3cdd6bd653f889f0861a9162e66207562dbcf7a9c4dcc26"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-131.json",
+      "bytes": 17083,
+      "sha256": "1d212ea61a867cca165f0d37d7d5263acb18c49ab2d05ad871caf080d9edba3d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-132.json",
+      "bytes": 26784,
+      "sha256": "06d14c544afff820507017fcebfcb244e17bcbd0155b9ba22674451274125b39"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-133.json",
+      "bytes": 17083,
+      "sha256": "d2c5ffdd023495dab23fc69593caa8268ee8477802d1287d0023a6cbe9c3a55a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-134.json",
+      "bytes": 17083,
+      "sha256": "6a634059fe719dbcc3e6e5a49984b08a6ba318ac98e171f7d7d8a46d9be8839b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-135.json",
+      "bytes": 17081,
+      "sha256": "663b15562c9ef9846f3e04b740d0431429f27dfece397ea64876e55002a9c8a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-136.json",
+      "bytes": 17082,
+      "sha256": "2a46487629af14022212b69a1c26e827a3d2c136cf206ab4d43f550c3e484df9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-137.json",
+      "bytes": 17083,
+      "sha256": "e4af791c470040c1eff1caf38762ddb327ac70a3fd62e51aa720c53717ed83d6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-138.json",
+      "bytes": 17082,
+      "sha256": "e2e492cfedd8765c96dfaafdbf5b4f657d495136cf4beb79a97e249d4cc44898"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-139.json",
+      "bytes": 17083,
+      "sha256": "49da7bca54321feaf3cfdd65732db828b6c00a6292ce91a858b280112bfe1935"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-14.json",
+      "bytes": 17067,
+      "sha256": "580ba3a483e62ed9fc9c94ad6b8f1b6119fbf2044adae556e26b5347ae3af24a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-140.json",
+      "bytes": 17082,
+      "sha256": "99db8f6118101988c0340f01815d34eb3160d6e62aa345af51534ba46a66418b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-141.json",
+      "bytes": 17081,
+      "sha256": "f811ac8f8fd502e4b9cb0b955752a8474921065273ce6e70a1600b0a9c2176b7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-142.json",
+      "bytes": 17083,
+      "sha256": "264b0dee74fc43654eb0218f3d58f9b5ca9f6631013933225ddb12e3b62d309f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-143.json",
+      "bytes": 17083,
+      "sha256": "445e46216ffe1678103829ebb4e9c55641c3ac52bc2457bfc2d1cf518562a2a1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-144.json",
+      "bytes": 17083,
+      "sha256": "e33340bf1b3288a518f7ccbb582f2c14625c890a63f1c7963c9739df99aae204"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-145.json",
+      "bytes": 17082,
+      "sha256": "3119f56e8cf459082eeae05b185f55783de4461e726e46e3edd9f0dc68ea9596"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-146.json",
+      "bytes": 17083,
+      "sha256": "45898af3c2da89dcfca9f141826fb54201d45e954063d4087612b13356308dd3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-147.json",
+      "bytes": 26793,
+      "sha256": "3afe2a5fe6a708874f41eeb598deee7a4b45194d134a6888c41a5c5ea13a3e8e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-148.json",
+      "bytes": 17083,
+      "sha256": "86322bec272b0f052d8b81d2917e48ec74d79a5d02cc62b69705fb554b127600"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-149.json",
+      "bytes": 17082,
+      "sha256": "1dcdef69dc53b35ed39a85d4db0933a251fd7ad1a2349b0fe5f6d9f78fef9fa9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-15.json",
+      "bytes": 17066,
+      "sha256": "03a592a3cc2fe39bf29e0dbad5142ad143b4c8c3aefc1421d6c5f4896f690f1b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-150.json",
+      "bytes": 17083,
+      "sha256": "138f3be3d3e192ea40b0a091bce416b188b9c8678516bb68038242bf9bb4ca42"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-151.json",
+      "bytes": 17083,
+      "sha256": "9855d8d24a3f7b6a7f4280031fa66445f2f1a3cee83bc3e699821d7ef222e4e0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-152.json",
+      "bytes": 17083,
+      "sha256": "c0d16232dbbcea1889e09ad783a2db97c94900849a79efc2be7c72827ca12c77"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-153.json",
+      "bytes": 26783,
+      "sha256": "acfa37ed6ac99d08d1a389160c3b8b35dd36c5ddc7068941c750f6498f91e3b5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-16.json",
+      "bytes": 17067,
+      "sha256": "8599b4950b02b4a460b16364aa46cef45905b28bd12bea4e3ca8845dc5299f42"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-17.json",
+      "bytes": 17067,
+      "sha256": "8f0bf377b999384ccce906c085c87ff2629f22caa2a10272c4c7666c77bad556"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-18.json",
+      "bytes": 17068,
+      "sha256": "f7946a60d9af4af1efd55da47a6c25d9eca4d46ea0db629a19685c0208755300"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-19.json",
+      "bytes": 17068,
+      "sha256": "b08ff12dd67bddee8057062c71c71599f81bace5dd8ea8fdead225604d4e922a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-2.json",
+      "bytes": 17061,
+      "sha256": "e076c730f6d0f4447e79e3ec24794db435ecce9159aa2069e1dabd23fbf25b22"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-20.json",
+      "bytes": 17067,
+      "sha256": "507cfdccefc8a5df127bea46775ba4390f094cbb13ca38cdf03d45edee4d709d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-21.json",
+      "bytes": 17068,
+      "sha256": "267fd3e04d0802e3195031f239e8a7b87b4fdf65f5fba88e41b34c9ad81fa328"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-22.json",
+      "bytes": 17067,
+      "sha256": "09504a9e648893f2703e090f57c751470e11b468a04fdf0570fbbb6d51d5a0fd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-23.json",
+      "bytes": 26769,
+      "sha256": "30694ae602483e84767cbb2a6664a9cdfe0f5208a391c1354865062673e7bb8b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-24.json",
+      "bytes": 17068,
+      "sha256": "3ad6750cbd1628486bb0e70922504a47f3e3858b9db8504db26d1bcfd7ccbbec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-25.json",
+      "bytes": 17068,
+      "sha256": "2fb5362596b31381ae6473c1065a892b11ac15fd9a6b1b2b07de28df920de63a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-26.json",
+      "bytes": 17067,
+      "sha256": "bc189665645c99572c34f795ab18eb9706ab1b49ad427c836aa857b35db7bd88"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-27.json",
+      "bytes": 17067,
+      "sha256": "fa017488a27c9dde070bd1968b66f03f334d10715ecf166d2a35aefcaab7507b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-28.json",
+      "bytes": 17067,
+      "sha256": "81fceb74371b38728e062350cf3cf779aa26f362e251c523afabf120d086ec74"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-29.json",
+      "bytes": 17083,
+      "sha256": "79abeb6bf4d636e1b75be94cfa68d3532d4875b8c848754adeaca6ff459d436e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-3.json",
+      "bytes": 17063,
+      "sha256": "08bd7df3a844c16e3002f0715c93da96420daca85e99b35916a384bf85d8e495"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-30.json",
+      "bytes": 17072,
+      "sha256": "30b32a6bb7db8a34942ca22acc793c54f1c2039fccfdad045e2b2f80bae599b6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-31.json",
+      "bytes": 17083,
+      "sha256": "aacad68cb532ba045aeeff74beffcf527ede796b70767d85632338ad40801a92"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-32.json",
+      "bytes": 17076,
+      "sha256": "1affb8826efbc80814b552e2b57b8668bd383791836d479c59474c4fb9d67e2c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-33.json",
+      "bytes": 17076,
+      "sha256": "9b304b3cac75cb7ecb724b6d6a6fd7dcdbba6ef199fb8503043ec9342d28eaea"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-34.json",
+      "bytes": 26778,
+      "sha256": "4afa2ed9ff7ff28e233d77ba5d58a9eef24a8d6ed26f969860c4ce65b140d628"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-35.json",
+      "bytes": 17076,
+      "sha256": "f3e265d4b39554971cd03cee7b800de41f1abd0791e8386e5ad9472097c7c8af"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-36.json",
+      "bytes": 17075,
+      "sha256": "c298d45f2639515b2820ced6e9158feaea14cec54d0b69318e40b821dd0c5a33"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-37.json",
+      "bytes": 17077,
+      "sha256": "5b44a9c79d214e1bb55c40af583903d95073759c269cdab3a2150f465af96e7a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-38.json",
+      "bytes": 17076,
+      "sha256": "1922ca2d6362bccebb074db7610c94a334ec56923ac3f79022595b98f4112457"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-39.json",
+      "bytes": 17082,
+      "sha256": "3c9e9e3f8d88cbc6b10d298f379421d9e0cb3c164d84fb484e8725ca409e3958"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-4.json",
+      "bytes": 17063,
+      "sha256": "cd47d756092026b289bfa709a74dbe42ead14f2fa0d186321de4e8b1d8f0bdcb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-40.json",
+      "bytes": 17075,
+      "sha256": "bae88d335ac07fa505f7f9e973f7048b5f81296d5877248f72957ec6eb7b30c1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-41.json",
+      "bytes": 17075,
+      "sha256": "8d61b2bff16a8351372774bb9128de1a96a18a068e2ff3903c448018503d420c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-42.json",
+      "bytes": 17082,
+      "sha256": "e5679df414985602e72aa67c63d2e19d743abdda6ad6403e319e213f707f6464"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-43.json",
+      "bytes": 17082,
+      "sha256": "9ba64f060aed8b812237908fbaec4936175d7f8a26b65099daa3513b20fb0e4e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-44.json",
+      "bytes": 17082,
+      "sha256": "9272bdc1163f16cb7b8245e0babc05cfb8d041dac77567b38f885b838b6ad6e5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-45.json",
+      "bytes": 17083,
+      "sha256": "66c73b78eea82121d3e97cb018d36ff95818a59303bbca1fcb1b308ce12aca17"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-46.json",
+      "bytes": 17082,
+      "sha256": "077f2a15d16923950ff2face36b5b8cd833345b69fd47c7ca69fe6c33d6c99fc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-47.json",
+      "bytes": 17082,
+      "sha256": "9cb955706c83cf06ed69e2b8a476aae738ac6539847441be83fbe980dbb95d62"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-48.json",
+      "bytes": 17077,
+      "sha256": "90df9465fc5cacd2f6e812d5de7d65d7c5008a9334c7b545d4b9e08c798d08a4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-49.json",
+      "bytes": 17077,
+      "sha256": "d415a445d31f879f6a3c94334df5c9841df285de293c9442e3db9751cd340396"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-5.json",
+      "bytes": 17062,
+      "sha256": "29c18f5afdcf0bacd09bd492aa604ced22c9bcdbe16d543f4c77054ad779c072"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-50.json",
+      "bytes": 17076,
+      "sha256": "0980102d242296a5aa2a364c494058330d1890349802dfe7539b75fd17579f68"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-51.json",
+      "bytes": 17077,
+      "sha256": "c264936d3ff76f6eabd55d540b045f59d166f3b1ae0fbc99cc98926f1a5f5593"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-52.json",
+      "bytes": 17076,
+      "sha256": "c2ed082b590acbe0d95348545e3b097c9af6ba55592feedb0fd06a8ca88df547"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-53.json",
+      "bytes": 17076,
+      "sha256": "75b1fe8836aea1ee4397c03eaab8d02f04693b90fe52694c661cb9298e9fbb46"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-54.json",
+      "bytes": 26779,
+      "sha256": "c8a1ab3dc87f336099c5e0b81645b8c6959de27c35bdf598af7d12925f0ce469"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-55.json",
+      "bytes": 17076,
+      "sha256": "0c3954649be3db1f28fb07b4ba87b7dd792dd925b4f62bb643d56302ddfceb99"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-56.json",
+      "bytes": 17077,
+      "sha256": "b73ec5a21be3a893f059f0da6856e70695544abdc0745df9b091f5027665dda2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-57.json",
+      "bytes": 17077,
+      "sha256": "a45be9f051a4b3fec5d5b8d32622788e289edf6fb1fbb4437b0e8082a1ec2746"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-58.json",
+      "bytes": 17086,
+      "sha256": "e4fae6895c37c8ddaa9341d2ede36ca323475e6f14a507025cf24824baebe47c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-59.json",
+      "bytes": 17075,
+      "sha256": "fa1e4aac602d804e35a1297d5bbc4fc8bba253b8e7ad24fd59d4c5d43a15edbc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-6.json",
+      "bytes": 17063,
+      "sha256": "756b42615679322149aa502dc7192ac10d4812a56071242b3f8b0bd9ff39873c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-60.json",
+      "bytes": 17076,
+      "sha256": "c38265a6ba29d209e420af02610e073aa9790f4dcb7034b785d6ee06a0f17a8e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-61.json",
+      "bytes": 17077,
+      "sha256": "5a0e6e2e9aa9790778777172fdfc3fe4884fcaca72886198564e5fdd43e1fb51"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-62.json",
+      "bytes": 17076,
+      "sha256": "03d9ef2b53b3af853724c30dd49cc5ee7062a54023eb0f98ffad3a83f641c983"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-63.json",
+      "bytes": 17076,
+      "sha256": "b48aad5c2f2841e74a84928d52c7cfb635618d064d605b96d7270c15fe9f2e72"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-64.json",
+      "bytes": 17074,
+      "sha256": "8dcb764e092586b9e43dddce6785bc839928fa34bb1ef5cce8bd4e9a658cd581"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-65.json",
+      "bytes": 17076,
+      "sha256": "13a92862cda4f42ff5aa82dfb81a5719e132f705929743452d1ad8f34dfbdf7e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-66.json",
+      "bytes": 17075,
+      "sha256": "a99c9dd7c45b9e87b6a855cb5d44d2cd39bbf4d94077fe7e53f0fcbf5b5f5266"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-67.json",
+      "bytes": 17087,
+      "sha256": "ed54e0e5f311cd57347d25a7db9ce3cc1af6ec608cdf937d8396eec64a186f82"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-68.json",
+      "bytes": 17077,
+      "sha256": "9d10340aa1dc2c3eafcf6c3b883772005afa173c13cc57685e7c450c3b4cce4f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-69.json",
+      "bytes": 17078,
+      "sha256": "e2149a6f28867a65cf3a61c917365420da49163f23656df08f1bf5ed454a4cb2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-7.json",
+      "bytes": 17061,
+      "sha256": "71186545c96a371f5dba29bfd86060720282daa491929f164b7225d4981d0bbc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-70.json",
+      "bytes": 17077,
+      "sha256": "79b22db3155f2372031383d9a2e8794e4884d198585597b687c3af02960fb35f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-71.json",
+      "bytes": 17076,
+      "sha256": "e0035f15918f4cc32acf2afe8e3ab2ff1c325eefd9f132d7519399f77745f739"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-72.json",
+      "bytes": 17078,
+      "sha256": "ec1c1827e4c7092c9fc5ab244c8c03e60a6cdd38a01b5a794ca57e19952db3fa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-73.json",
+      "bytes": 17087,
+      "sha256": "4d23c2110db0eefc5a4d55eb8339f558de890e9c44daf13637ee013ae071904d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-74.json",
+      "bytes": 17077,
+      "sha256": "b23aaa7869c375a5f0021520b18a3bff6b61b0d3bd2a8ffc64796586414c89e1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-75.json",
+      "bytes": 17078,
+      "sha256": "16633b949b4287734c695a5db14571da757ada2d22bf47f6dbbcbd3f28b6c2b8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-76.json",
+      "bytes": 26778,
+      "sha256": "11f68af553141745e89edeeb7f8af59e78f6cc7017f0a63a7847de8b67450b88"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-77.json",
+      "bytes": 26780,
+      "sha256": "7e1b2d4971915aade70b8ae4d706d8ece54ee7830bafaf81eb5365c4640e2ac3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-78.json",
+      "bytes": 17077,
+      "sha256": "0e350a3f4ff70111ea065616402f7d855216bdde5091217ef009270deff4c4a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-79.json",
+      "bytes": 17076,
+      "sha256": "8751afb97ff766514cb0dbedc40b4b293973659973f6b0fc41ba4e78320a2799"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-8.json",
+      "bytes": 17063,
+      "sha256": "b63b318736d28d11f7fb86bd6154829722021221ab38a9ebc00e1cbd80db1ce2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-80.json",
+      "bytes": 17078,
+      "sha256": "b7feb9939ffa30e927db45f175d14da5225d594d26ac43ca210116206123114d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-81.json",
+      "bytes": 17078,
+      "sha256": "70df4b8d33c24e25f15ba6bb8d9c5ab69dc9f92501e36a3af2ebc678c82cacf2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-82.json",
+      "bytes": 17076,
+      "sha256": "6c2812db147ed2e013252f4721c70cdd30d4d3f5bd152e6b5a9f5a2913b21d44"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-83.json",
+      "bytes": 17077,
+      "sha256": "cf4147804bb33cdc119d56961a41077e94da6f54ca7eb319a943fb0bf184e895"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-84.json",
+      "bytes": 17074,
+      "sha256": "dd6e9d6fc7bcf6203f08a4a30442ced639bf78145cacac5384c20486bff99c75"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-85.json",
+      "bytes": 17078,
+      "sha256": "295c34f23bacd77fb354f97c756df97cd8fafd4846c0ce2d128a22d91dbaa74e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-86.json",
+      "bytes": 17078,
+      "sha256": "e2fea87bcaad6df03606cadc62d202e633167f4b7f535f4a28060fc584c6e8b7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-87.json",
+      "bytes": 26780,
+      "sha256": "f26e40e2d5840779fb1e8590b2109bb81be644b9164271c5caeeeb80070af97d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-88.json",
+      "bytes": 17078,
+      "sha256": "58d7a3cfab854294a869a303fefb759fd42253500f09fbdeddf13150df821327"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-89.json",
+      "bytes": 17076,
+      "sha256": "902c3605c7318f75c8cbe045b48d40ccfa235c29bc791146adf404ee9b245f72"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-9.json",
+      "bytes": 17065,
+      "sha256": "29704601c0804f385f40d9e27d6fec9dee06e308afd55b76b4ca199dbc6b2fa3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-90.json",
+      "bytes": 17078,
+      "sha256": "1fcbc6d257b7889753d8597096fd52f9054f5d423ca11d309a4a7b7e2cd6c1a1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-91.json",
+      "bytes": 17078,
+      "sha256": "6328a351cb4c0e7c98f1ded36599ff95cbb8e10ef656bcbe22e8742702375f37"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-92.json",
+      "bytes": 26780,
+      "sha256": "816acfa837bc172df1013abdeba310ead63c91e87be60dc993516f8530457828"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-93.json",
+      "bytes": 17077,
+      "sha256": "3d1446bb5deef67cd94e437990f6e10521af739e8368f5c2f5b08185fbe90df5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-94.json",
+      "bytes": 17076,
+      "sha256": "7ab618a3ff80122263a698a068b2e32538c7f9d9d2b8268402f7a32b3997b5b8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-95.json",
+      "bytes": 17084,
+      "sha256": "6e70afe8b8d9c0b86e8300bcebf263d2fe3b1de05c39241828c8fdbe60265489"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-96.json",
+      "bytes": 17077,
+      "sha256": "599f4c830ffa16a70776d8564fb7f951924f89cd8a6d9e28067e84a058cd4b47"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-97.json",
+      "bytes": 17077,
+      "sha256": "91264c783de8d426baec6a93ac36553c1a20bc91f475ec722e9c34df46322492"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-98.json",
+      "bytes": 26779,
+      "sha256": "012c9f11187f6d6a67fd23f45f9072cf7e02c97002252802621cdc24b26216a4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PhilosopherRoulette-roulette-99.json",
+      "bytes": 17079,
+      "sha256": "7b4290eb036106c70491086f2a27b7c534671d3949798726dcbb0051acc95a43"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/PiedPiper-normal.json",
+      "bytes": 3969,
+      "sha256": "04ff25186313e805e9200d8939051b9d658bef2485ce661af7505c1aa3dc7c47"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/QuickGarden-normal.json",
+      "bytes": 3802,
+      "sha256": "14e94d7f36f6b947aa6dedc66ab4401a363df81dd0b08a35e4b1e58dac6da3f2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/RichFarm-normal.json",
+      "bytes": 2997,
+      "sha256": "496a932b3348d58b8b01debd5545ce4b70693bbccb333cc550f842c478728202"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/RichSquire-normal.json",
+      "bytes": 4732,
+      "sha256": "414e56251d8169b9b9343f3ee9108a280037af9741012eae2e68a95a31bc1509"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Route66-normal.json",
+      "bytes": 2905,
+      "sha256": "60952c83b073165c010602b3b584d4c9d0a48d09105c9da9401a584409fb61d4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ShroveTuesday-normal.json",
+      "bytes": 2984,
+      "sha256": "857e64f074a100992c939f011d8305ffa3da7f69c17fa850482b3ad280dbbcf1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/SkyJourney-normal.json",
+      "bytes": 3832,
+      "sha256": "9419e812ed049680686f41dfb6853df77434f7a418608ba704e6a027e098a7a4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/SlavicFantasy-normal.json",
+      "bytes": 4066,
+      "sha256": "0159df2c34880e2e2185dffa46472f56b8291c4037d8972ed81b97ca041d773b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/SleepwalkingSheep-normal.json",
+      "bytes": 3851,
+      "sha256": "a7b171c3fbb68f51ab64257e3b1f34da2a42f336b69b3a4b0c8c424cec2c3b60"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/SoccerShowdown-normal.json",
+      "bytes": 3085,
+      "sha256": "787e79fadde9110fe088052cb82f0e4841f6b6d6577cb7cccfd2eff86e725fb5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/Space-normal.json",
+      "bytes": 5986,
+      "sha256": "54499a156880dab6ff34d958e5aa4144e112390beabe28c38fd400c0982d7331"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/SpiderGoblin-normal.json",
+      "bytes": 4942,
+      "sha256": "fff038d3b0927880abe2d2909478ca8a3faab7df45c599f32abd8fa4738cfcbf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/SummerFireworksFestival-normal.json",
+      "bytes": 4011,
+      "sha256": "f1e464b6f29582648d42c29b08dd346a1812c6862cfbae28ed3b56119b613b91"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/TangoTwirl-normal.json",
+      "bytes": 3813,
+      "sha256": "f6e6f1cc23cc26821448430a750e7b3d10c9c36a22fe63440ea01004e8a64702"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/TheGingerbreadLand-normal.json",
+      "bytes": 3869,
+      "sha256": "f0952c1f9134a6aa1a044bc1cf25105d13b7449dea4d42fbd72509b7a2050eb8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/TheGrandmaster-normal.json",
+      "bytes": 5283,
+      "sha256": "bf6b4d35c3cd291f34890715c0ca827dd94040fa99b06ff17ba0faa05be895a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/TheKingProducer-normal.json",
+      "bytes": 4389,
+      "sha256": "3a60abc1e38a6e4a46558d58fb9dc0dd6dd1532e39b77c78496af11197c41135"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ThePeonyPavilion-normal.json",
+      "bytes": 4855,
+      "sha256": "1d55f0a0564a76d2297a2e668c38847baa63db5150215e3a53c2815587aa9a7a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ThirstyCrow-normal.json",
+      "bytes": 4819,
+      "sha256": "9c57206737ffef31987971af728b1b1fec9bb7a12ef85bdfbba01a01d37b43c9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ThreeBandits-normal.json",
+      "bytes": 3821,
+      "sha256": "8ed2af2e8bbf621e843ab3ed2a05f53043b10150fd5b85b4042b24252986eea4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ThreeGods-normal.json",
+      "bytes": 4501,
+      "sha256": "b6d297d49e2b72c8c94351b7b9fb38b0ee30eaf4c4298f452a167ab5913c2891"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/ToyWorld-normal.json",
+      "bytes": 3837,
+      "sha256": "22fc9a0be5025cb2f817fcf4d884c774ff9e6e27f151003c98034363346f74c7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/TreasureGoblin-normal.json",
+      "bytes": 3635,
+      "sha256": "ec5fc2e92ebbf210fc051307d431a524ceec90ab17a1e7a08f535ae48d47a33a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/WestChamber-normal.json",
+      "bytes": 3799,
+      "sha256": "79d564d041533c7b697364c04faf8f5a19bae0a8c2277e374a4c751d2619ca63"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/WildChristmas-normal.json",
+      "bytes": 3820,
+      "sha256": "1c6b882cb8fb2520d03d56f56dddc83189fc91a442182740683b7088b99efb1f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/WolfWarrior-normal.json",
+      "bytes": 3750,
+      "sha256": "4bf788531fb605c928f70729d1dacd865fec7ec89dc48923756d15a270177d2f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/WuSong-normal.json",
+      "bytes": 5301,
+      "sha256": "da16a84e2dd18ecc04d57344fc8be214539679707de078aa47e02853d189e60f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/WuZetian-normal.json",
+      "bytes": 3775,
+      "sha256": "33c51fc2c1b53f24597de0776df6c396947ad2f08f6cb68b07bbaa41b1ba94b5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/YearOfTheRabbit-normal.json",
+      "bytes": 4314,
+      "sha256": "5284277e036f3c1703f4941d29a600c125f9cf715a8d4b28c631042da198e71a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/batches/101-200/traces/YuGong-normal.json",
+      "bytes": 3768,
+      "sha256": "471bcba64014931452172159bd207fe5b51caf75b755f44a9e88ed76a7ccc349"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/catalog.json",
+      "bytes": 1027247,
+      "sha256": "59c52a865540105de94defe29a882a72c898844ef1d65a138f4426955bd8de26"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/index.html",
+      "bytes": 120377,
+      "sha256": "637bb9bcb838478d7c238322f303d251ac8ad1c18f6ea05420ea30755715a06a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/catalog-response.json",
+      "bytes": 1007451,
+      "sha256": "f6190bef2d54c54c90bdab3782cc165f577efce472dcc81cc4f3465b948f7d66"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/family-bindings.json",
+      "bytes": 5037,
+      "sha256": "2d317843aefc925099443587967ef6e8de092a02c3ab54da7da876b9162b9f8c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/game-bootstrap.html",
+      "bytes": 9298,
+      "sha256": "9831f9df2e92fc598b150422c1895229a74a9384ed8de3c405988f3d9233a5e7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/JadeQuest.har-fixture.json",
+      "bytes": 68604,
+      "sha256": "17f0729a45b74dae05c70566326c0efd7fd5916c644c5d2b25012a2ae5305200"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/KickCashMonkey2.har-fixture.json",
+      "bytes": 53054,
+      "sha256": "306e77b0c33acc367d7d7b0f3f9f8054bab225aee7fda7364f65ee358b1b491d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/project.json",
+      "bytes": 175,
+      "sha256": "e42b3ec7fd736f5f25db63cc88beaa52951991318d7622daa4d30c201154d39f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/remaining-source-download.json",
+      "bytes": 917,
+      "sha256": "bff9b85c83e021c21c529640a9305eb4d404ccaae556f0ccfef6b3e7e76f9d02"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/site-index.html",
+      "bytes": 50070,
+      "sha256": "ab21e359ab61371b89e86fd4b620ff2ea831c43a91abd21f1a41d149b54566a0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/source-download-101-200.json",
+      "bytes": 6007,
+      "sha256": "4fd9e2a34db13a2089a7c91c7dfaa663dcfba47d26969f771c1e81b26e58299b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/reference/sources.json",
+      "bytes": 485,
+      "sha256": "45579646476b352fa23a3a46481c76b41c5c6ebface2b1cae434550dc83ff131"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming/scope.json",
+      "bytes": 163,
+      "sha256": "44473f2b0690facd1ec00e29104c0137a9cacf8dfa2ac457dada9106350e9412"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_american.py",
+      "bytes": 9330,
+      "sha256": "63e15adeca29e4fad1b9a0f218a8475a5bed6e1cad0991d19324e4d22127872d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_audit.py",
+      "bytes": 10616,
+      "sha256": "048145822c085bf3981bf25ee4f115c3b04421bdb7092ffed8ad43f7deed0934"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_bonus_pick.py",
+      "bytes": 12706,
+      "sha256": "26d235b9a05e0e9e4746221d0d3afdaae6eee92100dee6984bfd65bfd865dfe4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_browser_bridge.py",
+      "bytes": 10128,
+      "sha256": "0a7fbcab6696c7b7ba9291e53fe41d6df7ca328d1b29dee61d191ef55c77e187"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_chicken.py",
+      "bytes": 7338,
+      "sha256": "4d53c623a8f074539a45d9759e2fffb19d5ce922a729d63f8f365069e8b44089"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_client.py",
+      "bytes": 11083,
+      "sha256": "b4da25f36450b38fb8827da0d3d853cc5807a0f5f79aeb391c744fa699386e8b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_core.py",
+      "bytes": 9343,
+      "sha256": "6c2417f3a088bde199de116a974c57cc5474149b54470eb38f8e0958f62d3e9a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_fish_browser.py",
+      "bytes": 6424,
+      "sha256": "2f8033f681460fd018bce22e5171ad181e0d966698163d6c1dd5563488d0bbd8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_interactive.py",
+      "bytes": 12682,
+      "sha256": "cb7b33c6b432e99a9ef07a29733dacc0c2036f898c4bed60f88d4ad6d5078b5e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_lanterns.py",
+      "bytes": 4075,
+      "sha256": "c922ed51c9820d7718b8dfd62ef57900ab6c88500ed702d6a730f74eb4cc8ff4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_layout.py",
+      "bytes": 1306,
+      "sha256": "e3b01424f4838a4ea9860a68a3b7c7da0de599a514bcfb9433ba9ba54013b9f1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_non_slots.py",
+      "bytes": 6635,
+      "sha256": "3e485875754231680ed4df4563886b76f1bd90fcec42695bcef9c983bfee6057"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_penalty.py",
+      "bytes": 7491,
+      "sha256": "f60133e83a27886004579a3d2fc329070933cbff744ab514b3a311548cde1c7c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_philosopher.py",
+      "bytes": 9401,
+      "sha256": "6be94768a5017f13de248e6b84bbf5e41e3dd4248a033d144acfb216e8f66794"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_progress.py",
+      "bytes": 5097,
+      "sha256": "c7bdd5da465f4013489c92f130fc4260d769b6d7d8f696cf89db677df44f7491"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_recovery.py",
+      "bytes": 7893,
+      "sha256": "b8e8dbdfd9ed0c61aba1d812cb83511d010e21de2623a51a03c77911e19e351d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_reports.py",
+      "bytes": 2552,
+      "sha256": "799d623c564bf9c26518623116059c58f91ff148c4e459d6b2036fcfa88e46e6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_roulette.py",
+      "bytes": 7778,
+      "sha256": "c29ad1d54d5aa2c8933f2ec85ca403249f28d1608b84242464b1924deb2d5346"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/kagaming_run.py",
+      "bytes": 18143,
+      "sha256": "84162603bd601c34e7126de214d9986c15e0bacac415c99db05d1564bcb9499b"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 616,
+      "sha256": "5f7b22c7652bf412adb08d0bc234fbb1aaf13d834199087ff8e77d49494903d1"
+    }
+  ]
+}

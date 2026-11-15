@@ -1,0 +1,2858 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "netent",
+      "game": "finn-and-the-candy-spin",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {
+        "max_prerequisite_rounds": 16
+      }
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-candy-spin",
+      "mode": "FeatureBuy:select=destroy",
+      "samples": 1,
+      "settings": {
+        "max_prerequisite_rounds": 16
+      }
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-candy-spin",
+      "mode": "FeatureBuy:select=randomwilds",
+      "samples": 1,
+      "settings": {
+        "max_prerequisite_rounds": 16
+      }
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-candy-spin",
+      "mode": "FeatureBuy:select=symboloverlay",
+      "samples": 1,
+      "settings": {
+        "max_prerequisite_rounds": 16
+      }
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-candy-spin",
+      "mode": "FeatureBuy:select=symboltransform",
+      "samples": 1,
+      "settings": {
+        "max_prerequisite_rounds": 16
+      }
+    },
+    {
+      "provider": "netent",
+      "game": "thrill-to-grill",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "thrill-to-grill",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "big-bang-boom",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "big-bang-boom",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "big-bang-boom",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "101-candies",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "101-candies",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "crab-trap",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "crab-trap",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-quest",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-xxxtreme",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-xxxtreme",
+      "mode": "XXXtremeSpin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-xxxtreme",
+      "mode": "XXXtremeSpinEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "piggy-riches-slot",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive-2",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "nunchucks",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "nunchucks",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "nunchucks",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "nunchucks",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "nunchucks",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "nunchucks",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "demon-beats",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "demon-beats",
+      "mode": "FeatureBuy6",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "demon-beats",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "demon-beats",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "demon-beats",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "demon-beats",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "demon-beats",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aftermath",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aftermath",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aftermath",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aftermath",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aftermath",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aftermath",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "FeatureBuy7",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "judgemental",
+      "mode": "FeatureBuy6",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spice",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spice",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spice",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spice",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spice",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spice",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-grand-re-opening",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-grand-re-opening",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-grand-re-opening",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-grand-re-opening",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-grand-re-opening",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-grand-re-opening",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "in-and-out",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "in-and-out",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "in-and-out",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "in-and-out",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "in-and-out",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "in-and-out",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "whats-up-witches",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "whats-up-witches",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "whats-up-witches",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "whats-up-witches",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "whats-up-witches",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "whats-up-witches",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-gold",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-gold",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-gold",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-gold",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-gold",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive-3-wanted",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive-3-wanted",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive-3-wanted",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive-3-wanted",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive-3-wanted",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive-3-wanted",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "godbreaker",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "godbreaker",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "godbreaker",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "godbreaker",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "godbreaker",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "monopoly-money-line",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "monopoly-money-line",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "monopoly-money-line",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "monopoly-money-line",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "monopoly-money-line",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "monopoly-money-line",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-gone-fishing",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-gone-fishing",
+      "mode": "FeatureBuy1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-gone-fishing",
+      "mode": "FeatureBuy2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-gone-fishing",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "flock-me",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "flock-me",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "flock-me",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "flock-me",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "flock-me",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "flock-me",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-dark-trails",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-dark-trails",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-dark-trails",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-west",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-west",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-west",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-west",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-west",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-west",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-quest-ii-return-to-el-dorado",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-quest-ii-return-to-el-dorado",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-quest-ii-return-to-el-dorado",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-quest-ii-return-to-el-dorado",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-quest-ii-return-to-el-dorado",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-quest-ii-return-to-el-dorado",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "piggy-riches-3-hog-heaven",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "piggy-riches-3-hog-heaven",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "piggy-riches-3-hog-heaven",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "piggy-riches-3-hog-heaven",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "piggy-riches-3-hog-heaven",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "piggy-riches-3-hog-heaven",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "reel-rush-xxxtreme",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "reel-rush-xxxtreme",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "reel-rush-xxxtreme",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "reel-rush-xxxtreme",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-4-chasing-the-dragon",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-4-chasing-the-dragon",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-4-chasing-the-dragon",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-4-chasing-the-dragon",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-4-chasing-the-dragon",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-4-chasing-the-dragon",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-black",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-black",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-black",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-black",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-black",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-egg-invaders",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-egg-invaders",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-egg-invaders",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-dragon-tales",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-dragon-tales",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-dragon-tales",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-dragon-tales",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-dragon-tales",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-dragon-tales",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-mining-xxxtreme",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-mining-xxxtreme",
+      "mode": "XXXtremeSpin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-mining-xxxtreme",
+      "mode": "XXXtremeSpinEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dazzle-me-christmas",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dazzle-me-christmas",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dazzle-me-christmas",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dazzle-me-christmas",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dazzle-me-christmas",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-galaxy",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-galaxy",
+      "mode": "FeatureBuy4",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-galaxy",
+      "mode": "FeatureBuy5",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-galaxy",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-galaxy",
+      "mode": "FeatureBuy3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "starburst-galaxy",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "twister",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "twister",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cornelius-milk-hunter-megaways",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cornelius-milk-hunter-megaways",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "ticket-to-wild",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "space-wars-megaways-xxxtreme",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "space-wars-megaways-xxxtreme",
+      "mode": "XXXtremeSpin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "space-wars-megaways-xxxtreme",
+      "mode": "XXXtremeSpinEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "casino-night",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "casino-night",
+      "mode": "Bonus:101",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "mermaids",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "royal-nuts",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "royal-nuts",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "big-money-wheel",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "big-money-wheel",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "big-money-wheel",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "lock-and-pop",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "lock-and-pop",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Tiger:Collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Tiger:Gamble",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Elephant:Collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Elephant:Gamble",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Bear:Collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Bear:Gamble",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Crocodile:Collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Crocodile:Gamble",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Cobra:Collect",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-megaways",
+      "mode": "FeatureBuy:Cobra:Gamble",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "pandoras-treasure",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "pandoras-treasure",
+      "mode": "FreeSpins:101",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "leprechaun-joy",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "leprechaun-joy",
+      "mode": "FreeSpins:101",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-wheels-of-egypt",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-wheels-of-egypt",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-wheels-of-egypt",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-realms",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "golden-realms",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rainforest-gold",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cursed-treasure",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cursed-treasure",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "magic-lab",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "magic-lab",
+      "mode": "FreeSpins:101",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-3",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-3",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rage",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rage",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "buckshot-wilds",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "buckshot-wilds",
+      "mode": "Spin:BonusBet",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "buckshot-wilds",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "buckshot-wilds",
+      "mode": "FeatureBuyEnhanced",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jelly-belly-megaways",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jelly-belly-megaways",
+      "mode": "FreeSpins:101",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jingle-bells-bonanza",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gem-crush",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gem-crush",
+      "mode": "FreeSpins:101",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "lights-camera-cash",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "elk-hunter",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "elk-hunter",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "mega-joker",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "hall-of-gods",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "mega-fortune",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "trollpot-5000",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "mega-fortune-dreams",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "arabian-nights",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "superstars",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "superstars",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "space-wars-2-powerpoints",
+      "mode": "FeatureBuy:1500",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "space-wars-2-powerpoints",
+      "mode": "FeatureBuy:2800",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "space-wars-2-powerpoints",
+      "mode": "FeatureBuy:5000",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "funk-master",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cash-noire",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "blood-suckers",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "berryburst",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "codex-of-fortune",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "red-riding-hood",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-megaways",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-water",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "irish-pot-luck",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "elements-the-awakening",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jungle-spirit-call-of-the-wild",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "motorhead",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jingle-spin",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "blood-suckers-2",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "riches-of-midgard",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "twin-happiness",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "whos-the-bride",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "vikings",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "reel-rush",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "koi-princess",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "koi-princess",
+      "mode": "FeatureBet",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "flowers",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "mercy-of-the-gods",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "twin-spin",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "ozzy-osbourne",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dazzle-me",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "turn-your-fortune",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "the-wish-master",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-and-the-beanstalk",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-and-the-beanstalk",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "strolling-staxx-cubic-fruits",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "reef-raider",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "pyramid-quest-for-immortality",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-spin",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "lucky-angler-a-snowy-catch",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fortune-rangers",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "willys-hot-chillies",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "long-pao",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "steam-tower",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "drive-multiplier-mayhem",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gods-of-gold-infinireels",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "lost-relics",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "butterfly-staxx",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dark-king-forbidden-riches",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "king-of-3-kingdoms",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "hooks-heroes",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "ghost-pirates",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "theme-park-tickets-of-fortune",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "stickers",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-shop-christmas-edition",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wings-of-riches",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "sweety-honey-fruity",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "super-striker",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "scudamores-super-stakes",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "druids-dream",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "victorious",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "victorious",
+      "mode": "MathMode:max",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "warlords",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spinsane",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "coins-of-egypt",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jimi-hendrix",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "secret-of-the-stones",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "secret-of-the-stones",
+      "mode": "MathMode:max",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rage-of-the-seas",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rome-the-golden-age",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aloha-cluster-pays",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "archangels-salvation",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "parthernon-quest-for-immortaility",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "secrets-of-atlantis",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "butterfly-staxx-2",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "double-stacks",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "vegas-night-life",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "the-wolfs-bane",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "rise-of-maya",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "reel-steal",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "oceans-treasure",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "neon-staxx",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "mythic-maiden",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "mirror-mirror",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "hansel-and-gretel",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "magic-maid-cafe",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "lights",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wolf-cub",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "joker-pro",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "excalibur",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "disco-danny",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "grand-spinn",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "king-of-slots",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "arcane-reel-chaos",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wilderland",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "spinata-grande",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "halloween-jack",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "serengeti-kings",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune-megaways",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "secrets-of-christmas",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "finn-and-the-swirly-spin",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "santa-vs-rudolf",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "robin-hood-shifting-riches",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer-2-fishy-business",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dead-or-alive",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "happy-riches",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "fruit-case",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "milkshake-xxxtreme",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "milkshake-xxxtreme",
+      "mode": "XXXtreme:1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "milkshake-xxxtreme",
+      "mode": "XXXtreme:2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gonzos-gold",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "let-it-burn",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "let-it-burn",
+      "mode": "Buy:option1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "let-it-burn",
+      "mode": "Buy:option2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "let-it-burn",
+      "mode": "Buy:option3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "eggomatic",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jack-hammer",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "space-wars",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "busters-bones",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "busters-bones",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "football-champions-cup",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cornelius",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "dazzle-me-megaways",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cupcakes",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "cupcakes",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "bee-hive-bonanza",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "bee-hive-bonanza",
+      "mode": "FeatureBuy",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "conan",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wonders-of-christmas",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "aloha-christmas",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-turkey",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "taco-fury-xxxtreme",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "silverback-gold",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "the-legend-of-shangri-la",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-o-tron-3000",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "the-wish-master-megaways",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "scruffy-duck",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-bazaar",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "wild-wild-west",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "narcos",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "gorilla-kingdom",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "jumanji",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "netent",
+      "game": "divine-fortune",
+      "mode": "Spin",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": [
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "jack-and-the-beanstalk-2-goat-enterprise",
+      "mode": "FeatureBuy3",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "jack-and-the-beanstalk-2-goat-enterprise",
+      "mode": "FeatureBuy2",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "jack-and-the-beanstalk-2-goat-enterprise",
+      "mode": "FeatureBuy1",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "jack-and-the-beanstalk-2-goat-enterprise",
+      "mode": "FeatureBuy4",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "jack-and-the-beanstalk-2-goat-enterprise",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "imperial-riches",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "space-wars-2-powerpoints",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "funk-master",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "wild-worlds",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "twin-spin-megaways",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "hotline",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "hotline",
+      "mode": "Hotlines:1",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "variant"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "hotline",
+      "mode": "Hotlines:2",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "variant"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "hotline",
+      "mode": "Hotlines:0,1",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "variant"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "hotline",
+      "mode": "Hotlines:0,2",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "variant"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "hotline",
+      "mode": "Hotlines:1,2",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "variant"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "hotline",
+      "mode": "Hotlines:0,1,2",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "variant"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "asgardian-stones",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "cash-o-matic",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "rise-of-maya",
+      "mode": "BonusBet",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "variant"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "finns-golden-tavern",
+      "mode": "Spin",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "normal"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "cornelius",
+      "mode": "FeatureBuy",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    },
+    {
+      "details": [
+        "suite: suite local prerequisites unavailable: [\"suite_browser_transport_requires_separate_owner\"]"
+      ],
+      "game": "silverback-gold",
+      "mode": "FeatureBuy",
+      "provider": "netent",
+      "reason": "executor_or_binding_unavailable",
+      "type": "purchase"
+    }
+  ]
+}

@@ -1,0 +1,3229 @@
+{
+  "id": "habanero",
+  "name": "Habanero",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "habanero",
+    "workspace_adapter": "collection_full_existing.py::habanero_complete",
+    "continuations": "native pending state",
+    "closure": "closed and balance_ok"
+  },
+  "games": [
+    {
+      "id": "SG12Zodiacs",
+      "name": "12Zodiacs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SG5LuckyLions",
+      "name": "5LuckyLions",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGAllForOne",
+      "name": "AllForOne",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGArcaneElements",
+      "name": "ArcaneElements",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGArcticWonders",
+      "name": "ArcticWonders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGAtomicKittens",
+      "name": "AtomicKittens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGAzlandsGold",
+      "name": "AzlandsGold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBabaYaga",
+      "name": "BabaYaga",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGBarnstormerBucks",
+      "name": "BarnstormerBucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBattleTheBeast",
+      "name": "BattleTheBeast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGBattleshipStrike",
+      "name": "BattleshipStrike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGBeforeTimeRunsOut",
+      "name": "BeforeTimeRunsOut",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBikiniIsland",
+      "name": "BikiniIsland",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBirdOfThunder",
+      "name": "BirdOfThunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBlackbeardsBounty",
+      "name": "BlackbeardsBounty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBombsAway",
+      "name": "BombsAway",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBuggyBonus",
+      "name": "BuggyBonus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCalaverasExplosivas",
+      "name": "CalaverasExplosivas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCarnivalCash",
+      "name": "CarnivalCash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCarnivalCove",
+      "name": "CarnivalCove",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGCashosaurus",
+      "name": "Cashosaurus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCirqueDuHabanero",
+      "name": "CirqueDuHabanero",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGCoyoteCrash",
+      "name": "CoyoteCrash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCrystopia",
+      "name": "Crystopia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGDarumaImpact",
+      "name": "DarumaImpact",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGDiscoFunk",
+      "name": "DiscoFunk",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGDoubleODollars",
+      "name": "DoubleODollars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGDrFeelgood",
+      "name": "DrFeelgood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGDragonTigerGate",
+      "name": "DragonTigerGate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGDragonsRealm",
+      "name": "DragonsRealm",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGDragonsThrone",
+      "name": "DragonsThrone",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGEgyptianDreams",
+      "name": "EgyptianDreams",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFaCaiShen",
+      "name": "FaCaiShen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFaCaiShenDeluxe",
+      "name": "FaCaiShenDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFenghuang",
+      "name": "Fenghuang",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFlyingHigh",
+      "name": "FlyingHigh",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFortuneDragonJoy",
+      "name": "FortuneDragonJoy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGFrontierFortunes",
+      "name": "FrontierFortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFruityHalloween",
+      "name": "FruityHalloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGFruityMayan",
+      "name": "FruityMayan",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGGalacticCash",
+      "name": "GalacticCash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGalaxyBabies",
+      "name": "GalaxyBabies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGGangsters",
+      "name": "Gangsters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGeniesShowtime",
+      "name": "GeniesShowtime",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGGladiatorRoyal",
+      "name": "GladiatorRoyal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGGlamRock",
+      "name": "GlamRock",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGloryOfRome",
+      "name": "GloryOfRome",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGGoldRush",
+      "name": "GoldRush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGoldenTajMahal",
+      "name": "GoldenTajMahal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGoldenUnicorn",
+      "name": "GoldenUnicorn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGoldenUnicornDeluxe",
+      "name": "GoldenUnicornDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGrapeEscape",
+      "name": "GrapeEscape",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGHappyApe",
+      "name": "HappyApe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGHauntedHarbor",
+      "name": "HauntedHarbor",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGHauntedHouse",
+      "name": "HauntedHouse",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGHeySushi",
+      "name": "HeySushi",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGHotHotFruit",
+      "name": "HotHotFruit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGHotHotHalloween",
+      "name": "HotHotHalloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGHotHotSummer",
+      "name": "HotHotSummer",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGHyperHues",
+      "name": "HyperHues",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGInfernalFury",
+      "name": "InfernalFury",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGIsibayaQueens",
+      "name": "IsibayaQueens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        }
+      ]
+    },
+    {
+      "id": "SGJugglenaut",
+      "name": "Jugglenaut",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGJungleRumble",
+      "name": "JungleRumble",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGKanesInferno",
+      "name": "KanesInferno",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGKingFrogFeast",
+      "name": "KingFrogFeast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGKingTutsTomb",
+      "name": "KingTutsTomb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGKoiKoiTreasure",
+      "name": "KoiKoiTreasure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGLanternLuck",
+      "name": "LanternLuck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGLaughingBuddha",
+      "name": "LaughingBuddha",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGLegendOfNezha",
+      "name": "LegendOfNezha",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGLittleGreenMoney",
+      "name": "LittleGreenMoney",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGLoveAndRichesEldorado",
+      "name": "LoveAndRichesEldorado",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGLuckyLucky",
+      "name": "LuckyLucky",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMXMania",
+      "name": "MXMania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGMeowJanken",
+      "name": "MeowJanken",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGMonsterMashCash",
+      "name": "MonsterMashCash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMooMooCow",
+      "name": "MooMooCow",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMountMazuma",
+      "name": "MountMazuma",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMrBling",
+      "name": "MrBling",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMummyHunter",
+      "name": "MummyHunter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGMummyMoney",
+      "name": "MummyMoney",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMysticFortune",
+      "name": "MysticFortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMysticFortuneDeluxe",
+      "name": "MysticFortuneDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMysticRings",
+      "name": "MysticRings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGMysticShaman",
+      "name": "MysticShaman",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGNaughtySanta",
+      "name": "NaughtySanta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGNewYearsBash",
+      "name": "NewYearsBash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGNuwa",
+      "name": "Nuwa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGNuwaDeluxe",
+      "name": "NuwaDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGOceansCall",
+      "name": "OceansCall",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGOrbsOfAtlantis",
+      "name": "OrbsOfAtlantis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGPamperMe",
+      "name": "PamperMe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGPandaPanda",
+      "name": "PandaPanda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGPiratesPlunder",
+      "name": "PiratesPlunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGPoolShark",
+      "name": "PoolShark",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGPoseidon",
+      "name": "Poseidon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGPuckerUpPrince",
+      "name": "PuckerUpPrince",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGRacingRoyalty",
+      "name": "RacingRoyalty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGRhythmNights",
+      "name": "RhythmNights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGRideEmCowboy",
+      "name": "RideEmCowboy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGRodeoDrive",
+      "name": "RodeoDrive",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGRomanEmpire",
+      "name": "RomanEmpire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGRuffledUp",
+      "name": "RuffledUp",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSOS",
+      "name": "SOS",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSafariRumble",
+      "name": "SafariRumble",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGShaolinFortunes100",
+      "name": "ShaolinFortunes100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGShiveringStrings",
+      "name": "ShiveringStrings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGShogunsLand",
+      "name": "ShogunsLand",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSirBlingalot",
+      "name": "SirBlingalot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSirensSpell",
+      "name": "SirensSpell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGSkysTheLimit",
+      "name": "SkysTheLimit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSlimeParty",
+      "name": "SlimeParty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGSpaceFortune",
+      "name": "SpaceFortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSparta",
+      "name": "Sparta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSteampunkPlinko",
+      "name": "SteampunkPlinko",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGSuperFruitBlast",
+      "name": "SuperFruitBlast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGSuperStrike",
+      "name": "SuperStrike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSuperTwister",
+      "name": "SuperTwister",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTabernaDeLosMuertos",
+      "name": "TabernaDeLosMuertos",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTabernaDeLosMuertosUltra",
+      "name": "TabernaDeLosMuertosUltra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTechnoTumble",
+      "name": "TechnoTumble",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTheBigDeal",
+      "name": "TheBigDeal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTheBigDealDeluxe",
+      "name": "TheBigDealDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        }
+      ]
+    },
+    {
+      "id": "SGTheDeadEscape",
+      "name": "TheDeadEscape",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTheDragonCastle",
+      "name": "TheDragonCastle",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTheKoiGate",
+      "name": "TheKoiGate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTootyFruityFruits",
+      "name": "TootyFruityFruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGTotemTowers",
+      "name": "TotemTowers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTotemWarrior",
+      "name": "TotemWarrior",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTowerOfPizza",
+      "name": "TowerOfPizza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTreasureDiver",
+      "name": "TreasureDiver",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTreasureTomb",
+      "name": "TreasureTomb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTukTukThailand",
+      "name": "TukTukThailand",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGVampiresFate",
+      "name": "VampiresFate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        }
+      ]
+    },
+    {
+      "id": "SGVikingsPlunder",
+      "name": "VikingsPlunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGWaltzBeauty",
+      "name": "WaltzBeauty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGWaysOfFortune",
+      "name": "WaysOfFortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGWealthInn",
+      "name": "WealthInn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGWeirdScience",
+      "name": "WeirdScience",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGWickedWitch",
+      "name": "WickedWitch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGZeus",
+      "name": "Zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGZeus2",
+      "name": "Zeus2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGBikiniIslandDeluxe",
+      "name": "BikiniIslandDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGHappyHatchlings",
+      "name": "HappyHatchlings",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGIndianaWolf",
+      "name": "IndianaWolf",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGJapaneseMask",
+      "name": "JapaneseMask",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGRaidenShogun",
+      "name": "RaidenShogun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGSantasInn",
+      "name": "SantasInn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        }
+      ]
+    },
+    {
+      "id": "SGWitchesTome",
+      "name": "WitchesTome",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGZeusDeluxe",
+      "name": "ZeusDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGBombRunner",
+      "name": "BombRunner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGProsperityHorse",
+      "name": "ProsperityHorse",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SGShamrockQuest",
+      "name": "ShamrockQuest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        },
+        {
+          "key": "buy",
+          "type": "purchase",
+          "label": "buy"
+        }
+      ]
+    },
+    {
+      "id": "SG5Mariachis",
+      "name": "5Mariachis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGArcticHunt",
+      "name": "ArcticHunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCandyTower",
+      "name": "CandyTower",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGChristmasGiftRush",
+      "name": "ChristmasGiftRush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGColossalGems",
+      "name": "ColossalGems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGDiscoBeats",
+      "name": "DiscoBeats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGEgyptianDreamsDeluxe",
+      "name": "EgyptianDreamsDeluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFly",
+      "name": "Fly",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFortuneDogs",
+      "name": "FortuneDogs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGGoldKoiFortune",
+      "name": "GoldKoiFortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        }
+      ]
+    },
+    {
+      "id": "SGHappiestChristmasTree",
+      "name": "HappiestChristmasTree",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGJellyfishFlow",
+      "name": "JellyfishFlow",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGJump",
+      "name": "Jump",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGJump2",
+      "name": "Jump2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        }
+      ]
+    },
+    {
+      "id": "SGKnockoutFootball",
+      "name": "KnockoutFootball",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGKnockoutFootballRush",
+      "name": "KnockoutFootballRush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGLegendaryBeasts",
+      "name": "LegendaryBeasts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGLondonHunter",
+      "name": "LondonHunter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGLoonyBlox",
+      "name": "LoonyBlox",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGLuckyDurian",
+      "name": "LuckyDurian",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGLuckyFortuneCat",
+      "name": "LuckyFortuneCat",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMagicOak",
+      "name": "MagicOak",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMarvelousFurlongs",
+      "name": "MarvelousFurlongs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGMightyMedusa",
+      "name": "MightyMedusa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGNaughtyWukong",
+      "name": "NaughtyWukong",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGNineTails",
+      "name": "NineTails",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGPresto",
+      "name": "Presto",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGProst",
+      "name": "Prost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGPumpkinPatch",
+      "name": "PumpkinPatch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGRainbowmania",
+      "name": "Rainbowmania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGReturnToTheFeature",
+      "name": "ReturnToTheFeature",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGRollingRoger",
+      "name": "RollingRoger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSantasVillage",
+      "name": "SantasVillage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGScopa",
+      "name": "Scopa",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGScruffyScallywags",
+      "name": "ScruffyScallywags",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSojuBomb",
+      "name": "SojuBomb",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGSpaceGoonz",
+      "name": "SpaceGoonz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGTaikoBeats",
+      "name": "TaikoBeats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGValentineMonchy",
+      "name": "ValentineMonchy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superbet",
+          "type": "booster",
+          "label": "superbet"
+        }
+      ]
+    },
+    {
+      "id": "SGWildFlow",
+      "name": "WildFlow",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGWildTrucks",
+      "name": "WildTrucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGWizardsWantWar",
+      "name": "WizardsWantWar",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCashReef",
+      "name": "CashReef",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFireRooster",
+      "name": "FireRooster",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGFourDivineBeasts",
+      "name": "FourDivineBeasts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGIndianCashCatcher",
+      "name": "IndianCashCatcher",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGQueenOfQueens1024",
+      "name": "QueenOfQueens1024",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGQueenOfQueens243",
+      "name": "QueenOfQueens243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGShaolinFortunes243",
+      "name": "ShaolinFortunes243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "SGCakeValley",
+      "name": "Cake Valley",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal-1",
+          "type": "normal",
+          "label": "normal-1"
+        },
+        {
+          "key": "normal-2",
+          "type": "normal",
+          "label": "normal-2"
+        },
+        {
+          "key": "normal-3",
+          "type": "normal",
+          "label": "normal-3"
+        }
+      ]
+    },
+    {
+      "id": "SGJellyfishFlowUltra",
+      "name": "Jellyfish Flow Ultra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    }
+  ]
+}

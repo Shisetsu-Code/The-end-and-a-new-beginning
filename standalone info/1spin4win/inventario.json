@@ -1,0 +1,3568 @@
+{
+  "id": "1spin4win",
+  "name": "1spin4win",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "1spin4win.websocket",
+    "workspace_adapter": "collection_full_misc.py::_one_spin",
+    "continuations": "native selectors and continuation",
+    "closure": "terminal frame; wallet may be unavailable"
+  },
+  "games": [
+    {
+      "id": "TenLuckySpins",
+      "name": "10 Lucky Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "AllwaysEgypt",
+      "name": "All Ways Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "AllwaysEgyptFortune",
+      "name": "Allways Egypt Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "AllwaysLuckyPot",
+      "name": "Allways Lucky Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "AllwaysLuckySpins",
+      "name": "All Ways Lucky Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BeersburgFestHoldAndWin",
+      "name": "Beersburg Fest Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfAllWays",
+      "name": "Book Of All Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfKnights",
+      "name": "Book of Armour",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfCorsairs",
+      "name": "Book of Corsairs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfMoney",
+      "name": "Book Of Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfNibiru",
+      "name": "Book of Nibiru",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BookOfWild",
+      "name": "Book Of Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits10",
+      "name": "Booming Fruits 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits100",
+      "name": "Booming Fruits 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits20",
+      "name": "Booming Fruits 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits243",
+      "name": "Booming Fruits 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits256",
+      "name": "Booming Fruits 256",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits27",
+      "name": "Booming Fruits 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits40",
+      "name": "Booming Fruits 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruits81x",
+      "name": "Booming Fruits 81x",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingFruitsX",
+      "name": "Booming Fruits X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BoomingSpins243",
+      "name": "Booming Spins 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Brumbys243",
+      "name": "Brumby's 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BuffalosWealthFortune",
+      "name": "Buffalo’s Wealth Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BuffalosWealthHoldAndWin",
+      "name": "Buffalo’s Wealth Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BuffalosWealthWinSpins",
+      "name": "Buffalo's Wealth Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BuffalosWealth",
+      "name": "Buffalo’s Wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BurningSpins243",
+      "name": "Burning Spins 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashAmplifier243",
+      "name": "Cash Amplifier 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashAndSpins243",
+      "name": "Cash&Spins 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashTheGoldHoldAndWin",
+      "name": "Cash The Gold Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashTheGold",
+      "name": "Cash The Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits100HoldAndWin",
+      "name": "Cash'n Fruits 100 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits243x",
+      "name": "Cash'n Fruits 243 X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits256HoldAndWin",
+      "name": "Cash'n Fruits 256 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits256",
+      "name": "Cash'n Fruits 256",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits27HoldAndWin",
+      "name": "Cash'n Fruits 27 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits27",
+      "name": "Cash'n Fruits 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruitsFortune100",
+      "name": "Cash'n Fruits Fortune 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruitsFortune243",
+      "name": "Cash'n Fruits Fortune 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruitsFortune27",
+      "name": "Cash'n Fruits Fortune 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruitsFortune",
+      "name": "Cash'n Fruits Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashAndFruitsHoldAndWin",
+      "name": "Cash'n Fruits Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruitsX",
+      "name": "Cash'n Fruits X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnSpins243Plus",
+      "name": "Cash'n Spins 243 Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnSpins27Plus",
+      "name": "Cash'n Spins 27 Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits100",
+      "name": "Cash'n Fruits 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits243",
+      "name": "Cash'n Fruits 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CashnFruits40",
+      "name": "Cash'n Fruits 40",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ChineseLuck",
+      "name": "Chinese Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ChristmasGemsHoldAndWin",
+      "name": "Christmas Gems Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ClassicChili243",
+      "name": "Classic Chili 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ClassicChilli100",
+      "name": "Classic Chilli 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ClassicChilli",
+      "name": "Classic Chilli",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ClassicChilliFortune",
+      "name": "Classic Chilli Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ClassicChilliHoldAndWin",
+      "name": "Classic Chilli Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ClassicChilliPlus",
+      "name": "Classic Chilli Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ClassicChristmasHoldAndWin",
+      "name": "Classic Christmas Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CloverFest256",
+      "name": "Clover Fest 256",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CloverFestHoldAndWin",
+      "name": "Clover Fest Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CoinsnFruits243",
+      "name": "Coins'n Fruits 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CoinsSnifferHoldAndWin",
+      "name": "Coins Sniffer Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CoinsnDiamondsFortune",
+      "name": "Coins'n Diamonds Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CoinsnDiamondsX",
+      "name": "Coins'n Diamonds X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CoinsnFruits100",
+      "name": "Coins'n Fruits 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CoinsnFruitsSpins",
+      "name": "Coins'n Fruits Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DeluxeCatsPlus",
+      "name": "Deluxe Cats Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DiamondEaster",
+      "name": "Diamond Easter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DiamondLuck243",
+      "name": "Diamond Luck 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DolphinsWealthHoldAndWin",
+      "name": "Dolphin's Wealth Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DolphinsWealthFortune",
+      "name": "Dolphin's Wealth Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DolphinsWealthWinSpins",
+      "name": "Dolphin’s Wealth Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DolphinsWealth",
+      "name": "Dolphin's Wealth",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DonCatLeoneHoldAndWin",
+      "name": "Don Catleone Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DonCatLeoneWinSpins",
+      "name": "Don Catleone Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "EasterPrizeHoldAndWin",
+      "name": "Easter Prize Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FlatAndHotFruits20",
+      "name": "Flat&Hot Fruits 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FruitCafe20",
+      "name": "Fruit Cafe 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FruitDealers",
+      "name": "Fruit Dealers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FruityChristmas",
+      "name": "Fruity Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GemsAndCashHoldAndWin",
+      "name": "Gems And Cash Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GemsAndCashWinSpins",
+      "name": "Gems And Cash Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GemsOfLoveHoldAndWin",
+      "name": "Gems Of Love Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GentleFoxHoldAndWin",
+      "name": "Gentle Fox Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldOceanicaFortune",
+      "name": "Gold Oceanica Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldOceanicaHoldAndWin",
+      "name": "Gold Oceanica Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJoker100HoldAndWin",
+      "name": "Golden Joker 100 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJoker100",
+      "name": "Golden Joker 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJoker243Fortune",
+      "name": "Golden Joker 243 Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJoker243HoldAndWin",
+      "name": "Golden Joker 243 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJoker243",
+      "name": "Golden Joker 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJoker27HoldAndWin",
+      "name": "Golden Joker 27 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJoker27",
+      "name": "Golden Joker 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJokerFortune",
+      "name": "Golden Joker Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJokerHalloween",
+      "name": "Golden Joker Halloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GoldenJokerPlus",
+      "name": "Golden Joker Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GreatHookHoldAndWin",
+      "name": "Great Hook Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HoldTheGoldFortune",
+      "name": "Hold The Gold Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HoldTheGoldHoldAndWin",
+      "name": "Hold The Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HotCoinsFortune10",
+      "name": "Hot Coins Fortune 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HotCoinsFortune",
+      "name": "Hot Coins Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HotCoinsAndFruits100",
+      "name": "Hot Coins & Fruits 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HotCoinsAndFruits243",
+      "name": "Hot Coins & Fruits 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JuicySplash10",
+      "name": "Juicy Splash 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JungleWealthHoldAndWin",
+      "name": "Jungle Wealth Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LadyAndFiredrake",
+      "name": "Lady & Firedrake",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LadyWild10",
+      "name": "Lady Wild 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LandyCandy100",
+      "name": "Landy-Candy 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LandyCandySpins100",
+      "name": "Landy-Candy Spins 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LandyCandy",
+      "name": "Landy-Candy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LeonardosSecret",
+      "name": "Leonardo's Secret",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LoveGemsHoldAndWin",
+      "name": "Love Gems Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LucknPower",
+      "name": "Luck'n'Power",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky10Bells",
+      "name": "Lucky 10 Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky100Bells",
+      "name": "Lucky 100 Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky1Spin4WinHoldAndWin",
+      "name": "Lucky 1spin4win Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky2Ways",
+      "name": "Lucky 2 Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky20Bells",
+      "name": "Lucky 20 Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky3Cherries",
+      "name": "Lucky 3 Cherries",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky432Ways",
+      "name": "Lucky 432 Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Lucky5Bells",
+      "name": "Lucky 5 Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyAndBraveFortune",
+      "name": "Lucky And Brave Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyAndBraveWinSpins",
+      "name": "Lucky And Brave Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyArenaHoldAndWin",
+      "name": "Lucky Arena Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyBandHoldAndWin",
+      "name": "Lucky Band Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyAndBraveHoldAndWin",
+      "name": "Lucky & Brave Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyBroHoldAndWin",
+      "name": "Lucky Bro Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCashAndSpins",
+      "name": "Lucky Cash And Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCashnFruits243",
+      "name": "Lucky Cash'n Fruits 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCashnFruits",
+      "name": "Lucky Cash'n Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyChristmas243",
+      "name": "Lucky Christmas 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyClover243",
+      "name": "Lucky Clover 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyClover27",
+      "name": "Lucky Clover 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCloverSpins",
+      "name": "Lucky Clover Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCoinWins",
+      "name": "Lucky Coin Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCrown20",
+      "name": "Lucky Crown 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCrown81x",
+      "name": "Lucky Crown 81x",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCrownHoldAndWin",
+      "name": "Lucky Crown Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCrownPlus",
+      "name": "Lucky Crown Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyCrownSpins",
+      "name": "Lucky Crown Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyEaster10",
+      "name": "Lucky Easter 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyEaster243",
+      "name": "Lucky Easter 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyEaster27HoldAndWin",
+      "name": "Lucky Easter 27 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyEve100",
+      "name": "Lucky Eve 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyFestHoldAndWin",
+      "name": "Lucky Fest Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyFoxilianHoldAndWin",
+      "name": "Lucky Foxilian Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyFruitWins100",
+      "name": "Lucky Fruit Wins 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyFruitX",
+      "name": "Lucky Fruit X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyGoal",
+      "name": "Lucky Goal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyGoldMiner",
+      "name": "Lucky Gold Miner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyHellowin",
+      "name": "Lucky Hell-o-win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyHerculesHoldAndWin",
+      "name": "Lucky Hercules Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyHoney",
+      "name": "Lucky Honey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyJaneAndAztecBook",
+      "name": "Lucky Jane & Aztec Book",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyJaneInEgyptFortune",
+      "name": "Lucky Jane In Egypt Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyJaneInEgyptHoldAndWin",
+      "name": "Lucky Jane In Egypt Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyJaneInEgyptWinSpins",
+      "name": "Lucky Jane In Egypt Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyJaneinEgypt",
+      "name": "Lucky Jane in Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyLadyBug",
+      "name": "Lucky Lady Bug",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyLegionFortune",
+      "name": "Lucky Legion Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyLegionHoldAndWin",
+      "name": "Lucky Legion Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyRetroFruits243",
+      "name": "Lucky Retro Fruits 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyRetroFruitsHoldAndWin",
+      "name": "Lucky Retro Fruits Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyRetroFruits",
+      "name": "Lucky Retro Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyRobberyFortune",
+      "name": "Lucky Robbery Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyRobberyWinSpins",
+      "name": "Lucky Robbery Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckySafariHoldAndWin",
+      "name": "Lucky Safari Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckySakuraHoldAndWin",
+      "name": "Lucky Sakura Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckySakuraWinSpins",
+      "name": "Lucky Sakura Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckySakura",
+      "name": "Lucky Sakura",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckySelvaHoldAndWin",
+      "name": "Lucky Selva Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckySnowlight",
+      "name": "Lucky Snowlight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyTribe20",
+      "name": "Lucky Tribe 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyWinSpinsX",
+      "name": "Lucky Win Spins X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyWinSpins",
+      "name": "Lucky Win Spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyXBells",
+      "name": "Lucky X Bells",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyXmas20",
+      "name": "Lucky Xmas 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LuckyXmasBox",
+      "name": "Lucky Xmas Box",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MadJackHoldAndWin",
+      "name": "Mad Jack Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaBoomingDiamonds",
+      "name": "Mega Booming Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaBoomingFruits",
+      "name": "Mega Booming Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaCashAmplifier",
+      "name": "Mega Cash Amplifier",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaCashTheGold",
+      "name": "Mega Cash The Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaCashnFruits",
+      "name": "Mega Cash'n Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaDiamondX",
+      "name": "Mega Diamond X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaDiamondsLuck",
+      "name": "Mega Diamonds Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLucky100",
+      "name": "Mega Lucky 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLucky243",
+      "name": "Mega Lucky 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLucky27",
+      "name": "Mega Lucky 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLucky576",
+      "name": "Mega Lucky 576",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLucky81x",
+      "name": "Mega Lucky 81x",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLuckyCashout",
+      "name": "Mega Lucky Cashout",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLuckyDiamondsHoldAndWin",
+      "name": "Mega Lucky Diamonds Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLuckyDiamonds",
+      "name": "Mega Lucky Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MegaLuckyPot",
+      "name": "Mega Lucky Pot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MightyRed",
+      "name": "Mighty Red",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MysteryCoin243",
+      "name": "Mystery Coin 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MysteryCoin27",
+      "name": "Mystery Coin 27",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MysticalLuckHoldAndWin",
+      "name": "Mystical Luck Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "NorthernGoldRush",
+      "name": "Northern Gold Rush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "QueenOfDiamonds20",
+      "name": "Queen of Diamonds 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "Retro432Ways",
+      "name": "Retro 432 Ways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RetroFruits243Fortune",
+      "name": "Retro Fruits 243 Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RetroMegaFruits",
+      "name": "Retro Mega Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RetroWins100",
+      "name": "Retro Wins 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RollThePearlsHoldAndWin",
+      "name": "Roll The Pearls Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SevenAndWild",
+      "name": "Seven&Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SoundOfSteelHoldAndWin",
+      "name": "Sound Of Steel Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SpartansLuckHoldAndWin",
+      "name": "Spartans Luck Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SunTreasureHoldAndWin",
+      "name": "Sun Treasure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SweetSpins20",
+      "name": "Sweet Spins 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TigersStepsHoldAndWin",
+      "name": "Tiger's Steps Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VeryLucky1024",
+      "name": "Very Lucky 1024",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VeryLucky243",
+      "name": "Very Lucky 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VeryLucky256",
+      "name": "Very Lucky 256",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VeryLucky27HoldAndWin",
+      "name": "Very Lucky 27 Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VeryLucky",
+      "name": "Very Lucky",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WarriorsLuck",
+      "name": "Warrior's Luck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WayOfHonorHoldAndWin",
+      "name": "Way Of Honor Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WelcomeToOctoberfest",
+      "name": "Welcome To Oktoberfest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WerewolfsNight",
+      "name": "Werewolf's Night",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WildBells100",
+      "name": "Wild Bells 100",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WildLadyCash10",
+      "name": "Wild Lady Cash 10",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WildLadyCash",
+      "name": "Wild Lady Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WildLuckyChance",
+      "name": "Wild Lucky Chance",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WildnLuck20",
+      "name": "Wild'n Luck 20",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WishAndSpinFortune",
+      "name": "Wish And Spin Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WishAndSpinHoldAndWin",
+      "name": "Wish And Spin Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WishAndSpinPlus",
+      "name": "Wish And Spin Plus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "WolfSpins243",
+      "name": "Wolf Spins 243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "XmasLuckyTimeHoldAndWin",
+      "name": "Xmas Lucky Time Hold And Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FrozenCoins243",
+      "name": "frozencoins243",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "compra",
+          "type": "purchase",
+          "label": "compra",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "antebet",
+          "type": "antebet",
+          "label": "antebet",
+          "requires_prerequisites": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "proveedor": "amigogaming",
+  "archivos": [
+    {
+      "ruta": "codigo/amigogaming.rs",
+      "bytes": 15790,
+      "sha256": "d44888bdc8c0e2c2183bb446ece1d5005c73d47694d25beb83a69ee5b0482f8b"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 46076,
+      "sha256": "9fd95c8c521a667302f4d4dd7585617c3a9bf91fd44afb4ddb6a52c2f0ce8af3"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 357533,
+      "sha256": "0255d6ca2e4e9cb07354827c378d22bfe17d5b4e6c10f56aef73087a0ae05465"
+    },
+    {
+      "ruta": "evidencia/amigogaming.json",
+      "bytes": 580832,
+      "sha256": "2c9a42d369725975ea8fcc372b4ca5a52838bf82c0f5bfd3bfe7b70de32d2600"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 46027,
+      "sha256": "6045577a6950fcc5caeb6c2a1491347d5e850ec0411b492245cd03ca1029dea2"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 29117,
+      "sha256": "0c33c75416d1944bd3e1b22612e44e1ef3de6cb2b421c46480a36916dde6c974"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/campaign.py",
+      "bytes": 11039,
+      "sha256": "3dc3ce37d219d5fed8bb79a6bfd0a6dfee024709d710834092c8ce336ed56b0a"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/check_fresh_session.py",
+      "bytes": 3178,
+      "sha256": "a1155c3a5f22dd1ba8dad4747606daaf3708b763894c3322130c80d3e973eccf"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/discover.py",
+      "bytes": 3847,
+      "sha256": "7d99f42ab6de1dc52a78113fc55a5c27f411ff676ee4597e994a14567f4045e3"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/export_evidence.py",
+      "bytes": 12939,
+      "sha256": "d382ce95b0c96d6ebba7f5ab708cd4e687c36513a0ccf666b35007ea248fcca2"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/live_actions.py",
+      "bytes": 1816,
+      "sha256": "d64ba0b11f54cedbdb734b5600983117c8e0f1714337822235b4b732492195ea"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/native.py",
+      "bytes": 3090,
+      "sha256": "5c77e46bb4540be74b7a090d9a1e8c5ce9f3cf20c81a3db364ee57504544b67c"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/report.py",
+      "bytes": 5411,
+      "sha256": "b3c76bdeda068eab6900ff604e156cb518a3cde25fe30d17bbc32de8b51b96c7"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/resume_pick_receipt.py",
+      "bytes": 2345,
+      "sha256": "889459097a258366f3be70a47fa9eed7f2e4a30b076de30da21d17f4518832cb"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/resume_preflight.py",
+      "bytes": 1895,
+      "sha256": "fdb98fcfa63ff2d1f0667b11cb121933b4604cadde12b9f968762f247b8c0d57"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/resume_spooky.py",
+      "bytes": 2683,
+      "sha256": "858bc2969d2525032c01427c5176d2d41506190dd36ca64bd7bca4a732770461"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/scale_test.py",
+      "bytes": 5088,
+      "sha256": "69abe238f4c9c72a607f26f28ac18fa8da393dbe8c81a30ae7edc1060bdc1484"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/test_native.py",
+      "bytes": 3697,
+      "sha256": "0115ca6955f64a0c70c8f228c4dc3bc2ad9bf5e01b9034f1b932fc269ab4834c"
+    },
+    {
+      "ruta": "referencias/provider-work/amigogaming-chat4/code/wire_contract.py",
+      "bytes": 943,
+      "sha256": "7e21290ee60eaaeda41fa23fe082c98d962a35a88dc3ffdbf9f942ec3caad2ee"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 636,
+      "sha256": "f8b269a8dc1dbf5dc6648546f4dd7460e6bc9afe9496d9efb99fe93150a7c1ab"
+    }
+  ]
+}

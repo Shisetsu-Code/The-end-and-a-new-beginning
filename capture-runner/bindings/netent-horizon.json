@@ -1,0 +1,1304 @@
+{
+  "101-candies": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "101candies",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "101candiesr96f10",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "necandies1.d2f69c9a.js",
+        "bet_code": "FeatureBuy",
+        "factor": "100",
+        "factor_field": null,
+        "frontend_app": "ne-candies101",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "101candies_r96_f1",
+        "integrity": "sha384-xaqF2m2TRcKhlUAf+zzIq+6CY+rWhTPudjNQXyZ6NGnjmvFA5QFSC2bm138T5okx",
+        "source_sha256": "daf4bdb7811fb3a52acfae7a6d66c85e999ae80299df784fc5a9288a2000bbae"
+      }
+    }
+  },
+  "aftermath": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "aftermath",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "aftermathr96f100"
+  },
+  "big-bang-boom": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "bigbangboom",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "bigbangboomr96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nebigbangb.749347f3.js",
+        "bet_code": "FeatureBuy",
+        "factor": "75",
+        "factor_field": null,
+        "frontend_app": "ne-bigbangboom",
+        "game": {
+          "betCode": "FeatureBuy"
+        },
+        "game_version": "bigbangboom_r96_f1",
+        "integrity": "sha384-1oqV2k6rA34VDioouoMLvH0xvojy6nSiW9yPYfr1af0xZCjRyzqsCQZkTfMiqFC7",
+        "source_sha256": "e1dd7abaaeaea2dd336cd04decd2c6444a616f500fb207248b4ab7ec280c01b4"
+      },
+      "FeatureBuyEnhanced": {
+        "asset": "nebigbangb.749347f3.js",
+        "bet_code": "FeatureBuyEnhanced",
+        "factor": "150",
+        "factor_field": null,
+        "frontend_app": "ne-bigbangboom",
+        "game": {
+          "betCode": "FeatureBuyEnhanced"
+        },
+        "game_version": "bigbangboom_r96_f1",
+        "integrity": "sha384-1oqV2k6rA34VDioouoMLvH0xvojy6nSiW9yPYfr1af0xZCjRyzqsCQZkTfMiqFC7",
+        "source_sha256": "e1dd7abaaeaea2dd336cd04decd2c6444a616f500fb207248b4ab7ec280c01b4"
+      }
+    }
+  },
+  "big-money-wheel": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "bigmoneywheel",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "bigmoneywher96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nebigmoney.4d910db3.js",
+        "bet_code": "FeatureBuy",
+        "factor": "90",
+        "factor_field": "regularFeatureBuyCostFactor",
+        "frontend_app": "ne-bigmoneywheel",
+        "game": {
+          "featureBuyEnhanced": false,
+          "featureBuyRegular": true
+        },
+        "game_version": "bigmoneywheel_r96_f1",
+        "integrity": "sha384-wIwslolGY7m3vAM6ay1Xg86B6c5MgGkUCTNFMm0JLHZpQ0qrpO1Gt9anvQEfjSTn",
+        "source_sha256": "4d58da9ea9da79b1d3becd252c4b66959cb65d7482b9ef8aae5e9a1146eee945"
+      },
+      "FeatureBuyEnhanced": {
+        "asset": "nebigmoney.4d910db3.js",
+        "bet_code": "FeatureBuyEnhanced",
+        "factor": "150",
+        "factor_field": "enhancedFeatureBuyCostFactor",
+        "frontend_app": "ne-bigmoneywheel",
+        "game": {
+          "featureBuyEnhanced": true,
+          "featureBuyRegular": false
+        },
+        "game_version": "bigmoneywheel_r96_f1",
+        "integrity": "sha384-wIwslolGY7m3vAM6ay1Xg86B6c5MgGkUCTNFMm0JLHZpQ0qrpO1Gt9anvQEfjSTn",
+        "source_sha256": "4d58da9ea9da79b1d3becd252c4b66959cb65d7482b9ef8aae5e9a1146eee945"
+      }
+    }
+  },
+  "blood-suckers": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "bloodsuckers",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "bloodsuckers0000"
+  },
+  "buckshot-wilds": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "buckshotwilds",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuyEnhanced",
+      "Spin",
+      "Spin:BonusBet"
+    ],
+    "table_id": "buckshotwilr96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nebuckshot.a956cc9d.js",
+        "bet_code": "FeatureBuy",
+        "factor": "100",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-buckshot-wilds",
+        "game": {
+          "bonusBet": false,
+          "featureBuy": true
+        },
+        "game_version": "buckshotwilds_r96_f1",
+        "integrity": "sha384-YD6t60tEUlpW2ErjakJSBTLFvdlUpYJ7Eehi6O9FooJZHvBO8BjyTHXCZrPzrCZf",
+        "source_sha256": "2d4f9d67ddb4a1bb6c6576550f539a4259e3aefb7615d308df1ad36215f90e73"
+      },
+      "FeatureBuyEnhanced": {
+        "asset": "nebuckshot.a956cc9d.js",
+        "bet_code": "FeatureBuyEnhanced",
+        "factor": "125",
+        "factor_field": "featureBuyWithBonusBetCostFactor",
+        "frontend_app": "ne-buckshot-wilds",
+        "game": {
+          "bonusBet": true,
+          "featureBuy": true
+        },
+        "game_version": "buckshotwilds_r96_f1",
+        "integrity": "sha384-YD6t60tEUlpW2ErjakJSBTLFvdlUpYJ7Eehi6O9FooJZHvBO8BjyTHXCZrPzrCZf",
+        "source_sha256": "2d4f9d67ddb4a1bb6c6576550f539a4259e3aefb7615d308df1ad36215f90e73"
+      },
+      "Spin:BonusBet": {
+        "asset": "nebuckshot.a956cc9d.js",
+        "bet_code": "Spin",
+        "factor": "2.5",
+        "factor_field": "bonusBetCostFactor",
+        "frontend_app": "ne-buckshot-wilds",
+        "game": {
+          "bonusBet": true,
+          "featureBuy": false
+        },
+        "game_version": "buckshotwilds_r96_f1",
+        "integrity": "sha384-YD6t60tEUlpW2ErjakJSBTLFvdlUpYJ7Eehi6O9FooJZHvBO8BjyTHXCZrPzrCZf",
+        "source_sha256": "2d4f9d67ddb4a1bb6c6576550f539a4259e3aefb7615d308df1ad36215f90e73"
+      }
+    }
+  },
+  "cornelius-milk-hunter-megaways": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "corneliusmilkhuntermw",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "corneliusmir96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "necorneliu.69933375.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-corneliusmhm",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "corneliusmilkhuntermw_r96_f1",
+        "integrity": "sha384-/U10gIPvYRIpe8HiOJZQRefNV0M9sm+M96hYtXGrrsrnGwTN6lxuDq418mqoF1JN",
+        "source_sha256": "fce413e6259fc18caf922ee7f168a3086b57d42938454ebd38b2af6a6bc146e8"
+      }
+    }
+  },
+  "crab-trap": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "crabtrap",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "crabtrapr96f1000",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "necrabtrap.c1133177.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": null,
+        "frontend_app": "ne-crabtrap",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "crabtrap_r96_f1",
+        "integrity": "sha384-AVJdm8c7+jW7I0mLni8JPdPtNb9f7p/wyNjoI2uML59YPVFZE/SAtY96s4qvTpVC",
+        "source_sha256": "338f523adb8987d5dc5bf5aab39f07ffc939456c4f94321e871c3cead38d7040"
+      }
+    }
+  },
+  "cursed-treasure": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "cursedtreasure",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "cursedtreasr96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "necursedtr.f6c4f153.js",
+        "bet_code": "FeatureBuy",
+        "factor": "100",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-cursed-treasure",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "cursedtreasure_r96_f1",
+        "integrity": "sha384-rbsTU/pRt4lLeuQs1r5yI5P+V0uRrdWtH67vHbG3kZd2ntAWss6kUHNRqTDU5QFC",
+        "source_sha256": "6b66c5d89f9ede2f851f487ac97eea5dfe92e2aff2dc31e04bb30942de7a4ebe"
+      }
+    }
+  },
+  "dazzle-me": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "dazzle",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "dazzle0000000000"
+  },
+  "dazzle-me-christmas": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "dazzlemechristmas",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "dazzlemechrr96f1"
+  },
+  "dead-or-alive": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "deadoralive",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "deadoralive00000"
+  },
+  "dead-or-alive-3-wanted": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "deadoralive3",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "deadalive3r96f10"
+  },
+  "dead-west": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "deadwest",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "deadwestr96f1000"
+  },
+  "demon-beats": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "demonbeats",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuy6",
+      "Spin"
+    ],
+    "table_id": "demonbeatsr96f10"
+  },
+  "divine-fortune-black": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "divinefortuneblack",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "divinefortur96f1"
+  },
+  "divine-fortune-gold": {
+    "client_version": "6.20260925.140858.65695-f35457f1d3",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "divinefortunegold",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "Spin"
+    ],
+    "table_id": "divinegoldr96f10"
+  },
+  "elk-hunter": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "elkhunter",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "elkhunterr96f100",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "neelkhunte.830534c9.js",
+        "bet_code": "FeatureBuy",
+        "factor": "60",
+        "factor_field": null,
+        "frontend_app": "ne-elk-hunter",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "elkhunter_r96_f1",
+        "integrity": "sha384-G0KFX4P8KottWXOHWhjI+ut5OUci+sjCKaT8h7w9Qw4T4JezP5+3s7/4VUzdavju",
+        "source_sha256": "6d491a00e3a2970a0e5f4c0ff9ef4a96fc36b05e201df0d07337544908b940e5"
+      }
+    }
+  },
+  "finn-and-the-candy-spin": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "finncandyspin",
+    "modes": [
+      "FeatureBuy:select=destroy",
+      "FeatureBuy:select=randomwilds",
+      "FeatureBuy:select=symboloverlay",
+      "FeatureBuy:select=symboltransform",
+      "Spin"
+    ],
+    "table_id": "finncandyspr96f1",
+    "v1_modes": {
+      "FeatureBuy:select=destroy": {
+        "asset": "nefinncand.c25310ec.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyMultiplier",
+        "finn_choice": {
+          "id": "destroy",
+          "keys": 4
+        },
+        "frontend_app": "ne-finncandyspin",
+        "game": {
+          "kind": "featurebuy"
+        },
+        "game_version": "finnandthecandyspin_r96_f1",
+        "integrity": "sha384-AQByWHUPyCyMYJ8qxA1d+MAI8CpUzBkoJCYdSBVsl1+D+4je9J/gGHrsJn6Z3UbF",
+        "source_sha256": "f48fb115cfda7122259bdd9a0f2eb25f66ccc9d89cae5af5e4b249fbefc5dfd6"
+      },
+      "FeatureBuy:select=randomwilds": {
+        "asset": "nefinncand.c25310ec.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyMultiplier",
+        "finn_choice": {
+          "id": "randomwilds",
+          "keys": 1
+        },
+        "frontend_app": "ne-finncandyspin",
+        "game": {
+          "kind": "featurebuy"
+        },
+        "game_version": "finnandthecandyspin_r96_f1",
+        "integrity": "sha384-AQByWHUPyCyMYJ8qxA1d+MAI8CpUzBkoJCYdSBVsl1+D+4je9J/gGHrsJn6Z3UbF",
+        "source_sha256": "f48fb115cfda7122259bdd9a0f2eb25f66ccc9d89cae5af5e4b249fbefc5dfd6"
+      },
+      "FeatureBuy:select=symboloverlay": {
+        "asset": "nefinncand.c25310ec.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyMultiplier",
+        "finn_choice": {
+          "id": "symboloverlay",
+          "keys": 9
+        },
+        "frontend_app": "ne-finncandyspin",
+        "game": {
+          "kind": "featurebuy"
+        },
+        "game_version": "finnandthecandyspin_r96_f1",
+        "integrity": "sha384-AQByWHUPyCyMYJ8qxA1d+MAI8CpUzBkoJCYdSBVsl1+D+4je9J/gGHrsJn6Z3UbF",
+        "source_sha256": "f48fb115cfda7122259bdd9a0f2eb25f66ccc9d89cae5af5e4b249fbefc5dfd6"
+      },
+      "FeatureBuy:select=symboltransform": {
+        "asset": "nefinncand.c25310ec.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyMultiplier",
+        "finn_choice": {
+          "id": "symboltransform",
+          "keys": 16
+        },
+        "frontend_app": "ne-finncandyspin",
+        "game": {
+          "kind": "featurebuy"
+        },
+        "game_version": "finnandthecandyspin_r96_f1",
+        "integrity": "sha384-AQByWHUPyCyMYJ8qxA1d+MAI8CpUzBkoJCYdSBVsl1+D+4je9J/gGHrsJn6Z3UbF",
+        "source_sha256": "f48fb115cfda7122259bdd9a0f2eb25f66ccc9d89cae5af5e4b249fbefc5dfd6"
+      }
+    }
+  },
+  "finn-and-the-dragon-tales": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "finndragontales",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "finndragontr96f1"
+  },
+  "flock-me": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "flockme",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "flockmer96f10000"
+  },
+  "flowers": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "flowers",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "flowers000000000"
+  },
+  "fruit-shop": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "fruitshop",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "fruitshop0000000"
+  },
+  "fruit-shop-grand-re-opening": {
+    "client_version": "6.20260918.141614.65455-6457f5ddcd",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "fruitshopgrandreopening",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "fruitshopgrr96f1"
+  },
+  "fruit-shop-megaways": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "fruitshopmegaways",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "fruitshopmegaway"
+  },
+  "godbreaker": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "godbreaker",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "Spin"
+    ],
+    "table_id": "godbreakerr96f10"
+  },
+  "golden-egg-invaders": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "goldenegginvaders",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "goldeneggirs96f1"
+  },
+  "golden-realms": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "goldenrealms",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "goldenrealmr96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "negoldenre.86ce0755.js",
+        "bet_code": "FeatureBuy",
+        "factor": "100",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-goldenrealms",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "goldenrealms_r96_f1",
+        "integrity": "sha384-DB7t5GYFrA8ldDG3tpgBRBBgtPh4n4qeovODJu5eCET+fQOEnctIOm8uu3btkurg",
+        "source_sha256": "11ebc5ae2ae1f6ab0b74ae4f523c9dcad2067315bab76625392253debb077e37"
+      }
+    }
+  },
+  "golden-wheels-of-egypt": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "goldenwheels",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "goldenwheelr96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "negoldenwh.99c58fd2.js",
+        "bet_code": "FeatureBuy",
+        "factor": "100",
+        "factor_field": "normalFreeSpinCostFactor",
+        "frontend_app": "ne-golden-wheels",
+        "game": {
+          "featureBuy": true,
+          "featureBuyKind": "Big"
+        },
+        "game_version": "goldenwheels_r96_f1",
+        "integrity": "sha384-SmyAvCj+lwen7GxKiWayx3Zc/e1mon/P/6zqHcRbWB9WAdaRRzAbhlQmXcj7Ps4c",
+        "source_sha256": "35b3dc6a0d1a4a7cf8494e828c1c193325e6772dcec7c6e096aec8c8a580e0f8"
+      },
+      "FeatureBuyEnhanced": {
+        "asset": "negoldenwh.99c58fd2.js",
+        "bet_code": "FeatureBuyEnhanced",
+        "factor": "150",
+        "factor_field": "specialFreeSpinCostFactor",
+        "frontend_app": "ne-golden-wheels",
+        "game": {
+          "featureBuy": true,
+          "featureBuyKind": "Small"
+        },
+        "game_version": "goldenwheels_r96_f1",
+        "integrity": "sha384-SmyAvCj+lwen7GxKiWayx3Zc/e1mon/P/6zqHcRbWB9WAdaRRzAbhlQmXcj7Ps4c",
+        "source_sha256": "35b3dc6a0d1a4a7cf8494e828c1c193325e6772dcec7c6e096aec8c8a580e0f8"
+      }
+    }
+  },
+  "gonzos-quest": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "eldorado",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "eldorado00000000"
+  },
+  "gonzos-quest-ii-return-to-el-dorado": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "gonzosquest2",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "gonzosquestr96f1"
+  },
+  "in-and-out": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "inandout",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "inandoutr96f1000"
+  },
+  "jack-and-the-beanstalk": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "jackandbeanstalkrem",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "jackandbeanr96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nejackandb.a38f74ca.js",
+        "bet_code": "FeatureBuy",
+        "factor": "45",
+        "factor_field": null,
+        "frontend_app": "ne-jack-and-beanstalk",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "jackandbeanstalkrem_r96_f1",
+        "integrity": "sha384-4Mp1CsxglJEbz+PpDXL/6UaroPo/hQ5djYuUIRJdDOL78Zcg+16KnhHmqJyvEJZy",
+        "source_sha256": "e3ba8f226988f4f423b16e8a7cfa6b83be1da343cabcfd2e3693cd79ed3adfd0"
+      }
+    }
+  },
+  "jack-hammer-3": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "jackhammer3",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "jackhammer3r96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nejackhamm.95ff0109.js",
+        "bet_code": "FeatureBuy",
+        "factor": "75",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-jackhammer3",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "jackhammer3_r96_f1",
+        "integrity": "sha384-F0VwZZgPOH+QKs9cfY0wYZbJ2zE2NGMU6G+JYTLwK09Lc+7F6T+rmR3xsufObRnZ",
+        "source_sha256": "5a0d80e1ff80db77b27b3bc99727c52a07ea1a813f910794d88dca7e93474cbd"
+      }
+    }
+  },
+  "jack-hammer-4-chasing-the-dragon": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "jackhammer4",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "jackhammer4r94f1"
+  },
+  "judgemental": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "judgemental",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuy6",
+      "FeatureBuy7",
+      "Spin"
+    ],
+    "table_id": "judgementalr96f1"
+  },
+  "jungle-spirit-megaways": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "junglespiritmw",
+    "modes": [
+      "FeatureBuy:Bear:Collect",
+      "FeatureBuy:Bear:Gamble",
+      "FeatureBuy:Cobra:Collect",
+      "FeatureBuy:Cobra:Gamble",
+      "FeatureBuy:Crocodile:Collect",
+      "FeatureBuy:Crocodile:Gamble",
+      "FeatureBuy:Elephant:Collect",
+      "FeatureBuy:Elephant:Gamble",
+      "FeatureBuy:Tiger:Collect",
+      "FeatureBuy:Tiger:Gamble",
+      "Spin"
+    ],
+    "table_id": "junglespirir96f1",
+    "v1_modes": {
+      "FeatureBuy:Bear:Collect": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "5",
+          "gamble": false
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Bear:Gamble": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "5",
+          "gamble": true
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Cobra:Collect": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "7",
+          "gamble": false
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Cobra:Gamble": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "7",
+          "gamble": true
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Crocodile:Collect": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "6",
+          "gamble": false
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Crocodile:Gamble": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "6",
+          "gamble": true
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Elephant:Collect": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "4",
+          "gamble": false
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Elephant:Gamble": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "4",
+          "gamble": true
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Tiger:Collect": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "3",
+          "gamble": false
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      },
+      "FeatureBuy:Tiger:Gamble": {
+        "asset": "nejunglesp.6b6f2455.js",
+        "bet_code": "FeatureBuy",
+        "factor": "50",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-junglespiritmw",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "junglespiritmw_r96_f1",
+        "integrity": "sha384-SlUVaZhDYWGkpZmfMXPSWkQjcLfWGQrS0SeueC0Yzfc5E7cccg8cPn4J0N+zemzb",
+        "jungle_choice": {
+          "animal": "3",
+          "gamble": true
+        },
+        "source_sha256": "5ad5293fa4bd5a2977a7a6d67834093b66acd921c38ae9f13f7713acf3488cc2"
+      }
+    }
+  },
+  "lock-and-pop": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "lockandpop",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "lockandpopr96f10",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nelocknpop.2867c6f4.js",
+        "bet_code": "FeatureBuy",
+        "factor": "60",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-locknpop",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "lockandpop_r96_f1",
+        "integrity": "sha384-i6iSXo/0FTSTjzu1dhC6x1Q6ktfGUB3Q4XctJPr5BcETPTtfDLYcYEbpm3shpfvO",
+        "source_sha256": "efae9ebb4d4fa67c7a93e43d15946ac16b39f1f332424214dca04f47395490d4"
+      }
+    }
+  },
+  "monopoly-money-line": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "monopolymoneyline",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "monopolymonr96f1"
+  },
+  "nunchucks": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "nunchucks",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "nunchucksr96f100"
+  },
+  "parthernon-quest-for-immortaility": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "parthenon",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "parthenon0000000"
+  },
+  "piggy-riches-3-hog-heaven": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "piggyriches3hogheaven",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "piggyriche3r96f1"
+  },
+  "piggy-riches-slot": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "piggyriches",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "piggyriches00000"
+  },
+  "rabid-randy": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "rabidrandy",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "rabidrandyr96000"
+  },
+  "rabid-randy-dark-trails": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "rabidrandydarktrails",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "rabidrandydr96f1"
+  },
+  "rabid-randy-gone-fishing": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "rabidrandygonefishing",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "Spin"
+    ],
+    "table_id": "rabidrandygr96f1"
+  },
+  "rage": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "rage",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "rager96f10000000",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nerage.26ae436a.js",
+        "bet_code": "FeatureBuy",
+        "factor": "80",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-rage",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "rage_r96_f1",
+        "integrity": "sha384-BPx7CEgUURF2HOVqfwUPe1OPuOfuD4KKbN7D8J99IqjQnjkZ0wAgV5Nyu/1lJYS/",
+        "source_sha256": "f821338152f2032c8b725b2250f0b88811a3a728244da95cc31e99f761cfb9fa"
+      }
+    }
+  },
+  "reel-rush": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "reelrush",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "reelrush00000000"
+  },
+  "reel-rush-xxxtreme": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "reelrushxxxtreme",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "reelrushxxxr96f1"
+  },
+  "royal-nuts": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "royalnuts",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "royalnutsr96f100",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "neroyalnut.a34a45c2.js",
+        "bet_code": "FeatureBuy",
+        "factor": "65",
+        "factor_field": "featureBuyCostFactor",
+        "frontend_app": "ne-royalnuts",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "royalnuts_r96_f1",
+        "integrity": "sha384-NTKHGnoBrfs2EA/54GtaqRz+PXqSY/soJ2JUgLykm6dYufdN9SPm4nWMTIzAHXes",
+        "source_sha256": "7aae37b0a720ff0f466018de4ca4e4a9adc92bb065703e4dde6bee2be54338ee"
+      }
+    }
+  },
+  "space-wars": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "spacewars",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "spacewars0000000"
+  },
+  "space-wars-megaways-xxxtreme": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "spacewarsmw",
+    "modes": [
+      "Spin",
+      "XXXtremeSpin",
+      "XXXtremeSpinEnhanced"
+    ],
+    "table_id": "spacewarsmwr96f1",
+    "v1_modes": {
+      "XXXtremeSpin": {
+        "asset": "nespacewar.648e1d33.js",
+        "bet_code": "XXXtremeSpin",
+        "factor": "10",
+        "factor_field": "costFactors.XXXtremeSpin",
+        "frontend_app": "ne-spacewarsmw",
+        "game": {
+          "betCode": "XXXtremeSpin"
+        },
+        "game_version": "spacewarsmw_r96_f1",
+        "integrity": "sha384-VgyYE6RNAA8/kC/0uJRUYWNzpSMyb6Tx7uBhVqSz4U45+jNCv2ZW3s9/n7gTYKcH",
+        "source_sha256": "35363b63f3191e9d74bbfdf44948323e2ddf9ca95d45b1efd1d1e05c3c076506"
+      },
+      "XXXtremeSpinEnhanced": {
+        "asset": "nespacewar.648e1d33.js",
+        "bet_code": "XXXtremeSpinEnhanced",
+        "factor": "75",
+        "factor_field": "costFactors.XXXtremeSpinEnhanced",
+        "frontend_app": "ne-spacewarsmw",
+        "game": {
+          "betCode": "XXXtremeSpinEnhanced"
+        },
+        "game_version": "spacewarsmw_r96_f1",
+        "integrity": "sha384-VgyYE6RNAA8/kC/0uJRUYWNzpSMyb6Tx7uBhVqSz4U45+jNCv2ZW3s9/n7gTYKcH",
+        "source_sha256": "35363b63f3191e9d74bbfdf44948323e2ddf9ca95d45b1efd1d1e05c3c076506"
+      }
+    }
+  },
+  "spice": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "spice",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "spicer96f1000000"
+  },
+  "starburst": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "starburst",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "starburst0000000"
+  },
+  "starburst-galaxy": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "starburstgalaxy",
+    "modes": [
+      "FeatureBuy",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "FeatureBuyEnhanced",
+      "Spin"
+    ],
+    "table_id": "starburstgar96f1"
+  },
+  "starburst-xxxtreme": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "starburstxxxtrem",
+    "modes": [
+      "Spin",
+      "XXXtremeSpin",
+      "XXXtremeSpinEnhanced"
+    ],
+    "table_id": "starburstxxtreme"
+  },
+  "thrill-to-grill": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "thrilltogrill",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "thrilltogrir96f1",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "nethrillto.bd777e66.js",
+        "bet_code": "FeatureBuy",
+        "factor": "60",
+        "factor_field": null,
+        "frontend_app": "ne-thrill-to-grill",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "thrilltogrill_r96_f1",
+        "integrity": "sha384-e10uXDworih4fOOyGIi776df+osE/MJyXUJWAbuKhV8ogXcSqAzv0Q3ZX6Q2Wggd",
+        "source_sha256": "007675f5c99007b22dd4c823a8d27241813bdda2c5a7521ffff2ec2363f3a210"
+      }
+    }
+  },
+  "twin-spin": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "twinspin",
+    "modes": [
+      "Spin"
+    ],
+    "table_id": "twinspin00000000"
+  },
+  "twister": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "twister",
+    "modes": [
+      "FeatureBuy",
+      "Spin"
+    ],
+    "table_id": "twisterr96f10000",
+    "v1_modes": {
+      "FeatureBuy": {
+        "asset": "netwister.28eadb5d.js",
+        "bet_code": "FeatureBuy",
+        "factor": "100",
+        "factor_field": null,
+        "frontend_app": "ne-twister",
+        "game": {
+          "featureBuy": true
+        },
+        "game_version": "twister_r96_f1",
+        "integrity": "sha384-Mj0O6fbSOcZfZO7k8OuZuSe9bBxWvQQPmTOMLhqqTmwLaNoKbED2SNaU2PYUcZGY",
+        "source_sha256": "72ac0bad7f303d8d3e5e43543802961f739a335d71f3108474c5df551f4a35c7"
+      }
+    }
+  },
+  "whats-up-witches": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "whatsupwitches",
+    "modes": [
+      "FeatureBuy1",
+      "FeatureBuy2",
+      "FeatureBuy3",
+      "FeatureBuy4",
+      "FeatureBuy5",
+      "Spin"
+    ],
+    "table_id": "whatsupwitcr96f1"
+  },
+  "wild-mining-xxxtreme": {
+    "client_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "config_version": "6.20261030.73038.67000-7e7b03116d-r2",
+    "game_type": "wildminingxxxtreme",
+    "modes": [
+      "Spin",
+      "XXXtremeSpin",
+      "XXXtremeSpinEnhanced"
+    ],
+    "table_id": "wildminingxx96f1"
+  }
+}

@@ -1,0 +1,2460 @@
+{
+  "id": "belatra",
+  "name": "Belatra",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "belatra.native-phase",
+    "workspace_adapter": "collection_full_node.py::belatra",
+    "continuations": "gs.phaseNext",
+    "closure": "native phase and wallet"
+  },
+  "games": [
+    {
+      "id": "princess_suki",
+      "name": "Princess Suki",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "vampire",
+      "name": "Brother CrossBolt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "coins_blast",
+      "name": "Coins Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        }
+      ]
+    },
+    {
+      "id": "fishing_football",
+      "name": "Penalty Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "yo_ho_ho_2048",
+      "name": "Yo-ho-ho 2048",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "stars_blast",
+      "name": "Stars Blast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "ufo",
+      "name": "Slime Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "foxy_eggs",
+      "name": "Foxy Eggs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        }
+      ]
+    },
+    {
+      "id": "hunting",
+      "name": "Hunt the Bucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "fishing_dan_lu_dan",
+      "name": "DanLudan's Fortune Bass",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "cops_vs_robs",
+      "name": "Cops vs Robs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "big_bang2",
+      "name": "Big Bang 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        }
+      ]
+    },
+    {
+      "id": "fishing_winter",
+      "name": "Ice Bass",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        }
+      ]
+    },
+    {
+      "id": "diggers_fortune",
+      "name": "Digger's Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "jackpot_pagoda",
+      "name": "Jackpot Pagoda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "hobbits_xmas",
+      "name": "Frozen Barrel Tavern",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        },
+        {
+          "key": "PURCHASE_4",
+          "type": "purchase",
+          "label": "PURCHASE_4"
+        }
+      ]
+    },
+    {
+      "id": "buffalo2",
+      "name": "Big Wild Buffalo 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "battle",
+      "name": "Slattors Battle - Orcs vs Elves",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "long_neck",
+      "name": "Long Neck Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "fortune_mummy",
+      "name": "Fortune Mummy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        }
+      ]
+    },
+    {
+      "id": "voodoo",
+      "name": "Voodoo Coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        }
+      ]
+    },
+    {
+      "id": "bears_tricks",
+      "name": "Bear's Tricks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "cyber_gypsies",
+      "name": "Cyber Gypsies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "chinese_panda",
+      "name": "Xing Fu Panda",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        }
+      ]
+    },
+    {
+      "id": "fishing",
+      "name": "Blast the Bass",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "make_gold",
+      "name": "Make It Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "winter_thunder",
+      "name": "Winter Thunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        }
+      ]
+    },
+    {
+      "id": "cafe_50s",
+      "name": "Cafe 50's",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "tortuga_codex",
+      "name": "Tortuga CodeX",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        }
+      ]
+    },
+    {
+      "id": "lucky_bandits",
+      "name": "Lucky Bandits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "wolf_thunder",
+      "name": "Wolf Thunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        }
+      ]
+    },
+    {
+      "id": "hobbits",
+      "name": "Lucky Barrel Tavern",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        },
+        {
+          "key": "PURCHASE_4",
+          "type": "purchase",
+          "label": "PURCHASE_4"
+        }
+      ]
+    },
+    {
+      "id": "tony_gambler",
+      "name": "Tony Gambler",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "chefs_fruits",
+      "name": "Chef's Sticky Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "golden_axe",
+      "name": "Golden øks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "zeus",
+      "name": "Rise of Zeus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "golden_lantern",
+      "name": "Golden Lantern",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "mummyland_xmas",
+      "name": "Santa Mummy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "princess_xmas",
+      "name": "Ice Princess",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "richy_hog_xmas",
+      "name": "Merry Hog",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "aladdin",
+      "name": "4 Secrets of Aladdin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "dragons_bonanza",
+      "name": "Dragon's Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "fullmoon",
+      "name": "Full Moon Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "richy_hog",
+      "name": "Richy Hog",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "wild_fruit_jam",
+      "name": "Wild Fruit Jam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "witchschool",
+      "name": "Witch School",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "mummyland",
+      "name": "Mummyland Treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "VIP",
+          "type": "antebet",
+          "label": "VIP"
+        }
+      ]
+    },
+    {
+      "id": "pepper_super_3x",
+      "name": "3x Super Peppers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "big_bang",
+      "name": "Big Bang",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "buffalo_x_mas",
+      "name": "X-Mas Buffalo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "cleos_book",
+      "name": "Cleo's Book",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "atemple_gems",
+      "name": "Ancient Temple Gems",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "buffalo",
+      "name": "Big Wild Buffalo",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "pepper_wild_5",
+      "name": "5 Wild Wild Peppers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "rockets",
+      "name": "Rockets",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "pepper_triplex",
+      "name": "Triple X Hot Pepper",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "irish",
+      "name": "Irish Thunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "book_legacy",
+      "name": "Legacy of Doom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "smack_me",
+      "name": "Catch & Snatch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "hot_wild_pepper",
+      "name": "Hot Wild Pepper",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "northern_boom",
+      "name": "Northern Boom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "digger_xmas",
+      "name": "X-Mas Gifts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "gold_xmas",
+      "name": "Master of Xmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "pirate_jackpots",
+      "name": "Pirate Jackpots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "digger_halloween",
+      "name": "Halloween Crystals",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "lucie",
+      "name": "Lucie's cats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "digger",
+      "name": "Crystals Digger",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        }
+      ]
+    },
+    {
+      "id": "zombie_town",
+      "name": "Zombie Town",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "juicy_fruits",
+      "name": "500 Juicy Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "fortune_craft",
+      "name": "Fortune Craft",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "maya3",
+      "name": "Mayan Book",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        },
+        {
+          "key": "PURCHASE_4",
+          "type": "purchase",
+          "label": "PURCHASE_4"
+        },
+        {
+          "key": "PURCHASE_5",
+          "type": "purchase",
+          "label": "PURCHASE_5"
+        },
+        {
+          "key": "PURCHASE_6",
+          "type": "purchase",
+          "label": "PURCHASE_6"
+        },
+        {
+          "key": "PURCHASE_7",
+          "type": "purchase",
+          "label": "PURCHASE_7"
+        },
+        {
+          "key": "PURCHASE_8",
+          "type": "purchase",
+          "label": "PURCHASE_8"
+        }
+      ]
+    },
+    {
+      "id": "africa2",
+      "name": "Africa Gold 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        },
+        {
+          "key": "PURCHASE_4",
+          "type": "purchase",
+          "label": "PURCHASE_4"
+        },
+        {
+          "key": "PURCHASE_5",
+          "type": "purchase",
+          "label": "PURCHASE_5"
+        },
+        {
+          "key": "PURCHASE_6",
+          "type": "purchase",
+          "label": "PURCHASE_6"
+        },
+        {
+          "key": "PURCHASE_7",
+          "type": "purchase",
+          "label": "PURCHASE_7"
+        },
+        {
+          "key": "PURCHASE_8",
+          "type": "purchase",
+          "label": "PURCHASE_8"
+        },
+        {
+          "key": "PURCHASE_9",
+          "type": "purchase",
+          "label": "PURCHASE_9"
+        },
+        {
+          "key": "PURCHASE_10",
+          "type": "purchase",
+          "label": "PURCHASE_10"
+        },
+        {
+          "key": "PURCHASE_11",
+          "type": "purchase",
+          "label": "PURCHASE_11"
+        }
+      ]
+    },
+    {
+      "id": "gold",
+      "name": "Master of Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "night_racing",
+      "name": "The Night Racing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        },
+        {
+          "key": "PURCHASE_1",
+          "type": "purchase",
+          "label": "PURCHASE_1"
+        },
+        {
+          "key": "PURCHASE_2",
+          "type": "purchase",
+          "label": "PURCHASE_2"
+        },
+        {
+          "key": "PURCHASE_3",
+          "type": "purchase",
+          "label": "PURCHASE_3"
+        }
+      ]
+    },
+    {
+      "id": "lazy_monkey",
+      "name": "Lazy Monkey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "christmas",
+      "name": "Christmas Jackpot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "icy_fruits",
+      "name": "20 Icy Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "joker",
+      "name": "Lavish Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "halloween2",
+      "name": "Halloween Jackpot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "treasure88",
+      "name": "88 Dragons Bounty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "name": "Book of Doom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "fruit_mix",
+      "name": "Mix Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "monkey",
+      "name": "Monkey Jackpot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "maya2",
+      "name": "BuyBonus of Maya",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "super_stars",
+      "name": "20 Super Stars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "lemon_deluxe",
+      "name": "Golden Lemon DeLuxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "prehistoric",
+      "name": "Prehistoric Story",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago Bang, Bang!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        },
+        {
+          "key": "PURCHASE_0",
+          "type": "purchase",
+          "label": "PURCHASE_0"
+        }
+      ]
+    },
+    {
+      "id": "bb_newyork",
+      "name": "New York",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "seven_fruits",
+      "name": "7 Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "bank_robbers",
+      "name": "Lucky Bank Robbers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "monsters",
+      "name": "J-Monsters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "moneymania",
+      "name": "The Moneymania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "lemon",
+      "name": "Golden Lemon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "beauty_beast",
+      "name": "Beauty and the Beast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "lucky_old",
+      "name": "Lucky Drink",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "frog_old",
+      "name": "Princess of Swamp",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "alc_old",
+      "name": "An Escape from Alcatraz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "frog100",
+      "name": "Frog Creek",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "sevens2",
+      "name": "Super Sevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "dracula20",
+      "name": "Dracula Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "ghost20",
+      "name": "The Ghost Walks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "vgt25",
+      "name": "Green Grocery",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "piggy_old",
+      "name": "Piggy Bank",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "garden20",
+      "name": "The Smart Rabbit",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "mex_old",
+      "name": "The Elusive Gonzales",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "bluebeard",
+      "name": "Blue Beard",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "carousel",
+      "name": "Carousel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "lucky10",
+      "name": "Lucky Drink in Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "golden88",
+      "name": "88 Golden",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "sevens",
+      "name": "Sevens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "lovem10",
+      "name": "Love Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "jewels10",
+      "name": "Jewels",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "armada100_7days",
+      "name": "7 Days The Spanish Armada",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "anland100_7days",
+      "name": "7 Days Anotherland",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    },
+    {
+      "id": "africa10",
+      "name": "Africa Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "NORMAL",
+          "type": "normal",
+          "label": "NORMAL"
+        }
+      ]
+    }
+  ]
+}

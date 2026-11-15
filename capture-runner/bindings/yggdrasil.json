@@ -1,0 +1,4210 @@
+{
+  "schema": "yggdrasil-native-entry-bindings/v1",
+  "sources": [
+    {
+      "path": "standalone info/yggdrasil/referencias/provider-work/yggdrasil-export/yggdrasil-rounds.csv",
+      "sha256": "f7c66f85ff4c82ebf4e5e235c5f6d9a7619dd1387b70dabc35301f0d9bcd3ebb"
+    },
+    {
+      "path": "handoff/traspaso-claude-20261114/yggdrasil/yggdrasil-checkpoint-20261107.json",
+      "sha256": "a312e22c959119802045c21f92d32ee5953455ca7e4710dd59567104732e5e99"
+    },
+    {
+      "path": "standalone info/yggdrasil/inventario.json",
+      "sha256": "2e8661d79d99f394186fb590302503fd64ef875f6be4079b14b6960c2ad845b3"
+    }
+  ],
+  "entry_contract": "mismo que tirada: play(cmd=nombre de modo, amount=betAmount, coin=coinValue), luego cont(step, betid=1, cmd=betdata.cmds[0], wagerid) hasta status Finished",
+  "games": {
+    "7301": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.1",
+        "amount": "1.0",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7304": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7310": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7312": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7315": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 2,
+          "stuck": false
+        }
+      }
+    },
+    "7317": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7319": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7320": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 2,
+          "stuck": false
+        }
+      }
+    },
+    "7323": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7324": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7325": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.03",
+        "amount": "0.75",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "7326": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7328": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.04",
+        "amount": "1.0",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7329": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7332": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.3",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7333": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7337": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.5",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7345": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 2,
+          "stuck": false
+        }
+      }
+    },
+    "7348": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.02",
+        "amount": "0.4",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "7349": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7350": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7352": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7353": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7354": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7356": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7360": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7361": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7362": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.02",
+        "amount": "0.4",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "7365": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.4",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7366": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7370": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7372": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.006",
+        "amount": "0.3",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "7373": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7374": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7375": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7381": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7386": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7387": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7388": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.02",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7396": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7397": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7398": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7400": {
+      "BUY_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_RAGNAROK": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "82.5",
+        "command": "BUY_RAGNAROK",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_WHEEL": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "1.75",
+        "command": "BUY_WHEEL",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7401": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7406": {
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7408": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "7409": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "8301": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "8302": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.03",
+        "amount": "0.6",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "8303": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "8304": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 2,
+          "stuck": false
+        }
+      }
+    },
+    "8308": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "8309": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10021": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10030": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_10": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "54.0",
+        "command": "BUY_A_BONUS_10",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_20": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "48.0",
+        "command": "BUY_A_BONUS_20",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_30": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "42.0",
+        "command": "BUY_A_BONUS_30",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_40": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "36.0",
+        "command": "BUY_A_BONUS_40",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_50": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "30.0",
+        "command": "BUY_A_BONUS_50",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_60": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "24.0",
+        "command": "BUY_A_BONUS_60",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_70": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "18.0",
+        "command": "BUY_A_BONUS_70",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_80": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "12.0",
+        "command": "BUY_A_BONUS_80",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BUY_A_BONUS_90": {
+        "kind": "purchase",
+        "coin": "0.03",
+        "amount": "6.0",
+        "command": "BUY_A_BONUS_90",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "MAX_BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "197.4",
+        "command": "MAX_BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.3",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10055": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10073": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.5",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10094": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10101": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10103": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10114": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10122": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10124": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.006",
+        "amount": "0.24",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "10125": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.5",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10131": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10132": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10134": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10144": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10147": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10148": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10158": {
+      "BB_DEATHMATCH_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_DEATHMATCH_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_DEATHMATCH_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_DEATHMATCH_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_DEATHMATCH_3": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_DEATHMATCH_3",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_TRAINING": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_TRAINING",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10159": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10160": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10170": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10173": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "18.75",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10188": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "60.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "140.0",
+        "command": "BUY_BONUS_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10255": {
+      "BUY_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "9.9",
+        "command": "BUY_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10260": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "MAX_BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "MAX_BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10280": {
+      "BUY_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "16.0",
+        "command": "BUY_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_RAGNAROK": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "100.0",
+        "command": "BUY_RAGNAROK",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10287": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "BUY_BONUS_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.12",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10290": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.2",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10292": {
+      "BUY_BONUS": {
+        "kind": "purchase",
+        "coin": "1.0",
+        "amount": "20.0",
+        "command": "BUY_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "SUPER_BUY_BONUS": {
+        "kind": "purchase",
+        "coin": "4.0",
+        "amount": "80.0",
+        "command": "SUPER_BUY_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10308": {
+      "BUY_BONUS_HIGH": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "200.0",
+        "command": "BUY_BONUS_HIGH",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_LOW": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "18.0",
+        "command": "BUY_BONUS_LOW",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10327": {
+      "BUY_A_BONUS_6": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "14.0",
+        "command": "BUY_A_BONUS_6",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10366": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10378": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_GB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BUY_BONUS_GB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_GB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "30.0",
+        "command": "BUY_BONUS_GB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.15",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10380": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "5.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10395": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10399": {
+      "BB_3_SC": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_3_SC",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_9_SC": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "BB_9_SC",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "1.0",
+        "command": "GB",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10400": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "66.6",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.15",
+        "command": "GB",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10407": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.2",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10409": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.2",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10417": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.004",
+        "amount": "0.8",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "10421": {
+      "BONUS1": {
+        "kind": "purchase",
+        "coin": "1.0",
+        "amount": "20.0",
+        "command": "BONUS1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10431": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10447": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.02",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10450": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "100.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "1.5",
+        "command": "GB",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10452": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "6.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10455": {
+      "BUY_BONUS_BASIC": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BUY_BONUS_BASIC",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_GB": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "25.0",
+        "command": "BUY_BONUS_GB",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.3",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10458": {
+      "BUY_BONUS": {
+        "kind": "purchase",
+        "coin": "20.0",
+        "amount": "20.0",
+        "command": "BUY_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "SUPER_BUY_BONUS": {
+        "kind": "purchase",
+        "coin": "120.0",
+        "amount": "120.0",
+        "command": "SUPER_BUY_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.2",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10472": {
+      "BONUSBUY": {
+        "kind": "purchase",
+        "coin": "0.008",
+        "amount": "80.0",
+        "command": "BONUSBUY",
+        "source_kind": "buy",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.008",
+        "amount": "0.8",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": false,
+          "error_code": "1",
+          "attempts": 4,
+          "stuck": false
+        }
+      }
+    },
+    "10477": {
+      "BUYIN1": {
+        "kind": "purchase",
+        "coin": "10.0",
+        "amount": "10.0",
+        "command": "BUYIN1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUYIN2": {
+        "kind": "purchase",
+        "coin": "50.0",
+        "amount": "50.0",
+        "command": "BUYIN2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.1",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10481": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10485": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "BUY_BONUS_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.12",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10488": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "30.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB_0": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.3",
+        "command": "GB_0",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB_1": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.6",
+        "command": "GB_1",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10489": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "MAX_BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "MAX_BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10503": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.02",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10506": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "7.5",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "25.0",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_3": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "35.0",
+        "command": "BB_3",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10509": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "60.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "140.0",
+        "command": "BUY_BONUS_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10510": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "11.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "1.1",
+        "command": "GB",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10511": {
+      "BB_DEATHMATCH_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_DEATHMATCH_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_DEATHMATCH_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_DEATHMATCH_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_DEATHMATCH_3": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_DEATHMATCH_3",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_TRAINING": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_TRAINING",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10512": {
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "6.5",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_5": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "39.0",
+        "command": "BB_5",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10514": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "19.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10515": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10516": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "30.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "65.0",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10517": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "BUY_BONUS_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.12",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10570": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "25.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.3",
+        "command": "GB",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10595": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "14.4",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "14.4",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GB": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.3",
+        "command": "GB",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10638": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10673": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "7.5",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "25.0",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_3": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "35.0",
+        "command": "BB_3",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10685": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "30.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "65.0",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10688": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "MAX_BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "MAX_BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.12",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET_WILD": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.15",
+        "command": "GOLDEN_BET_WILD",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10704": {
+      "BUY_BONUS_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BUY_BONUS_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_BONUS_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUY_BONUS_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "50.0",
+        "command": "BUY_BONUS_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.12",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10728": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10729": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10753": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "MAX_BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "20.0",
+        "command": "MAX_BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.12",
+        "command": "GOLDEN_BET",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "GOLDEN_BET_WILD": {
+        "kind": "antebet",
+        "coin": "0.01",
+        "amount": "0.15",
+        "command": "GOLDEN_BET_WILD",
+        "source_kind": "golden",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10758": {
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "6.5",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_5": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "39.0",
+        "command": "BB_5",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10762": {
+      "BB": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "6.8",
+        "command": "BB",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10797": {
+      "BUYRFS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.6",
+        "command": "BUYRFS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUYSFS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "17.4",
+        "command": "BUYSFS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10799": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10802": {
+      "BB": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "6.0",
+        "command": "BB",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10803": {
+      "BUYBG": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "9.8",
+        "command": "BUYBG",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BUYFS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "10.4",
+        "command": "BUYFS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10857": {
+      "BB1": {
+        "kind": "purchase",
+        "coin": "8.0",
+        "amount": "8.0",
+        "command": "BB1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB2": {
+        "kind": "purchase",
+        "coin": "14.0",
+        "amount": "14.0",
+        "command": "BB2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB3": {
+        "kind": "purchase",
+        "coin": "25.0",
+        "amount": "25.0",
+        "command": "BB3",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB4": {
+        "kind": "purchase",
+        "coin": "40.0",
+        "amount": "40.0",
+        "command": "BB4",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.1",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10894": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "4.0",
+        "amount": "4.0",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "7.0",
+        "amount": "7.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "12.5",
+        "amount": "12.5",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_3": {
+        "kind": "purchase",
+        "coin": "6.0",
+        "amount": "6.0",
+        "command": "BB_3",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_4": {
+        "kind": "purchase",
+        "coin": "10.0",
+        "amount": "10.0",
+        "command": "BB_4",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_5": {
+        "kind": "purchase",
+        "coin": "18.0",
+        "amount": "18.0",
+        "command": "BB_5",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.1",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10911": {
+      "BB_0": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "7.5",
+        "command": "BB_0",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_1": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "15.0",
+        "command": "BB_1",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_2": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "25.0",
+        "command": "BB_2",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_3": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "35.0",
+        "command": "BB_3",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10915": {
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.25",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10945": {
+      "BB_ALL": {
+        "kind": "purchase",
+        "coin": "25.0",
+        "amount": "25.0",
+        "command": "BB_ALL",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_BLUE": {
+        "kind": "purchase",
+        "coin": "18.0",
+        "amount": "18.0",
+        "command": "BB_BLUE",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_GREEN": {
+        "kind": "purchase",
+        "coin": "12.0",
+        "amount": "12.0",
+        "command": "BB_GREEN",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_RANDOM": {
+        "kind": "purchase",
+        "coin": "15.0",
+        "amount": "15.0",
+        "command": "BB_RANDOM",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BB_RED": {
+        "kind": "purchase",
+        "coin": "15.0",
+        "amount": "15.0",
+        "command": "BB_RED",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.1",
+        "amount": "0.1",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    },
+    "10981": {
+      "BUY_A_BONUS": {
+        "kind": "purchase",
+        "coin": "0.01",
+        "amount": "12.0",
+        "command": "BUY_A_BONUS",
+        "source_kind": "buy",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      },
+      "BASIC": {
+        "kind": "normal",
+        "coin": "0.01",
+        "amount": "0.2",
+        "command": "BASIC",
+        "source_kind": "normal",
+        "history": {
+          "closed": true,
+          "error_code": "",
+          "attempts": 1,
+          "stuck": false
+        }
+      }
+    }
+  },
+  "history_policy": "Prior provider rejection or missing historical closure is metadata, never a support gate. Fresh native menu validation is required before dispatch. A known rejection remains provider_error; unrecognized continuation remains unknown_event."
+}

@@ -1,0 +1,55 @@
+{
+  "proveedor": "habanero",
+  "archivos": [
+    {
+      "ruta": "bindings/habanero.json",
+      "bytes": 53009,
+      "sha256": "df09a28bd04e6f079d36d36daf2d8dcbb1bb34a84398010c275bfe9fded7a6dd"
+    },
+    {
+      "ruta": "codigo/habanero.rs",
+      "bytes": 12368,
+      "sha256": "aaafcb7c8fcf04bc151ca9f507394052a9ff8041c8a145b6976439cedc543bd1"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 66005,
+      "sha256": "28fef4238728626a7ddd9f3befaaa11b4f11bd5a941f8ebf1043c10fa64db8e7"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 557900,
+      "sha256": "afd89d58ed90ec5dd46e1fe8ca900beadead216fb3ac10b359c671fcbdf2cd41"
+    },
+    {
+      "ruta": "evidencia/habanero.json",
+      "bytes": 618068,
+      "sha256": "b07e093df0449ea72ee589da0047fce6920b079564d057dfec5d7aa65867b3e5"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 65961,
+      "sha256": "0d1a945bae4f8add14bde6bda0671324bed1e06c4c7ccc8f80f392f48ed7633c"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 47353,
+      "sha256": "fd2e92177f0806841812ba211af28cdafdc2e3cabc9f7038214a08c680bce62f"
+    },
+    {
+      "ruta": "referencias/provider-work/habanero-export/data/habanero-brandgameid-map-all.json",
+      "bytes": 11911,
+      "sha256": "16241f14c417cd9c39f73a79d16f4c09ea14d21aac9d3b36d8419210b15f0862"
+    },
+    {
+      "ruta": "referencias/provider-work/habanero-export/data/habanero-samples.json",
+      "bytes": 1605,
+      "sha256": "e1ac1d358d893ffe3f0b7a08f8270d6be3a97959f5eb7091b3d36bae9675d8ad"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 611,
+      "sha256": "3c2a31ee83fb8d69a9b95560ecfe1c2c3510b88e3f588778d4bf32b203f9cae7"
+    }
+  ]
+}

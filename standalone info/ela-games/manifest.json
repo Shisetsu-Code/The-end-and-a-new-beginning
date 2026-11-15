@@ -1,0 +1,50 @@
+{
+  "proveedor": "ela-games",
+  "archivos": [
+    {
+      "ruta": "bindings/ela-games.json",
+      "bytes": 15239,
+      "sha256": "2afa537916d95fb68c9e754a2d05a92afbe664d97d062f493f7dc73000691ecd"
+    },
+    {
+      "ruta": "codigo/ela_games.rs",
+      "bytes": 16497,
+      "sha256": "af9a521287a1f5c75c456c687c0b641a823927924d98c6b10004aa04636f98ba"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 26314,
+      "sha256": "371b8583324424930e1c554691a2970ce039ac9be2e912107fe56680d7529483"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 142186,
+      "sha256": "e4c680cbfe9df6c472d9ce7b62150dc40011ac94bdd7391d0ebe395f134fa73b"
+    },
+    {
+      "ruta": "evidencia/ela-games.json",
+      "bytes": 198466,
+      "sha256": "46c30b8859ec757862b351e20fa5acc60c6d3885d8f3dcdc112f4ad5b9063ebb"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 26273,
+      "sha256": "f11706f4607f6b1c363cdeed042ab58b810eae3b441d0c02e3bdd517ec4216a4"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "ruta": "referencias/direct_demo.py",
+      "bytes": 5957,
+      "sha256": "42f083c950ca06587db020b7f8b91752bb8b9537ba464a100b889ea6ae296f31"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 594,
+      "sha256": "0269297cbddfaa15e94250a613c840eb16e014d4d068947f5ff3a2b6a6289ccf"
+    }
+  ]
+}

@@ -1,0 +1,5319 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "amusnet",
+      "game": "375",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "400",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "401",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "402",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "403",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "404",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "405",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "405",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "405",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "406",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "407",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "407",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "408",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "409",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "410",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "411",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "412",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "414",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "416",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "417",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "418",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "421",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "424",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "425",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "426",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "427",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "428",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "430",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "431",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "432",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "433",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "434",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "435",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "437",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "438",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "439",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "440",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "441",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "442",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "442",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "443",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "443",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "444",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "445",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "446",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "447",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "449",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "450",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "451",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "452",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "452",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "454",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "455",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "455",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "455",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "456",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "457",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "457",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "459",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "459",
+      "mode": "BUY_GOLDEN_POTS_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "459",
+      "mode": "BUY_LUCKY_CHEST_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "459",
+      "mode": "BUY_CLOVER_ISLAND_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "460",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "460",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "460",
+      "mode": "BUY_WHEEL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "461",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "463",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "463",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "464",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "464",
+      "mode": "TEN_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "464",
+      "mode": "TWELVE_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "464",
+      "mode": "FIFTEEN_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "464",
+      "mode": "THREE_RESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "464",
+      "mode": "BOOSTED_BASE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "467",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "468",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "470",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "471",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "475",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "475",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "476",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "477",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "478",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "479",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "480",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "482",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "482",
+      "mode": "BUY_FREESPINS_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "482",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "482",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "482",
+      "mode": "BUY_FREESPINS_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "482",
+      "mode": "BUY_FREESPINS_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "484",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "485",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "486",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "487",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "489",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "490",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "491",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "492",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "495",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "496",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "497",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "498",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "499",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "499",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "499",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5000",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5000",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5000",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5000",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5000",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5000",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5003",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5003",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5003",
+      "mode": "BOOSTED_DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5003",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5005",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5009",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5009",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "501",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5011",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5011",
+      "mode": "ANTE_BET_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5011",
+      "mode": "ANTE_BET_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5011",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5011",
+      "mode": "BUY_SUPER_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5011",
+      "mode": "ANTE_BET_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5012",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5013",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5014",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5014",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5014",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5015",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5016",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "502",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5020",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5020",
+      "mode": "BUY_NORMAL_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5020",
+      "mode": "BUY_SUPER_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5021",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5021",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5022",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5022",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5022",
+      "mode": "SUPER_BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5029",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5029",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5029",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5029",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5029",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5029",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5030",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "504",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5042",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5042",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5043",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5043",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "505",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5054",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5054",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5056",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5057",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5057",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5058",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5058",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5059",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5059",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "506",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5063",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5064",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5068",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5069",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5070",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5071",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5071",
+      "mode": "BUY_FREESPINS_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5071",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5071",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5071",
+      "mode": "BUY_FREESPINS_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5071",
+      "mode": "BUY_FREESPINS_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5072",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5072",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5074",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5074",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5074",
+      "mode": "BUY_WHEEL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5075",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5076",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5076",
+      "mode": "BUY_FREESPINS_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5076",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5076",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5076",
+      "mode": "BUY_FREESPINS_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5076",
+      "mode": "BUY_FREESPINS_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5079",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5079",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "508",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5080",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5080",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5080",
+      "mode": "ANTE_EXPANDING_WILD",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5080",
+      "mode": "ANTE_ALL_POTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5080",
+      "mode": "BUY_ALL_POTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5082",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5082",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5082",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5082",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5082",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5082",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5083",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5083",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5083",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5083",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5083",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5083",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5084",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5084",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5084",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5084",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5084",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5084",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5085",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5085",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5085",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5085",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5085",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5085",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5086",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5086",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5086",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5086",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5086",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5086",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5087",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5087",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5087",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5087",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5087",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5087",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5088",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5088",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5088",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5088",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5088",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5088",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5089",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5089",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5089",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5089",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5089",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5089",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "509",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5090",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5090",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5090",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5090",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5090",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5090",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5091",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5094",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "510",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5103",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5103",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5105",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5106",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5108",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5109",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "511",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5110",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5110",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5110",
+      "mode": "BUY_PREMIUMS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5110",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5111",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5112",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5112",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5112",
+      "mode": "BUY_HIGH_COINS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5112",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5113",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5115",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5115",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5115",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5115",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5115",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5115",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5116",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5116",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5116",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5116",
+      "mode": "BUY_FREESPINS_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5116",
+      "mode": "BUY_FREESPINS_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5117",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5117",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5117",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5117",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5117",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5117",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5119",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "512",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5120",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5121",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5121",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5123",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5124",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5124",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "513",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "514",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "515",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5156",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5156",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5156",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5156",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5156",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5156",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5157",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5157",
+      "mode": "BB_3_COLLECTS_GUARANTEED",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5157",
+      "mode": "BB_EXTRA_MULTIPLIERS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5157",
+      "mode": "BB_SUPER_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "516",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5161",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5163",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5164",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5165",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5166",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5168",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5169",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5170",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5172",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5172",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5173",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5173",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5174",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5174",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5174",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5174",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5174",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5174",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5176",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5176",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5176",
+      "mode": "BUY_HIGH_COINS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5176",
+      "mode": "BUY_PREMIUMS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5178",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5178",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5178",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5178",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5178",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5178",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5179",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5179",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5179",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5179",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5179",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5179",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "518",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5180",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5180",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5180",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5180",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5180",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5180",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5181",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5181",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5181",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5181",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5181",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5181",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5183",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5183",
+      "mode": "BB_3_COLLECTS_GUARANTEED",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5183",
+      "mode": "BB_EXTRA_MULTIPLIERS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5183",
+      "mode": "BB_SUPER_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5196",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5196",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5197",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5197",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5198",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5198",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "520",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "521",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "522",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "523",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "525",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "527",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5279",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "528",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5282",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5282",
+      "mode": "BUY_REGULAR_WHEEL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5282",
+      "mode": "BUY_UPGRADED_WHEEL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5282",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5283",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5283",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5284",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5284",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5284",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5284",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5284",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5284",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "529",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5295",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5295",
+      "mode": "BUY_WHEEL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5297",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5297",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5297",
+      "mode": "BB_3_COLLECTS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5297",
+      "mode": "SUPER_BB",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "530",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5301",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5301",
+      "mode": "BUY_WHEEL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5305",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5305",
+      "mode": "BUY_FREESPINS_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5305",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5305",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5305",
+      "mode": "BUY_FREESPINS_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5305",
+      "mode": "BUY_FREESPINS_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5307",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5307",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5308",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5308",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5309",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5309",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5309",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5309",
+      "mode": "BUY_FREESPINS_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5309",
+      "mode": "BUY_FREESPINS_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "531",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "532",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "533",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5337",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5337",
+      "mode": "BUY_BONUS_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5339",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5339",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5339",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5339",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "534",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5340",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5340",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5340",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5340",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5341",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5342",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5343",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5343",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5343",
+      "mode": "BUY_HIGH_COINS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5343",
+      "mode": "BUY_PREMIUMS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5344",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5344",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5344",
+      "mode": "BUY_HIGH_COINS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5344",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5345",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5345",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5345",
+      "mode": "BUY_PREMIUMS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5345",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5346",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5346",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5346",
+      "mode": "BUY_PREMIUMS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5346",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5347",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5347",
+      "mode": "BUY_JACKPOTS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5347",
+      "mode": "BUY_HIGH_COINS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5347",
+      "mode": "BUY_PREMIUMS_ONLY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "535",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5352",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5352",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5353",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5353",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5354",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5354",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5355",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5355",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5356",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5356",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5357",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5357",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5358",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5358",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5359",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5359",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "536",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5361",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5361",
+      "mode": "BB_RANDOM_COLLECTS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5365",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5366",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5367",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5368",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "537",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5374",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5374",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5374",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5374",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5375",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5375",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5375",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5375",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5376",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5376",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5377",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5377",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5391",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5391",
+      "mode": "BUY_REGULAR_WHEEL",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5391",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5417",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5417",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5417",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5417",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5418",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5418",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5418",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5418",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5418",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5418",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5419",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5419",
+      "mode": "BUY_2_WILDS_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5419",
+      "mode": "BUY_1_WILD_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5419",
+      "mode": "BUY_2_WILDS_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5419",
+      "mode": "BUY_1_WILD_NON_GUARANTEE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5419",
+      "mode": "BUY_3_WILDS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5420",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "544",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5448",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "5448",
+      "mode": "BUY_BONUS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "545",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "546",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "547",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "548",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "549",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "553",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "554",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "555",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "556",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "557",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "558",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "559",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "560",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "561",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "562",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "563",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "564",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "565",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "566",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "567",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "568",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "569",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "570",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "571",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "572",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "573",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "574",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "575",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "576",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "577",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "578",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "579",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "580",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "581",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "588",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "589",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "590",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "592",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "593",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "594",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "595",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "596",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "597",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "598",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "599",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "606",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "607",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "608",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "609",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "610",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "611",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "611",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "611",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "612",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "613",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "614",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "615",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "616",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "617",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "617",
+      "mode": "BUY_FREESPINS_3",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "617",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "617",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "617",
+      "mode": "BUY_FREESPINS_2",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "617",
+      "mode": "BUY_FREESPINS_1",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "619",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "620",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "621",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "621",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "621",
+      "mode": "DOUBLE_CHANCE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "622",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "623",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "624",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "625",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "626",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "626",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "627",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "629",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "630",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "632",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "632",
+      "mode": "TEN_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "632",
+      "mode": "TWELVE_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "632",
+      "mode": "FIFTEEN_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "632",
+      "mode": "THREE_RESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "632",
+      "mode": "BOOSTED_BASE_GAME",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "635",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "636",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "637",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "638",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "639",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "640",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "640",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "641",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "645",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "645",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "661",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "662",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "663",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "663",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "777",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8000",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8001",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8002",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8003",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8004",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8005",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8006",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8007",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8008",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8009",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8009",
+      "mode": "BUY_HOLD_AND_SPIN",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "801",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8010",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8011",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8015",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8016",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8017",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8018",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8019",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "802",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8020",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8021",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8022",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8023",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8024",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8025",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8026",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8027",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8028",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8029",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "803",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8030",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8031",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8032",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8033",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8034",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8035",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8036",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8037",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8038",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8039",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8039",
+      "mode": "BUY_HOLD_AND_SPIN",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "804",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8040",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8044",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "805",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8052",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "8052",
+      "mode": "BUY_HOLD_AND_SPIN",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "806",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "807",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "808",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "809",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "810",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "811",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "812",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "813",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "814",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "815",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "817",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "818",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "819",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "820",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "821",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "822",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "823",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "824",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "825",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "826",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "828",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "829",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "830",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "831",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "832",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "833",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "834",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "835",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "836",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "837",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "839",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "841",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "842",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "843",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "844",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "845",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "846",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "847",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "848",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "849",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "850",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "851",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "852",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "853",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "854",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "855",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "856",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "857",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "858",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "859",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "860",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "861",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "863",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "864",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "865",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "866",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "867",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "868",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "869",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "871",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "872",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "873",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "874",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "875",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "876",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "877",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "879",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "880",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "881",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "882",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "883",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "884",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "885",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "886",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "888",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "889",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "893",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "894",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "895",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "896",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "897",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "898",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "899",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9000",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9001",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9002",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9003",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9004",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9005",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9006",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9007",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9008",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9009",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9010",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9011",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9024",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9025",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9026",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9027",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "9028",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "910",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "910",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "911",
+      "mode": "NONE",
+      "samples": 1,
+      "settings": {}
+    },
+    {
+      "provider": "amusnet",
+      "game": "911",
+      "mode": "BUY_FREESPINS",
+      "samples": 1,
+      "settings": {}
+    }
+  ],
+  "omisiones": []
+}

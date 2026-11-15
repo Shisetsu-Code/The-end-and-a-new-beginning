@@ -1,0 +1,2 @@
+# Preserve original evidence bytes, including CRLF, because manifests verify hashes.
+"standalone info/**" -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

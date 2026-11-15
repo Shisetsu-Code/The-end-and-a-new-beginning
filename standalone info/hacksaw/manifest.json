@@ -1,0 +1,240 @@
+{
+  "proveedor": "hacksaw",
+  "archivos": [
+    {
+      "ruta": "codigo/hacksaw.rs",
+      "bytes": 10625,
+      "sha256": "9af6556d291f7a4aba00de8de91872f5d451226f2382940e6f72a3a868cf880c"
+    },
+    {
+      "ruta": "contratos/hacksaw-http.json",
+      "bytes": 6912,
+      "sha256": "7131c76dee739d548fd021439c81e65ec16445cb021ef13dacf199f064b9548a"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 105021,
+      "sha256": "95c77b88eec05b8c186441642edabbc2309c837a308c4434bb9b89b8ba2b7ae9"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 314098,
+      "sha256": "d1dcc12ca99c58bb13bb6cf70b052a617c95a0367143ef34a3d768ded4ae193c"
+    },
+    {
+      "ruta": "evidencia/ciclos-historicos.json",
+      "bytes": 3039,
+      "sha256": "fd8caade77e0f014b4ce4806c51517ea0e555d527baa55d3ee5c216163434c57"
+    },
+    {
+      "ruta": "evidencia/hacksaw.json",
+      "bytes": 751848,
+      "sha256": "42544207ded9c0b0b8d0446eb57ee4e540ac06661ea9ce8031e1de3956ac443c"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 104880,
+      "sha256": "56009c99382717ffcbaac0b78f699890fc7c25a533e071ed63923a7a65a0e85b"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102114,
+      "sha256": "11e4b2c142ddcf749c145c1ea19c3d0449bbf44cf355fdc9d0e90e15fc7f30d8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/audit.json",
+      "bytes": 405,
+      "sha256": "88562d5658e37ae913180d7dbd8df86923c393f5598ad2029731398ffad07a7c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/catalog.json",
+      "bytes": 16492,
+      "sha256": "d1f2a80f976db83bb05227b21fed13ebd961e4c194b1647d320e235ea97b322d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/choices-matrix.json",
+      "bytes": 31307,
+      "sha256": "f2310296f3d4437e510a18f4c119a0a92bde2f5ae2551a05921021c9b6aac960"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/choices.json",
+      "bytes": 34608,
+      "sha256": "0a9ca9bf92ba466893f43ff9eb3f229ff0515ad34288a996f4730b3da1437b59"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/index.html",
+      "bytes": 124485,
+      "sha256": "b4f37c48f54f8a2480aed0ac82f86086151db85ed167aa9197e20f7677d7bc60"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/inventory.json",
+      "bytes": 890544,
+      "sha256": "209c66d1271e798440c91923259af55f46a102c2bca360f3159d92b0eb64d525"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/prior-providers-proof.json",
+      "bytes": 442,
+      "sha256": "61cf17ce9d682498d8ea61df722f0d96e2354f6f1356d6a7c0cd860d4ecb0e5f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/purchases.json",
+      "bytes": 316061,
+      "sha256": "65017366f26115efe7bbeef84adab3604b116b5735f9aed5f2c721d0334fbfc0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/1-100/rounds.json",
+      "bytes": 54171,
+      "sha256": "48e5b50986301e14806a5915b1e50f9ef59136538c51bb6078b874f00343ca26"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/audit.json",
+      "bytes": 429,
+      "sha256": "82292b3c779033202ee0c637fd5b5b0d590a2a3481ce58cfc9376a714bf33c53"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/catalog.json",
+      "bytes": 6674,
+      "sha256": "57e560c8fbc5702ba44bc960302deda5070b601741a3bdc414c95c0920e5ad18"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/choices-matrix.json",
+      "bytes": 8815,
+      "sha256": "1bd1dc761dab6cd53d39af3c990c901b8e80cb1d061af5c9c97cc950852e433b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/choices.json",
+      "bytes": 4888,
+      "sha256": "bb846e404f358360637ef4ee55b7c5b68466b1105f9fd2b7d32e59b50913f647"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/index.html",
+      "bytes": 54549,
+      "sha256": "2f9e53e86dee48f45930ce5ee32601b215bf16986cebfabefcdfc8fa5f2cf5ec"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/inventory.json",
+      "bytes": 376515,
+      "sha256": "cb3d6bc557be0fbb65fe70a9c09b1ec7c5e3eefb95765684e66e00a36e673cc9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/prior-batches-proof.json",
+      "bytes": 94,
+      "sha256": "b71d73f7156ea3f2382a0b292d27445fc859356ed832a26b2028126389634bd4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/prior-providers-proof.json",
+      "bytes": 442,
+      "sha256": "61cf17ce9d682498d8ea61df722f0d96e2354f6f1356d6a7c0cd860d4ecb0e5f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/purchases.json",
+      "bytes": 137356,
+      "sha256": "bb423dd890bde5e5245bb87c8dd171bea6de01f86f6c3a61e35d4be4109cb936"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/batches/101-142/rounds.json",
+      "bytes": 22511,
+      "sha256": "23600a43eb2615588009cf39b18d18c31faa8e5ca47b2541992dbc840cbc5030"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/catalog-coverage.json",
+      "bytes": 448,
+      "sha256": "708f94d010e4d3c0445f073f9f5b1643f3b6ea1dbdc24a3ba3907ae995e4d7d1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/catalog.json",
+      "bytes": 23163,
+      "sha256": "3562e141127f8a820975d76b67962c2a97b165693475ef68c65ae89041b8a4f1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/index.html",
+      "bytes": 19954,
+      "sha256": "b422d4ed91815ab836fdf056dbd5f8a9a440d9f4e3bf0abc9600869e5f5efdca"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/README.md",
+      "bytes": 3308,
+      "sha256": "ad25c94d59033def446f03b970e2b9f405fe384d67c23c187489f5b5950bdee8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/reference/1426-index.html",
+      "bytes": 41068,
+      "sha256": "fe184d9302221af9134e027cfd25f319a487bda8e50760f0d2b6317870a98418"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/round.html",
+      "bytes": 3662,
+      "sha256": "6f27ecb373aa906f4494a9e369449ae78aefe3f5665ff46492e97b58a2913e3d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw/sources.json",
+      "bytes": 492,
+      "sha256": "0d416f99877838a09116e54d0f7d7cd8879dc36a8e81d7da4ae5c1eecce76218"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw_audit.py",
+      "bytes": 8462,
+      "sha256": "e348ba231b7c61095e5e6da02729dd1c6598bb1c0690e84dea602df9d215a502"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw_client.py",
+      "bytes": 3562,
+      "sha256": "c6b6d7220910c7c211fa8243c4ee3f279099f65e9e82e582d0823a7b6aa27d8c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw_contracts.py",
+      "bytes": 937,
+      "sha256": "5636e8f3f691c95f59971a060fed7e8ad48e4c30891030bed2670e1947bbc9a0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw_import.py",
+      "bytes": 2352,
+      "sha256": "a0d2eb5917f924720ed4566efa7680cf4231f5abc2c2c19aad066e509a85e70b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw_protocol.py",
+      "bytes": 3095,
+      "sha256": "cf56ce896cffb30fee0963686ffcad880f84cca1793c01e93090efba3274e4b2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw_reports.py",
+      "bytes": 6233,
+      "sha256": "9f5681e818a804ce266a7dac9640df753dccf65d495c415e0fcc053f07ca6f4c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/hacksaw_run.py",
+      "bytes": 13060,
+      "sha256": "7f6abe90803c5e6b350c898ac2907ee1de3b6a711ce798dbfbbc806f5a782c9c"
+    },
+    {
+      "ruta": "referencias/informes/ENDPOINTS-HACKSAW.md",
+      "bytes": 3168,
+      "sha256": "8b46b4ad67db7e9eb985e7fcbdfb536d2bc7db8aa57b1a25793127ccaf1526bd"
+    },
+    {
+      "ruta": "referencias/informes/hacksaw-enlaces.csv",
+      "bytes": 13257,
+      "sha256": "4eec256b0b287b2669da22803813c4dd03141f46f0640d3dcc1791f39961dfac"
+    },
+    {
+      "ruta": "referencias/informes/hacksaw-rondas.csv",
+      "bytes": 125736,
+      "sha256": "ad3eed93a4b0ae11497a126f71d76597a242c70755085f8f5d5ba80befa762db"
+    },
+    {
+      "ruta": "referencias/informes/LAUNCHER-DIRECTO-HACKSAW.md",
+      "bytes": 1900,
+      "sha256": "58b7e6f714f302f660f142db20a593ba68fa6c84958c42f0d3ec40d748f40da7"
+    },
+    {
+      "ruta": "referencias/informes/REPORTE.md",
+      "bytes": 4144,
+      "sha256": "6f42e101ecc34bb6079ad832fe5c595b1893b457206e20231f97286ec5665a8f"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 650,
+      "sha256": "d61bb0b1ace8b2ce14c872639bac05ae94b49df3b4262357e08f3055a25966d3"
+    }
+  ]
+}

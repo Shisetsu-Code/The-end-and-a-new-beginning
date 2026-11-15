@@ -1,0 +1,1228 @@
+{
+  "id": "ela-games",
+  "name": "Ela Games",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "ela.feature",
+    "workspace_adapter": "collection_full_existing.py::ela_complete",
+    "continuations": "native free/respins",
+    "closure": "native award and wallet"
+  },
+  "games": [
+    {
+      "id": "ela_soul_fiesta",
+      "name": "soul fiesta",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_odysseus_wild_journey",
+      "name": "odysseus wild journey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpins",
+          "type": "purchase",
+          "label": "freeSpins"
+        },
+        {
+          "key": "superFreeSpins",
+          "type": "purchase",
+          "label": "superFreeSpins"
+        }
+      ]
+    },
+    {
+      "id": "ela_piggy_brew_bonanza",
+      "name": "piggy brew bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        },
+        {
+          "key": "wheel_megaScatter",
+          "type": "purchase",
+          "label": "wheel_megaScatter"
+        },
+        {
+          "key": "wheel_rollingBonus",
+          "type": "purchase",
+          "label": "wheel_rollingBonus"
+        },
+        {
+          "key": "wheel_brickLuck",
+          "type": "purchase",
+          "label": "wheel_brickLuck"
+        }
+      ]
+    },
+    {
+      "id": "ela_silly_chili_dogs",
+      "name": "silly chili dogs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "pink",
+          "type": "purchase",
+          "label": "pink"
+        },
+        {
+          "key": "blue",
+          "type": "purchase",
+          "label": "blue"
+        },
+        {
+          "key": "green",
+          "type": "purchase",
+          "label": "green"
+        },
+        {
+          "key": "randomDouble",
+          "type": "purchase",
+          "label": "randomDouble"
+        },
+        {
+          "key": "randomFeature",
+          "type": "purchase",
+          "label": "randomFeature"
+        },
+        {
+          "key": "rpbg",
+          "type": "purchase",
+          "label": "rpbg"
+        }
+      ]
+    },
+    {
+      "id": "ela_royal_coins",
+      "name": "royal coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "holdAndWin",
+          "type": "purchase",
+          "label": "holdAndWin"
+        }
+      ]
+    },
+    {
+      "id": "ela_the_age_of_cleopatra",
+      "name": "the age of cleopatra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_flame_fruits_frenzy_hw",
+      "name": "flame fruits frenzy hw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "holdAndWin",
+          "type": "purchase",
+          "label": "holdAndWin"
+        }
+      ]
+    },
+    {
+      "id": "ela_legacy_of_liberty",
+      "name": "legacy of liberty",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_pinatas_festival_branded",
+      "name": "pinatas festival branded",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_piggy_brick_bonanza",
+      "name": "piggy brick bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        },
+        {
+          "key": "wheel_megaScatter",
+          "type": "purchase",
+          "label": "wheel_megaScatter"
+        },
+        {
+          "key": "wheel_rollingBonus",
+          "type": "purchase",
+          "label": "wheel_rollingBonus"
+        },
+        {
+          "key": "wheel_brickLuck",
+          "type": "purchase",
+          "label": "wheel_brickLuck"
+        }
+      ]
+    },
+    {
+      "id": "ela_thunder_ball_max",
+      "name": "thunder ball max",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "extraBonusGame",
+          "type": "purchase",
+          "label": "extraBonusGame"
+        }
+      ]
+    },
+    {
+      "id": "ela_spirit_of_savanna",
+      "name": "spirit of savanna",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonusGame",
+          "type": "purchase",
+          "label": "bonusGame"
+        }
+      ]
+    },
+    {
+      "id": "ela_king_and_flame",
+      "name": "king and flame",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_thunder_ball",
+      "name": "thunder ball",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_golden_bunny",
+      "name": "golden bunny",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superFreeSpin",
+          "type": "purchase",
+          "label": "superFreeSpin"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_patricks_treasure_pots",
+      "name": "patricks treasure pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_rapid_wild",
+      "name": "rapid wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_tea_party_of_fortune",
+      "name": "tea party of fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_wealth_of_the_east",
+      "name": "wealth of the east",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_golden_till",
+      "name": "golden till",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "superFreeSpin",
+          "type": "purchase",
+          "label": "superFreeSpin"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_joker_jam",
+      "name": "joker jam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_roman_fortune",
+      "name": "roman fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_riches_express",
+      "name": "riches express",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_witches_book",
+      "name": "witches book",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_pinatas_festival",
+      "name": "pinatas festival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_buffalo_force",
+      "name": "buffalo force",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        },
+        {
+          "key": "holdAndWin",
+          "type": "purchase",
+          "label": "holdAndWin"
+        }
+      ]
+    },
+    {
+      "id": "ela_legacy_of_lost_gold",
+      "name": "legacy of lost gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_shoot_happens",
+      "name": "shoot happens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_johns_book",
+      "name": "johns book",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_juicy_crystal",
+      "name": "juicy crystal",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_tail_of_crime",
+      "name": "tail of crime",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        },
+        {
+          "key": "freeSpin2",
+          "type": "purchase",
+          "label": "freeSpin2"
+        },
+        {
+          "key": "freeSpin3",
+          "type": "purchase",
+          "label": "freeSpin3"
+        },
+        {
+          "key": "freeSpin4",
+          "type": "purchase",
+          "label": "freeSpin4"
+        }
+      ]
+    },
+    {
+      "id": "ela_rabbit_winpot_deluxe",
+      "name": "rabbit winpot deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_zeus_cashpot",
+      "name": "zeus cashpot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_noble_crown",
+      "name": "noble crown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_shark_time_2",
+      "name": "shark time 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_cash_of_egypt",
+      "name": "cash of egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpinBase",
+          "type": "purchase",
+          "label": "reSpinBase"
+        },
+        {
+          "key": "reSpinWithCollector",
+          "type": "purchase",
+          "label": "reSpinWithCollector"
+        }
+      ]
+    },
+    {
+      "id": "ela_wealth_of_legends",
+      "name": "wealth of legends",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_flame_fruits_frenzy",
+      "name": "flame fruits frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_shark_time_christmas",
+      "name": "shark time christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_kraken_coins",
+      "name": "kraken coins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_scarab_wheel",
+      "name": "scarab wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_farm_hunt",
+      "name": "farm hunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_aqua_mafia",
+      "name": "aqua mafia",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_devils_treasures",
+      "name": "devils treasures",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpinBase",
+          "type": "purchase",
+          "label": "freeSpinBase"
+        },
+        {
+          "key": "freeSpinUltra",
+          "type": "purchase",
+          "label": "freeSpinUltra"
+        }
+      ]
+    },
+    {
+      "id": "ela_madshow_circus",
+      "name": "madshow circus",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "bonusGame",
+          "type": "purchase",
+          "label": "bonusGame"
+        },
+        {
+          "key": "bonusGame2",
+          "type": "purchase",
+          "label": "bonusGame2"
+        }
+      ]
+    },
+    {
+      "id": "ela_joker_cashpot",
+      "name": "joker cashpot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_big_wave_delight",
+      "name": "big wave delight",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_bandidos_bang",
+      "name": "bandidos bang",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_fish_and_spins",
+      "name": "fish and spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_disco_wild",
+      "name": "disco wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_kraken_bay",
+      "name": "kraken bay",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpin",
+          "type": "purchase",
+          "label": "reSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_cash_of_gods",
+      "name": "cash of gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "reSpinBase",
+          "type": "purchase",
+          "label": "reSpinBase"
+        },
+        {
+          "key": "reSpinWithCollector",
+          "type": "purchase",
+          "label": "reSpinWithCollector"
+        }
+      ]
+    },
+    {
+      "id": "ela_sugar_spins",
+      "name": "sugar spins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_lucky_dwarfs",
+      "name": "lucky dwarfs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "jackpotSpin",
+          "type": "purchase",
+          "label": "jackpotSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_viking_wild_cash",
+      "name": "viking wild cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_book_of_meow",
+      "name": "book of meow",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_genie_respins",
+      "name": "genie respins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_detective_fortune",
+      "name": "detective fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_bandidos_cash",
+      "name": "bandidos cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_viking_wild",
+      "name": "viking wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_eds_gun",
+      "name": "eds gun",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_wild_piranha",
+      "name": "wild piranha",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_crab_slot",
+      "name": "crab slot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_plinko",
+      "name": "plinko",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_bullet_hole",
+      "name": "bullet hole",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_vilk_and_little_red",
+      "name": "vilk and little red",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    },
+    {
+      "id": "ela_shark_time",
+      "name": "shark time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        },
+        {
+          "key": "freeSpin",
+          "type": "purchase",
+          "label": "freeSpin"
+        }
+      ]
+    },
+    {
+      "id": "ela_bobby_woods",
+      "name": "bobby woods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal"
+        }
+      ]
+    }
+  ]
+}

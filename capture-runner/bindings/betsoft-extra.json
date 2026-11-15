@@ -1,0 +1,1372 @@
+{
+  "schema": 1,
+  "archive_sha256": "1a5d5ab725b0b65fb92b0d56406758a4c62237a46ae04f87fb72e5473bb54dd4",
+  "sources": [
+    {
+      "path": "ENTREGA-CLAUDE/3-codigo-runners/provider-work/mocks/betsoft/harvest.py",
+      "sha256": "48e07007b98c4395569d9da37c0bbf356ed2a2f609e11813fb14b7a0b75e01f4"
+    },
+    {
+      "path": "ENTREGA-CLAUDE/4-analisis-otros-proveedores/betsoft.md",
+      "sha256": "b5bf64b2d59f9a55e6ba0c8219ea64efedfde74554eba2db4a38084a1a3c66be"
+    },
+    {
+      "path": "standalone info/betsoft/inventario.json",
+      "sha256": "3ed40ca0902478e71524a13c9ec66346849ef5f975a601d65d63342f49309b1c"
+    }
+  ],
+  "games": {
+    "277": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "266": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "262": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1022": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "259": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1018": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "258": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1019": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "248": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "247": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1024": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "1025": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "236": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1026": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "1028": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "228": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "226": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1030": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "boost": "booster",
+        "normal": "normal"
+      }
+    },
+    "225": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1031": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "222": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "221": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "220": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "210": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "350": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "194": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "193": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "180": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "178": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "177": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "173": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "426": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "444": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "2": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "858": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "870": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "869": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "857": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "865": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "860": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "861": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "868": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "854": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "853": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "855": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "850": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "851": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "852": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "847": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "871": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "845": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "846": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "849": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "839": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "876": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "844": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "832": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "823": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "879": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "842": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "877": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "841": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "881": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "840": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "837": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "883": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "822": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "882": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "884": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "836": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "885": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "834": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "825": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "886": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "833": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "828": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "888": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "890": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "835": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "827": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "909": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "910": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "820": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "911": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "908": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "817": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "913": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "819": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "916": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "816": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "914": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "917": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "815": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "923": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "3": "purchase",
+        "normal": "normal"
+      }
+    },
+    "924": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "814": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "929": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "927": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "813": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "931": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "935": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "812": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "937": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "934": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "10": "purchase",
+        "11": "purchase",
+        "2": "purchase",
+        "3": "purchase",
+        "4": "purchase",
+        "5": "purchase",
+        "6": "purchase",
+        "7": "purchase",
+        "8": "purchase",
+        "9": "purchase",
+        "normal": "normal"
+      }
+    },
+    "811": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "947": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "941": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "926": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "810": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "944": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "809": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "938": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "945": {
+      "modes": {
+        "0": "purchase",
+        "boost": "booster",
+        "normal": "normal"
+      }
+    },
+    "807": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "948": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "806": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "951": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "952": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "805": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "956": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "804": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "955": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "957": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "802": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "961": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "965": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "798": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "801": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "966": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "969": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "800": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "971": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "973": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "796": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "975": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "976": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "794": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "978": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "980": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "793": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "988": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "987": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "792": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "968": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "boost": "booster",
+        "normal": "normal"
+      }
+    },
+    "788": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "984": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "784": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "991": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "775": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "995": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "998": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "996": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "771": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "767": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1000": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "763": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1002": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "1003": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "1004": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "759": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "755": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "751": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "747": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "704": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "727": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "700": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "691": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "654": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "647": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1006": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "637": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "619": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "553": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1008": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "normal": "normal"
+      }
+    },
+    "256": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1009": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "597": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "158": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "238": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "590": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "554": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1007": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "520": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "548": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "534": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "351": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "344": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "471": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "482": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1012": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "1014": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "504": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "461": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "500": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "512": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "478": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1010": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "1013": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "normal": "normal"
+      }
+    },
+    "229": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "384": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "402": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1011": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "2": "purchase",
+        "3": "purchase",
+        "boost": "booster",
+        "normal": "normal"
+      }
+    },
+    "341": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "323": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "308": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1016": {
+      "modes": {
+        "0": "purchase",
+        "normal": "normal"
+      }
+    },
+    "300": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "295": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "288": {
+      "modes": {
+        "normal": "normal"
+      }
+    },
+    "1015": {
+      "modes": {
+        "0": "purchase",
+        "1": "purchase",
+        "boost-0": "booster",
+        "boost-1": "booster",
+        "normal": "normal"
+      }
+    },
+    "280": {
+      "modes": {
+        "normal": "normal"
+      }
+    }
+  },
+  "buy_reviewed": [
+    794,
+    796,
+    798,
+    800,
+    801,
+    802,
+    804,
+    805,
+    813,
+    816,
+    836,
+    845,
+    850,
+    851,
+    852,
+    854,
+    855,
+    858,
+    861,
+    869,
+    870,
+    876,
+    881,
+    883,
+    884,
+    885,
+    886,
+    888,
+    890,
+    908,
+    910,
+    913,
+    914,
+    923,
+    924,
+    926,
+    929,
+    931,
+    934,
+    935,
+    937,
+    938,
+    941,
+    944,
+    945,
+    952,
+    955,
+    957,
+    961,
+    966,
+    968,
+    969,
+    971,
+    973,
+    975,
+    976,
+    978,
+    980,
+    984,
+    987,
+    988,
+    991,
+    995,
+    996,
+    998,
+    1000,
+    1002,
+    1003,
+    1004,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1018,
+    1019,
+    1022,
+    1024,
+    1025,
+    1026,
+    1028,
+    1030,
+    1031
+  ],
+  "boost_reviewed": [
+    945,
+    968,
+    1010,
+    1011,
+    1015,
+    1019,
+    1030
+  ],
+  "boost_flag": [
+    968,
+    1010,
+    1011,
+    1015,
+    1019,
+    1030
+  ],
+  "named_continuations": [
+    "BUY_FREESPIN",
+    "BUY_HI_STRIKE_FEATURE",
+    "BUY_HOLDWIN",
+    "BUY_HOLD_AND_RESPIN",
+    "BUY_PLINKO_FEATURE",
+    "BUY_RESPIN",
+    "FREE_SPIN",
+    "MAIN_CASCADE",
+    "RESPIN",
+    "WHEEL_RESPINS"
+  ],
+  "exclusions": {
+    "1017": "Modern JSON protocol not described by this legacy contract",
+    "1052": "Modern JSON protocol not described by this legacy contract",
+    "224": "Native base state 8 has no closing/continuation contract in handoff",
+    "719": "Native state 1 has no closing/continuation contract in handoff",
+    "692": "No positive native completion marker independent of BALANCE in supplied evidence; raw game outcome capture absent.",
+    "818": "No positive native completion marker independent of BALANCE in supplied evidence; raw game outcome capture absent."
+  }
+}

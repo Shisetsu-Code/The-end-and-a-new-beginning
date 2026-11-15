@@ -1,0 +1,788 @@
+{
+  "b6d7a5aefee4d8bc6cec5f03513be69c77050a93ca749cbe4eaee8a8fe52a45c": {
+    "game_id": "3_lucky_sparks",
+    "source_file": "threeoaks/reference/3_lucky_sparks.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "8704ceac2e71734a4c84e137759230572b4f918d7ad8731ae3a9b28eb45029ba": {
+    "game_id": "3_olymp_fortunes",
+    "source_file": "threeoaks/reference/3_olymp_fortunes.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "a3e7ed912309a368edb240166d5798ce53e4a6c1c40da342f28a26d5bea684b4": {
+    "game_id": "3_superpower_diamonds",
+    "source_file": "threeoaks/reference/3_superpower_diamonds.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "6e899db58333db3a2d62f8954423784429a7a4e7142d92f88ca29ba722601d3b": {
+    "game_id": "3_super_hot_teapots",
+    "source_file": "threeoaks/reference/3_super_hot_teapots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "49ca1d525d900142543620ec49c8fae6bfa02d4015518da3104efdd48815d4e2": {
+    "game_id": "4_african_drums",
+    "source_file": "threeoaks/reference/4_african_drums.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "5a50a7ab7fecec60318041c95a42eb37579000b0bcf7d9c6c2ae00e562d31e60": {
+    "game_id": "4_clover_pots",
+    "source_file": "threeoaks/reference/4_clover_pots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "c046258107eec3a4661caa83b69c699457b90fa571a803aaec0c5a6ca097a402": {
+    "game_id": "4_dragon_pearls",
+    "source_file": "threeoaks/reference/4_dragon_pearls.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "5851542ea6fa4b29f1a28c88c85299fe5598f419e62fcdd085f55530defb32cd": {
+    "game_id": "4_fairy_flowers",
+    "source_file": "threeoaks/reference/4_fairy_flowers.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "6fc9333be5a26c25b352b74f74103a9651ad793ede75f42f388566d9d52f6811": {
+    "game_id": "4_fortune_clovers",
+    "source_file": "threeoaks/reference/4_fortune_clovers.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "ed3f1a1a7ebde942d79bc92f8ccc1edbc4ff8f7c9fd01c0fdecc90cee115bc8b": {
+    "game_id": "4_hot_chillies",
+    "source_file": "threeoaks/reference/4_hot_chillies.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "34e565be8a17aad47b8a2ee74ec3667355583d45dbfd5579c14aeaa969e3eafc": {
+    "game_id": "4_pots_of_egypt",
+    "source_file": "threeoaks/reference/4_pots_of_egypt.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "fcea17445bdda0f1dd558e9a465c01e4654fb48c585cc4b18192dce7e8c741c7": {
+    "game_id": "4_super_clover_pots",
+    "source_file": "threeoaks/reference/4_super_clover_pots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "e2195c2f7a8de6d13bed9f7c3ea4a1a3ca5bc30439cf2b79be345098fd5c4d2d": {
+    "game_id": "4_wolf_drums",
+    "source_file": "threeoaks/reference/4_wolf_drums.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "2df0cdd41f7e6f36d2a1e2282d1f656587f571f0f5896cde9b5a5baff54890be": {
+    "game_id": "777_fruity_coins",
+    "source_file": "threeoaks/reference/777_fruity_coins.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "bonus_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "3dfe33ed9bf5fb86433de735a6135fc6b05d9a3144891166c1e5c01791039d99": {
+    "game_id": "amazonia_wins",
+    "source_file": "threeoaks/reference/amazonia_wins.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "849b8341ca796d33a109c11c0f4dac644c8919a2c01c53ead8dac52fc9d6169d": {
+    "game_id": "chili_coins",
+    "source_file": "threeoaks/reference/chili_coins.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "bonus_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "841db479ccde8f951d4fc9528173cf0b195b970720c20c5ee10dc8b9db57185c": {
+    "game_id": "chili_coins_xxxl",
+    "source_file": "threeoaks/reference/chili_coins_xxxl.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "bonus_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "03ef862c14bbc747348d18e8efa3b18f7ce47e92f9a8699a57d7a8e3bfaf19cc": {
+    "game_id": "coin_princess_x1000",
+    "source_file": "threeoaks/reference/coin_princess_x1000.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "f53d538a251f26c26b0e279128d928d3430470a3b0736454601e7c42ac73c0a4": {
+    "game_id": "coin_volcano_2",
+    "source_file": "threeoaks/reference/coin_volcano_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "1a6f0a60df96d0e822231265d6543eb06613ff5c31b7453d36c551b1aafd3adf": {
+    "game_id": "dj_tiger_x1000",
+    "source_file": "threeoaks/reference/dj_tiger_x1000.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "collect_win"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "6d2b5f20e91966c1409903207365aa0ded04c4e4e6a23b8a2ca7463d3bdfe637": {
+    "game_id": "egypt_fire_2",
+    "source_file": "threeoaks/reference/egypt_fire_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "mini_bonus_init",
+      "mini_bonus_pick",
+      "mini_bonus_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "7ea0dd9abef2bb8ad903b9dae637b7b4a56dabb8fab18d5080db0e7569e3844f": {
+    "game_id": "egypt_power_x1000",
+    "source_file": "threeoaks/reference/egypt_power_x1000.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "collect_win"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "73d97c03d5ba270bb0b29aea88a8634a9a007615b00fbaf68872b09821d5544f": {
+    "game_id": "grand",
+    "source_file": "threeoaks/reference/grand.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "56a9b0c6d59d860fbe0d6ccd4114cd17543e4c579ac7851798e65fbc8a1a5270": {
+    "game_id": "joker_glitz_x1000",
+    "source_file": "threeoaks/reference/joker_glitz_x1000.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "collect_win"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "f9dd83dabff6035d0906b38bd2f1ef093f94ae6abcd81c19005147290f17c513": {
+    "game_id": "jungle_volcano",
+    "source_file": "threeoaks/reference/jungle_volcano.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "mini_bonus_init",
+      "mini_bonus_pick",
+      "mini_bonus_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "a7a18e16e9b3006f44ef541f5db541ee200d7a9db9ea8b3d1f1fa39d3c980e5f": {
+    "game_id": "lava_coins_2",
+    "source_file": "threeoaks/reference/lava_coins_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "bonus_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "5e1c660756e7a28d4d16b36d481eb70af6b405228baedd724b5f069b58a7bf35": {
+    "game_id": "lord_of_thunder",
+    "source_file": "threeoaks/reference/lord_of_thunder.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "e965f616576d7c52753c2b1d14120511d8b9951b5d51d862624b4cd10a09b8ff": {
+    "game_id": "lucky_apple_x1000",
+    "source_file": "threeoaks/reference/lucky_apple_x1000.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "collect_win"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "05361238787d4bc94cdedcae6918173e67f46fee040bfbfeda2d6d08d6f444d5": {
+    "game_id": "lucky_apple_x2500",
+    "source_file": "threeoaks/reference/lucky_apple_x2500.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "collect_win"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "95135fb72b22ea1045080f34e45b59da8f664c96c0c0c25245cfe2b848a60b80": {
+    "game_id": "lucky_penny_2",
+    "source_file": "threeoaks/reference/lucky_penny_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "collect_win"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "6a3abb70b7f8b82b15fe71618eb0addd82bf0d3ff5bd674ecd0f8ce3b56a784d": {
+    "game_id": "lucky_penny_3_pots_super_wheel",
+    "source_file": "threeoaks/reference/lucky_penny_3_pots_super_wheel.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "4c7cb34c2286cf21d3058bd88ad7edf5cc427f6bf0c094832e3a304b8514c5d5": {
+    "game_id": "lucky_penny_powerscatter",
+    "source_file": "threeoaks/reference/lucky_penny_powerscatter.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "collect_win"
+    ],
+    "review_basis": "Own COLLECT_WIN enum, availability guard, no-argument flow call and default args||{} serializer reviewed."
+  },
+  "7f966e76faa9fdbad90748804fd318c269d77567aad17c4773e7b80b13b200ac": {
+    "game_id": "magic_clovers",
+    "source_file": "threeoaks/reference/magic_clovers.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "1079bb3926e69facea7af9a994fe4d153e99af5d8d11d467c9b666c5799e7958": {
+    "game_id": "power_sun_xxl",
+    "source_file": "threeoaks/reference/power_sun_xxl.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "78c6725e013dc960fe5b34103cc3e375300e14838648c46b3f4d9cf39c8cdd4c": {
+    "game_id": "purple_diamond",
+    "source_file": "threeoaks/reference/purple_diamond.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "781a12e7a7013f16c603e8f30f3952410f91e8a2f2e3c0de377b374bf3ca52f1": {
+    "game_id": "space_coins",
+    "source_file": "threeoaks/reference/space_coins.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "85175ff24532d8764c5eb8cda5e15727078bfd5e923c82d2f4645674544b7e2f": {
+    "game_id": "sun_of_egypt_5",
+    "source_file": "threeoaks/reference/sun_of_egypt_5.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "e9f18ab8bc35213026723e6a4bd29c93ee62c68232de294c9dab903a187ca8bb": {
+    "game_id": "super_china_pots",
+    "source_file": "threeoaks/reference/super_china_pots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "4fb0fefd531ec1b0a269fab3ebbe3aad179bf8721ff9c3d48995bbe317bb77dd": {
+    "game_id": "super_hotfire_diamonds",
+    "source_file": "threeoaks/reference/super_hotfire_diamonds.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "4d2796ef5041970dfaa74c4a6d3bdf4230183303f5ac5a11d499409151a551dc": {
+    "game_id": "super_hot_teapots",
+    "source_file": "threeoaks/reference/super_hot_teapots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "88a54a458ada9521d7641498bcbe90b85f913449222a6556395294f1b87ba868": {
+    "game_id": "supreme_diamond_xxl",
+    "source_file": "threeoaks/reference/supreme_diamond_xxl.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "bea1a24e5165413499668830741e74bb740ba16e1a3f03d46df18ee017547fe8": {
+    "game_id": "thunder_tiger",
+    "source_file": "threeoaks/reference/thunder_tiger.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Reviewed public converter/flow actions; generic continuation serialization uses empty params. Native offer remains required."
+  },
+  "f9492c4f6bf9b86c5a98c6fb45abe5f3412a924838c799b5a81ec93cf89a74d6": {
+    "game_id": "15_dragon_pearls",
+    "source_file": "threeoaks/reference/15_dragon_pearls.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "e95b00348c070433654b0e3fe919b36e946e9ab6caf1d250221044059237eb2d": {
+    "game_id": "3_african_drums",
+    "source_file": "threeoaks/reference/3_african_drums.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "d9fe935771426574c297f405f30d009e681481da81204174a3b2daac13816100": {
+    "game_id": "3_aztec_temples",
+    "source_file": "threeoaks/reference/3_aztec_temples.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "67ba7024ec2d9c4f7000678b2459c2bd441ecff8a08041768a3e09231a6aed54": {
+    "game_id": "3_china_pots",
+    "source_file": "threeoaks/reference/3_china_pots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "0e66497669ee5c826b1a3b7726a4474e35c1ad0a2c08801d583d9b6518f4ebff": {
+    "game_id": "3_clover_pots",
+    "source_file": "threeoaks/reference/3_clover_pots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "bonus_pick"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "ecfa46451b11a12c9442b1d7e5806b960a8a80691fb86646f2e418652708df4b": {
+    "game_id": "3_clover_pots_extra",
+    "source_file": "threeoaks/reference/3_clover_pots_extra.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "e1dcac9914005956d8d29d2719b33175f4e036db06cde10e7796a68af2bea0d6": {
+    "game_id": "3_coins",
+    "source_file": "threeoaks/reference/3_coins.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "3042c1e44b18d7083d4e05f77d24cda4bda2d3e37b532f9eaeb70f7243d85521": {
+    "game_id": "3_egypt_chests",
+    "source_file": "threeoaks/reference/3_egypt_chests.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "7d013bf6f4ab0c632c7b50a6d41f4102fc3676858d4d8585c2cf9dc0338d1e66": {
+    "game_id": "3_hot_teapots",
+    "source_file": "threeoaks/reference/3_hot_teapots.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "54c45ccd5b74dc4535c6e09a7b703db5fe40f58e8e068872f44cdad21bede256": {
+    "game_id": "3_pots_of_egypt",
+    "source_file": "threeoaks/reference/3_pots_of_egypt.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "5f45623b5ee8afa1446b9980ab84d147b6a3f47ea4d2aafbcb2ad62e22e1461f": {
+    "game_id": "777_coins",
+    "source_file": "threeoaks/reference/777_coins.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "8779d073163466678b6c9ad87c78d07c047a44bcfdf764c07431fee954628cce": {
+    "game_id": "aztec_fire",
+    "source_file": "threeoaks/reference/aztec_fire.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "4191f617515c617a8d72e7a14af4a1a818f1729136ec8cac05268b5bfb71ed99": {
+    "game_id": "aztec_fire_2",
+    "source_file": "threeoaks/reference/aztec_fire_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "c41c7925c4457c4b2bb635132fb2d019ac9a8c43dba7934110000bbe2526d3f3": {
+    "game_id": "aztec_sun",
+    "source_file": "threeoaks/reference/aztec_sun.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "ea96f45e88674b3b92c1f186d621e451a276757e8ad3eb2779f13473e436cf75": {
+    "game_id": "black_wolf_2",
+    "source_file": "threeoaks/reference/black_wolf_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "8488e5e37415c45d993b2c997e422ca542cefe92cc1a1ac2d7ac3b7b6e296cb6": {
+    "game_id": "coin_express",
+    "source_file": "threeoaks/reference/coin_express.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop",
+      "bonus_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "2e56bf944da6f6bb11731d8f97e91664a7f7d32760630bad63e1ffca411b47aa": {
+    "game_id": "dancing_joker",
+    "source_file": "threeoaks/reference/dancing_joker.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "318901ae6ca75a8786af5cbd4b2cb7a100c74b0b5656e371a3b26ce6f79cae16": {
+    "game_id": "egypt_fire",
+    "source_file": "threeoaks/reference/egypt_fire.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "3910f41d2f3e9cbc82ac8f1bde804967aa37116f502a3c49927f4c3305d6c5a2": {
+    "game_id": "fishing_bear",
+    "source_file": "threeoaks/reference/fishing_bear.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "9a82b7b618b42b8124222288bd19336d270bb05bc088def0e588979837cb4f42": {
+    "game_id": "fortune_globe",
+    "source_file": "threeoaks/reference/fortune_globe.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "653231b71602148ca8a9de6588ab1456876039127713fa2a9cf7b2594f6fe223": {
+    "game_id": "golden_teapot",
+    "source_file": "threeoaks/reference/golden_teapot.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "77972f0f9afb493f63dce44a3620cfa347a8136825e40f30483455542ffa256d": {
+    "game_id": "gold_express",
+    "source_file": "threeoaks/reference/gold_express.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "efee4dfb7e3ff88f723cec45e60c587393f2979881e2db9fdd88d25ab6153509": {
+    "game_id": "gold_nuggets",
+    "source_file": "threeoaks/reference/gold_nuggets.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "20c590667fcd959f49fd1249ca8214ea22424eec13594f889dee12748c8ecac8": {
+    "game_id": "grab_more_gold",
+    "source_file": "threeoaks/reference/grab_more_gold.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "4925a494d7b2342512576ea8b6086d8dab7478a4a47da7f7c4a1856e1cf810c0": {
+    "game_id": "grab_the_gold",
+    "source_file": "threeoaks/reference/grab_the_gold.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "9f8f7959438ae715f5cf3575e3966774575c25090517c9520870c60e3af50e73": {
+    "game_id": "green_chilli",
+    "source_file": "threeoaks/reference/green_chilli.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "272051a1f4f87bb67cdb64e29450c69a099b589464e11cf98777c67242aa1583": {
+    "game_id": "green_chilli_2",
+    "source_file": "threeoaks/reference/green_chilli_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "37ecb4c1a032ed4b15af64b51717c039823630460cd78e3c658d2842cfe26047": {
+    "game_id": "hit_more_gold",
+    "source_file": "threeoaks/reference/hit_more_gold.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "4d64024c8c8b009897fc08e36e244e173592438eda56d4eb7b73d755178e7128": {
+    "game_id": "hit_the_gold",
+    "source_file": "threeoaks/reference/hit_the_gold.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "c630abbe6ef654ad9b69eb550436ec0db75569a910a556c259e369cd0c1ce7a3": {
+    "game_id": "hot_fire_fruits",
+    "source_file": "threeoaks/reference/hot_fire_fruits.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "a8edae220256301a00b7466e8787d0db7912c282d4407a63b41f92dbc315ab9b": {
+    "game_id": "lady_fortune",
+    "source_file": "threeoaks/reference/lady_fortune.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "927bf896614aee29ad9d08e64fab2f94c2403a25858258c93f710ac039d17501": {
+    "game_id": "lava_coins",
+    "source_file": "threeoaks/reference/lava_coins.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "bdaca356dfa3ffc03dc0a6534441af515ab99e6cd180b1f7c5ca736315aa94f9": {
+    "game_id": "little_farm",
+    "source_file": "threeoaks/reference/little_farm.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "0b25a7b86c2d81a98f91cbc8c3e844160733f8eba3bd81bda0f2282c5dd7df9c": {
+    "game_id": "lucky_penny",
+    "source_file": "threeoaks/reference/lucky_penny.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "8d0c702efae9740c61bfc4d2c40a59d8b74b229b64419811c3eb11fc26329684": {
+    "game_id": "magic_apple",
+    "source_file": "threeoaks/reference/magic_apple.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "3a456e2cc2aee25e57a3acaae082cdc0f7fb757ca26b4909829e13db0180f5e4": {
+    "game_id": "magic_apple_2",
+    "source_file": "threeoaks/reference/magic_apple_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "ec4bf3ec4af4c0897ed77cd55de6a12b9d145241e1c6ef4be2590c42764cf79c": {
+    "game_id": "more_magic_apple",
+    "source_file": "threeoaks/reference/more_magic_apple.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "e56661795bc2bf1a628ac021b8e14b904f089131e1e4bc82ab00498ce1640167": {
+    "game_id": "power_sun",
+    "source_file": "threeoaks/reference/power_sun.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "78f56c7a41d3c202be68fc3d5348998db446992aef8eda9ebcf50e8f8228529a": {
+    "game_id": "rio_gems",
+    "source_file": "threeoaks/reference/rio_gems.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "db265deb03fd57c2f7b2fe2b22f33978914b74195530b1cf0794e272a4a70cdf": {
+    "game_id": "scarab_temple",
+    "source_file": "threeoaks/reference/scarab_temple.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "f02f5f6d74fc04b85613bb3dde1c073fb9333787a9415b5f74d733af9928e97c": {
+    "game_id": "sunlight_princess",
+    "source_file": "threeoaks/reference/sunlight_princess.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "0ec033bf122de7cdf1fbe4ab45b0e603e76ca7009d268b9011e34c86e4ac2db0": {
+    "game_id": "sun_of_egypt_2",
+    "source_file": "threeoaks/reference/sun_of_egypt_2.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "6275e4b9f318a9efc6e501e56843d91a7992e705056a633092a1f77cf32920c5": {
+    "game_id": "sun_of_egypt_3",
+    "source_file": "threeoaks/reference/sun_of_egypt_3.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "c08bc8b30fe62893814fc1d21439973952d7dc9357680282e144c3a0990ca6d0": {
+    "game_id": "sun_of_egypt_4",
+    "source_file": "threeoaks/reference/sun_of_egypt_4.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "c0427fab6193d4e9bc5d627c11042350ce90acd86dcd7fc37d90580811c9c8df": {
+    "game_id": "super_hot_chilli",
+    "source_file": "threeoaks/reference/super_hot_chilli.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "0e6b386e12dfeb4171e82cd1932af018e948c1e95656e54daef7e5b6fe82bde3": {
+    "game_id": "super_sticky_piggy",
+    "source_file": "threeoaks/reference/super_sticky_piggy.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "3465b32d76eea57efc9dd53d40e1ea88b1bd5e1ca9b6b11188c3f5dbb75fd7d4": {
+    "game_id": "tiger_gems",
+    "source_file": "threeoaks/reference/tiger_gems.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "004dac227205e0fa1a528ff8bf027d25667ebb79cb85a7f89347c20210ac3bea": {
+    "game_id": "tiger_jungle",
+    "source_file": "threeoaks/reference/tiger_jungle.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "5e61cb7dad51d68afc650da5e341f3d64f16ab70947d2b3e150583872462fd81": {
+    "game_id": "wolf_night",
+    "source_file": "threeoaks/reference/wolf_night.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_basis": "Own public native action checks/routes and bound empty-argument serializer reviewed; asset names excluded."
+  },
+  "7db7be8896a496b04b1405cb64d776673188651e8bae1d69df36c5dac0239887": {
+    "game_id": "moon_sisters",
+    "source_file": "threeoaks/reference/moon_sisters.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_offsets": [
+      588741,
+      576615,
+      317463
+    ],
+    "review_basis": "Reviewed public flow emitter without arguments and serializer params=args||{}. Only currently offered native continuation is allowed; no parameterized choices found."
+  },
+  "a7e05edd84db7c88d23b110757739de32cac85a44af7d1eb8485998670d26dcb": {
+    "game_id": "sun_of_egypt",
+    "source_file": "threeoaks/reference/sun_of_egypt.client.js",
+    "empty_actions": [
+      "bonus_freespins_stop"
+    ],
+    "review_offsets": [
+      603570,
+      592876,
+      618888,
+      338599
+    ],
+    "review_basis": "Reviewed public flow emitter without arguments and serializer params=args||{}. Only currently offered native continuation is allowed; no parameterized choices found."
+  },
+  "7b2c10b691ebfd3f14a120fb9ed30064e85aed729da0504ed10c90245f647ce5": {
+    "game_id": "book_of_sun_multichance",
+    "source_file": "threeoaks/reference/book_of_sun_multichance.client.js",
+    "empty_actions": [],
+    "review_offsets": [
+      723980,
+      724371,
+      443437,
+      289832
+    ],
+    "review_basis": "Reviewed public flow emitter without arguments and serializer params=args||{}. Only currently offered native continuation is allowed; no parameterized choices found."
+  }
+}

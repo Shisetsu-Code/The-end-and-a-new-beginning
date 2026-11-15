@@ -1,0 +1,40 @@
+{
+  "proveedor": "hardfire-kalamba",
+  "archivos": [
+    {
+      "ruta": "codigo/kalamba.rs",
+      "bytes": 30584,
+      "sha256": "94a44342892e545c8d6a2bd15246410b3f335b74f25bc633fe6491bd9c229eec"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 89055,
+      "sha256": "1bb66e8707fe10a42cb5528cf6b7e3e5946ef83685800aae21ad5abad0a53c58"
+    },
+    {
+      "ruta": "evidencia/hardfire-kalamba-bindings.json",
+      "bytes": 11435,
+      "sha256": "ed7d1f6584f27aff1a04d418af6c0c9b0f65235edf3044cf2e0c50a881c4dfeb"
+    },
+    {
+      "ruta": "evidencia/hardfire-kalamba.json",
+      "bytes": 79,
+      "sha256": "33c4766bce9451fd721a1581e2ee6a6762ca65aba5f485ac2c7b1a8bda2dc7a8"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 88748,
+      "sha256": "f640e875091e738f227f17a1087b97b68fd23f558271d2f493ff1097d287e089"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 102,
+      "sha256": "05b938d9d0ce9bc07203c4f2654d3fd09a22cd95ad55101580f312fe1a913e8b"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 553,
+      "sha256": "61743c213e0ea3c9e50213d342ae9430431b8ca59b8ed694bafdfea4afa57f8f"
+    }
+  ]
+}

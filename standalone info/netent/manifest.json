@@ -1,0 +1,1495 @@
+{
+  "proveedor": "netent",
+  "archivos": [
+    {
+      "ruta": "bindings/netent-geco-modes.json",
+      "bytes": 6565,
+      "sha256": "858836a0dad5f715ef97e9e893c5447f7848803ed3057737f5e303d997fd311a"
+    },
+    {
+      "ruta": "bindings/netent-geco.json",
+      "bytes": 13578,
+      "sha256": "da9c89453bfd36e4a02174fb91fd4c9a8d05dad17e93ee095306fcc6e375759a"
+    },
+    {
+      "ruta": "bindings/netent-horizon.json",
+      "bytes": 42423,
+      "sha256": "94a9bb9069653300be8d2767e11bf5f321437897046d4b90d300f8e5171c7a39"
+    },
+    {
+      "ruta": "bindings/netent-launch.json",
+      "bytes": 19340,
+      "sha256": "0f5bb9dc09e5884d427ea960fbfa27efd816537926c410370e0bac0b9d842f0d"
+    },
+    {
+      "ruta": "bindings/netent-redtiger.json",
+      "bytes": 7346,
+      "sha256": "fb14357c2b2d1bd664399e154b5e800002a190081a85f282677ed8e6d1027de4"
+    },
+    {
+      "ruta": "codigo/netent_geco.rs",
+      "bytes": 24258,
+      "sha256": "1196bc9998ea68483348862008725bfe0385ea01e2bf62b0daacbb7da7beb7d1"
+    },
+    {
+      "ruta": "codigo/netent_horizon.rs",
+      "bytes": 31486,
+      "sha256": "fd7ba4945f35e07beae3a23ac3a697e71084ad1db0968f8dae6d1f776be5f85c"
+    },
+    {
+      "ruta": "codigo/netent_launch.rs",
+      "bytes": 22387,
+      "sha256": "9bd6ecbe8cf1709dd4e04b582a0ec497a9b7d246b10dcb89d7820e98d74a75d3"
+    },
+    {
+      "ruta": "codigo/netent_redtiger.rs",
+      "bytes": 9177,
+      "sha256": "99759470110eca3a3182d5937e0ad1bc7a22fe8c106648cbdc2ca1068bca6e3e"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 88047,
+      "sha256": "2ec224c26726fdac0d4941cdb5c99e9a4993defb4ad4983fd1e55cabb1769a4a"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 577782,
+      "sha256": "e3990f9519b3f9670f2846b6137c326d6b532814b57949557847de311f1957de"
+    },
+    {
+      "ruta": "evidencia/netent.json",
+      "bytes": 818868,
+      "sha256": "2542f0c6bf35ed0100bf50d9ec616062c170235143db8fcee5ec69050a0b7c68"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 88002,
+      "sha256": "19f484cc6b4139e8cae26f363d53fac445ebc0fa2ed16508ab49481dbcc889ca"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 63534,
+      "sha256": "76729257d4598a5f6680987472bab1d93e03fd5c516f0237c72b9d1dbe2fdb6c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/batches/1-100/index.html",
+      "bytes": 26145,
+      "sha256": "acbd7a6002b9ac2cd8bd8e1e949fd179c2004d1b851f3e76ef0bee91580a1ed4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/batches/1-100/summary.json",
+      "bytes": 12876867,
+      "sha256": "8c97d2227f62a7f1219458366a1136133bd7e4965870aeac795f62940300e519"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/batches/101-200/index.html",
+      "bytes": 22223,
+      "sha256": "f80806638ec00bc34e5ce026448f190d9e6b85f4b2a83c45ea02049c94ade66b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/batches/101-200/summary.json",
+      "bytes": 202425,
+      "sha256": "61956436f6794c52176ef98b98cf72cefa7c069a3c05c83d538031f44ffdebe9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/batches/201-233/index.html",
+      "bytes": 8620,
+      "sha256": "ab428c2efb8d748918781f51d32cbb9a774c9d26858ac4b19fadacd7876128e3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/batches/201-233/summary.json",
+      "bytes": 1522632,
+      "sha256": "2dcbc1aa8b98ebca934cee2d52e3f03444cfc44da1cf61bb10cdb8627ba77994"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/005644d64d3bcd05c5a7.json",
+      "bytes": 8083,
+      "sha256": "705ff2a779fac6b9d6e42a3f9690b434152306cdca37085a46025e8fb95491f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/022425a4d8f277df63fe.json",
+      "bytes": 378486,
+      "sha256": "d45a4fd5051548789e44cc714dffaae87b65f823d56e4a564698b4084f627d35"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0390ea204a8e9b687acf.json",
+      "bytes": 325202,
+      "sha256": "4c8fb4ae7312be6533b1db153ec389b720b14edae293908aefa2aab64fed196d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0655f0c9bd600ecdb034.json",
+      "bytes": 639412,
+      "sha256": "6a3ee3bde5909624ed9f3813f81f097c7f89f40a72ca09deb2711d9f52fe841a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0668b102474d1531bf78.json",
+      "bytes": 141587,
+      "sha256": "a28e41a635e500df180a7f22c9bb4bff838222eb06eabd664058fd60e272f90e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/074904de7003a97eeec9.json",
+      "bytes": 1387,
+      "sha256": "da3005a6a9addc6bb15cb51bb41b61b6564ef569763e86810dc58a4dfd5756c1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/074f49a1223b68a07ad8.json",
+      "bytes": 1216387,
+      "sha256": "9bd331a51bacc4b532b0c732434b7ed5aea1ccafd33c04ba6172de209784c00d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/076389f985b8c97f402a.json",
+      "bytes": 260427,
+      "sha256": "1ec449b19e3d87630fabe8e34504a43425788743f11a5a18dea0d1b4c677c30e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/084b7433a5efd03df43c.json",
+      "bytes": 1393,
+      "sha256": "aef8bccdc32e1498490e4001ff9b41d24f5e37884748a50f4914eb36e88c9323"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0896260591b6bfbf90d8.json",
+      "bytes": 6418,
+      "sha256": "a6007ce46846d55fbf03459c1e705344bba1752014119ef9c49ee74974a62036"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/09b8607701ec4624146e.json",
+      "bytes": 1383,
+      "sha256": "67d83b789322e898b8b971e8be908e2afab682d582ab24ceceeeb0c798140e94"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0af2244788b94af719aa.json",
+      "bytes": 2677,
+      "sha256": "abb9b052937f8459fa43c2820952049caf99d6c45e9a33651dc480aed6984308"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0b2ee3a93e0d8fbe045b.json",
+      "bytes": 2060,
+      "sha256": "beb8cbef2a14fffa565be3e862de7fbee7904c40760344629d00da8ad620e62b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0c02cfe2ce590d721596.json",
+      "bytes": 1402,
+      "sha256": "2c28d801c908af23aacd4c74cfb878c5ab16388da30fbab806f0ffc6a75c7609"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0d81f8126a9a67e9ec06.json",
+      "bytes": 1383,
+      "sha256": "60a239ca3e2b7834da3296d65375132609b2c1107f5324874491452fce427114"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/0f129547937d124d1d78.json",
+      "bytes": 172752,
+      "sha256": "8166d5695a29d6d9d13ed5242e28b03096ca78d07e6cf1ab8c8f63d61dd83248"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/110f4910bfb24f503c5b.json",
+      "bytes": 62019,
+      "sha256": "482ef6ff330bc9ce7f5a0df97562dd4bc35a819e36f3934d95dba60f3648d8a5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/114020a7d82a9b488f41.json",
+      "bytes": 1358,
+      "sha256": "ad561b4c56256976a853719e9b51574858f33bd1d70fd4b572d8f2b0154a9dae"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1156e2f4be1002855a64.json",
+      "bytes": 1413,
+      "sha256": "f8f584b279cc1eea29956261c89c73b33b0611cc369480af09699e648e6e039e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/118721be371fc6de1564.json",
+      "bytes": 1389,
+      "sha256": "f4b81ecb40da6ecc08350f21d81a8df66592ba80c6ea40d7e7a70852ecb2ac6d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/11e811b6bb846577bca8.json",
+      "bytes": 1400,
+      "sha256": "97acf1c87830615dffe08d9bf3e32256cdb1ba86e8d880ebc791eae89a22b44e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/12a0e1115e018449e447.json",
+      "bytes": 1378,
+      "sha256": "dfe6f6a751eabf70b70559de2a31edbbc2b7511de4976af9a48b68c0b94f99bc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/13f2f791efd76e488dd3.json",
+      "bytes": 42404,
+      "sha256": "be98fcfddb9cea04c1c4ad8755590192ee6a6f4b5b647ebc2751c15e80a65290"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/14714ba4aba20fe25e9f.json",
+      "bytes": 1385,
+      "sha256": "b04a4d6d921d9b77d094a0881442dd3800529cb1cf32a496e4410d2512d5f722"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/16070c3648469d37a5be.json",
+      "bytes": 1422,
+      "sha256": "9f1805e9e32dd275a4960dffb5ebf3456f0fed9070780cb1c309743fb4b58e52"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1665480ffecc78ba8904.json",
+      "bytes": 1380,
+      "sha256": "cc28b97a514cf863b774c4509dd2ea38be53c0545305276fd66858ea0bb8e2b2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/16cb76d5f21008fee265.json",
+      "bytes": 1389,
+      "sha256": "b52a8c99ded9cc9bc8e12ab7e38937e6fd3e06ec95e0f4f951091d5b59812e64"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/16df283b459e881ae1fa.json",
+      "bytes": 240144,
+      "sha256": "46ab1bc00223dce6aafb697da966d60f2930b24735a640a893fc66f9c5840029"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/16ff3db03b9f048d1773.json",
+      "bytes": 1379,
+      "sha256": "cae7f336e743073b02577c1083ecdbda5c99bd825353f58d0116dd1e861f8295"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1778beb7fb82a2b67456.json",
+      "bytes": 1390,
+      "sha256": "599412c2affc345397f81d63504bfdfe34c7bfb565049b9fdc8bf77be88f2e06"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1874c04f11e6624427d0.json",
+      "bytes": 209327,
+      "sha256": "077b35c296a8b5388d07f0306ebdb447b1713ea1f8e5cf2e6b68a46ffe6c745a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1b2c11e38cd2b6f7205a.json",
+      "bytes": 187146,
+      "sha256": "f7384fc2a555581a84f4f358e2bc1791f5d76e6317e0a1eb1e53a5eeb2d47901"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1bb013c5b660a40f0241.json",
+      "bytes": 1381,
+      "sha256": "c3befb82d12052ed3fbf170fcb71fdc56d8c9641b1be755cbd738844f3acb147"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1c63ec6d07661885837c.json",
+      "bytes": 2006,
+      "sha256": "339c5f639a9ed4e34c7b62fc7a98319a972b575984fc7480ea86831c80aae87b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1cb1aca1fdb9f25c02f1.json",
+      "bytes": 1373,
+      "sha256": "e0af8a221949301f59f5ba4d73b2e58fc5453250df5f03e18c313d032b4f9a7b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1d1fb7315e1529da4ccf.json",
+      "bytes": 4563,
+      "sha256": "69e2322f54407d087ae32b82b664ebf37f308de30eccac71bc75719ba5700fc2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1dff03c533b02ad33709.json",
+      "bytes": 1418,
+      "sha256": "8a50b4fcd2487c1e79661c935627e44e9b5a6f750110bf917a60cb8106f87ad9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1e50a55d36f22f295bbc.json",
+      "bytes": 1397,
+      "sha256": "e98ba1f89c2d30599ff83da484402dc2a7385cfd8d80b6a667e99cb2867aa412"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/1eb6811b6d2e128fa6ae.json",
+      "bytes": 4730,
+      "sha256": "2f2a623d44db75cccd12e7844dd5f0bfc720b3fc587db34c5ddb74a559f5f9a7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2026fdc21da148e041f2.json",
+      "bytes": 243308,
+      "sha256": "8b875814ff5f8a5f080d1e662ca024e06e2f751d2eeee7efb10b5c11b8d678a9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/20cbd2d1ba5565bfb9b8.json",
+      "bytes": 1385,
+      "sha256": "6eb545c921bd7daf577d5ee60f01c856f461b5d55de81e88150a29ec2890370f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/221ddeb7cd695a9ffb23.json",
+      "bytes": 393,
+      "sha256": "9d42bac4405b8a0d6c22edbd4860dfe346d8617429a9a5856783d5a67bb00d35"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2293a9247519a7e8ed91.json",
+      "bytes": 1385,
+      "sha256": "6cf937c57c07e14fae9135f1dd5a742ed1d8b5b2351ca71acc29bf3bad72dffc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/243649d5370828eea835.json",
+      "bytes": 1394,
+      "sha256": "821fa7898a753058b91efd0409c5cc4f8bdd5d3e859a3b85853a7e1e93e39565"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/24a8151c40db3df4b4d7.json",
+      "bytes": 1391,
+      "sha256": "01001102c7550dab25da84c90d9b67ab6db17abfed7b4014e8830eb3f3748be5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/25bf49936e6754ea9c32.json",
+      "bytes": 1391,
+      "sha256": "d4648c20119c1bc4512128b42192d5891217086eefe891d99cd714bf90e4ffe4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/27b6ebc20829a04f67bb.json",
+      "bytes": 296982,
+      "sha256": "67db92e65abe66c5cc6c8ae6a4747d0d4ecbe027f4e6acc41df1abe7ab149363"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/281c663d06b1da77c5b2.json",
+      "bytes": 379,
+      "sha256": "e3df38296241549f2fed7d397216c84174f6d8a8cf7e9e33d073dcab556b42ea"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/288def7e0dd90c9665e2.json",
+      "bytes": 397,
+      "sha256": "4d2491ac7895f52d0fe1a8476850f8a198152e92f6cf5406ca3c183e21f0f7bc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2a44a1ab9bf1a7330df6.json",
+      "bytes": 259821,
+      "sha256": "e1152c85cea9077734461d856a6fd4fff9674de8fc45a1f9c4043b8298d7e0c9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2ac2091c36254bb3a81d.json",
+      "bytes": 1391,
+      "sha256": "afdf1279548c7a4b4a887e371716bffe0d40f1070aa31b065732aa7640380c8c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2ad4eb4c4f6af4b5369e.json",
+      "bytes": 1397,
+      "sha256": "68f4eecfd3d14a04dec2865635d5e0a9e9564390956f5e9ab7f1b2f581287ea8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2ae38b9202bf83707289.json",
+      "bytes": 1379,
+      "sha256": "f373e45cce4afb4300a991b47d73d4fe2eb6a5faee5b57c91b7277ddb51ea820"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2b9d372d3e5ca34f297e.json",
+      "bytes": 1385,
+      "sha256": "32ce2cc0238666de4ba39aa57f2dbd715e6d8034f2a1e5d81c6d604e08b10cda"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/2d68e4b835e6a833c41c.json",
+      "bytes": 235148,
+      "sha256": "72c326ba5ec62ee03c724f99c794d0e1f9f0089dbfd93165f9e6ac0e0d612583"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/30ec6d9163e51bd0107b.json",
+      "bytes": 262544,
+      "sha256": "862f8b711dbd1b6bbef2c7868f099287874b243540fc31b08038ceb708e2cbc7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/315aa835d0e53729815d.json",
+      "bytes": 1377,
+      "sha256": "bf41242749873425f6dbcb0b4e8e1b177b2c17a356cd1234d5769d5337323e76"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/31cf7c4bf5690aa1b385.json",
+      "bytes": 1414,
+      "sha256": "ff998da39c3ec4e1e4ad9ea227a76ef5f7d7ada560f894ddd93ea45de8a4f849"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/33d9f96d28050b32e7c2.json",
+      "bytes": 1383,
+      "sha256": "b051cacc0e80b7a469ffcc6d290a82efd9d7a76cc708cb6ed80827c29efad42b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/363d7798ae6ce325888a.json",
+      "bytes": 1405,
+      "sha256": "e6aa5fcc8cd57ca5f114ca1de7973c074cacc8908fc0b00960c11c0edca8676f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3694f12083002d316423.json",
+      "bytes": 9987,
+      "sha256": "7f0375cabd36aba76239e94abea50e42a5c67e98acee2c4affb8798942886616"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/36974ffc585c6a4bc4b3.json",
+      "bytes": 73108,
+      "sha256": "4945fe3f2051cf87bfabb636dc28afb1db8ac21b2d049402813b07967357c187"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3a24481fb18dfab8f415.json",
+      "bytes": 1634,
+      "sha256": "5b9d0a46636a1a604a2f47f4ca9588ed22625d5dae56ba7ae9f4a57d25a1329e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3aa0f19ca631336f7f6c.json",
+      "bytes": 190853,
+      "sha256": "410e4b6a5f7ec192008b53fb87361eea8bb5f7ec59f4b65fef97740e944948ab"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3b0b47f775cab046c14a.json",
+      "bytes": 1389,
+      "sha256": "0397e2bc9531a28fb7e536cc5bbc023de5dc4547ae0ffbabaa6bb50971da952e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3cca38b98fdcf3235983.json",
+      "bytes": 394,
+      "sha256": "08be00f12ba669c0a0eb4a2e8505b2544ed5302224e8a6ad42a2feb68e497d68"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3e641f644c1a7218f5e7.json",
+      "bytes": 125793,
+      "sha256": "e7c4583bb75cc09c89006a6d0804455bcd35f64c03b0b2edc71f0cc6a1365841"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3e6b30b6b241c4ae0b8e.json",
+      "bytes": 1400,
+      "sha256": "286fe5f7181635abd88f70421dbb5e006b0a9bd8aaeb29091b3706a0a68a6c49"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/3ea6082a222599dc626e.json",
+      "bytes": 1393,
+      "sha256": "c09052248fed1b7be3897cb85211ffa1a32a1c6c13ae142015c79ba9d37e5f15"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/429e786425c103ffe053.json",
+      "bytes": 1383,
+      "sha256": "5d8dd0bc769421c2782c7fbec53ce4b9bccbcd782cfdbc79811f8f016f1a5cc7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/42ada3a7de77e750a0bf.json",
+      "bytes": 87141,
+      "sha256": "137371dd831388d44ae433955247e503d06365d9c6dd914b2fe630b96b9d44b2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/44d9231a3fdc0dd97633.json",
+      "bytes": 10971,
+      "sha256": "8bbc3bcdfb154815ff24223213e3d8e7f39e87f62e1a7053167a93192e9c5f2b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/453a28e7f258f3e8118c.json",
+      "bytes": 1393,
+      "sha256": "aeeb0974bbf7764bcb2bba78fcf301e3a126d298b68b67b4403a01b808e4392e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/470b0b18b400276fe122.json",
+      "bytes": 1413,
+      "sha256": "143848b83c74f6f9a45df68d24959a62b09d8398ee7082c4de83d77995992c03"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4a008adf0e9f9c34c102.json",
+      "bytes": 393,
+      "sha256": "fb09b11375cb4a8a33a9ef1bcb90ad9d71418f8638cfca024fe49938593bfd60"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4a39360b5cf37d999aef.json",
+      "bytes": 399,
+      "sha256": "5a22b15e7fd0284ae56f93fb260d3cb6c3ac9ca97d3452892d941845241fd44e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4b7140e67e93c2dc3862.json",
+      "bytes": 7298,
+      "sha256": "dcf7f2ad39df11c162247b15754a9e21521a87b91432a8856a4d3d11b6ead6cd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4bc1a6e7c751d87660bf.json",
+      "bytes": 1403,
+      "sha256": "06d47d60de6a46e1c5f87c61f5426e869dea9b1320f7ad585d57347cbeeb1264"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4c0bf75fb01038775852.json",
+      "bytes": 1349,
+      "sha256": "d68748bca9bedb58f7348c775b50a568a8dd014c6839838d2800a7ca56e79f10"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4d38277dffa0b1c8b40f.json",
+      "bytes": 222988,
+      "sha256": "18c9324ebb29589127ff343393be5fe7a6f187af4465864fef815204d335a6ea"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4f3ed68be92894c59730.json",
+      "bytes": 1379,
+      "sha256": "a2fb1a51abf3c7eceaa3a7f9b3dd3974f767efa4319554cc83a013555adaa283"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/4fc20854f8c6f1f72213.json",
+      "bytes": 406,
+      "sha256": "383cfcd855a3031825a092bc3697319338b70d1ae4d046e37ed14cc42bdd421b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/5583f89fcd9df8ecb809.json",
+      "bytes": 174733,
+      "sha256": "20b549c824826fe8c5aee1204159f5828813517f1c15e8f506da650badc0683f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/55d2f257a0331237d597.json",
+      "bytes": 38827,
+      "sha256": "381558d0154a8aa5a15dfa8e077e701c5f3153ea901576ac6c591380477464e3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/5627c3a4a66f5c4f0d71.json",
+      "bytes": 1393,
+      "sha256": "312f0bc4adb25be5a38ad5df8a6b853ea8f32e405153c31bbf9ce6526b9d161e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/57dc91203a59de0c5dc1.json",
+      "bytes": 1395,
+      "sha256": "132e832eb84978a71502594291748ffb040f319e7e934eb6c442b51edccce2c3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/5b17fc01bbafe259cc64.json",
+      "bytes": 2546,
+      "sha256": "ca184af1258aead78d962899170a077556761c391f69b7f1001b08266748c68d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/5b40bd5cd4d2951f37bd.json",
+      "bytes": 1393,
+      "sha256": "83c9fcba116ffdd7eca4a967d8eaec918df17c6a3a7886fcca7a5b8265168c9f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/5b432b49705b003d66d7.json",
+      "bytes": 1387,
+      "sha256": "fe2842bd608226114a63de6e30c0775813a657ba36a2ec7135ccd5b93bcee253"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/5c43049464933af4021a.json",
+      "bytes": 1383,
+      "sha256": "bf0eef24b58d544a1f252061219533e2dd8ce5d0552103f66f37cbddf04599a9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/5de12a808d76e8eab180.json",
+      "bytes": 1420,
+      "sha256": "90f7e677c8c9f2455d1b896e2fc71d25b73b5c9745086e0eef068d42ee3ba200"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/6243f5397cf8a0dfbaa1.json",
+      "bytes": 7158,
+      "sha256": "8b0a24323bfce5f36f3a2122a047a44717a240f60adb9ba1838b8555331ba760"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/669368c0b3f702552a61.json",
+      "bytes": 232341,
+      "sha256": "0c55d4de544c9aa8089ab89f13930716eb02f7716d70a226dea21f13529c13cf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/66d1286e46dc0bb7656a.json",
+      "bytes": 1397,
+      "sha256": "498208aa45ae3e850e541908094e9eb7dfcb894a800d9c6f5f6b0da3d0f88bc7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/67001dd425f02ec0d80e.json",
+      "bytes": 1414,
+      "sha256": "1e72e3782a8bed2be2f56cd54338179f78ac91e49bd16cfc3c274e9faa85c2be"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/689be5757cc0ecbb1820.json",
+      "bytes": 1385,
+      "sha256": "8f9b1ffa47f7bfb0d05f410d69159118ced73f8b02722f8c0074465537964e99"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/6b3b1c1f01bd58db7f7d.json",
+      "bytes": 226107,
+      "sha256": "6319b4365a80f95303c4681dbbefb6c61bdd6fbc813e1cb8f05f6e95da899139"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/6cc69909b4188cfec9cb.json",
+      "bytes": 1399,
+      "sha256": "6d08ad1ce0bb57dec4f55bb4963bee18743cd7b8eba98f92372d8cbb1c31e999"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/7187441cf7ea16b31759.json",
+      "bytes": 134009,
+      "sha256": "fc4a5bd0c51bc64f6bf329bd9adc2990ebe2148a284c1a14d3666b8752c280ff"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/71971eb913b27c607462.json",
+      "bytes": 367901,
+      "sha256": "b967dafe47354d9977d6f019bfd34a01f4f05bbd538464828048b83002155e18"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/71cd6b8202abc3300d20.json",
+      "bytes": 1449,
+      "sha256": "4cde8850170ae8dd0af08c949b5971c5a0ed8cceafd96160da18de40cb6576ef"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/728cb86858e3a2da8ef7.json",
+      "bytes": 39088,
+      "sha256": "77e2e75c012726bfe4ce1ec11d1612f2244fb29516ec7bcc725b6a4c7aff50df"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/7418b9e23f73c68d7e1c.json",
+      "bytes": 1413,
+      "sha256": "4f182b6b527ff43ebcbfcfc869092531808529ff9eb3c6e8223aa69b378d2cf9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/745a93846eb3d19303aa.json",
+      "bytes": 1426,
+      "sha256": "071c9afeab7108c4a077bf627c72afdae7489444e3acbc97940ed09d2120bbd1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/75cf11cef4cfd472fc20.json",
+      "bytes": 1423,
+      "sha256": "f511d49b177362cfeb64ac6255663bf68aa1fb54a68cad4d0ec32956e3d61ab7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/78da95f846653e52e493.json",
+      "bytes": 1390,
+      "sha256": "93270e71377a1ee78f7a7b98e8aefd6125bebccb0da38d74641a61e63fdc618a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/793cdc15254b21ac1096.json",
+      "bytes": 1591,
+      "sha256": "7d2fa9c996a164944d198da8ab95b7ad53b26cecc11223286ffee24be6a99409"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/79aea4730d6f9fe37f0f.json",
+      "bytes": 1900,
+      "sha256": "c2e98be55142eca0a436adbb09113d604d247fb0adc0d4618425b064f43605a8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/7bc2a08d7e78ab077f63.json",
+      "bytes": 444059,
+      "sha256": "2ed58d1bc701c3008634930976b286d1812b70c5063b8c283363dbae3ee6f69c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/7d592f1a63d235139060.json",
+      "bytes": 1416,
+      "sha256": "31d34787ce6047e4abf59e3023d9f5c3a75d713c16e9d65846810de1c632e484"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/7d94ee670437449bd8ad.json",
+      "bytes": 83454,
+      "sha256": "191dcfb3f71ffdbb40e65512e2de994a76addb7f367cbfb005af4eab18a2341a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/7e54a5fad48190f10045.json",
+      "bytes": 1374,
+      "sha256": "c465030689d5d5f14132943445d11976ef340937a220e7b3324685ff42ff492f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/80b0498326a861ab4ac2.json",
+      "bytes": 7409,
+      "sha256": "a53eb628beff102d0b2e350529c4402e996a2b997b28eb45d6af0716181948f1"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/80d75280c1a366b365db.json",
+      "bytes": 1400,
+      "sha256": "5e893a60f2eb70ff973441eb2579b7749319e9b14e3e2f37116e83c108791eda"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/81afa9fbdcd408564e1a.json",
+      "bytes": 2896,
+      "sha256": "9feefe611c0384c65388568e6288d1a41e68ace391d4bf04211f4f819d99a39f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/820842b71f2f569f0528.json",
+      "bytes": 1416,
+      "sha256": "250a5baffcbc35351ffc050c565f91e71af7a28814200936a5a4faf94e72bfbe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/834771f3cb04e7b001c1.json",
+      "bytes": 1400,
+      "sha256": "af3733c23a5b0db11fbc3bfaa10f9ef1eb3403d6353c6c30a83a3671df9108cb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/84348a6530753802961f.json",
+      "bytes": 255,
+      "sha256": "ef70b6b2cff8848f7342a65133de30c6207b26acda5986e0173b2e4662d9e959"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/870736660c4b08995f6f.json",
+      "bytes": 21153,
+      "sha256": "ca9723acc8c999a5772dce883ec3d1fcd7a2eace1dbcd62bbe0bbdb630681b43"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/8b4301902a67c256fcc7.json",
+      "bytes": 4383,
+      "sha256": "e116a9ce397724b27f3436ede81a6377f9095c161ca4df587f62976ea4416528"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/8dbfd17fb7b7684167b5.json",
+      "bytes": 6149,
+      "sha256": "f80f2aac98c34204510ce988277b793ae45e7f6087fafb3c0e82662515568885"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/919f7842bb4b20263f50.json",
+      "bytes": 96213,
+      "sha256": "e2882f26fd85d013a2535995cdf7b90b30b2dad6695014b471b0983c4598f74c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9246b38db8e260c8bc79.json",
+      "bytes": 1389,
+      "sha256": "4ac07099c95458f02a148cd6b6d06b0e2108d0b00487cfd13145ebcc24ecd7d9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/933b13e88a2ac3557ec6.json",
+      "bytes": 1187734,
+      "sha256": "0979519ad05a164967af88fb6ca14ed72c759edba6ed9f39a3e1d630b7d759a8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9398ba4271dbae1f28d2.json",
+      "bytes": 1420,
+      "sha256": "ea5152165d724b25fe3bae5a363fa1b1d930a3b781412039380ac5d413d2f4e2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/943221670287409a8a3f.json",
+      "bytes": 1408,
+      "sha256": "d56c069cc4cd62a399c0c778b1d6c0f18bc9a67bdc9301cecc2deba233915551"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/953f8713149ff033e05b.json",
+      "bytes": 19406,
+      "sha256": "8b4e41196eaa516f1dd258b88c143fd6adc96e43585882db9b016c00f9deeeb8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/977499b13d3c8070e79b.json",
+      "bytes": 1340,
+      "sha256": "145100f5652fe8bbc71b710e95611beedc6006e1609472a80c27f13a0c5f617c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/97ac05afecd9081edca8.json",
+      "bytes": 7827,
+      "sha256": "b42614fc4c609378b127486b8e0d06d128cf76004da06a36951dc82dcf56f764"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9a54f953283520b288a1.json",
+      "bytes": 1395,
+      "sha256": "0147873a0da8016def54944106cce7ae7eb7c27769c642837bc99cb919b3b03f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9aaea58d4ba400df29eb.json",
+      "bytes": 6098,
+      "sha256": "07dab3446a3bc29a081f03fd365d1009806e9eac3ab879da9dc6ddc730dc78f5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9ac8f55ac94026c46664.json",
+      "bytes": 1403,
+      "sha256": "1617c8b04c4ea5526074cdbcd54a1dddc5b7e4bd1571eba50ee2c70b50655705"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9b7e7e8d12a6e8475566.json",
+      "bytes": 263,
+      "sha256": "5267f4a26ca234d7319ef5c5d3631c3bf3951fae957f391980e0a5f8ac3321cf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9df7ec94ec6605136411.json",
+      "bytes": 13625,
+      "sha256": "5179b0f3b66bbdfd28fa7f2be1c4d19ba758c671df63912782992255ae0e403e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9e036d99bd885b1f5a1e.json",
+      "bytes": 1412,
+      "sha256": "5b07bea3adc49ef12a576796b48727db0d9c612161b0781a53201309e8f5eb70"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/9f79286e587c021e0de9.json",
+      "bytes": 427,
+      "sha256": "d753a82663ca6feda3d8629cdab2d0fc32699020810869f8a6fef0a746eec7e8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a09738296c6a9016f77a.json",
+      "bytes": 6493,
+      "sha256": "e40cad9c71cb6d5ff967ad1d1eb73edbb914a0a838fb53a197e21e95dcda02cb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a0ccb1fb2959878c0f73.json",
+      "bytes": 104957,
+      "sha256": "3c5aa9d179c8a3768a8262d46d621ad3423919ae0ede8f5fe15f65ae892ed203"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a21f7f2835babbf21e66.json",
+      "bytes": 1408,
+      "sha256": "2a279492d2ad91cb0d9f03e7818f36edcbe79d066c3f3fa83245eae68e76b04b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a342a6311d3c43393593.json",
+      "bytes": 8227,
+      "sha256": "3780a853168b902dbb771f29590401fc1085b9f74674fdd79a0865011a5f674d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a462d93a716a758b603a.json",
+      "bytes": 1411,
+      "sha256": "44eefc3d42f7e3f14c1b0d49710a40ea252b39c869dfbfe2747aac9d1318059c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a55604007752f0e0ad94.json",
+      "bytes": 2660,
+      "sha256": "87b99eaef5366997fee9fa93b9cee42b2f1c9eb3dc2a801c2ee2f08ca6fbb757"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a6a9202ea0513debd387.json",
+      "bytes": 4734,
+      "sha256": "5e52e686613f100fb3914f4c04be1e90c8fd448e7272bed2b34bf9d89afb173a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a769651ba38f957550a0.json",
+      "bytes": 953908,
+      "sha256": "d219dd93dd1ccae45e21bf31f5f1ccdbcec338d60fbc105ed8970cf26eb73149"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a8289db0ff7bd2e85494.json",
+      "bytes": 1653,
+      "sha256": "695d2590f16e675da7b619a33f16216b84354586b8319833dfd4eeae33a152fe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a857efb6666038e919b8.json",
+      "bytes": 5602,
+      "sha256": "9c3ced966ee3a4b5d3a1dc6e12643844dc53e9c45f721a8e62c690b8d3814353"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/a9d70662b41b433942d5.json",
+      "bytes": 247619,
+      "sha256": "c071a1a3a03c15de6f34e5d8a3f1f5baa06fcb53e8dfb5a835a9dbbe11d231b8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ab9fbceab3c3b85bc132.json",
+      "bytes": 1434,
+      "sha256": "327f4de9e40d5d123ad6f8877b229ace54d07d31b482c9cc74b0aae82e35a95e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/aedf418c38efe2679994.json",
+      "bytes": 1408,
+      "sha256": "f5866f36aa4ffff0c674cbd772469d2af50c4531ea4b94832945530c01cb1a2c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b14174e613e0ae853886.json",
+      "bytes": 1398,
+      "sha256": "978a7156b0401b27c79389db0e59b7720d8285f0878e2db968bdb67e199fb3f4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b1a7a70b659c5e56eeab.json",
+      "bytes": 1394,
+      "sha256": "9ea8b82792dafeac1cc5deea1cc546b9bb947a0d1b76966e178edcbf97c9ce94"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b2671c2845213a81c93b.json",
+      "bytes": 1614,
+      "sha256": "b16245d03d418b94cd5a44a8caa3ee8c966c41cce89f75aabc31fdc2d9e4cdc2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b28b8ea11eb531a29729.json",
+      "bytes": 170035,
+      "sha256": "fda2f4e41fc8385785653f8d3ab5f23f231e0ff3ba54c71aa48f43504e220c51"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b28fca117556d1ad11e1.json",
+      "bytes": 7730,
+      "sha256": "f5b3a257be5f695cf9ffeddb94115311e72cc393a7f21678c841bb31aa93f36e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b5a28ea750d060a192bb.json",
+      "bytes": 1429,
+      "sha256": "7573f5dfa45a6c533d767862d9952e9291722357ec5d3a22d4d7834b4c473201"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b5b07466ae7633ac42e6.json",
+      "bytes": 68634,
+      "sha256": "ffb6d9b29e7cd9e3b27a3e2e13aca84052fc46ee865c9e0367d77b5b1c2c93d3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b5e1d3103635a52cc2c5.json",
+      "bytes": 1416,
+      "sha256": "7f871aa1e23673baf41b6dbc0c25630382ba2e342b8f77f3ca45dc6ef490a68b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b638c365a826ee0bf4d4.json",
+      "bytes": 1377,
+      "sha256": "f06e2e68364eaf71e5fe7725c3b9d147ef5e3780d980e567ceec744f359431ab"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b6eba7fbb81fdb339d47.json",
+      "bytes": 346192,
+      "sha256": "c1af337a4a12ffe75be9e5aec339cd3bc8b1e8bc99a81767d95c4ce1d5335286"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b8367a33cbf766ec8bb3.json",
+      "bytes": 1400,
+      "sha256": "c0a295b0b1d65f878c2e70d6e6096ed94c9bd3db2f4dd3e49f1d64a41daa543a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/b88b97f2ab677781531a.json",
+      "bytes": 1935,
+      "sha256": "bd594baeca0b8b9111e9c825186b5d152070d3cd6fb19c8004a14bd83850c3c3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ba5ceed30804d364485b.json",
+      "bytes": 31416,
+      "sha256": "a14ac29d687cd7205f93c987858b5f61e085dedb821db5ca2426297b9d7eaddc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/bcabacbee195f0aa1ecc.json",
+      "bytes": 1399,
+      "sha256": "46c41fd63df043e8fcd4dbf31f3f72eb337eba5c6c780a7c24e4169005120d0c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/bccc99f59ff65a1d6062.json",
+      "bytes": 242901,
+      "sha256": "f414c1dc3028ab6dd89549da953366d0d6bf34e08b479d3c383c01123ab53dc9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/bdb9ffd8e4547ae25437.json",
+      "bytes": 1406,
+      "sha256": "9d167c76b741c0f5161005ee20b5e66436991947772013541c2d81b0ae312121"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/be110a99a60f2289540c.json",
+      "bytes": 1349,
+      "sha256": "27d983e3d2aea3d7bf0649eaed81daf4a58d3e12a5591aac70432cd5dcc28b7e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/bedb68bd19369f5f830c.json",
+      "bytes": 164635,
+      "sha256": "55c49bacc50790ebb80674891164b0021f0217b8ba85b835d894803acaf79ddb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/bf9c128b5eaa2ffdd18a.json",
+      "bytes": 21136,
+      "sha256": "70151379d43bb80d188fbe1b180d11a2ccec992d1c1d07619769d9d75131cbb2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/c0e2d7109d1a3c562c1f.json",
+      "bytes": 1614,
+      "sha256": "9f342e3d3d7b0e0e97f7750fa055c77fd2734f668799d65ccc99145eac2f469b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/c24838ecd33dd4002d62.json",
+      "bytes": 5989,
+      "sha256": "c4d204d97a4971856c949e4f5e0c43d4b56dfee594f2fef94c436bcfe56bc03a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/c36be2049a8b6232edc5.json",
+      "bytes": 1387,
+      "sha256": "5f516a2a549cd0533b8de9487ef92f5ab07331ba4bb61ac790356b4ad56a32f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/c450ae19e1e4e13b08e9.json",
+      "bytes": 1374,
+      "sha256": "d498af0dad73793e8903ec94e886fd09efcfef2a8a4f7dac18809b948bf0abd0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/c68ff3992a3fe79b7da1.json",
+      "bytes": 1395,
+      "sha256": "164799c2c26702b07d371f66fcf3964cdf5f9a8e168c9124bff4a28ef79111f9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/c7e3d6cc3a151dfc653e.json",
+      "bytes": 1992,
+      "sha256": "db014eaa7dea1d26c10e3fbdf61e7c9d82b04f98c5f6ef830469db3e34fc1bcf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/c8bbe5bb75ecb94b3f36.json",
+      "bytes": 1420,
+      "sha256": "d1874439eaef71474c4ee39578563d14669841f4a6cf2efd7627fe7d67b7947b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ca69b3d53efec6469ff1.json",
+      "bytes": 1357,
+      "sha256": "4edfb52e60beeadf5c302b75042a165642b229d06fc51eee1ba9240f0a8ea398"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ca76648f4d4b87b15111.json",
+      "bytes": 1385,
+      "sha256": "8d46d2f140ff3d40c2b0c15f9b32b048e358f7d3eb17eada8dc6b4e7b2025d5f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ca7d48c9e168f25bad0b.json",
+      "bytes": 1386,
+      "sha256": "4e3f3aeda373d3f376d677de145dd6a6cf604e6a4a3e4ceecd07ea5c662fdc9f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/cc6b780358259e69ea87.json",
+      "bytes": 1353,
+      "sha256": "8630ae55e37898087c76c5eb88bdcc7e368ae8e189d6572d208ac6b32b5c5ffa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/cdcbd605985a87e358b6.json",
+      "bytes": 1417,
+      "sha256": "58effbe31de7804e90009246fb387806c866234b43f7a1ce31693b6b724050a3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ce4e1d705eebdd8c8547.json",
+      "bytes": 6530,
+      "sha256": "0ac4c6751561f7a5940b2317d60d20ca51caca8a6d8f3776932ab6720cb19793"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ce8918a2f27f4ee6d3cf.json",
+      "bytes": 6384,
+      "sha256": "bf256272d79e5069a585cb79d8873b47c037d44e03f820a54279daed966ee08f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/cf369083e2cb7dea3071.json",
+      "bytes": 2549,
+      "sha256": "997bc7012826d1480f70681c80e14be63acc9ca67e33d312dc949feb5115b6c7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d02e9a59c587e0875e32.json",
+      "bytes": 1393,
+      "sha256": "8cd8c7562827c6c0b17dc125dcd539be1a28cbaede7762db0a032d6ae15007cf"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d3137d605eb45957e79a.json",
+      "bytes": 1639,
+      "sha256": "33931f5eab7a8acf534ba07e9b51ea617e29fda415183fd590033110274976a6"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d32eb5af451762546401.json",
+      "bytes": 1402,
+      "sha256": "fcdee8e756acd8023fa84a6810473aedcef3a84a9394e63d5b6fb671f0975ebc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d5fa07ef40676bd41c9b.json",
+      "bytes": 1404,
+      "sha256": "9f85d7764d52068cd89de6f04b7f7963810c0fb526b07a5cc3ffb02a35235c19"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d600a28dd54233255ec0.json",
+      "bytes": 407,
+      "sha256": "5a30091b9fd577404b6a50ef5abf92045ea060fc2bbc8e711b526150e85bb397"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d60808e775b5e8df6241.json",
+      "bytes": 1406,
+      "sha256": "f827d1c2f268cb1417b523af564f3a200201f18d7549e2fc2e1114873688d34d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d6f6bf7a902ed47d5f03.json",
+      "bytes": 1372,
+      "sha256": "5d1cf3378ec4114387e0295c2075c331742e130dafc64eb36159b0e97cce85ca"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d91f7ad87c4fc7f52af4.json",
+      "bytes": 1420,
+      "sha256": "6d8732899f4e86ec9a97d20981cfce5c66785c285af0b9d8711e467add90892c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/d949f2992af42420c051.json",
+      "bytes": 1390,
+      "sha256": "be4c7782161ba167f4bcb648cf6404f8934c4c93d3ed44cee349fe21a2cefc67"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/da64c6827926f90c6ad5.json",
+      "bytes": 1391,
+      "sha256": "97bbdd2a27dc3b3a5fc7397994f8880bc6a3fa6f498243a9b8b57125455dc836"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/dbd7ce35777d9525cee5.json",
+      "bytes": 1395,
+      "sha256": "57238b273e7e271ea4e6f569654f9df201aecb8b0ec718405e890231494c14b7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/dc67798be72ef2332fa6.json",
+      "bytes": 2106,
+      "sha256": "b52682b498b5ccc8ded80a8e6c50b404a6eae6e6582ab50b619d400d07d654c2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/dc8f12376bedfdfad4ad.json",
+      "bytes": 1382,
+      "sha256": "615a283432e25d3251361a819db8d716f03fb415f8cc8ec3be1e55e24a475418"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/dca46bd847fc78e30ab7.json",
+      "bytes": 1359,
+      "sha256": "beea4a0089444213132045d89194952b15749d86fe6f5a70ae03acd46d08fbf7"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/dd37bf2280241ccaecae.json",
+      "bytes": 401,
+      "sha256": "8ec704bbf7d1bab0e48262893c5e8cdaf54af0ff8a54a69ccf17de038748d23e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/dea16ef1e0ca0ce2fc1e.json",
+      "bytes": 1393,
+      "sha256": "c965ec1df05592c09e5749396ca2398d5742ccaa1fa1a0e391b5388a1592bc47"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/df60eb5cde59ef3fdc1b.json",
+      "bytes": 1395,
+      "sha256": "ffadf5b0fdd2854413c1a54a0ab8fd9602c1463435dbfb3d975295e73c58e06d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e00b83df95b222091af5.json",
+      "bytes": 1403,
+      "sha256": "2b9792d70a25297d98af633a05be910541843d9024deea30e629b44afb938dee"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e1839604327d26fcd22d.json",
+      "bytes": 1469,
+      "sha256": "c1e59a460a1a03a80f163707bb86c377a08ad518cd9e5149ff4ab544d6c69cc3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e18f961dd4549965806f.json",
+      "bytes": 2058,
+      "sha256": "bf575a05f60e6bc5da2e005e7b6583b8826b5c6067eaa5ab4fa70a2e202cfec2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e2a1ecfa6f5386f2dcd3.json",
+      "bytes": 123264,
+      "sha256": "f3b7db0ec79d0e1ba1257ac006d162fbec489f18de3c34238c8deee200227d4e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e3e67ce7ecf7c0cf435b.json",
+      "bytes": 1932,
+      "sha256": "6fdab17c5a7d35e54163020bb361d66ca0f94074474da33ad0a1dcee48cf1d64"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e631c6d6b60ff8a6e366.json",
+      "bytes": 156272,
+      "sha256": "7e8725d44bba4a85b4d550b6491953a1a2063f343a7a830bbd9b9489646ab68a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e68234cd48b0f3c8d653.json",
+      "bytes": 1379,
+      "sha256": "f12da53f96090a82c3c7d6b5fc22a191618bde1ac5bb0da724cc888b313351ba"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e687e2188c3d39d6f160.json",
+      "bytes": 381,
+      "sha256": "62981ce17c40c77e5936980ac44c928ce5d42af2d796db2eb8fa32dee02fdce2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e6d430e3a3e5dd28d344.json",
+      "bytes": 424,
+      "sha256": "6c449cd836d32f8b41b25b39a15aac7ac7d28930b492c553372c7223ae5ae4fe"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e748fcb40e48f11f9f42.json",
+      "bytes": 1363,
+      "sha256": "1307c117d1ce08fcebf49ef1a8c100cb176457faff168ae9031e629da44bf968"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e7d85cfa6bbc97de0214.json",
+      "bytes": 146987,
+      "sha256": "63c0c8f444823f4181be8a0b6e35f729cb174491317a8324d0d97cbc22927d33"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e8b025cc6ad1589b50d4.json",
+      "bytes": 31445,
+      "sha256": "26bf3197c1fa8d25fc60b2252fbe658be9b58106ce65bb6c36567568abf1a193"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/e9459d785af247b57eac.json",
+      "bytes": 6932,
+      "sha256": "53ab72e47b4a03f0df477da18423e661064994cb5469f6d69b28f18f9249eb79"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/eb8e2b64ba02804c763d.json",
+      "bytes": 1425,
+      "sha256": "328c0b5026c1d55cf37d6f469e214be2a175397bc31305d591b13c35a047a151"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ed53b8955702dc18b990.json",
+      "bytes": 326501,
+      "sha256": "9c6f8b22bf005a8057f4639d3e66d339a064471902fa957a627718d2ed9986c9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ef29810b90ae04523abb.json",
+      "bytes": 1828,
+      "sha256": "41f3c1d94e05719dd808818a7c2d340b82d0c9673309e383d301f62a3d533567"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f04c825e0d66daca7eb1.json",
+      "bytes": 1397,
+      "sha256": "335b4d95c6875b2e89cb61196bb4c71693ce02077ab1094596d41d2a5038140e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f159d3d66ac21d4e4a78.json",
+      "bytes": 7919,
+      "sha256": "21e26cbdc99a9f84b441db9c053eedf4ed3d8c0c5db7a39df0b21eaf56d37815"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f2ad7520883e32d0ec29.json",
+      "bytes": 1381,
+      "sha256": "dc30f6cef60776d9d9645834ad70f3e603d5e88a7a5f986b3d732cac7a2f9799"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f30dfef9757b43bcf02f.json",
+      "bytes": 5090,
+      "sha256": "0f20ad367810d0d79e67fd974d1bcc08314200c7677c2873f6aa78accbe73a66"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f3850436fedf0c494e0a.json",
+      "bytes": 39258,
+      "sha256": "46abbcb65e002655159a877dfb53558d6d209da552dad15eb8d7103afd90f628"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f4cfc0b225c853dd1d7f.json",
+      "bytes": 1420,
+      "sha256": "d1bb75e9a7b4b59803e5a3874ca32281919c03f022115c217e6f06d1d0ebd0b3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f535133d2604f02ff761.json",
+      "bytes": 1389,
+      "sha256": "7622f22e119139283246cc89df1be89dfaf6011fb22ad825c9b2ce9c63ef699a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f676d112c27b6a63d48a.json",
+      "bytes": 51762,
+      "sha256": "e272c7e081952c3fc42de12f431d697ac2516c4475cdf137edc0cbb615e3df7f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f686df756d070fb7eef6.json",
+      "bytes": 1381,
+      "sha256": "3d127defbf4af9f613a856b7636f9edc62de754b2210a932b0d184ea10d45dae"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f88499ac91658263ee06.json",
+      "bytes": 1801,
+      "sha256": "f4c0d5e50ce272b0daebefbb19d03c43e694f1d4ab3a44e4da18c18f1dd64465"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/f9c02e09dc36deb91f61.json",
+      "bytes": 1905,
+      "sha256": "ecf202e33a030395f849185853a9cc95338273d944f5d815f61ab62aad8ed252"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/fa672fd9707f3e62d1ab.json",
+      "bytes": 1349,
+      "sha256": "9e25806cb92ec7e30f87015b95595c0368df12bf1d16c20ee6bb5624871d042a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/fc183252fa58fdf9df1a.json",
+      "bytes": 1555,
+      "sha256": "00a3769e722549316de7ddd2af7ca95626b516cde7c071bd2a9c37086ee49555"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/fc718ff3b14591617802.json",
+      "bytes": 1920,
+      "sha256": "6c0de5730250b9d7999893df702b5fb65b27caab208240bc135e2322cffca791"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/fd51f7d9dc85d2a29b53.json",
+      "bytes": 1649,
+      "sha256": "a698eed5d1293e867cb178ae1ea23bf7a6bd613d0bbd821b9eda2cb8f4228853"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/fe1c8993a12c3044d076.json",
+      "bytes": 1389,
+      "sha256": "594181cd486aa02ceb8bd2067ce22a7e17c4638164ef8a20363d2ade56df0eac"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/games/ffad9f0427208cb9d53a.json",
+      "bytes": 1362,
+      "sha256": "93e557c97dd89ea6e0b91fba2ff1c0eeef589903497df524a70ec45b759a5509"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/har-reference.json",
+      "bytes": 9857,
+      "sha256": "80d1afe90baa480a4e37d288dc243b91fe2673d3ff02b2f9c3b7e16c356655b2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/index.html",
+      "bytes": 101963,
+      "sha256": "9a298fd7f51d2e7266d052e163d100b953f0fdc8cfbc5ed2599b6302e0787117"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/plan-101-200.json",
+      "bytes": 58210,
+      "sha256": "915c1031c3b19145943548f0c6a34c6847581e2c3722402f9a14f95afdf9a04a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/plan-first-100.json",
+      "bytes": 56999,
+      "sha256": "ad170b471848e6fc1736cda855645a20dfd780d16dae64df5636d830c7917ffa"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/prior-runs/finn-before-heartbeat.json",
+      "bytes": 1122366,
+      "sha256": "5eba8fcbe616b3b4cf9e3dae83db129e4594ad8edbc8b42c0e0e307a7579c42c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/prior-runs/funk-master-rejected-request.json",
+      "bytes": 610,
+      "sha256": "9688fa7ffa5ae3d3fb9596cc1ad3414008698fcecc27537561d82cb1851d14a3"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/prior-runs/good-old-7s-discovery-history.json",
+      "bytes": 2865,
+      "sha256": "8ae47b2e3f690697b2d41c0a1e1d89bc6fae73e2a2787e78004696e5a597653e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/prior-runs/hotline-before-selector-mapping.json",
+      "bytes": 480,
+      "sha256": "6e2106f69011d7fe087ae6e97665128374c8a7342ad21bf27bfcf3148cfafceb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/prior-runs/jungle-spirit-before-choice-mapping.json",
+      "bytes": 11763,
+      "sha256": "63cb95a63f2be8fd059c9bcc8356f899c8eafceb5b58e6b73a9fdff60bbb906f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/prior-runs/pirates-party-discovery-history.json",
+      "bytes": 3471,
+      "sha256": "d4a80a8b5aada53990a28025c8a1cf796d31992811d4f1426316afc51df8495d"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/prior-runs/street-fighter-ii-demo-incidents.json",
+      "bytes": 2279,
+      "sha256": "308b9f2c0171a04beb6efc40460e3d964fee0329f3d861af5b544c9bd44593f8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/netent/summary.json",
+      "bytes": 14632863,
+      "sha256": "9d950ad53ef9f287510830fd1f07e7b19e1be620dbc5931eb739ee7a53891865"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/adaptive_rate.py",
+      "bytes": 3024,
+      "sha256": "eef83a2f35dd64a342ad118e2d9bec9fc276808fa00ac99b4a8c1e99573f3074"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/atomic_receipts.py",
+      "bytes": 770,
+      "sha256": "e410a8b0519a705fe6117106ef51c32b2aeb55ef86d77d6a83f8b33dc67e0803"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/choice_settlement.py",
+      "bytes": 3082,
+      "sha256": "52be0363207ec247810d7d1e50743f0e265932b84a65746f15267963f25fbd57"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/extract_horizon_rounds.py",
+      "bytes": 3165,
+      "sha256": "bec376ad24dd6248ba3a91c17ebe15c7413d4cb0cf57072c76867104f7544434"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/geco_contract.py",
+      "bytes": 5504,
+      "sha256": "a21cdf0b4d393679e71ebcf0a03e05093a0f9541bb0090b0bbb0c5c3e7838857"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/geco_native_selection.py",
+      "bytes": 561,
+      "sha256": "17fd0d1be44f7308c2e16d65c3293262088e0c8f602c46bbe3984b2af86cd328"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/geco_transport.py",
+      "bytes": 710,
+      "sha256": "b5ddfc72aaf38587e1866b827e6d8c97f3190dedfd323eac3a377de3e7f7589d"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/har_analysis.py",
+      "bytes": 8335,
+      "sha256": "cded9103b01c75cb1258264be61f5505a70a89d1237636fa9c8a1205749aa828"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/horizon_contract.py",
+      "bytes": 2710,
+      "sha256": "93045570da627256fe27c8ddb898dc06b42927c56adff17c2183068b5ecca28f"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/horizon_heartbeat.py",
+      "bytes": 476,
+      "sha256": "9c1ed54b3f9ca7d42308ae57cc4e7a37085f7bb60950bf25bddd02b635a6c284"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/horizon_initialization.py",
+      "bytes": 1834,
+      "sha256": "b2ba39dfb0b59b85f3e26e75b70f8d13b867f135c7b02cdf02ce1810f081433a"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/http_modes.py",
+      "bytes": 3144,
+      "sha256": "8c89ff78f28abbefd1da67a4049913f92a2fa3acc20df2c69ce7be93ae7af40d"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/jsonl_records.py",
+      "bytes": 197,
+      "sha256": "495b55b7851b3eac35f1174f81e9790a1f97a9d8cf8e11274d708fe72588135d"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/native_decisions.py",
+      "bytes": 519,
+      "sha256": "f8c796f4f4f5ecdc978392c085cf7aa443053f6bef600d1461d324c973792058"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/progression_history.py",
+      "bytes": 468,
+      "sha256": "6ef09e561ddb1360c70b7e3613100d961e6579114b2120d9d2b483c447b134cb"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/relay_transport.py",
+      "bytes": 325,
+      "sha256": "87f462f8617ed6f31f5ad9385392f78df7f936e1ff4351053b8d8134e2ff7242"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_adaptive_rate.py",
+      "bytes": 1263,
+      "sha256": "3fd454e6e6accf7ec37863524f22b39c0d162e6a22326b1d6a72f5eb50bdf8b6"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_atomic_receipts.py",
+      "bytes": 1304,
+      "sha256": "f4c97f5c6fe1fb0ada3ba240a8b6bad2cacb0fd8177611f5682fbde162939731"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_choice_settlement.py",
+      "bytes": 2030,
+      "sha256": "8b875c970c4b195cfbc6db0b96a6cecf716485dd32dbaa6a56199b5ff10db57d"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_geco_contract.py",
+      "bytes": 5555,
+      "sha256": "d30f2798678423ffed4d282a69dc0701cbec6c4d2c48998093a53ff6e8878551"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_geco_native_selection.py",
+      "bytes": 775,
+      "sha256": "1a7e7a6c699e88f9dc5a25981f1e22c0db4680e3083ec765dd3442708e81b400"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_geco_resume_request.py",
+      "bytes": 2241,
+      "sha256": "ad1e09ec0afef069c84b657a7019c56806dff18ca787877bf62ae9c57a5798a6"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_geco_transport.py",
+      "bytes": 846,
+      "sha256": "709b73bbab858a82b327adc2821ec7460ee5727da2736b51bfc4b363fa4d8b15"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_har_analysis.py",
+      "bytes": 1622,
+      "sha256": "2f5f87c74d6798c6f72b66d3e9a5185d199bf883051901c37fb91ffc933a47e1"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_horizon_contract.py",
+      "bytes": 3448,
+      "sha256": "1b11770a5c8ec68c436e24d29ee62a05a2dcadb4dc1067f8e99c415c7570e159"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_horizon_heartbeat.py",
+      "bytes": 557,
+      "sha256": "af38e65215e7c43c9751efd5b0428f2ef8eeda6c82745a5aedb46150d145ee25"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_horizon_initialization.py",
+      "bytes": 1879,
+      "sha256": "6ca1cfa10cc94b959f6a816f17555a25e2b9475a1e14e961d5c879c52b7ccc33"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_http_modes.py",
+      "bytes": 3342,
+      "sha256": "b13ecefc172a25758c3da83129e69b4160e198b7f002395c9f38a0e5183f2976"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_jsonl_records.py",
+      "bytes": 437,
+      "sha256": "37eb058a661d2e7cffabbfe2dbf10a3ebdcc34406a8bb5f900aa00c915cda3c8"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_native_decisions.py",
+      "bytes": 669,
+      "sha256": "982125f07bee73feda56ad9b695cb58e3dfdef7ed11e603829b6b2dbe9da3111"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_progression_history.py",
+      "bytes": 742,
+      "sha256": "fa0af2b36b4d893f66ea0106b9c1b2b5018cac9b22828bae7b1402f3cb68361b"
+    },
+    {
+      "ruta": "referencias/provider-work/netent-root/test_relay_transport.py",
+      "bytes": 2501,
+      "sha256": "229e6a4cfe58a24857976b23e8a1c83de6797f219328e3fbb9500960d140e2c6"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 565,
+      "sha256": "f314c4fc3546d980195c8ad8d42e828b694741b05606004b2570f757aaad95f6"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "proveedor": "smartsoft",
+  "archivos": [
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 17099,
+      "sha256": "0ee9e7df223f038a2d49c486fc8577d5573e22199ac4915ed244807ac3bcef89"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 55879,
+      "sha256": "af0c8620c78b63b83e550f4d75b3259992a1c388ef65b0be249d0e5e812f00e9"
+    },
+    {
+      "ruta": "evidencia/ciclos-historicos.json",
+      "bytes": 3126,
+      "sha256": "8565945c9f603532ee230d4fed0cc6f1fc2449f51e5ccdebab92f6bf342d8e5a"
+    },
+    {
+      "ruta": "evidencia/smartsoft.json",
+      "bytes": 108296,
+      "sha256": "6aaecc721e7cc17079ca5dafd6467ee5ef49ea06b4f381c27e8f1683125478e0"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 17060,
+      "sha256": "da64d230931a43f9376b61c3fb11ab1fc3eaa2689eafdc485b79098952831a23"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 14770,
+      "sha256": "2f9006c37bbaedaa4569365c058a2ae087c905a38739b004e939e61c3dd03f78"
+    },
+    {
+      "ruta": "referencias/cobertura-slots.json",
+      "bytes": 43344,
+      "sha256": "247a504f2c558fd2a39322d4c517b79d1d794dd206c06a195e07ef9de901a272"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 605,
+      "sha256": "8198940c37a16bf3a1059f7a5ed6a26d212e17379e598131f149d9ff58019e7c"
+    }
+  ]
+}

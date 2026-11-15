@@ -1,0 +1,40 @@
+{
+  "proveedor": "pragmatic",
+  "archivos": [
+    {
+      "ruta": "codigo/pragmatic.rs",
+      "bytes": 29596,
+      "sha256": "0635700f15aac1b5fdbc71968a7dd3f98097592dc1ac10819406f3d6b1965512"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 286080,
+      "sha256": "72fd964f0a90e6f7ca70b77f48f237608b4658e74237835dda30cf5d253dfc8f"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 1252468,
+      "sha256": "51b87f67661a7c06739fd0b12430f50abb8c4b4195fb65ae72afded059f14aab"
+    },
+    {
+      "ruta": "evidencia/pragmatic.json",
+      "bytes": 1734269,
+      "sha256": "a072a0b3755d8f6175dc7f15b317913fa602aa1eddf5754a97c17e09d2cf14f9"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 286044,
+      "sha256": "1f4b83c6181d36961371bc7508ab8fabfd4930afafa8a424986e48085a3cc009"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 112936,
+      "sha256": "ea5590cae4dee9834befb9e684f23954189948268a168f568379c59db4280f03"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 667,
+      "sha256": "61260dd73b3faf52e6a84758a153f5d835c72cb64204cce0d2c2f50f4d46bd85"
+    }
+  ]
+}

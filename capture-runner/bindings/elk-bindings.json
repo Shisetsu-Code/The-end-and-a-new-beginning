@@ -1,0 +1,1784 @@
+{
+  "sources": [
+    {
+      "path": "standalone info/elk/inventario.json",
+      "sha256": "825c22a4a8ef1a37ce3286904d06f9961b550ab8cb40b3677a2423c75fbd45bf"
+    },
+    {
+      "path": "standalone info/elk/referencias/demo-dashboard/elk/catalog.json",
+      "sha256": "f9092d1885af70c4c1797f9741bb2c8adea336375d104a1279ed9d8b0da2f12b"
+    },
+    {
+      "path": "standalone info/elk/referencias/demo-dashboard/elk_client.py",
+      "sha256": "2295fbd9f844c95d770eb525eed1464706605299872405d042a4843ea9f6825d"
+    },
+    {
+      "path": "standalone info/elk/referencias/demo-dashboard/elk_protocol.py",
+      "sha256": "4e4e33bd51257121f977ef1fffa54824445389d3de65dfa9c669a388bfda57d6"
+    },
+    {
+      "path": "standalone info/elk/referencias/demo-dashboard/elk_boss.py",
+      "sha256": "47ba2fd0752bd126fb47d256ec8dc263d0b37640818f0ae8e5b0839f68f9382d"
+    }
+  ],
+  "games": {
+    "propaganda-2": {
+      "id": "10276",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "world-eaters-2": {
+      "id": "10277",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "wonder-train": {
+      "id": "10275",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "bamboo-pandits": {
+      "id": "10271",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "concrete-cowboys": {
+      "id": "10259",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "grizzly-stampede": {
+      "id": "10274",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "langley-street-23": {
+      "id": "10269",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "quackers": {
+      "id": "10270",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots-5": {
+      "id": "10266",
+      "xdm": "1",
+      "modes": {
+        "DEF:boss": "normal",
+        "X01:boss": "variant",
+        "X02:boss": "variant",
+        "X03:boss": "variant",
+        "X04:boss": "variant",
+        "X05:boss": "variant",
+        "DEF:nest": "variant",
+        "X01:nest": "variant",
+        "X02:nest": "variant",
+        "X03:nest": "variant",
+        "X04:nest": "variant",
+        "X05:nest": "variant",
+        "DEF:ship": "variant",
+        "X01:ship": "variant",
+        "X02:ship": "variant",
+        "X03:ship": "variant",
+        "X04:ship": "variant",
+        "X05:ship": "variant",
+        "DEF:temple": "variant",
+        "X01:temple": "variant",
+        "X02:temple": "variant",
+        "X03:temple": "variant",
+        "X04:temple": "variant",
+        "X05:temple": "variant"
+      }
+    },
+    "heist-guys-2": {
+      "id": "10272",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "boomberries": {
+      "id": "10263",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "spark-of-creation": {
+      "id": "10249",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "wild-toro-3": {
+      "id": "10264",
+      "xdm": "1",
+      "modes": {
+        "DEF:day": "normal",
+        "X01:day": "variant",
+        "X02:day": "variant",
+        "X03:day": "variant",
+        "X04:day": "variant",
+        "X05:day": "variant",
+        "DEF:night": "variant",
+        "X01:night": "variant",
+        "X02:night": "variant",
+        "X03:night": "variant",
+        "X04:night": "variant",
+        "X05:night": "variant"
+      }
+    },
+    "deadcode": {
+      "id": "10268",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "huff-n-puff-collectr": {
+      "id": "10257",
+      "xdm": "1",
+      "modes": {
+        "DEF:garden": "normal",
+        "X01:garden": "variant",
+        "X02:garden": "variant",
+        "X03:garden": "variant",
+        "X04:garden": "variant",
+        "X05:garden": "variant",
+        "DEF:springbreak": "variant",
+        "X01:springbreak": "variant",
+        "X02:springbreak": "variant",
+        "X03:springbreak": "variant",
+        "X04:springbreak": "variant",
+        "X05:springbreak": "variant"
+      }
+    },
+    "oxygen-3": {
+      "id": "10265",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "bushido-gold": {
+      "id": "10261",
+      "xdm": "0",
+      "direct_name": "bushidogold",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "ryze-2": {
+      "id": "10260",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "bonzos-bananza": {
+      "id": "10262",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "arcanum": {
+      "id": "10256",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "tropicool-5": {
+      "id": "10258",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "ice-wolf-2": {
+      "id": "10253",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cygnus-6": {
+      "id": "10254",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "world-eaters": {
+      "id": "10255",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "toro911": {
+      "id": "10252",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "skibblings": {
+      "id": "10250",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "giraffalot": {
+      "id": "10248",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cathedral-9": {
+      "id": "10247",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "crescendo": {
+      "id": "10251",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots-4-inferno": {
+      "id": "10234",
+      "xdm": "1",
+      "modes": {
+        "DEF:fire": "normal",
+        "X01:fire": "variant",
+        "X02:fire": "variant",
+        "X03:fire": "variant",
+        "X04:fire": "variant",
+        "X05:fire": "variant",
+        "DEF:ice": "variant",
+        "X01:ice": "variant",
+        "X02:ice": "variant",
+        "X03:ice": "variant",
+        "X04:ice": "variant",
+        "X05:ice": "variant",
+        "DEF:space": "variant",
+        "X01:space": "variant",
+        "X02:space": "variant",
+        "X03:space": "variant",
+        "X04:space": "variant",
+        "X05:space": "variant"
+      }
+    },
+    "deadeye": {
+      "id": "10245",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "avalon-x": {
+      "id": "10244",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots-4-frozen-fury": {
+      "id": "10234",
+      "xdm": "1",
+      "modes": {
+        "DEF:fire": "normal",
+        "X01:fire": "variant",
+        "X02:fire": "variant",
+        "X03:fire": "variant",
+        "X04:fire": "variant",
+        "X05:fire": "variant",
+        "DEF:ice": "variant",
+        "X01:ice": "variant",
+        "X02:ice": "variant",
+        "X03:ice": "variant",
+        "X04:ice": "variant",
+        "X05:ice": "variant",
+        "DEF:space": "variant",
+        "X01:space": "variant",
+        "X02:space": "variant",
+        "X03:space": "variant",
+        "X04:space": "variant",
+        "X05:space": "variant"
+      }
+    },
+    "fish-and-bird": {
+      "id": "10246",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "phoenix-graveyard-ii": {
+      "id": "10243",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots-4": {
+      "id": "10234",
+      "xdm": "1",
+      "modes": {
+        "DEF:fire": "normal",
+        "X01:fire": "variant",
+        "X02:fire": "variant",
+        "X03:fire": "variant",
+        "X04:fire": "variant",
+        "X05:fire": "variant",
+        "DEF:ice": "variant",
+        "X01:ice": "variant",
+        "X02:ice": "variant",
+        "X03:ice": "variant",
+        "X04:ice": "variant",
+        "X05:ice": "variant",
+        "DEF:space": "variant",
+        "X01:space": "variant",
+        "X02:space": "variant",
+        "X03:space": "variant",
+        "X04:space": "variant",
+        "X05:space": "variant"
+      }
+    },
+    "rex-stampede": {
+      "id": "10242",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "heist-guys": {
+      "id": "10241",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "nightmaker": {
+      "id": "10238",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "mine-defender": {
+      "id": "10235",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "zaplab": {
+      "id": "10239",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "knight-fight": {
+      "id": "10219",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "in-the-zone": {
+      "id": "10237",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "orbitfall": {
+      "id": "10236",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "oxygen-2": {
+      "id": "10233",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "nitropolis-tv": {
+      "id": "10231",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "tropicool-4": {
+      "id": "10232",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "tinkerbot": {
+      "id": "10226",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cygnus-5": {
+      "id": "10230",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "shadow-shifter": {
+      "id": "10227",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "reindeer-royale": {
+      "id": "10228",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "catemple": {
+      "id": "10225",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "ryze": {
+      "id": "10224",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots-x": {
+      "id": "10223",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cluster-kingdom": {
+      "id": "10222",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "thoro": {
+      "id": "10221",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "slurpy": {
+      "id": "10220",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "squeeze": {
+      "id": "10218",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "nitropolis-5": {
+      "id": "10215",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "man-vs-gator": {
+      "id": "10216",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots3": {
+      "id": "10214",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "ashoka-eternal": {
+      "id": "10217",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pug-thugs-of-nitropolis": {
+      "id": "10213",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "tropicool-3": {
+      "id": "10212",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "dirty-dawgs-of-nitropolis": {
+      "id": "10207",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "frogblox": {
+      "id": "10211",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "rogue-rats": {
+      "id": "10205",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "buggin": {
+      "id": "10209",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "gritty-kitty": {
+      "id": "10208",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cygnus-4": {
+      "id": "10210",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "oxygen": {
+      "id": "10206",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "dam-beavers": {
+      "id": "10204",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "gladiatoro": {
+      "id": "10200",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots-2": {
+      "id": "10202",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "jeff-scully": {
+      "id": "10198",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "j-pop": {
+      "id": "10203",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "valhall-gold": {
+      "id": "10201",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "hula-balua": {
+      "id": "10199",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "coba-reborn": {
+      "id": "10197",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cygnus-3": {
+      "id": "10195",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "toro-shogun": {
+      "id": "10196",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "dead-mans-gold": {
+      "id": "10194",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "ashoka": {
+      "id": "10193",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "rabbit-royale": {
+      "id": "10190",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "katmandu-x": {
+      "id": "10192",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pirots": {
+      "id": "10184",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "nitropolis-4": {
+      "id": "10188",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "tropicool-2": {
+      "id": "10189",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "book-of-sam": {
+      "id": "10187",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "sumo-sumo": {
+      "id": "10186",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "avalon-gold": {
+      "id": "10183",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "freeway-7": {
+      "id": "10185",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "propaganda": {
+      "id": "10078",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "dropz": {
+      "id": "10182",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "buffalo-toro": {
+      "id": "10181",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cygnus-2": {
+      "id": "10080",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "coba": {
+      "id": "10077",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "taco-brothers-deralied": {
+      "id": "10079",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "phoenix-graveyard": {
+      "id": "10075",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "nitropolis-3": {
+      "id": "10076",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "pacific-gold": {
+      "id": "10074",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "illogicool": {
+      "id": "10069",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "mystic-orbs": {
+      "id": "10070",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "stars-of-orion": {
+      "id": "10065",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "toro-7s": {
+      "id": "10066",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "book-of-toro": {
+      "id": "10068",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "wild-toro-2": {
+      "id": "10063",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "zulu-gold": {
+      "id": "10060",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "fate-of-fortune": {
+      "id": "10061",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "night-trax": {
+      "id": "10059",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "dream-diver": {
+      "id": "10057",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "tropicool": {
+      "id": "10058",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "nitropolis-2": {
+      "id": "10056",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "cluster-slide": {
+      "id": "10055",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "X01": "variant",
+        "X02": "variant",
+        "X03": "variant",
+        "X04": "variant",
+        "X05": "variant"
+      }
+    },
+    "bompers": {
+      "id": "10053",
+      "xdm": "1",
+      "modes": {
+        "DEF": "normal",
+        "BB1": "variant",
+        "BB2": "variant",
+        "BB3": "variant",
+        "BB4": "variant"
+      }
+    },
+    "miss-wildfire": {
+      "id": "10054",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "knockout-diamonds": {
+      "id": "10052",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "katmandu-gold": {
+      "id": "10051",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "BB1": "variant",
+        "BB2": "variant"
+      }
+    },
+    "nitropolis": {
+      "id": "10149",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal",
+        "BB1": "variant",
+        "BB2": "variant"
+      }
+    },
+    "visitors": {
+      "id": "10050",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "the-grand-galore": {
+      "id": "10048",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "diablo-reels": {
+      "id": "10047",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "dreamzone": {
+      "id": "10045",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "io": {
+      "id": "10046",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "black-river-gold": {
+      "id": "10044",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "blood-lust": {
+      "id": "10043",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "crusader": {
+      "id": "10042",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "micro-knights": {
+      "id": "10041",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "hit-it-hard": {
+      "id": "10040",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "cygnus": {
+      "id": "10139",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "ice-wolf": {
+      "id": "10038",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "voodoo-gold": {
+      "id": "10037",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "win-win": {
+      "id": "10036",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "respin-circus": {
+      "id": "10035",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "tahiti-gold": {
+      "id": "10034",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "chi": {
+      "id": "10033",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "hit-it-big": {
+      "id": "10032",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "ecuador-gold": {
+      "id": "10031",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "the-wiz": {
+      "id": "10030",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "valkyrie": {
+      "id": "10029",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "vegas-diamonds": {
+      "id": "10028",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "joker-gems": {
+      "id": "10027",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "platooners": {
+      "id": "10026",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "birthday": {
+      "id": "10025",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "lakes-five": {
+      "id": "10024",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "kaiju": {
+      "id": "10023",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "ho-ho-tower": {
+      "id": "10021",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "route-777": {
+      "id": "10020",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "hidden": {
+      "id": "10019",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "ivanhoe": {
+      "id": "10018",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "hong-kong-tower": {
+      "id": "10017",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "sam-on-the-beach": {
+      "id": "10016",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "taco-brothers-saving-christmas": {
+      "id": "10015",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "wild-toro": {
+      "id": "10014",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "poltava": {
+      "id": "10013",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "bloopers": {
+      "id": "10012",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "dj-wild": {
+      "id": "10010",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "taco-brothers": {
+      "id": "10009",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    },
+    "electric-sam": {
+      "id": "10007",
+      "xdm": "0",
+      "modes": {
+        "DEF": "normal"
+      }
+    }
+  }
+}

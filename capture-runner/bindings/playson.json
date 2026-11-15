@@ -1,0 +1,2676 @@
+{
+  "lucky-pots-x1000": {
+    "slug": "lucky-pots-x1000",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1000&partner=playsonsite-prod&wl=pl_gate&gameName=lucky_pots&lang=en",
+    "source_sha256": "5013859ecfbe163bba9cd5923e5e6d64bc7048013ac9d7dc5212a5c8ee6f4ac2",
+    "engine_version": "15.111",
+    "debug": {
+      "build_date": "1794601103203",
+      "build_version": "1.13.0"
+    },
+    "expected_native_title": "Lucky Pots x1000",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "native_multiplier": 20,
+    "native_ante_multipliers": [
+      "1.5",
+      "2"
+    ],
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed"
+  },
+  "25-cookies-hit-the-bonus": {
+    "slug": "25-cookies-hit-the-bonus",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=25_cookies&lang=en",
+    "source_sha256": "9b73a828eb2cff684e81ca8735d4a02452a53a1d263289c2da7b8c8a320cf77e",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789938232597",
+      "build_version": "0.313.0"
+    },
+    "native_game": "25_cookies",
+    "expected_native_title": "25 Cookies: Hit the Bonus",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Buy:2",
+      "Spin"
+    ]
+  },
+  "3-carts-of-gold-hold-and-win": {
+    "slug": "3-carts-of-gold-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3carts_of_gold&lang=en",
+    "source_sha256": "d081b34be9dcea6d786711f419874f6a27c339249eb3838733329f3e1cc46db9",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937738489",
+      "build_version": "0.380.0"
+    },
+    "native_game": "3carts_of_gold",
+    "expected_native_title": "3 Carts of Gold: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "fixed_zero",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "3-chillies-and-joker-hold-and-win": {
+    "slug": "3-chillies-and-joker-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3_chillies_and_joker&lang=en",
+    "source_sha256": "356736e978b71819f69e425d84911885f6a34b9a9a8b27b9736fc659307798b6",
+    "engine_version": "14.114",
+    "debug": {
+      "build_date": "1789938159819",
+      "build_version": "0.384.0"
+    },
+    "native_game": "3_chillies_and_joker",
+    "expected_native_title": "3 Chillies and Joker: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "3-gems-of-vegas-super-wheel": {
+    "slug": "3-gems-of-vegas-super-wheel",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=three_gems_vegas&lang=en",
+    "source_sha256": "84e7092a3fe57003337181e42af59b358509b49c61cb87b40bc2b3f74132d7aa",
+    "engine_version": "15.101",
+    "debug": {
+      "build_date": "1793186319618",
+      "build_version": "1.14.0"
+    },
+    "native_game": "three_gems_vegas",
+    "expected_native_title": "3 Gems of Vegas: Super Wheel",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Ante:3",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "3-luxor-pots-hold-and-win": {
+    "slug": "3-luxor-pots-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3_luxor_pots&lang=en",
+    "source_sha256": "e651cb7ed429b4b58ec7e0e04593c8af949c3b0582e517b33c880c3a29bbd273",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789938575460",
+      "build_version": "0.291.0"
+    },
+    "native_game": "3_luxor_pots",
+    "expected_native_title": "3 Luxor Pots: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "3-magic-lamps-hold-and-win": {
+    "slug": "3-magic-lamps-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3_magic_lamps&lang=en",
+    "source_sha256": "95317fcc5b1a570b4e8f475bce000a6bc3572b1026e82d2174d6678197c22792",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937151933",
+      "build_version": "1.8.0"
+    },
+    "native_game": "3_magic_lamps",
+    "expected_native_title": "3 Magic Lamps: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "3-pirate-barrels-hold-and-win": {
+    "slug": "3-pirate-barrels-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3_pirate_barrels&lang=en",
+    "source_sha256": "f06d421c3c06a374d420ecab724980828fdf713640dd47c6d578fc16cf3dcdc9",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937888176",
+      "build_version": "0.35.0"
+    },
+    "native_game": "3_pirate_barrels",
+    "expected_native_title": "3 Pirate Barrels: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "3-pots-riches-extra-hold-and-win": {
+    "slug": "3-pots-riches-extra-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3pots_extra&lang=en",
+    "source_sha256": "fed735cbcc5a5989368a5589666ebc74c149c70cbf30e1bce93c5fc855534b11",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936979429",
+      "build_version": "0.7.0"
+    },
+    "native_game": "3pots_extra",
+    "expected_native_title": "3 Pots Riches Extra: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "3-pots-riches-hold-and-win": {
+    "slug": "3-pots-riches-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3pots_riches&lang=en",
+    "source_sha256": "84e3d733f2ac5a87abe0e869ed92a1e3133f9409f9095155766c17e278e14189",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936305016",
+      "build_version": "0.9.0"
+    },
+    "native_game": "3pots_riches",
+    "expected_native_title": "3 Pots Riches: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "3-roaring-bells-hold-and-win": {
+    "slug": "3-roaring-bells-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=three_roaring_bells&lang=en",
+    "source_sha256": "2bb8f51532809a05fbaf4f2aafbbecbfe66e5a03fee2ae85285f5aeeb3d5cd87",
+    "engine_version": "15.111",
+    "debug": {
+      "build_date": "1794601044305",
+      "build_version": "1.13.0"
+    },
+    "native_game": "three_roaring_bells",
+    "expected_native_title": "3 Roaring Bells: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ],
+    "historical_source_sha256": "b3577a15d8dcf5425ddb8b65a7efe6e94c2eeb65df8a15abf508b0243724b3c8",
+    "launcher_sha256": "73b5c5f15e8eedd7b119cc2c3a90855f8000bf0ee14c27e192753245e12d8ea8"
+  },
+  "3-royal-coins-hold-and-win": {
+    "slug": "3-royal-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3_royal_coins&lang=en",
+    "source_sha256": "de4819d80ab73c8335e56d004ea39c7bd2c389c53de3f2304c8a2fcd8c495b54",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789939446884",
+      "build_version": "1.34.0"
+    },
+    "native_game": "3_royal_coins",
+    "expected_native_title": "3 Royal Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "3-supercharged-diamonds-hold-and-win": {
+    "slug": "3-supercharged-diamonds-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=supercharged_diamonds_3&lang=en",
+    "source_sha256": "c5397ee1ef40d3f6a06945898996c58579f5662038457a6aa84a888922ff12f9",
+    "engine_version": "15.98",
+    "debug": {
+      "build_date": "1793094469147",
+      "build_version": "1.21.0"
+    },
+    "native_game": "supercharged_diamonds_3",
+    "expected_native_title": "3 Supercharged Diamonds: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "3-thunder-coins-hold-and-win": {
+    "slug": "3-thunder-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=thunder_coins_three&lang=en",
+    "source_sha256": "50cb9a987c649375810cc7f526d379de858a8c4bca2a768d56970f8e27bdafb1",
+    "engine_version": "15.93",
+    "debug": {
+      "build_date": "1792591237495",
+      "build_version": "1.16.0"
+    },
+    "native_game": "thunder_coins_three",
+    "expected_native_title": "3 Thunder Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": true,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Spin"
+    ]
+  },
+  "3x-catch": {
+    "slug": "3x-catch",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=3xcatch&lang=en",
+    "source_sha256": "f84969c0e303425405d389214c59d9baf019f10d195097b54822cc7b86efe25f",
+    "engine_version": "14.136",
+    "debug": {
+      "build_date": "1793004603904",
+      "build_version": "1.19.0"
+    },
+    "native_game": "3xcatch",
+    "expected_native_title": "3x Catch",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Buy:2",
+      "Spin"
+    ]
+  },
+  "4-chili-amigos-hold-and-win": {
+    "slug": "4-chili-amigos-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=chili_amigos_4&lang=en",
+    "source_sha256": "ab8dd429d10ccfb7d55e98823e7cb13b4a9a7d843bf6acfe72bbfa9ab21319cb",
+    "engine_version": "15.98",
+    "debug": {
+      "build_date": "1793094516435",
+      "build_version": "1.12.0"
+    },
+    "native_game": "chili_amigos_4",
+    "expected_native_title": "4 Chili Amigos: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "4-chili-pots-hold-and-win": {
+    "slug": "4-chili-pots-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=four_chili_pots&lang=en",
+    "source_sha256": "81919e733a5f3a581bc699d72061587656d30788f02fa268415106e0c5eeb0db",
+    "engine_version": "14.142",
+    "debug": {
+      "build_date": "1793286701204",
+      "build_version": "1.18.0"
+    },
+    "native_game": "four_chili_pots",
+    "expected_native_title": "4 Chili Pots: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "4-pots-riches-hold-and-win": {
+    "slug": "4-pots-riches-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=4_pots_riches&lang=en",
+    "source_sha256": "1b49ac2cf8340a02ee13c8bc599307c0de15afd3ab9b6f41f79566dce3aef519",
+    "engine_version": "14.136",
+    "debug": {
+      "build_date": "1792767030064",
+      "build_version": "1.25.0"
+    },
+    "native_game": "4_pots_riches",
+    "expected_native_title": "4 Pots Riches: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "4-pots-riches-super-wheel": {
+    "slug": "4-pots-riches-super-wheel",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=four_pots_riches_super_wheel&lang=en",
+    "source_sha256": "564b392e8e040aab864416178b56b3e5836e25cb792e7a7ca673b8ab6e90a376",
+    "engine_version": "15.93",
+    "debug": {
+      "build_date": "1792573284339",
+      "build_version": "1.16.0"
+    },
+    "native_game": "four_pots_riches_super_wheel",
+    "expected_native_title": "4 Pots Riches: Superwheel",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "4-scarab-coins-hold-and-win": {
+    "slug": "4-scarab-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=4_scarab_coins&lang=en",
+    "source_sha256": "7eaad7851988110575bb9415ad057d10b8c5b78cd963b591fe490a4c500795a0",
+    "engine_version": "15.98",
+    "debug": {
+      "build_date": "1793094485133",
+      "build_version": "1.24.0"
+    },
+    "native_game": "4_scarab_coins",
+    "expected_native_title": "4 Scarab Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "4-supercharged-clovers-hold-and-win": {
+    "slug": "4-supercharged-clovers-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=4_supercharged_clovers&lang=en",
+    "source_sha256": "ca639fdb6fcb8da993b1a9ffe212f12e389b04784383023a4e4d35bd55168da5",
+    "engine_version": "15.93",
+    "debug": {
+      "build_date": "1792493076776",
+      "build_version": "1.26.0"
+    },
+    "native_game": "4_supercharged_clovers",
+    "expected_native_title": "4 Supercharged Clovers: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "4-supercharged-clovers-super-wheel": {
+    "slug": "4-supercharged-clovers-super-wheel",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=four_scharged_clovers_super_wheel&lang=en",
+    "source_sha256": "4c062c91ac607a1cc142ef6f86331b3d9083887027cc1a34a1eb520939614d3d",
+    "engine_version": "15.93",
+    "debug": {
+      "build_date": "1792508268602",
+      "build_version": "1.15.0"
+    },
+    "native_game": "four_scharged_clovers_super_wheel",
+    "expected_native_title": "4 Supercharged Clovers: Super Wheel",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "4-supershiny-diamonds-hold-and-win": {
+    "slug": "4-supershiny-diamonds-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=four_supershiny_diamonds&lang=en",
+    "source_sha256": "ecca53963180285581df7dcf1d5d57636e1e5e21804d678447fe617b0f1497f4",
+    "engine_version": "15.93",
+    "debug": {
+      "build_date": "1792505113058",
+      "build_version": "1.30.0"
+    },
+    "native_game": "four_supershiny_diamonds",
+    "expected_native_title": "4 Supershiny Diamonds: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "777-sizzling-wins-5-lines": {
+    "slug": "777-sizzling-wins-5-lines",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=777sizzling_wins&lang=en",
+    "source_sha256": "a32d6e62aa0456bcbb0ae4064bee931d4a0bea24369eaf6c887fe113f7fe0bac",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936633865",
+      "build_version": "1.10.0"
+    },
+    "native_game": "777sizzling_wins",
+    "expected_native_title": "777 Sizzling Wins: 5 lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-100-joker-staxx": {
+    "slug": "api-100-joker-staxx",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=100_joker_staxx&lang=en",
+    "source_sha256": "8a52ba5db6b6310b5ac0e009e3b7a259f411dcbb5520298bc5f2ff017ce421e9",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933250955",
+      "build_version": "18.10.0"
+    },
+    "native_game": "100_joker_staxx",
+    "expected_native_title": "100 Joker Staxx",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "23fc2c247957bb072751f896c69a55dfda981c5418c68f15db42c0f4e8c1fd5e",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-book-of-gold-classic": {
+    "slug": "api-book-of-gold-classic",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=book_of_gold_classic&lang=en",
+    "source_sha256": "c9e08be2a2e9f0bc80237d0ebfbcd584691ac46ce517e7de973ca9cd25690f11",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933590168",
+      "build_version": "81.6.0"
+    },
+    "native_game": "book_of_gold_classic",
+    "expected_native_title": "Book of Gold: Classic",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 10,
+    "launcher_sha256": "06161088d2af7ea5797ed420e97698f5be8324dfc374532eea0ff2cb2826f086",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-burning-wins": {
+    "slug": "api-burning-wins",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=burning_wins&lang=en",
+    "source_sha256": "3553c72499b2b7c32f3ee982eaa017f722bb9b97a17b095bca6282aedf4bb010",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789932777136",
+      "build_version": "28.15.0"
+    },
+    "native_game": "burning_wins",
+    "expected_native_title": "Burning Wins: classic 5 lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 5,
+    "launcher_sha256": "f1a172cc2e699dc3ce837efcfd1e7c085e62534e0848327c601d50b29b6c4ea1",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-fruits-and-jokers-100": {
+    "slug": "api-fruits-and-jokers-100",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=fruits_and_jokers_100&lang=en",
+    "source_sha256": "da09e05c4a1144b694bca9997dbdb607e8765225a600df687b05358c087df281",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933520616",
+      "build_version": "21.16.0"
+    },
+    "native_game": "fruits_and_jokers_100",
+    "expected_native_title": "Fruits & Jokers: 100 Lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "113c0a00db91b3fc3d2477945773809e700b8ad9e35cb8763c75c7fdf3277d23",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-fruits-and-jokers-20": {
+    "slug": "api-fruits-and-jokers-20",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=fruits_and_jokers_20&lang=en",
+    "source_sha256": "eb773b962f5cf1269f63245ea55f304e06eacc5f22dd2aea1d2e5f68121e7d15",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789932850028",
+      "build_version": "18.13.0"
+    },
+    "native_game": "fruits_and_jokers_20",
+    "expected_native_title": "Fruits & Jokers: 20 lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "478268b64a665e0e93c8ff6b619a58538daae9b3adf82f81f76a9fbed3d48971",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-fruits-and-jokers-40": {
+    "slug": "api-fruits-and-jokers-40",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=fruits_and_jokers_40&lang=en",
+    "source_sha256": "3ebfe8189b61658c8fc14696daf6a01ef8d60ee015dcc2705f03db0b13db69a2",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933179930",
+      "build_version": "14.10.0"
+    },
+    "native_game": "fruits_and_jokers_40",
+    "expected_native_title": "Fruits & Jokers: 40 Lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "c9224365336880c1e21edf2052d6cbd3be420f02dea21b8eacf88fd0fb4369f9",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-imperial-fruits-5": {
+    "slug": "api-imperial-fruits-5",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=imperial_fruits_5&lang=en",
+    "source_sha256": "46573728f870acba4962e3a1c0ecd11f908b494094eafbbd9e4986abf415c0d6",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933449262",
+      "build_version": "31.5.0"
+    },
+    "native_game": "imperial_fruits_5",
+    "expected_native_title": "Imperial Fruits: 5 Lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 5,
+    "launcher_sha256": "142b634c7bff4e2fafb4cd133acdadc1917353f70ee2bbe85f6a842025d6d209",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-joker-expand": {
+    "slug": "api-joker-expand",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=joker_expand&lang=en",
+    "source_sha256": "88014a433e4b214e3525310cc4b27e859073bd13ed6ae1127ba5f11f0d237e91",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933108808",
+      "build_version": "14.14.0"
+    },
+    "native_game": "joker_expand",
+    "expected_native_title": "Joker Expand: 5 Lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 5,
+    "launcher_sha256": "1be1e9e6b79b0ba0f0ec773a6175c99080e93d6570267f7144cfb9afaa636ea6",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-rise-of-egypt": {
+    "slug": "api-rise-of-egypt",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=rise_of_egypt&lang=en",
+    "source_sha256": "f2c98e1f6ac14c3fed97d90cbfc4c056007e0cba05a4b3f782b3fca3ba8e9318",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933038073",
+      "build_version": "19.12.0"
+    },
+    "native_game": "rise_of_egypt",
+    "expected_native_title": "Rise of Egypt",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "159c87b30e586ed9f0c30f459185079de9ef45f54a222a7dadb3d045e8304905",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-sevens-n-fruits": {
+    "slug": "api-sevens-n-fruits",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=sevens_n_fruits&lang=en",
+    "source_sha256": "a12f4d68df19fce0ed39366578d985d9781ed45e78c2429ae91689bbe9738150",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789932688688",
+      "build_version": "6.8.1"
+    },
+    "native_game": "sevens_n_fruits",
+    "expected_native_title": "Sevens&Fruits",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 5,
+    "launcher_sha256": "e9f6ea3dcd41a74df9eb12c340d039fe6f85b2a28101b1a4c3093d92a50cadbb",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-sevens-n-fruits-20": {
+    "slug": "api-sevens-n-fruits-20",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=sevens_n_fruits_20&lang=en",
+    "source_sha256": "00f550c22a68ed1c6582109635e689ce44963fbc6ce0783f2799b16be03560ca",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933377974",
+      "build_version": "13.8.1"
+    },
+    "native_game": "sevens_n_fruits_20",
+    "expected_native_title": "Sevens&Fruits: 20 Lines",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "2d7b58dcc9ad61dcde7e2660ad3026d2dc8a903ffcd084c3f27026cefd7664ea",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-solar-queen": {
+    "slug": "api-solar-queen",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=solar_queen&lang=en",
+    "source_sha256": "eb56e80f304bc3c2b96f0b459dfc26d93a5a846aae12de987e1cce142aec3939",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933725978",
+      "build_version": "148.13.0"
+    },
+    "native_game": "solar_queen",
+    "expected_native_title": "Solar Queen",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "ab46d7c5df667ff5c4c293cdc06a521795ae222842fc31440becd51aca08ba6b",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-sunny-fruits": {
+    "slug": "api-sunny-fruits",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=sunny_fruits&lang=en",
+    "source_sha256": "7314521ae51b4958bed3f2e10f9660384067dacd2bf40575bd9415618a1e151c",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789933795823",
+      "build_version": "33.9.0"
+    },
+    "native_game": "sunny_fruits",
+    "expected_native_title": "Sunny Fruits: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "native_multiplier": 10,
+    "launcher_sha256": "fd355da96bfb05c9de82f6c2c88ba5d149c59aef55696087f0f7649075739e5f",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "api-super-burning-wins": {
+    "slug": "api-super-burning-wins",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=super_burning_wins&lang=en",
+    "source_sha256": "ee8c925bd2dd72b451e3d2750cfeb8c98ff584ec0693fe2ac4855a415a922498",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789932925170",
+      "build_version": "14.11.0"
+    },
+    "native_game": "super_burning_wins",
+    "expected_native_title": "Super Burning Wins",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 5,
+    "launcher_sha256": "3f2fa985b9e1e8ed4ca0dc00e2f2b1b1cc4443fe45b23222042b9f724c0529f3",
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "arizona-heist-hold-and-win": {
+    "slug": "arizona-heist-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=arizona_heist&lang=en",
+    "source_sha256": "7db64aaa64be43d6ada77a75b9bf1eabf97051bbcfe01a41134083c6daabce77",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937295784",
+      "build_version": "0.13.0"
+    },
+    "native_game": "arizona_heist",
+    "expected_native_title": "Arizona Heist: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "book-del-sol-multiplier": {
+    "slug": "book-del-sol-multiplier",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=book_del_sol&lang=en",
+    "source_sha256": "77513dc7595029e136808d0aa26b16c3986cbb611f97b21721a477a7b7e97d39",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789935280777",
+      "build_version": "4.12.0"
+    },
+    "native_game": "book_del_sol",
+    "expected_native_title": "Book del Sol: Multiplier",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "untyped_freegame",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 10,
+    "launcher_sha256": "aac24c701f7a5edf51870ee85102f50b6462a3d9dffabea03007547e80dd70c3",
+    "verified_modes": [
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "book-of-gold-multichance": {
+    "slug": "book-of-gold-multichance",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=book_of_gold_multichance&lang=en",
+    "source_sha256": "6b1be3a5d01aaf484d6d465fa4af6e631b7527e15b8d0d997db56e2b1c93d1fc",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789970950511",
+      "build_version": "1.15.1"
+    },
+    "native_game": "book_of_gold_multichance",
+    "expected_native_title": "Book of Gold: Multichance",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "untyped_freegame",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "native_multiplier": 10,
+    "launcher_sha256": "deac57f85a5050ebacb943c875e2ecb70dba63f2e054b1b25df75240b3255879",
+    "verified_modes": [
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "buffalo-power-megaways": {
+    "slug": "buffalo-power-megaways",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=buffalo_megaways&lang=en",
+    "source_sha256": "0cba8cd18420fcb055c447a7dda35340c6e6308ef6bf55ce5242173b69e5c1c1",
+    "engine_version": "14.136",
+    "debug": {
+      "build_date": "1792761250764",
+      "build_version": "1.18.0"
+    },
+    "native_game": "buffalo_megaways",
+    "expected_native_title": "Buffalo Power Megawaysâ¢",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "burning-fortunator": {
+    "slug": "burning-fortunator",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=burning_fort&lang=en",
+    "source_sha256": "dd944eef5cfffe312c84bbf67b215e07bda0d8d522fc637a9599575060665fe8",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789934944684",
+      "build_version": "13.15.0"
+    },
+    "native_game": "burning_fort",
+    "expected_native_title": "Burning Fortunator",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "burning-wins-x2": {
+    "slug": "burning-wins-x2",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=burning_wins_x2&lang=en",
+    "source_sha256": "60b2d1648ceb4e92b1a112934f76a7ebaf5b07e50289d579b2fecc55850838b1",
+    "engine_version": "14.133",
+    "debug": {
+      "build_date": "1792652706115",
+      "build_version": "1.18.0"
+    },
+    "native_game": "burning_wins_x2",
+    "expected_native_title": "Burning Wins x2",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "clover-smash": {
+    "slug": "clover-smash",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=clover_smash&lang=en",
+    "source_sha256": "c1ceeab3fdeb53b64b7000212b0d4950a5566b8306b4db079a1cdf9e70324147",
+    "engine_version": "15.96",
+    "debug": {
+      "build_date": "1793004682386",
+      "build_version": "1.13.0"
+    },
+    "native_game": "clover_smash",
+    "expected_native_title": "Clover Smash",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": true,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Ante:1.5",
+      "Spin"
+    ]
+  },
+  "clover-strike-hold-and-win": {
+    "slug": "clover-strike-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=clover_strike&lang=en",
+    "source_sha256": "5cce0cf3e8a5000b055c39bc8a0cc88754a7bd0aca8b3f91221ed5c471792dfe",
+    "engine_version": "15.79",
+    "debug": {
+      "build_date": "1789942146271",
+      "build_version": "0.392.0"
+    },
+    "native_game": "clover_strike",
+    "expected_native_title": "Clover Strike: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "coin-strike-2-hold-and-win": {
+    "slug": "coin-strike-2-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=coin_strike_2&lang=en",
+    "source_sha256": "6524738094e409aa9159e79a86267e8eb7c38c5e0d8e9d58cca13ab2f311e8f0",
+    "engine_version": "14.134",
+    "debug": {
+      "build_date": "1792666595028",
+      "build_version": "1.19.0"
+    },
+    "native_game": "coin_strike_2",
+    "expected_native_title": "Coin Strike 2: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Buy:2",
+      "Spin"
+    ]
+  },
+  "coin-strike-hold-and-win": {
+    "slug": "coin-strike-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=coin_strike&lang=en",
+    "source_sha256": "4cd57bb329350c0657e84b8c4aebf8f04d6467f235859fda1e152995066e7e2e",
+    "engine_version": "14.132",
+    "debug": {
+      "build_date": "1792426124677",
+      "build_version": "1.36.0"
+    },
+    "native_game": "coin_strike",
+    "expected_native_title": "Coin Strike: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "coin-strike-xxl-hold-and-win": {
+    "slug": "coin-strike-xxl-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=coin_strike_xxl&lang=en",
+    "source_sha256": "697ef460b00ab7a492a2d3426b9d1f119147f5762a9d58b13f59c8814fbd5547",
+    "engine_version": "14.141",
+    "debug": {
+      "build_date": "1793200362107",
+      "build_version": "1.11.0"
+    },
+    "native_game": "coin_strike_xxl",
+    "expected_native_title": "Coin Strike XXL: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "coin-strike-xxl-multicoin": {
+    "slug": "coin-strike-xxl-multicoin",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=coin_strike_xxl_multicoin&lang=en",
+    "source_sha256": "ce06d95435a703a59ebc71a39417830feea4f6d81712d87c606e7bdbeadee19d",
+    "engine_version": "15.96",
+    "debug": {
+      "build_date": "1792773299294",
+      "build_version": "1.22.0"
+    },
+    "native_game": "coin_strike_xxl_multicoin",
+    "expected_native_title": "Coin Strike XXL: Multicoin",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Ante:5",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "crown-and-diamonds-hold-and-win": {
+    "slug": "crown-and-diamonds-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=crown_n_diamonds&lang=en",
+    "source_sha256": "1274212271dff748ec4a63753507f58948b248a6a40cfebd355c38e04a496241",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936564436",
+      "build_version": "0.12.1"
+    },
+    "native_game": "crown_n_diamonds",
+    "expected_native_title": "Crown and Diamonds: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "crown-strike-hold-and-win": {
+    "slug": "crown-strike-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=crown_strike&lang=en",
+    "source_sha256": "c93ba588d446aa4aafee9984feb14a8a525067a828ccdbcaa8611a70c207523b",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789941464323",
+      "build_version": "0.206.0"
+    },
+    "native_game": "crown_strike",
+    "expected_native_title": "Crown Strike: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "diamond-fortunator-hold-and-win": {
+    "slug": "diamond-fortunator-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=diamond_fort&lang=en",
+    "source_sha256": "6a22a5eef273666576cc9d09f480ce65dcd9331080066e02db82f7f41e1bfabf",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789935050737",
+      "build_version": "49.8.0"
+    },
+    "native_game": "diamond_fort",
+    "expected_native_title": "Diamond Fortunator: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "diamonds-power-hold-and-win": {
+    "slug": "diamonds-power-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=diamonds_power&lang=en",
+    "source_sha256": "f6e52c614c9e00646b3cbf02fa889b2f871642f9f9f5bfbf3ca869a00f946526",
+    "engine_version": "14.138",
+    "debug": {
+      "build_date": "1793094536529",
+      "build_version": "1.23.0"
+    },
+    "native_game": "diamonds_power",
+    "expected_native_title": "Diamonds Power: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "diamonds-power-xxl-hold-and-win": {
+    "slug": "diamonds-power-xxl-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=diamonds_power_xxl&lang=en",
+    "source_sha256": "148f21c6292468cc2984acebaad0b4de3d73993019f0c4b3046e2231b1e2cbce",
+    "engine_version": "14.133",
+    "debug": {
+      "build_date": "1792594778414",
+      "build_version": "1.21.0"
+    },
+    "native_game": "diamonds_power_xxl",
+    "expected_native_title": "Diamonds Power XXL: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "empire-gold-hold-and-win": {
+    "slug": "empire-gold-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=empire_gold&lang=en",
+    "source_sha256": "eb1e1c52acad997aa4bfe7aaf1dfe6a7873aab352a92e772d8374f1f7b2625ff",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936160157",
+      "build_version": "1.13.0"
+    },
+    "native_game": "empire_gold",
+    "expected_native_title": "Empire Gold: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "energy-coins-hold-and-win": {
+    "slug": "energy-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=energy_coins&lang=en",
+    "source_sha256": "cd7244ec50ec0a29362f8a2517d693de3cc0334c7d8a3cc3736fb1f1dcd82ca0",
+    "engine_version": "14.141",
+    "debug": {
+      "build_date": "1793200454612",
+      "build_version": "1.20.0"
+    },
+    "native_game": "energy_coins",
+    "expected_native_title": "Energy Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "energy-joker-hold-and-win": {
+    "slug": "energy-joker-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=energy_joker&lang=en",
+    "source_sha256": "cb3fb8019944e0a2b132cb8f2e6fc22e90e6bff89df60ade7c703f21e127d6aa",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937224557",
+      "build_version": "0.4.0"
+    },
+    "native_game": "energy_joker",
+    "expected_native_title": "Energy Joker: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "fire-coins-hold-and-win": {
+    "slug": "fire-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=fire_coins&lang=en",
+    "source_sha256": "ba45b5967686a8976a0a8db4d130483ac4c8ede9ef23dc6ef0b20670714c875c",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936746734",
+      "build_version": "1.15.0"
+    },
+    "native_game": "fire_coins",
+    "expected_native_title": "Fire Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "fire-temple-hold-and-win": {
+    "slug": "fire-temple-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=fire_temple&lang=en",
+    "source_sha256": "e1fa267527779757d0997c46e2051f086c33fd108b54d7cc68d7bcab68b4a835",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936478714",
+      "build_version": "0.10.0"
+    },
+    "native_game": "fire_temple",
+    "expected_native_title": "Fire Temple: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "flaming-bells": {
+    "slug": "flaming-bells",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=flaming_bells&lang=en",
+    "source_sha256": "c571e12b01b71e02238ebaa4a708e45b2929bf726a681e31f7ae1c033bb5a347",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789941210847",
+      "build_version": "1.26.37"
+    },
+    "native_game": "flaming_bells",
+    "expected_native_title": "Flaming Bells: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "golden-penny-x1000": {
+    "slug": "golden-penny-x1000",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=golden_penny&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601055525",
+      "build_version": "1.31.0"
+    },
+    "source_sha256": "51af1e2badaee7bb9cffc7932ec189d71cbb27d889e35a4ff17bee45ebfefb2c",
+    "expected_native_title": "Golden Penny x1000",
+    "native_game": "golden_penny",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "9d4474ff08cc838ac0d394f3e7716b2f7b15c3cc92d42a3b72861930fe86ca24",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "choice_action": null,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "golden-penny-x1000-super-wheel": {
+    "slug": "golden-penny-x1000-super-wheel",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=golden_penny_super_wheel&lang=en",
+    "engine_version": "15.111",
+    "debug": {
+      "build_date": "1794601111206",
+      "build_version": "1.17.0"
+    },
+    "source_sha256": "60c1d502b7be3f922f737b93a7e4a4be2a7708e829c3ad8b5a4842a82381e051",
+    "expected_native_title": "Golden Penny x1000: Super Wheel",
+    "native_game": "golden_penny_super_wheel",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "d01fc8b5eff993e9ad3317dfc3477fcb9760c583eee28f1a5baf708de30f782b",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "choice_action": null,
+    "verified_modes": [
+      "Ante:2",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "hot-burning-wins": {
+    "slug": "hot-burning-wins",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=hot_burning_wins&lang=en",
+    "source_sha256": "d4bb0a4e30ed7a23532cd6e1fbb337d06b14d770dc92a9838a84b6b812c0c565",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789934620696",
+      "build_version": "14.10.0"
+    },
+    "native_game": "hot_burning_wins",
+    "expected_native_title": "Hot Burning Wins",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "hot-coins-hold-and-win": {
+    "slug": "hot-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=hot_coins&lang=en",
+    "source_sha256": "6b77d52bb9c0289c8052971c7f07441b7f2c60f3b708cede69573061656eac4c",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789934475032",
+      "build_version": "56.14.0"
+    },
+    "native_game": "hot_coins",
+    "expected_native_title": "Hot Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "jingle-coins-hold-and-win": {
+    "slug": "jingle-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=jingle_coins&lang=en",
+    "source_sha256": "9066fbe46ca7e2ab867c093c86cdd7ac78ef11dc0cdc181da0620ae1ad8f6ebe",
+    "engine_version": "14.136",
+    "debug": {
+      "build_date": "1793004621496",
+      "build_version": "1.18.0"
+    },
+    "native_game": "jingle_coins",
+    "expected_native_title": "Jingle Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "fixed_zero",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "jokers-coins-hold-and-win": {
+    "slug": "jokers-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=jokers_coins&lang=en",
+    "source_sha256": "0bf1a2b8fb5a584eef1525ffb9b0962f0479059193a8ee2dcd9085ab57602b42",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789935122661",
+      "build_version": "70.8.0"
+    },
+    "native_game": "jokers_coins",
+    "expected_native_title": "Joker's Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "king-of-the-sky-hit-the-bonus": {
+    "slug": "king-of-the-sky-hit-the-bonus",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=king_of_the_sky&lang=en",
+    "source_sha256": "eaa7ac67f8a79e600e9e54a6e210597076b126e83554c86b0efd58c2ac46ce06",
+    "engine_version": "14.142",
+    "debug": {
+      "build_date": "1793286740034",
+      "build_version": "1.19.0"
+    },
+    "native_game": "king_of_the_sky",
+    "expected_native_title": "King of the Sky: Hit The Bonus",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Buy:2",
+      "Spin"
+    ]
+  },
+  "legend-of-cleopatra-megaways": {
+    "slug": "legend-of-cleopatra-megaways",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=legend_of_cleopatra_megaways&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794600970553",
+      "build_version": "1.21.0"
+    },
+    "source_sha256": "ed7f2ce9d5063db56f2232d5e334f651962a90b36853d78676263882103b704d",
+    "expected_native_title": "Legend of Cleopatra Megawaysâ¢",
+    "native_game": "legend_of_cleopatra_megaways",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "untyped_freegame",
+    "bonus_round_counter": false,
+    "launcher_sha256": "afa71cf1880a53287c6408b158689970f316031d6e5985cf76b05df339b6ac37",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "choice_action": null,
+    "verified_modes": [
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "lightning-clovers-hit-the-bonus": {
+    "slug": "lightning-clovers-hit-the-bonus",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=light_clovers&lang=en",
+    "source_sha256": "3c2eb667e5784ae56213b159dc1b0beffbc518b3c3d0ef179e50b3e6f2efccc8",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789938080107",
+      "build_version": "1.11.0"
+    },
+    "native_game": "light_clovers",
+    "expected_native_title": "Lightning Clover: Hit the Bonus",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "lion-gems-3-pots-hold-and-win": {
+    "slug": "lion-gems-3-pots-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=lion_gems_3pots&lang=en",
+    "source_sha256": "c62b62502a4eff062c7e4af804be8bba41af9f255718b8bebb14c3f3b9c7ef7c",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789940144547",
+      "build_version": "1.18.0"
+    },
+    "native_game": "lion_gems_3pots",
+    "expected_native_title": "Lion Gems 3 Pots: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "lion-gems-hold-and-win": {
+    "slug": "lion-gems-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=lion_gems&lang=en",
+    "source_sha256": "cb726edee829640d2533942378a1c023798dc3dbbbb8bc0193fb4f2eadc3761b",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789935393986",
+      "build_version": "30.4.0"
+    },
+    "native_game": "lion_gems",
+    "expected_native_title": "Lion Gems: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "luxor-gold-hold-and-win": {
+    "slug": "luxor-gold-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=luxor_gold&lang=en",
+    "source_sha256": "66b392a293d6e1c3d28b19ed9ad7799f658ad04f090aff9aa4eec217a86c1e19",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789935470796",
+      "build_version": "2.8.0"
+    },
+    "native_game": "luxor_gold",
+    "expected_native_title": "Luxor Gold: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "merry-giftmas-hold-and-win": {
+    "slug": "merry-giftmas-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=merry_giftmas&lang=en",
+    "source_sha256": "2e919b48096a4ea5fe7d067b4fe0266c37b44efc658292d8f3ab4140660dc19e",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789938491175",
+      "build_version": "1.8.0"
+    },
+    "native_game": "merry_giftmas",
+    "expected_native_title": "Merry Giftmas: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "more-energy-coins-hold-and-win": {
+    "slug": "more-energy-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=moreenergycoins&lang=en",
+    "source_sha256": "80e2557c59e03bc0f9a4c8591786425fcf4d477d4bd2de18733d7ff9add2945f",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789941686282",
+      "build_version": "0.200.0"
+    },
+    "native_game": "moreenergycoins",
+    "expected_native_title": "More Energy Coins: Hold and WIn",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": true,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Spin"
+    ]
+  },
+  "paddy-star-smash-and-win": {
+    "slug": "paddy-star-smash-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=paddy_star&lang=en",
+    "source_sha256": "779b82b453d668cabb9412dab0e967e8a83fbc73bf259544e3752aa0adcf1068",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789940298028",
+      "build_version": "0.477.0"
+    },
+    "native_game": "paddy_star",
+    "expected_native_title": "Paddy Star: Smash and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "piggy-power-hit-the-bonus": {
+    "slug": "piggy-power-hit-the-bonus",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=piggy_power&lang=en",
+    "source_sha256": "d93f9d2151ffbd609e68d5d1d48b2e2e8d5d971c64963261f376b9161145ed3b",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937481024",
+      "build_version": "0.323.0"
+    },
+    "native_game": "piggy_power",
+    "expected_native_title": "Piggy Power: Hit the Bonus",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "pink-clovers-xxxl-hold-and-win": {
+    "slug": "pink-clovers-xxxl-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=pink_clovers_xxxl&lang=en",
+    "source_sha256": "6fee00b9bde1eb40e9c1ec8a14da7091f38e91ad0368a264d4d0ea73be731f4d",
+    "engine_version": "15.93",
+    "debug": {
+      "build_date": "1792590062309",
+      "build_version": "1.16.0"
+    },
+    "native_game": "pink_clovers_xxxl",
+    "expected_native_title": "Pink Clovers XXXL: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Ante:5",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "pink-joker-hold-and-win": {
+    "slug": "pink-joker-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=pink_joker&lang=en",
+    "source_sha256": "288269a1fcd60484e2568016bb1d58141be61a0696cf50aae7cf1ef7b0bd2799",
+    "engine_version": "14.133",
+    "debug": {
+      "build_date": "1792589983673",
+      "build_version": "1.17.0"
+    },
+    "native_game": "pink_joker",
+    "expected_native_title": "Pink Joker: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "pirate-chest-hold-and-win": {
+    "slug": "pirate-chest-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=pirate_chest&lang=en",
+    "source_sha256": "694df9cb20974c826952a50fc47c21280918d6275341708494d1cf515e7abe49",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789935814743",
+      "build_version": "0.8.0"
+    },
+    "native_game": "pirate_chest",
+    "expected_native_title": "Pirate Chest: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "power-crown-hold-and-win": {
+    "slug": "power-crown-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=power_crown&lang=en",
+    "source_sha256": "3e8042e97ee8a10c3a34b2fe0e633d667488d16cbf2ec9294fa5d208b9b08ccc",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937081167",
+      "build_version": "0.9.1"
+    },
+    "native_game": "power_crown",
+    "expected_native_title": "Power Crown: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "rhino-coins-hit-the-bonus": {
+    "slug": "rhino-coins-hit-the-bonus",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=rhino_coins&lang=en",
+    "source_sha256": "d7c1e2e5ee8c57f152e5c51b579210cd9b4516af7bbc2e74802bf31597f62546",
+    "engine_version": "15.96",
+    "debug": {
+      "build_date": "1792766962625",
+      "build_version": "1.20.0"
+    },
+    "native_game": "rhino_coins",
+    "expected_native_title": "Rhino Coins: Hit the Bonus",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:2",
+      "Buy:0",
+      "Buy:1",
+      "Buy:2",
+      "Buy:3",
+      "Buy:4",
+      "Buy:5",
+      "Spin"
+    ]
+  },
+  "rockin-joker-hold-and-win": {
+    "slug": "rockin-joker-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=rockin_joker&lang=en",
+    "source_sha256": "c0cd2bccfb9730cfe8d5d3852f5c5082667cb4a0731254f491646d865f0cb76c",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789940392570",
+      "build_version": "0.217.0"
+    },
+    "native_game": "rockin_joker",
+    "expected_native_title": "Rockin' Joker: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "royal-coins-2-hold-and-win": {
+    "slug": "royal-coins-2-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=royal_coins_2&lang=en",
+    "source_sha256": "ffe853a5aec48e87ff2be085856ece5336c8e4df820a1ba7ef04e110bd06d96f",
+    "engine_version": "14.138",
+    "debug": {
+      "build_date": "1793094486135",
+      "build_version": "1.19.0"
+    },
+    "native_game": "royal_coins_2",
+    "expected_native_title": "Royal Coins 2: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "royal-coins-hold-and-win": {
+    "slug": "royal-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=royal_coins&lang=en",
+    "source_sha256": "85c6806025ba419734e7b253d88c2f94f8750ddda14c24070094ef9c62272089",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789934734588",
+      "build_version": "45.18.0"
+    },
+    "native_game": "royal_coins",
+    "expected_native_title": "Royal Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "royal-express-hold-and-win": {
+    "slug": "royal-express-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=royal_express&lang=en",
+    "source_sha256": "8be71ba10bb49793676002256acf762f3ca76c23f7b5c5cd999177a1fdd6a546",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789938912711",
+      "build_version": "0.246.0"
+    },
+    "native_game": "royal_express",
+    "expected_native_title": "Royal Express: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "fixed_zero",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Spin"
+    ]
+  },
+  "royal-fortunator-hold-and-win": {
+    "slug": "royal-fortunator-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=royal_fort&lang=en",
+    "source_sha256": "73e4ad1d801bb7076e13aa029beaf64533d3a82c9c2ace590e49293db8ed4eb3",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789936231647",
+      "build_version": "0.24.0"
+    },
+    "native_game": "royal_fort",
+    "expected_native_title": "Royal Fortunator: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "royal-joker-hold-and-win": {
+    "slug": "royal-joker-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=royal_joker&lang=en",
+    "source_sha256": "2358aa65c024564c7338ae6fbdd23c7a55aed1a2eb7105911df5bbb201cb6df5",
+    "engine_version": "14.138",
+    "debug": {
+      "build_date": "1793094645166",
+      "build_version": "1.20.0"
+    },
+    "native_game": "royal_joker",
+    "expected_native_title": "Royal Joker: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "ruby-hit-hold-and-win": {
+    "slug": "ruby-hit-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=ruby_hit&lang=en",
+    "source_sha256": "2c66eaa81d55b83699aaeafc4b6dd8e8d1cac5b919bb43871408741877f37a40",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789935542053",
+      "build_version": "1.14.0"
+    },
+    "native_game": "ruby_hit",
+    "expected_native_title": "Ruby Hit: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": false,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "sugar-piggy-hold-and-win": {
+    "slug": "sugar-piggy-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=sugar_piggy&lang=en",
+    "engine_version": "15.111",
+    "debug": {
+      "build_date": "1794600921292",
+      "build_version": "1.22.0"
+    },
+    "source_sha256": "66ff8b0b940e2bfd2970c840479bb82e73ce711c76572d2921f3feadce6c615f",
+    "expected_native_title": "Sugar Piggy: Hold and Win",
+    "native_game": "sugar_piggy",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "bonus_round_counter": true,
+    "native_multiplier": 20,
+    "launcher_sha256": "9db735da7e51d4248d842d37485bc256e48872057599f87340a647e52083272a",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "choice_action": null,
+    "verified_modes": [
+      "Ante:1.5",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "sugar-teddy-x1000": {
+    "slug": "sugar-teddy-x1000",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=sugar_teddy&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601090432",
+      "build_version": "1.38.0"
+    },
+    "source_sha256": "a057e2699dc59f5431a3ff3ecd9bab5bffcef4ab14ae788749939285373e53a1",
+    "expected_native_title": "Sugar Teddy x1000",
+    "native_game": "sugar_teddy",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "6d3d24aad0053787538744437ad7720e602a93a8083ffa7958e0539da42cacf5",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "choice_action": null,
+    "verified_modes": [
+      "Ante:1.5",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "sunny-fruits-2-hold-and-win": {
+    "slug": "sunny-fruits-2-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=sunny_fruits_2&lang=en",
+    "source_sha256": "3a22bd5c56398a3b8067bf39cc2b3844e56a7e2e52f16023b1ce039a3b01f2c7",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789937407980",
+      "build_version": "1.6.1"
+    },
+    "native_game": "sunny_fruits_2",
+    "expected_native_title": "Sunny Fruits 2: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "super-pink-joker-hold-and-win": {
+    "slug": "super-pink-joker-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=super_pink_joker&lang=en",
+    "source_sha256": "ab4e5710ff60ee437b54310a9c437d3c285547724e18544f4b642ecbc5a3f189",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789939527019",
+      "build_version": "0.7.0"
+    },
+    "native_game": "super_pink_joker",
+    "expected_native_title": "Super Pink Joker: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "supercharged-clovers-hold-and-win": {
+    "slug": "supercharged-clovers-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=scharged_clovers&lang=en",
+    "source_sha256": "189b5f80ad9185a29a97453f9a52324fb70513f26f831b690a5d3082d08bae16",
+    "engine_version": "14.136",
+    "debug": {
+      "build_date": "1793004605588",
+      "build_version": "1.23.0"
+    },
+    "native_game": "scharged_clovers",
+    "expected_native_title": "Supercharged Clovers: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "thunder-coin-xxl-boostercells": {
+    "slug": "thunder-coin-xxl-boostercells",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=thunder_coins_xxl_booster_cells&lang=en",
+    "source_sha256": "483ac27bde3fed44f9e966ead55aa571b073d58011edf08334ee937c46578d5f",
+    "engine_version": "15.94",
+    "debug": {
+      "build_date": "1792666580406",
+      "build_version": "1.17.0"
+    },
+    "native_game": "thunder_coins_xxl_booster_cells",
+    "expected_native_title": "Thunder Coins XXL: BoosterCells",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Ante:4",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "thunder-coins-hold-and-win": {
+    "slug": "thunder-coins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=thunder_coins&lang=en",
+    "source_sha256": "be038f518f307cc8c30d2f5ec1a3d28067f5d9910df3938fd9c7de7a5f621745",
+    "engine_version": "14.132",
+    "debug": {
+      "build_date": "1792426167960",
+      "build_version": "1.17.0"
+    },
+    "native_game": "thunder_coins",
+    "expected_native_title": "Thunder Coins: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "thunder-coins-xxl-multicoin": {
+    "slug": "thunder-coins-xxl-multicoin",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=thunder_coins_xxl_multicoin&lang=en",
+    "source_sha256": "40f0a74eb02677324890e749411adf5336644a27e93537ac51869a1a6d66c6b1",
+    "engine_version": "15.93",
+    "debug": {
+      "build_date": "1792595095764",
+      "build_version": "1.38.0"
+    },
+    "native_game": "thunder_coins_xxl_multicoin",
+    "expected_native_title": "Thunder Coins XXL Multicoin",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Ante:1.5",
+      "Ante:5",
+      "Buy:0",
+      "Buy:1",
+      "Buy:2",
+      "Spin"
+    ]
+  },
+  "timeless-diamonds-hold-and-win": {
+    "slug": "timeless-diamonds-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=timeless_diamonds&lang=en",
+    "source_sha256": "3ccd03fe7735978457e8b14ac43cc2465af4cc0c030d0af9f955783abca88af7",
+    "engine_version": "15.79",
+    "debug": {
+      "build_date": "1789945361908",
+      "build_version": "1.9.0"
+    },
+    "native_game": "timeless_diamonds",
+    "expected_native_title": "Timeless Diamonds: Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "tornado-power-hold-and-win": {
+    "slug": "tornado-power-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=tornado_power&lang=en",
+    "source_sha256": "3b7c629fdd481af00222a400bd2629d35946698c4292bec2c0527c8ab57d45bd",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789940942902",
+      "build_version": "0.402.0"
+    },
+    "native_game": "tornado_power",
+    "expected_native_title": "Tornado Power Hold and Win",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "vegas-glitz": {
+    "slug": "vegas-glitz",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=vegas_glitz&lang=en",
+    "engine_version": "15.111",
+    "debug": {
+      "build_date": "1794601044288",
+      "build_version": "1.17.0"
+    },
+    "source_sha256": "bb968e9864496e3b6c1ede9d71a8cbbbdeaa584e864358dc4790b12f4df53824",
+    "expected_native_title": "Vegas Glitz",
+    "native_game": "vegas_glitz",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "bonus_round_counter": false,
+    "choice_action": "game",
+    "launcher_sha256": "6e0f9aa232cda6b89b09f1ded87d8a8781b4f9a949284367a263a14feaba45ca",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:0/Choice:1",
+      "Spin"
+    ],
+    "extra_choice_modes": [
+      {
+        "mode": "Buy:0/Choice:1",
+        "base_mode": "Buy:0",
+        "target_choice": 1
+      }
+    ]
+  },
+  "wolf-power-megaways": {
+    "slug": "wolf-power-megaways",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=wolf_power_mega&lang=en",
+    "source_sha256": "81e6162014a55d98204bc9222c8aea9d5486a774c322c03b8635e3a1fd7e2c82",
+    "engine_version": "14.118",
+    "debug": {
+      "build_date": "1789934875234",
+      "build_version": "6.15.0"
+    },
+    "native_game": "wolf_power_mega",
+    "expected_native_title": "Wolf Power Megawaysâ¢",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "untyped_bonus_game",
+    "choice_action": null,
+    "bonus_round_counter": true,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "x1000-golden-penny-2": {
+    "slug": "x1000-golden-penny-2",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=golden_penny_2&lang=en",
+    "engine_version": "15.111",
+    "debug": {
+      "build_date": "1794601075169",
+      "build_version": "1.19.0"
+    },
+    "source_sha256": "99c3579ea5b98f586e326465ce2557add1cf19c8714e453742c60f882111fdac",
+    "expected_native_title": "x1000 Golden Penny 2",
+    "native_game": "golden_penny_2",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "5c2a25ad44108ef7c83c0c01170ffd4dc5b4c6073075e49e7e806009bc9f2bbb",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "choice_action": null,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "beez-turn-wild": {
+    "slug": "beez-turn-wild",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=beez_turn_wild&lang=en",
+    "engine_version": "15.111",
+    "debug": {
+      "build_date": "1794601105545",
+      "build_version": "1.15.0"
+    },
+    "source_sha256": "6f66a3c092897b3dd1acd218aa36d17898ba7b79b11de509a5f0c4caeca1e4e9",
+    "expected_native_title": "Beez turn Wild",
+    "native_game": "beez_turn_wild",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "bonus_round_counter": false,
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Ante:1.5",
+      "Ante:5",
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ],
+    "launcher_sha256": "f5c64f0f807b8beb06f84f2c2f4083ce85361a1bb1c7154a51ac3b95a4d5f861"
+  },
+  "clover-charm-hit-the-bonus": {
+    "slug": "clover-charm-hit-the-bonus",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=clover_charm&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601017766",
+      "build_version": "1.22.0"
+    },
+    "source_sha256": "b0eb6199a5400113095779a323f2f6e9b5ec27e040f05106fbf8b865700713d2",
+    "expected_native_title": "Clover Charm: Hit the Bonus",
+    "native_game": "clover_charm",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "typed",
+    "bonus_round_counter": true,
+    "native_multiplier": 10,
+    "launcher_sha256": "4f0547a7e6c6950b01259593330f39ec4b5e8cfa842ad28c84ed3ab6c63bbb0b",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Buy:0",
+      "Buy:1",
+      "Spin"
+    ]
+  },
+  "buffalo-power-2-hold-and-win": {
+    "slug": "buffalo-power-2-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=buffalo_power_2&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601066209",
+      "build_version": "1.20.0"
+    },
+    "source_sha256": "82fb3fc080d00e14d49dd77e50a9a2a5e6e2ac886ad886aa1851257fdb619fe5",
+    "expected_native_title": "Buffalo Power 2: Hold and Win",
+    "native_game": "buffalo_power_2",
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "bonus_round_counter": true,
+    "native_multiplier": 20,
+    "launcher_sha256": "8b82e468d4032fc6defc10dad91b3a7aec3c1d5538d2cc05a9de7915d071b30f",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "wolf-power-hold-and-win": {
+    "slug": "wolf-power-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=wolf_power&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601014519",
+      "build_version": "1.22.0"
+    },
+    "source_sha256": "7244d4183b8207f044220858d70f7ef3c19b4a1e5a3f2b4ca557749316860300",
+    "expected_native_title": "Wolf Power: Hold and Win",
+    "native_game": "wolf_power",
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "bonus_round_counter": true,
+    "native_multiplier": 20,
+    "launcher_sha256": "18e1a6900fa89cb45a3fceed183b73aa12d3a79b4a75180f3a9b5e5945384cbf",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "solar-king": {
+    "slug": "solar-king",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=solar_king&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601011137",
+      "build_version": "1.23.0"
+    },
+    "source_sha256": "94b0933b2c03c4d3887f729fec27a6ec4b1854e897dbd7dc75c0a733677fbf5a",
+    "expected_native_title": "Solar King",
+    "native_game": "solar_king",
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "f4421071bb8aebfff9319b14b0c13787c382bd8a11d518d633de31c319120473",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "diamond-wins-hold-and-win": {
+    "slug": "diamond-wins-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=diamond_wins&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794600990582",
+      "build_version": "1.23.0"
+    },
+    "source_sha256": "4f007eb4c79162c0136acbaad22a9079fa1c21ac5fdaaeaafd82cab0b68eb71f",
+    "expected_native_title": "Diamond Wins: Hold and Win",
+    "native_game": "diamond_wins",
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "bonus_round_counter": true,
+    "native_multiplier": 10,
+    "launcher_sha256": "619092406a39e4fe323e282f2cfef6adecaa3c9a32e096e1c48eaac7ad00a15f",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "buffalo-power-hold-and-win": {
+    "slug": "buffalo-power-hold-and-win",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=buffalo_power&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794600937633",
+      "build_version": "1.21.0"
+    },
+    "source_sha256": "aec835c6584e86c08b7c2754dedadefd28e0d556969aa5ad1dc343a86e25f748",
+    "expected_native_title": "Buffalo Power: Hold and Win",
+    "native_game": "buffalo_power",
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "bonus_round_counter": true,
+    "native_multiplier": 20,
+    "launcher_sha256": "cbebf409453e3e4711feafaadfd6e9f0112ffde3cf48b406b51499c585e0f1c9",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "solar-temple": {
+    "slug": "solar-temple",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=solar_temple&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794600928471",
+      "build_version": "1.25.0"
+    },
+    "source_sha256": "247c32a33ee44fa7a85bb50a41899770ce4c76d5d101716907cbb2557a4cb36f",
+    "expected_native_title": "Solar Temple",
+    "native_game": "solar_temple",
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "bonus_round_counter": false,
+    "native_multiplier": 20,
+    "launcher_sha256": "c6c854b696a2fd6d8c8501da0d5f1dfcd769ccc0e8a30044038ca892a2df83f8",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "treasures-of-fire-scatter-pays": {
+    "slug": "treasures-of-fire-scatter-pays",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=treasures_fire&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794600968534",
+      "build_version": "1.24.0"
+    },
+    "source_sha256": "0a9240d324779700629b8a5966810532f87ec8bbbb1c4943a79d456af1e8c82b",
+    "expected_native_title": "Treasures of Fire: Scatter Pays",
+    "native_game": "treasures_fire",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": false,
+    "purchase_style": "untyped_freegame",
+    "bonus_round_counter": false,
+    "native_multiplier": 10,
+    "launcher_sha256": "379ff63c229c3530c6b4b0ffa793c1950ce7856ed6156a50f311bb014e9c3a94",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "buffalo-power-christmas": {
+    "slug": "buffalo-power-christmas",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=buffalo_xmas&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601044224",
+      "build_version": "1.25.0"
+    },
+    "source_sha256": "a694aeb1af28032090b348000b232056de55459f9820fb9bc3e078868e4333e4",
+    "expected_native_title": "Buffalo Power: Christmas",
+    "native_game": "buffalo_xmas",
+    "observed_purchase_binding": false,
+    "observed_ante_binding": false,
+    "purchase_style": "none",
+    "bonus_round_counter": true,
+    "native_multiplier": 20,
+    "launcher_sha256": "2873e313fb75f7e1b4994951bb8f2767f33a30caa495c7273f8b55d6ef9274c2",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "verified_modes": [
+      "Spin"
+    ]
+  },
+  "charge-the-clovers-hit-the-bonus": {
+    "slug": "charge-the-clovers-hit-the-bonus",
+    "launch_url": "https://xplatformwl-lrs.box-int-54f2g.com/launch?key=TEST1100000&partner=playsonsite-prod&wl=pl_gate&gameName=charge_clovers&lang=en",
+    "engine_version": "14.151",
+    "debug": {
+      "build_date": "1794601103311",
+      "build_version": "1.24.0"
+    },
+    "source_sha256": "a6f509b5451758e81f4798275801222677056adca718c5463c41def384f013ea",
+    "expected_native_title": "Charge the Clovers: Hit The Bonusâ¢",
+    "native_game": "charge_clovers",
+    "observed_purchase_binding": true,
+    "observed_ante_binding": true,
+    "purchase_style": "typed",
+    "bonus_round_counter": true,
+    "native_multiplier": 1,
+    "launcher_sha256": "333186eaf64504a6058b47f8db20d1451e51dfe21110bdf79c4bbe1e8c46a9b0",
+    "currency": "EUR",
+    "currency_decimals": 2,
+    "native_ante_multipliers": [
+      "2",
+      "3"
+    ],
+    "verified_modes": [
+      "Ante:2",
+      "Ante:3",
+      "Buy:0",
+      "Buy:1",
+      "Buy:2",
+      "Spin"
+    ]
+  }
+}

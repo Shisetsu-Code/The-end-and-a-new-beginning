@@ -1,0 +1,248 @@
+{
+  "ticket-to-wild": {
+    "game": "ticket-to-wild",
+    "public_game_id": "33466",
+    "native_table": "tickettowild0000",
+    "native_game": "TicketToWild",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "640c32eb2a8951ab037e71eb9d5c6c376576bbf67993fa7708f921c9e60bcd8e",
+    "launch_sha256": "0cf1a51b69a3ef6baf292baf7fc72526431cb9cdbc394c901d015658b216ba3a"
+  },
+  "casino-night": {
+    "game": "casino-night",
+    "public_game_id": "33357",
+    "native_table": "casinonight00000",
+    "native_game": "CasinoNight",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      },
+      "Bonus:101": {
+        "id": 101,
+        "kind": "featureBuy",
+        "factor": "60.00",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "fcd04713c2f83be6a16ccfa51e5e4351774698baa96d81b85f8b5cc238906a0f",
+    "launch_sha256": "b3235df7e246a909382dde2fd48fcd272843ae2e4b550d49196f14921ab0e179"
+  },
+  "mermaids": {
+    "game": "mermaids",
+    "public_game_id": "33044",
+    "native_table": "mermaids00000000",
+    "native_game": "Mermaids",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "6d1b3134ed6dd8436cefd5a60bd88cde3e05353887e404352ebf775b047657b7",
+    "launch_sha256": "12e8b2112ff7dbf402753e05b44e6c67a506974eb76dfad21c461b1e9964762a"
+  },
+  "pandoras-treasure": {
+    "game": "pandoras-treasure",
+    "public_game_id": "31505",
+    "native_table": "pandorastreasure",
+    "native_game": "PandorasTreasure",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      },
+      "FreeSpins:101": {
+        "id": 101,
+        "kind": "featureBuy",
+        "factor": "50.00",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "1ec79384bddcb36f4a7131aa3204fccbb27a94a3e48dc95e036e23ae5bd668c9",
+    "launch_sha256": "a8d53e6e2c7cf27340e550c95c2022f43b89fce6b287d1f5249b391449659892"
+  },
+  "leprechaun-joy": {
+    "game": "leprechaun-joy",
+    "public_game_id": "31487",
+    "native_table": "leprechaunjoy000",
+    "native_game": "LeprechaunJoy",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      },
+      "FreeSpins:101": {
+        "id": 101,
+        "kind": "featureBuy",
+        "factor": "40.00",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "32695c45fe03b844c71554808d1ce6a8e1c91608159da1b2e0626274b2fa2acc",
+    "launch_sha256": "929b245c444c0e0068e9262eb5fbf5c5d9ac36ca9803ff176280c363fdb67186"
+  },
+  "rainforest-gold": {
+    "game": "rainforest-gold",
+    "public_game_id": "30106",
+    "native_table": "rainforestgold00",
+    "native_game": "RainforestGold",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "dbbd9968302b2e02aa1700536e6cf509a2e70bf11ddf4139f9b2360c9bb8f813",
+    "launch_sha256": "499f656612b646bcb0b64de4bcde4d0e209b1e4481aa1e3434fad2c2248fba09"
+  },
+  "magic-lab": {
+    "game": "magic-lab",
+    "public_game_id": "28726",
+    "native_table": "magiclab00000000",
+    "native_game": "MagicLab",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      },
+      "FreeSpins:101": {
+        "id": 101,
+        "kind": "featureBuy",
+        "factor": "70.00",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "ca4415f49d567fc7e4777867466018f908ee49d591e815f436f3b053b5f564ca",
+    "launch_sha256": "c5be6e55370fec77cee4c7b4103849281d77ee460abe71254f0dfe40a6dd6e3d"
+  },
+  "jelly-belly-megaways": {
+    "game": "jelly-belly-megaways",
+    "public_game_id": "27033",
+    "native_table": "jellybellymegawa",
+    "native_game": "JellyBellyMegaWays",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      },
+      "FreeSpins:101": {
+        "id": 101,
+        "kind": "featureBuy",
+        "factor": "20.00",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "a1d6235d1235cff711a0690539ad158afa261bb3843cf949bc76c44d0c46cc8b",
+    "launch_sha256": "5ae3e8dd1f0a2cc21b0f2744e8a206d57edff3fec88e7a55ae37bda1610f65cd"
+  },
+  "jingle-bells-bonanza": {
+    "game": "jingle-bells-bonanza",
+    "public_game_id": "25388",
+    "native_table": "jinglebellsbonan",
+    "native_game": "JingleBellsBonanza",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "3f1de431e2ec52ec0c6f218245eb00201ca7ab250784b844f50d18f7f78c0697",
+    "launch_sha256": "f20b2f4f52dd1a316f77e8c43421388039ef6468c5e9794df9265d5ef5204058"
+  },
+  "gem-crush": {
+    "game": "gem-crush",
+    "public_game_id": "25382",
+    "native_table": "gemcrush00000000",
+    "native_game": "GemCrush",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      },
+      "FreeSpins:101": {
+        "id": 101,
+        "kind": "featureBuy",
+        "factor": "70.00",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "ced17a19015319117467740eba8ce5425cc589e49bfdacf22b24110edb151858",
+    "launch_sha256": "9a614d07c28121311816063c3178e3a635143cb91b795fdfa3e0004300991b80"
+  },
+  "lights-camera-cash": {
+    "game": "lights-camera-cash",
+    "public_game_id": "23243",
+    "native_table": "lightscameracash",
+    "native_game": "LightsCameraCash",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "ac869648fb59438fff722e779b93c6ece590bb4eb97a9d728b3ff1e148f5300f",
+    "launch_sha256": "46428b1d07e681cfa2d7d11b165cc83496d518aae23f0ec01fe9886cb653e4eb"
+  },
+  "the-wish-master-megaways": {
+    "game": "the-wish-master-megaways",
+    "public_game_id": "14687",
+    "native_table": "thewishmastermeg",
+    "native_game": "TheWishMasterMegaWays",
+    "modes": {
+      "Spin": {
+        "id": 0,
+        "kind": "normal",
+        "factor": "1",
+        "currency": "EUR",
+        "minimum": "0.1"
+      }
+    },
+    "financial_sha256": "d57c352f9bc53e52db61621e7718c8cfd250edc70ae2f2a98127d9a63d7a1331",
+    "launch_sha256": "12ff6445ebfe3fb2c806b648a09d8f72e07745a8e7d4eb9f5b082fc2cba98847"
+  }
+}

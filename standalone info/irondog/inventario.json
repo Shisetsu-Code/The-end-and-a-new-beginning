@@ -1,0 +1,3416 @@
+{
+  "id": "irondog",
+  "name": "Iron Dog Studio",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "irondog.morphic",
+    "workspace_adapter": "collection_full_misc.py::_irondog",
+    "continuations": "native engine continuation",
+    "closure": "settled; legacy cycle exceptions"
+  },
+  "games": [
+    {
+      "id": "7021",
+      "name": "Barbarian Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7023",
+      "name": "1 Million Megaways BC",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7025",
+      "name": "Rainbow Wilds Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7027",
+      "name": "Astro Newts Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7029",
+      "name": "Santa's Big Bash Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 5",
+          "type": "purchase",
+          "label": "buy 5",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6",
+          "type": "purchase",
+          "label": "buy 6",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7031",
+      "name": "Gods of Asgard Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 5",
+          "type": "purchase",
+          "label": "buy 5",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7033",
+      "name": "1 Million Fortunes Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7034",
+      "name": "Aztec Wilds Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7035",
+      "name": "Sweet Candy Cash Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 5",
+          "type": "purchase",
+          "label": "buy 5",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6",
+          "type": "purchase",
+          "label": "buy 6",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8046",
+      "name": "Blirix Workshop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8058",
+      "name": "Robbin Robin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 012",
+          "type": "purchase",
+          "label": "buy 012",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 013",
+          "type": "purchase",
+          "label": "buy 013",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 014",
+          "type": "purchase",
+          "label": "buy 014",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 023",
+          "type": "purchase",
+          "label": "buy 023",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 024",
+          "type": "purchase",
+          "label": "buy 024",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 034",
+          "type": "purchase",
+          "label": "buy 034",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 123",
+          "type": "purchase",
+          "label": "buy 123",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 124",
+          "type": "purchase",
+          "label": "buy 124",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 134",
+          "type": "purchase",
+          "label": "buy 134",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 234",
+          "type": "purchase",
+          "label": "buy 234",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8101",
+      "name": "The Choice is Yours Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8103",
+      "name": "Book Of Ba'al",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8105",
+      "name": "Solar Nova",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8107",
+      "name": "Rum and Raiders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8116",
+      "name": "Boom Time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8125",
+      "name": "Megaways Jack and The Magic Beans",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8130",
+      "name": "Stampeding Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8132",
+      "name": "Rainin' Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8135",
+      "name": "Sweet Candy Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8138",
+      "name": "Mad Cabs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8148",
+      "name": "Megaways Jack Frost",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8149",
+      "name": "Sweet Candy Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8150",
+      "name": "Apex Strike Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8151",
+      "name": "Gods of Olympus III Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8159",
+      "name": "Sweet Candy Cash Megaways Deluxe",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100,101",
+          "type": "antebet",
+          "label": "ante 100,101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 101",
+          "type": "antebet",
+          "label": "ante 101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 102",
+          "type": "antebet",
+          "label": "ante 102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8160",
+      "name": "Goal Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8161",
+      "name": "Mr Porky Banker Cash Stash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8163",
+      "name": "Western Wilds Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 5",
+          "type": "purchase",
+          "label": "buy 5",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8165",
+      "name": "Arriba Heat Fuego Fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8169",
+      "name": "Red Zone Blitz 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8171",
+      "name": "Eagle Strike Lucky Cache",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 101",
+          "type": "antebet",
+          "label": "ante 101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 100,101",
+          "type": "antebet",
+          "label": "ante 100,101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8173",
+      "name": "Grizzly Strike Lucky Cache",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100,101",
+          "type": "antebet",
+          "label": "ante 100,101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 101",
+          "type": "antebet",
+          "label": "ante 101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 102",
+          "type": "antebet",
+          "label": "ante 102",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8175",
+      "name": "Solar Nova Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8177",
+      "name": "Gods of Olympus IV",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8183",
+      "name": "Apex Strike Lucky Cache",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 101",
+          "type": "antebet",
+          "label": "ante 101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "ante 100,101",
+          "type": "antebet",
+          "label": "ante 100,101",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8185",
+      "name": "Jolly Bonus Wins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8186",
+      "name": "Everest Avalanche",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8191",
+      "name": "Jewelling Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0|choice=0",
+          "type": "purchase",
+          "label": "buy 0|choice=0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0|choice=1",
+          "type": "purchase",
+          "label": "buy 0|choice=1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1|choice=0",
+          "type": "purchase",
+          "label": "buy 1|choice=0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1|choice=1",
+          "type": "purchase",
+          "label": "buy 1|choice=1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8354",
+      "name": "Bacon Banker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8400",
+      "name": "Dwarven Gems Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 11",
+          "type": "purchase",
+          "label": "buy 11",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 15",
+          "type": "purchase",
+          "label": "buy 15",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 20",
+          "type": "purchase",
+          "label": "buy 20",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 7",
+          "type": "purchase",
+          "label": "buy 7",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 9",
+          "type": "purchase",
+          "label": "buy 9",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9100",
+      "name": "Dolla Dolla Bill",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9102",
+      "name": "Grand Ahoy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9104",
+      "name": "Loot Crab 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9107",
+      "name": "3 Capybaras",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9108",
+      "name": "Dolla Dolla Bill: Mo’ Money",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9111",
+      "name": "Goal Blitz Shootout 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9115",
+      "name": "3 Wild Aliens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9116",
+      "name": "Diamond Charge Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9119",
+      "name": "3 Wicked Devils 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9121",
+      "name": "The Golden Mummy Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9122",
+      "name": "Sweet Candy Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9123",
+      "name": "4 Wild Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9125",
+      "name": "3 Christmas Fortunes 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9127",
+      "name": "Diamond Supercharge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9128",
+      "name": "3 Pinatas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9132",
+      "name": "Cleopatra's Fortune 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9135",
+      "name": "Fruit Lightning 3x5",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9136",
+      "name": "4 Dragon Pots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9139",
+      "name": "Double Cash Mummy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9143",
+      "name": "Plucky Hens: Cluck Yeah",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90030",
+      "name": "Train Strike Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90040",
+      "name": "Santa's Festive Express Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90061",
+      "name": "Diamond Charge Extra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90090",
+      "name": "Fruity Hold & Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90110",
+      "name": "3 Apex Treasures 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90150",
+      "name": "Football Hold & Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90190",
+      "name": "3 Jewelling Diamonds 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90220",
+      "name": "5x Hot Magma Multipliers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90240",
+      "name": "Fishin' & Crabbin' 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90260",
+      "name": "Wheel of Porkies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90280",
+      "name": "3 Dragon Pots Ultimate",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90290",
+      "name": "Chain Reaction Hold & Blitz",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90300",
+      "name": "3 Spooky Chilli Peppers 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90310",
+      "name": "Wheel of Horrors 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90330",
+      "name": "3 Porky Banks: Sky High 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90340",
+      "name": "Poseidon's Storm 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "ante 100",
+          "type": "antebet",
+          "label": "ante 100",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90350",
+      "name": "The Golden Mummy 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90250",
+      "name": "Gods of Olympus V",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legacy-7016-Pirate-Kingdom-Megaways",
+      "name": "Pirate Kingdom Megaways · perfil legacy",
+      "ready": false,
+      "block_reason": "legacy_native_cycle_has_no_authoritative_settlement_marker",
+      "modes": [
+        {
+          "key": "buy 6-0",
+          "type": "purchase",
+          "label": "buy 6-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-1",
+          "type": "purchase",
+          "label": "buy 6-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 10-0",
+          "type": "purchase",
+          "label": "buy 10-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 10-1",
+          "type": "purchase",
+          "label": "buy 10-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-0",
+          "type": "purchase",
+          "label": "buy 8-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-1",
+          "type": "purchase",
+          "label": "buy 8-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legacy-7019-Megaways-Jack",
+      "name": "Megaways Jack · perfil legacy",
+      "ready": false,
+      "block_reason": "legacy_native_cycle_has_no_authoritative_settlement_marker",
+      "modes": [
+        {
+          "key": "buy 0",
+          "type": "purchase",
+          "label": "buy 0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 1",
+          "type": "purchase",
+          "label": "buy 1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 2",
+          "type": "purchase",
+          "label": "buy 2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 3",
+          "type": "purchase",
+          "label": "buy 3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 4",
+          "type": "purchase",
+          "label": "buy 4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 5",
+          "type": "purchase",
+          "label": "buy 5",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6",
+          "type": "purchase",
+          "label": "buy 6",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legacy-7022-NetBet-Branded-Megaways",
+      "name": "NetBet Branded Megaways · perfil legacy",
+      "ready": false,
+      "block_reason": "legacy_native_cycle_has_no_authoritative_settlement_marker",
+      "modes": [
+        {
+          "key": "buy 10-0",
+          "type": "purchase",
+          "label": "buy 10-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 10-1",
+          "type": "purchase",
+          "label": "buy 10-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-0",
+          "type": "purchase",
+          "label": "buy 6-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-1",
+          "type": "purchase",
+          "label": "buy 6-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-0",
+          "type": "purchase",
+          "label": "buy 8-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-1",
+          "type": "purchase",
+          "label": "buy 8-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legacy-7022-Rant-Branded-Megaways",
+      "name": "Rant Branded Megaways · perfil legacy",
+      "ready": false,
+      "block_reason": "legacy_native_cycle_has_no_authoritative_settlement_marker",
+      "modes": [
+        {
+          "key": "buy 10-0",
+          "type": "purchase",
+          "label": "buy 10-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 10-1",
+          "type": "purchase",
+          "label": "buy 10-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-0",
+          "type": "purchase",
+          "label": "buy 6-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-1",
+          "type": "purchase",
+          "label": "buy 6-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-0",
+          "type": "purchase",
+          "label": "buy 8-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-1",
+          "type": "purchase",
+          "label": "buy 8-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legacy-7026-Christmas-Megaways",
+      "name": "Christmas Megaways · perfil legacy",
+      "ready": false,
+      "block_reason": "legacy_native_cycle_has_no_authoritative_settlement_marker",
+      "modes": [
+        {
+          "key": "buy 10-0",
+          "type": "purchase",
+          "label": "buy 10-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 10-1",
+          "type": "purchase",
+          "label": "buy 10-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-0",
+          "type": "purchase",
+          "label": "buy 6-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-1",
+          "type": "purchase",
+          "label": "buy 6-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-0",
+          "type": "purchase",
+          "label": "buy 8-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-1",
+          "type": "purchase",
+          "label": "buy 8-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "legacy-7501-Star-Casino-Branded-Megaways",
+      "name": "Star Casino Branded Megaways · perfil legacy",
+      "ready": false,
+      "block_reason": "legacy_native_cycle_has_no_authoritative_settlement_marker",
+      "modes": [
+        {
+          "key": "buy 10-0",
+          "type": "purchase",
+          "label": "buy 10-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 10-1",
+          "type": "purchase",
+          "label": "buy 10-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-0",
+          "type": "purchase",
+          "label": "buy 6-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 6-1",
+          "type": "purchase",
+          "label": "buy 6-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-0",
+          "type": "purchase",
+          "label": "buy 8-0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "buy 8-1",
+          "type": "purchase",
+          "label": "buy 8-1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8158",
+      "name": "Vegas Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8134",
+      "name": "Savannah Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7018",
+      "name": "Crown of Avalon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "7028",
+      "name": "Rock the Reels Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8106",
+      "name": "Wolf Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8117",
+      "name": "Eagle Strike Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8120",
+      "name": "Grizzly Strike",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8123",
+      "name": "Merry Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8124",
+      "name": "Forge of the Gods",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8126",
+      "name": "Feeding Fury",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8128",
+      "name": "Fruity Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8131",
+      "name": "Vegas Hot Spots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8136",
+      "name": "Luck of the Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8166",
+      "name": "Farming Frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8167",
+      "name": "3 Porky Banks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8174",
+      "name": "3 Crazy Tikis",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8176",
+      "name": "Western Wilds Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8179",
+      "name": "Lucky Cauldron (Iron Dog Studio)",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8181",
+      "name": "Smoking Hot Fortunes",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8184",
+      "name": "3 Porky Banks Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8188",
+      "name": "Fruit Lightning",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8190",
+      "name": "Tropical Thunder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8192",
+      "name": "3 Plucky Hens",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8193",
+      "name": "3 Leprechaun Charms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8194",
+      "name": "Diamond Charge Megaways",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8196",
+      "name": "Piñata Go Go",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8198",
+      "name": "Piggy Bank Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8199",
+      "name": "3 Porky Banks Extra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9103",
+      "name": "3 Top Dogs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9105",
+      "name": "Wolf Strike Hold and Win Extra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9109",
+      "name": "Mad Cabs Hold & Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9110",
+      "name": "3 Mad Frogs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9112",
+      "name": "Inspector Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9114",
+      "name": "Cowboy Showdown",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9118",
+      "name": "3 Cheeky Chimps",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9124",
+      "name": "Stickman Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9129",
+      "name": "Ahoy Royale",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9130",
+      "name": "Piggy Bank Stash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9134",
+      "name": "Leprechaun Charms Rainbow Jackpots",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9137",
+      "name": "Sweet Candy Cash Stash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9140",
+      "name": "3 Super Porky Banks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9141",
+      "name": "Super Diamond Charge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "9142",
+      "name": "Money Minecarts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90010",
+      "name": "Red Zone Blitz Hold and Win 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90020",
+      "name": "Crazy Tiki Hold and Win",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90051",
+      "name": "3 Hot Chilli Peppers Extra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90070",
+      "name": "Eagle Strike Extra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90080",
+      "name": "3 Runaway Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90101",
+      "name": "Goldstar Express",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90120",
+      "name": "12 Volt Diamonds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90140",
+      "name": "3 Gods of Goalympus 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90160",
+      "name": "Savannah Strike Extra",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90170",
+      "name": "7s V BARs",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90180",
+      "name": "4 Crabbin' Fortunes 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "90210",
+      "name": "3 Shooting Stars 95",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "8197",
+      "name": "3 Hot Chilli Peppers",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "normal",
+          "requires_prerequisites": false
+        }
+      ]
+    }
+  ]
+}

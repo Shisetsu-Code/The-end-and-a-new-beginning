@@ -1,0 +1,4078 @@
+{
+  "id": "netent",
+  "name": "NetEnt",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "netent",
+    "workspace_adapter": "collection_full_node.py::netent",
+    "continuations": "bootstrap family and next action",
+    "closure": "family-specific settlement"
+  },
+  "games": [
+    {
+      "id": "finn-and-the-candy-spin",
+      "name": "Finn and the Candy Spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy:select=destroy",
+          "type": "purchase",
+          "label": "FeatureBuy:select=destroy"
+        },
+        {
+          "key": "FeatureBuy:select=randomwilds",
+          "type": "purchase",
+          "label": "FeatureBuy:select=randomwilds"
+        },
+        {
+          "key": "FeatureBuy:select=symboloverlay",
+          "type": "purchase",
+          "label": "FeatureBuy:select=symboloverlay"
+        },
+        {
+          "key": "FeatureBuy:select=symboltransform",
+          "type": "purchase",
+          "label": "FeatureBuy:select=symboltransform"
+        }
+      ]
+    },
+    {
+      "id": "dont-eat-the-candy",
+      "name": "Don’t Eat the Candy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "druids-magic",
+      "name": "Druids Magic",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "variant",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "lost-relics-2",
+      "name": "Lost Relics 2™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "thrill-to-grill",
+      "name": "Thrill to Grill",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "big-bang-boom",
+      "name": "Big Bang Boom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "beach-invaders",
+      "name": "Beach Invaders™",
+      "ready": false,
+      "block_reason": "official_product_does_not_advertise_a_public_demo",
+      "modes": []
+    },
+    {
+      "id": "wild-turkey-megaways",
+      "name": "Wild Turkey™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "variant",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "101-candies",
+      "name": "101 Candies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "fruit-shop-frenzy",
+      "name": "Fruit Shop™ Frenzy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FruitFrenzy:101",
+          "type": "variant",
+          "label": "FruitFrenzy:101"
+        }
+      ]
+    },
+    {
+      "id": "crab-trap",
+      "name": "Crab Trap",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "starburst",
+      "name": "Starburst™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "gonzos-quest",
+      "name": "Gonzo’s Quest™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "starburst-xxxtreme",
+      "name": "Starburst™ XXXtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "XXXtremeSpin",
+          "type": "variant",
+          "label": "XXXtremeSpin"
+        },
+        {
+          "key": "XXXtremeSpinEnhanced",
+          "type": "variant",
+          "label": "XXXtremeSpinEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "piggy-riches-slot",
+      "name": "Piggy Riches™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "dead-or-alive-2",
+      "name": "Dead or Alive 2™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "nunchucks",
+      "name": "Nunchucks",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "demon-beats",
+      "name": "Demon Beats",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy6",
+          "type": "purchase",
+          "label": "FeatureBuy6"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jack-and-the-beanstalk-2-goat-enterprise",
+      "name": "Jack and the Beanstalk 2™ Goat Enterprise",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "aftermath",
+      "name": "Aftermath",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "judgemental",
+      "name": "Judgemental",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy7",
+          "type": "purchase",
+          "label": "FeatureBuy7"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy6",
+          "type": "purchase",
+          "label": "FeatureBuy6"
+        }
+      ]
+    },
+    {
+      "id": "spice",
+      "name": "Spice",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fruit-shop-grand-re-opening",
+      "name": "Fruit Shop Grand Re-Opening",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "in-and-out",
+      "name": "In and Out",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "whats-up-witches",
+      "name": "What’s Up? Witches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "divine-fortune-gold",
+      "name": "Divine Fortune Gold",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        }
+      ]
+    },
+    {
+      "id": "dead-or-alive-3-wanted",
+      "name": "Dead or Alive™ 3: Wanted",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        }
+      ]
+    },
+    {
+      "id": "godbreaker",
+      "name": "Godbreaker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "monopoly-money-line",
+      "name": "MONOPOLY Money Line",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        }
+      ]
+    },
+    {
+      "id": "rabid-randy-gone-fishing",
+      "name": "Rabid Randy: Gone Fishing",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy1",
+          "type": "purchase",
+          "label": "FeatureBuy1"
+        },
+        {
+          "key": "FeatureBuy2",
+          "type": "purchase",
+          "label": "FeatureBuy2"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        }
+      ]
+    },
+    {
+      "id": "flock-me",
+      "name": "Flock Me",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        }
+      ]
+    },
+    {
+      "id": "rabid-randy-dark-trails",
+      "name": "Rabid Randy: Dark Trails",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "dead-west",
+      "name": "Dead West",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        }
+      ]
+    },
+    {
+      "id": "gonzos-quest-ii-return-to-el-dorado",
+      "name": "Gonzo’s Quest™ II: Return to El Dorado",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "piggy-riches-3-hog-heaven",
+      "name": "Piggy Riches™ 3: Hog Heaven",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "reel-rush-xxxtreme",
+      "name": "Reel Rush™ XXXtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        }
+      ]
+    },
+    {
+      "id": "jack-hammer-4-chasing-the-dragon",
+      "name": "Jack Hammer™ 4: Chasing the Dragon",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "divine-fortune-black",
+      "name": "Divine Fortune Black",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "golden-egg-invaders",
+      "name": "Golden Egg Invaders",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "finn-and-the-dragon-tales",
+      "name": "Finn and the Dragon Tales",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "wild-mining-xxxtreme",
+      "name": "Wild Mining™ XXXtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "XXXtremeSpin",
+          "type": "variant",
+          "label": "XXXtremeSpin"
+        },
+        {
+          "key": "XXXtremeSpinEnhanced",
+          "type": "variant",
+          "label": "XXXtremeSpinEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "dazzle-me-christmas",
+      "name": "Dazzle Me™ Christmas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "starburst-galaxy",
+      "name": "Starburst Galaxy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        },
+        {
+          "key": "FeatureBuy4",
+          "type": "purchase",
+          "label": "FeatureBuy4"
+        },
+        {
+          "key": "FeatureBuy5",
+          "type": "purchase",
+          "label": "FeatureBuy5"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuy3",
+          "type": "purchase",
+          "label": "FeatureBuy3"
+        },
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "mummy-megaways",
+      "name": "Mummy™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "mine-blown",
+      "name": "Mine Blown™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "variant",
+          "label": "FreeSpins:101"
+        },
+        {
+          "key": "BonusSpins:102",
+          "type": "variant",
+          "label": "BonusSpins:102"
+        }
+      ]
+    },
+    {
+      "id": "ms-robin-hood",
+      "name": "Ms Robin Hood",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "variant",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "rabid-randy",
+      "name": "Rabid Randy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "twister",
+      "name": "Twister",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "dragons-playground",
+      "name": "Dragons Playground™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "variant",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "cornelius-milk-hunter-megaways",
+      "name": "Cornelius Milk Hunter Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "ticket-to-wild",
+      "name": "Ticket to Wild™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "space-wars-megaways-xxxtreme",
+      "name": "Space Wars Megaways™ XXXtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "XXXtremeSpin",
+          "type": "variant",
+          "label": "XXXtremeSpin"
+        },
+        {
+          "key": "XXXtremeSpinEnhanced",
+          "type": "variant",
+          "label": "XXXtremeSpinEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "casino-night",
+      "name": "Casino Night™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Bonus:101",
+          "type": "purchase",
+          "label": "Bonus:101"
+        }
+      ]
+    },
+    {
+      "id": "babylon-riches",
+      "name": "Babylon Riches",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "variant",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "mermaids",
+      "name": "Mermaids™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "royal-nuts",
+      "name": "Royal Nuts",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "gladiator-clash",
+      "name": "Gladiator Clash™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Bonus:101",
+          "type": "variant",
+          "label": "Bonus:101"
+        }
+      ]
+    },
+    {
+      "id": "big-money-wheel",
+      "name": "Big Money Wheel",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "lock-and-pop",
+      "name": "Lock and Pop",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "jungle-spirit-megaways",
+      "name": "Jungle Spirit Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy:Tiger:Collect",
+          "type": "purchase",
+          "label": "FeatureBuy:Tiger:Collect"
+        },
+        {
+          "key": "FeatureBuy:Tiger:Gamble",
+          "type": "purchase",
+          "label": "FeatureBuy:Tiger:Gamble"
+        },
+        {
+          "key": "FeatureBuy:Elephant:Collect",
+          "type": "purchase",
+          "label": "FeatureBuy:Elephant:Collect"
+        },
+        {
+          "key": "FeatureBuy:Elephant:Gamble",
+          "type": "purchase",
+          "label": "FeatureBuy:Elephant:Gamble"
+        },
+        {
+          "key": "FeatureBuy:Bear:Collect",
+          "type": "purchase",
+          "label": "FeatureBuy:Bear:Collect"
+        },
+        {
+          "key": "FeatureBuy:Bear:Gamble",
+          "type": "purchase",
+          "label": "FeatureBuy:Bear:Gamble"
+        },
+        {
+          "key": "FeatureBuy:Crocodile:Collect",
+          "type": "purchase",
+          "label": "FeatureBuy:Crocodile:Collect"
+        },
+        {
+          "key": "FeatureBuy:Crocodile:Gamble",
+          "type": "purchase",
+          "label": "FeatureBuy:Crocodile:Gamble"
+        },
+        {
+          "key": "FeatureBuy:Cobra:Collect",
+          "type": "purchase",
+          "label": "FeatureBuy:Cobra:Collect"
+        },
+        {
+          "key": "FeatureBuy:Cobra:Gamble",
+          "type": "purchase",
+          "label": "FeatureBuy:Cobra:Gamble"
+        }
+      ]
+    },
+    {
+      "id": "pandoras-treasure",
+      "name": "Pandora’s Treasure™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "purchase",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "leprechaun-joy",
+      "name": "Leprechaun Joy™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "purchase",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "golden-wheels-of-egypt",
+      "name": "Golden Wheels of Egypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "golden-realms",
+      "name": "Golden Realms",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "rainforest-gold",
+      "name": "Rainforest Gold™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "cursed-treasure",
+      "name": "Cursed Treasure",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "magic-lab",
+      "name": "Magic Lab™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "purchase",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "jack-hammer-3",
+      "name": "Jack Hammer 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "good-old-7s",
+      "name": "Good Old 7’s™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Choice:collect",
+          "type": "variant",
+          "label": "Choice:collect"
+        },
+        {
+          "key": "Choice:gamble",
+          "type": "variant",
+          "label": "Choice:gamble"
+        }
+      ]
+    },
+    {
+      "id": "rage",
+      "name": "RAGE",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "buckshot-wilds",
+      "name": "Buckshot Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Spin:BonusBet",
+          "type": "variant",
+          "label": "Spin:BonusBet"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        },
+        {
+          "key": "FeatureBuyEnhanced",
+          "type": "purchase",
+          "label": "FeatureBuyEnhanced"
+        }
+      ]
+    },
+    {
+      "id": "pirates-party",
+      "name": "Pirates Party",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Choice:1",
+          "type": "variant",
+          "label": "Choice:1"
+        },
+        {
+          "key": "Choice:2",
+          "type": "variant",
+          "label": "Choice:2"
+        },
+        {
+          "key": "Choice:3",
+          "type": "variant",
+          "label": "Choice:3"
+        }
+      ]
+    },
+    {
+      "id": "jelly-belly-megaways",
+      "name": "Jelly Belly™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "purchase",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "jingle-bells-bonanza",
+      "name": "Jingle Bells Bonanza",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "gem-crush",
+      "name": "Gem Crush",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FreeSpins:101",
+          "type": "purchase",
+          "label": "FreeSpins:101"
+        }
+      ]
+    },
+    {
+      "id": "lights-camera-cash",
+      "name": "Lights, Camera, Cash!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "elk-hunter",
+      "name": "Elk Hunter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "mega-joker",
+      "name": "Mega Joker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "hall-of-gods",
+      "name": "Hall of Gods™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "mega-fortune",
+      "name": "Mega Fortune™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "trollpot-5000",
+      "name": "Trollpot 5000™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "mega-fortune-dreams",
+      "name": "Mega Fortune Dreams™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "arabian-nights",
+      "name": "Arabian Nights",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "imperial-riches",
+      "name": "Imperial Riches™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "superstars",
+      "name": "Superstars™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "space-wars-2-powerpoints",
+      "name": "Space Wars 2™ Powerpoints™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy:1500",
+          "type": "purchase",
+          "label": "FeatureBuy:1500"
+        },
+        {
+          "key": "FeatureBuy:2800",
+          "type": "purchase",
+          "label": "FeatureBuy:2800"
+        },
+        {
+          "key": "FeatureBuy:5000",
+          "type": "purchase",
+          "label": "FeatureBuy:5000"
+        }
+      ]
+    },
+    {
+      "id": "funk-master",
+      "name": "Funk Master™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "cash-noire",
+      "name": "Cash Noire™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "blood-suckers",
+      "name": "Blood Suckers™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "berryburst",
+      "name": "Berryburst™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "codex-of-fortune",
+      "name": "Codex Of Fortune™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "red-riding-hood",
+      "name": "Fairytale Legends: Red Riding Hood™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wild-worlds",
+      "name": "Wild Worlds™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "twin-spin-megaways",
+      "name": "Twin Spin™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fruit-shop-megaways",
+      "name": "Fruit Shop™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wild-water",
+      "name": "Wild Water™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "irish-pot-luck",
+      "name": "Irish Pot Luck™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "elements-the-awakening",
+      "name": "Elements: The Awakening™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "hotline",
+      "name": "Hotline™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Hotlines:1",
+          "type": "variant",
+          "label": "Hotlines:1"
+        },
+        {
+          "key": "Hotlines:2",
+          "type": "variant",
+          "label": "Hotlines:2"
+        },
+        {
+          "key": "Hotlines:0,1",
+          "type": "variant",
+          "label": "Hotlines:0,1"
+        },
+        {
+          "key": "Hotlines:0,2",
+          "type": "variant",
+          "label": "Hotlines:0,2"
+        },
+        {
+          "key": "Hotlines:1,2",
+          "type": "variant",
+          "label": "Hotlines:1,2"
+        },
+        {
+          "key": "Hotlines:0,1,2",
+          "type": "variant",
+          "label": "Hotlines:0,1,2"
+        }
+      ]
+    },
+    {
+      "id": "jungle-spirit-call-of-the-wild",
+      "name": "Jungle Spirit: Call of the Wild™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "motorhead",
+      "name": "Motörhead™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jingle-spin",
+      "name": "Jingle Spin™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "blood-suckers-2",
+      "name": "Blood Suckers 2™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "riches-of-midgard",
+      "name": "Riches of Midgard: Land and Expand™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "twin-happiness",
+      "name": "Twin Happiness™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "whos-the-bride",
+      "name": "Who’s the Bride™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "vikings",
+      "name": "Vikings™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "reel-rush",
+      "name": "Reel Rush™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "twin-spin-deluxe",
+      "name": "Twin Spin Deluxe™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "koi-princess",
+      "name": "Koi Princess™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBet",
+          "type": "variant",
+          "label": "FeatureBet"
+        }
+      ]
+    },
+    {
+      "id": "flowers",
+      "name": "Flowers™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "mercy-of-the-gods",
+      "name": "Mercy of the Gods™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "gordon-ramsay-hells-kitchen",
+      "name": "Gordon Ramsay Hell’s Kitchen™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "twin-spin",
+      "name": "Twin Spin™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "ozzy-osbourne",
+      "name": "Ozzy Osbourne™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "dazzle-me",
+      "name": "Dazzle Me™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "turn-your-fortune",
+      "name": "Turn Your Fortune™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "the-wish-master",
+      "name": "The Wish Master™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jack-and-the-beanstalk",
+      "name": "Jack and the Beanstalk™ Remastered",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "strolling-staxx-cubic-fruits",
+      "name": "Strolling Staxx: Cubic Fruits™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "reef-raider",
+      "name": "Reef Raider™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "pyramid-quest-for-immortality",
+      "name": "Pyramid: Quest for Immortality™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fruit-shop",
+      "name": "Fruit Shop™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fruit-spin",
+      "name": "Fruit Spin™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "magic-portals",
+      "name": "Magic Portals™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "lucky-angler-a-snowy-catch",
+      "name": "Lucky Angler: A Snowy Catch™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "sparks",
+      "name": "Sparks™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fortune-rangers",
+      "name": "Fortune Rangers™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "guns-n-roses",
+      "name": "Guns N’ Roses Video Slots™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "willys-hot-chillies",
+      "name": "Willy’s Hot Chillies™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "long-pao",
+      "name": "Long Pao™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "steam-tower",
+      "name": "Steam Tower™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "drive-multiplier-mayhem",
+      "name": "Drive: Multiplier Mayhem™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "gods-of-gold-infinireels",
+      "name": "Gods of Gold: INFINIREELS™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "lost-relics",
+      "name": "Lost Relics™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "butterfly-staxx",
+      "name": "Butterfly Staxx™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "dark-king-forbidden-riches",
+      "name": "Dark King: Forbidden Riches™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "king-of-3-kingdoms",
+      "name": "King of 3 Kingdoms™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "hooks-heroes",
+      "name": "Hook’s Heroes™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "ghost-pirates",
+      "name": "Ghost Pirates™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "theme-park-tickets-of-fortune",
+      "name": "Theme Park: Tickets of Fortune™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "stickers",
+      "name": "Stickers™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fruit-shop-christmas-edition",
+      "name": "Fruit Shop™ Christmas Edition",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wings-of-riches",
+      "name": "Wings of Riches™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "the-invisible-man",
+      "name": "The Invisible Man™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "sweety-honey-fruity",
+      "name": "Sweety Honey Fruity™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "swipe-and-roll",
+      "name": "Swipe & Roll™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "super-striker",
+      "name": "Super Striker™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "east-sea-dragon-king",
+      "name": "East Sea Dragon King™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "scudamores-super-stakes",
+      "name": "Scudamore’s Super Stakes™ ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "druids-dream",
+      "name": "Druids’ Dream™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "victorious",
+      "name": "Victorious™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "MathMode:max",
+          "type": "variant",
+          "label": "MathMode:max"
+        }
+      ]
+    },
+    {
+      "id": "warlords",
+      "name": "Warlords™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "spinsane",
+      "name": "Spinsane™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "coins-of-egypt",
+      "name": "Coins of Egypt™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jimi-hendrix",
+      "name": "Jimi Hendrix™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "secret-of-the-stones",
+      "name": "Secret of the Stones™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "MathMode:max",
+          "type": "variant",
+          "label": "MathMode:max"
+        }
+      ]
+    },
+    {
+      "id": "rage-of-the-seas",
+      "name": "Rage of the Seas™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "rome-the-golden-age",
+      "name": "Rome: The Golden Age™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "aloha-cluster-pays",
+      "name": "Aloha Cluster Pays™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "archangels-salvation",
+      "name": "Archangels: Salvation™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "parthernon-quest-for-immortaility",
+      "name": "Parthenon: Quest For Immortality™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "secrets-of-atlantis",
+      "name": "Secrets of Atlantis™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "asgardian-stones",
+      "name": "Asgardian Stones™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "butterfly-staxx-2",
+      "name": "Butterfly Staxx 2™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "double-stacks",
+      "name": "Double Stacks™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "cash-o-matic",
+      "name": "Cash-O-Matic™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "vegas-night-life",
+      "name": "Vegas Night Life™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "the-wolfs-bane",
+      "name": "The Wolf’s Bane™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "rise-of-maya",
+      "name": "Rise of Maya™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "BonusBet",
+          "type": "variant",
+          "label": "BonusBet"
+        }
+      ]
+    },
+    {
+      "id": "reel-steal",
+      "name": "Reel Steal™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "oceans-treasure",
+      "name": "Ocean’s Treasure™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "neon-staxx",
+      "name": "Neon Staxx™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "mythic-maiden",
+      "name": "Mythic Maiden™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "mirror-mirror",
+      "name": "Fairytale Legends: Mirror Mirror™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "hansel-and-gretel",
+      "name": "Fairytale Legends: Hansel and Gretel™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "magic-maid-cafe",
+      "name": "Magic Maid Cafe™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "lights",
+      "name": "Lights™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wolf-cub",
+      "name": "Wolf Cub™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "joker-pro",
+      "name": "Joker Pro™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "excalibur",
+      "name": "Excalibur™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "dracula",
+      "name": "Dracula™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "disco-danny",
+      "name": "Disco Danny™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "creature-from-the-black-lagoon",
+      "name": "Creature from the Black Lagoon™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "grand-spinn",
+      "name": "Grand Spinn™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "king-of-slots",
+      "name": "King of Slots™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "arcane-reel-chaos",
+      "name": "Arcane: Reel Chaos™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wilderland",
+      "name": "Wilderland™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "spinata-grande",
+      "name": "Spinata Grande™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "halloween-jack",
+      "name": "Halloween Jack™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "finns-golden-tavern",
+      "name": "Finn’s Golden Tavern™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "serengeti-kings",
+      "name": "Serengeti Kings™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "divine-fortune-megaways",
+      "name": "Divine Fortune™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "secrets-of-christmas",
+      "name": "Secrets of Christmas™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "finn-and-the-swirly-spin",
+      "name": "Finn and the Swirly Spin™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "santa-vs-rudolf",
+      "name": "Santa vs Rudolf™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "robin-hood-shifting-riches",
+      "name": "Robin Hood: Shifting Riches™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jack-hammer-2-fishy-business",
+      "name": "Jack Hammer™ 2: Fishy Business",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "dead-or-alive",
+      "name": "Dead or Alive™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "happy-riches",
+      "name": "Happy Riches™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "fruit-case",
+      "name": "Fruit Case™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "milkshake-xxxtreme",
+      "name": "Milkshake™ XXXtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "XXXtreme:1",
+          "type": "variant",
+          "label": "XXXtreme:1"
+        },
+        {
+          "key": "XXXtreme:2",
+          "type": "variant",
+          "label": "XXXtreme:2"
+        }
+      ]
+    },
+    {
+      "id": "gonzos-gold",
+      "name": "Gonzo’s Gold™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "let-it-burn",
+      "name": "Let It Burn™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Buy:option1",
+          "type": "purchase",
+          "label": "Buy:option1"
+        },
+        {
+          "key": "Buy:option2",
+          "type": "purchase",
+          "label": "Buy:option2"
+        },
+        {
+          "key": "Buy:option3",
+          "type": "purchase",
+          "label": "Buy:option3"
+        }
+      ]
+    },
+    {
+      "id": "eggomatic",
+      "name": "EggOMatic™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jack-hammer",
+      "name": "Jack Hammer™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "space-wars",
+      "name": "Space Wars™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "busters-bones",
+      "name": "Buster’s Bones™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "football-champions-cup",
+      "name": "Football: Champions Cup™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "cornelius",
+      "name": "Cornelius™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "dazzle-me-megaways",
+      "name": "Dazzle Me™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "cupcakes",
+      "name": "Cupcakes™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "bee-hive-bonanza",
+      "name": "Bee Hive Bonanza™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "conan",
+      "name": "Conan™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "bollywood-story",
+      "name": "Bollywood Story™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wonders-of-christmas",
+      "name": "Wonders of Christmas™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "aloha-christmas",
+      "name": "Aloha! Christmas™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wild-turkey",
+      "name": "Wild Turkey™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "taco-fury-xxxtreme",
+      "name": "Taco Fury™ XXXtreme",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "street-fighter-ii-the-world-warrior",
+      "name": "Street Fighter™ II: The World Warrior",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "Gamble:no",
+          "type": "variant",
+          "label": "Gamble:no",
+          "requires_prerequisites": true
+        },
+        {
+          "key": "Gamble:yes",
+          "type": "variant",
+          "label": "Gamble:yes",
+          "requires_prerequisites": true
+        }
+      ]
+    },
+    {
+      "id": "silverback-gold",
+      "name": "Silverback Gold™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "FeatureBuy",
+          "type": "purchase",
+          "label": "FeatureBuy"
+        }
+      ]
+    },
+    {
+      "id": "the-legend-of-shangri-la",
+      "name": "The Legend of Shangri-La: Cluster Pays™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wild-o-tron-3000",
+      "name": "Wild-O-Tron 3000™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "the-wish-master-megaways",
+      "name": "The Wish Master™ Megaways™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "scruffy-duck",
+      "name": "Scruffy Duck™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "wild-bazaar",
+      "name": "Wild Bazaar™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "hotline-2",
+      "name": "Hotline 2™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        },
+        {
+          "key": "BonusBet:1",
+          "type": "variant",
+          "label": "BonusBet:1"
+        },
+        {
+          "key": "BonusBet:2",
+          "type": "variant",
+          "label": "BonusBet:2"
+        }
+      ]
+    },
+    {
+      "id": "wild-wild-west",
+      "name": "Wild Wild West: The Great Train Heist™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "narcos",
+      "name": "Narcos™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "gorilla-kingdom",
+      "name": "Gorilla Kingdom™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "jumanji",
+      "name": "Jumanji™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "divine-fortune",
+      "name": "Divine Fortune™",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "Spin",
+          "type": "normal",
+          "label": "Spin"
+        }
+      ]
+    },
+    {
+      "id": "twin-spin-xxxtreme",
+      "name": "Twin Spin™ XXXtreme",
+      "ready": false,
+      "block_reason": "official_product_does_not_advertise_a_public_demo",
+      "modes": []
+    }
+  ]
+}

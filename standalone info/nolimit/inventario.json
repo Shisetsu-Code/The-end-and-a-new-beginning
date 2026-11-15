@@ -1,0 +1,6877 @@
+{
+  "id": "nolimit",
+  "name": "Nolimit City",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "nolimit.websocket",
+    "workspace_adapter": "collection_worker.py::nolimit",
+    "continuations": "native game state",
+    "closure": "round completed and wallet"
+  },
+  "games": [
+    {
+      "id": "SixFeetUnder",
+      "name": "Six Feet Under",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_6"
+        },
+        {
+          "key": "BOOSTED_BET_GEM",
+          "type": "booster",
+          "label": "BOOSTED_BET_GEM"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD",
+          "type": "booster",
+          "label": "BOOSTED_BET_GEM_GOOD"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER",
+          "type": "booster",
+          "label": "BOOSTED_BET_GEM_SUPER"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_8_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_8_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW_1",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1"
+        },
+        {
+          "key": "LUCKY_DRAW_2",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2"
+        },
+        {
+          "key": "NORMAL_PLAY+EXPLODE_B1",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+EXPLODE_B1"
+        },
+        {
+          "key": "NORMAL_PLAY+EXPLODE_B2",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+EXPLODE_B2"
+        },
+        {
+          "key": "NORMAL_PLAY+EXPLODE_B3",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+EXPLODE_B3"
+        },
+        {
+          "key": "NORMAL_PLAY+EXPLODE_B4",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+EXPLODE_B4"
+        },
+        {
+          "key": "NORMAL_PLAY+EXPLODE_B5",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+EXPLODE_B5"
+        },
+        {
+          "key": "NORMAL_PLAY+EXPLODE_B6",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+EXPLODE_B6"
+        },
+        {
+          "key": "NORMAL_PLAY+FREESPINS_12",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+FREESPINS_12"
+        },
+        {
+          "key": "NORMAL_PLAY+NO_DIRT",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+NO_DIRT"
+        },
+        {
+          "key": "NORMAL_PLAY+DEAD_SPIN",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET+EXPLODE_B1",
+          "type": "purchase",
+          "label": "BOOSTED_BET+EXPLODE_B1"
+        },
+        {
+          "key": "BOOSTED_BET+EXPLODE_B2",
+          "type": "purchase",
+          "label": "BOOSTED_BET+EXPLODE_B2"
+        },
+        {
+          "key": "BOOSTED_BET+EXPLODE_B3",
+          "type": "purchase",
+          "label": "BOOSTED_BET+EXPLODE_B3"
+        },
+        {
+          "key": "BOOSTED_BET+EXPLODE_B4",
+          "type": "purchase",
+          "label": "BOOSTED_BET+EXPLODE_B4"
+        },
+        {
+          "key": "BOOSTED_BET+EXPLODE_B5",
+          "type": "purchase",
+          "label": "BOOSTED_BET+EXPLODE_B5"
+        },
+        {
+          "key": "BOOSTED_BET+EXPLODE_B6",
+          "type": "purchase",
+          "label": "BOOSTED_BET+EXPLODE_B6"
+        },
+        {
+          "key": "BOOSTED_BET+FREESPINS_12",
+          "type": "purchase",
+          "label": "BOOSTED_BET+FREESPINS_12"
+        },
+        {
+          "key": "BOOSTED_BET+NO_DIRT",
+          "type": "purchase",
+          "label": "BOOSTED_BET+NO_DIRT"
+        },
+        {
+          "key": "BOOSTED_BET+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+EXPLODE_B1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+EXPLODE_B1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+EXPLODE_B2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+EXPLODE_B2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+EXPLODE_B3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+EXPLODE_B3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+EXPLODE_B4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+EXPLODE_B4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+EXPLODE_B5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+EXPLODE_B5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+EXPLODE_B6",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+EXPLODE_B6"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+FREESPINS_12",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+FREESPINS_12"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+NO_DIRT",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+NO_DIRT"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+EXPLODE_B1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+EXPLODE_B1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+EXPLODE_B2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+EXPLODE_B2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+EXPLODE_B3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+EXPLODE_B3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+EXPLODE_B4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+EXPLODE_B4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+EXPLODE_B5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+EXPLODE_B5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+EXPLODE_B6",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+EXPLODE_B6"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+FREESPINS_12",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+FREESPINS_12"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+NO_DIRT",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+NO_DIRT"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+EXPLODE_B1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+EXPLODE_B1"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+EXPLODE_B2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+EXPLODE_B2"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+EXPLODE_B3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+EXPLODE_B3"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+EXPLODE_B4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+EXPLODE_B4"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+EXPLODE_B5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+EXPLODE_B5"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+EXPLODE_B6",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+EXPLODE_B6"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+NO_DIRT",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+NO_DIRT"
+        },
+        {
+          "key": "BOOSTED_BET_GEM+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+EXPLODE_B1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+EXPLODE_B1"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+EXPLODE_B2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+EXPLODE_B2"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+EXPLODE_B3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+EXPLODE_B3"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+EXPLODE_B4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+EXPLODE_B4"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+EXPLODE_B5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+EXPLODE_B5"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+EXPLODE_B6",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+EXPLODE_B6"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+NO_DIRT",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+NO_DIRT"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_GOOD+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_GOOD+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER+EXPLODE_B1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_SUPER+EXPLODE_B1"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER+EXPLODE_B2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_SUPER+EXPLODE_B2"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER+EXPLODE_B3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_SUPER+EXPLODE_B3"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER+EXPLODE_B4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_SUPER+EXPLODE_B4"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER+EXPLODE_B5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_SUPER+EXPLODE_B5"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER+EXPLODE_B6",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_SUPER+EXPLODE_B6"
+        },
+        {
+          "key": "BOOSTED_BET_GEM_SUPER+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_GEM_SUPER+DEAD_SPIN"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+EXPLODE_B3",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+EXPLODE_B3"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+EXPLODE_B4",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+EXPLODE_B4"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+EXPLODE_B5",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+EXPLODE_B5"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+EXPLODE_B6",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+EXPLODE_B6"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+FREESPINS_12",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+FREESPINS_12"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+NO_DIRT",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+NO_DIRT"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+EXPLODE_B3",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+EXPLODE_B3"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+EXPLODE_B4",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+EXPLODE_B4"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+EXPLODE_B5",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+EXPLODE_B5"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+EXPLODE_B6",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+EXPLODE_B6"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+FREESPINS_12",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+FREESPINS_12"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+NO_DIRT",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+NO_DIRT"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS+EXPLODE_B3",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS+EXPLODE_B3"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS+EXPLODE_B4",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS+EXPLODE_B4"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS+EXPLODE_B5",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS+EXPLODE_B5"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS+EXPLODE_B6",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS+EXPLODE_B6"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS+FREESPINS_12",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS+FREESPINS_12"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS+NO_DIRT",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS+NO_DIRT"
+        },
+        {
+          "key": "FREESPIN_8_SCATTERS+EXPLODE_B3",
+          "type": "purchase",
+          "label": "FREESPIN_8_SCATTERS+EXPLODE_B3"
+        },
+        {
+          "key": "FREESPIN_8_SCATTERS+EXPLODE_B4",
+          "type": "purchase",
+          "label": "FREESPIN_8_SCATTERS+EXPLODE_B4"
+        },
+        {
+          "key": "FREESPIN_8_SCATTERS+EXPLODE_B5",
+          "type": "purchase",
+          "label": "FREESPIN_8_SCATTERS+EXPLODE_B5"
+        },
+        {
+          "key": "FREESPIN_8_SCATTERS+EXPLODE_B6",
+          "type": "purchase",
+          "label": "FREESPIN_8_SCATTERS+EXPLODE_B6"
+        },
+        {
+          "key": "FREESPIN_8_SCATTERS+FREESPINS_12",
+          "type": "purchase",
+          "label": "FREESPIN_8_SCATTERS+FREESPINS_12"
+        },
+        {
+          "key": "FREESPIN_8_SCATTERS+NO_DIRT",
+          "type": "purchase",
+          "label": "FREESPIN_8_SCATTERS+NO_DIRT"
+        },
+        {
+          "key": "LUCKY_DRAW_1+EXPLODE_B3",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1+EXPLODE_B3"
+        },
+        {
+          "key": "LUCKY_DRAW_1+EXPLODE_B4",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1+EXPLODE_B4"
+        },
+        {
+          "key": "LUCKY_DRAW_1+EXPLODE_B5",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1+EXPLODE_B5"
+        },
+        {
+          "key": "LUCKY_DRAW_1+EXPLODE_B6",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1+EXPLODE_B6"
+        },
+        {
+          "key": "LUCKY_DRAW_1+FREESPINS_12",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1+FREESPINS_12"
+        },
+        {
+          "key": "LUCKY_DRAW_1+NO_DIRT",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1+NO_DIRT"
+        },
+        {
+          "key": "LUCKY_DRAW_2+EXPLODE_B3",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2+EXPLODE_B3"
+        },
+        {
+          "key": "LUCKY_DRAW_2+EXPLODE_B4",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2+EXPLODE_B4"
+        },
+        {
+          "key": "LUCKY_DRAW_2+EXPLODE_B5",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2+EXPLODE_B5"
+        },
+        {
+          "key": "LUCKY_DRAW_2+EXPLODE_B6",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2+EXPLODE_B6"
+        },
+        {
+          "key": "LUCKY_DRAW_2+FREESPINS_12",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2+FREESPINS_12"
+        },
+        {
+          "key": "LUCKY_DRAW_2+NO_DIRT",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2+NO_DIRT"
+        }
+      ]
+    },
+    {
+      "id": "GatorHunters2",
+      "name": "Gator Hunters 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_10"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_50"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_1000"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "FREESPIN_BULLETS",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M1",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M1"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M2",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M2"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M3",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M3"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M4",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M4"
+        },
+        {
+          "key": "NORMAL_PLAY+SUPER_SCATTER",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+SUPER_SCATTER"
+        },
+        {
+          "key": "NORMAL_PLAY+SUPER_EATER",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+SUPER_EATER"
+        },
+        {
+          "key": "NORMAL_PLAY+MULTIPLIER_100",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+MULTIPLIER_100"
+        },
+        {
+          "key": "NORMAL_PLAY+MULTIPLIER_200",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+MULTIPLIER_200"
+        },
+        {
+          "key": "NORMAL_PLAY+DEAD_SPIN",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "BOOSTED_BET+SUPER_SCATTER"
+        },
+        {
+          "key": "BOOSTED_BET+SUPER_EATER",
+          "type": "purchase",
+          "label": "BOOSTED_BET+SUPER_EATER"
+        },
+        {
+          "key": "BOOSTED_BET+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "BOOSTED_BET+MULTIPLIER_100"
+        },
+        {
+          "key": "BOOSTED_BET+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "BOOSTED_BET+MULTIPLIER_200"
+        },
+        {
+          "key": "BOOSTED_BET+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+SUPER_SCATTER"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+SUPER_EATER",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+SUPER_EATER"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+MULTIPLIER_100"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+MULTIPLIER_200"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_10+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+SUPER_SCATTER"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+SUPER_EATER",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+SUPER_EATER"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+MULTIPLIER_100"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+MULTIPLIER_200"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_50+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_50+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+SUPER_SCATTER"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+SUPER_EATER",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+SUPER_EATER"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+MULTIPLIER_100"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+MULTIPLIER_200"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_1000+DEAD_SPIN"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M1",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M1"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M2",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M2"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M3",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M3"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M4",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M4"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+SUPER_SCATTER"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+SUPER_EATER",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+SUPER_EATER"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+MULTIPLIER_100"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+MULTIPLIER_200"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M1",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M1"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M2",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M2"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M3",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M3"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M4",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M4"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+SUPER_SCATTER"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+SUPER_EATER",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+SUPER_EATER"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+MULTIPLIER_100"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+MULTIPLIER_200"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M1",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M1"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M2",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M2"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M3",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M3"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M4",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M4"
+        },
+        {
+          "key": "LUCKY_DRAW+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+SUPER_SCATTER"
+        },
+        {
+          "key": "LUCKY_DRAW+SUPER_EATER",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+SUPER_EATER"
+        },
+        {
+          "key": "LUCKY_DRAW+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+MULTIPLIER_100"
+        },
+        {
+          "key": "LUCKY_DRAW+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+MULTIPLIER_200"
+        },
+        {
+          "key": "FREESPIN_BULLETS+KILL_M1",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+KILL_M1"
+        },
+        {
+          "key": "FREESPIN_BULLETS+KILL_M2",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+KILL_M2"
+        },
+        {
+          "key": "FREESPIN_BULLETS+KILL_M3",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+KILL_M3"
+        },
+        {
+          "key": "FREESPIN_BULLETS+KILL_M4",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+KILL_M4"
+        },
+        {
+          "key": "FREESPIN_BULLETS+SUPER_SCATTER",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+SUPER_SCATTER"
+        },
+        {
+          "key": "FREESPIN_BULLETS+SUPER_EATER",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+SUPER_EATER"
+        },
+        {
+          "key": "FREESPIN_BULLETS+MULTIPLIER_100",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+MULTIPLIER_100"
+        },
+        {
+          "key": "FREESPIN_BULLETS+MULTIPLIER_200",
+          "type": "purchase",
+          "label": "FREESPIN_BULLETS+MULTIPLIER_200"
+        }
+      ]
+    },
+    {
+      "id": "DingDongDeath",
+      "name": "Ding Dong Death",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        },
+        {
+          "key": "FREESPIN_LEVEL4",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL4"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "FREESPIN_LEVEL6",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL6"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "BOOSTED_BET_4",
+          "type": "booster",
+          "label": "BOOSTED_BET_4"
+        },
+        {
+          "key": "BOOSTED_BET_5",
+          "type": "booster",
+          "label": "BOOSTED_BET_5"
+        },
+        {
+          "key": "BOOSTED_BET_SCRIPTED",
+          "type": "booster",
+          "label": "BOOSTED_BET_SCRIPTED"
+        }
+      ]
+    },
+    {
+      "id": "Outsourced2",
+      "name": "Outsourced 2 - Balkan Engineering",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS",
+          "type": "booster",
+          "label": "BOOSTED_BET_BONUS"
+        },
+        {
+          "key": "BOOSTED_BET_PRINT_SPINS",
+          "type": "booster",
+          "label": "BOOSTED_BET_PRINT_SPINS"
+        },
+        {
+          "key": "BOOSTED_BET_PRINTIER_SPINS",
+          "type": "booster",
+          "label": "BOOSTED_BET_PRINTIER_SPINS"
+        },
+        {
+          "key": "BOOSTED_BET_PRINTIEST_SPINS",
+          "type": "booster",
+          "label": "BOOSTED_BET_PRINTIEST_SPINS"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_BALKAN",
+          "type": "purchase",
+          "label": "FREESPIN_BALKAN"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "DuckHunters2",
+      "name": "Duck Hunters 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS",
+          "type": "booster",
+          "label": "BOOSTED_BET_BONUS"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_8"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_64"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_512"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_2048"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "JUICER_X_WAYS",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS"
+        },
+        {
+          "key": "JUICER_BOMB",
+          "type": "purchase",
+          "label": "JUICER_BOMB"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M1",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M1"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M2",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M2"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M3",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M3"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M4",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M4"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_M5",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_M5"
+        },
+        {
+          "key": "NORMAL_PLAY+KILL_L1",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+KILL_L1"
+        },
+        {
+          "key": "NORMAL_PLAY+MULTIPLIER_16384",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+MULTIPLIER_16384"
+        },
+        {
+          "key": "NORMAL_PLAY+SCATTERS_2",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+SCATTERS_2"
+        },
+        {
+          "key": "NORMAL_PLAY+DEAD_SPIN",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_M5",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_M5"
+        },
+        {
+          "key": "BOOSTED_BET+KILL_L1",
+          "type": "purchase",
+          "label": "BOOSTED_BET+KILL_L1"
+        },
+        {
+          "key": "BOOSTED_BET+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "BOOSTED_BET+MULTIPLIER_16384"
+        },
+        {
+          "key": "BOOSTED_BET+SCATTERS_2",
+          "type": "purchase",
+          "label": "BOOSTED_BET+SCATTERS_2"
+        },
+        {
+          "key": "BOOSTED_BET+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+KILL_M5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+KILL_M5"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+KILL_L1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+KILL_L1"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+MULTIPLIER_16384"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+SCATTERS_2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+SCATTERS_2"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_BONUS+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+KILL_M5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+KILL_M5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+KILL_L1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+KILL_L1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+MULTIPLIER_16384"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+SCATTERS_2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+SCATTERS_2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_8+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+KILL_M5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+KILL_M5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+KILL_L1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+KILL_L1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+MULTIPLIER_16384"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+SCATTERS_2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+SCATTERS_2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_64+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+KILL_M5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+KILL_M5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+KILL_L1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+KILL_L1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+MULTIPLIER_16384"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+SCATTERS_2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+SCATTERS_2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_512+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_512+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+KILL_M1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+KILL_M1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+KILL_M2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+KILL_M2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+KILL_M3",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+KILL_M3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+KILL_M4",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+KILL_M4"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+KILL_M5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+KILL_M5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+KILL_L1",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+KILL_L1"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+MULTIPLIER_16384"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+SCATTERS_2",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+SCATTERS_2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2048+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_2048+DEAD_SPIN"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M1",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M1"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M2",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M2"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M3",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M3"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M4",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M4"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_M5",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_M5"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+KILL_L1",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+KILL_L1"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+MULTIPLIER_16384"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+DEAD_SPIN",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+DEAD_SPIN"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M1",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M1"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M2",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M2"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M3",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M3"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M4",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M4"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_M5",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_M5"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+KILL_L1",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+KILL_L1"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+MULTIPLIER_16384"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+DEAD_SPIN",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+DEAD_SPIN"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+KILL_M1",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+KILL_M1"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+KILL_M2",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+KILL_M2"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+KILL_M3",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+KILL_M3"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+KILL_M4",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+KILL_M4"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+KILL_M5",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+KILL_M5"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+KILL_L1",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+KILL_L1"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+MULTIPLIER_16384"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS+DEAD_SPIN",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS+DEAD_SPIN"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M1",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M1"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M2",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M2"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M3",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M3"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M4",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M4"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_M5",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_M5"
+        },
+        {
+          "key": "LUCKY_DRAW+KILL_L1",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+KILL_L1"
+        },
+        {
+          "key": "LUCKY_DRAW+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+MULTIPLIER_16384"
+        },
+        {
+          "key": "LUCKY_DRAW+DEAD_SPIN",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+DEAD_SPIN"
+        },
+        {
+          "key": "JUICER_X_WAYS+KILL_M1",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS+KILL_M1"
+        },
+        {
+          "key": "JUICER_X_WAYS+KILL_M2",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS+KILL_M2"
+        },
+        {
+          "key": "JUICER_X_WAYS+KILL_M3",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS+KILL_M3"
+        },
+        {
+          "key": "JUICER_X_WAYS+KILL_M4",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS+KILL_M4"
+        },
+        {
+          "key": "JUICER_X_WAYS+KILL_M5",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS+KILL_M5"
+        },
+        {
+          "key": "JUICER_X_WAYS+KILL_L1",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS+KILL_L1"
+        },
+        {
+          "key": "JUICER_X_WAYS+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "JUICER_X_WAYS+MULTIPLIER_16384"
+        },
+        {
+          "key": "JUICER_BOMB+MULTIPLIER_16384",
+          "type": "purchase",
+          "label": "JUICER_BOMB+MULTIPLIER_16384"
+        }
+      ]
+    },
+    {
+      "id": "AirportSecurity",
+      "name": "AFK Airport Security",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        }
+      ]
+    },
+    {
+      "id": "SoakedBySeamen",
+      "name": "Soaked By Seamen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_4",
+          "type": "booster",
+          "label": "BOOSTED_BET_COCONUT_4"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_10",
+          "type": "booster",
+          "label": "BOOSTED_BET_COCONUT_10"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_6"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_15",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_15"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "NORMAL_PLAY+FIRE_FRAME_5",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+FIRE_FRAME_5"
+        },
+        {
+          "key": "NORMAL_PLAY+FIRE_FRAME_7",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+FIRE_FRAME_7"
+        },
+        {
+          "key": "NORMAL_PLAY+FIRE_FRAME_10",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+FIRE_FRAME_10"
+        },
+        {
+          "key": "NORMAL_PLAY+MULTIPLIER_20",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+MULTIPLIER_20"
+        },
+        {
+          "key": "NORMAL_PLAY+EXPAND_BANANA",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+EXPAND_BANANA"
+        },
+        {
+          "key": "NORMAL_PLAY+DEAD_SPIN",
+          "type": "antebet",
+          "label": "NORMAL_PLAY+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET+FIRE_FRAME_5",
+          "type": "purchase",
+          "label": "BOOSTED_BET+FIRE_FRAME_5"
+        },
+        {
+          "key": "BOOSTED_BET+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "BOOSTED_BET+FIRE_FRAME_7"
+        },
+        {
+          "key": "BOOSTED_BET+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "BOOSTED_BET+FIRE_FRAME_10"
+        },
+        {
+          "key": "BOOSTED_BET+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "BOOSTED_BET+MULTIPLIER_20"
+        },
+        {
+          "key": "BOOSTED_BET+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "BOOSTED_BET+EXPAND_BANANA"
+        },
+        {
+          "key": "BOOSTED_BET+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_5"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_7"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_10"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_4+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_4+MULTIPLIER_20"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_4+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_4+EXPAND_BANANA"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_4+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_4+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_5"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_7"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_10"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_10+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_10+MULTIPLIER_20"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_10+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_10+EXPAND_BANANA"
+        },
+        {
+          "key": "BOOSTED_BET_COCONUT_10+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_COCONUT_10+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+FIRE_FRAME_5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+FIRE_FRAME_5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+FIRE_FRAME_7"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+FIRE_FRAME_10"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+MULTIPLIER_20"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+EXPAND_BANANA"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_3+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+FIRE_FRAME_5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+FIRE_FRAME_5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+FIRE_FRAME_7"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+FIRE_FRAME_10"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+MULTIPLIER_20"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+EXPAND_BANANA"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_6+DEAD_SPIN"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_15+FIRE_FRAME_5",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_15+FIRE_FRAME_5"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_15+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_15+FIRE_FRAME_7"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_15+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_15+FIRE_FRAME_10"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_15+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_15+MULTIPLIER_20"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_15+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_15+EXPAND_BANANA"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_15+DEAD_SPIN",
+          "type": "purchase",
+          "label": "BOOSTED_BET_STATE_15+DEAD_SPIN"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+FIRE_FRAME_7"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+FIRE_FRAME_10"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+MULTIPLIER_20"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+EXPAND_BANANA"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS+DEAD_SPIN",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS+DEAD_SPIN"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+FIRE_FRAME_7"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+FIRE_FRAME_10"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+MULTIPLIER_20"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+EXPAND_BANANA"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS+DEAD_SPIN",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS+DEAD_SPIN"
+        },
+        {
+          "key": "LUCKY_DRAW+FIRE_FRAME_7",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+FIRE_FRAME_7"
+        },
+        {
+          "key": "LUCKY_DRAW+FIRE_FRAME_10",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+FIRE_FRAME_10"
+        },
+        {
+          "key": "LUCKY_DRAW+MULTIPLIER_20",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+MULTIPLIER_20"
+        },
+        {
+          "key": "LUCKY_DRAW+EXPAND_BANANA",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+EXPAND_BANANA"
+        },
+        {
+          "key": "LUCKY_DRAW+DEAD_SPIN",
+          "type": "purchase",
+          "label": "LUCKY_DRAW+DEAD_SPIN"
+        }
+      ]
+    },
+    {
+      "id": "TrueGrit2",
+      "name": "True Grit Redemption 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_5",
+          "type": "booster",
+          "label": "BOOSTED_BET_5"
+        },
+        {
+          "key": "BOOSTED_BET_20",
+          "type": "booster",
+          "label": "BOOSTED_BET_20"
+        },
+        {
+          "key": "BOOSTED_BET_500",
+          "type": "booster",
+          "label": "BOOSTED_BET_500"
+        }
+      ]
+    },
+    {
+      "id": "SanQuentinManhunt",
+      "name": "San Quentin Manhunt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "BOOSTED_BET_4",
+          "type": "booster",
+          "label": "BOOSTED_BET_4"
+        }
+      ]
+    },
+    {
+      "id": "TombstoneBegins",
+      "name": "Tombstone Begins",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_NUDGE_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_NUDGE_2"
+        },
+        {
+          "key": "BOOSTED_BET_NUDGE_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_NUDGE_3"
+        },
+        {
+          "key": "BOOSTED_BET_MEGA",
+          "type": "booster",
+          "label": "BOOSTED_BET_MEGA"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "PunkRocker3",
+      "name": "Punk Rocker 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_100",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_100"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_1000"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_10000",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_10000"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "CatfishHunters",
+      "name": "Catfish Hunters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_FISH_5",
+          "type": "booster",
+          "label": "BOOSTED_BET_FISH_5"
+        },
+        {
+          "key": "BOOSTED_BET_FISH_7",
+          "type": "booster",
+          "label": "BOOSTED_BET_FISH_7"
+        },
+        {
+          "key": "BOOSTED_BET_MULTIPLIER_8",
+          "type": "booster",
+          "label": "BOOSTED_BET_MULTIPLIER_8"
+        },
+        {
+          "key": "BOOSTED_BET_MULTIPLIER_128",
+          "type": "booster",
+          "label": "BOOSTED_BET_MULTIPLIER_128"
+        },
+        {
+          "key": "BOOSTED_BET_MULTIPLIER_1024",
+          "type": "booster",
+          "label": "BOOSTED_BET_MULTIPLIER_1024"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "TheCrypt2",
+      "name": "The Crypt 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        },
+        {
+          "key": "FREESPIN_LEVEL4",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL4"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "BOOSTED_BET_4",
+          "type": "booster",
+          "label": "BOOSTED_BET_4"
+        },
+        {
+          "key": "BOOSTED_BET_5",
+          "type": "booster",
+          "label": "BOOSTED_BET_5"
+        }
+      ]
+    },
+    {
+      "id": "Supersized",
+      "name": "Supersized",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_ELIMINATOR_5",
+          "type": "booster",
+          "label": "BOOSTED_BET_ELIMINATOR_5"
+        },
+        {
+          "key": "BOOSTED_BET_ELIMINATOR_8",
+          "type": "booster",
+          "label": "BOOSTED_BET_ELIMINATOR_8"
+        },
+        {
+          "key": "BOOSTED_BET_ELIMINATOR_9",
+          "type": "booster",
+          "label": "BOOSTED_BET_ELIMINATOR_9"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "DuckHuntersHappyHour",
+      "name": "Duck Hunters: Happy Hour",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_8",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_8"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_64"
+        },
+        {
+          "key": "BOOSTED_BET_BOMB",
+          "type": "booster",
+          "label": "BOOSTED_BET_BOMB"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "GoldenShower",
+      "name": "Golden Shower",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_16",
+          "type": "booster",
+          "label": "BOOSTED_BET_16"
+        },
+        {
+          "key": "BOOSTED_BET_64",
+          "type": "booster",
+          "label": "BOOSTED_BET_64"
+        },
+        {
+          "key": "BOOSTED_BET_999",
+          "type": "booster",
+          "label": "BOOSTED_BET_999"
+        }
+      ]
+    },
+    {
+      "id": "DasxBoot2",
+      "name": "Das xBoot 2wei!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_PERISCOPE",
+          "type": "booster",
+          "label": "BOOSTED_BET_PERISCOPE"
+        },
+        {
+          "key": "BOOSTED_BET_TORPEDO",
+          "type": "booster",
+          "label": "BOOSTED_BET_TORPEDO"
+        },
+        {
+          "key": "BOOSTED_BET_GOLDEN_TORPEDO",
+          "type": "booster",
+          "label": "BOOSTED_BET_GOLDEN_TORPEDO"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "CrazyExGirlfriend",
+      "name": "Crazy Ex-Girlfriend",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_20",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_20"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_250",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_250"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1000",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_1000"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "FREESPIN_ALL",
+          "type": "purchase",
+          "label": "FREESPIN_ALL"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Bizarre",
+      "name": "Bizarre",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS_HUNT",
+          "type": "booster",
+          "label": "BOOSTED_BET_BONUS_HUNT"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "COIN_SPIN_FEATURE",
+          "type": "purchase",
+          "label": "COIN_SPIN_FEATURE"
+        }
+      ]
+    },
+    {
+      "id": "Disorder",
+      "name": "Disorder",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        },
+        {
+          "key": "FREESPIN_LEVEL4",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL4"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        }
+      ]
+    },
+    {
+      "id": "DeadMenWalking",
+      "name": "Dead Men Walking",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_SCATTERS"
+        },
+        {
+          "key": "SUPER_FREESPIN_SCATTERS",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN_SCATTERS"
+        },
+        {
+          "key": "GOLDEN_RESPIN",
+          "type": "purchase",
+          "label": "GOLDEN_RESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET1",
+          "type": "booster",
+          "label": "BOOSTED_BET1"
+        },
+        {
+          "key": "BOOSTED_BET2",
+          "type": "booster",
+          "label": "BOOSTED_BET2"
+        },
+        {
+          "key": "BOOSTED_BET3",
+          "type": "booster",
+          "label": "BOOSTED_BET3"
+        },
+        {
+          "key": "BOOSTED_BET4",
+          "type": "booster",
+          "label": "BOOSTED_BET4"
+        }
+      ]
+    },
+    {
+      "id": "GatorHunters",
+      "name": "Gator Hunters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_REVOLVER",
+          "type": "booster",
+          "label": "BOOSTED_BET_REVOLVER"
+        },
+        {
+          "key": "BOOSTED_BET_SUPER_FIRE",
+          "type": "booster",
+          "label": "BOOSTED_BET_SUPER_FIRE"
+        },
+        {
+          "key": "BOOSTED_BET_MAX",
+          "type": "booster",
+          "label": "BOOSTED_BET_MAX"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Tanked3",
+      "name": "Tanked 3: First Blood 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_COIN_TRANSFORM",
+          "type": "booster",
+          "label": "BOOSTED_BET_COIN_TRANSFORM"
+        },
+        {
+          "key": "BOOSTED_BET_PAY_GRID",
+          "type": "booster",
+          "label": "BOOSTED_BET_PAY_GRID"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "BangkokHilton",
+      "name": "Bangkok Hilton",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        }
+      ]
+    },
+    {
+      "id": "Seamen",
+      "name": "Seamen",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_3"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_6",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_6"
+        },
+        {
+          "key": "COCONUT_SPIN",
+          "type": "booster",
+          "label": "COCONUT_SPIN"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "BruteForceAlienOnslaught",
+      "name": "Brute Force: Alien Onslaught",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_TWO_SCATTERS",
+          "type": "booster",
+          "label": "BOOSTED_BET_TWO_SCATTERS"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE_1",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE_1"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE_2",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE_2"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE_3",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE_3"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE_4",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE_4"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE_5",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE_5"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "TsarWars",
+      "name": "Tsar Wars",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "BOOSTED_BET_4",
+          "type": "booster",
+          "label": "BOOSTED_BET_4"
+        }
+      ]
+    },
+    {
+      "id": "FlightMode",
+      "name": "Flight Mode",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_X_HOLE",
+          "type": "booster",
+          "label": "BOOSTED_BET_X_HOLE"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_30",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_30"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_268",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_268"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_911",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_911"
+        }
+      ]
+    },
+    {
+      "id": "FireInTheHole3",
+      "name": "Fire in the Hole 3",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_SCATTER",
+          "type": "booster",
+          "label": "BOOSTED_BET_SCATTER"
+        },
+        {
+          "key": "BOOSTED_BET_BAR",
+          "type": "booster",
+          "label": "BOOSTED_BET_BAR"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "FREESPIN_6_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_6_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_EVIL_DWARF",
+          "type": "purchase",
+          "label": "FREESPIN_EVIL_DWARF"
+        },
+        {
+          "key": "LUCKY_DRAW_DWARF",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_DWARF"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        }
+      ]
+    },
+    {
+      "id": "KillEmAll",
+      "name": "Kill Em All",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_SUPER",
+          "type": "booster",
+          "label": "BOOSTED_BET_SUPER"
+        },
+        {
+          "key": "BOOSTED_BET_BOSS",
+          "type": "booster",
+          "label": "BOOSTED_BET_BOSS"
+        },
+        {
+          "key": "BOOSTED_BET_CHESTS",
+          "type": "booster",
+          "label": "BOOSTED_BET_CHESTS"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "GOD_MODE_NIGHTMARE",
+          "type": "purchase",
+          "label": "GOD_MODE_NIGHTMARE"
+        },
+        {
+          "key": "GOD_MODE_LUCKY_DRAW",
+          "type": "purchase",
+          "label": "GOD_MODE_LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Breakout",
+      "name": "Breakout",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_MULTIPLIER_RAND",
+          "type": "booster",
+          "label": "BOOSTED_BET_MULTIPLIER_RAND"
+        },
+        {
+          "key": "BOOSTED_BET_MULTIPLIER_100",
+          "type": "booster",
+          "label": "BOOSTED_BET_MULTIPLIER_100"
+        }
+      ]
+    },
+    {
+      "id": "BloodDiamond",
+      "name": "Blood Diamond",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "X_DESIRE",
+          "type": "booster",
+          "label": "X_DESIRE"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Mental2",
+      "name": "Mental II",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_BETTER",
+          "type": "purchase",
+          "label": "FREESPIN_BETTER"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "BOOSTED_BET_4",
+          "type": "booster",
+          "label": "BOOSTED_BET_4"
+        }
+      ]
+    },
+    {
+      "id": "HomeOfTheBrave",
+      "name": "Home of the Brave",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW_1",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1"
+        },
+        {
+          "key": "CAPWIN_GAME",
+          "type": "purchase",
+          "label": "CAPWIN_GAME"
+        },
+        {
+          "key": "SATAN_SPINS",
+          "type": "booster",
+          "label": "SATAN_SPINS"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        }
+      ]
+    },
+    {
+      "id": "DeadDeadOrDeader",
+      "name": "Dead, Dead Or Deader",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Munchies",
+      "name": "Munchies",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "REELS_2",
+          "type": "booster",
+          "label": "REELS_2"
+        },
+        {
+          "key": "REELS_4",
+          "type": "booster",
+          "label": "REELS_4"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_REELS_2",
+          "type": "purchase",
+          "label": "FREESPIN_REELS_2"
+        },
+        {
+          "key": "FREESPIN_REELS_4",
+          "type": "purchase",
+          "label": "FREESPIN_REELS_4"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN_REELS_2",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN_REELS_2"
+        },
+        {
+          "key": "SUPER_FREESPIN_REELS_4",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN_REELS_4"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        }
+      ]
+    },
+    {
+      "id": "TombstoneSlaughter",
+      "name": "Tombstone Slaughter: El Gordo's Revenge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        },
+        {
+          "key": "BOOSTED_BET_4",
+          "type": "booster",
+          "label": "BOOSTED_BET_4"
+        }
+      ]
+    },
+    {
+      "id": "DuckHunters",
+      "name": "Duck Hunters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_64",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_64"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_1024",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_1024"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Payday",
+      "name": "Outsourced: Payday",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "SAFE_CLAW",
+          "type": "booster",
+          "label": "SAFE_CLAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "CLAW_3",
+          "type": "booster",
+          "label": "CLAW_3"
+        },
+        {
+          "key": "CLAW_5",
+          "type": "booster",
+          "label": "CLAW_5"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "CLAW_3_FREESPIN",
+          "type": "purchase",
+          "label": "CLAW_3_FREESPIN"
+        },
+        {
+          "key": "CLAW_5_FREESPIN",
+          "type": "purchase",
+          "label": "CLAW_5_FREESPIN"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        }
+      ]
+    },
+    {
+      "id": "XwaysHoarder2",
+      "name": "xWays Hoarder 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        },
+        {
+          "key": "FREESPIN_LEVEL4",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL4"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        }
+      ]
+    },
+    {
+      "id": "Tanked",
+      "name": "Tanked",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_ITEMS",
+          "type": "booster",
+          "label": "BOOSTED_BET_ITEMS"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_MAYHEM",
+          "type": "purchase",
+          "label": "FREESPIN_MAYHEM"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "HighwayToHell",
+      "name": "Highway to Hell",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_BONUS_HUNT",
+          "type": "booster",
+          "label": "BOOSTED_BET_BONUS_HUNT"
+        },
+        {
+          "key": "FREESPINS_0_SAFE",
+          "type": "purchase",
+          "label": "FREESPINS_0_SAFE"
+        },
+        {
+          "key": "FREESPINS_1_SAFE",
+          "type": "purchase",
+          "label": "FREESPINS_1_SAFE"
+        },
+        {
+          "key": "FREESPINS_2_SAFE",
+          "type": "purchase",
+          "label": "FREESPINS_2_SAFE"
+        },
+        {
+          "key": "FREESPINS_3_SAFE",
+          "type": "purchase",
+          "label": "FREESPINS_3_SAFE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        }
+      ]
+    },
+    {
+      "id": "BloodAndShadow2",
+      "name": "Blood & Shadow 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        }
+      ]
+    },
+    {
+      "id": "BruteForce",
+      "name": "Brute Force",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE_2",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE_2"
+        },
+        {
+          "key": "GUARANTEED_X_NUDGE_4",
+          "type": "booster",
+          "label": "GUARANTEED_X_NUDGE_4"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        }
+      ]
+    },
+    {
+      "id": "SkateOrDie",
+      "name": "Skate or Die",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_X_NUDGE",
+          "type": "booster",
+          "label": "BOOSTED_BET_X_NUDGE"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        }
+      ]
+    },
+    {
+      "id": "StockholmSyndrome",
+      "name": "Stockholm Syndrome",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW_1",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_1"
+        },
+        {
+          "key": "LUCKY_DRAW_2",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2"
+        },
+        {
+          "key": "POLIS_1",
+          "type": "purchase",
+          "label": "POLIS_1"
+        },
+        {
+          "key": "POLIS_2",
+          "type": "purchase",
+          "label": "POLIS_2"
+        },
+        {
+          "key": "POLIS_3",
+          "type": "purchase",
+          "label": "POLIS_3"
+        },
+        {
+          "key": "POLIS_4",
+          "type": "purchase",
+          "label": "POLIS_4"
+        },
+        {
+          "key": "POLIS_5",
+          "type": "purchase",
+          "label": "POLIS_5"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        }
+      ]
+    },
+    {
+      "id": "SanQuentin2",
+      "name": "San Quentin 2: Death Row",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        }
+      ]
+    },
+    {
+      "id": "Outsourced",
+      "name": "Outsourced",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_2"
+        },
+        {
+          "key": "BOOSTED_BET_STATE_5",
+          "type": "booster",
+          "label": "BOOSTED_BET_STATE_5"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        }
+      ]
+    },
+    {
+      "id": "Apocalypse",
+      "name": "Apocalypse Super xNudge®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "FREESPIN_BETTER",
+          "type": "purchase",
+          "label": "FREESPIN_BETTER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "XNUDGE_BET",
+          "type": "booster",
+          "label": "XNUDGE_BET"
+        }
+      ]
+    },
+    {
+      "id": "PunkRocker2",
+      "name": "Punk Rocker 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_LEVEL_ONE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_ONE"
+        },
+        {
+          "key": "FREESPIN_LEVEL_TWO",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_TWO"
+        },
+        {
+          "key": "FREESPIN_LEVEL_THREE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_THREE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET_1",
+          "type": "booster",
+          "label": "BOOSTED_BET_1"
+        },
+        {
+          "key": "BOOSTED_BET_3",
+          "type": "booster",
+          "label": "BOOSTED_BET_3"
+        }
+      ]
+    },
+    {
+      "id": "DeadwoodRip",
+      "name": "Deadwood R.I.P",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        },
+        {
+          "key": "LUCKY_DRAW_2",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2"
+        }
+      ]
+    },
+    {
+      "id": "TombstoneNoMercy",
+      "name": "Tombstone: No Mercy",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW_SMALL",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_SMALL"
+        },
+        {
+          "key": "LUCKY_DRAW_BIG",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_BIG"
+        },
+        {
+          "key": "RESPIN",
+          "type": "purchase",
+          "label": "RESPIN"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_WILD",
+          "type": "booster",
+          "label": "BOOSTED_BET_WILD"
+        }
+      ]
+    },
+    {
+      "id": "Beheaded",
+      "name": "Beheaded",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "Loner",
+      "name": "Loner",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "PIN_THE_WIN",
+          "type": "purchase",
+          "label": "PIN_THE_WIN"
+        },
+        {
+          "key": "TICK_TICK_BOOM",
+          "type": "purchase",
+          "label": "TICK_TICK_BOOM"
+        },
+        {
+          "key": "SHOOT_SHOOT_DUCK",
+          "type": "purchase",
+          "label": "SHOOT_SHOOT_DUCK"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "LUCKY_DRAW_2",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        }
+      ]
+    },
+    {
+      "id": "Possessed",
+      "name": "Possessed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "BrickSnake2000",
+      "name": "BRICK SNAKE 2000",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "GOD_MODE_DELUXE",
+          "type": "purchase",
+          "label": "GOD_MODE_DELUXE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "FireInTheHole2",
+      "name": "Fire in the Hole 2",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_LEVEL_1",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_1"
+        },
+        {
+          "key": "FREESPIN_LEVEL_2",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_2"
+        },
+        {
+          "key": "FREESPIN_LEVEL_3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_3"
+        },
+        {
+          "key": "GUARANTEED_DWARF",
+          "type": "purchase",
+          "label": "GUARANTEED_DWARF"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "KennethMustDie",
+      "name": "Kenneth Must Die",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "CAP_MODE_10000+NORMAL_PLAY",
+          "type": "variant",
+          "label": "CAP_MODE_10000+NORMAL_PLAY"
+        },
+        {
+          "key": "CAP_MODE_10000+FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_10000+FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_10000+COOL_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_10000+COOL_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_10000+SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_10000+SUPER_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_10000+LITE_SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_10000+LITE_SUPER_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_10000+LUCKY_DRAW_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_10000+LUCKY_DRAW_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_10000+COOL_XHOLE_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_10000+COOL_XHOLE_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_10000+X_HOLE",
+          "type": "booster",
+          "label": "CAP_MODE_10000+X_HOLE"
+        },
+        {
+          "key": "CAP_MODE_10000+X_HOLE_GUARANTEED",
+          "type": "booster",
+          "label": "CAP_MODE_10000+X_HOLE_GUARANTEED"
+        },
+        {
+          "key": "CAP_MODE_10000+BOOSTED_BET",
+          "type": "booster",
+          "label": "CAP_MODE_10000+BOOSTED_BET"
+        },
+        {
+          "key": "CAP_MODE_10000+X_WAYS_BET",
+          "type": "booster",
+          "label": "CAP_MODE_10000+X_WAYS_BET"
+        },
+        {
+          "key": "CAP_MODE_10000+X_NUDGE_BET",
+          "type": "booster",
+          "label": "CAP_MODE_10000+X_NUDGE_BET"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_STANDARD+FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+COOL_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_STANDARD+COOL_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_STANDARD+SUPER_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+LITE_SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_STANDARD+LITE_SUPER_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+LUCKY_DRAW_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_STANDARD+LUCKY_DRAW_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+COOL_XHOLE_FREESPIN",
+          "type": "purchase",
+          "label": "CAP_MODE_STANDARD+COOL_XHOLE_FREESPIN"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+X_HOLE",
+          "type": "booster",
+          "label": "CAP_MODE_STANDARD+X_HOLE"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+X_HOLE_GUARANTEED",
+          "type": "booster",
+          "label": "CAP_MODE_STANDARD+X_HOLE_GUARANTEED"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+BOOSTED_BET",
+          "type": "booster",
+          "label": "CAP_MODE_STANDARD+BOOSTED_BET"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+X_WAYS_BET",
+          "type": "booster",
+          "label": "CAP_MODE_STANDARD+X_WAYS_BET"
+        },
+        {
+          "key": "CAP_MODE_STANDARD+X_NUDGE_BET",
+          "type": "booster",
+          "label": "CAP_MODE_STANDARD+X_NUDGE_BET"
+        }
+      ]
+    },
+    {
+      "id": "DDay",
+      "name": "D-Day",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "LandOfTheFree",
+      "name": "Land Of The Free",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "TITAN_SPIN",
+          "type": "purchase",
+          "label": "TITAN_SPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "UgliestCatch",
+      "name": "Ugliest Catch",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL4",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL4"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "DevilsCrossroad",
+      "name": "Devil's Crossroad",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "JingleBalls",
+      "name": "Jingle Balls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "NineToFive",
+      "name": "Nine To Five",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "GOD_MODE",
+          "type": "purchase",
+          "label": "GOD_MODE"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "RoadKill",
+      "name": "Roadkill",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_LEVEL_ONE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_ONE"
+        },
+        {
+          "key": "FREESPIN_LEVEL_TWO",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_TWO"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "SpaceDonkey",
+      "name": "Space Donkey",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "TheCrypt",
+      "name": "The Crypt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "DjPsycho",
+      "name": "DJ Psycho",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "LUCKY_DRAW_2",
+          "type": "purchase",
+          "label": "LUCKY_DRAW_2"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "TrueKult",
+      "name": "True Kult",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "BountyHunters",
+      "name": "Bounty Hunters",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "RESPIN",
+          "type": "purchase",
+          "label": "RESPIN"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "TheCage",
+      "name": "The Cage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Gluttony",
+      "name": "Gluttony",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "Whacked",
+      "name": "Whacked!",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "Disturbed",
+      "name": "Disturbed",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "KissMyChainsaw",
+      "name": "Kiss My Chainsaw",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "BloodAndShadow",
+      "name": "Blood & Shadow",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        }
+      ]
+    },
+    {
+      "id": "BenjiKilledInVegas",
+      "name": "Benji Killed In Vegas",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        }
+      ]
+    },
+    {
+      "id": "WalkOfShame",
+      "name": "Walk of Shame",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "DeadCanary",
+      "name": "Dead Canary",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "PearlHarbor",
+      "name": "Pearl Harbor ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        },
+        {
+          "key": "BOOSTED_BET_2",
+          "type": "booster",
+          "label": "BOOSTED_BET_2"
+        }
+      ]
+    },
+    {
+      "id": "GoldenGenie",
+      "name": "Golden Genie And The Walking Wilds",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "GENIE_RESPIN",
+          "type": "purchase",
+          "label": "GENIE_RESPIN"
+        }
+      ]
+    },
+    {
+      "id": "ImmortalFruits",
+      "name": "Immortal Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "BONUS_WHEEL",
+          "type": "purchase",
+          "label": "BONUS_WHEEL"
+        }
+      ]
+    },
+    {
+      "id": "Harlequin",
+      "name": "Harlequin Carnival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "MilkyWays",
+      "name": "Milky Ways ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "BonusBunnies",
+      "name": "Bonus Bunnies ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "Deadwood",
+      "name": "Deadwood xNudge®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_BOUNTY",
+          "type": "purchase",
+          "label": "FREESPIN_BOUNTY"
+        }
+      ]
+    },
+    {
+      "id": "GaelicGold",
+      "name": "Gaelic Gold ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "BarbarianFury",
+      "name": "Barbarian Fury ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "PunkRocker",
+      "name": "Punk Rocker",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_BETTER",
+          "type": "purchase",
+          "label": "FREESPIN_BETTER"
+        }
+      ]
+    },
+    {
+      "id": "PoisonEve",
+      "name": "Poison Eve",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "DragonTribe",
+      "name": "Dragon Tribe ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "TombOfNefertiti",
+      "name": "Tomb of Nefertiti",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "BookOfShadows",
+      "name": "Book of Shadows ",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_ROWS",
+          "type": "purchase",
+          "label": "FREESPIN_3_ROWS"
+        },
+        {
+          "key": "FREESPIN_4_ROWS",
+          "type": "purchase",
+          "label": "FREESPIN_4_ROWS"
+        },
+        {
+          "key": "FREESPIN_5_ROWS",
+          "type": "purchase",
+          "label": "FREESPIN_5_ROWS"
+        },
+        {
+          "key": "BOOSTED_BET_4_ROWS",
+          "type": "purchase",
+          "label": "BOOSTED_BET_4_ROWS"
+        },
+        {
+          "key": "BOOSTED_BET_5_ROWS",
+          "type": "purchase",
+          "label": "BOOSTED_BET_5_ROWS"
+        }
+      ]
+    },
+    {
+      "id": "RockBottom",
+      "name": "Rock Bottom",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "BuffaloHunter",
+      "name": "Buffalo Hunter",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "MonkeysGold",
+      "name": "Monkey's Gold xPays",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        }
+      ]
+    },
+    {
+      "id": "WarriorGraveyard",
+      "name": "Warrior Graveyard xNudge®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_BETTER",
+          "type": "purchase",
+          "label": "FREESPIN_BETTER"
+        }
+      ]
+    },
+    {
+      "id": "TombOfAkhenaten",
+      "name": "Tomb of Akhenaten",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        }
+      ]
+    },
+    {
+      "id": "Serial",
+      "name": "Serial",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "ManhattanGoesWild",
+      "name": "Manhattan Goes Wild",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "PixiesVsPirates",
+      "name": "Pixies vs Pirates",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Hot4Cash",
+      "name": "Hot 4 Cash",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Thor",
+      "name": "Thor Hammer Time",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "TheCreepyCarnival",
+      "name": "The Creepy Carnival",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "TractorBeam",
+      "name": "Tractor Beam",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "MayanMagic",
+      "name": "Mayan Magic Wildfire",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Tombstone",
+      "name": "Tombstone",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Starstruck",
+      "name": "Starstruck",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Owls",
+      "name": "Owls",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Fruits",
+      "name": "Fruits",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "IceIceYeti",
+      "name": "Ice Ice Yeti",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "DungeonQuest",
+      "name": "Dungeon Quest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "HotNudge",
+      "name": "Hot Nudge",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "CoinsOfFortune",
+      "name": "Coins of Fortune",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "TeslaJolt",
+      "name": "Tesla Jolt",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "CasinoWinSpin",
+      "name": "Casino Win Spin",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Wixx",
+      "name": "Wixx",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "KitchenDramaSushiMania",
+      "name": "Kitchen Drama: Sushi Mania",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "Oktoberfest",
+      "name": "Oktoberfest",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        }
+      ]
+    },
+    {
+      "id": "SanQuentin",
+      "name": "San Quentin xWays®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        }
+      ]
+    },
+    {
+      "id": "LittleBighorn",
+      "name": "Little Bighorn",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "EastVsWest",
+      "name": "East Coast VS West Coast",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_COAST",
+          "type": "purchase",
+          "label": "FREESPIN_COAST"
+        }
+      ]
+    },
+    {
+      "id": "FireInTheHole",
+      "name": "Fire In The Hole",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        }
+      ]
+    },
+    {
+      "id": "BushidoWays",
+      "name": "Bushido Ways xNudge®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        }
+      ]
+    },
+    {
+      "id": "ElPaso",
+      "name": "El Paso Gunfight xNudge®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL_ONE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_ONE"
+        },
+        {
+          "key": "FREESPIN_LEVEL_TWO",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_TWO"
+        },
+        {
+          "key": "FREESPIN_BOUNTY",
+          "type": "purchase",
+          "label": "FREESPIN_BOUNTY"
+        },
+        {
+          "key": "RESPIN",
+          "type": "purchase",
+          "label": "RESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL_THREE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_THREE"
+        }
+      ]
+    },
+    {
+      "id": "Infectious5",
+      "name": "Infectious 5 xWays®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        }
+      ]
+    },
+    {
+      "id": "XwaysHoarder",
+      "name": "xWays Hoarder xSplit®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL_ONE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_ONE"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "FREESPIN_LEVEL_TWO",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_TWO"
+        }
+      ]
+    },
+    {
+      "id": "Mental",
+      "name": "Mental",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL_ONE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_ONE"
+        },
+        {
+          "key": "FREESPIN_LEVEL_TWO",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_TWO"
+        },
+        {
+          "key": "FREESPIN_LEVEL_THREE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_THREE"
+        }
+      ]
+    },
+    {
+      "id": "DasxBoot",
+      "name": "Das xBoot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        }
+      ]
+    },
+    {
+      "id": "EvilGoblins",
+      "name": "Evil Goblins xBomb®",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL4",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL4"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        },
+        {
+          "key": "FREESPIN_LEVEL6",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL6"
+        }
+      ]
+    },
+    {
+      "id": "LegionX",
+      "name": "Legion X",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_LEVEL_ONE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_ONE"
+        },
+        {
+          "key": "FREESPIN_LEVEL_TWO",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_TWO"
+        },
+        {
+          "key": "FREESPIN_LEVEL_THREE",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL_THREE"
+        }
+      ]
+    },
+    {
+      "id": "TrueGrit",
+      "name": "True Grit Redemption",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "TombstoneRip",
+      "name": "Tombstone R.I.P",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "PunkToilet",
+      "name": "Punk Toilet",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        }
+      ]
+    },
+    {
+      "id": "MiseryMining",
+      "name": "Misery Mining",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "RememberGulag",
+      "name": "Remember Gulag",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "Karen",
+      "name": "Karen Maneater",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "RoadRage",
+      "name": "Road Rage",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        }
+      ]
+    },
+    {
+      "id": "TheBorder",
+      "name": "The Border",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "SUPER_FREESPIN",
+          "type": "purchase",
+          "label": "SUPER_FREESPIN"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "FolsomPrison",
+      "name": "Folsom Prison",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN",
+          "type": "purchase",
+          "label": "FREESPIN"
+        },
+        {
+          "key": "FREESPIN_SUPER",
+          "type": "purchase",
+          "label": "FREESPIN_SUPER"
+        },
+        {
+          "key": "FREESPIN_LEVEL3",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL3"
+        },
+        {
+          "key": "FREESPIN_LEVEL4",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL4"
+        },
+        {
+          "key": "FREESPIN_LEVEL5",
+          "type": "purchase",
+          "label": "FREESPIN_LEVEL5"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    },
+    {
+      "id": "TheRave",
+      "name": "The Rave",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "normal",
+          "type": "normal",
+          "label": "Bet normal"
+        },
+        {
+          "key": "FREESPIN_3_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_3_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_4_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_4_SCATTERS"
+        },
+        {
+          "key": "FREESPIN_5_SCATTERS",
+          "type": "purchase",
+          "label": "FREESPIN_5_SCATTERS"
+        },
+        {
+          "key": "LUCKY_DRAW",
+          "type": "purchase",
+          "label": "LUCKY_DRAW"
+        },
+        {
+          "key": "BOOSTED_BET",
+          "type": "booster",
+          "label": "BOOSTED_BET"
+        }
+      ]
+    }
+  ]
+}

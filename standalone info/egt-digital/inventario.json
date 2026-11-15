@@ -1,0 +1,3848 @@
+{
+  "id": "egt-digital",
+  "name": "EGT Digital",
+  "ready": true,
+  "campaign_eligible": true,
+  "protocol": {
+    "family": "egt.websocket",
+    "workspace_adapter": "collection_full_misc.py::_egt",
+    "continuations": "native variant state",
+    "closure": "terminal event and wallet"
+  },
+  "games": [
+    {
+      "id": "ALGKLSlot",
+      "name": "ALGKLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "normal",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ARSlot",
+      "name": "ARSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ABSlot",
+      "name": "ABSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BCBLSlot",
+      "name": "BCBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BDBLSlot",
+      "name": "BDBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BCSlot",
+      "name": "BCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BESlot",
+      "name": "BESlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BFCSlot",
+      "name": "BFCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "normal",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "variant",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BFCHRSlot",
+      "name": "BFCHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BHBLSlot",
+      "name": "BHBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BGSlot",
+      "name": "BGSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BHESlot",
+      "name": "BHESlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BORHRSlot",
+      "name": "BORHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BHSlot",
+      "name": "BHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BLBLSlot",
+      "name": "BLBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BORJWSlot",
+      "name": "BORJWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BOSHBLSlot",
+      "name": "BOSHBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BORSlot",
+      "name": "BORSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BOSHSlot",
+      "name": "BOSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BOSHJWSlot",
+      "name": "BOSHJWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BSBLSlot",
+      "name": "BSBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CKHGKLSlot",
+      "name": "CKHGKLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "normal",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BPBLBSlot",
+      "name": "BPBLBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "CRSlot",
+      "name": "CRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DRHCSlot",
+      "name": "DRHCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "DWSlot",
+      "name": "DWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "EDSlot",
+      "name": "EDSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "EITHHRSlot",
+      "name": "EITHHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "EITHSlot",
+      "name": "EITHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "EPSlot",
+      "name": "EPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "EWCHSlot",
+      "name": "EWCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FBCSlot",
+      "name": "FBCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FBCSSlot",
+      "name": "FBCSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FBHBLSlot",
+      "name": "FBHBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "normal",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FBHRSlot",
+      "name": "FBHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FBHSSlot",
+      "name": "FBHSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FBHSlot",
+      "name": "FBHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FBRSlot",
+      "name": "FBRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FCHJSlot",
+      "name": "FCHJSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FCHSlot",
+      "name": "FCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FDCSlot",
+      "name": "FDCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FDHBLSlot",
+      "name": "FDHBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FDHSlot",
+      "name": "FDHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FHBLSlot",
+      "name": "FHBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FHBSlot",
+      "name": "FHBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FHEBLSlot",
+      "name": "FHEBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FHESlot",
+      "name": "FHESlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FHSlot",
+      "name": "FHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FLKBLSlot",
+      "name": "FLKBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FLKSlot",
+      "name": "FLKSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FMCSlot",
+      "name": "FMCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRBPSlot",
+      "name": "FRBPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRCHTSlot",
+      "name": "FRCHTSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRCLHSlot",
+      "name": "FRCLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRDCSlot",
+      "name": "FRDCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRDHSlot",
+      "name": "FRDHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRDRSlot",
+      "name": "FRDRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRJHSlot",
+      "name": "FRJHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRJRSlot",
+      "name": "FRJRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRLHSlot",
+      "name": "FRLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRLKEBLSlot",
+      "name": "FRLKEBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRLRSlot",
+      "name": "FRLRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRSHBLBSlot",
+      "name": "FRSHBLBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRSHRSlot",
+      "name": "FRSHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRSHSlot",
+      "name": "FRSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRSPSlot",
+      "name": "FRSPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRSRBHRSlot",
+      "name": "FRSRBHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRSRBSlot",
+      "name": "FRSRBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FRSRSlot",
+      "name": "FRSRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FSCBLSlot",
+      "name": "FSCBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FSCSlot",
+      "name": "FSCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FSFBLSlot",
+      "name": "FSFBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FSFSlot",
+      "name": "FSFSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "4",
+          "type": "purchase",
+          "label": "4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "5",
+          "type": "purchase",
+          "label": "5",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FSHBLSlot",
+      "name": "FSHBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FSHSlot",
+      "name": "FSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FTBRSlot",
+      "name": "FTBRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVBPSlot",
+      "name": "FVBPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVCHSlot",
+      "name": "FVCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVCHTSlot",
+      "name": "FVCHTSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVCLHSlot",
+      "name": "FVCLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVDRSlot",
+      "name": "FVDRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVJHSlot",
+      "name": "FVJHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVLRSlot",
+      "name": "FVLRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVSFSlot",
+      "name": "FVSFSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVSHRSlot",
+      "name": "FVSHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVSHSlot",
+      "name": "FVSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVSPSlot",
+      "name": "FVSPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FVSRSlot",
+      "name": "FVSRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FXSFSSlot",
+      "name": "FXSFSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FYHBSlot",
+      "name": "FYHBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FZWBLSlot",
+      "name": "FZWBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GAGKLSlot",
+      "name": "GAGKLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "normal",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "GKBLSlot",
+      "name": "GKBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HFSlot",
+      "name": "HFSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HFTTHRSlot",
+      "name": "HFTTHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "HFTTSlot",
+      "name": "HFTTSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JCCSlot",
+      "name": "JCCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JCESlot",
+      "name": "JCESlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "4",
+          "type": "purchase",
+          "label": "4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "5",
+          "type": "purchase",
+          "label": "5",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "JWSlot",
+      "name": "JWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "KTSlot",
+      "name": "KTSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LHSlot",
+      "name": "LHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "LTHCSlot",
+      "name": "LTHCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MDBLSlot",
+      "name": "MDBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MDSlot",
+      "name": "MDSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MHSlot",
+      "name": "MHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "MSHCSlot",
+      "name": "MSHCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OBCSlot",
+      "name": "OBCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OBHSlot",
+      "name": "OBHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ODJWSlot",
+      "name": "ODJWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OGGKLSlot",
+      "name": "OGGKLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "normal",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHBPSlot",
+      "name": "OHBPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHBRSlot",
+      "name": "OHBRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHCHSlot",
+      "name": "OHCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHCHTSlot",
+      "name": "OHCHTSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHCLHSlot",
+      "name": "OHCLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHDCSlot",
+      "name": "OHDCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHDHSlot",
+      "name": "OHDHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHDRSlot",
+      "name": "OHDRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHJHSlot",
+      "name": "OHJHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHJRSlot",
+      "name": "OHJRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHLHSlot",
+      "name": "OHLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHLRSlot",
+      "name": "OHLRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHSHRSlot",
+      "name": "OHSHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHSPSlot",
+      "name": "OHSPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OHSRSlot",
+      "name": "OHSRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OLHSlot",
+      "name": "OLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ORSlot",
+      "name": "ORSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OSFSlot",
+      "name": "OSFSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OSHSlot",
+      "name": "OSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OSHSSlot",
+      "name": "OSHSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OTSDHRSlot",
+      "name": "OTSDHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OTSDSlot",
+      "name": "OTSDSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "OTSVSlot",
+      "name": "OTSVSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PCHCSlot",
+      "name": "PCHCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PGASlot",
+      "name": "PGASlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PRCJWSlot",
+      "name": "PRCJWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PROSlot",
+      "name": "PROSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PRRJWHRSlot",
+      "name": "PRRJWHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PRRJWSlot",
+      "name": "PRRJWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PVHRSlot",
+      "name": "PVHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "PVSlot",
+      "name": "PVSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "QAHRSlot",
+      "name": "QAHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "QASlot",
+      "name": "QASlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RORGKLSlot",
+      "name": "RORGKLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "normal",
+          "label": "1",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RORSASlot",
+      "name": "RORSASlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RORSlot",
+      "name": "RORSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "RSSlot",
+      "name": "RSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SACBLSlot",
+      "name": "SACBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SACRSlot",
+      "name": "SACRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SBBLSlot",
+      "name": "SBBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SBSlot",
+      "name": "SBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SCBLSlot",
+      "name": "SCBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SCCHSlot",
+      "name": "SCCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "purchase",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "normal",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SCDSlot",
+      "name": "SCDSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "purchase",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "4",
+          "type": "purchase",
+          "label": "4",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "5",
+          "type": "purchase",
+          "label": "5",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SCSlot",
+      "name": "SCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SDSlot",
+      "name": "SDSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SJSlot",
+      "name": "SJSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SMSlot",
+      "name": "SMSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SPBLBSlot",
+      "name": "SPBLBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "STOTSlot",
+      "name": "STOTSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "STSlot",
+      "name": "STSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SUCSlot",
+      "name": "SUCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SVSlot",
+      "name": "SVSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SWSSSlot",
+      "name": "SWSSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "SXSFSSlot",
+      "name": "SXSFSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "variant",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "variant",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TADSlot",
+      "name": "TADSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TBCSlot",
+      "name": "TBCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TBHRSlot",
+      "name": "TBHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TBHSlot",
+      "name": "TBHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TBSlot",
+      "name": "TBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TCHJSlot",
+      "name": "TCHJSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TCHSlot",
+      "name": "TCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TCWSlot",
+      "name": "TCWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TDCSlot",
+      "name": "TDCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TDHSlot",
+      "name": "TDHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TFWSlot",
+      "name": "TFWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "THBSlot",
+      "name": "THBSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "THSFSlot",
+      "name": "THSFSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNBCSlot",
+      "name": "TNBCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNBPSlot",
+      "name": "TNBPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNBRSlot",
+      "name": "TNBRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNCHTSlot",
+      "name": "TNCHTSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNCLHSlot",
+      "name": "TNCLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNDCSlot",
+      "name": "TNDCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNDHSlot",
+      "name": "TNDHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNJHSlot",
+      "name": "TNJHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNLHSlot",
+      "name": "TNLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNLRSlot",
+      "name": "TNLRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNSFSlot",
+      "name": "TNSFSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNSHRSlot",
+      "name": "TNSHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNSHSlot",
+      "name": "TNSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNSPSlot",
+      "name": "TNSPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNSRSlot",
+      "name": "TNSRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNTJHRSlot",
+      "name": "TNTJHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TNTJSlot",
+      "name": "TNTJSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "1",
+          "type": "variant",
+          "label": "1",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "2",
+          "type": "purchase",
+          "label": "2",
+          "requires_prerequisites": false
+        },
+        {
+          "key": "3",
+          "type": "purchase",
+          "label": "3",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSDHRSlot",
+      "name": "TSDHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSDPWSlot",
+      "name": "TSDPWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSDSlot",
+      "name": "TSDSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSFBLSlot",
+      "name": "TSFBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSHBLSlot",
+      "name": "TSHBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSHSASlot",
+      "name": "TSHSASlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSHSlot",
+      "name": "TSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSPCSlot",
+      "name": "TSPCSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TSSSlot",
+      "name": "TSSSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TVHRSlot",
+      "name": "TVHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TVSlot",
+      "name": "TVSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWBHCHSlot",
+      "name": "TWBHCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWBPSlot",
+      "name": "TWBPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWBRSlot",
+      "name": "TWBRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWCHSlot",
+      "name": "TWCHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWCLHSlot",
+      "name": "TWCLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWDRSlot",
+      "name": "TWDRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWGSlot",
+      "name": "TWGSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWJHSlot",
+      "name": "TWJHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWLHSlot",
+      "name": "TWLHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWLRSlot",
+      "name": "TWLRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWSHRSlot",
+      "name": "TWSHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWSHSlot",
+      "name": "TWSHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWSPSlot",
+      "name": "TWSPSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "TWSRSlot",
+      "name": "TWSRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "UFSlot",
+      "name": "UFSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "UHSlot",
+      "name": "UHSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VGSASlot",
+      "name": "VGSASlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VGSlot",
+      "name": "VGSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VNBLSlot",
+      "name": "VNBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "VNSlot",
+      "name": "VNSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ZWBLSlot",
+      "name": "ZWBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ZWSlot",
+      "name": "ZWSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "ZWXBLSlot",
+      "name": "ZWXBLSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "FSHSASlot",
+      "name": "FSHSASlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    },
+    {
+      "id": "BOSHHRSlot",
+      "name": "BOSHHRSlot",
+      "ready": true,
+      "block_reason": "",
+      "modes": [
+        {
+          "key": "0",
+          "type": "normal",
+          "label": "0",
+          "requires_prerequisites": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "proveedor": "endorphina",
+  "archivos": [
+    {
+      "ruta": "codigo/endorphina.rs",
+      "bytes": 32624,
+      "sha256": "860b01287f7d03b60d065368d30852c95c85af436b3c613e6a7cd10d450a8df0"
+    },
+    {
+      "ruta": "dashboard/catalogo.json",
+      "bytes": 154912,
+      "sha256": "de4916ed7a85a6fde94411cea07f66c29d6c08da2c411fbe715f153d4e48219c"
+    },
+    {
+      "ruta": "dashboard/familias.json",
+      "bytes": 468766,
+      "sha256": "b652dea24fb8bb7279837f3ef79495a3fbecbc9cdac749bfc70540e335b67559"
+    },
+    {
+      "ruta": "evidencia/endorphina.json",
+      "bytes": 1437864,
+      "sha256": "17ef539b02f5e6eb0e0b5ad12521368f3b889a929a139bc3d58a5d3ff4a5708e"
+    },
+    {
+      "ruta": "inventario.json",
+      "bytes": 109956,
+      "sha256": "e001656d06df7eef1601fe53821b3502e2769c1dc200d5d83dcdf853b94590be"
+    },
+    {
+      "ruta": "plan-revisado.json",
+      "bytes": 130141,
+      "sha256": "094bb381a175cde3966031cffe8d02da99e7fff12a54c2b1314875d467f4f8f0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/audit.json",
+      "bytes": 657,
+      "sha256": "19511c9bcdb4029aa69eb0a0f5487a408ec31348f37fd3d33b550d9c17eda3ef"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/catalog.json",
+      "bytes": 27891,
+      "sha256": "d1687b8faa57dd46f834b8bdda8ff9b4c6df52e0f8d3b1d3db1b136848b499cd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/choices-matrix.json",
+      "bytes": 62050,
+      "sha256": "5a4aafa901fd8cae61dfbbd28f429fe50be2c5f530e1dec3e3b46f03c0f3b023"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/choices.json",
+      "bytes": 4189398,
+      "sha256": "3064aef7170ec7cc8a4960933577175921a5b9e0f5d1f648356b9063f5461cc8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/core-audit.json",
+      "bytes": 353,
+      "sha256": "e1af342a8e79ed1a25e238a4db2872e35c99243c1a702ef72ca67e5d53730987"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/features.json",
+      "bytes": 234677,
+      "sha256": "7e294f308bf9676488571fd01cecd7bcddc47b7f23ff85fa5841d97e2f9fe5e2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/index.html",
+      "bytes": 570676,
+      "sha256": "b44f3003437c958042b6b011dc1d71befd109b931e3750838df9742c29bc24bd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/inventory.json",
+      "bytes": 351732,
+      "sha256": "ecc3e3fab840502b830baa5613f605b02a4b016b2572ce90868b8e7331987455"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/progress.json",
+      "bytes": 183,
+      "sha256": "3517423a45cd3fce86be8195ade49c4a0dc320b3e7c8543fbb60e3187f3da8c8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/purchases.json",
+      "bytes": 5886591,
+      "sha256": "b2ebda07e9c076b560f48593a96bbec102dd5a891a4314f08c5c432d0299aee4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/risk.json",
+      "bytes": 1804679,
+      "sha256": "1d1c8e22be1e5d951ce002a9df4c3fb60b2186e365daf07109deb4c5cacea3b9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/1-100/rounds.json",
+      "bytes": 4450557,
+      "sha256": "1c3a91f325d1a920d46ec4be6bbf71bd202f3a6c9a4259f6fb5fd819518648c2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/audit.json",
+      "bytes": 705,
+      "sha256": "e9108a5028624a3ea57deca15cee93eb4eba55a8c1348c58c05babcd6fe0eb1b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/catalog.json",
+      "bytes": 27354,
+      "sha256": "a2bed817719bef3e5c69513c6b1c663bf0228fcf26ef67f67058b09b947bc002"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/choices-matrix.json",
+      "bytes": 50788,
+      "sha256": "36c6755c4d75b26038cd945da8c472f5faf376cff66ccdff636486403be6fb2e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/choices.json",
+      "bytes": 1743203,
+      "sha256": "d67d250482b584f9681995b58a61c987c9cde89f7cf0bf628fe42edd740c0eda"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/features.json",
+      "bytes": 147779,
+      "sha256": "0ea7a9c3aa389196ef5227c1f147b1735bd7b997052d399e9d61ca295912001e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/index.html",
+      "bytes": 541303,
+      "sha256": "97a1997b3a7ac98611d02258174ba9a458fe215ec3f2df6cf9ed0581dc015c72"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/inventory.json",
+      "bytes": 246235,
+      "sha256": "e1f0294802de31c3b8054c28f392d89c557e94cdf0300400979382ef4ef4e504"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/legendary-sumo-launch-en.html",
+      "bytes": 647,
+      "sha256": "5e479fc4813ff8103be521715b1ea53398540fb21c877fa5672a372db453092e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/legendary-sumo-launch.html",
+      "bytes": 647,
+      "sha256": "5e479fc4813ff8103be521715b1ea53398540fb21c877fa5672a372db453092e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/prior-batch-proof.json",
+      "bytes": 133,
+      "sha256": "a7cb59b22f0bd37f9760e0587892d711e0ecb3806e784d477c28fb7115f3fb40"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/progress.json",
+      "bytes": 206,
+      "sha256": "8e4494b5ca48b3cda37c0a5cb8b13d8cec631076248860132becbafe453bb045"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/purchases.json",
+      "bytes": 5852180,
+      "sha256": "bbc81aab0d172a0e28f199644d149585b4e023193043e65f48e0b6fd4693a213"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/risk.json",
+      "bytes": 1828961,
+      "sha256": "753ba108bdb375170fe6f07f529b302ace125cd4ec3514ed77b310a837bc92b4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/rounds.json",
+      "bytes": 2037303,
+      "sha256": "1d6e6c57f1c8f0c0ea8b47396697e2dea4a23186c791326191e5f4398a94eceb"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/101-200/unavailable-evidence.json",
+      "bytes": 415,
+      "sha256": "ca3363c43d8fcd9b7c32c35e94c01eed93ca09656102bd3be39e4af67985170a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/audit.json",
+      "bytes": 700,
+      "sha256": "1624b956039882cd038fae82dd1efa13176ec11b1529bc9b32934eba23e55812"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/catalog.json",
+      "bytes": 10387,
+      "sha256": "f03023405d528a460faa988b73c04e3bbfd581ec535f9499c78b4448f71bc389"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/choices-matrix.json",
+      "bytes": 22267,
+      "sha256": "be50a1dab8b0c018f8e37957c7cf88de10bd483fdf48ae25aa66bc2f4e5367f2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/choices.json",
+      "bytes": 548232,
+      "sha256": "672a14aaf0b4b4db22540742f11553bf8acd8776c3b63f84423ff713efd645bd"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/features.json",
+      "bytes": 58865,
+      "sha256": "6af6d1e2afec47e2362f8a1753bbf14b6a6fdacbe25c7d4b78c26d175dd5f107"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/index.html",
+      "bytes": 203484,
+      "sha256": "e847249cc4724fbbd53ffc4ca402df8c789641341aea5b06744b0cca5a6745a8"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/inventory.json",
+      "bytes": 103198,
+      "sha256": "d3a933037515c8a02bd4581f5d6634a924af28291735bb80c45025c197944f4a"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/prior-batches-proof.json",
+      "bytes": 165,
+      "sha256": "9a4d1c5f182d264dd396aa7914b968d0d695c00895e5b3631dfd3e2aa07381e9"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/progress.json",
+      "bytes": 204,
+      "sha256": "f741a8d02716fe3c621acf65cf33ae0a1edccf343b8dbce92215484c8a0b7044"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/purchases.json",
+      "bytes": 3339714,
+      "sha256": "bd0ac4b2c8c4917567c34934cc02380e5e56202de78233d373e33be5fc6cac37"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/risk.json",
+      "bytes": 683614,
+      "sha256": "ec334a694936bf830270a80218adb237e1beacbc75e15ad7b89127fa3c65d538"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/rounds.json",
+      "bytes": 463445,
+      "sha256": "4783819fa4345c246379e916f98f6b1f47f4f71d173940a4b5cf35b7afecb6b4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/batches/201-240/unavailable-evidence.json",
+      "bytes": 901,
+      "sha256": "483f31b66fe42aab86e711924202c53c84c44ec0af4d80a09c8232b7cd78e174"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/catalog-coverage.json",
+      "bytes": 759,
+      "sha256": "06d32bdd56038e6b90ed1d7708eb9200f4c27a99fee40afefe92de60cc097938"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/catalog-har.json",
+      "bytes": 58698,
+      "sha256": "064545d140e4f37709ad5dff1e843e73cfcc67957e1fc4512e0895bba63e4709"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/catalog.json",
+      "bytes": 65626,
+      "sha256": "7bb60cc832605bc1b3aab9388482ee4cf6e7c7425bb3db3a054de4cce838475f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/har-analysis.json",
+      "bytes": 7096,
+      "sha256": "64b2e84e4afffc4508bced366b753268c2017cfba79ac0d8884e1101b58a57d5"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/import-report.html",
+      "bytes": 40158,
+      "sha256": "d89d196fa94430a085dc109a2c00a5b8ec0bf23ca4357efa9782ca80b32265e0"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/index.html",
+      "bytes": 32273,
+      "sha256": "353281ee8d5cb04f1da83209d4259cef21d9e6ab4a079a43a8c342b6408e0fa2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/initialization-summary.json",
+      "bytes": 933,
+      "sha256": "a8e3feb3a15a48802233ca9d94695cfdb205e68095f1e268a882a9d84a4ec309"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/live-readonly-samples.json",
+      "bytes": 523602,
+      "sha256": "308349cd66245220a9711acc3c4ff3cd1524959368e89ca7e55744afac458350"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/native-ws-startup.json",
+      "bytes": 28425,
+      "sha256": "05416468d865a393f81579734383b784d29d496410f5794b2e33f31be5382962"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/normal-probe.json",
+      "bytes": 423201,
+      "sha256": "27d7b8f275aa081a55b8551ca715a7c915395ceb799ba3bc47ca95809f3377ab"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/README.md",
+      "bytes": 3153,
+      "sha256": "ba731d05ae79e7553ac624c42914fabc454f70e27ca14468b5422abedf03885c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/reference/catalog-page-1.html",
+      "bytes": 64241,
+      "sha256": "d1c4f1b2fe98f8daeb4d36c7a2b90456954c7360d42d4762e715c3e444f5393f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/reference/catalog-page-2.html",
+      "bytes": 64547,
+      "sha256": "386615c75c7c533adf06fe588f2d4f63cd12575b3b524f0d650c5fba95a17152"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/reference/public-play-launch.html",
+      "bytes": 718,
+      "sha256": "a65b8477c8158cd7e99203422cd1b0143b8539b3c4314e47ec9f5b1dc1757df2"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/risk-probe.json",
+      "bytes": 621691,
+      "sha256": "24c20d8187b6b5fa0abc04ff8d9da745ac82e74aac927656a62cba87575e0b9c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina/round.html",
+      "bytes": 4574,
+      "sha256": "06956087fa347301c1ddd16c06852d38d8fcfaa9aae9ffc9d581eb48f3802262"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_audit.py",
+      "bytes": 9150,
+      "sha256": "97ba5186b7bd58486625d73fe34530d997b4cb69cf5fb41112fa5d7356ab6251"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_branches.py",
+      "bytes": 5063,
+      "sha256": "9bf6ae0ebc8256f38d523dcda176a2e92d4e3be035dbefbd603eaed86cfdb850"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_choices.py",
+      "bytes": 4273,
+      "sha256": "4aacf6a268b569055896db63d7c3a785b66cfbe5053d1a803ee67286e55c169c"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_client.py",
+      "bytes": 6387,
+      "sha256": "e4a9baeabcdfb55120cdacb90ed302793851c80816fdcac8016bdc2b223c554f"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_config.py",
+      "bytes": 1712,
+      "sha256": "9eab03495374e6726bf685308b0ca954358db1dc0d4f9241e1e27795a5456495"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_paths.py",
+      "bytes": 2555,
+      "sha256": "9d930723876d3a5faf200932adae68ba20620b5f3f0adf6778177f29d82df050"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_repair_reports.py",
+      "bytes": 1866,
+      "sha256": "5aaea517b1c89ffd7c0903b1b50e9c3b73672c814ee136d3dd71b7639de703fc"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_risk.py",
+      "bytes": 6910,
+      "sha256": "0f7fcb8ed96e4543958cf599e7f2a0f58f539484a615ca6727cf141b2161fa47"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_risk_contract.py",
+      "bytes": 1037,
+      "sha256": "53291bd9646ceae75ab48d4bf8d92edfda6e4313c5e4a1268cc20c98eb7705e4"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_rounds.py",
+      "bytes": 10191,
+      "sha256": "9d1ebf23e9c399412d5f4c602c24579476ca8cd25f6c8aefa156e79feba8ae4e"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_run.py",
+      "bytes": 6077,
+      "sha256": "d4d5819a3f578792ebf33cfe14053a467df0f7059552a32c7f7ef8b21063b14b"
+    },
+    {
+      "ruta": "referencias/demo-dashboard/endorphina_wave.py",
+      "bytes": 2420,
+      "sha256": "bfc33faa4db8af66175c4cfcdc508e7cfb4ea0c4e38c56b1a74a228c641ea72f"
+    },
+    {
+      "ruta": "reproduccion.json",
+      "bytes": 680,
+      "sha256": "ffa510ccdfd9f25b06d50b5de38fc453252ba9165edb5e20c5efd87662352a53"
+    }
+  ]
+}

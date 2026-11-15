@@ -1,0 +1,6456 @@
+{
+  "id_plan_origen": "a881b87a-4b4e-4399-afa8-7e48006d2718",
+  "casos": [
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "20 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "20 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "40 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "40 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "60 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "60 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "80 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "80 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "100 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "100 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "20 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "40 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "60 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "80 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpiderCircusHoldAndWin",
+      "mode": "100 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenPowerOfSun",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenPowerOfSun",
+      "mode": "freespin_chance:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenPowerOfSun",
+      "mode": "freespin_chance:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenPowerOfSun",
+      "mode": "freespin_chance:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenPowerOfSun",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenPowerOfSun",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CatsLoveYummy",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CatsLoveYummy",
+      "mode": "buy_feature:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ThreeLuckyMonkeysHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ThreeLuckyMonkeysHoldAndWin",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ThreeLuckyMonkeysHoldAndWin",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ThreeLuckyMonkeysHoldAndWin",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillionMergeUp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillionMergeUp",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillionMergeUp",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RedHotChilliChickens",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RedHotChilliChickens",
+      "mode": "bonus_buy:normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RedHotChilliChickens",
+      "mode": "bonus_buy:super",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JohnnyVsChicken",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JohnnyVsChicken",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JohnnyVsChicken",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JohnnyVsChicken",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JohnnyVsChicken",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WincentWolf",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WincentWolf",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WincentWolf",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfHiddenTombs",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfHiddenTombs",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfHiddenTombs",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfHiddenTombs",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MissCherryWildFrames",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MissCherryWildFrames",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MissCherryWildFrames",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MissCherryWildFrames",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MissCherryWildFrames",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StPatricksPotsHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StPatricksPotsHoldAndWin",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StPatricksPotsHoldAndWin",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StPatricksPotsHoldAndWin",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StPatricksPotsHoldAndWin",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysticReels",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysticReels",
+      "mode": "ENCORE",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysticReels",
+      "mode": "BONUSBUY1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FruitMillionRespin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenFire",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenFire",
+      "mode": "buy_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenFire",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenFire",
+      "mode": "buy_super_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenFire",
+      "mode": "buy_ultra_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ReelOfRa",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ReelOfRa",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ReelOfRa",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TheGodfather3PillarsOfPower",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TheGodfather3PillarsOfPower",
+      "mode": "normalBuyCost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TheGodfather3PillarsOfPower",
+      "mode": "superBuyCost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrainHeistJohnnyCash",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrainHeistJohnnyCash",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrainHeistJohnnyCash",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrainHeistJohnnyCash",
+      "mode": "freespin_chance:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrainHeistJohnnyCash",
+      "mode": "freespin_chance:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Yokai",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Yokai",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Yokai",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits3",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits3",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits3",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarsAndStripesHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarsAndStripesHoldAndWin",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarsAndStripesHoldAndWin",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SweetSamurai",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MultiRush",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MultiRush",
+      "mode": "boost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MultiRush",
+      "mode": "cx64",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MultiRush",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MultiRush",
+      "mode": "super",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DustyDuel",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DustyDuel",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DustyDuel",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DustyDuel",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DustyDuel",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MoneyMaker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GemhallaXtreme",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GemhallaXtreme",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GemhallaXtreme",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GemhallaXtreme",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GemhallaXtreme",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SharkAndSparkHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SharkAndSparkHoldAndWin",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SharkAndSparkHoldAndWin",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyPack2026Cup",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyPack2026Cup",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyPack2026Cup",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyPack2026Cup",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyPack2026Cup",
+      "mode": "bonus_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotRocket532",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Ultras",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Ultras",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Ultras",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "normal_hades",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "normal_anubis",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "ante_0_hades",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "ante_0_anubis",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "ante_1_hades",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "ante_1_anubis",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "ante_2_hades",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "ante_2_anubis",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "buy_bonus_hades",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "buy_bonus_anubis",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "super_buy_bonus_hades",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ClashofGodsAnubisvsHades",
+      "mode": "super_buy_bonus_anubis",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "20 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "20 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "40 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "40 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "60 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "60 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "80 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "80 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "100 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "100 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "20 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "40 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "60 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "80 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalBeellionHoldAndWin",
+      "mode": "100 Lines x2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlingBlitzDiamondDrop",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandBuffaloHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandBuffaloHoldAndWin",
+      "mode": "freespin_and_bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandBuffaloHoldAndWin",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandBuffaloHoldAndWin",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DerbyRush",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DerbyRush",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DerbyRush",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DerbyRush",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DerbyRush",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GatesOfPower",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GatesOfPower",
+      "mode": "boost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GatesOfPower",
+      "mode": "bns",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GatesOfPower",
+      "mode": "enhance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GatesOfPower",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GatesOfPower",
+      "mode": "super",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMergeUp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMergeUp",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMergeUp",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMergeUp",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMergeUp",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMergeUp",
+      "mode": "bonus_chance:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMergeUp",
+      "mode": "bonus_chance:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalEaster",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalEaster",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalEaster",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PiggyBankHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PiggyBankHoldAndWin",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PiggyBankHoldAndWin",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PiggyBankHoldAndWin",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RecycleRiches",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RecycleRiches",
+      "mode": "chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RecycleRiches",
+      "mode": "buy_random",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RecycleRiches",
+      "mode": "buy_max",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MagicMummyMegaways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MagicMummyMegaways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MagicMummyMegaways",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillionXtreme",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillionXtreme",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillionXtreme",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillionXtreme",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenAvalonHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenAvalonHoldAndWin",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenAvalonHoldAndWin",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenAvalonHoldAndWin",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenAvalonHoldAndWin",
+      "mode": "bonus_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenAvalonHoldAndWin",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RocketEruptionTripleBlast",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RocketEruptionTripleBlast",
+      "mode": "normalBuyCost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RocketEruptionTripleBlast",
+      "mode": "superBuyCost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HeartOfTiki",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HeartOfTiki",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HeartOfTiki",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlwaysUpX10000",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlwaysUpX10000",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlwaysUpX10000",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlwaysUpX10000",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlwaysUpX10000",
+      "mode": "bonus_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WinterTrophyHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WinterTrophyHoldAndWin",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WinterTrophyHoldAndWin",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerXLove",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerXLove",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlazingFirepots",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlazingFirepots",
+      "mode": "buy_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlazingFirepots",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TotallyHot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysteryHeist",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysteryHeist",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysteryHeist",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysteryHeist",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JewelBoom",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TreasureExplorer",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TreasureExplorer",
+      "mode": "buy_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TreasureExplorer",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TreasureExplorer",
+      "mode": "buy_bonus_and_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "UFOPyramids",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "UFOPyramids",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenHeartOfIce",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenHeartOfIce",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DivineQueenHeartOfIce",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildMillion",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildMillion",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildMillion",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildMillion",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildMillion",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarTrekNextGen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarTrekNextGen",
+      "mode": "featureBuyMulFreespin/choice:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarTrekNextGen",
+      "mode": "featureBuyMulFreespin/choice:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarTrekNextGen",
+      "mode": "featureBuyMulFreespin/choice:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarTrekNextGen",
+      "mode": "featureBuyMulFreespin/choice:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "StarTrekNextGen",
+      "mode": "featureBuyMulRespin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPawHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPawHoldAndWin",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPawHoldAndWin",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPawHoldAndWin",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPawHoldAndWin",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPawHoldAndWin",
+      "mode": "bonus_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells100",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells100",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells100",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildWick",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildWick",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildWick",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildWick",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyTurkey",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyTurkey",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyTurkey",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp2",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp2",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp2",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp2",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilli243",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilli243",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilli243",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FiestaClusters",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FiestaClusters",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FiestaClusters",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FaceOff",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FaceOff",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FaceOff",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CluckingHell",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CluckingHell",
+      "mode": "boost",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CluckingHell",
+      "mode": "cx64",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CluckingHell",
+      "mode": "bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CluckingHell",
+      "mode": "super",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "YommiRush",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "YommiRush",
+      "mode": "buy_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "YommiRush",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "YommiRush",
+      "mode": "buy_bonus_and_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "20 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "20 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "40 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "40 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "60 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "60 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "80 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "80 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "100 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger2",
+      "mode": "100 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyLagerX9990",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyLagerX9990",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CrystalClusters",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CrystalClusters",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerVsJoker",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerVsJoker",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerVsJoker",
+      "mode": "buy_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandMustang",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandMustang",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandMustang",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigBucksSaloon",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigBucksSaloon",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LadyLuckyGun",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrampDayTrueways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrampDayTrueways",
+      "mode": "freespin_and_bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrampDayTrueways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrampDayTrueways",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DragonQueenMegaways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DragonQueenMegaways",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DragonQueenMegaways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BackyardGrill",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BackyardGrill",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BackyardGrill",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LokiLoot",
+      "mode": "normal@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LokiLoot",
+      "mode": "freespin_buy:5@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LokiLoot",
+      "mode": "freespin_chance:5@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysteryGarden",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MysteryGarden",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "OlympusTrueways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "OlympusTrueways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "OlympusTrueways",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlackbeardsBounty",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlackbeardsBounty",
+      "mode": "buy_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlackbeardsBounty",
+      "mode": "freeSpin",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BlackbeardsBounty",
+      "mode": "freeSpinRandom",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DoomsdaySaloon",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DoomsdaySaloon",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DoomsdaySaloon",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DoomsdaySaloon",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DoomsdaySaloon",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DoomsdaySaloon",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMix",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SugarMix",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ArrowSlot",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ArrowSlot",
+      "mode": "bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ArrowSlot",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ZeusGoesWild",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildClustersP",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildClustersP",
+      "mode": "wild_booster_x3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildClustersP",
+      "mode": "wild_booster_x5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildClustersP",
+      "mode": "full_drop",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildClustersP",
+      "mode": "drop_dead",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TreasureOfAnubis",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FortuneBells",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecIrwin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecIrwin",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecIrwin",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecIrwin",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecIrwin",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecIrwin",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCardGang",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCardGang",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCardGang",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JungleQueen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JungleQueen",
+      "mode": "buybonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AllStarFruits",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AllStarFruits",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AllStarFruits",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokersMillion",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "20 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "20 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "40 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "40 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "60 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "60 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "80 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "80 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "100 Lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HotChilliBells",
+      "mode": "100 Lines/bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiscoParty",
+      "mode": "normal@base_volatility:low",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiscoParty",
+      "mode": "freespin_buy:1@base_volatility:low",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiscoParty",
+      "mode": "freespin_buy:2@base_volatility:low",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiscoParty",
+      "mode": "normal@base_volatility:medium",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiscoParty",
+      "mode": "freespin_buy:1@base_volatility:medium",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiscoParty",
+      "mode": "freespin_buy:2@base_volatility:medium",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SakuraRiches60",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyDucky",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyDucky",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyDucky",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPride",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPride",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPride",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldenPride",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Catdiana",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SnoopDoggDollars",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SnoopDoggDollars",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SnoopDoggDollars",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SnoopDoggDollars",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SnoopDoggDollars",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SnoopDoggDollars",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Forgotten",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Forgotten",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Forgotten",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Forgotten",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Forgotten",
+      "mode": "freespin_buy:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Forgotten",
+      "mode": "freespin_buy:8",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RotatingElement",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RotatingElement",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HauntedReels",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HauntedReels",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HauntedReels",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HauntedReels",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CarnivalBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CarnivalBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CarnivalBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecsClawWildDice",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "VoodooPeople",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "VoodooPeople",
+      "mode": "freespin_and_bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "VoodooPeople",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "VoodooPeople",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalFruitsMultiLines",
+      "mode": "lines:20",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalFruitsMultiLines",
+      "mode": "lines:40",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalFruitsMultiLines",
+      "mode": "lines:60",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalFruitsMultiLines",
+      "mode": "lines:80",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalFruitsMultiLines",
+      "mode": "lines:100",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrainToRioGrande",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrainToRioGrande",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "normal@rows:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "freespin_buy:3@rows:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "freespin_chance:3@rows:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "normal@rows:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "freespin_buy:4@rows:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "freespin_chance:4@rows:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "normal@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "freespin_buy:5@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KrakensHunger",
+      "mode": "freespin_chance:5@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildWestTrueways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildWestTrueways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildWestTrueways",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SecretBarMultiDiceX",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SecretBarMultiDiceX",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SecretBarMultiDiceX",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SecretBarMultiDiceX",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldMagnate",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldMagnate",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandPatron7rst",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandPatron7rst",
+      "mode": "SHOP",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandPatron7rst",
+      "mode": "SHOP2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandPatron7rst",
+      "mode": "SHOP3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GrandPatron7rst",
+      "mode": "ANTE",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits2",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits2",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits2",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DragonAge",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DragonAge",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DragonAge",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldOfMinos",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldOfMinos",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldOfMinos",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GoldOfMinos",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PandaLuck",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PandaLuck",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenRush",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenRush",
+      "mode": "bonus_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenRush",
+      "mode": "bonus_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenRush",
+      "mode": "bonus_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Oof",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Oof",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyDragonMultiDiceX",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyDragonMultiDiceX",
+      "mode": "bonus_buy_0_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyDragonMultiDiceX",
+      "mode": "bonus_buy_1_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiamondOfJungle",
+      "mode": "normal@base_volatility:low",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiamondOfJungle",
+      "mode": "freespin_buy:1@base_volatility:low",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiamondOfJungle",
+      "mode": "freespin_buy:2@base_volatility:low",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiamondOfJungle",
+      "mode": "normal@base_volatility:medium",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiamondOfJungle",
+      "mode": "freespin_buy:1@base_volatility:medium",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiamondOfJungle",
+      "mode": "freespin_buy:2@base_volatility:medium",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Lucky8MergeUp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Lucky8MergeUp",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Lucky8MergeUp",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PopZen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PopZen",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecClusters",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecClusters",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecClusters",
+      "mode": "freespin_buy:0",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecClusters",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecClusters",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecClusters",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildHeart",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildHeart",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildHeart",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildHeart",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GodOfWealthHoldAndWin",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GodOfWealthHoldAndWin",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GodOfWealthHoldAndWin",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KeepersOfTheSecret7rst",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "KeepersOfTheSecret7rst",
+      "mode": "buy_bonus",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger",
+      "mode": "lines:20",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger",
+      "mode": "lines:40",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger",
+      "mode": "lines:60",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger",
+      "mode": "lines:80",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildTiger",
+      "mode": "lines:100",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gemza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gemza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gemza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SlotMachine",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SlotMachine",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrampDay",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrampDay",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "TrampDay",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfPanda",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfPanda",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfPanda",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfPanda",
+      "mode": "high_freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MummysGold",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MergeUp",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MiceAndMagic",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MiceAndMagic",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MiceAndMagic",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MiceAndMagic",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BoneBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BoneBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BoneBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCashDice",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCashDice",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SavageBuffaloSpiritMegaways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SavageBuffaloSpiritMegaways",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SavageBuffaloSpiritMegaways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiceMillion",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckAndMagic",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckAndMagic",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiceBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiceBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DiceBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BeastBand",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BeastBand",
+      "mode": "freespin_and_bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BeastBand",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BeastBand",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildChicago",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildChicago",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gemhalla",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gemhalla",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gemhalla",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SavageBuffaloSpirit",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SavageBuffaloSpirit",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyCrew",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyCrew",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalHighRoad",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalHighRoad",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "RoyalHighRoad",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AlienFruits",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "EasterHeist",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "EasterHeist",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "EasterHeist",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:1",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:2",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:6",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:7",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:8",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfKemet",
+      "mode": "freespin_buy:9",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyOak",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyOak",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PotionSpells",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PotionSpells",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DomnitorsTreasure",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DomnitorsTreasure",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DomnitorsTreasure",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GiftRush",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "GiftRush",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gangsterz",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Gangsterz",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilliX",
+      "mode": "lines:20",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilliX",
+      "mode": "lines:40",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilliX",
+      "mode": "lines:60",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilliX",
+      "mode": "lines:80",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BurningChilliX",
+      "mode": "lines:100",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Soccermania",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Soccermania",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfCatsMegaways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfCatsMegaways",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfCatsMegaways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfCatsMegaways",
+      "mode": "high_freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ElvisFrogTrueways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ElvisFrogTrueways",
+      "mode": "freespin_and_bonus_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ElvisFrogTrueways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ElvisFrogTrueways",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HalloweenBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HalloweenBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HalloweenBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BeerBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BeerBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BeerBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FortyFruityMillion",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCashX9990",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCashX9990",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyLadyMoonMegaways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyLadyMoonMegaways",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyLadyMoonMegaways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "normal@rows:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "freespin_chance@rows:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "freespin_buy@rows:3",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "normal@rows:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "freespin_chance@rows:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "freespin_buy@rows:4",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "normal@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "freespin_chance@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigAtlantisFrenzy",
+      "mode": "freespin_buy@rows:5",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PennyPelican",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PennyPelican",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCash",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WildCash",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyFarmBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyFarmBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyFarmBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerQueen",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerQueen",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerQueen",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JokerQueen",
+      "mode": "bonus_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CloverBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CloverBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CloverBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecMagicBonanza",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecMagicBonanza",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecMagicBonanza",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecMagicMegaways",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecMagicMegaways",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecMagicMegaways",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillion",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillion",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BonanzaBillion",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Road2Riches",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Road2Riches",
+      "mode": "freespin_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Road2Riches",
+      "mode": "freespin_chance",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyDamaMuerta",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "CandyMonsta",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MissCherryFruits",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DragonsGold100",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WbcRingOfRiches",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "MechanicalClover",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FourLuckyDiamonds",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "LuckyLadyMoon",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FruitMillion",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "HitTheRoute",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "JohnnyCash",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfCats",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfCats",
+      "mode": "feature_buy",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "ElvisFrog",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FourLuckyClover",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "Avalon",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "DeepSea",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "SpinAndSpell",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "FireLightning",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "AztecMagicDeluxe",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "PlatinumLightningDeluxe",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "WestTown",
+      "mode": "normal/all_default_lines",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    },
+    {
+      "provider": "bgaming",
+      "game": "BookOfPyramids",
+      "mode": "normal",
+      "samples": 1,
+      "settings": {
+        "executor": "suite",
+        "max_prerequisite_rounds": 4
+      }
+    }
+  ],
+  "omisiones": []
+}

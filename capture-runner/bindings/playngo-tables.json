@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "source_sha256": {
+    "standalone info/playngo/referencias/demo-dashboard/playngo_craps.py": "1f738a24b3474c421d2594d41c851d28e56e27b4b38a0adfb048c4d3dc9464f1",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_holdem.py": "cb87d60e938b42c8a0154cfbfc378d4af26fa5e189a0eafac11e135f9e307214",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_roulette.py": "a457d23295a1e3c0ee9e2c9955ba420131dc5e8930cbd1029596c406660f1fc1",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_draw_games.py": "700703f71882f3307027c319d708ae34c339aebb8c7000d3dabd0f6d1b99b47b",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_legacy_tables.py": "31b4e06ff795221632dff90fba851919b39ff8242620f7fe7828b0b71d739c83",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_table_rules.py": "8a7823a7651c5a2bfd3ada91ee57ecb2cea337e76ae3d051a0ab49e42dcf28e4",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_rules.py": "dbf389dea41ac94e6c0c1b9b1c0a9e91c6cdaa406223612d84fd1154844722ac",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_run.py": "ddc88369d98b52e4e34f479832730ce24d74dc1dbd4547d94b271ba3547a7488",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_client.py": "06e029632d1eaf099e46027bec2c3b26639590dd50dabcd120e7ed4f0a5ee811",
+    "standalone info/playngo/referencias/demo-dashboard/playngo_protocol.py": "a854adf36853047d14732b86db98205b7029034ff27b964ba569a2936ca24492",
+    "standalone info/playngo/referencias/demo-dashboard/playngo/catalog.json": "a53a7ac5995e6055bb38a0a436b768102b3cab2a6a769c9269d324fbbefd8022",
+    "standalone info/playngo/referencias/demo-dashboard/playngo/batches/1-100/inventory.json": "ee446ba9a3012ed67b09894df231a1295d886c98c369251c513683dea91d3594",
+    "standalone info/playngo/referencias/demo-dashboard/playngo/batches/101-200/inventory.json": "367ec8b9f8ac883bd1726ef69e149a10b1ef9f553fc1dafda5453accfe675dd4",
+    "standalone info/playngo/referencias/demo-dashboard/playngo/batches/201-300/inventory.json": "07a7e80e4f3a6491b575476e9a2d1ca01c270270293970f7df4170d5b25412ca",
+    "standalone info/playngo/referencias/demo-dashboard/playngo/batches/301-400/inventory.json": "08eb61b61790e9a2de54003214fdfa9e5da1363cad1e4525272b9ba2da70e7a6",
+    "standalone info/playngo/referencias/demo-dashboard/playngo/batches/401-477/inventory.json": "fe51d867216ec9350c0e1569a6a2bf8297b6dd9404831bc2c4b49cb2aa8e2e6d"
+  },
+  "policy": "Exactly the 18 archived normal contracts. Classic slots use the reference-verified one coin / one line converter bound by exact client SHA. All other amounts derive from fresh native denominations. Wallets, payout and currency scaling never gate capture.",
+  "games": {
+    "716": {
+      "gid": "gocraps",
+      "name": "GO CRAPS",
+      "source_sha256": "2ef0cfddf49ef49a9a48ec5168cb9e9054f226437840b092740017d66835d105",
+      "family": "craps",
+      "modes": [
+        "normal"
+      ]
+    },
+    "409": {
+      "gid": "threehandholdem",
+      "name": "3-Hand Casino Hold'em",
+      "source_sha256": "88044c49a6351ab21aa9d3647e5a5bfd44d98976d7283b41a359a9f0d745d1dc",
+      "family": "three_hand_holdem",
+      "modes": [
+        "normal"
+      ]
+    },
+    "31": {
+      "gid": "europeanroulette",
+      "name": "European Roulette Pro",
+      "source_sha256": "f094113b1eed7153840d7d92cab42137a478c1064c67d0a5bcefb33a6c4104a9",
+      "family": "roulette",
+      "modes": [
+        "normal"
+      ]
+    },
+    "324": {
+      "gid": "superwheel",
+      "name": "Super Wheel",
+      "source_sha256": "f3b0182fc67867a9a632e0bff67d15e6c3d1fb4c399f0c35e88fa4f1d20f0208",
+      "family": "wheel",
+      "modes": [
+        "normal"
+      ]
+    },
+    "318": {
+      "gid": "moneywheel",
+      "name": "Money Wheel",
+      "source_sha256": "a4269314030bc65ac6c0408735bed295b31881a0501dfcc439fd18b526d55a9b",
+      "family": "wheel",
+      "modes": [
+        "normal"
+      ]
+    },
+    "54": {
+      "gid": "doubleexposureblackjackmh",
+      "name": "Double Exposure BlackJack MH",
+      "source_sha256": "708eec80673e657e1494083355ba6fe5ffd83f1f52fa0f4592a4d0b3757e2704",
+      "family": "blackjack",
+      "modes": [
+        "normal"
+      ]
+    },
+    "271": {
+      "gid": "jokerpoker",
+      "name": "Joker Poker MH",
+      "source_sha256": "8b6a67ee3177c36d61e181c085b6ae8ac9fb160685cea5dc71a5db4ba604e641",
+      "family": "poker",
+      "modes": [
+        "normal"
+      ]
+    },
+    "270": {
+      "gid": "deuceswild",
+      "name": "Deuces Wild MH",
+      "source_sha256": "815245246499aba9cc7e827645e7836df7589c4987fad7bedd1e5b2421db5e9f",
+      "family": "poker",
+      "modes": [
+        "normal"
+      ]
+    },
+    "269": {
+      "gid": "jacksorbetter",
+      "name": "Jacks or Better MH",
+      "source_sha256": "12a95cc4dba5030b34c77c7ee77d7263cc067ef8b9ece5e64f7b14b4a5112e41",
+      "family": "poker",
+      "modes": [
+        "normal"
+      ]
+    },
+    "57": {
+      "gid": "casinoholdem",
+      "name": "Casino Hold'em",
+      "source_sha256": "d488ceca22013dfb70727c9d24e1c15b6943253ad6ede3b7c9248b964270cea0",
+      "family": "casino_holdem",
+      "modes": [
+        "normal"
+      ]
+    },
+    "55": {
+      "gid": "singledeckblackjackmh",
+      "name": "Single Deck BlackJack MH",
+      "source_sha256": "e32d49a79e7c7e1b23eabeea99c8e315ba93efa0edcf5daef5470623d9eaf16c",
+      "family": "blackjack",
+      "modes": [
+        "normal"
+      ]
+    },
+    "11": {
+      "gid": "minibaccarat",
+      "name": "Mini Baccarat",
+      "source_sha256": "2636852514733daa08a1590f2998ad992f07fb57137762fbb5b01032699cd0d3",
+      "family": "baccarat",
+      "modes": [
+        "normal"
+      ]
+    },
+    "99": {
+      "gid": "aceofspades",
+      "name": "Ace of Spades",
+      "source_sha256": "1d0a2da64aa3b9a8dd2d2cd65dfd91f46b1da985ef286183cd491a89f3e3ba93",
+      "family": "simple_slot",
+      "modes": [
+        "normal"
+      ]
+    },
+    "5": {
+      "gid": "luckydiamonds",
+      "name": "Lucky Diamonds",
+      "source_sha256": "95e29b7a3234b3ff4f6e3aa69e88fedbe81c32295deea508aee96036ca96ab08",
+      "family": "simple_slot",
+      "modes": [
+        "normal"
+      ]
+    },
+    "4": {
+      "gid": "wildmelon",
+      "name": "Wild Melon",
+      "source_sha256": "0bea4adf9b340d5bb868b5cb6c5df4f0e46984ec12513c0f0e12f5d41b448141",
+      "family": "simple_slot",
+      "modes": [
+        "normal"
+      ]
+    },
+    "52": {
+      "gid": "blackjackmh",
+      "name": "BlackJack MH",
+      "source_sha256": "67702d92ed7fb59dc55eb386a630ad88b17127b4fd676f56d375023abae7346c",
+      "family": "blackjack",
+      "modes": [
+        "normal"
+      ]
+    },
+    "239": {
+      "gid": "keno",
+      "name": "Keno",
+      "source_sha256": "af3822c084550acf8a15a4e6b6314fe6cf220edc76d288297de298b2db4eeb6c",
+      "family": "keno",
+      "modes": [
+        "normal"
+      ]
+    },
+    "53": {
+      "gid": "europeanblackjackmh",
+      "name": "European BlackJack MH",
+      "source_sha256": "b3331d6169cfa2eda2cbfd812b31758f07b7a050a1eec55fbac7e0b177a1ab5a",
+      "family": "blackjack",
+      "modes": [
+        "normal"
+      ]
+    }
+  }
+}
