@@ -1,0 +1,39 @@
+name: Review the observed Kendoo client source
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/inspect-kendoo-source.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Read the exact public source observed by Playwright
+        shell: bash
+        run: |
+          set -euo pipefail
+          umask 077
+          source_dir="$RUNNER_TEMP/kendoo-source"
+          mkdir -p "$source_dir"
+          curl --fail --silent --show-error --proto '=https' --proto-redir '=https' \
+            --location --max-redirs 2 --max-time 30 \
+            'https://static.kendoo.pro/gs/gamerunner/knd.0.0.66/gr.js?ed8840fe' \
+            --output "$source_dir/gr.js"
+          cd "$source_dir"
+          sha256sum gr.js > SHA256SUMS
+          tar -czf - gr.js SHA256SUMS |
+            openssl cms -encrypt -binary -aes-256-cbc -outform DER \
+              -out "$RUNNER_TEMP/kendoo-source.p7m" \
+              "$GITHUB_WORKSPACE/capture-runner/operations/live-smoke-recipient.pem"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kendoo-gamerunner-source-encrypted
+          path: ${{ runner.temp }}/kendoo-source.p7m
+          if-no-files-found: error
+          retention-days: 7
