@@ -94,6 +94,32 @@ El formato local copia el diario y metadatos existentes con SHA-256, conserva pa
 
 El banco completo `rubyplay-capture-bank-20261115.zip` se generó a partir de los 179 miembros `ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_*.json` del paquete ampliado y se entregó fuera de Git. Su hash e instrucciones de reconstrucción se registran en [REPLAY.md](REPLAY.md); no es necesario para compilar ni para la suite normal.
 
+## Inspección de sesiones con Playwright del 15 de noviembre de 2026
+
+La [ejecución 43695833003](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43695833003), sobre `5ed80876a13fbca94e26757207f8047d371c4de1`, observó los mismos doce juegos de los seis proveedores con HTTP 403 mediante Playwright **1.62.1** y Chromium **151.0.7922.34**, con Xvfb y un contexto nuevo por juego. La sonda sólo solicitó el bootstrap, sin giros ni compras. Conservó HAR, cuerpos, encabezados y almacenamiento; las sesiones, cookies y tokens permanecen fuera de Git. El [procedimiento](../operations/SESSION-BOOTSTRAP.md) explica los límites de captura y de la comparación HTTP del documento de cliente.
+
+La fuente Kendoo omitida por el filtro de cuerpos de esa sonda se recuperó en la [ejecución 43696363705](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43696363705), mediante un GET a la URL pública exacta observada, sin abrir otra sesión. Estos son los hashes de las fuentes contrastadas:
+
+| Fuente pública | SHA-256 |
+|---|---|
+| [KA `game.min.2101.js`](https://gamesdemo.kaga88.com/game.min.2101.js) | `e22521112053e5e93ea1fdc090318a465f9c821560006a38c2dba1f30f46d7ac` |
+| [KA `2101/thiefdog.js`](https://gamesdemo.kaga88.com/res/js/2101/thiefdog.js) | `86d34d4b3417c5ea4dac707d2e46f2128a5a11cbaddbe9a0a3defcdcff296f3e` |
+| [KA `2101/tropicalholiday.js`](https://gamesdemo.kaga88.com/res/js/2101/tropicalholiday.js) | `c1f2ea8d8a254adf4a2680292ddeb1114fae13f7b227fd84074403990aca9bf0` |
+| [Kendoo `knd.0.0.66/gr.js`](https://static.kendoo.pro/gs/gamerunner/knd.0.0.66/gr.js) | `e0de16c66e9ae82b3a8f6454fc621d5f7a046ce68460d902ca2b4350462c4d85` |
+| [3 Oaks `6.4.6/gr.js`](https://static.3oaks.com/gs/gamerunner/6.4.6/gr.js) | `d66b754711e0a17475ca69223389823e2e93cb80da5288d081e6614077f8d100` |
+| [Red Tiger, HTML `/frontend/evo/r2/`](https://fansite.evo-games.com/frontend/evo/r2/) | `27b4462ebf7abe4906d2da52779f266837d8373e1099911693791f2d91eb2e39` |
+| [Red Tiger `commons.9c50761f.js`](https://static.egcdn.com/frontend/evo/r2/js/commons.9c50761f.js) | `aec9efcf7dba9d8f10d774e68f5331ffd5564d6d710ab3987cf66cbdbc299175` |
+
+Los contratos incorporados en [317fe6f87b5726ac3cae3ec69751809adf007f3c](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/317fe6f87b5726ac3cae3ec69751809adf007f3c) tienen este alcance:
+
+- **KA:** perfil 2101 sólo para ThiefDog y TropicalHoliday, con hashes obligatorios; los demás juegos conservan 2090. La firma y `ctx.av` siguen el perfil revisado y `init.to` procede de `t` del launcher. El [fixture](../tests/fixtures/kagaming-bootstrap-versions.json) contiene menús reducidos y cuatro firmas de contextos inventados, calculadas ejecutando las funciones JavaScript publicadas de ambas versiones; cubre ambas ramas de paridad y UTF-16, sin identidades reales.
+- **Kendoo y 3 Oaks:** las fuentes `gr.js` confirman `gsc=<command>`, `Content-Type: text/plain` y `request_id` UUIDv4 hexadecimal de 32 caracteres. Se conserva la correlación obligatoria de comando e identificador y se limita la query admitida por Kendoo a los comandos implementados.
+- **Games Global:** se distingue el contexto de encabezados de login del de authenticate: Origin/Referer del iframe API y `clienttypeid` para authenticate. El [fixture de encabezados públicos](../tests/fixtures/gamesglobal/authenticate-request-context.json) deriva de las solicitudes 22 y 36 de GoldBlitzExtreme y omite cookies, tokens e identificadores generados.
+- **Red Tiger:** `getFingerprint()` lee localStorage o genera 32 bytes aleatorios mediante el módulo 23020, exportación `Ds`, y los codifica en Base64. El runner genera bytes CSPRNG nuevos por intento y envía `X-Fingerprint` sólo a `/setup`, sin copiar el valor capturado. `wrapped=false` se conserva por corresponder al User-Agent declarado; la fuente deriva ese flag del UA. `/config` no recibe ese header.
+- **Transporte:** el User-Agent explícito del adapter sustituye al predeterminado; una prueba TCP comprueba que sólo se envía uno y que el journal conserva ese encabezado.
+
+La entrega conserva la cobertura y los **44 bindings** sin cambios. Su verificación offline dio **274 tests correctos y 2 opt-in ignorados**, con formato, clippy y release correctos. Estas pruebas y el éxito de ejecución de la sonda no acreditan acceso remoto del runner ni cierre de rondas: el [retest HTTP posterior](../../docs/SESSION-BOOTSTRAP-2026-11-15.md) registró 12 rechazos 403 y cero giros/cierres. Las firmas KA de ambos requests reales coinciden exactamente con el firmante oficial 2101; el control 2090 no coincide. Los campos de login Kendoo/ThreeOaks llegaron al journal, pero los cambios de authenticate Games Global y setup Red Tiger no se alcanzaron en ese retest. El navegador también recibió rechazos; en particular, Red Tiger rechazó `/setup` aun con su identificador generado por el cliente.
+
 ## Cobertura ejecutable
 
 La tabla de conectores es única para planificación y ejecución. `plan --details` enumera cada modo sin implementación disponible. Los nombres `ready`, `campaign_eligible`, `verified` y los conteos históricos no amplían esa cobertura por sí solos.

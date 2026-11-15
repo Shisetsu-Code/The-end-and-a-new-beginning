@@ -5,6 +5,8 @@ KA Gaming, Kendoo, Red Tiger y 3 Oaks que recibieron HTTP 403 en la
 [campaña del 15 de noviembre](../../docs/LIVE-SMOKE-2026-11-15.md).
 Su objetivo es contrastar el navegador oficial con el bootstrap HTTP del runner.
 No certifica rondas completas ni modifica la cobertura de modos.
+El [informe revisado del 15 de noviembre](../../docs/SESSION-BOOTSTRAP-2026-11-15.md)
+registra los resultados del navegador y de la prueba HTTP por separado.
 
 ## Ejecución acotada
 
@@ -68,8 +70,8 @@ la solicitud; una corrección documental posterior no repite la campaña.
 
 La muestra usa sesiones HTTP nuevas, sin importar cookies ni tokens de la
 inspección histórica de Playwright. Son doce intentos como máximo, con dos juegos
-por proveedor, una salida directa, un límite global de 240 segundos y evidencia
-cifrada. El resultado nativo se conserva: un exit 2 indica capturas parciales.
+por proveedor, una salida directa, interrupción a los 240 segundos, terminación forzada hasta 20 segundos después
+y evidencia cifrada. El resultado nativo se conserva: un exit 2 indica capturas parciales.
 
 La inspección de la fuente Kendoo omitida por el primer HAR se reproduce con
 [`inspect-kendoo-source.yml`](../../.github/workflows/inspect-kendoo-source.yml).

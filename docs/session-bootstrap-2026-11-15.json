@@ -1,0 +1,669 @@
+{
+  "format": "session-bootstrap-reviewed-comparison",
+  "version": 1,
+  "date": "2026-11-15",
+  "scope": {
+    "providers": 6,
+    "games_per_provider": 2,
+    "games": 12,
+    "browser_manual_round_actions": 0,
+    "native_selected_modes_per_game": 1
+  },
+  "browser_run": {
+    "commit": "5ed80876a13fbca94e26757207f8047d371c4de1",
+    "workflow_run_id": 43695833003,
+    "started_at": "2026-11-15T08:43:58Z",
+    "finished_at": "2026-11-15T08:45:04Z",
+    "conclusion": "success",
+    "playwright": "1.62.1",
+    "chromium": "151.0.7922.34",
+    "node": "22.23.4",
+    "artifact_id": 14153194972,
+    "artifact_name": "session-bootstrap-403-encrypted",
+    "artifact_zip_bytes": 54749826,
+    "artifact_zip_sha256": "64810432af8c29d134c7f78b96fd816b5823f9091e60f70cc7b8f4efb2749ea2",
+    "request_count": 1309,
+    "response_count": 1234,
+    "saved_body_bytes": 88156827,
+    "har_contains_bodies": false
+  },
+  "kendoo_source_run": {
+    "commit": "a1cb6677475e1d86513386f93e5f7527a3ffa1d6",
+    "workflow_run_id": 43696363705,
+    "artifact_id": 14155040403,
+    "source_sha256": "e0de16c66e9ae82b3a8f6454fc621d5f7a046ce68460d902ca2b4350462c4d85"
+  },
+  "implementation_commit": "317fe6f87b5726ac3cae3ec69751809adf007f3c",
+  "ci_run_id": 43697499119,
+  "native_http_run": {
+    "commit": "abe03e10499e3988dd3d90fc8e552c85a99d6697",
+    "ci_run_id": 43698065416,
+    "workflow_run_id": 43698411683,
+    "started_at": "2026-11-15T09:16:12Z",
+    "finished_at": "2026-11-15T09:16:13Z",
+    "exit_code": 2,
+    "run_id": "session-http-20261115-r2",
+    "conclusion": "failure",
+    "capture_step": "success",
+    "encryption_and_upload": "success",
+    "implementation_commit": "317fe6f87b5726ac3cae3ec69751809adf007f3c",
+    "artifact_id": 14154869709,
+    "artifact_name": "session-http-12-encrypted",
+    "artifact_zip_bytes": 2022048,
+    "artifact_zip_sha256": "a7449964634ce6ed3a8b45914a9247d492e9247f0268dc619dedb2e0f821278b",
+    "binary_sha256": "faceddbd1e234c09eb2147affcd553b2e8dce00c9423de6d2e2de4010af179a6",
+    "attempts": 12,
+    "native_completions": 0,
+    "partial": 12,
+    "statuses": {
+      "provider_error": 12
+    },
+    "http_requests": 34,
+    "http_statuses": {
+      "200": 18,
+      "302": 2,
+      "307": 2,
+      "403": 12
+    },
+    "round_action_request_intents": 0,
+    "ws_handshake_requests": 0,
+    "concurrency_approximate": {
+      "games": {
+        "maximum_envelope_overlap": 12,
+        "positive_duration_intervals": 12,
+        "zero_duration_intervals_excluded": 0,
+        "missing_endpoint_intervals_excluded": 0,
+        "invalid_intervals_excluded": 0,
+        "span_ms": 1188,
+        "mean_envelope_overlap_over_span": 7.954
+      },
+      "providers": {
+        "maximum_envelope_overlap": 6,
+        "positive_duration_intervals": 6,
+        "zero_duration_intervals_excluded": 0,
+        "missing_endpoint_intervals_excluded": 0,
+        "invalid_intervals_excluded": 0,
+        "span_ms": 1188,
+        "mean_envelope_overlap_over_span": 4.059
+      },
+      "maximum_games_overlapping_within_one_provider": 2,
+      "games_with_unfinished_attempts": 0
+    },
+    "read_problems": 0
+  },
+  "cases": [
+    {
+      "provider": "evoplay",
+      "game": "venicefestival",
+      "browser": {
+        "raw_probe_outcome": "captcha",
+        "reviewed_outcome": "cloudflare_block",
+        "finding": "Emisor 302 con identificador demo nuevo; documento siguiente 403 Cloudflare; sin init.",
+        "initialized": false,
+        "request_count": 7,
+        "response_count": 7,
+        "status_counts": {
+          "200": 4,
+          "204": 1,
+          "302": 1,
+          "403": 1
+        },
+        "final_cookie_count": 0,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": true,
+        "evidence_directory": "browser/probe/private/evoplay/venicefestival"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "Evoplay demo launch unsuccessful",
+        "http_requests": 2,
+        "http_statuses": {
+          "302": 1,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172569,
+        "finished_ms": 1794734173135,
+        "finding": "Emisor 302 y documento de juego 403: HTML de bloqueo genérico Cloudflare; sin init.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/evoplay/venicefestival-c2c52ac53f43/normal-317b32c14369/sample-000000/attempt-c827b369-787b-4b02-9563-3aee51caec81",
+        "bank_attempt_id": "162cde2ce8f8d568e0dc252b090a6b135ae8b39797689f062df13df2f2efab48"
+      }
+    },
+    {
+      "provider": "evoplay",
+      "game": "treeoflightfabledfruits",
+      "browser": {
+        "raw_probe_outcome": "captcha",
+        "reviewed_outcome": "cloudflare_block",
+        "finding": "Emisor 302 con identificador demo nuevo; documento siguiente 403 Cloudflare; sin init.",
+        "initialized": false,
+        "request_count": 7,
+        "response_count": 7,
+        "status_counts": {
+          "200": 4,
+          "204": 1,
+          "302": 1,
+          "403": 1
+        },
+        "final_cookie_count": 0,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": true,
+        "evidence_directory": "browser/probe/private/evoplay/treeoflightfabledfruits"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "Evoplay demo launch unsuccessful",
+        "http_requests": 2,
+        "http_statuses": {
+          "302": 1,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172565,
+        "finished_ms": 1794734173138,
+        "finding": "Emisor 302 y documento de juego 403: HTML de bloqueo genérico Cloudflare; sin init.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/evoplay/treeoflightfabledfruits-e195422d6469/normal-317b32c14369/sample-000000/attempt-6d075757-cd82-45b5-a93d-16abf295547e",
+        "bank_attempt_id": "a00b6064a92247ca8d7fc731178934e71231a55a82bb11b9f6783fbe6e68c641"
+      }
+    },
+    {
+      "provider": "gamesglobal",
+      "game": "GoldBlitzExtreme",
+      "browser": {
+        "raw_probe_outcome": "native_session_seen",
+        "reviewed_outcome": "authenticated_but_assets_tls_failed",
+        "finding": "Login y authenticate 200; SignalR authenticate/subscribe; assets ERR_CERT_AUTHORITY_INVALID; sin Refresh.",
+        "initialized": false,
+        "request_count": 42,
+        "response_count": 35,
+        "status_counts": {
+          "200": 23,
+          "201": 3,
+          "202": 1,
+          "302": 5,
+          "307": 3
+        },
+        "final_cookie_count": 8,
+        "websocket_connections": 1,
+        "websocket_frames_sent": 2,
+        "websocket_frames_received": 9,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/gamesglobal/GoldBlitzExtreme"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "Games Global launch HTTP 403",
+        "http_requests": 2,
+        "http_statuses": {
+          "307": 1,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172573,
+        "finished_ms": 1794734173305,
+        "finding": "Emisor 307 y redirector 403: desafío Cloudflare; sin login/authenticate/Refresh.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/gamesglobal/GoldBlitzExtreme-e307b34036d6/normal-317b32c14369/sample-000000/attempt-183b0244-7a5d-42a0-aa53-161af1369ae7",
+        "bank_attempt_id": "570ecf44ab8526f9a02af32df7231909c1e72e486161f34b850e5f48d5cc4d6e"
+      }
+    },
+    {
+      "provider": "gamesglobal",
+      "game": "12MasksofFireDrums",
+      "browser": {
+        "raw_probe_outcome": "captcha",
+        "reviewed_outcome": "cloudflare_challenge",
+        "finding": "Redirector 403 y carga de Turnstile; sin login nativo.",
+        "initialized": false,
+        "request_count": 10,
+        "response_count": 9,
+        "status_counts": {
+          "200": 5,
+          "307": 3,
+          "403": 1
+        },
+        "final_cookie_count": 1,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/gamesglobal/12MasksofFireDrums"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "Games Global launch HTTP 403",
+        "http_requests": 2,
+        "http_statuses": {
+          "307": 1,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172577,
+        "finished_ms": 1794734173307,
+        "finding": "Emisor 307 y redirector 403: desafío Cloudflare; sin login/authenticate/Refresh.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/gamesglobal/12MasksofFireDrums-bc470af0581a/normal-317b32c14369/sample-000000/attempt-ebb5bf20-fb85-46ad-be78-59b2c58b18c7",
+        "bank_attempt_id": "0d5d922018ab21c1173dbb2beb43da0c0323665a1ca58eec0231404127fa3f09"
+      }
+    },
+    {
+      "provider": "kagaming",
+      "game": "TropicalHoliday",
+      "browser": {
+        "raw_probe_outcome": "native_initialized",
+        "reviewed_outcome": "native_initialized",
+        "finding": "startGame 200 con estado demo aceptado; sin Cookie ni Set-Cookie observados; sin giros solicitados.",
+        "initialized": true,
+        "request_count": 204,
+        "response_count": 204,
+        "status_counts": {
+          "200": 201,
+          "404": 3
+        },
+        "final_cookie_count": 0,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/kagaming/TropicalHoliday"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "KA HTTP failure at init",
+        "http_requests": 4,
+        "http_statuses": {
+          "200": 3,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172581,
+        "finished_ms": 1794734173268,
+        "finding": "Fuentes 2101 aceptadas por hash; startGame 403 con desafío Cloudflare; sin init aceptado.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/kagaming/TropicalHoliday-f2e6d310a2e4/normal-317b32c14369/sample-000000/attempt-49532c58-7332-407b-86e0-e8a2eb1b0118",
+        "bank_attempt_id": "8c8a7d189aee16e5cc2aa033d58eae1188946728e2d909ec120e81d32915548d",
+        "source_signature_check": {
+          "engine_version": "2101",
+          "application_version": "1.0.269 (2101)",
+          "ida_matches_official_2101": true,
+          "ida_matches_old_2090": false,
+          "signer_function_sha256": "4d6653aa10160b9f52a065b868531d43a952e7f330d4728f4a13eb0b8ca7d444",
+          "body_to_matches_launcher_t": true,
+          "body_un_matches_launcher_and_query": true,
+          "cookie_sent": false
+        }
+      }
+    },
+    {
+      "provider": "kagaming",
+      "game": "ThiefDog",
+      "browser": {
+        "raw_probe_outcome": "native_initialized",
+        "reviewed_outcome": "native_initialized",
+        "finding": "startGame 200 con estado demo aceptado; sin Cookie ni Set-Cookie observados; sin giros solicitados.",
+        "initialized": true,
+        "request_count": 206,
+        "response_count": 206,
+        "status_counts": {
+          "200": 201,
+          "404": 5
+        },
+        "final_cookie_count": 0,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/kagaming/ThiefDog"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "KA HTTP failure at init",
+        "http_requests": 4,
+        "http_statuses": {
+          "200": 3,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172585,
+        "finished_ms": 1794734173181,
+        "finding": "Fuentes 2101 aceptadas por hash; startGame 403 con desafío Cloudflare; sin init aceptado.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/kagaming/ThiefDog-41ac709e8ff6/normal-317b32c14369/sample-000000/attempt-939e9abe-d070-4c50-a2aa-efd34b3aa2a6",
+        "bank_attempt_id": "0c33b61dc2cb1bbb6b07ddd6ad49f1cbfe60f334b2ab126b8bbeb5b6348fc5e7",
+        "source_signature_check": {
+          "engine_version": "2101",
+          "application_version": "1.0.269 (2101)",
+          "ida_matches_official_2101": true,
+          "ida_matches_old_2090": false,
+          "signer_function_sha256": "4d6653aa10160b9f52a065b868531d43a952e7f330d4728f4a13eb0b8ca7d444",
+          "body_to_matches_launcher_t": true,
+          "body_un_matches_launcher_and_query": true,
+          "cookie_sent": false
+        }
+      }
+    },
+    {
+      "provider": "kendoo",
+      "game": "mariachi-lock",
+      "browser": {
+        "raw_probe_outcome": "captcha",
+        "reviewed_outcome": "cloudflare_block",
+        "finding": "Token extraído del launcher; login 403 Cloudflare; sin inicio aceptado.",
+        "initialized": false,
+        "request_count": 86,
+        "response_count": 78,
+        "status_counts": {
+          "200": 76,
+          "403": 1,
+          "404": 1
+        },
+        "final_cookie_count": 2,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": true,
+        "evidence_directory": "browser/probe/private/kendoo/mariachi-lock"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "Kendoo login HTTP 403",
+        "http_requests": 3,
+        "http_statuses": {
+          "200": 2,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172593,
+        "finished_ms": 1794734173596,
+        "finding": "Página y launcher 200; login 403 con HTML de bloqueo genérico Cloudflare; sin start/play.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/kendoo/mariachi-lock-7bcf5be95020/normal-317b32c14369/sample-000000/attempt-971f6237-f1f8-4a88-bcb1-af66afd24ab5",
+        "bank_attempt_id": "1d7edbab30c7f7e0bc91bb24b681ac9d0a9b10d28ade9bed22f41732575d2604"
+      }
+    },
+    {
+      "provider": "kendoo",
+      "game": "coin-dragon",
+      "browser": {
+        "raw_probe_outcome": "captcha",
+        "reviewed_outcome": "cloudflare_block",
+        "finding": "Token extraído del launcher; login 403 Cloudflare; sin inicio aceptado.",
+        "initialized": false,
+        "request_count": 82,
+        "response_count": 77,
+        "status_counts": {
+          "200": 75,
+          "403": 1,
+          "404": 1
+        },
+        "final_cookie_count": 2,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": true,
+        "evidence_directory": "browser/probe/private/kendoo/coin-dragon"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "Kendoo login HTTP 403",
+        "http_requests": 3,
+        "http_statuses": {
+          "200": 2,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172589,
+        "finished_ms": 1794734173600,
+        "finding": "Página y launcher 200; login 403 con HTML de bloqueo genérico Cloudflare; sin start/play.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/kendoo/coin-dragon-9dd2c25d57d9/normal-317b32c14369/sample-000000/attempt-f8b138ba-4f0e-4593-a8d6-57a2defb873f",
+        "bank_attempt_id": "97fb996f23ef2b5b5547bad24f5c4da3b925dc7bc1dfea8d49d88cb6c5bc6ab2"
+      }
+    },
+    {
+      "provider": "redtiger",
+      "game": "pandagoesboom000",
+      "browser": {
+        "raw_probe_outcome": "unconfirmed",
+        "reviewed_outcome": "setup_rejected_existing_cookie",
+        "finding": "Emisor 200, entry 302, frontend 200; setup/style 403 enviando EVOSESSIONID recién emitido; las respuestas eliminan esa cookie.",
+        "initialized": false,
+        "request_count": 157,
+        "response_count": 152,
+        "status_counts": {
+          "200": 140,
+          "302": 3,
+          "403": 6,
+          "404": 2,
+          "429": 1
+        },
+        "final_cookie_count": 11,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/redtiger/pandagoesboom000"
+      },
+      "native_http": {
+        "mode": "0",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "unconfirmed demo entry",
+        "http_requests": 3,
+        "http_statuses": {
+          "200": 2,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172600,
+        "finished_ms": 1794734173753,
+        "finding": "Página y emisor 200; primer entry 403 HTML Access Denied de Akamai; sin frontend/setup.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/redtiger/pandagoesboom000-399800baead1/0-5feceb66ffc8/sample-000000/attempt-853ff5b4-fcc5-4535-82b9-cfc7e2151071",
+        "bank_attempt_id": "a4f2aa53cc6c5307698f94a4138764def1533de309e933486aa55e7752e169a5",
+        "setup_reached": false,
+        "fingerprint_sent": false
+      }
+    },
+    {
+      "provider": "redtiger",
+      "game": "happycappy000000",
+      "browser": {
+        "raw_probe_outcome": "unconfirmed",
+        "reviewed_outcome": "entry_server_error",
+        "finding": "Emisor 200, entry 302, siguiente entry 500; sin frontend/setup.",
+        "initialized": false,
+        "request_count": 114,
+        "response_count": 114,
+        "status_counts": {
+          "200": 112,
+          "302": 1,
+          "500": 1
+        },
+        "final_cookie_count": 7,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/redtiger/happycappy000000"
+      },
+      "native_http": {
+        "mode": "0",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "unconfirmed demo entry",
+        "http_requests": 3,
+        "http_statuses": {
+          "200": 2,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172596,
+        "finished_ms": 1794734173750,
+        "finding": "Página y emisor 200; primer entry 403 HTML Access Denied de Akamai; sin frontend/setup.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/redtiger/happycappy000000-81857bde41ea/0-5feceb66ffc8/sample-000000/attempt-aaeb990e-cbf6-47ad-ac97-ea7f94a87a7b",
+        "bank_attempt_id": "d608fbd071b1b73137ae1904990b8a7dbcf5170fce18e89a1793766cbd504ad5",
+        "setup_reached": false,
+        "fingerprint_sent": false
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins_2",
+      "browser": {
+        "raw_probe_outcome": "unconfirmed",
+        "reviewed_outcome": "login_cors_failure",
+        "finding": "25 login POST del cliente fallan CORS/net::ERR_FAILED; HAR status -1 y sin headers de respuesta; sin start.",
+        "initialized": false,
+        "request_count": 89,
+        "response_count": 64,
+        "status_counts": {
+          "200": 63,
+          "204": 1
+        },
+        "final_cookie_count": 3,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/threeoaks/lava_coins_2"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "threeoaks_login: provider HTTP 403",
+        "http_requests": 3,
+        "http_statuses": {
+          "200": 2,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172604,
+        "finished_ms": 1794734173264,
+        "finding": "Metadata y launcher 200; login 403 con HTML de bloqueo genérico Cloudflare; sin start/play.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/threeoaks/lava_coins_2-c7d9de66d142/normal-317b32c14369/sample-000000/attempt-e931a7fd-4969-40fb-8d4d-102bf5e9b27c",
+        "bank_attempt_id": "4ed39fde9a3e26d4325b9c0c721d2ef8a3ebac3962564f5ab2d3c30f153fc0b7"
+      }
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lady_fortune",
+      "browser": {
+        "raw_probe_outcome": "unconfirmed",
+        "reviewed_outcome": "login_cors_failure",
+        "finding": "24 login POST del cliente fallan CORS/net::ERR_FAILED; HAR status -1 y sin headers de respuesta; sin start.",
+        "initialized": false,
+        "request_count": 305,
+        "response_count": 281,
+        "status_counts": {
+          "200": 280,
+          "204": 1
+        },
+        "final_cookie_count": 3,
+        "websocket_connections": 0,
+        "websocket_frames_sent": 0,
+        "websocket_frames_received": 0,
+        "captcha_false_positive_corrected": false,
+        "evidence_directory": "browser/probe/private/threeoaks/lady_fortune"
+      },
+      "native_http": {
+        "mode": "normal",
+        "status": "provider_error",
+        "native_complete": false,
+        "result_error": "threeoaks_login: provider HTTP 403",
+        "http_requests": 3,
+        "http_statuses": {
+          "200": 2,
+          "403": 1
+        },
+        "round_action_request_intents": 0,
+        "ws_handshake_requests": 0,
+        "started_ms": 1794734172607,
+        "finished_ms": 1794734173191,
+        "finding": "Metadata y launcher 200; login 403 con HTML de bloqueo genérico Cloudflare; sin start/play.",
+        "evidence_directory": "native-run/captures/session-http-20261115-r2/direct/threeoaks/lady_fortune-9d2ee3a6658c/normal-317b32c14369/sample-000000/attempt-35a0c6c8-09f2-4589-9600-352c672024a9",
+        "bank_attempt_id": "dd46b44eb06002d60a048665d0e68dc47e23f69ec92c352185e668d1a04c8e7e"
+      }
+    }
+  ],
+  "limits": [
+    "Los contextos de navegador y HTTP pertenecen a ejecuciones distintas; no se presume igual IP, geografía ni huella TLS.",
+    "El GET de documentos comparado por Playwright no verifica login, RPC ni giros con reqwest.",
+    "RedTiger Panda perdió EVOSESSIONID antes de esa comparación; no prueba que una sesión válida no pueda transferirse.",
+    "Evoplay/Kendoo no mostraron un widget CAPTCHA; la etiqueta bruta provino de un comentario HTML.",
+    "Los fallos de CORS no revelan un status HTTP de respuesta; no clasificarlos como HTTP 403 observado por el navegador.",
+    "Tokens, cookies, cuerpos y URLs de sesión se conservan sólo en la evidencia privada.",
+    "Kendoo reutilizó el mismo valor de token emitido en el launcher; el runner lo extrajo de un GET nuevo y no de las capturas históricas. No se demostró unicidad del token.",
+    "El runner ThreeOaks envió cookies al login cross-origin, a diferencia de los headers registrados del navegador; el gr.js no configura withCredentials. No se demostró causalidad del 403.",
+    "El User-Agent y otros detalles de cliente difieren de Chromium; no se aisló experimentalmente el efecto de identidad de cliente, IP, geografía, TLS ni cookies.",
+    "GamesGlobal authenticate y RedTiger setup no se alcanzaron en HTTP; sus nuevas cabeceras se comprobaron offline, no con una respuesta nativa aceptada.",
+    "RedTiger entry conserva en Rust un Referer con ruta/query de la demo, mientras Chromium envía el origen; no se demostró un requisito incumplido ni la causa del rechazo.",
+    "KA declara ctx.dt/dv del runner en lugar de Chrome. La firma es correcta para esos valores, pero no se aisló su efecto sobre el control de acceso.",
+    "El journal registra solicitudes construidas antes de reqwest.execute y las respuestas recibidas; no es una captura de TLS ni de todos los headers añadidos por el transporte."
+  ],
+  "verification": {
+    "local_tests_passed": 274,
+    "local_tests_failed": 0,
+    "local_tests_ignored": 2,
+    "fmt": true,
+    "clippy": true,
+    "release_build": true,
+    "ci_implementation_conclusion": "success",
+    "ci_native_binary_conclusion": "success",
+    "portable_bank": {
+      "attempts": 12,
+      "complete": 0,
+      "partial": 12,
+      "verified_file_hashes": 36,
+      "replayed_requests": 34,
+      "all_replay_exit_codes": [
+        2
+      ]
+    }
+  },
+  "private_delivery": {
+    "file_name": "session-bootstrap-evidence-20261115.zip",
+    "bytes": 56692142,
+    "sha256": "91de415b719c2424c7f61e8418b573472b887251a1491de85de37c0a88294475",
+    "manifest_sha256": "5f5471947118dc2c063b2436b435ac74c5c5372862c6637d05ec3cd8d87df2b4",
+    "members": 1020,
+    "verified_member_hashes": 1019,
+    "screenshots_excluded": 12
+  },
+  "operational_fix_commit": "abe03e10499e3988dd3d90fc8e552c85a99d6697",
+  "native_binary_ci_run_id": 43698065416,
+  "skipped_native_run": {
+    "workflow_run_id": 43697904839,
+    "reported_conclusion": "success",
+    "capture_steps": "skipped",
+    "captures": 0,
+    "artifacts": 0,
+    "reason": "rg was not installed; the failed command inside if silently skipped the campaign",
+    "fix": "git diff outside if, then Bash comparison; tested without rg and with a mismatched SHA"
+  }
+}

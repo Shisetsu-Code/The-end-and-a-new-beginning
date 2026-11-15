@@ -1,8 +1,28 @@
-# Verificación de la ampliación de capturas y replay
+# Verificación del runner
+
+## Sesiones demo: actualización del 15 de noviembre de 2026
+
+Implementación: [317fe6f](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/317fe6f87b5726ac3cae3ec69751809adf007f3c), precedida por la corrección de User-Agent en `5ed8087`. La inspección con Playwright y el contraste HTTP están documentados en [SESSION-BOOTSTRAP-2026-11-15.md](../../docs/SESSION-BOOTSTRAP-2026-11-15.md). Los resultados de compilación no sustituyen a los resultados remotos de ese informe.
+
+| Comprobación local, Rust 1.100.0 / Linux x86_64 | Resultado |
+|---|---|
+| `cargo fmt --manifest-path capture-runner/Cargo.toml --check` | Correcto |
+| `cargo test --offline --locked --manifest-path capture-runner/Cargo.toml` | **274 correctas, 0 fallidas, 2 opt-in ignoradas**: 262 biblioteca, 3 CLI, 3 CLI replay y 6 importación Ruby |
+| `cargo clippy --offline --locked --manifest-path capture-runner/Cargo.toml --all-targets -- -D warnings` | Correcto, sin advertencias |
+| `cargo build --release --offline --locked --manifest-path capture-runner/Cargo.toml` | Correcto |
+| Plan de `operations/session-http-request.json` | 6 proveedores, 12 juegos, 12 normales ejecutables, máximo 12 juegos activos |
+| Revisión independiente de contratos y workflow | Sin hallazgos bloqueantes; verificación remota informada por separado |
+| CI `43697499119` (`317fe6f`) y `43698065416` (`abe03e1`, mismo Rust) | **Correctos**: formato, suite, clippy, release y artifact |
+| [Retest HTTP 43698411683](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43698411683) | **12 rechazos 403, 0 giros, 0 cierres**; exit 2 conservado y evidencia cifrada subida |
+| Banco de la muestra HTTP | 12 parciales, 34 solicitudes; 36 hashes verificados y los 12 replays offline terminan con exit 2, sin pérdida de mensajes |
+
+Las regresiones comprueban el User-Agent real y su journal mediante TCP; `gsc`, Content-Type, UUID y correlación de Kendoo/ThreeOaks; las firmas KA 2090/2101 con un oráculo JavaScript y contextos sintéticos; el contexto público de `authenticate` de Games Global; y el identificador aleatorio de 32 bytes enviado sólo a `/setup` de Red Tiger. Los 44 bindings y la cobertura no cambiaron. No se repitieron las dos pruebas opt-in de originales Ruby para esta corrección de sesiones.
+
+## Ampliación e importación anteriores: `f550c02`
 
 Verificado el 15 de noviembre de 2026 en Linux x86_64 con Rust 1.100.0. Implementación publicada: [f550c0228774ff307135ec25c2e2138e6a97a236](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/f550c0228774ff307135ec25c2e2138e6a97a236), sobre la base `6d814f8e83490ba5a7c8eee92f97e0536b06aa16`. Incluye RubyPlay, GPAS/Playtech, Kalamba, banco/replay y correcciones del runtime. [Estado para retomar](../../docs/HANDOFF.md).
 
-## Resultados
+## Resultados de `f550c02`
 
 La prueba real posterior de 35 proveedores × 2 juegos está en [LIVE-SMOKE-2026-11-15.md](../../docs/LIVE-SMOKE-2026-11-15.md): 109 de 202 intentos cerrados, con fallos de acceso, adaptadores y continuaciones pendientes. La tabla siguiente corresponde a la verificación offline de la implementación.
 
@@ -54,7 +74,7 @@ El transporte común también se actualizó para aceptar los recursos JS/JMP/JMM
 
 35 proveedores, 9878 juegos inventariados y 20090 modos. Hay **14787 modos implementados en 6957 juegos** y 5303 pendientes: 408 modos adicionales en esta ampliación. [COVERAGE.md](COVERAGE.md) contiene el desglose y [MISSING-EVIDENCE.md](MISSING-EVIDENCE.md) los límites concretos.
 
-## Límites de verificación
+## Límites de la verificación offline de `f550c02`
 
 No se realizaron apuestas ni solicitudes a proveedores y no se levantaron túneles reales. La disponibilidad remota, cambios de fuentes, peers WireGuard, salida geográfica y carga de miles de juegos deben comprobarse en la VM. Los contratos habilitados pueden producir rechazos/eventos desconocidos; se conservan esas capturas.
 
@@ -64,7 +84,7 @@ El replay actual funciona por CLI y API Rust, con solicitudes estrictamente igua
 
 Se generó `rubyplay-capture-bank-20261115.zip` con el release verificado y los 179 originales suministrados. Contiene 434 intentos, 432 completos y 2 parciales, con 1491 pares nativos. Se verificaron los 1302 hashes de archivos de intentos y el CRC de los 1305 miembros del ZIP. El tamaño, SHA-256, contenido y forma de regenerarlo están en [REPLAY.md](REPLAY.md). El banco completo permanece fuera de Git.
 
-## Binario local verificado
+## Binario local verificado de `f550c02`
 
 Linux x86_64, 16469080 bytes. SHA-256:
 

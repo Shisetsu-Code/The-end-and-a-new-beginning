@@ -1,8 +1,21 @@
 # Retomar el proyecto
 
-**Estado al 15 de noviembre de 2026:** la ampliación y el replay están implementados y publicados en `main`, commit [f550c02](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/f550c0228774ff307135ec25c2e2138e6a97a236). [CI offline de esa entrega: correcto](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43686603978). Después se ejecutó la prueba real descrita abajo, con fallos pendientes. Comprobar `git status` y `git log -3 --oneline` al retomar; si hay cambios posteriores, revisar su diff antes de aplicar esta fotografía.
+**Estado al 15 de noviembre de 2026:** el runner y replay están publicados en `main`; la corrección más reciente de sesiones es [317fe6f](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/317fe6f87b5726ac3cae3ec69751809adf007f3c). Comprobar `git status` y `git log -3 --oneline` al retomar. La implementación original de la ampliación sigue identificada por `f550c02`; no confundir sus resultados históricos con los de los cambios posteriores.
 
-## Última prueba real: leer antes de corregir proveedores
+## Última tarea: sesiones Playwright y reproducción HTTP
+
+El usuario pidió comprobar si los 403 se debían a falta de sesión, iniciar las demos con Playwright y portar su contrato a HTTP/WS. **La inspección de 12 juegos terminó y los cambios están implementados.** Leer [SESSION-BOOTSTRAP-2026-11-15.md](SESSION-BOOTSTRAP-2026-11-15.md) y [sus casos JSON](session-bootstrap-2026-11-15.json) antes de repetir la investigación.
+
+- Playwright aceptó ambos init KA sin cookies; GoldBlitz autenticó, pero sus assets fallaron por certificado y no hubo Refresh. Evoplay/Kendoo recibieron bloqueos Cloudflare; ThreeOaks falló CORS; Red Tiger Panda recibió 403 enviando una cookie recién emitida y Happy llegó a entry 500. No todos los 403 acreditan ausencia de sesión.
+- Portado: UA único; perfil/firma KA 2101 para ThiefDog/TropicalHoliday y `init.to` del launcher; `gsc`/text/plain/UUID y correlación Kendoo/ThreeOaks; contexto de authenticate Games Global; identificador aleatorio de 32 bytes sólo en `/setup` Red Tiger. No se reutilizan cookies ni tokens históricos.
+- **Retest HTTP 43698411683: 12/12 intentos rechazados con 403 antes del giro; 0 cierres.** Son 34 solicitudes y 12 parciales conservadas, exit 2. CI del código y del binario correctos. `abe03e1` corrige el disparador que había omitido la primera campaña por no tener `rg`; esa ejecución omitida cuenta como cero intentos. El acceso nativo sigue pendiente, no declarar resueltos los 403.
+- Banco privado `session-bootstrap-evidence-20261115.zip`: evidencia del navegador y HTTP, 12 parciales / 34 solicitudes, con hashes y replay offline verificados. Ver el informe para su hash y rutas de cada caso.
+- Verificación local: **274 tests correctos, 2 opt-in ignorados**, fmt/clippy/release correctos. No se volvieron a ejecutar los originales Ruby. Cobertura y los 44 bindings intactos.
+- No reabrir los falsos CAPTCHA Evoplay/Kendoo: provenían de un comentario HTML y el clasificador ya está corregido. El GET comparativo de Red Tiger ocurrió después de invalidar su cookie y no prueba que una sesión válida no pueda transferirse.
+
+El workflow nativo nuevo espera CI exitoso y usa el binario de ese mismo commit; sólo solicita una campaña si cambió `capture-runner/operations/session-http-request.json`. Las instrucciones reproducibles están en [SESSION-BOOTSTRAP.md](../capture-runner/operations/SESSION-BOOTSTRAP.md). Los cambios documentales no repiten capturas.
+
+## Campaña completa anterior: 35 proveedores × 2 juegos
 
 El usuario pidió 2 juegos por proveedor y los 35 proveedores simultáneos. [Informe completo](LIVE-SMOKE-2026-11-15.md), [casos en JSON](live-smoke-2026-11-15.json), [ejecución 43693889120](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43693889120). Configuración/workflow: `20cd8d0`; binario: `f550c02`.
 
@@ -10,9 +23,9 @@ El usuario pidió 2 juegos por proveedor y los 35 proveedores simultáneos. [Inf
 - **13 proveedores pasan toda la muestra, 8 parcialmente y 14 ninguno.** Solapamiento de intervalos: 69 juegos/35 proveedores, máximo 2 por proveedor; no es concurrencia exacta de solicitudes.
 - Pendientes localizados: **Belatra compara modification numérico con String; ELA rechaza connected; Playson encuentra fuentes nuevas; Playtech recibe GLU6 no soportado.** También faltan continuaciones en varios proveedores, incluido `rp_103` compra freespin → `pick`. Ver el informe antes de reanalizar las capturas.
 - Otros fallos son de acceso/inicialización; algunos muestran Cloudflare, ipBlocked, país no permitido o error del emisor. `provider_error` no significa necesariamente fallo remoto.
-- Banco nuevo entregado fuera de Git: `live-smoke-35x2-bank-20261115.zip`, 202 intentos (109 completos/93 parciales), con hashes, informes y recuperación del artifact cifrado. Los fallos aún no están corregidos.
+- Banco nuevo entregado fuera de Git: `live-smoke-35x2-bank-20261115.zip`, 202 intentos (109 completos/93 parciales), con hashes, informes y recuperación del artifact cifrado. Los cambios de sesiones posteriores están descritos arriba; los otros fallos siguen pendientes.
 
-El workflow reutiliza un binario fijado por run/hash: actualizar ambos para probar un cambio de código. Sólo modificar documentación no dispara otra campaña. El primer intento local falló por DNS/transporte del entorno; usar los resultados de GitHub Actions para el diagnóstico.
+El workflow de la campaña 35×2 reutiliza un binario fijado por run/hash: actualizar ambos para probar un cambio de código con esa campaña. Sólo modificar documentación no dispara otra campaña. El primer intento local falló por DNS/transporte del entorno; usar los resultados de GitHub Actions para el diagnóstico.
 
 ## Objetivo y decisiones ya acordadas
 
@@ -62,6 +75,7 @@ El usuario **ya entregó** `ENTREGA-CLAUDE(2).zip`, `evidencia-claude-20261115.z
 |---|---|---|
 | Ejecutar/configurar VM | [README del runner](../capture-runner/README.md), [WireGuard](../capture-runner/docs/WIREGUARD.md) | `config.rs`, `engine.rs`, `supervisor.rs`, `wireguard.rs` |
 | Exportar/importar/reproducir | [REPLAY](../capture-runner/docs/REPLAY.md), [interfaces](../capture-runner/INTERFACES.md) | `capture_bank.rs`, `ruby_import.rs`, `replay.rs`, `main.rs` |
+| Diagnosticar 403 / sesiones | [Contraste Playwright/HTTP](SESSION-BOOTSTRAP-2026-11-15.md), casos JSON y evidencia privada identificada allí | `context.rs`, adaptador del proveedor, `operations/SESSION-BOOTSTRAP.md` |
 | Ampliar un proveedor | [Evidencia pendiente](../capture-runner/docs/MISSING-EVIDENCE.md), su entrada en `binding-provenance.json` | `adapters/<proveedor>.rs`, su binding; registro `adapters/mod.rs` |
 | Ruby / Playtech / Kalamba | Secciones de esos proveedores en [procedencia](../capture-runner/docs/PROVENANCE.md) | `adapters/rubyplay_extra.rs`, `adapters/rubyplay.rs`, `adapters/playtech/{native,sources}.rs`, `adapters/kalamba.rs` |
 | Cambiar cobertura o captura | [COVERAGE](../capture-runner/docs/COVERAGE.md), [interfaces](../capture-runner/INTERFACES.md) | `catalog.rs`, `adapters/mod.rs`, `context.rs`, `journal.rs` |
@@ -74,7 +88,7 @@ jq '.providers[] | select(.provider == "rubyplay")' capture-runner/docs/coverage
 
 ## Verificación y reanudación mínima
 
-Rust mínimo 1.99; entrega verificada con 1.100.0. **264 tests correctos** con los dos opt-in; suite normal **262 correctos y 2 ignorados**. Fmt, clippy, release, 44 hashes de bindings y cobertura generada correctos. Los detalles y comandos opt-in están en [VERIFICATION.md](../capture-runner/docs/VERIFICATION.md); no volver a ejecutar la investigación completa para una edición documental.
+Rust mínimo 1.99; verificado con 1.100.0. En `317fe6f`, suite normal **274 correctos y 2 opt-in ignorados**; fmt, clippy y release correctos. La ampliación `f550c02` tuvo 264 correctos incluyendo los dos opt-in, con 44 hashes de bindings y cobertura generada verificados; los cambios de sesiones no alteran esos bindings ni la cobertura. Los detalles y comandos opt-in están en [VERIFICATION.md](../capture-runner/docs/VERIFICATION.md); no volver a ejecutar la investigación completa para una edición documental.
 
 Desde la raíz, para compilar y consultar el plan sin contactar proveedores:
 
@@ -90,6 +104,10 @@ capture-runner/target/release/capture-runner plan --config capture-runner/exampl
 - `6d814f8`: migración del runner verificado al repositorio solicitado; inventarios y dependencias de tests incluidos.
 - `f550c02`: ampliación Ruby/Playtech/Kalamba, banco/importador/replay y fiabilidad descritos arriba; CI aprobado.
 - `20cd8d0`: campaña real acotada de 35 proveedores × 2 juegos seleccionados, conservación cifrada de evidencia y reporte de los fallos observados; sin cambios del código del runner.
-- Este traspaso: punto de entrada común, identificación del banco entregado y corrección de instrucciones/planes obsoletos; sin cambios de comportamiento.
+- `5ed8087`: corrección de User-Agent y sonda Playwright de los seis proveedores con 403.
+- `a1cb667`: recuperación de la fuente pública Kendoo exacta observada; sin otra sesión de juego.
+- `317fe6f`: contratos de sesión portados, regresiones y campaña HTTP acotada vinculada a su CI.
+- `abe03e1`: corrección del gate sin depender de `rg` y solicitud `r2`; mismo Rust, CI correcto y muestra HTTP real de 12 parciales.
+- Este traspaso conserva los resultados por etapa y los paquetes privados; una revisión documental no añade cambios de comportamiento.
 
 Los planes/especificaciones de `docs/superpowers/` explican decisiones históricas. No reabrir sus tareas completadas ni usar sus conteos antiguos como estado actual.
