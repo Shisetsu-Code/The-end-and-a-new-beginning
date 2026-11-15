@@ -36,10 +36,13 @@ jobs:
         run: |
           set -euo pipefail
           test "$(git rev-parse HEAD)" = "$VERIFIED_SHA"
-          if git diff --name-only HEAD^ HEAD -- \
-            capture-runner/operations/session-http-request.json | \
-            rg -Fxq capture-runner/operations/session-http-request.json; then
+          request_path=capture-runner/operations/session-http-request.json
+          changed_request=$(git diff --name-only HEAD^ HEAD -- "$request_path")
+          if [[ "$changed_request" == "$request_path" ]]; then
             printf 'requested=true\n' >> "$GITHUB_OUTPUT"
+          elif [[ -n "$changed_request" ]]; then
+            printf 'Unexpected request diff: %s\n' "$changed_request" >&2
+            exit 1
           fi
 
       - name: Download the executable from that successful CI run
