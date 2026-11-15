@@ -1,5 +1,7 @@
 # Destination correction and new evidence
 
+> Historical migration, completed in `6d814f8`. Later provider/replay work was published in `f550c02`. Start with [HANDOFF.md](../../HANDOFF.md); the instructions and ownership below record past work and must not trigger a new migration.
+
 Authorized destination: https://github.com/Shisetsu-Code/The-end-and-a-new-beginning.
 
 - Preserve the verified Rust capture runner and all required inventory/test inputs in a self-contained checkout.
@@ -9,4 +11,4 @@ Authorized destination: https://github.com/Shisetsu-Code/The-end-and-a-new-begin
 - Never reuse or publish historical sessions from raw attachments. Native controls become derived bindings with source hashes.
 - Verify the complete crate, generated coverage and binary; publish all resulting changes in this destination.
 
-Ownership: root handles migration, shared context/catalog, documentation, verification and publication; independent agents own Playtech, RubyPlay, and Kalamba/Yggdrasil adapters. Original Standalone checkout is read-only during this work.
+Historical ownership: root handled migration, shared context/catalog, documentation, verification and publication; independent agents handled Playtech, RubyPlay, and Kalamba/Yggdrasil adapters. The original Standalone checkout remained read-only.

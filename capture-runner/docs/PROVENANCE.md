@@ -4,6 +4,8 @@
 
 El proyecto se publica en [The-end-and-a-new-beginning](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning), destino indicado por el usuario. Se importa el runner verificado en `Standalone@02176d12635a18174e7231bf3cbe7bc61c07073b`, con todos sus bindings, tests y documentación.
 
+La migración quedó publicada en `6d814f8`; la ampliación Ruby/Playtech/Kalamba y el banco/replay en `f550c02`. El [traspaso vigente](../../docs/HANDOFF.md) permite retomar sin leer toda la historia. Esta página conserva la trazabilidad de cada entrega; las cifras de una etapa anterior no sustituyen a [COVERAGE.md](COVERAGE.md).
+
 Este repositorio incluye los 105 archivos de inventario/plan/manifiesto que usa el cargador y las tres fuentes adicionales de los tests de ELK/Yggdrasil. Sus bytes originales permanecen intactos. Las referencias históricas a `standalone info/*/codigo`, `game-runner/`, `bet-collector/` y los demás archivos de fuente se resuelven en el repositorio de origen y commit indicados; no son dependencias de compilación ni ejecución. `docs/IMPORTED-FILES.json` registra los hashes de la importación inicial, antes de las modificaciones posteriores.
 
 ## Base publicada
@@ -70,7 +72,7 @@ Los archivos originales de inventario y evidencia no se modifican. Los ZIP compl
 
 Las respuestas de init legítimamente no incluyen `sessionData`; las respuestas no terminales sí deben conservarlo. Se verifican identidad, versión, `an`, `next_action` y elecciones antes de continuar. El binario restante permanece opaco e íntegro: no se calculan premios para aceptar una captura.
 
-El fixture `tests/fixtures/rubyplay/native-complete.json` contiene 13 archivos fuente completos, con sus hashes, cubriendo acciones y elecciones. Una prueba adicional, activada mediante `RUBYPLAY_CAPTURE_DIR`, verifica los 179 originales: 432 rondas cerradas y 1491 pares nativos. El importador local conserva las 434 rondas, incluidas las dos rechazadas, con sus contextos y diferencias de formato respecto de una captura HTTP cruda.
+El fixture `tests/fixtures/rubyplay/native-complete.json` contiene 13 archivos fuente completos, con sus hashes, cubriendo acciones y elecciones. Dos pruebas adicionales verifican los 179 originales: `RUBYPLAY_EVIDENCE_DIR` para el adaptador y `RUBYPLAY_CAPTURE_DIR` para el importador/replay. Se comprobaron 432 rondas cerradas y 1491 pares nativos. El importador conserva los 434 intentos, incluidas las dos compras rechazadas sin pares de acción reproducibles, con sus contextos y diferencias de formato respecto de una captura HTTP cruda. Los comandos están en [VERIFICATION.md](VERIFICATION.md).
 
 ### Kalamba: 66 normales con cierre observado
 
@@ -89,6 +91,8 @@ Los siete flujos aportan 47 comandos enviados, de los cuales 25 son continuacion
 ### Banco y reproducción
 
 El formato local copia el diario y metadatos existentes con SHA-256, conserva parciales y valida los archivos antes de reproducir. El importador Ruby registra mensajes como JSON nativo procesado y marca sus tiempos como observaciones de importación. No fabrica wire HTTP, sesiones nuevas ni resultados aleatorios. [REPLAY.md](REPLAY.md) detalla la correspondencia estricta y los límites del cliente visual.
+
+El banco completo `rubyplay-capture-bank-20261115.zip` se generó a partir de los 179 miembros `ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture/rp_*.json` del paquete ampliado y se entregó fuera de Git. Su hash e instrucciones de reconstrucción se registran en [REPLAY.md](REPLAY.md); no es necesario para compilar ni para la suite normal.
 
 ## Cobertura ejecutable
 

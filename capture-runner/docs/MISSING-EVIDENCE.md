@@ -1,5 +1,7 @@
 # Evidencia necesaria para ampliar la cobertura
 
+Para retomar, empezar por [HANDOFF.md](../../docs/HANDOFF.md). Este documento identifica contratos/materiales aún necesarios; no es una lista de tareas inconclusas de la entrega `f550c02`. Los ZIP ya recibidos y analizados se identifican por nombre/hash en [PROVENANCE.md](PROVENANCE.md), aunque no estén en Git.
+
 Revisión del repositorio, el traspaso del 14 de noviembre, la entrega inicial y los paquetes ampliados `ENTREGA-CLAUDE(2).zip`, `evidencia-claude-20261115.zip` y `Playtech evidence(1).zip` del 15 de noviembre de 2026. El ZIP independiente de evidencia es un subconjunto idéntico del paquete ampliado; no se contabiliza dos veces. La infraestructura admite todos los proveedores con cupos independientes por salida. Los modos que tienen un protocolo implementado se enumeran en [COVERAGE.md](COVERAGE.md); cada combinación pendiente está en [coverage.json](coverage.json).
 
 La nueva entrega contiene clientes que llaman a demos oficiales y también simuladores locales. Se portaron los comandos de los clientes cuando sus parámetros y continuaciones están documentados. Las respuestas fabricadas por un simulador, los conteos históricos y un indicador de conciliación no establecen por sí solos un protocolo nativo.

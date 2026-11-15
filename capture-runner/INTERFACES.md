@@ -1,6 +1,6 @@
 # Implementation interfaces
 
-Root owns Cargo, model, context, journal, catalog, engine, main/lib, adapters/mod. Agents own only their assigned adapter/network files. Do not commit until root coordinates integration. `cargo` is `/home/agent/.cargo/bin/cargo`.
+Current architectural reference; start with [the handoff](../docs/HANDOFF.md). File ownership is assigned for each task, not inherited from the original multi-agent implementation. Use `cargo` from the current environment. Function definitions in `src/` are authoritative if a later change updates an interface.
 
 ## Provider connector interface
 
@@ -58,7 +58,7 @@ pub async fn ws_expect_text(&self,socket:&mut NativeSocket,label:&str,expected:&
 
 Public bindings under `capture-runner/bindings/` preserve the original relative `../../bindings/name.json` from adapter modules. Do not embed private session values. Old module tests referring to Store/native financial receipts must be replaced with relevant protocol tests, not copied verbatim.
 
-## Configuration and supervisor (network agent)
+## Configuration and supervisor
 
 Use JSON configuration. Export `Config`, `ProviderConfig`, `ExitConfig` with fields:
 
@@ -78,3 +78,19 @@ ExitConfig { id:String, namespace:Option<String>, wireguard_config:Option<PathBu
 `supervisor::run(config_path:&Path, config:&Config)->Result<bool>` spawns the SAME binary with `worker --config <absolute path> --exit <id>` once per exit. For namespace exits use `ip netns exec <namespace>` and optionally `runuser -u <run_as> --`. Child failure must not cancel unrelated exits. Graceful Ctrl-C then bounded forced termination; no fallback to direct.
 
 `wireguard::{plan,up,down,status}(config:&Config)->Result<Value>` for CLI. `plan` is read-only and omits private keys. `up` creates isolated owned namespaces using official WireGuard namespace routing. `down` never removes an unrelated namespace. Test generation and parser behavior without needing real peers. Keep mutation helpers testable through typed commands rather than shell strings.
+
+## Local bank, Ruby import and replay
+
+These modules do not need a provider session, network connection, catalog or `Config`:
+
+| Entry point | Purpose |
+|---|---|
+| `capture_bank::export(input: &Path, output: &Path) -> Result<CaptureBank>` | Snapshot attempt metadata, results and native journals into a new bank; retain partial/truncated data and per-file hashes. |
+| `capture_bank::load(path: &Path) -> Result<CaptureBank>` | Load the versioned index; `summary` provides the CLI inventory. |
+| `ruby_import::import(input: &Path, output: &Path) -> Result<CaptureBank>` | Convert supplied Ruby JSON files to one attempt per historical round; retain parsed native objects, source context and hashes. |
+| `replay::ReplaySession::open(bank: &Path, attempt: &BankAttempt)` | Verify attempt files and open an independent replay cursor. |
+| `expected_request()` / `submit(&Value)` | Read the next expected outbound record / match it and return its recorded following events. Mismatch leaves the cursor unchanged. |
+| `exhausted()` / `complete()` / `cut_off()` | Distinguish end of input from confirmed native closure and an invalid/truncated suffix. Exhaustion alone is not completion. |
+| `replay::{inspect, emit_requests, run}` | Inspect preserved context, emit recorded requests or run JSONL CLI playback. |
+
+The bank is `index.json` plus `attempts/<id>/{attempt.json,wire.jsonl,result.json}` when present. Full originals stay in the bank and explicit inspection. Automatic replay filters future-result context before matching requests. Imported timestamps represent import observation time, not historical wire time. Limits, CLI commands and the two Ruby error-only attempts are documented in [REPLAY.md](docs/REPLAY.md).

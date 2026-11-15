@@ -1,6 +1,10 @@
 # The end and a new beginning
 
-Recolector de apuestas **demo** en Rust para una VM Linux, sin interfaz gráfica. Guarda solicitudes y respuestas nativas, sigue las continuaciones conocidas y avisa cuando aparece un evento que no reconoce. Los saldos y la conciliación financiera no bloquean la captura.
+Recolector de apuestas **demo** en Rust para una VM Linux, sin interfaz gráfica. Guarda solicitudes y respuestas nativas, sigue las continuaciones conocidas y permite exportarlas y reproducirlas localmente. Los saldos y la conciliación financiera no bloquean la captura.
+
+## Retomar con un LLM
+
+Leer [AGENTS.md](AGENTS.md) y [docs/HANDOFF.md](docs/HANDOFF.md). El traspaso concentra el estado publicado, lo terminado, pendientes concretos, resultados verificados y rutas para continuar sin repetir la investigación. Los planes anteriores son históricos; los originales externos no son necesarios para compilar ni ejecutar la suite normal.
 
 ## Paralelismo y WireGuard
 
@@ -51,7 +55,9 @@ Este checkout contiene lo necesario para compilar, probar y ejecutar el runner. 
 
 ## Estado y documentación
 
+- [Traspaso y estado actual para agentes](docs/HANDOFF.md)
 - [Operación y configuración](capture-runner/README.md)
+- [Exportación, importación Ruby y replay local](capture-runner/docs/REPLAY.md)
 - [Cobertura por proveedor y modo](capture-runner/docs/COVERAGE.md)
 - [Evidencia pendiente](capture-runner/docs/MISSING-EVIDENCE.md)
 - [Procedencia de los protocolos](capture-runner/docs/PROVENANCE.md)

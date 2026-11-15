@@ -1,5 +1,7 @@
 # Native capture runners with WireGuard exits
 
+> Historical initial design, already implemented. Read [HANDOFF.md](../../HANDOFF.md) for the current scope, including the later native bank, Ruby import and offline replay. Session-specific statements below describe the initial verification, not outstanding implementation work.
+
 ## User requirements
 
 - Build a new Rust runner from the published protocol evidence, not the old runner's financial-validation architecture.

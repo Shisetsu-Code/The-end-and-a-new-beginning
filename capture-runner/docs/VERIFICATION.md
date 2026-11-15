@@ -1,6 +1,6 @@
 # Verificación de la ampliación de capturas y replay
 
-Verificado el 15 de noviembre de 2026 en Linux x86_64 con Rust 1.100.0. Base: `6d814f8e83490ba5a7c8eee92f97e0536b06aa16`, sobre la que se integran RubyPlay, GPAS/Playtech, Kalamba, banco/replay y correcciones del runtime.
+Verificado el 15 de noviembre de 2026 en Linux x86_64 con Rust 1.100.0. Implementación publicada: [f550c0228774ff307135ec25c2e2138e6a97a236](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/f550c0228774ff307135ec25c2e2138e6a97a236), sobre la base `6d814f8e83490ba5a7c8eee92f97e0536b06aa16`. Incluye RubyPlay, GPAS/Playtech, Kalamba, banco/replay y correcciones del runtime. [Estado para retomar](../../docs/HANDOFF.md).
 
 ## Resultados
 
@@ -8,13 +8,21 @@ Verificado el 15 de noviembre de 2026 en Linux x86_64 con Rust 1.100.0. Base: `6
 |---|---|
 | `cargo fmt --manifest-path capture-runner/Cargo.toml --check` |Correcto|
 | Suite offline con las dos pruebas opt-in de evidencia |**264 correctas, 0 fallidas, 0 ignoradas**: 251 biblioteca, 3 CLI existentes, 3 CLI replay, 7 importación Ruby|
+| Suite normal, sin originales privados |**262 correctas, 0 fallidas, 2 ignoradas**; las dos ignoradas son las comprobaciones opt-in de Ruby|
 | `cargo clippy --offline --locked --manifest-path capture-runner/Cargo.toml --all-targets -- -D warnings` |Correcto, sin advertencias|
 | `cargo build --release --offline --locked --manifest-path capture-runner/Cargo.toml` |Correcto|
-| Plan del release frente a `docs/coverage.json` |Idénticos byte a byte|
+| Plan del release frente a `capture-runner/docs/coverage.json` |Idénticos byte a byte|
 | `sha256sum -c capture-runner/docs/BINDINGS.sha256` |44/44 correctos|
 | Revisión independiente y revisión final de integración |Sin hallazgos importantes/críticos abiertos tras corregir y volver a revisar cinco hallazgos|
+| [GitHub Actions 43686603978](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43686603978), commit `f550c02` |**Success**: formato, suite normal, lints, release Linux y subida del artefacto `capture-runner-linux-x86_64`|
 
-Las pruebas opt-in requieren los originales proporcionados por el usuario, que no se incluyen completos en Git. La suite normal de CI omite sólo esas dos comprobaciones; conserva los 13 archivos completos de RubyPlay del fixture y las pruebas funcionales del importador. Para ejecutar todo:
+Los resultados anteriores pertenecen a ese commit de implementación; no deben atribuirse a un cambio de código posterior sin verificarlo. Para repetir la suite normal desde la raíz:
+
+```bash
+cargo test --locked --manifest-path capture-runner/Cargo.toml
+```
+
+Las pruebas opt-in requieren los originales proporcionados por el usuario, que no se incluyen completos en Git. La suite normal de CI omite sólo esas dos comprobaciones; conserva los 13 archivos completos de RubyPlay del fixture y las pruebas funcionales del importador. `RUBYPLAY_EVIDENCE_DIR` activa el contraste del adaptador y `RUBYPLAY_CAPTURE_DIR` el del importador/replay; ambos apuntan al mismo directorio. Para ejecutar todo:
 
 ```bash
 RUBYPLAY_EVIDENCE_DIR=/ruta/ENTREGA-CLAUDE/2-evidencia-claude/rubyplay/capture \
@@ -49,6 +57,10 @@ El transporte común también se actualizó para aceptar los recursos JS/JMP/JMM
 No se realizaron apuestas ni solicitudes a proveedores y no se levantaron túneles reales. La disponibilidad remota, cambios de fuentes, peers WireGuard, salida geográfica y carga de miles de juegos deben comprobarse en la VM. Los contratos habilitados pueden producir rechazos/eventos desconocidos; se conservan esas capturas.
 
 El replay actual funciona por CLI y API Rust, con solicitudes estrictamente iguales a las grabadas. No reescribe automáticamente tokens/contadores, no genera nuevas rondas aleatorias y no incluye el frontend gráfico original de los juegos.
+
+## Banco Ruby entregado
+
+Se generó `rubyplay-capture-bank-20261115.zip` con el release verificado y los 179 originales suministrados. Contiene 434 intentos, 432 completos y 2 parciales, con 1491 pares nativos. Se verificaron los 1302 hashes de archivos de intentos y el CRC de los 1305 miembros del ZIP. El tamaño, SHA-256, contenido y forma de regenerarlo están en [REPLAY.md](REPLAY.md). El banco completo permanece fuera de Git.
 
 ## Binario local verificado
 

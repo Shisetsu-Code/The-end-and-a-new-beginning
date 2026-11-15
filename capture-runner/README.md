@@ -2,6 +2,8 @@
 
 Recolector independiente en Rust para **VM Linux, sin GUI**. Usa los inventarios y protocolos de `standalone info/`. No carga el runner anterior, su base de datos ni sus bloqueos por conciliación.
 
+Para retomar el desarrollo, empezar por el [traspaso vigente](../docs/HANDOFF.md). Este documento describe la operación; [REPLAY.md](docs/REPLAY.md) cubre el banco local y [VERIFICATION.md](docs/VERIFICATION.md) identifica la entrega comprobada.
+
 ## Concurrencia
 
 Cada salida tiene un proceso. Dentro de ese proceso cada proveedor tiene su propio cupo de juegos. Los modos y muestras de un mismo juego se ejecutan secuencialmente, con sesión y cookies nuevas por intento.
@@ -18,7 +20,7 @@ Desde la raíz del repositorio, con Rust 1.99 o posterior y un compilador C para
 cargo build --release --locked --manifest-path capture-runner/Cargo.toml
 ```
 
-El binario queda en `capture-runner/target/release/capture-runner`. No necesita Node, Python, navegador ni los crates anteriores en ejecución. Sí necesita los inventarios, planes y manifiestos de `standalone info/`.
+El binario queda en `capture-runner/target/release/capture-runner`, salvo que se configure `CARGO_TARGET_DIR`. No necesita Node, Python, navegador ni los crates anteriores en ejecución. La recolección y planificación sí necesitan los inventarios, planes y manifiestos de `standalone info/`; la exportación, importación y reproducción local usan sus archivos de entrada y no requieren esos inventarios.
 
 Para WireGuard la VM debe disponer de soporte WireGuard del kernel, `iproute2`, `wireguard-tools` y, si se usa `run_as`, `runuser`. Los comandos administrativos se ejecutan con privilegios; los workers pueden usar una cuenta dedicada. Ver [WIREGUARD.md](docs/WIREGUARD.md).
 

@@ -1,5 +1,7 @@
 # Native capture and local replay
 
+> Historical specification implemented in `f550c02`. Start with [HANDOFF.md](../../HANDOFF.md) for the delivered scope and remaining evidence gaps; this file is not an open implementation request.
+
 ## Goal and authorization
 The user approved implementation after reviewing new Playtech and RubyPlay evidence. Collect native demo requests/responses per provider, exit, game and mode, then export and replay them locally. Rust is the runtime; historical Python/JS is read-only reference material.
 
@@ -13,8 +15,10 @@ Extend the existing adapters and durable journal. Derive provider bindings from 
 - Concurrency stays per provider/exit, game modes sequential.
 - Existing evidence remains read-only; no old runner modules imported at runtime.
 - Protect complete native data; credentials are not a reason to discard opaque game payloads.
-- Replay must distinguish exact requests and choice values; variable-field matching must be explicit and consistent.
+- Replay distinguishes exact requests and choice values. The delivered implementation retains recorded identities/counters; it does not implement substitutions or automatic rewriting.
 - Preserve existing files and never silently overwrite captures or fall back from requested VPN to direct networking.
 
 ## Approach choice
 Reuse the native Rust runner and add replay over its journal. Running the old Python stack would reintroduce private workspace dependencies and incompatible finance gates. A new browser game frontend would require assets not delivered.
+
+Historical Ruby import preserves each round's original request state and session context; it does not manufacture a fresh init per round. Credentials were already redacted in the supplied JSON. Original HTTP/HAR bytes and network timestamps cannot be reconstructed from those parsed objects.

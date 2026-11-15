@@ -1,6 +1,6 @@
 # Capture Runner Implementation Plan
 
-> **For agentic workers:** use subagent-driven-development for independent owned modules. Root integrates and verifies the complete crate.
+> Historical, completed plan. Counts, assignments and follow-ups below describe earlier delivery stages; current implementation and verification are in [HANDOFF.md](../../HANDOFF.md). Do not redispatch completed tasks. Offline historical import/replay was added by the later `f550c02` delivery.
 
 **Goal:** Headless native demo collectors with X games per provider per WireGuard exit, durable wire captures and unknown-event alerts.
 
@@ -16,7 +16,7 @@
 - No required balances or financial reconciliation; no provider-wide financial holds.
 - All requests/responses must be stored before parsing; partial attempts are retained.
 - X is per provider/exit; game modes are sequential inside that slot.
-- No GUI, no plaintext fallback from WireGuard, no historical-session replay.
+- No GUI, no direct fallback from WireGuard, no reuse of historical sessions against live providers. Offline historical import/replay was added later and is supported.
 - No provider traffic during tests; source credentials and WireGuard keys never enter Git.
 
 ## Review Focus
