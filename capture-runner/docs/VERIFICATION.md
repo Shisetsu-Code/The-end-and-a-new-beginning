@@ -4,6 +4,8 @@ Verificado el 15 de noviembre de 2026 en Linux x86_64 con Rust 1.100.0. Implemen
 
 ## Resultados
 
+La prueba real posterior de 35 proveedores × 2 juegos está en [LIVE-SMOKE-2026-11-15.md](../../docs/LIVE-SMOKE-2026-11-15.md): 109 de 202 intentos cerrados, con fallos de acceso, adaptadores y continuaciones pendientes. La tabla siguiente corresponde a la verificación offline de la implementación.
+
 | Comprobación | Resultado |
 |---|---|
 | `cargo fmt --manifest-path capture-runner/Cargo.toml --check` |Correcto|

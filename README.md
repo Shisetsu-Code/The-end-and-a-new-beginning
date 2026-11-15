@@ -56,6 +56,7 @@ Este checkout contiene lo necesario para compilar, probar y ejecutar el runner. 
 ## Estado y documentación
 
 - [Traspaso y estado actual para agentes](docs/HANDOFF.md)
+- [Prueba real: 35 proveedores × 2 juegos, resultados y fallos](docs/LIVE-SMOKE-2026-11-15.md)
 - [Operación y configuración](capture-runner/README.md)
 - [Exportación, importación Ruby y replay local](capture-runner/docs/REPLAY.md)
 - [Cobertura por proveedor y modo](capture-runner/docs/COVERAGE.md)

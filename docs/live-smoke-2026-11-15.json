@@ -1,0 +1,2313 @@
+{
+  "format": "live-demo-smoke-report",
+  "version": 1,
+  "workflow_run": 43693889120,
+  "workflow_url": "https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43693889120",
+  "workflow_commit": "20cd8d0c8998632b9f7720c8a73fff6734b47b23",
+  "implementation_commit": "f550c0228774ff307135ec25c2e2138e6a97a236",
+  "binary_sha256": "c4c8a6e17e12581f558f862207c3b141fcd8feb3e215eb7aaad7e4bd21f54271",
+  "started_at": "2026-11-15T08:18:46Z",
+  "finished_at": "2026-11-15T08:19:55Z",
+  "exit_code": 2,
+  "selected_providers": 35,
+  "selected_games": 70,
+  "executable_games": 69,
+  "supported_mode_attempts": 202,
+  "unsupported_modes": 3,
+  "completed": 109,
+  "provider_or_adapter_error": 71,
+  "unknown_event": 22,
+  "transport_error": 0,
+  "normal_completed": 40,
+  "normal_attempted": 69,
+  "provider_groups": {
+    "complete": 13,
+    "none": 14,
+    "partial": 8
+  },
+  "game_interval_overlap": 69,
+  "provider_interval_overlap": 35,
+  "maximum_per_provider": 2,
+  "concurrency_measure": "Approximate overlap of [first attempt start, final attempt end) game intervals; not simultaneous requests.",
+  "artifact": {
+    "filename": "live-smoke-35x2-bank-20261115.zip",
+    "bytes": 37551146,
+    "sha256": "afe2c7eca286b3b2873c121d4e01d35be61e63b527910a99656fc05f69315030",
+    "index_sha256": "b51e231c68457dc751252f0875e4c271baaf8e021556d7d3dfe4fdf1cb2795bf",
+    "attempt_file_hashes_verified": 606,
+    "local_replay_checks": [
+      {
+        "state": "complete",
+        "game": "rp_103",
+        "mode": "normal",
+        "exit_code": 0
+      },
+      {
+        "state": "partial",
+        "game": "rp_103",
+        "mode": "buy_feature:freespin",
+        "exit_code": 2
+      }
+    ]
+  },
+  "providers": [
+    {
+      "provider": "1spin4win",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 5,
+      "native_completions": 5,
+      "statuses": {
+        "complete": 5
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "amigogaming",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 5,
+      "native_completions": 5,
+      "statuses": {
+        "complete": 5
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "amusnet",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 7,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 7
+      },
+      "unsupported_modes": 0,
+      "issue": "Inicialización con ipBlocked en 4 intentos y HTTP 429 en otros 3."
+    },
+    {
+      "provider": "belatra",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 7,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 7
+      },
+      "unsupported_modes": 0,
+      "issue": "Bug de comparación: modification numérico se compara con String y rechaza una identidad equivalente."
+    },
+    {
+      "provider": "betsoft",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 5,
+      "statuses": {
+        "complete": 5,
+        "unknown_event": 1
+      },
+      "unsupported_modes": 0,
+      "issue": "Continuación BUY_CASCADE_FREE no reconocida en 945 / 0."
+    },
+    {
+      "provider": "bgaming",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 8,
+      "native_completions": 8,
+      "statuses": {
+        "complete": 8
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "egt-digital",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 6,
+      "statuses": {
+        "complete": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "ela-games",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 0,
+      "statuses": {
+        "unknown_event": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "El conector rechaza el evento Socket.IO connected después de una apertura WS correcta."
+    },
+    {
+      "provider": "elk",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 6,
+      "statuses": {
+        "complete": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "endorphina",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 6,
+      "statuses": {
+        "complete": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "evoplay",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "HTTP 403 con página de bloqueo/desafío Cloudflare antes de inicializar."
+    },
+    {
+      "provider": "gamesglobal",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 2,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 2
+      },
+      "unsupported_modes": 0,
+      "issue": "HTTP 403 con control de seguridad antes de inicializar."
+    },
+    {
+      "provider": "habanero",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 6,
+      "statuses": {
+        "complete": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "hacksaw",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 7,
+      "native_completions": 6,
+      "statuses": {
+        "complete": 6,
+        "unknown_event": 1
+      },
+      "unsupported_modes": 0,
+      "issue": "La modalidad bonus de 2670 llega a una elección/estado no implementado."
+    },
+    {
+      "provider": "hardfire-kalamba",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 2,
+      "native_completions": 2,
+      "statuses": {
+        "complete": 2
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "irondog",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "Launcher HTTP 500; el cuerpo declara error7000 y juego no disponible en el país."
+    },
+    {
+      "provider": "kagaming",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 4,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 4
+      },
+      "unsupported_modes": 0,
+      "issue": "Init HTTP 403 con desafío Cloudflare."
+    },
+    {
+      "provider": "kendoo",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 7,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 7
+      },
+      "unsupported_modes": 1,
+      "issue": "Login HTTP 403 con bloqueo/desafío Cloudflare."
+    },
+    {
+      "provider": "mascot",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 6,
+      "statuses": {
+        "complete": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "microgaming",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 1,
+      "normal_completed": 0,
+      "normal_attempted": 1,
+      "mode_attempts": 1,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 1
+      },
+      "unsupported_modes": 2,
+      "issue": "Practice HTTP 406: el servidor indica una cabecera ausente, sin identificarla."
+    },
+    {
+      "provider": "netent",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "El emisor demo responde success=false: invalid response from API."
+    },
+    {
+      "provider": "nolimit",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 9,
+      "native_completions": 9,
+      "statuses": {
+        "complete": 9
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "peterandsons",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 7,
+      "native_completions": 7,
+      "statuses": {
+        "complete": 7
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "playngo",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 4,
+      "native_completions": 4,
+      "statuses": {
+        "complete": 4
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "playson",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 0,
+      "statuses": {
+        "unknown_event": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "La fuente JS actual no coincide con el SHA-256 del binding; se detiene antes de apostar."
+    },
+    {
+      "provider": "playtech",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 4,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 4
+      },
+      "unsupported_modes": 0,
+      "issue": "Los manifests de ambos juegos declaran env.glu6=true; ese bridge aún no está implementado."
+    },
+    {
+      "provider": "pragmatic",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 5,
+      "statuses": {
+        "complete": 5,
+        "provider_error": 1
+      },
+      "unsupported_modes": 0,
+      "issue": "vs10bookfallen / pur-1: demo session unavailable."
+    },
+    {
+      "provider": "redtiger",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 8,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 8
+      },
+      "unsupported_modes": 0,
+      "issue": "demo_entry HTTP 403, Access Denied; causa de la política no determinada."
+    },
+    {
+      "provider": "reelkingdom",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 5,
+      "statuses": {
+        "complete": 5,
+        "provider_error": 1
+      },
+      "unsupported_modes": 0,
+      "issue": "vswaysfltdrg / pur-1: no se encontró una opción de bonus disponible y verificada."
+    },
+    {
+      "provider": "rubyplay",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 4,
+      "native_completions": 3,
+      "statuses": {
+        "complete": 3,
+        "unknown_event": 1
+      },
+      "unsupported_modes": 0,
+      "issue": "rp_103 / buy_feature:freespin llega a pick sin parámetros revisados para continuar."
+    },
+    {
+      "provider": "smartsoft",
+      "result": "complete",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 6,
+      "statuses": {
+        "complete": 6
+      },
+      "unsupported_modes": 0,
+      "issue": "Todas las modalidades probadas completadas."
+    },
+    {
+      "provider": "spinomenal",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 2,
+      "normal_attempted": 2,
+      "mode_attempts": 6,
+      "native_completions": 4,
+      "statuses": {
+        "complete": 4,
+        "provider_error": 1,
+        "unknown_event": 1
+      },
+      "unsupported_modes": 0,
+      "issue": "Una compra cambia la cantidad de free spins y otra exige una elección no implementada."
+    },
+    {
+      "provider": "threeoaks",
+      "result": "none",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 0,
+      "normal_attempted": 2,
+      "mode_attempts": 10,
+      "native_completions": 0,
+      "statuses": {
+        "provider_error": 10
+      },
+      "unsupported_modes": 0,
+      "issue": "Login HTTP 403 con bloqueo/desafío Cloudflare."
+    },
+    {
+      "provider": "thunderspin",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 1,
+      "normal_attempted": 2,
+      "mode_attempts": 4,
+      "native_completions": 3,
+      "statuses": {
+        "complete": 3,
+        "unknown_event": 1
+      },
+      "unsupported_modes": 0,
+      "issue": "Juego7 / NORMAL deriva a respins, aún no contemplado."
+    },
+    {
+      "provider": "yggdrasil",
+      "result": "partial",
+      "selected_games": 2,
+      "executable_games": 2,
+      "normal_completed": 1,
+      "normal_attempted": 2,
+      "mode_attempts": 7,
+      "native_completions": 2,
+      "statuses": {
+        "complete": 2,
+        "unknown_event": 5
+      },
+      "unsupported_modes": 0,
+      "issue": "Continuaciones C y opciones NON_GAMBLE/GAMBLE no reconocidas en los juegos7400/7408."
+    }
+  ],
+  "cases": [
+    {
+      "provider": "1spin4win",
+      "game": "CashnFruitsFortune27",
+      "name": "Cash'n Fruits Fortune 27",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "4972163c5f9d58000f219323bc3d068465d90ce8de56a4d61d7a348cea001e64",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "compra",
+          "bank_attempt_id": "03919430b87f93f4f694ab294a9eb3f35012edd093b8b38b83ca67140f674989",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "antebet",
+          "bank_attempt_id": "c590245059e8c9c41ac8acab34f5cb31ee6ce93eed5d8aba462c0c5f446c3f25",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "1spin4win",
+      "game": "AllwaysEgypt",
+      "name": "All Ways Egypt",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "7f1a0ede00d4975c6286f8d0c8a205f8bcdf6af899da5fb0955f304d9623a70d",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "compra",
+          "bank_attempt_id": "fa3382f118db1e3db1ec7360a761526003dc4e4db3850afef73dd7090ae54188",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "amigogaming",
+      "game": "174",
+      "name": "book-of-zeus-2",
+      "modes": [
+        {
+          "mode": "NORMAL",
+          "bank_attempt_id": "edfbac73c13106c10e4bc9a834099c39fbc3f517e5b6a29cc920280e92cf3ad3",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BUY_PICKME",
+          "bank_attempt_id": "605434fd331adbbed0317682ceb872464e67433957d67ccb2b193d4636435f26",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BUY_FREE_GAME",
+          "bank_attempt_id": "a0e4fb25836c5526635ac5c7881876966c31e74078565c1b1c946dd993178960",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "amigogaming",
+      "game": "84",
+      "name": "candy-time",
+      "modes": [
+        {
+          "mode": "NORMAL",
+          "bank_attempt_id": "08b217af57d42c70e66c240a94956161df3e8c315e5fa6bd64e71949546f09ed",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BUY_FREE_GAMES_8",
+          "bank_attempt_id": "5c727d631478ea3e7d3fb026229205c99afbf5050997b7460dd72d31bc1602e7",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "amusnet",
+      "game": "5003",
+      "name": "Alpha Instinct",
+      "modes": [
+        {
+          "mode": "NONE",
+          "bank_attempt_id": "b7050e5e24e0380e1389cd3db9531d8128043a2b6ce0c8bac8d591ed6d9b4524",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "DOUBLE_CHANCE",
+          "bank_attempt_id": "9482ed0984d0bc8531a40d89fad669132a56f308813ee953e2dc7e0f6d58a482",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "BOOSTED_DOUBLE_CHANCE",
+          "bank_attempt_id": "d97a08e14750c3a5ac83e4c112cf1094e00124915e61b060fcbcac272539deda",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "BUY_FREESPINS",
+          "bank_attempt_id": "9d9a1a4ea82d0091307d1486f951148267d6678bebb5270c5f9890bb061d5f22",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "amusnet",
+      "game": "5014",
+      "name": "Asian Palace",
+      "modes": [
+        {
+          "mode": "NONE",
+          "bank_attempt_id": "917e57e1c5a6c13bc855dc0cb67b2469124da6d3adaa9a0f9e5ae66b2fd6528c",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "BUY_FREESPINS",
+          "bank_attempt_id": "508f0c3513b68ec69b91d60e243298641056f13e588f9b0ab02debe82d40c9da",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "DOUBLE_CHANCE",
+          "bank_attempt_id": "94501947430892f5810dfd113188547aefcec0e7d56462e59366947cf1acf287",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "belatra",
+      "game": "jackpot_pagoda",
+      "name": "Jackpot Pagoda",
+      "modes": [
+        {
+          "mode": "NORMAL",
+          "bank_attempt_id": "1522bdcfe13e86c59fec0974acbab5571a55bf48924c0970a228e1bb5763cf5b",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "VIP",
+          "bank_attempt_id": "a097ce8efa2faf3e99cef2b967095a9a65bc74eccb2a0f6dc684ab884e0d4584",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "PURCHASE_0",
+          "bank_attempt_id": "d2b71d619d21be3d533d89a070060e3227b5a8532bbfb5de660bb5afc2c44c7d",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "belatra",
+      "game": "voodoo",
+      "name": "Voodoo Coins",
+      "modes": [
+        {
+          "mode": "NORMAL",
+          "bank_attempt_id": "8bc6b2cb5be454bda9be02ee84758c3d56d6c631a4d4b77bd0debefe18280d58",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "VIP",
+          "bank_attempt_id": "baf60589af6d371b3ca58acea0f38b71c3f057edd7259031b550f050289025da",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "PURCHASE_0",
+          "bank_attempt_id": "60301b7351727dd402073398fa3dda7bb72008dfa6f0350be8c066835d7585f3",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "PURCHASE_1",
+          "bank_attempt_id": "5a651f7ff3a402a8ff231a032162acd946db35d73d0fc4b351c1af7e82353a4b",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "betsoft",
+      "game": "945",
+      "name": "treasures-of-cleopatra",
+      "modes": [
+        {
+          "mode": "0",
+          "bank_attempt_id": "11580594f4bba66ead443ac4a59c355b3b2d67edf1a3e110ffb099c72d817b37",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "boost",
+          "bank_attempt_id": "169fa54c54c8fbc7a70326f4f5aef7ca79aeebe5229ddd626c6fbd082abc33d0",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "normal",
+          "bank_attempt_id": "832271a7b57cb95ee700241b8383b217ae8796c9a4766ef33e51b8dc2eef0f5b",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "betsoft",
+      "game": "1000",
+      "name": "3-pots-of-olympus",
+      "modes": [
+        {
+          "mode": "0",
+          "bank_attempt_id": "64d7ca7262e307a4d8ec0b51be54f51ff883ec75cb39b44c1a86237c5fc7d3bf",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "1",
+          "bank_attempt_id": "f85bd94ae8c1be548449e834f1dc0ed781918200ffd117824c072628d07c8ffd",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "normal",
+          "bank_attempt_id": "c6f32ea67448f1c1ac9f8fd790cc8b4d6c150daef21ff9b15c185c84c30c4bc5",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "bgaming",
+      "game": "BigTunaBonanza",
+      "name": "Big Boat Big catch",
+      "modes": [
+        {
+          "mode": "normal@rows:4",
+          "bank_attempt_id": "5dcdfc23f1b31b738856b9c419d91c2aed33aa4361ce96801336c60d831234b8",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "freespin_buy:4@rows:4",
+          "bank_attempt_id": "4b70b76d73ceebebb92104e9c02abcfb81eb7a5f69fcc229d8b941fb226fbe0a",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "freespin_chance:4@rows:4",
+          "bank_attempt_id": "8f062530ab4dbd0606de3681012ea0751234e5bec352110121ffc4994b026280",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "bgaming",
+      "game": "ChickenFire",
+      "name": "Chicken Fire",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "2c9f74bfb76f808c64643cfadba3989bca365ba4b5966aa7863ba53dccdcfd5f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_chance",
+          "bank_attempt_id": "5a19e8780d5af895e46c7c5c661624cdff671fdc4b0c952a2a7d9bc8dc1afd2f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_bonus",
+          "bank_attempt_id": "bdf24fe80854dc6a500ff43187a8d1f6b36f27260df329a1a1316ebedf3d087f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_super_bonus",
+          "bank_attempt_id": "ad87c4ea806f73d374e7cc5f4aa114e70712ede2f7e77873d791b72bc51aad17",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_ultra_bonus",
+          "bank_attempt_id": "0013cbdd1961e219637211a31f3b6bcabc62a44c5767312d17b293d77ab9b040",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SWSSSlot",
+      "name": "SWSSSlot",
+      "modes": [
+        {
+          "mode": "0",
+          "bank_attempt_id": "f87059f19084e96c988b3abdc5cf141bd6fc793dfe1832d66cf900fbd3519d2a",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "1",
+          "bank_attempt_id": "123adb74d5c5dffd7567fa238ceb6454a1d11b93806130170e216effc73ce966",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "2",
+          "bank_attempt_id": "28dd8a4d955b9009d7ff70830fd1c52688f84907b9b1845dc8c0510686b56b81",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "egt-digital",
+      "game": "SVSlot",
+      "name": "SVSlot",
+      "modes": [
+        {
+          "mode": "0",
+          "bank_attempt_id": "bffbd013d78b426822aa4351a2cddb4bc00738413cf7061af506700d3f4682ca",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "1",
+          "bank_attempt_id": "b3ee3384fbe69c674dad28840b58792535c3fb6442e4f41e1f4d11b84c322abb",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "2",
+          "bank_attempt_id": "fa7e62f80a9b6ead3d38beb7217fed0de82ce5db3932d00b5782f94ba7341494",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "ela-games",
+      "game": "ela_soul_fiesta",
+      "name": "soul fiesta",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "f4491bef40a7e908914864ce6e5e2816158057115f33ed48f41eb10b311037a8",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "reSpin",
+          "bank_attempt_id": "829b33583372aa95ff34890b51011d311dc157181396cb388b6ccd980c88aaa5",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "freeSpin",
+          "bank_attempt_id": "aeb23a5628161a816944eb74be78c700e6e2a73b40997c6243c71554f64d25df",
+          "state": "partial",
+          "result_status": "unknown_event"
+        }
+      ]
+    },
+    {
+      "provider": "ela-games",
+      "game": "ela_roman_fortune",
+      "name": "roman fortune",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "320608f57951eb0dc95dd03791525a5795b3502059a5962398116784da4934ee",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "freeSpin",
+          "bank_attempt_id": "5922db3f9423abbd7a69b9495ed74d3fb9d5fbb120ef86c50c7c85e8bcc30caf",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "reSpin",
+          "bank_attempt_id": "6f3ea9a5f5a684a182b09be369e60d9ffed0a3f32f893f124526c5f49c2e8ea6",
+          "state": "partial",
+          "result_status": "unknown_event"
+        }
+      ]
+    },
+    {
+      "provider": "elk",
+      "game": "nitropolis",
+      "name": "Nitropolis",
+      "modes": [
+        {
+          "mode": "DEF",
+          "bank_attempt_id": "4ba765c1366232ad79e94995de539c3c9cf0e77f695469ae673ccbb1a6aba8ff",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BB1",
+          "bank_attempt_id": "eff90bc0c582c2f0096d6f3eb9d201f303d9f4225cbc9b335820be3952fcee06",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BB2",
+          "bank_attempt_id": "1930584cd5ce8ef74f09391bbf1afae9db65dff0a56c34f9d7a478e877233989",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "elk",
+      "game": "katmandu-gold",
+      "name": "Katmandu Gold",
+      "modes": [
+        {
+          "mode": "DEF",
+          "bank_attempt_id": "7b1b71383380000bbd525ad6d396036010d13a946eeee7bb621c579a5717f5b4",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BB1",
+          "bank_attempt_id": "518fe41a0719e76c5b8977de9fc5c25bb858612e68430826303ff5d8b6676ada",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BB2",
+          "bank_attempt_id": "6bad51bc67d891aca0ce4fc6255e99ffedc69ea275e597935e1631d5a9d344aa",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "endorphina",
+      "game": "86",
+      "name": "Kamchatka",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "f0c432a98d3ac90b3d016f995014270bab84d3b90e1918a8aec68eecbfb82815",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy-BUYIN_FREE_GAMES",
+          "bank_attempt_id": "13f752d120c956766e6d3f4f97b370e69f1cb047012ee05872e33178d47dc51b",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy-BUYIN_BONUS_GEISER",
+          "bank_attempt_id": "3db5fbce833b9613caa8a1f1a8d5030a3d4c59bb7a8b3690120b9f8357709740",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "endorphina",
+      "game": "482",
+      "name": "Prestige Crown",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "2e4c90e86d7aed02cdec2e07134dc96b31a74b56d91eaaabc6c068885581e95f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy-BUYIN_FREE_GAMES",
+          "bank_attempt_id": "ac83bd18d4ffcf07a8dc398a00a64c55e10dcde66fd78f35f24c4408a53d5bc3",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy-BUYIN_FREE_GAMES_GOLD",
+          "bank_attempt_id": "0f6d2f34488537a2e048928638bbf112c599505222467076abdc5cc459e6c201",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "evoplay",
+      "game": "venicefestival",
+      "name": "venicefestival",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "fe25b1adc951eac3a3cfe1a482750e39de1bff566ff37e5fffe7715853643ad3",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy:1",
+          "bank_attempt_id": "d50634dea3e53c87f9ad97ffb8b7a28055d147545dbd866bcb58f87413273835",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "doublechance:1",
+          "bank_attempt_id": "52d91724b372af30d9b4b16dd2311eef5a06f103385d0a71c53ee5d7d8bcd5ab",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "evoplay",
+      "game": "treeoflightfabledfruits",
+      "name": "treeoflightfabledfruits",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "1b16d6ea2874a272c8626bc6f8c00937cfb9e455d790cce3b6d86483b3594a5a",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy:1",
+          "bank_attempt_id": "eeb264eed82f55cb19aec3dee9977748433cc204ecbaced665e7f836e2fed301",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "doublechance:1",
+          "bank_attempt_id": "5db4d630c9d028a3fd16bd78fb3ce220cb38a378ff79d43b0b6a83547309b7b5",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "gamesglobal",
+      "game": "GoldBlitzExtreme",
+      "name": "Gold Blitz Extreme™",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "f8d8083599990f4423d5a7c7b5c8944c86ae6f1016445f08630b6f578b33d3c7",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "gamesglobal",
+      "game": "12MasksofFireDrums",
+      "name": "12 Masks of Fire Drums™",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "e36905840b3e7ca5d579f34e237c1bf9dc2c5184e8bbf41dcfc95518e4c98570",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "habanero",
+      "game": "SGGladiatorRoyal",
+      "name": "GladiatorRoyal",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "63dd9c1709ddc44435b46cc3daa8349e513c8cbe8c3f8355b42fa17da9e3edb6",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "superbet",
+          "bank_attempt_id": "b7936790ded1fed90934e5f9a6dd241fe314d7554aef0eda94a1ecb81b25583f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy",
+          "bank_attempt_id": "1de6f2bf07b5856035b572712dd7b3bf2f8f2679e67233e121cc7702a311afcf",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "habanero",
+      "game": "SGSuperFruitBlast",
+      "name": "SuperFruitBlast",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "6df080dde1e3c461be4a0460aee1d3f70db023a6e0161913be8883dc091ff6d7",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "superbet",
+          "bank_attempt_id": "5536c29caedbd86ed6d4a5722fbfdf228b1bc2ebc24083698283bd962f1ca110",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy",
+          "bank_attempt_id": "342404db5b21fda5199345ea4528ea40dab76734c6d65753135f6629bba7e670",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "hacksaw",
+      "game": "2670",
+      "name": "The Jade Path Hold & Win",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "d677c85b913e1a9a286d0cbc7432d0e78846c7947dffae10355c1b3fb1041030",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "mod_bonus",
+          "bank_attempt_id": "c5292de7486d9a7812a5f9dce2344e81b95d8bf864f9b688b38ce6be9f10edee",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "bonus",
+          "bank_attempt_id": "47c871b97fc111fa80a71ec935207da5e22e5cae20aefd81a7d9dca71ae3a818",
+          "state": "partial",
+          "result_status": "unknown_event"
+        }
+      ]
+    },
+    {
+      "provider": "hacksaw",
+      "game": "1897",
+      "name": "The Luxe",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "186e543899516eda0acd4db1d79190c781122572d532d6d30dd4a77257f7b0ea",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "mod_bonus",
+          "bank_attempt_id": "42b5a6f344aaa1cbc3c87639609e6c43714271b5fb84f6736dab315243f46b58",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "fs",
+          "bank_attempt_id": "34143efe5972ec29e4db370502623f3c9392c4e2c670548135ba19ad0d2648fa",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "fs_2",
+          "bank_attempt_id": "6ca962555afe7603acb8b06aa7c0c52ddc1be5d79af044aaa60a6d74177fc593",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "hardfire-kalamba",
+      "game": "9blazingcashpots50k",
+      "name": "9blazingcashpots50k",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "e62d33cbb935a811cae7d4225936225cfdebfe4475921fd2f69464066f8dc144",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "hardfire-kalamba",
+      "game": "footballblast-hnw",
+      "name": "footballblast-hnw",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "fc9729761abeaba7884e1a7bc0306b26c7e2e60ec1765341645bbfe9ca5b711d",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "irondog",
+      "game": "8150",
+      "name": "Apex Strike Megaways",
+      "modes": [
+        {
+          "mode": "ante 100",
+          "bank_attempt_id": "fe319eb4105ef3cd67d09d4e89bd2aee8b7783f18d01b0ffa407db6ff86b1bde",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy 0",
+          "bank_attempt_id": "f325161ab771473476bdad4436e841f672361ec1afb6578f7882e8a7cb902f33",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "normal",
+          "bank_attempt_id": "773b1eff22db7ec5db79fd2b26ea734ab2760db66c018ae1a7c1c2988f6e6a22",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "irondog",
+      "game": "8175",
+      "name": "Solar Nova Megaways",
+      "modes": [
+        {
+          "mode": "buy 0",
+          "bank_attempt_id": "fe57e475ff29126bbb9727229179bf3ee9193ccd1ea92d84448d632805788f21",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "ante 100",
+          "bank_attempt_id": "4badfe13695ce2beb7737205328934576c3a4b4b80827c975e581d35e76b7494",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "normal",
+          "bank_attempt_id": "436a45dbb44e5e135f2b80ae3f85cced01a3663bf23d8a257b1ce9ee011952df",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "kagaming",
+      "game": "TropicalHoliday",
+      "name": "Vacaciones Tropicales Función de Compra",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "7a579eb0e1f6acb6ec1fa7ee7e9d1639ba43bc50bd33dd9ef6e2f1cca8166326",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-1",
+          "bank_attempt_id": "2e0c750198adbd16fe36562c12dc6a69167b273c642767d0495fd15786be6c50",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "kagaming",
+      "game": "ThiefDog",
+      "name": "Perro Ladrón Función de Compra",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "3c8e07dc37887f06fe8fac814f50e2c14822287c76d4e0a8959fb706057d0376",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-1",
+          "bank_attempt_id": "93bb8746107d754375b02a89a8fdcbe37b623dcbce550180214c6fc04d1a7879",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "kendoo",
+      "game": "mariachi-lock",
+      "name": "Mariachi Lock",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "06a9f622dbc40a0fe5a13f53e3acd602ec3fc282b3f1f2f33dae22e2509aba3f",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "ante:1.3",
+          "bank_attempt_id": "0d634448c65a88669e3086b10b3fc2071158c1c7bd3ac6ae59806e80a9a07383",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy:1",
+          "bank_attempt_id": null,
+          "state": "unsupported",
+          "result_status": "unsupported"
+        }
+      ]
+    },
+    {
+      "provider": "kendoo",
+      "game": "coin-dragon",
+      "name": "Coin Dragon",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "d3ecf65644fb082bd228341749b2c4a3768c94247ae8e2846e84808e082ca5f1",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy:1",
+          "bank_attempt_id": "83ed125c5247b20766b43c9f2a259d5d43df54b9294c8885166028c40d7a454b",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy:2",
+          "bank_attempt_id": "db6876a4b451372c29dd4055287815586bcc0d853cc784c461515c5867622afc",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy:3",
+          "bank_attempt_id": "12674d90ceee7e9d1edfb85d87906c2e332bc25973e96294cfcb36870ec4d710",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy:4",
+          "bank_attempt_id": "784b7d8a73795e394a5682c84c54235e1aba07082b688fdac03a0438ec75b24f",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "mascot",
+      "game": "tessa_hunt_and_the_mission_monte_carlo",
+      "name": "Tessa Hunt and the Mission Monte Carlo",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "4e8a0f3db2c88ffe061fe1c60be8b56e21390cf98ae110dc5844af6460d4d126",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "boost",
+          "bank_attempt_id": "f91a669a950fb09db4caace5db326d5d078693a0998d7520aabf5972d7307cb4",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_0",
+          "bank_attempt_id": "69468a894e6d776a4a835315465a39e39588cd1f978f93f5af2c7b99ec6020bf",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "mascot",
+      "game": "secrets_of_papyrus",
+      "name": "Secrets of Papyrus",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "7bf7eb2190c8c3167f5f87a18e14ef2d323f434f1e33e8d6e33ebc60ea97a872",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "boost",
+          "bank_attempt_id": "68d917cd993c99f59025bca23ad3302b81736326b4981418988938db174cc426",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_0",
+          "bank_attempt_id": "689ef8316ca687c1e901eb65734a9abd6ac3f9353fcdd8793df1760b5a3f1115",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "microgaming",
+      "game": "3rd-base",
+      "name": "3rd-base",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "625ecc6a40fc93a500f5f8acfdd1193b16144fe6e963ff13ac5bdc91fbf04857",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy",
+          "bank_attempt_id": null,
+          "state": "unsupported",
+          "result_status": "unsupported"
+        }
+      ]
+    },
+    {
+      "provider": "microgaming",
+      "game": "bronco-big-bounty",
+      "name": "bronco-big-bounty",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": null,
+          "state": "unsupported",
+          "result_status": "unsupported"
+        }
+      ]
+    },
+    {
+      "provider": "netent",
+      "game": "rabid-randy-dark-trails",
+      "name": "Rabid Randy: Dark Trails",
+      "modes": [
+        {
+          "mode": "Spin",
+          "bank_attempt_id": "27bbc34cdbc0651c9f85bf2bc4895b61dbc38e6f9f291ca50c3909a1c8942fa6",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "FeatureBuy",
+          "bank_attempt_id": "dc6f53e7143a932a6a4b0d3b889ae209f460e7de3915334180f8230732fb9871",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "FeatureBuyEnhanced",
+          "bank_attempt_id": "17bcab8b467311952374a24a4c683cdaec7a98dd399cfd0a6b5ba550f2e5c96b",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "netent",
+      "game": "golden-wheels-of-egypt",
+      "name": "Golden Wheels of Egypt",
+      "modes": [
+        {
+          "mode": "Spin",
+          "bank_attempt_id": "96f1f9596356c575c00c40aff5b1c4eea97822e7d76be79768bf2d0109ad1841",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "FeatureBuy",
+          "bank_attempt_id": "1d4bc576fb2d6bb9bf5cb0d6fb2624ce39089776fe4102e27b67d27c4d348338",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "FeatureBuyEnhanced",
+          "bank_attempt_id": "3cdaea81146d963cc82eafa83172dc2a59f4355f9cecf9d353fc75704976aae8",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "nolimit",
+      "game": "Infectious5",
+      "name": "Infectious 5 xWays®",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "aede97caa83b14429eaf66c35512749e4f27504588402ba99d0129656e3fab7f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "FREESPIN_3_SCATTERS",
+          "bank_attempt_id": "a3189878bdf9ccf140693acd53e62ed76f6ad01fae32396807d1d79cb124a5a3",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "FREESPIN_4_SCATTERS",
+          "bank_attempt_id": "da4582e73b4c719e5bdf7f5e5a7205a1c0dc7e8c0e37cae060e57e4828fb0e4f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "FREESPIN_5_SCATTERS",
+          "bank_attempt_id": "664873498fff140d5f1faaeb2ef90b4a885a2fbd439d1abb7357885cd250de90",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "nolimit",
+      "game": "Beheaded",
+      "name": "Beheaded",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "e17d961ed129cde67fde1cde81edc9bd569a9fea26e10f29e4e9b41be8c4c0e8",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "FREESPIN",
+          "bank_attempt_id": "ad785017c868badc8b82384e4fc995387c30a3b3603d7c3685fed329d7ecb008",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "SUPER_FREESPIN",
+          "bank_attempt_id": "9b48517d891d00ebf77007f6ec6ff8226a0b6fd2b784952071897152d620670a",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "LUCKY_DRAW",
+          "bank_attempt_id": "c883f27b00adaf9b436d62684ae427103b7beb8465734cccaf6a2a1686ab94fd",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BOOSTED_BET",
+          "bank_attempt_id": "aacd5b4d44860ae70de7f6e67b4de723521d7ee65f954930675379bceffc3e9a",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "peterandsons",
+      "game": "bloody-mary",
+      "name": "Bloody Mary: Pray for Prey",
+      "modes": [
+        {
+          "mode": "main",
+          "bank_attempt_id": "cdfc22eeb20611751601fd66dbd45534c14b5e460dc66b5c0829be784c42c7fc",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "bet",
+          "bank_attempt_id": "f8e7f76ca0a60d7ae583263c9f347e993123fcb5366a4db1a872358659e64aa4",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_FS_3SC",
+          "bank_attempt_id": "bbba4e06523b09103e656a55ffb27f16d0486262d6071df0d547d45c1514d592",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_SFS_3SC",
+          "bank_attempt_id": "1258ac6aa901d4f76af5123a5091cfb6182d47c811ae49ab5466c9bde202b23d",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "peterandsons",
+      "game": "viking-legacy",
+      "name": "VIKING LEGACY: HOLD & WIN",
+      "modes": [
+        {
+          "mode": "main",
+          "bank_attempt_id": "675c2d04c72bd86983666847c227e3d3d06445d5176ea2afe379242f45d045ef",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "bet",
+          "bank_attempt_id": "506b46a21b3505291ab714bd00c047f1027c9a51031c180ac8bc04dc6f3a50e9",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy",
+          "bank_attempt_id": "c945cba4418d62b512461f997a4b5010913405403dbfd2dbabc40cadc41b5beb",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "playngo",
+      "game": "998",
+      "name": "Crabby's Gold II",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "12c30694cda645629f45ad7d859bdbd325491efd8b296bd4bcef7c36d0b10d55",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "go-ultra",
+          "bank_attempt_id": "4fa9ec1b1e507028353970381563c91e8e81ae49175b5dae025624a045dbeba6",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "playngo",
+      "game": "992",
+      "name": "Buildin' Even More Bucks",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "10f943e6ba35762fe633f7449d0ed57594cb2b23af910dd6cc285b946a5092a1",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "go-ultra",
+          "bank_attempt_id": "de7e5206e75be612c0c83e3cb77986e9a87e6ed51d57cb6b212e204a17b42611",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "playson",
+      "game": "4-supershiny-diamonds-hold-and-win",
+      "name": "4 Supershiny Diamonds: Hold and Win",
+      "modes": [
+        {
+          "mode": "Spin",
+          "bank_attempt_id": "9510c57fcfc69f605981c405ab44d26ecf6ca8e9079f5616b94281e5b014c3e3",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "Ante:1.5",
+          "bank_attempt_id": "9f3311e33d8d76a578d10efddf23459d7e93af12bf9f1a41de35275753465ffe",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "Buy:0",
+          "bank_attempt_id": "c5ac781ddd799365f491b7c147f16da5d89e1e0454b33cbcfa031580ea7066ba",
+          "state": "partial",
+          "result_status": "unknown_event"
+        }
+      ]
+    },
+    {
+      "provider": "playson",
+      "game": "4-supercharged-clovers-super-wheel",
+      "name": "4 Supercharged Clovers: Super Wheel",
+      "modes": [
+        {
+          "mode": "Spin",
+          "bank_attempt_id": "2a8b024acded4bd664ad7e983c971fccd7adb0c8add85132780925766e2875bc",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "Ante:1.5",
+          "bank_attempt_id": "90a71442f8152c0fc01f38e64a479f7376be7f4eb23f222d953cb9d36bb7c1af",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "Buy:0",
+          "bank_attempt_id": "400e400801d6611a64dbbd53ac86011bf512706fcd012dfa1ab261b07909fcf7",
+          "state": "partial",
+          "result_status": "unknown_event"
+        }
+      ]
+    },
+    {
+      "provider": "playtech",
+      "game": "gpas:gpas_rcarlos_pop",
+      "name": "Roberto Carlos: Sporting Legendsâ¢ Feature Bet",
+      "modes": [
+        {
+          "mode": "6b4ec871-ae4c-41fe-be41-4ec2c9ee258c",
+          "bank_attempt_id": "b488799ea547ab38c800ce172173b590ce0167f8cb7995a2d6adb82f9f924ac1",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "5a6237b9-ebd1-4d30-a7f3-1bd8276eb58e",
+          "bank_attempt_id": "47fdedb35575efa4191af16cff7f97ca26cf9a215bdc1f8d0df167fc51d437c1",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "playtech",
+      "game": "gpas:gpas_pigeonfsc1_pop",
+      "name": "Pigeons From Space!â¢ C1",
+      "modes": [
+        {
+          "mode": "420d7ab3-efbe-438a-a2fc-04cbd714b853",
+          "bank_attempt_id": "4da0688a3e42b3a861f557031d035478c9c6e413c5e339354442e1252dbc6fe8",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "1137dac0-685a-4e2f-b691-589f295513d5",
+          "bank_attempt_id": "787abe428f60964ab5802ca7d93c6c21d3a43b4f11599fc0d7093821dbeb9679",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vs10bookfallen",
+      "name": "book-of-the-fallen",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "d42c41d0882fe505e68ab4b062252730953ac8a0926b1387331f320080cd9010",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "pur-0",
+          "bank_attempt_id": "a8331c33c48a9981cc26005f45140bb0f53ea463295629c1254dbaa1ff435d6f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "pur-1",
+          "bank_attempt_id": "a5f6e18990661dbc39907a0618770fe4ba55d8bdb47562468a74bde028df5ef3",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "pragmatic",
+      "game": "vswaysyinyang",
+      "name": "duel-of-night-day",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "b94aea3bd375e2f8c10297eb9bfb9cb039492fa498c3f1f82aa5c7c768ce1988",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "pur-0",
+          "bank_attempt_id": "1bcd354d0de69f0fd779f7f9f8bfc30a3ebdc56ab363ace15d5f342990227cb9",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "bl-1",
+          "bank_attempt_id": "9db28226a28cad9fe1a35ace9ff88d147638e7480f44f24c2dba9538796c276c",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "redtiger",
+      "game": "pandagoesboom000",
+      "name": "Panda Goes Boom",
+      "modes": [
+        {
+          "mode": "0",
+          "bank_attempt_id": "43d4516b801cdbdc34df2d25f1b7b4f2f2859bd28b4c13620ad739c9749dcd7b",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "1",
+          "bank_attempt_id": "d0d40e9922e944ed57391c3110aea488c102439c6b6ed1297d3a64d1579b03ab",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "101",
+          "bank_attempt_id": "6f0db28df356fee5bb47dcf513ef08d2d20d6aebf0340a86ac57766f644ac12b",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "102",
+          "bank_attempt_id": "30738b49bf9d995f6371993bd68e224683aac8169238acd99f56e2292c60f18d",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "redtiger",
+      "game": "happycappy000000",
+      "name": "Happy Cappy",
+      "modes": [
+        {
+          "mode": "0",
+          "bank_attempt_id": "0edb96f167699433b551f3541225845cbbec6efa1af96e39677fab0a58026b7d",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "1",
+          "bank_attempt_id": "72ae85824d797a7a8e2bca834d64ded72932647a8ae47d9fb040c30582e2e906",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "101",
+          "bank_attempt_id": "2728a4f0c55cffbafab07fe930ed88d358d5e2069db421a63648465f372f3014",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "102",
+          "bank_attempt_id": "490f9616da521e6a3d179180c09b192386c145a925d97908cf480ccd2a5a7170",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "reelkingdom",
+      "game": "vswaystonypzz",
+      "name": "peppes-pepperoni-pizza-plaza",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "ebb6f9c382c4c1b3e04f2ee2291ea0fe61932aa3c045bd4f8ec4a8167732203f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "pur-0",
+          "bank_attempt_id": "06bdf93eda35bc8029e15770f18e8560bf93f0d0d3d545320885efe1baa3c4a6",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "bl-1",
+          "bank_attempt_id": "456142c766a397b39626bcd3825d1f173501c4714cccebf7d1f14b6dc08506b6",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "reelkingdom",
+      "game": "vswaysfltdrg",
+      "name": "floating-dragon-megaways",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "de9c3dd8ae671b5cfed93c4de445380b9ced0fb0a7105f63b52441d4a097cfb2",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "pur-0",
+          "bank_attempt_id": "8d2a5be807cf8d44961d414b5da268c7adae0f7d9768276bf70492187e5fd822",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "pur-1",
+          "bank_attempt_id": "a2e1334f528675f60bc818830aa0657170e24311a0a143dd4d19c5df2ed18841",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_106",
+      "name": "Immortal Ways® Sweet Coin",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "022950b5428e005fac442127ca897f05eab42564288e9aa66e4d611e8346f510",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_feature:freespin",
+          "bank_attempt_id": "9265a1c8dd159d09239ea9382d7f82046e46490680938253e1e560a7a8e02d1a",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "rubyplay",
+      "game": "rp_103",
+      "name": "Mad Hit® Hidden Cities",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "8ede528c610ff29b578f1ab93ee28051804feff3b5752a108d548eb66d03de4f",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "buy_feature:freespin",
+          "bank_attempt_id": "c8b2e795bb168684c6f89b0e24917b45566d2b8c0c202a4ceb953799455cadde",
+          "state": "partial",
+          "result_status": "unknown_event"
+        }
+      ]
+    },
+    {
+      "provider": "smartsoft",
+      "game": "GeniesBonanza",
+      "name": "Genie's Bonanza",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "23a2fa6778d1ea84f3b8b8985239e3f406067a8311e2287a6e8f674fbcf4efbc",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "PurchaseBonus:0",
+          "bank_attempt_id": "d292a401c48af1088b0a04d2e4bffd9125a01756cd937af8e151efa93760c03a",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "RiskBet:0",
+          "bank_attempt_id": "51392f72ea0a2ad71a27bb6055cdd1399188ffda02699148bf5a95b6c5923645",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "smartsoft",
+      "game": "CoinsOfAtlantis",
+      "name": "Coins Of Atlantis",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "51f035a412b4ffaad9fca3a34684aeac23f036e699188b69b97e4d2c750d179d",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "PurchaseBonus:0",
+          "bank_attempt_id": "631ca179cf0edf73074508c1d9f941eeae817fbf13dd5ffb9039f5ccf63ee7a6",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "RiskBet:0",
+          "bank_attempt_id": "2270c8676eb43503a357337b29bfe723b26b8aa9792beaa3c5b9ea1bcec63848",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "spinomenal",
+      "game": "SlotMachine_WolfFangWesternTales",
+      "name": "Wolf Fang – Western Tales",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "117425f14d974fb83e4099c4301e308462e9285e11a205891080e56f5f199f9c",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "catalog-purchase-000",
+          "bank_attempt_id": "8aa1d87d4b42d3827708ad5ccb8de2ab56b4d4e077b4ff86bbc3eb58f9a767b8",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "catalog-purchase-000-pick-2",
+          "bank_attempt_id": "32d6d637f313b60ad6f1aa7385133bf66851cce297e490394d4d591f4f15c580",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "spinomenal",
+      "game": "SlotMachine_WolfFangValhallaRising",
+      "name": "Wolf Fang – Valhalla Rising",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "04a29d74abee4971d4722107dbf2d447f3062f74f9a689a05e983c3e8d45486a",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "catalog-purchase-000",
+          "bank_attempt_id": "95979ccfbc0bf78588a2ce90ef7f8f803a10f379487404b978c8a53b682f0440",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "catalog-purchase-000-pick-2",
+          "bank_attempt_id": "1c05f51a30b0e360fb1a653f8dedae851ba49e827237ae8e5e990d8fbc930346",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lava_coins_2",
+      "name": "Lava Coins 2",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "7115c49a7c5c8c9d40777810a4823a82964e1f7b35dff4330a88f525e6f40827",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-1",
+          "bank_attempt_id": "93f833f553d5a2337f0bb397527de13af7c1f8ebb0557391ac6e19cbf81debd2",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-2",
+          "bank_attempt_id": "b71c97cbacb7be1acd120c342f0add7893905e04d90dda51c816fe35a40927c5",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-3",
+          "bank_attempt_id": "cd9877f180a6259e37577c03c5aef9e4628db68ec3892ca246bb78919205c3ec",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "booster-1",
+          "bank_attempt_id": "fc2f0869ac786ca79bcded6a137469e955ad3768e9d8d3ff7992562d4d241dde",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "threeoaks",
+      "game": "lady_fortune",
+      "name": "Lady Fortune",
+      "modes": [
+        {
+          "mode": "normal",
+          "bank_attempt_id": "4f975400c1bdbb88f76122060715dec5ef7ae6b9e91b7114b3c999cbd3cbd27e",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-1",
+          "bank_attempt_id": "a2b5d8fd8dab9f29900c8f62658bb5be45f20fa0d841e16302761da6e47ef985",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-2",
+          "bank_attempt_id": "caa5b5a3a87a442590f34853bbd2fed8e29e5f6dcdae964159aed3dc7b58d209",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "buy-3",
+          "bank_attempt_id": "adfa2f40f498504ac5a41ee3dfaf6f67e3d64f8efc4710637b6c31ccab14737f",
+          "state": "partial",
+          "result_status": "provider_error"
+        },
+        {
+          "mode": "booster-1",
+          "bank_attempt_id": "81fc23227b60d99aaba82cbf7bac74ce3e9d5a1fd974b7df8bc0689342acd50b",
+          "state": "partial",
+          "result_status": "provider_error"
+        }
+      ]
+    },
+    {
+      "provider": "thunderspin",
+      "game": "8",
+      "name": "Book of Egypt",
+      "modes": [
+        {
+          "mode": "NORMAL",
+          "bank_attempt_id": "29a231dc12cca8b58f2f2c48984a72a4eb7abe80b98405068b072bf4b29a386b",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BUY_BONUS",
+          "bank_attempt_id": "6da945780fedcafb28df6560857fafcc27de8cc0294d047be201c001a8970329",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "thunderspin",
+      "game": "7",
+      "name": "Aztec Artefacts 10000",
+      "modes": [
+        {
+          "mode": "NORMAL",
+          "bank_attempt_id": "a6c523546db2eb773e85734fce4b786398b37daea1e9027ba51f0a87dc889a59",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "BUY_BONUS",
+          "bank_attempt_id": "bceb78a73d2fe70b2372b4e3a35fe1db377944c5677f96c341924a9871d24247",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "yggdrasil",
+      "game": "7400",
+      "name": "Vikings Go To Valhalla",
+      "modes": [
+        {
+          "mode": "BUY_BONUS",
+          "bank_attempt_id": "89f7abb5d44b59eb2380737f7a893f5a228846f7c8d6e94992272de27ac3a364",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "BUY_RAGNAROK",
+          "bank_attempt_id": "e5da606e982f2cf7446f4c13c81eacd0f4c2b085f214ad9c48daa6c798cf8f39",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "BUY_WHEEL",
+          "bank_attempt_id": "999884b467f4b78a324355f7544a9ba910c63c16fa235ca918320ebc325ff911",
+          "state": "complete",
+          "result_status": "complete"
+        },
+        {
+          "mode": "BASIC",
+          "bank_attempt_id": "512af4646f2319b825e48f3925d606d3984784b1bc5b39361262bb9139a1dd03",
+          "state": "complete",
+          "result_status": "complete"
+        }
+      ]
+    },
+    {
+      "provider": "yggdrasil",
+      "game": "7408",
+      "name": "Raptor DoubleMax™",
+      "modes": [
+        {
+          "mode": "BUY_A_BONUS",
+          "bank_attempt_id": "d3fb6d9b7bfac2727318a9452d3c995e8242c83e30a5eea980d422340cb851ec",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "BASIC",
+          "bank_attempt_id": "8cc54f31508a2e7b1020f14d966cf4cf881f653d67dab0f1bbec3bc688a32389",
+          "state": "partial",
+          "result_status": "unknown_event"
+        },
+        {
+          "mode": "GOLDEN_BET",
+          "bank_attempt_id": "0926c95a12617901e90a989ceece4770264b1d2aabb5f0ce0496438bffd52041",
+          "state": "partial",
+          "result_status": "unknown_event"
+        }
+      ]
+    }
+  ],
+  "started_at_argentina": "2026-11-15T05:18:46-03:00",
+  "finished_at_argentina": "2026-11-15T05:19:55-03:00"
+}

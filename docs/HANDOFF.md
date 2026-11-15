@@ -1,6 +1,18 @@
 # Retomar el proyecto
 
-**Estado al 15 de noviembre de 2026:** la ampliación y el replay están implementados y publicados en `main`, commit [f550c02](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/f550c0228774ff307135ec25c2e2138e6a97a236). [CI de esa entrega: correcto](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43686603978). No hay una implementación de esa entrega a medio integrar. Comprobar `git status` y `git log -3 --oneline` al retomar; si hay cambios posteriores, revisar su diff antes de aplicar esta fotografía.
+**Estado al 15 de noviembre de 2026:** la ampliación y el replay están implementados y publicados en `main`, commit [f550c02](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/f550c0228774ff307135ec25c2e2138e6a97a236). [CI offline de esa entrega: correcto](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43686603978). Después se ejecutó la prueba real descrita abajo, con fallos pendientes. Comprobar `git status` y `git log -3 --oneline` al retomar; si hay cambios posteriores, revisar su diff antes de aplicar esta fotografía.
+
+## Última prueba real: leer antes de corregir proveedores
+
+El usuario pidió 2 juegos por proveedor y los 35 proveedores simultáneos. [Informe completo](LIVE-SMOKE-2026-11-15.md), [casos en JSON](live-smoke-2026-11-15.json), [ejecución 43693889120](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43693889120). Configuración/workflow: `20cd8d0`; binario: `f550c02`.
+
+- 70 seleccionados, 69 ejecutables (Microgaming sólo tiene uno), 202 intentos terminados en 69 s: **109 completos, 71 provider_error, 22 unknown_event**, cero errores de transporte. Normales: 40/69.
+- **13 proveedores pasan toda la muestra, 8 parcialmente y 14 ninguno.** Solapamiento de intervalos: 69 juegos/35 proveedores, máximo 2 por proveedor; no es concurrencia exacta de solicitudes.
+- Pendientes localizados: **Belatra compara modification numérico con String; ELA rechaza connected; Playson encuentra fuentes nuevas; Playtech recibe GLU6 no soportado.** También faltan continuaciones en varios proveedores, incluido `rp_103` compra freespin → `pick`. Ver el informe antes de reanalizar las capturas.
+- Otros fallos son de acceso/inicialización; algunos muestran Cloudflare, ipBlocked, país no permitido o error del emisor. `provider_error` no significa necesariamente fallo remoto.
+- Banco nuevo entregado fuera de Git: `live-smoke-35x2-bank-20261115.zip`, 202 intentos (109 completos/93 parciales), con hashes, informes y recuperación del artifact cifrado. Los fallos aún no están corregidos.
+
+El workflow reutiliza un binario fijado por run/hash: actualizar ambos para probar un cambio de código. Sólo modificar documentación no dispara otra campaña. El primer intento local falló por DNS/transporte del entorno; usar los resultados de GitHub Actions para el diagnóstico.
 
 ## Objetivo y decisiones ya acordadas
 
@@ -34,7 +46,7 @@ El banco `rubyplay-capture-bank-20261115.zip` fue generado, verificado y entrega
 - **Playtech:** NGM, GLU6, PSI/Extreme Fruits, Venetian Masks/Ferox y otros UUID/constructores incompletos. Las siete trazas contienen 47 comandos, pero 19 payloads están redactados y 28 `playStack` truncados: no forman un banco de respuestas completas. Los 986 recibos tampoco equivalen a 986 partidas reproducibles.
 - **Kalamba:** el 66/66 abarca sólo los normales inventariados; no habilita compras ni continuaciones sin contrato.
 - **Local visual:** existe CLI/API de mensajes, sin cliente gráfico/assets originales, reescritura automática de tokens/contadores ni generación de nuevas rondas/RNG.
-- **Operación real:** no se hicieron apuestas/solicitudes a proveedores ni pruebas de peers WG reales en esta entrega. Geografía, disponibilidad actual y carga se verifican en la VM.
+- **Operación real:** ya se probó la muestra indicada arriba en GitHub Actions, con salida directa. Sigue pendiente verificar peers WireGuard reales, otras salidas/geografías y el resto del catálogo; los resultados de dos juegos no se extrapolan al proveedor completo.
 
 Los demás pendientes y los archivos exactos que faltan están en [MISSING-EVIDENCE.md](../capture-runner/docs/MISSING-EVIDENCE.md). No repetir una auditoría de todos los proveedores para cambiar uno.
 
@@ -77,6 +89,7 @@ capture-runner/target/release/capture-runner plan --config capture-runner/exampl
 
 - `6d814f8`: migración del runner verificado al repositorio solicitado; inventarios y dependencias de tests incluidos.
 - `f550c02`: ampliación Ruby/Playtech/Kalamba, banco/importador/replay y fiabilidad descritos arriba; CI aprobado.
+- `20cd8d0`: campaña real acotada de 35 proveedores × 2 juegos seleccionados, conservación cifrada de evidencia y reporte de los fallos observados; sin cambios del código del runner.
 - Este traspaso: punto de entrada común, identificación del banco entregado y corrección de instrucciones/planes obsoletos; sin cambios de comportamiento.
 
 Los planes/especificaciones de `docs/superpowers/` explican decisiones históricas. No reabrir sus tareas completadas ni usar sus conteos antiguos como estado actual.
