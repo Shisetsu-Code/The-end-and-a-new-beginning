@@ -1,0 +1,156 @@
+{
+  "format": "ka-bootstrap-signature-and-menu-evidence",
+  "version": 1,
+  "note": "Synthetic signatures computed by executing each published signing function; init projections contain only selectors and idle flags. No session, cookie or device identity from captures.",
+  "provenance": {
+    "browser_run": "43695833003",
+    "browser_commit": "5ed80876a13fbca94e26757207f8047d371c4de1",
+    "baseline_run": "43693889120"
+  },
+  "engines": {
+    "2090": {
+      "app_version": "1.0.268 (2090)",
+      "source_sha256": "6cf1bdace2d5fb0a889364ad05fa3a3a31ed2fc37aa79b36be4ee71a6e49a0f2",
+      "signer_function_sha256": "6c2c7b9867000f43ce886625842aeaa145181e78a727168ad09110b5658eee4e"
+    },
+    "2101": {
+      "app_version": "1.0.269 (2101)",
+      "source_sha256": "e22521112053e5e93ea1fdc090318a465f9c821560006a38c2dba1f30f46d7ac",
+      "signer_function_sha256": "4d6653aa10160b9f52a065b868531d43a952e7f330d4728f4a13eb0b8ca7d444"
+    }
+  },
+  "games": {
+    "ThiefDog": {
+      "build": "2101",
+      "game_source_sha256": "86d34d4b3417c5ea4dac707d2e46f2128a5a11cbaddbe9a0a3defcdcff296f3e",
+      "init": {
+        "gn": "ThiefDog",
+        "gm": 0,
+        "mi": -1,
+        "fs": false,
+        "e": false,
+        "ec": 0,
+        "ase": [
+          20
+        ],
+        "cup": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          20,
+          25,
+          50,
+          75,
+          100,
+          250,
+          500,
+          750,
+          1000,
+          1500
+        ],
+        "dn": [
+          0.01
+        ],
+        "sgr": {
+          "lsd": {
+            "rf": 0,
+            "fsr": 0
+          }
+        }
+      }
+    },
+    "TropicalHoliday": {
+      "build": "2101",
+      "game_source_sha256": "c1f2ea8d8a254adf4a2680292ddeb1114fae13f7b227fd84074403990aca9bf0",
+      "init": {
+        "gn": "TropicalHoliday",
+        "gm": 0,
+        "mi": -1,
+        "fs": false,
+        "e": false,
+        "ec": 0,
+        "ase": [
+          20
+        ],
+        "cup": [
+          1,
+          2,
+          3,
+          5,
+          10,
+          20,
+          25,
+          50,
+          75,
+          100,
+          250,
+          500,
+          750,
+          1000,
+          1500
+        ],
+        "dn": [
+          0.01
+        ],
+        "sgr": {
+          "lsd": {
+            "rf": 0,
+            "fsr": 0
+          }
+        }
+      }
+    }
+  },
+  "signatures": [
+    {
+      "build": "2090",
+      "body": "{\"gn\":\"ThiefDog\",\"note\":\"synthetic-ñ🚀\",\"un\":\"synthetic-demo-user\"}",
+      "context": {
+        "av": "1.0.268 (2090)",
+        "idv": "0000000000000000000000000000000000000000000000000000000000000000",
+        "dv": "synthetic-browser/1.0"
+      },
+      "timestamp": 1700000000000,
+      "branch": "even",
+      "expected_ida": "3145d95d4395af20a3655e46d63dcd4ed3aba99deeff2c7a66b110a52f5a947c1700000000000"
+    },
+    {
+      "build": "2090",
+      "body": "{\"gn\":\"ThiefDog\",\"note\":\"synthetic-ñ🚀\",\"un\":\"synthetic-demo-user\"}",
+      "context": {
+        "av": "1.0.268 (2090)",
+        "idv": "0000000000000000000000000000000000000000000000000000000000000000",
+        "dv": "synthetic-browser/1.0"
+      },
+      "timestamp": 1700000000001,
+      "branch": "odd",
+      "expected_ida": "8b6d3d3e3654a588fdea6b1d64f26a762de4f5253c42c5ebc2a8275fd3a344d61700000000001"
+    },
+    {
+      "build": "2101",
+      "body": "{\"gn\":\"ThiefDog\",\"note\":\"synthetic-ñ🚀\",\"un\":\"synthetic-demo-user\"}",
+      "context": {
+        "av": "1.0.269 (2101)",
+        "idv": "0000000000000000000000000000000000000000000000000000000000000000",
+        "dv": "synthetic-browser/1.0"
+      },
+      "timestamp": 1700000000000,
+      "branch": "odd",
+      "expected_ida": "e3b29556620583f78e3127a5eda7a337a3ae8e8e289d4cd29e438fd60286e1021700000000000"
+    },
+    {
+      "build": "2101",
+      "body": "{\"gn\":\"ThiefDog\",\"note\":\"synthetic-ñ🚀\",\"un\":\"synthetic-demo-user\"}",
+      "context": {
+        "av": "1.0.269 (2101)",
+        "idv": "0000000000000000000000000000000000000000000000000000000000000000",
+        "dv": "synthetic-browser/1.0"
+      },
+      "timestamp": 1700000000001,
+      "branch": "even",
+      "expected_ida": "bfe43df5340f299744b0cd701fa3ba155af776a21cd3a524e2fd82ce7711df381700000000001"
+    }
+  ]
+}

@@ -257,14 +257,17 @@ async fn command(
     fields["command"] = json!(name);
     fields["request_id"] = json!(request_id);
     fields["client_command_timestamp"] = json!(now_ms());
+    let mut target = url::Url::parse(endpoint)?;
+    target.query_pairs_mut().append_pair("gsc", name);
     let headers = BTreeMap::from([
         ("Origin".into(), SITE.into()),
         ("Referer".into(), format!("{SITE}/")),
+        ("content-type".into(), "text/plain".into()),
     ]);
     let response = ctx
         .json(
             &format!("threeoaks_{name}"),
-            endpoint,
+            target.as_str(),
             &fields,
             headers,
             round,
@@ -486,6 +489,39 @@ pub async fn execute(
 #[cfg(test)]
 mod tests {
     use super::*;
+    include!(concat!(
+        env!("CARGO_MANIFEST_DIR"),
+        "/tests/support/goreel_http.rs"
+    ));
+
+    #[tokio::test]
+    async fn commands_match_browser_wire_and_preserve_correlation() {
+        let (_root, ctx, endpoint, server) = command_fixture("threeoaks").await;
+        for name in ["login", "start", "play"] {
+            let fields = if name == "login" {
+                json!({"token":"fixture-demo-token","language":"en"})
+            } else {
+                json!({"session_id":"fixture-session"})
+            };
+            command(&ctx, &endpoint, name, fields, name == "play")
+                .await
+                .unwrap();
+        }
+        for _ in 0..2 {
+            let error = command(
+                &ctx,
+                &endpoint,
+                "play",
+                json!({"session_id":"fixture-session"}),
+                true,
+            )
+            .await
+            .unwrap_err();
+            assert!(error.downcast_ref::<crate::model::UnknownEvent>().is_some());
+        }
+        assert_command_contract(&ctx, &server.await.unwrap());
+    }
+
     fn start() -> Value {
         json!({"settings":{"bets":[1,5],"lines":[20]},"context":{"spins":{"lines":20},"available_buy_bonus":[1],"available_booster":[1],"actions":["spin","buy_spin","booster_spin"]}})
     }

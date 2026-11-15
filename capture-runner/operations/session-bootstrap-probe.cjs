@@ -56,8 +56,10 @@ function staticClient(c, r) {
     : u.hostname === 'static.3oaks.com' && p.startsWith('/gs/clients_');
 }
 function marks(body) {
-  const s = body.toLowerCase();
-  return { captcha: /captcha|verify you are human|cf-chl-widget/.test(s),
+  const s = body.replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, '').toLowerCase();
+  return { captcha: /verify you are human|(?:complete|solve)[^<\n]{0,60}captcha|class=["'][^"']*(?:cf-turnstile|g-recaptcha|h-captcha)/.test(s),
     geo: /not available in (your|this) (country|region)|country is (blocked|restricted)|ipblocked/.test(s),
     challenge: /just a moment|cloudflare ray id|cf-mitigated|attention required|access denied/.test(s) };
 }

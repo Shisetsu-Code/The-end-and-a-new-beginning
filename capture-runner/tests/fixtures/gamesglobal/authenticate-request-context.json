@@ -1,0 +1,15 @@
+{
+  "source": "Official GoldBlitzExtreme demo in Playwright: login request 22 and authenticate request 36.",
+  "sanitization": "Only public request-context headers retained. Cookies, launch tokens, generated IDs and browser-managed transport headers omitted.",
+  "login_headers": {
+    "origin": "https://mobile32.gameassists.co.uk",
+    "referer": "https://mobile32.gameassists.co.uk/",
+    "x-clienttypeid": "70"
+  },
+  "authenticate_headers": {
+    "origin": "https://api32.gameassists.co.uk",
+    "referer": "https://api32.gameassists.co.uk/Shared/Communications/Public/v1/webapplications?languageIsoCode=en&clientTypeId=70&productId=22619&moduleId=101053&clientId=50300&hostApplication=Titan",
+    "clienttypeid": "70",
+    "hostapplicationid": "2"
+  }
+}

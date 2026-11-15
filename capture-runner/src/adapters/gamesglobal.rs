@@ -167,6 +167,26 @@ async fn post(
         .await
 }
 
+fn authenticate_headers(
+    headers: &BTreeMap<String, String>,
+    module: u32,
+) -> BTreeMap<String, String> {
+    let mut auth_headers = headers.clone();
+    // The public communications iframe authenticates on the API origin.
+    auth_headers.remove("x-clienttypeid");
+    auth_headers.insert("origin".into(), API.into());
+    auth_headers.insert(
+        "referer".into(),
+        format!(
+            "{API}/Shared/Communications/Public/v1/webapplications?languageIsoCode=en&clientTypeId=70&productId={PRODUCT}&moduleId={module}&clientId={CLIENT}&hostApplication=Titan"
+        ),
+    );
+    auth_headers.insert("clienttypeid".into(), "70".into());
+    auth_headers.insert("hostapplicationid".into(), "2".into());
+    auth_headers.insert("cwasessionid".into(), Uuid::new_v4().to_string());
+    auth_headers
+}
+
 fn packet<'a>(value: &'a Value, module: u32, verb: &str) -> Result<Document<'a>> {
     let packet = &value["packet"];
     ensure!(
@@ -326,9 +346,7 @@ pub async fn execute(
         .as_str()
         .filter(|v| !v.is_empty())
         .context("Games Global launch token missing")?;
-    let mut auth_headers = headers.clone();
-    auth_headers.insert("hostapplicationid".into(), "2".into());
-    auth_headers.insert("cwasessionid".into(), Uuid::new_v4().to_string());
+    let auth_headers = authenticate_headers(&headers, module);
     let auth = post(
         ctx,
         "authenticate",
@@ -400,6 +418,48 @@ pub async fn execute(
 #[cfg(test)]
 mod capture_tests {
     use super::*;
+
+    #[test]
+    fn authenticate_matches_observed_api_iframe_context_without_changing_game_headers() {
+        let fixture: Value = serde_json::from_str(include_str!(
+            "../../tests/fixtures/gamesglobal/authenticate-request-context.json"
+        ))
+        .unwrap();
+        let game_headers: BTreeMap<String, String> =
+            serde_json::from_value(fixture["login_headers"].clone()).unwrap();
+        let unchanged = game_headers.clone();
+        let auth_headers = authenticate_headers(&game_headers, 101053);
+        for (name, expected) in fixture["authenticate_headers"].as_object().unwrap() {
+            assert_eq!(
+                auth_headers.get(name).map(String::as_str),
+                expected.as_str(),
+                "captured authenticate header {name}"
+            );
+        }
+        assert!(!auth_headers.contains_key("x-clienttypeid"));
+        assert!(Uuid::parse_str(&auth_headers["cwasessionid"]).is_ok());
+        assert_eq!(
+            game_headers, unchanged,
+            "login and Refresh keep their context"
+        );
+    }
+
+    #[test]
+    fn authenticate_referer_tracks_the_selected_module() {
+        let game_headers = BTreeMap::from([
+            ("origin".into(), "https://mobile32.gameassists.co.uk".into()),
+            (
+                "referer".into(),
+                "https://mobile32.gameassists.co.uk/".into(),
+            ),
+            ("x-clienttypeid".into(), "70".into()),
+        ]);
+        let auth_headers = authenticate_headers(&game_headers, 101417);
+        assert_eq!(
+            auth_headers["referer"],
+            "https://api32.gameassists.co.uk/Shared/Communications/Public/v1/webapplications?languageIsoCode=en&clientTypeId=70&productId=22619&moduleId=101417&clientId=50300&hostApplication=Titan"
+        );
+    }
 
     #[test]
     fn terminal_base_stage_requires_no_user_balance() {

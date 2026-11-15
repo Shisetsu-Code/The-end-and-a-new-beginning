@@ -56,3 +56,22 @@ El cambio de transporte asociado evita agregar el `User-Agent` predeterminado
 cuando el adapter ya proporciona uno. La regresión verifica la solicitud real
 en un servidor TCP local y su journal. No presupone que ese defecto explique
 los rechazos remotos.
+
+## Comprobación posterior con el runner nativo
+
+[`session-http-request.json`](session-http-request.json) selecciona exactamente
+los mismos doce juegos y un normal por juego (`0` es el normal de Red Tiger).
+[`session-http-check.yml`](../../.github/workflows/session-http-check.yml) espera
+que la CI del commit solicitado termine correctamente y descarga el ejecutable
+producido por esa misma ejecución. Sólo inicia capturas cuando ese commit cambia
+la solicitud; una corrección documental posterior no repite la campaña.
+
+La muestra usa sesiones HTTP nuevas, sin importar cookies ni tokens de la
+inspección histórica de Playwright. Son doce intentos como máximo, con dos juegos
+por proveedor, una salida directa, un límite global de 240 segundos y evidencia
+cifrada. El resultado nativo se conserva: un exit 2 indica capturas parciales.
+
+La inspección de la fuente Kendoo omitida por el primer HAR se reproduce con
+[`inspect-kendoo-source.yml`](../../.github/workflows/inspect-kendoo-source.yml).
+Ese workflow sólo descarga la URL pública exacta observada en Chromium; no
+inicia nuevas sesiones ni partidas.

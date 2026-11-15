@@ -8,8 +8,53 @@ use serde_json::{Value, json};
 use std::{collections::BTreeMap, sync::LazyLock, time::Duration};
 use uuid::Uuid;
 
-const ENGINE_SOURCE: &str = "https://gamesdemo.kaga88.com/game.min.2090.js";
-const ENGINE_HASH: &str = "6cf1bdace2d5fb0a889364ad05fa3a3a31ed2fc37aa79b36be4ee71a6e49a0f2";
+struct EngineProfile {
+    build: &'static str,
+    app_version: &'static str,
+    source_sha256: &'static str,
+}
+
+const ENGINE_2090: EngineProfile = EngineProfile {
+    build: "2090",
+    app_version: "1.0.268 (2090)",
+    source_sha256: "6cf1bdace2d5fb0a889364ad05fa3a3a31ed2fc37aa79b36be4ee71a6e49a0f2",
+};
+const ENGINE_2101: EngineProfile = EngineProfile {
+    build: "2101",
+    app_version: "1.0.269 (2101)",
+    source_sha256: "e22521112053e5e93ea1fdc090318a465f9c821560006a38c2dba1f30f46d7ac",
+};
+
+fn engine_profile(game: &str) -> &'static EngineProfile {
+    match game {
+        "ThiefDog" | "TropicalHoliday" => &ENGINE_2101,
+        _ => &ENGINE_2090,
+    }
+}
+
+fn game_source_hash<'a>(game: &str, binding: &'a Binding) -> &'a str {
+    // These two 2101 clients and their unchanged native serializers were reviewed
+    // against the fresh browser capture. Other games retain their 2090 bindings.
+    match game {
+        "ThiefDog" => "86d34d4b3417c5ea4dac707d2e46f2128a5a11cbaddbe9a0a3defcdcff296f3e",
+        "TropicalHoliday" => "c1f2ea8d8a254adf4a2680292ddeb1114fae13f7b227fd84074403990aca9bf0",
+        _ => &binding.source_sha256,
+    }
+}
+
+impl EngineProfile {
+    fn source_url(&self) -> String {
+        format!("https://gamesdemo.kaga88.com/game.min.{}.js", self.build)
+    }
+
+    fn game_source_url(&self, game: &str) -> String {
+        format!(
+            "https://gamesdemo.kaga88.com/res/js/{}/{}.js",
+            self.build,
+            game.to_ascii_lowercase()
+        )
+    }
+}
 
 #[derive(Clone, Debug)]
 struct Profile {
@@ -70,6 +115,11 @@ fn hash31(text: &str) -> i32 {
     })
 }
 fn signed_context(body: &str, context: &Value, timestamp: u64) -> Result<Value> {
+    let engine = match context["av"].as_str() {
+        Some(version) if version == ENGINE_2090.app_version => &ENGINE_2090,
+        Some(version) if version == ENGINE_2101.app_version => &ENGINE_2101,
+        _ => return Err(unknown_event("KA unreviewed request-signature version")),
+    };
     let mut signed = context.as_object().context("KA context missing")?.clone();
     let device = context["idv"]
         .as_str()
@@ -81,12 +131,14 @@ fn signed_context(body: &str, context: &Value, timestamp: u64) -> Result<Value> 
     // This constant is the published anonymous demo client's request signature,
     // never a credential loaded from another player's session.
     let salt = "SzXS@78TWls@x9&$5212Qw*oOZP@!tQybp5msFRpt1b@kaqN@3ms2932733tSyst";
-    let e = hash31(&format!("{body}2090{device}{time}"));
+    let build = engine.build;
+    let app_version = engine.app_version;
+    let e = hash31(&format!("{body}{build}{device}{time}"));
     let f = hash31(&format!("{time}{device}{version}"));
     let source = if e % 2 == 0 {
-        format!("{time}1.0.268 (2090){e}{salt}{f}{body}2090")
+        format!("{time}{app_version}{e}{salt}{f}{body}{build}")
     } else {
-        format!("{salt}{body}{f}{version}{e}2090{time}")
+        format!("{salt}{body}{f}{version}{e}{build}{time}")
     };
     signed.insert(
         "ida".into(),
@@ -175,7 +227,7 @@ fn profile(init: &Value, game: &str, binding: &Binding) -> Result<Profile> {
         atb: binding.atb,
         reset_atb: binding.reset_atb,
         position: binding.position.clone(),
-        source_sha256: binding.source_sha256.clone(),
+        source_sha256: game_source_hash(game, binding).to_owned(),
     })
 }
 fn free_spins_remaining(md: &Value) -> Result<bool> {
@@ -252,7 +304,7 @@ fn completed(profile: &Profile, steps: &[(Value, Value)]) -> Result<Option<Compl
     }
     Ok(Some(Completion {
         native_round_id: Some(tid.into()),
-        details: json!({"game":profile.game,"steps":steps.len(),"game_source_sha256":profile.source_sha256,"engine_source_sha256":ENGINE_HASH}),
+        details: json!({"game":profile.game,"steps":steps.len(),"game_source_sha256":profile.source_sha256,"engine_source_sha256":engine_profile(&profile.game).source_sha256}),
     }))
 }
 pub fn validate(game: &Game, mode: &Mode, settings: &Value) -> Result<()> {
@@ -300,6 +352,19 @@ async fn call(
     );
     Ok(value)
 }
+
+fn initialization_request(game: &str, user: &str, launch: &url::Url) -> Result<Value> {
+    let token = launch
+        .query_pairs()
+        .find(|(name, _)| name == "t")
+        .map(|(_, value)| value.into_owned())
+        .filter(|value| !value.is_empty())
+        .context("KA public launch token missing")?;
+    Ok(
+        json!({"un":user,"pn":"demo","ak":"accessKey","gn":game,"loc":"es","to":token,"cr":"USD","gm":0,"tb":null,"mi":-1,"mc":0}),
+    )
+}
+
 pub async fn execute(
     ctx: &RunContext,
     game: &Game,
@@ -308,6 +373,8 @@ pub async fn execute(
 ) -> Result<Completion> {
     validate(game, mode, settings)?;
     let binding = binding(game, mode).context("KA native mode missing")?;
+    let engine = engine_profile(&game.id);
+    let game_hash = game_source_hash(&game.id, binding);
     let user = (100_000_000_u128 + Uuid::new_v4().as_u128() % 900_000_000).to_string();
     let launch = url::Url::parse_with_params(
         "https://gamesdemo.kaga88.com/",
@@ -322,24 +389,21 @@ pub async fn execute(
         ],
     )?;
     get(ctx, "launcher", launch.as_str()).await?;
-    let source_url = format!(
-        "https://gamesdemo.kaga88.com/res/js/2090/{}.js",
-        game.id.to_ascii_lowercase()
-    );
+    let source_url = engine.game_source_url(&game.id);
     let source = get(ctx, "public_client", &source_url).await?;
-    if sha256(source.as_bytes()) != binding.source_sha256 {
+    if sha256(source.as_bytes()) != game_hash {
         return Err(unknown_event(
             "KA game client serialization version changed",
         ));
     }
-    let engine = get(ctx, "public_engine", ENGINE_SOURCE).await?;
-    if sha256(engine.as_bytes()) != ENGINE_HASH {
+    let engine_source = get(ctx, "public_engine", &engine.source_url()).await?;
+    if sha256(engine_source.as_bytes()) != engine.source_sha256 {
         return Err(unknown_event(
             "KA public engine serialization version changed",
         ));
     }
-    let mut context = json!({"dt":"Evidencia Rust QA client","dv":env!("CARGO_PKG_VERSION"),"av":"1.0.268 (2090)","idv":sha256(Uuid::new_v4().as_bytes()),"lg":"es","do":"Linux","as":"","ak":"accessKey"});
-    let start = json!({"un":user,"pn":"demo","ak":"accessKey","gn":game.id,"loc":"es","to":"123","cr":"USD","gm":0,"tb":null,"mi":-1,"mc":0});
+    let mut context = json!({"dt":"Evidencia Rust QA client","dv":env!("CARGO_PKG_VERSION"),"av":engine.app_version,"idv":sha256(Uuid::new_v4().as_bytes()),"lg":"es","do":"Linux","as":"","ak":"accessKey"});
+    let start = initialization_request(&game.id, &user, &launch)?;
     let init = call(
         ctx,
         "init",
@@ -362,7 +426,7 @@ pub async fn execute(
     // published client keeps the original public user in the query string.
     context["u"] = json!(returned_user);
     context["c"] = json!(session);
-    ctx.save_session(&json!({"provider":"kagaming","game":game.id,"demo_user":user,"session_id":session,"context":context,"currency":"USD","game_source_sha256":binding.source_sha256,"engine_source_sha256":ENGINE_HASH}))?;
+    ctx.save_session(&json!({"provider":"kagaming","game":game.id,"demo_user":user,"session_id":session,"context":context,"currency":"USD","game_source_sha256":game_hash,"engine_source_sha256":engine.source_sha256}))?;
     let p = profile(&init, &game.id, binding)?;
     let mut steps: Vec<(Value, Value)> = Vec::new();
     let seed = now_ms() % 2_000_000_000;
@@ -456,9 +520,129 @@ mod capture_tests {
     }
     #[test]
     fn signature_preserves_original_request_bytes() {
-        let a = signed_context("{\"a\":1}", &json!({"idv":"device","dv":"v"}), 7).unwrap();
-        let b = signed_context("{\"a\":2}", &json!({"idv":"device","dv":"v"}), 7).unwrap();
+        let context = json!({"idv":"device","dv":"v","av":"1.0.268 (2090)"});
+        let a = signed_context("{\"a\":1}", &context, 7).unwrap();
+        let b = signed_context("{\"a\":2}", &context, 7).unwrap();
         assert_ne!(a["ida"], b["ida"]);
         assert_eq!(a["idv"], "device");
+    }
+    #[test]
+    fn signature_matches_both_reviewed_javascript_engines() {
+        let evidence: Value = serde_json::from_str(include_str!(
+            "../../tests/fixtures/kagaming-bootstrap-versions.json"
+        ))
+        .unwrap();
+        for case in evidence["signatures"].as_array().unwrap() {
+            let signed = signed_context(
+                case["body"].as_str().unwrap(),
+                &case["context"],
+                case["timestamp"].as_u64().unwrap(),
+            )
+            .unwrap();
+            assert_eq!(
+                signed["ida"], case["expected_ida"],
+                "engine {}, branch {}",
+                case["build"], case["branch"]
+            );
+        }
+    }
+    #[test]
+    fn unknown_signature_versions_fail_closed() {
+        let error = signed_context(
+            "{}",
+            &json!({"av":"1.0.999 (9999)","idv":"synthetic-device","dv":"synthetic-version"}),
+            7,
+        )
+        .unwrap_err();
+        assert!(error.downcast_ref::<crate::model::UnknownEvent>().is_some());
+    }
+    #[test]
+    fn only_two_reviewed_games_use_new_sources() {
+        let evidence: Value = serde_json::from_str(include_str!(
+            "../../tests/fixtures/kagaming-bootstrap-versions.json"
+        ))
+        .unwrap();
+        for (game, modes) in BINDINGS.iter() {
+            let engine = engine_profile(game);
+            let current = evidence["games"].get(game);
+            let build = if current.is_some() { "2101" } else { "2090" };
+            assert_eq!(engine.build, build, "{game}");
+            assert_eq!(
+                engine.app_version,
+                evidence["engines"][build]["app_version"]
+            );
+            assert_eq!(
+                engine.source_sha256,
+                evidence["engines"][build]["source_sha256"]
+            );
+            assert_eq!(
+                engine.source_url(),
+                format!("https://gamesdemo.kaga88.com/game.min.{build}.js")
+            );
+            assert_eq!(
+                engine.game_source_url(game),
+                format!(
+                    "https://gamesdemo.kaga88.com/res/js/{build}/{}.js",
+                    game.to_ascii_lowercase()
+                )
+            );
+            for binding in modes.values() {
+                let expected = current
+                    .map(|row| row["game_source_sha256"].as_str().unwrap())
+                    .unwrap_or(&binding.source_sha256);
+                assert_eq!(game_source_hash(game, binding), expected, "{game}");
+            }
+        }
+    }
+    #[test]
+    fn initialization_uses_the_public_launch_token() {
+        for (query, expected) in [
+            ("t=1238", "1238"),
+            ("t=synthetic%2Btoken", "synthetic+token"),
+        ] {
+            let launch =
+                url::Url::parse(&format!("https://gamesdemo.kaga88.com/?{query}")).unwrap();
+            let body = initialization_request("ThiefDog", "synthetic-user", &launch).unwrap();
+            assert_eq!(
+                body,
+                json!({"un":"synthetic-user","pn":"demo","ak":"accessKey","gn":"ThiefDog","loc":"es","to":expected,"cr":"USD","gm":0,"tb":null,"mi":-1,"mc":0})
+            );
+        }
+        for query in ["", "t="] {
+            let launch =
+                url::Url::parse(&format!("https://gamesdemo.kaga88.com/?{query}")).unwrap();
+            assert!(initialization_request("ThiefDog", "synthetic-user", &launch).is_err());
+        }
+    }
+    #[test]
+    fn current_init_menus_preserve_the_reviewed_modes_and_provenance() {
+        let evidence: Value = serde_json::from_str(include_str!(
+            "../../tests/fixtures/kagaming-bootstrap-versions.json"
+        ))
+        .unwrap();
+        for (game, data) in evidence["games"].as_object().unwrap() {
+            for mode in ["normal", "buy-1"] {
+                let binding = &BINDINGS[game][mode];
+                let p = profile(&data["init"], game, binding).unwrap();
+                assert_eq!((p.sel, p.cps, p.atb), (20, 1, 0));
+                assert_eq!(p.dn, json!(0.01));
+                let position = if mode == "buy-1" { Some(vec![1]) } else { None };
+                assert_eq!(p.position_for_step(0), position.as_ref());
+                assert!(p.position_for_step(1).is_none());
+                let steps = vec![(
+                    json!({}),
+                    json!({"e":false,"ec":0,"md":{"v":true,"tid":"synthetic-round","rf":0,"fsr":0,"bpd":null}}),
+                )];
+                let done = completed(&p, &steps).unwrap().unwrap();
+                assert_eq!(
+                    done.details["game_source_sha256"],
+                    data["game_source_sha256"]
+                );
+                assert_eq!(
+                    done.details["engine_source_sha256"],
+                    evidence["engines"]["2101"]["source_sha256"]
+                );
+            }
+        }
     }
 }

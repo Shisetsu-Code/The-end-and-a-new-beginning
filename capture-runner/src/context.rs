@@ -52,7 +52,7 @@ pub struct RunContext {
     deadline: Duration,
     steps: usize,
     #[cfg(test)]
-    test_origin: Option<String>,
+    pub(crate) test_origin: Option<String>,
 }
 fn headers(source: &HeaderMap) -> Vec<(String, String)> {
     source
@@ -618,8 +618,10 @@ pub fn validate_target(provider: &str, value: &str) -> Result<Url> {
                     }
                     "betman-demo.head.kendoo.pro" => {
                         url.path() == "/betman-demo/static/game.html"
-                            || (url.query().is_none()
-                                && url.path().ends_with("/demo/")
+                            || (matches!(
+                                url.query(),
+                                None | Some("gsc=login" | "gsc=start" | "gsc=play")
+                            ) && url.path().ends_with("/demo/")
                                 && crate::adapters::kendoo::native_codes().any(|code| {
                                     url.path()
                                         .starts_with(&format!("/betman-demo/gs/{code}/desktop/"))
@@ -957,6 +959,38 @@ mod tests {
         io::{AsyncReadExt, AsyncWriteExt},
         net::TcpListener,
     };
+    #[test]
+    fn kendoo_browser_command_query_is_limited_to_reviewed_commands() {
+        let endpoint = "https://betman-demo.head.kendoo.pro/betman-demo/gs/coin_dragon/desktop/fixture-queue/demo/";
+        for query in ["", "?gsc=login", "?gsc=start", "?gsc=play"] {
+            assert!(
+                validate_target("kendoo", &format!("{endpoint}{query}")).is_ok(),
+                "{query}"
+            );
+        }
+        for query in [
+            "?gsc=",
+            "?gsc=admin",
+            "?gsc=spin",
+            "?gsc=login&gsc=play",
+            "?gsc=login&external=1",
+            "?external=1",
+            "?GSC=login",
+        ] {
+            assert!(
+                validate_target("kendoo", &format!("{endpoint}{query}")).is_err(),
+                "{query}"
+            );
+        }
+        assert!(
+            validate_target(
+                "kendoo",
+                "https://betman-demo.head.kendoo.pro/admin/?gsc=login"
+            )
+            .is_err()
+        );
+        assert!(validate_target("kendoo", "https://attacker.invalid/betman-demo/gs/coin_dragon/desktop/fixture-queue/demo/?gsc=login").is_err());
+    }
     #[test]
     fn playtech_sources_for_other_games_reach_the_native_transport() {
         for resource in [

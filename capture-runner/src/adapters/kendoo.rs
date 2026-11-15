@@ -10,6 +10,7 @@ use serde::Deserialize;
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, sync::LazyLock};
 use url::Url;
+use uuid::Uuid;
 
 const ORIGIN: &str = "https://betman-demo.head.kendoo.pro";
 #[derive(Deserialize)]
@@ -112,26 +113,26 @@ struct Session<'a> {
     ctx: &'a RunContext,
     endpoint: Url,
     launch: Url,
-    sequence: usize,
 }
 
 impl Session<'_> {
     async fn command(&mut self, name: &str, mut body: Value, financial: bool) -> Result<Value> {
-        self.sequence += 1;
-        let id = self.sequence.to_string();
+        let id = Uuid::new_v4().simple().to_string();
         body["request_id"] = json!(id);
         body["command"] = json!(name);
         body["client_command_timestamp"] = json!(now_ms());
+        let mut target = self.endpoint.clone();
+        target.query_pairs_mut().append_pair("gsc", name);
         let response = self
             .ctx
             .http(
                 name,
                 "POST",
-                self.endpoint.as_str(),
+                target.as_str(),
                 BTreeMap::from([
                     ("origin".into(), ORIGIN.into()),
                     ("referer".into(), self.launch.to_string()),
-                    ("content-type".into(), "text/plain;charset=UTF-8".into()),
+                    ("content-type".into(), "text/plain".into()),
                     ("accept".into(), "*/*".into()),
                 ]),
                 serde_json::to_string(&body)?,
@@ -298,7 +299,6 @@ pub async fn execute(
         ctx,
         endpoint,
         launch,
-        sequence: 0,
     };
     let login = wire
         .command(
@@ -384,6 +384,36 @@ fn next_action(context: &Value) -> Result<&str> {
 #[cfg(test)]
 mod capture_tests {
     use super::*;
+    include!(concat!(
+        env!("CARGO_MANIFEST_DIR"),
+        "/tests/support/goreel_http.rs"
+    ));
+
+    #[tokio::test]
+    async fn commands_match_browser_wire_and_preserve_correlation() {
+        let (_root, ctx, endpoint, server) = command_fixture("kendoo").await;
+        let mut session = Session {
+            ctx: &ctx,
+            endpoint: Url::parse(&endpoint).unwrap(),
+            launch: Url::parse("https://betman-demo.head.kendoo.pro/betman-demo/static/game.html?game=coin_dragon&wl=demo&token=fixture-demo-token").unwrap(),
+        };
+        for name in ["login", "start", "play"] {
+            let fields = if name == "login" {
+                json!({"token":"fixture-demo-token","language":"en"})
+            } else {
+                json!({"session_id":"fixture-session"})
+            };
+            session.command(name, fields, name == "play").await.unwrap();
+        }
+        for _ in 0..2 {
+            let error = session
+                .command("play", json!({"session_id":"fixture-session"}), true)
+                .await
+                .unwrap_err();
+            assert!(error.downcast_ref::<crate::model::UnknownEvent>().is_some());
+        }
+        assert_command_contract(&ctx, &server.await.unwrap());
+    }
 
     fn mode(key: &str, kind: ModeKind) -> Mode {
         Mode {

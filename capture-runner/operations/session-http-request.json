@@ -1,0 +1,33 @@
+{
+  "evidence_root": "../../standalone info",
+  "data_root": "../../session-http-output/captures",
+  "run_id": "session-http-20261115",
+  "default_parallel_games": 2,
+  "samples_per_mode": 1,
+  "max_steps": 256,
+  "timeout_seconds": 20,
+  "providers": [
+    { "id": "evoplay" },
+    { "id": "gamesglobal" },
+    { "id": "kagaming" },
+    { "id": "kendoo" },
+    { "id": "redtiger" },
+    { "id": "threeoaks" }
+  ],
+  "exits": [{ "id": "direct" }],
+  "games": [
+    "evoplay/venicefestival",
+    "evoplay/treeoflightfabledfruits",
+    "gamesglobal/GoldBlitzExtreme",
+    "gamesglobal/12MasksofFireDrums",
+    "kagaming/TropicalHoliday",
+    "kagaming/ThiefDog",
+    "kendoo/mariachi-lock",
+    "kendoo/coin-dragon",
+    "redtiger/pandagoesboom000",
+    "redtiger/happycappy000000",
+    "threeoaks/lava_coins_2",
+    "threeoaks/lady_fortune"
+  ],
+  "modes": ["normal", "0"]
+}

@@ -4,6 +4,7 @@ use crate::{
     model::{Completion, Game, Mode, ModeKind, decimal, unknown_event},
 };
 use anyhow::{Context, Result, ensure};
+use base64::{Engine as _, engine::general_purpose::STANDARD};
 use rust_decimal::Decimal;
 use serde_json::{Value, json};
 use std::collections::BTreeMap;
@@ -15,6 +16,16 @@ const VERSION: &str = "6.20261113.73039.67536-2dc7fa4ff6-r2";
 const CLIENT_UA: &str = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) hardfire/1.5.1 Chrome/152.0.7977.130 Electron/44.5.1 Safari/537.36";
 // Public frontend identifier published in Red Tiger's demo JS.
 const CLIENT: &str = "ATp3ZRaTE2u22oTM6GXmHtkgWYc6F8vZ";
+
+fn setup_headers(headers: &BTreeMap<String, String>) -> Result<BTreeMap<String, String>> {
+    // Official frontend getFingerprint -> module 23020 Ds: 32 random bytes, Base64.
+    // Captured HTML SHA-256: 27b4462ebf7abe4906d2da52779f266837d8373e1099911693791f2d91eb2e39.
+    let mut bytes = [0_u8; 32];
+    getrandom::fill(&mut bytes).context("Red Tiger random setup identifier unavailable")?;
+    let mut headers = headers.clone();
+    headers.insert("x-fingerprint".into(), STANDARD.encode(bytes));
+    Ok(headers)
+}
 
 pub(super) fn text<'a>(v: &'a Value, key: &str) -> Result<&'a str> {
     v[key]
@@ -222,7 +233,7 @@ pub async fn execute(
             &format!(
                 "{FANSITE}/setup?device=desktop&wrapped=false&locale=en-GB&client_version={VERSION}"
             ),
-            headers.clone(),
+            setup_headers(&headers)?,
             String::new(),
             false,
         )
@@ -408,6 +419,29 @@ pub async fn execute(
 #[cfg(test)]
 mod capture_tests {
     use super::*;
+
+    #[test]
+    fn setup_fingerprint_is_fresh_32_byte_base64_and_not_shared_with_config() {
+        let config_headers = BTreeMap::from([
+            (
+                "referer".into(),
+                "https://fansite.evo-games.com/frontend/evo/r2/".into(),
+            ),
+            ("user-agent".into(), CLIENT_UA.into()),
+        ]);
+        let first = setup_headers(&config_headers).unwrap();
+        let fingerprint = first
+            .get("x-fingerprint")
+            .expect("setup requires the native random identifier");
+        assert_eq!(STANDARD.decode(fingerprint).unwrap().len(), 32);
+        let second = setup_headers(&config_headers).unwrap();
+        assert_eq!(STANDARD.decode(&second["x-fingerprint"]).unwrap().len(), 32);
+        assert_ne!(fingerprint, &second["x-fingerprint"]);
+        assert!(!config_headers.contains_key("x-fingerprint"));
+        let mut without_fingerprint = first;
+        without_fingerprint.remove("x-fingerprint");
+        assert_eq!(without_fingerprint, config_headers);
+    }
 
     #[test]
     fn math_mode_binding_needs_only_native_id_and_type() {
