@@ -82,7 +82,9 @@ python -B -m unittest discover -s tools/tests -v
 python -B tools/upload_evidence_stream.py --help
 ```
 
-El workflow [`evidence-upload-tests.yml`](../.github/workflows/evidence-upload-tests.yml) ejecuta fixtures en Windows y Linux con Python 3.10 y 3.13. No accede a la carpeta del usuario, no sube evidencia real y no necesita credenciales de carga. El estado realmente observado de estas pruebas se registra en el HANDOFF al cerrar la entrega.
+Verificado en `783efe380db46e6ddadf6028f84c29cee6534af6`: [CI 43857546086 correcto](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43857546086). El workflow [`evidence-upload-tests.yml`](../.github/workflows/evidence-upload-tests.yml) pasó en Windows y Linux con Python 3.10 y 3.13: Windows ejecutó los 22 casos, incluidas junctions; Linux pasó 21 y omitió sólo esa prueba de plataforma. No accede a la carpeta del usuario, no sube evidencia real y no necesita credenciales de carga.
+
+Script verificado: 21649 bytes; SHA-256 `edfd136574af41fda7f2a3d3fe455d30748b32651d0850d9a48c3308bd0edb18`. La comparación de metadatos contempla las diferencias de CPython Windows entre consultas por ruta y por descriptor sin quitar la detección de cambios durante lectura.
 
 ## Fuentes oficiales
 
