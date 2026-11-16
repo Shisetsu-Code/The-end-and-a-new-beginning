@@ -1,0 +1,5784 @@
+{
+  "format": "complete-rounds-game-selection",
+  "version": 1,
+  "run_id": "complete-rounds-10-20261115",
+  "repository_commit": "af8f957cce4cd57fe633da50b4620116ed19c6e3",
+  "eligibility_source": "docs/live-smoke-2026-11-15.json",
+  "eligibility_source_sha256": "cf779acdf9a838713d3471490fb6ab8e299f8edf8f860831170f08f21ea6c2b1",
+  "coverage_source": "capture-runner/docs/coverage.json",
+  "coverage_source_sha256": "e4f62d0cc2311bdd1b57424aabfa83ddbd04ee99ddc8e42b25a35f00758b7318",
+  "selection_method": {
+    "provider_eligibility": "At least one native completion in the earlier smoke campaign (13 complete providers and 8 partial providers).",
+    "native_completion_seed": "Keep every executable game with at least one complete mode from the earlier campaign, including its previously failing implemented modes.",
+    "mode_diversity": "Add games to cover every implemented mode type present in each eligible provider. RubyPlay additionally covers every implemented purchase selector (freespin, respin, minispin and select). Prefer the largest number of newly covered families, then the stable selection hash.",
+    "remaining_games": "Rank executable games by implemented-mode count, then SHA-256; divide rank into four quartiles using 1+floor(4*rank/count). Repeatedly pick from the least represented nonempty quartile, tie by quartile number then selection hash, until 10 distinct games are selected.",
+    "stable_hash": "SHA256(run_id + \"|\" + provider + \"/\" + game)",
+    "scope": "All implemented modes of every selected game, one sample per mode; native continuation steps up to 512. Unknown continuations remain partial. No fabricated actions or closures.",
+    "unsupported_policy": "Declared separately. They are not implemented attempts and remain visible because modes=[] keeps the complete catalog selection."
+  },
+  "totals": {
+    "eligible_providers": 21,
+    "previously_complete_providers": 13,
+    "previously_partial_providers": 8,
+    "selected_games": 210,
+    "previously_closing_games": 41,
+    "implemented_mode_attempts": 582,
+    "unsupported_modes": 11,
+    "providers_with_fewer_than_ten_available": [],
+    "configured_parallel_game_slots": 42,
+    "samples_per_mode": 1,
+    "max_steps": 512,
+    "implemented_mode_counts_by_type": {
+      "antebet": 25,
+      "booster": 55,
+      "normal": 210,
+      "purchase": 224,
+      "variant": 68
+    },
+    "unsupported_mode_counts_by_type": {
+      "purchase": 1,
+      "variant": 10
+    },
+    "maximum_active_games_for_selection": 42
+  },
+  "offline_validation": {
+    "command": "capture-runner plan --config <temporary absolute-path candidate> --details",
+    "exit_code": 0,
+    "network_requests": 0,
+    "binary_sha256": "faceddbd1e234c09eb2147affcd553b2e8dce00c9423de6d2e2de4010af179a6",
+    "catalog_sha256": "62313f02295d368df06d344816564bdc335b8e39c914f092e59e3e6e8bfe35ac",
+    "all_selected_games_executable": true,
+    "all_counts_match": true
+  },
+  "providers": [
+    {
+      "provider": "1spin4win",
+      "previous_result": "complete",
+      "previous_native_completions": 5,
+      "available_executable_games": 232,
+      "selected_games": 10,
+      "implemented_mode_attempts": 13,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "antebet",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "CashnFruitsFortune27",
+          "name": "Cash'n Fruits Fortune 27",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "compra",
+              "type": "purchase"
+            },
+            {
+              "mode": "antebet",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "95cf35d7c5347b9aa357d6a2c9da99d9711c92315665f76d6d089ae0a1f11f97",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "compra",
+            "antebet"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "compra",
+              "status": "complete"
+            },
+            {
+              "mode": "antebet",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "AllwaysEgypt",
+          "name": "All Ways Egypt",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "compra",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "3519c9f26c75d0f2b6b4536c6ba8680316b16ecbf0b2f23bbefb478d0ff7814c",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "compra"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "compra",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "Lucky10Bells",
+          "name": "Lucky 10 Bells",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00cf75e71dd2942d35cefcde3990bdd0ce486a9a8a045014de53f30a68b1bb36",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "LuckyRobberyWinSpins",
+          "name": "Lucky Robbery Win Spins",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5b2c1fe6d52330024d8aaacb2701ef2550509166d59003648600b4950572e50b",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "DolphinsWealthHoldAndWin",
+          "name": "Dolphin's Wealth Hold And Win",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "9fe92b3cb04e178f8707c3f01c3bfd80d4d25b2a746b73743dd03556cda33671",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "RetroMegaFruits",
+          "name": "Retro Mega Fruits",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00fbc618f566813bc164a937033830946fcab03f27200d4aac35aa091992285f",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "CashnFruits27HoldAndWin",
+          "name": "Cash'n Fruits 27 Hold And Win",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5c5adf7028622040f5cea7abf74ac317e6491290eef0b638501863b5b213d688",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "LuckyEve100",
+          "name": "Lucky Eve 100",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "a194b3fad970347ad8fdd65490592dbebe46f2e035f22b0045e90c61e9602c9f",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "BoomingFruits243",
+          "name": "Booming Fruits 243",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0120f8cc2159b34713b6b89584602f8894adc2263cbc54eaaa38fd69b7fd3cbe",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "BuffalosWealthHoldAndWin",
+          "name": "Buffalo’s Wealth Hold And Win",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5ded1730a9d1ae6c11d5587101d1172a78a57bcd3750a6233f7d40358cccc34e",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 1,
+        "normal": 10,
+        "purchase": 2
+      }
+    },
+    {
+      "provider": "amigogaming",
+      "previous_result": "complete",
+      "previous_native_completions": 5,
+      "available_executable_games": 156,
+      "selected_games": 10,
+      "implemented_mode_attempts": 15,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "174",
+          "name": "book-of-zeus-2",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_PICKME",
+              "type": "purchase"
+            },
+            {
+              "mode": "BUY_FREE_GAME",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "6ae5fb804dcb134999aad2769fb337b438e65255fe7a7712d50e46a174950fde",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "NORMAL",
+            "BUY_PICKME",
+            "BUY_FREE_GAME"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "NORMAL",
+              "status": "complete"
+            },
+            {
+              "mode": "BUY_PICKME",
+              "status": "complete"
+            },
+            {
+              "mode": "BUY_FREE_GAME",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "84",
+          "name": "candy-time",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_FREE_GAMES_8",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "e297c422d8561b2d3e79718841f6a105c3c0012bdcff6bc05a8b1c843cf07204",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "NORMAL",
+            "BUY_FREE_GAMES_8"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "NORMAL",
+              "status": "complete"
+            },
+            {
+              "mode": "BUY_FREE_GAMES_8",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "19",
+          "name": "amigo-hot40",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0104001a610c346a9eae2c69fe0a25b2c97b70dcfa30bd2425de9021ca3c813b",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "56",
+          "name": "regal-crown-50",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "61934c195c4fc536561ba634cfeafd97b690535df6fe60e829438806ec941059",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "79",
+          "name": "animal-housing",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_FREE_GAMES",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "1494603727cc0c79da5bf4608bc17c728008077ca962a8a705543aad0af1683c",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "177",
+          "name": "fortune-dice",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0332fd99050a2956ac99b0ef12b34ed947a844ce1e8fd612a28c027bb2a6fa3e",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "16",
+          "name": "amigo-silver-classic",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "61bcf040bc6a4a7f1ad0852f76843f02516656e0660d73868ec1edb84e613077",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "144",
+          "name": "gift-mania",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_PICKME",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "1a6a67910a589694658a36bad421e8952fd26c6c1dc5ae4b2121256cab453d9d",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "21",
+          "name": "regal-fruits-5",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "05d41450cef655afa0a4307f0aed462e4861a8b8c9d3054664ea0e0f5427f606",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "141",
+          "name": "crime-town",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "67d335ae1789c5f46e8c044b07714448f84d22404c8fb52c08a5f5fc2f5a05d2",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "purchase": 5
+      }
+    },
+    {
+      "provider": "betsoft",
+      "previous_result": "partial",
+      "previous_native_completions": 5,
+      "available_executable_games": 211,
+      "selected_games": 10,
+      "implemented_mode_attempts": 16,
+      "unsupported_modes": 10,
+      "covered_mode_types": [
+        "booster",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "945",
+          "name": "treasures-of-cleopatra",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "purchase"
+            },
+            {
+              "mode": "boost",
+              "type": "booster"
+            },
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "c48a0d668a4dd2cefffd2a81d20fa4ec5c135d511358804347fb4fbf71331f5b",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "boost",
+            "normal"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "0",
+              "status": "unknown_event"
+            },
+            {
+              "mode": "boost",
+              "status": "complete"
+            },
+            {
+              "mode": "normal",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "1000",
+          "name": "3-pots-of-olympus",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "purchase"
+            },
+            {
+              "mode": "1",
+              "type": "purchase"
+            },
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "dffd9c15036da6a5fbb7235048de48b279904710dd72a5564abea798815a7284",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "0",
+            "1",
+            "normal"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "0",
+              "status": "complete"
+            },
+            {
+              "mode": "1",
+              "status": "complete"
+            },
+            {
+              "mode": "normal",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "815",
+          "name": "super-sweets",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [
+            {
+              "mode": "gamble-HEADS-ALL",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            },
+            {
+              "mode": "gamble-HEADS-HALF",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            },
+            {
+              "mode": "gamble-TAILS-ALL",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            },
+            {
+              "mode": "gamble-TAILS-HALF",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            }
+          ],
+          "selection_sha256": "054bb8473c50c5a7ad54275c76e8520a721d9a64b57addf711b27c17139afdd6",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "837",
+          "name": "take-olympus",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "80b6c402126268752a84777cce81b29e1ac945ada42422b85667369d991dd11d",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "996",
+          "name": "once-again-upon-a-time",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "purchase"
+            },
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00ad467000bdb97a48f901ed65e9ba590032533fccb816017e8c0958d9ecc5a7",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "553",
+          "name": "alkemors-tower",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [
+            {
+              "mode": "gamble-HEADS",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            },
+            {
+              "mode": "gamble-TAILS",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            }
+          ],
+          "selection_sha256": "056bf1ff55e28fe033a714ea5406002c3d89bc53cfbef16271fa51477ba87851",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "225",
+          "name": "paco-and-the-popping-peppers",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "85e6db1894324c6f730411317e2b1dbb88458691b4d1f00746278b63e647124b",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "1012",
+          "name": "midnight-bandits",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "purchase"
+            },
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00f6687685fb6bd44301035f6eca4cc590dafd0c96b8de5aeffca205b13cc01e",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "788",
+          "name": "tigers-claw",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [
+            {
+              "mode": "gamble-HEADS-ALL",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            },
+            {
+              "mode": "gamble-HEADS-HALF",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            },
+            {
+              "mode": "gamble-TAILS-ALL",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            },
+            {
+              "mode": "gamble-TAILS-HALF",
+              "type": "variant",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            }
+          ],
+          "selection_sha256": "07721fb241abdff81a981df225a2e782a955b10ad2691b2cdfa522b683781687",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "350",
+          "name": "enchanted",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "87083fbc64ad5a13935f7fe1cfc128d427a96f1ca15873d5f64344543bbe630a",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "booster": 1,
+        "normal": 10,
+        "purchase": 5
+      }
+    },
+    {
+      "provider": "bgaming",
+      "previous_result": "complete",
+      "previous_native_completions": 8,
+      "available_executable_games": 215,
+      "selected_games": 10,
+      "implemented_mode_attempts": 31,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "antebet",
+        "booster",
+        "normal",
+        "purchase",
+        "variant"
+      ],
+      "games": [
+        {
+          "game": "BigTunaBonanza",
+          "name": "Big Boat \nBig catch",
+          "implemented_modes": [
+            {
+              "mode": "normal@rows:4",
+              "type": "normal"
+            },
+            {
+              "mode": "freespin_buy:4@rows:4",
+              "type": "purchase"
+            },
+            {
+              "mode": "freespin_chance:4@rows:4",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "be9bd033a5473b04b6f5bdb9a1fb78e924707ef3b05371014f492c3e85fe1897",
+          "mode_count_quartile": 3,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal@rows:4",
+            "freespin_buy:4@rows:4",
+            "freespin_chance:4@rows:4"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal@rows:4",
+              "status": "complete"
+            },
+            {
+              "mode": "freespin_buy:4@rows:4",
+              "status": "complete"
+            },
+            {
+              "mode": "freespin_chance:4@rows:4",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "ChickenFire",
+          "name": "Chicken Fire",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy_chance",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy_bonus",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_super_bonus",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_ultra_bonus",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "8c16aeafe6cf0c3ed7547c2073f17af664bfa205c0430e877b3c04d87cfcd450",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "buy_chance",
+            "buy_bonus",
+            "buy_super_bonus",
+            "buy_ultra_bonus"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_chance",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_bonus",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_super_bonus",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_ultra_bonus",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "MultiRush",
+          "name": "Multi Rush",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "boost",
+              "type": "booster"
+            },
+            {
+              "mode": "cx64",
+              "type": "variant"
+            },
+            {
+              "mode": "bonus",
+              "type": "variant"
+            },
+            {
+              "mode": "super",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4ca9f45a8091ab2d84251347702d04eba7dc7961819872317c1c2a26f19bbe7c",
+          "mode_count_quartile": 4,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "type",
+              "booster"
+            ],
+            [
+              "type",
+              "variant"
+            ]
+          ]
+        },
+        {
+          "game": "LuckAndMagic",
+          "name": "Luck & Magic",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "bonus_buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "01f02142a27e166947e703d2e243926071dcbc3239f01ee2b4406a91a38157fe",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "CarnivalBonanza",
+          "name": "Carnival Bonanza",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "freespin_chance",
+              "type": "antebet"
+            },
+            {
+              "mode": "freespin_buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0949d5f2e09b5220ae2fc5c98d0e17204d4d24d5c8ae407cb8160b99c7c699e1",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "LadyLuckyGun",
+          "name": "Lady Lucky Gun",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "022fd99e42ac9bbdce9c86228f1f99de64bd2945cd2e26eb7b4b1b8131eb0398",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "DragonAge",
+          "name": "Dragon Age Hold & Win",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "freespin_buy",
+              "type": "purchase"
+            },
+            {
+              "mode": "bonus_buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "09fdfe5ee6e73eb1d02f7ae57227aa9a0599bf160667e29c4a54fcb01c28d97f",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "WildHeart",
+          "name": "Wild Heart",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "freespin_buy:1",
+              "type": "purchase"
+            },
+            {
+              "mode": "freespin_buy:2",
+              "type": "purchase"
+            },
+            {
+              "mode": "freespin_buy:3",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "018c12804757e7237f153532ae7d4c031b7dc69d5c738003d7c738ab82e24526",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "BookOfCats",
+          "name": "Book Of Cats",
+          "implemented_modes": [
+            {
+              "mode": "normal/all_default_lines",
+              "type": "normal"
+            },
+            {
+              "mode": "feature_buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "02883a9954f7d166278356480aa19ea6376c83ec3ae45a0c66df4e4dbdaff21d",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "Ultras",
+          "name": "Ultras",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "bonus_buy",
+              "type": "purchase"
+            },
+            {
+              "mode": "bonus_chance",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0e2de2cf4388e8e541e49514dc163318c0fe9bdf2a26b31c958789273c3d81bc",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 4,
+        "booster": 1,
+        "normal": 10,
+        "purchase": 13,
+        "variant": 3
+      }
+    },
+    {
+      "provider": "egt-digital",
+      "previous_result": "complete",
+      "previous_native_completions": 6,
+      "available_executable_games": 231,
+      "selected_games": 10,
+      "implemented_mode_attempts": 14,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "purchase",
+        "variant"
+      ],
+      "games": [
+        {
+          "game": "SWSSSlot",
+          "name": "SWSSSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            },
+            {
+              "mode": "1",
+              "type": "variant"
+            },
+            {
+              "mode": "2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "443451e8631d0d08ba9af36415eae83ba5dc16858089e48cf4e55d1bceee4e08",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "0",
+            "1",
+            "2"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "0",
+              "status": "complete"
+            },
+            {
+              "mode": "1",
+              "status": "complete"
+            },
+            {
+              "mode": "2",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "SVSlot",
+          "name": "SVSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            },
+            {
+              "mode": "1",
+              "type": "variant"
+            },
+            {
+              "mode": "2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "2088905332d66bcfae38fd96adcb067a22a12f885b5348f61acd24fb59f4a092",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "0",
+            "1",
+            "2"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "0",
+              "status": "complete"
+            },
+            {
+              "mode": "1",
+              "status": "complete"
+            },
+            {
+              "mode": "2",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "TWSHSlot",
+          "name": "TWSHSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "02038ac8d7ff6435624b24bd6cf35479810fac1b93d1cb5afc84d4b8ca050441",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "DRHCSlot",
+          "name": "DRHCSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "51fb7ac60b9b8b256cfed6ac36aa8947c126659e8c8a3f1527b7df75b93dd276",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "FRSRSlot",
+          "name": "FRSRSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "a5d8401e114b2b253cf4253cb4017425c0930306450a354dbb5d7db22c411f57",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "OHJHSlot",
+          "name": "OHJHSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "024406092d14a13e8b28d066eeb17df24880a4ede5a402ba86cde92d40bba543",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "FHEBLSlot",
+          "name": "FHEBLSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5330e6ce4d1aa9fd079de774c2aff1b53217750b10d42aa351cee10b612276ee",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "THBSlot",
+          "name": "THBSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "a6b15419723553e48f12097a050bdf5479f5afd7361b4a95cad1f44a3fd45eb4",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "TBHRSlot",
+          "name": "TBHRSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0270376fc0fd56d781aa5e0540fc1c893241af2ebff06590e9233e407b392f3c",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "OHCHSlot",
+          "name": "OHCHSlot",
+          "implemented_modes": [
+            {
+              "mode": "0",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5338f316398ec5f8432a1c6daebb4bc4edb124bf11552ba1844cd41cfdb34690",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "purchase": 2,
+        "variant": 2
+      }
+    },
+    {
+      "provider": "elk",
+      "previous_result": "complete",
+      "previous_native_completions": 6,
+      "available_executable_games": 159,
+      "selected_games": 10,
+      "implemented_mode_attempts": 63,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "variant"
+      ],
+      "games": [
+        {
+          "game": "nitropolis",
+          "name": "Nitropolis",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            },
+            {
+              "mode": "BB1",
+              "type": "variant"
+            },
+            {
+              "mode": "BB2",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "02689a77966a2eebaf49f5a0df48a9c62a144e975629313b2998c132fb69bbae",
+          "mode_count_quartile": 2,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "DEF",
+            "BB1",
+            "BB2"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "DEF",
+              "status": "complete"
+            },
+            {
+              "mode": "BB1",
+              "status": "complete"
+            },
+            {
+              "mode": "BB2",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "katmandu-gold",
+          "name": "Katmandu Gold",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            },
+            {
+              "mode": "BB1",
+              "type": "variant"
+            },
+            {
+              "mode": "BB2",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0eca48f381bc2db716487d889edc98b1b5b99844eff38c199c52463fb5ee68e2",
+          "mode_count_quartile": 2,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "DEF",
+            "BB1",
+            "BB2"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "DEF",
+              "status": "complete"
+            },
+            {
+              "mode": "BB1",
+              "status": "complete"
+            },
+            {
+              "mode": "BB2",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "kaiju",
+          "name": "Kaiju",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "002876054d9cf0d22be16a2acab351675f7918c0bc3bc390bf9980353e639ae1",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "wild-toro-2",
+          "name": "Wild Toro II",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            },
+            {
+              "mode": "X01",
+              "type": "variant"
+            },
+            {
+              "mode": "X02",
+              "type": "variant"
+            },
+            {
+              "mode": "X03",
+              "type": "variant"
+            },
+            {
+              "mode": "X04",
+              "type": "variant"
+            },
+            {
+              "mode": "X05",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "46769ae633817a70c9cd1425bb31a62e7771ee8f514f212efc547858d3678798",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "pirots-4-frozen-fury",
+          "name": "Pirots 4 – Frozen Fury",
+          "implemented_modes": [
+            {
+              "mode": "DEF:fire",
+              "type": "normal"
+            },
+            {
+              "mode": "X01:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X02:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X03:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X04:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X05:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "DEF:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X01:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X02:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X03:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X04:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X05:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "DEF:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X01:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X02:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X03:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X04:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X05:space",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0f40586667b475ab9f518fdd8c4325c03a16f43e4046845422ede6767a7b48ac",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "crusader",
+          "name": "Crusader",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "016af335359fb644b2c6e269ebe6bbdf6359cea0497dc38599f7eab6a5522396",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "cathedral-9",
+          "name": "Cathedral 9",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            },
+            {
+              "mode": "X01",
+              "type": "variant"
+            },
+            {
+              "mode": "X02",
+              "type": "variant"
+            },
+            {
+              "mode": "X03",
+              "type": "variant"
+            },
+            {
+              "mode": "X04",
+              "type": "variant"
+            },
+            {
+              "mode": "X05",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4915f10fc6e94fb0fd3baaabf407897338b764e3b091bc8aab59185b79c34db7",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "pirots-4",
+          "name": "Pirots 4",
+          "implemented_modes": [
+            {
+              "mode": "DEF:fire",
+              "type": "normal"
+            },
+            {
+              "mode": "X01:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X02:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X03:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X04:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "X05:fire",
+              "type": "variant"
+            },
+            {
+              "mode": "DEF:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X01:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X02:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X03:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X04:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "X05:ice",
+              "type": "variant"
+            },
+            {
+              "mode": "DEF:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X01:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X02:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X03:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X04:space",
+              "type": "variant"
+            },
+            {
+              "mode": "X05:space",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "1afa14dbf61ddcd73d737c72359c0e4720473ea0a97856bbfb63296f51e153f9",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "taco-brothers",
+          "name": "Taco Brothers",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "09f53e16172009578ce86dffa0bc396e6c19f99dac9a9e5c5f30271f5d7364b7",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "world-eaters",
+          "name": "World Eaters",
+          "implemented_modes": [
+            {
+              "mode": "DEF",
+              "type": "normal"
+            },
+            {
+              "mode": "X01",
+              "type": "variant"
+            },
+            {
+              "mode": "X02",
+              "type": "variant"
+            },
+            {
+              "mode": "X03",
+              "type": "variant"
+            },
+            {
+              "mode": "X04",
+              "type": "variant"
+            },
+            {
+              "mode": "X05",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00b0680728b1b51016f21dcd7f27473c5edd249f19926d54783a643e9eecfbae",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "variant": 53
+      }
+    },
+    {
+      "provider": "endorphina",
+      "previous_result": "complete",
+      "previous_native_completions": 6,
+      "available_executable_games": 238,
+      "selected_games": 10,
+      "implemented_mode_attempts": 19,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "86",
+          "name": "Kamchatka",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy-BUYIN_BONUS_GEISER",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "3d11d022454487fc86087e21f63f5c35c2493d24cde6adf241cbe6c236dc9a00",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "buy-BUYIN_FREE_GAMES",
+            "buy-BUYIN_BONUS_GEISER"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "status": "complete"
+            },
+            {
+              "mode": "buy-BUYIN_BONUS_GEISER",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "482",
+          "name": "Prestige Crown",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES_GOLD",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "c8c996e4c04b1e7e1fe459b64a438d74e18d23f18985bcd335198522350b80d9",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "buy-BUYIN_FREE_GAMES",
+            "buy-BUYIN_FREE_GAMES_GOLD"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "status": "complete"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES_GOLD",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "127",
+          "name": "Lucky Dice 1",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00002396c62c7daa4ab0160cf1fd3155e148abc44b4da25ec72039995dd6133b",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "371",
+          "name": "Wild Streak",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00fd691d7a00eba73229ad97e7bd0106bfbbd077402e15eead8cba75ad75e484",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "349",
+          "name": "Glory of Egypt",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "365b8bdcf4c5516a3fb83bf22f1b6bb767f41830c72507c06649d05aa9869066",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "233",
+          "name": "Chance Machine 40",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "062e985817b4a1ec6650bc14c324717bb4ff16af1d3483dc7e09daaa81fecf6c",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "47",
+          "name": "2027 ISS",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "025f6082c53c940abb743e9bd0ad30017a5c276d51bdc45fe134ddd27830937a",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "34",
+          "name": "Jetsetter",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "38e2cf28cd55187c9ca9421f95ff2b8ce6bcf11ba4595b3c329306dc73eb3044",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "409",
+          "name": "Lord of the Seas",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "079a82f11a62e9c14b356c24c2b6bb2322ab39f1ef990166f00d8a1b6dc27ba0",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "415",
+          "name": "Fresh Crush",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy-BUYIN_FREE_GAMES",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "095d963df08a38a0afbf1def022ea44b5cdb98d47b9181930c0c8a4d9febd833",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "purchase": 9
+      }
+    },
+    {
+      "provider": "habanero",
+      "previous_result": "complete",
+      "previous_native_completions": 6,
+      "available_executable_games": 205,
+      "selected_games": 10,
+      "implemented_mode_attempts": 16,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "booster",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "SGGladiatorRoyal",
+          "name": "GladiatorRoyal",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "superbet",
+              "type": "booster"
+            },
+            {
+              "mode": "buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "b4ecfc585a4950ae6a7818767c558caa511d0e682d7c0dbe46b153ee7246f998",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "superbet",
+            "buy"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "superbet",
+              "status": "complete"
+            },
+            {
+              "mode": "buy",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "SGSuperFruitBlast",
+          "name": "SuperFruitBlast",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "superbet",
+              "type": "booster"
+            },
+            {
+              "mode": "buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "803526823efd26070f68c372a53cc2147610a5357dc0e6b689bae907e643209a",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "superbet",
+            "buy"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "superbet",
+              "status": "complete"
+            },
+            {
+              "mode": "buy",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "SGOrbsOfAtlantis",
+          "name": "OrbsOfAtlantis",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0390a6fc9f31d712fc858d7ae82156e0f729b8aa67adaa22a90a68e83f5a41af",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SGNaughtySanta",
+          "name": "NaughtySanta",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4ac01dc411f0e5a6aebd3768afb127ade6e440e364bb9bede979de223b046b5d",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SGGoldKoiFortune",
+          "name": "GoldKoiFortune",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "superbet",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "11f7b700c4c24f68c9398eeb0e5d47938fcc9e619026c95eab7332f25df9e25f",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SGFaCaiShen",
+          "name": "FaCaiShen",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "05cecf8c3030ac62705b3d999efd50be01d6395438ee769d8a8f9a49bd3b5662",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SGSkysTheLimit",
+          "name": "SkysTheLimit",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4bee89b2685c2de427d75691d306b484be8dee9563f6f351a142b04bbea76040",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SGVampiresFate",
+          "name": "VampiresFate",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "superbet",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5301841607b10768298d7adfd11b9c640420a1c27da7cfa1a18b75987885d6e2",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SGBarnstormerBucks",
+          "name": "BarnstormerBucks",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "06011855a1e96ba3fc5980167bd8c717c604c7a31ff980381028d7f2d69fe2da",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SGDoubleODollars",
+          "name": "DoubleODollars",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4f99239a4a62c4a647417fe9780436d8b490ea84dd4d28a667133957f9373c1a",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "booster": 4,
+        "normal": 10,
+        "purchase": 2
+      }
+    },
+    {
+      "provider": "hacksaw",
+      "previous_result": "partial",
+      "previous_native_completions": 6,
+      "available_executable_games": 142,
+      "selected_games": 10,
+      "implemented_mode_attempts": 57,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "booster",
+        "normal",
+        "purchase",
+        "variant"
+      ],
+      "games": [
+        {
+          "game": "2670",
+          "name": "The Jade Path Hold & Win",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "bonus",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "82c91d6bce5f26f315bdfca57d2bf0d4cdcf35ea46f095b04e53aee01f231727",
+          "mode_count_quartile": 1,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "mod_bonus"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "mod_bonus",
+              "status": "complete"
+            },
+            {
+              "mode": "bonus",
+              "status": "unknown_event"
+            }
+          ]
+        },
+        {
+          "game": "1897",
+          "name": "The Luxe",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "fs",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "ede87ca8ac6370829c5667346890eab24091a1a1424a4023ca3f96ba2b4295cb",
+          "mode_count_quartile": 1,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "mod_bonus",
+            "fs",
+            "fs_2"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "mod_bonus",
+              "status": "complete"
+            },
+            {
+              "mode": "fs",
+              "status": "complete"
+            },
+            {
+              "mode": "fs_2",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "1426",
+          "name": "Beam Boys",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus_low",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_bonus_extreme",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_cats_low",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_cats_extreme",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_cats_2_low",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_cats_2_extreme",
+              "type": "booster"
+            },
+            {
+              "mode": "freespins_low",
+              "type": "purchase"
+            },
+            {
+              "mode": "freespins_extreme",
+              "type": "purchase"
+            },
+            {
+              "mode": "mode-extreme",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "16a701e0bbab91e0a8ff23a002a1528752513694e663b7a0d3bfd3f66f3f0883",
+          "mode_count_quartile": 4,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "type",
+              "variant"
+            ]
+          ]
+        },
+        {
+          "game": "1360",
+          "name": "Dragon's Domain",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_charred",
+              "type": "booster"
+            },
+            {
+              "mode": "fs_lair",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_hatchery",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "42c0ba30ba60bb63564ea2d5ff20535425295551d7c6af2783741fdc86a71f77",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "2057",
+          "name": "Le Fisherman",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_rainbow",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_epic",
+              "type": "booster"
+            },
+            {
+              "mode": "fs",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0c47080048451ad2a7c018248003e6501aeca23abd8900424d1b11cc414491d3",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "1279",
+          "name": "Beast Below",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_siren",
+              "type": "booster"
+            },
+            {
+              "mode": "fs_siren",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_below",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "42dd4f5e240515cd1dacba778bbb4ad64406a847f7c1bdcb446f25e492235741",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "1616",
+          "name": "Rise of Ymir",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_ymir",
+              "type": "booster"
+            },
+            {
+              "mode": "fs",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_2",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_3",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0d443d21db44cd9d1df2fd276deb380b693d407c7227393302faa4096af1ac9a",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "1442",
+          "name": "Dawn of Kings",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_book",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_book_2",
+              "type": "booster"
+            },
+            {
+              "mode": "fs",
+              "type": "purchase"
+            },
+            {
+              "mode": "bob_3_fs",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_2",
+              "type": "purchase"
+            },
+            {
+              "mode": "bob_3_fs_2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "45f68e021faaf8e95d85f63c4b64b08069a61f400e7dcaaf5548fce25e410b73",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "2019",
+          "name": "Circle of Life",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_tree",
+              "type": "booster"
+            },
+            {
+              "mode": "fs",
+              "type": "purchase"
+            },
+            {
+              "mode": "super",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "06de129ef5522d30c9fe377bb0433c0f1c998fd7bb63d44b760c6d0bff587aec",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "1404",
+          "name": "Rusty & Curly",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "mod_bonus",
+              "type": "booster"
+            },
+            {
+              "mode": "mod_wild",
+              "type": "booster"
+            },
+            {
+              "mode": "fs",
+              "type": "purchase"
+            },
+            {
+              "mode": "fs_2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4b6bf5cfc46fe910cb695dab819c739bcfbfe7efa4491205639f3a952bd8bf77",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "booster": 24,
+        "normal": 10,
+        "purchase": 22,
+        "variant": 1
+      }
+    },
+    {
+      "provider": "hardfire-kalamba",
+      "previous_result": "complete",
+      "previous_native_completions": 2,
+      "available_executable_games": 66,
+      "selected_games": 10,
+      "implemented_mode_attempts": 10,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal"
+      ],
+      "games": [
+        {
+          "game": "9blazingcashpots50k",
+          "name": "9blazingcashpots50k",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "1346fd64b61bf042c77e1538992468cf2d30e6f0029d95ee683a58de3e4582c9",
+          "mode_count_quartile": 1,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "footballblast-hnw",
+          "name": "footballblast-hnw",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "cfb26f23dc4a7b77734014ecf96cd18e0631f6519172e2ed9bf1f733c5fcc87b",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "eaglehonor7s-cds",
+          "name": "eaglehonor7s-cds",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "3f0421dfaaf4a89c9e4890ca346121bf3b6cf039f711a8752abee721bd71d8fd",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "dynastyspark7s-cds",
+          "name": "dynastyspark7s-cds",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "83bcf4eb407e0192de143e99d15de00b15eb131188acef956fae9aed262362b5",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "alieneggstractors",
+          "name": "alieneggstractors",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "01995cb86af9a054a96f9d5cc11bab5f799fc2fad4ae35c0ff6411ebb3b8b6a9",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "ageofhuracan",
+          "name": "ageofhuracan",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "3ffa414764cc3120968d274fa9f7a37e108b96d61c4a88e0b83bd57c3cfa3582",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "coinpotstrike7s",
+          "name": "coinpotstrike7s",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "88ae1d004b9fa5bb81c9ddcfd9d790a7c2ac70263e6423b2a7817c1d42f6f69e",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "fishlineloot-hnw",
+          "name": "fishlineloot-hnw",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "c64720855df9414d1e1508a5f902c4945038c3a8e0da03f59d70c056b43376a7",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "divinegongs-cds",
+          "name": "divinegongs-cds",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "028f8242b42db84c92b3cb9c45db9e90958bb42664f49474ea2abf4799c94880",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "dynastyspark7s",
+          "name": "dynastyspark7s",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "434c84cb26aabaa327c0cb35d27e72d996f9af0c0a380ca2462a154a54bc11e2",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10
+      }
+    },
+    {
+      "provider": "mascot",
+      "previous_result": "complete",
+      "previous_native_completions": 6,
+      "available_executable_games": 126,
+      "selected_games": 10,
+      "implemented_mode_attempts": 16,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "antebet",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "tessa_hunt_and_the_mission_monte_carlo",
+          "name": "Tessa Hunt and the Mission Monte Carlo",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "boost",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy_0",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "680fa51ae519735b39c4df912b57c141de265ca0be8d24bf2c08c7ab3bff819d",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "boost",
+            "buy_0"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "boost",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_0",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "secrets_of_papyrus",
+          "name": "Secrets of Papyrus",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "boost",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy_0",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5013be9e899e26dbebdcc035a1b96758260f29cf203f5eac348dea880e6981e4",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "boost",
+            "buy_0"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "boost",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_0",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "the_princess_and_dwarfs_rockways",
+          "name": "The Princess & Dwarfs: Rockways",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "022d08780b913c9db463ddb7975d6efd4ce1be886eb042bae8750de753a29f96",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "dice_vegas",
+          "name": "Dice Vegas",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "55c05eaa572530101c2b2001d8fa486784e024e6bf621f03e0a000f941167fb7",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vamos_ganamos",
+          "name": "Vamos, Ganamos!",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "boost",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "27602196142989b7fb3c03591dcbc80482827110237c55d7ad3fa4b17afaf51c",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "azino_fruit_machine_x25",
+          "name": "Azino Fruit Machine x25",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0256abf7e6adf2110b425a4daf8d0b093f0ef0359f5358a7670a5279b600ccd7",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "dragons_nest",
+          "name": "Dragon's Nest",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "6031ecd723cc506ade4c69ed9a641eb1adbed43a4ec838f039f9a64558380771",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "riot_urban_wilds",
+          "name": "Riot: Urban Wilds",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "boost",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "2adc47c92e1b18c26811e85c6a2158cab612593db7cfe16189d7a611d90123d1",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "fairytale_coven",
+          "name": "Fairytale Coven",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "06aea63490fab336226c532c60d07d5b853c4a7c656e6b8fdfa33a3cc1720762",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "all_star_win_x50",
+          "name": "All Star Win x50",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "612217e3cc83a419e592f601cf1252ffe17e4d38d1f9e0f81faa692c7557adb9",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 4,
+        "normal": 10,
+        "purchase": 2
+      }
+    },
+    {
+      "provider": "nolimit",
+      "previous_result": "complete",
+      "previous_native_completions": 9,
+      "available_executable_games": 141,
+      "selected_games": 10,
+      "implemented_mode_attempts": 127,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "antebet",
+        "booster",
+        "normal",
+        "purchase",
+        "variant"
+      ],
+      "games": [
+        {
+          "game": "Infectious5",
+          "name": "Infectious 5 xWays®",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_5_SCATTERS",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "1c45b1ef27a26c88264e2bbd44cd2ea7e4b912bc668006691c1c8db7947fece0",
+          "mode_count_quartile": 2,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "FREESPIN_3_SCATTERS",
+            "FREESPIN_4_SCATTERS",
+            "FREESPIN_5_SCATTERS"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS",
+              "status": "complete"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS",
+              "status": "complete"
+            },
+            {
+              "mode": "FREESPIN_5_SCATTERS",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "Beheaded",
+          "name": "Beheaded",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "SUPER_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "9297e55a5d6397e53bead3994c7fba0f779daff9aa22586d5fac6c5c76780c11",
+          "mode_count_quartile": 2,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "FREESPIN",
+            "SUPER_FREESPIN",
+            "LUCKY_DRAW",
+            "BOOSTED_BET"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "FREESPIN",
+              "status": "complete"
+            },
+            {
+              "mode": "SUPER_FREESPIN",
+              "status": "complete"
+            },
+            {
+              "mode": "LUCKY_DRAW",
+              "status": "complete"
+            },
+            {
+              "mode": "BOOSTED_BET",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "SoakedBySeamen",
+          "name": "Soaked By Seamen",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "BOOSTED_BET",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_4",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_10",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_3",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_6",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_15",
+              "type": "booster"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW",
+              "type": "purchase"
+            },
+            {
+              "mode": "NORMAL_PLAY+FIRE_FRAME_5",
+              "type": "antebet"
+            },
+            {
+              "mode": "NORMAL_PLAY+FIRE_FRAME_7",
+              "type": "antebet"
+            },
+            {
+              "mode": "NORMAL_PLAY+FIRE_FRAME_10",
+              "type": "antebet"
+            },
+            {
+              "mode": "NORMAL_PLAY+MULTIPLIER_20",
+              "type": "antebet"
+            },
+            {
+              "mode": "NORMAL_PLAY+EXPAND_BANANA",
+              "type": "antebet"
+            },
+            {
+              "mode": "NORMAL_PLAY+DEAD_SPIN",
+              "type": "antebet"
+            },
+            {
+              "mode": "BOOSTED_BET+FIRE_FRAME_5",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_5",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_4+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_4+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_4+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_4+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_5",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_10+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_10+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_10+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_COCONUT_10+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_3+FIRE_FRAME_5",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_3+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_3+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_3+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_3+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_3+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_6+FIRE_FRAME_5",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_6+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_6+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_6+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_6+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_6+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_15+FIRE_FRAME_5",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_15+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_15+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_15+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_15+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_STATE_15+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_3_SCATTERS+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_4_SCATTERS+DEAD_SPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW+FIRE_FRAME_7",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW+FIRE_FRAME_10",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW+MULTIPLIER_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW+EXPAND_BANANA",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW+DEAD_SPIN",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4564a26c19f9d1c6c733b39edc66c4f8885a120fa7fc26b15a114e4da260c937",
+          "mode_count_quartile": 4,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "type",
+              "antebet"
+            ]
+          ]
+        },
+        {
+          "game": "KennethMustDie",
+          "name": "Kenneth Must Die",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "CAP_MODE_10000+NORMAL_PLAY",
+              "type": "variant"
+            },
+            {
+              "mode": "CAP_MODE_10000+FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_10000+COOL_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_10000+SUPER_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_10000+LITE_SUPER_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_10000+LUCKY_DRAW_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_10000+COOL_XHOLE_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_10000+X_HOLE",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_10000+X_HOLE_GUARANTEED",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_10000+BOOSTED_BET",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_10000+X_WAYS_BET",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_10000+X_NUDGE_BET",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+COOL_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+SUPER_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+LITE_SUPER_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+LUCKY_DRAW_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+COOL_XHOLE_FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+X_HOLE",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+X_HOLE_GUARANTEED",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+BOOSTED_BET",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+X_WAYS_BET",
+              "type": "booster"
+            },
+            {
+              "mode": "CAP_MODE_STANDARD+X_NUDGE_BET",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "ef1969568f2ad43df89d46b15ebc7bad8f2de59479d951002383de4b622bfff9",
+          "mode_count_quartile": 4,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "type",
+              "variant"
+            ]
+          ]
+        },
+        {
+          "game": "Tombstone",
+          "name": "Tombstone",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "06d1f0200005482f42465a180cadc538c068d2d7e02c8d98ee578c320a916f22",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "XwaysHoarder2",
+          "name": "xWays Hoarder 2",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "FREESPIN_LEVEL3",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_LEVEL4",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_LEVEL5",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_1",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_2",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_3",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "04d2c45b7bbae76239409f3a747b1a86fde54a9c29042d6ad1f0a6ba83f15869",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "Deadwood",
+          "name": "Deadwood xNudge®",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_BOUNTY",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0b6ef4f6c66f79c23179a06020b685b51270b636446efc24c72634de15a2d811",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "Disorder",
+          "name": "Disorder",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "FREESPIN_LEVEL3",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_LEVEL4",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_LEVEL5",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW",
+              "type": "purchase"
+            },
+            {
+              "mode": "BOOSTED_BET_1",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_2",
+              "type": "booster"
+            },
+            {
+              "mode": "BOOSTED_BET_3",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0b7266b7812631b1bbc9fdd39cc70be24669b4f081b18ab6ed594af60c4b940e",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "DragonTribe",
+          "name": "Dragon Tribe ",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "FREESPIN",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "12b2a509bdbef78d87884e1c93f422fa57b7d464d165880b37b450b77acc45ab",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "TheCage",
+          "name": "The Cage",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "FREESPIN",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_LEVEL3",
+              "type": "purchase"
+            },
+            {
+              "mode": "FREESPIN_LEVEL5",
+              "type": "purchase"
+            },
+            {
+              "mode": "LUCKY_DRAW",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00a0691da5946264017bcce84d5176e91dd14d8a8bc3954abcd0a435d67083a2",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 6,
+        "booster": 23,
+        "normal": 10,
+        "purchase": 87,
+        "variant": 1
+      }
+    },
+    {
+      "provider": "peterandsons",
+      "previous_result": "complete",
+      "previous_native_completions": 7,
+      "available_executable_games": 70,
+      "selected_games": 10,
+      "implemented_mode_attempts": 32,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "antebet",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "bloody-mary",
+          "name": "Bloody Mary: Pray for Prey",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "bet",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy_FS_3SC",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_SFS_3SC",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "13b4fc52061f810746273255c84743928530ae9bd97fbe3a34637d1abd2d95ea",
+          "mode_count_quartile": 3,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "main",
+            "bet",
+            "buy_FS_3SC",
+            "buy_SFS_3SC"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "main",
+              "status": "complete"
+            },
+            {
+              "mode": "bet",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_FS_3SC",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_SFS_3SC",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "viking-legacy",
+          "name": "VIKING LEGACY: HOLD & WIN",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "bet",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5ca680eab26650f5e429fb95686591604c11027b285169b9b5f226678de55995",
+          "mode_count_quartile": 2,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "main",
+            "bet",
+            "buy"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "main",
+              "status": "complete"
+            },
+            {
+              "mode": "bet",
+              "status": "complete"
+            },
+            {
+              "mode": "buy",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "rome",
+          "name": "Rome - The Conquerors",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "20c550644155377ba78b4b343ac8831af39cef19469b5f6971c92c759432b9d6",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "bubblegum-robo",
+          "name": "Bubblegum and Robo",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "bet",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy_FS_3SC",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_FS_POWER",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_POWER_SPIN",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "16eb2de49a0c5f1b16fa527469d9af9f0ecc5a9b0c783bc433b44308eaf6f37d",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "workshop",
+          "name": "Steamworks - The workshop",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "2b2c882384e51c7a1fe504582e7878d0f26f77cf23efb05f4b0aaf0d33899273",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "zombie-road",
+          "name": "Zombie Road",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "bet",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy_FS_3SC",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_FS_RANDOM",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0a7d34afec056119d26cf365b01d5523259f48464d26fd3b1fc9a481dd517cf8",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "water-blox",
+          "name": "Water Blox",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "buy_FS_20",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_FS_5",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_FS_RAND",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "131eda63f5abc6c6e7df8b2d036d519677393193de872270098eb3337b828260",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "rustworld",
+          "name": "Rust World",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "bet",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy_FS_4SC",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_FS_POWER",
+              "type": "purchase"
+            },
+            {
+              "mode": "buy_FS_RANDOM",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "1b6a901d91e8dcf3f8ead2fa3990f40899dcd3a0b313f1f1082a87bc9f1837e7",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "gears-of-fortune",
+          "name": "Steamworks - Gears of fortune",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "34a03df57bf7ff0711a3bf1fcd2f5790d1ea9cdfacb94c88e92b3d53567ae5a0",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "dungeon",
+          "name": "Dungeon Tower",
+          "implemented_modes": [
+            {
+              "mode": "main",
+              "type": "normal"
+            },
+            {
+              "mode": "bet",
+              "type": "antebet"
+            },
+            {
+              "mode": "buy",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "120f1ec15a53f2c9658db8c611cc2b180db9cf79580fdeb6868c7294355870d3",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 6,
+        "normal": 10,
+        "purchase": 16
+      }
+    },
+    {
+      "provider": "playngo",
+      "previous_result": "complete",
+      "previous_native_completions": 4,
+      "available_executable_games": 476,
+      "selected_games": 10,
+      "implemented_mode_attempts": 12,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "booster",
+        "normal"
+      ],
+      "games": [
+        {
+          "game": "998",
+          "name": "Crabby's Gold II",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "go-ultra",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "2624ed80a6b02fbfed1915d25a80f9dcaa279035847dd34558a96fda9a7e2d2b",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "go-ultra"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "go-ultra",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "992",
+          "name": "Buildin' Even More Bucks",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "go-ultra",
+              "type": "booster"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "d4120abf7457bf627f37182651d8cccb933f6575d6aa5e0e4de2c6c80a549c95",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "go-ultra"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "go-ultra",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "753",
+          "name": "Stepping Diamonds",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00f89926a8d4ba94ac9a155687de45d733401f1e990d353e79b1fb82eb89c8b2",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "476",
+          "name": "Derby Wheel",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "40d8d768ec172b4825f38435286c9945e1c87386d8767e248c7b8e17c1ad8ee2",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "708",
+          "name": "Athena Ascending",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "7fd90ee86c7b25debede535ba58fc0baafc4e7fe3993f692a7e8058be24d06ef",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "730",
+          "name": "Scourge of Rome",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "01d868ef77e984ff95790e8dc13d3aac9da9830e4995025ac9f8956c3eb1dc51",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "568",
+          "name": "Hooligan Hustle",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4120326924ef4faeb81d13432d8560975875b9f2c8fdaa9e80f7a712f84361c6",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "986",
+          "name": "Spinnin' Records Into the Beat",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "7ff98a27311bd36d02da987e9c3a34c0b7ba4532ce9356511848fe079535f412",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "928",
+          "name": "Mirror Joker",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "02015f3804bc50c46f194ee9eff318c1bb622612ec41912c9483ed42a03ba26d",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "994",
+          "name": "Piggy Blitz Casino Gold",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "41c06c03838986999998fb5b510fc01b8234f21275e8db8dea0f28fa55a5d401",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "booster": 2,
+        "normal": 10
+      }
+    },
+    {
+      "provider": "pragmatic",
+      "previous_result": "partial",
+      "previous_native_completions": 5,
+      "available_executable_games": 656,
+      "selected_games": 10,
+      "implemented_mode_attempts": 22,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "purchase",
+        "variant"
+      ],
+      "games": [
+        {
+          "game": "vs10bookfallen",
+          "name": "book-of-the-fallen",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "pur-1",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4bf0d67924ec9c645e76b6400276fb67ec235c0d9322ae572b0a71639098e004",
+          "mode_count_quartile": 3,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "pur-0"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "pur-0",
+              "status": "complete"
+            },
+            {
+              "mode": "pur-1",
+              "status": "provider_error"
+            }
+          ]
+        },
+        {
+          "game": "vswaysyinyang",
+          "name": "duel-of-night-day",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "fb876f7abb6630590a2794975909a91f40e991c4a48cee1f2dff5aac685fbfe0",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "pur-0",
+            "bl-1"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "pur-0",
+              "status": "complete"
+            },
+            {
+              "mode": "bl-1",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "vs25wildspells",
+          "name": "wild-spells-slot",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "008cb56210da492bcba1a7b496500ef852499a09ec5c9c6b768a7e1c40f2ae5d",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10bookoftut",
+          "name": "john-hunter-and-the-book-of-tut-slot",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "051c031dbbbff1fe8ca1d560c5dfc3c2e2930457436ad57b7f9e796729a502d4",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10fortnhsly",
+          "name": "lucky-ox",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "029000caa2b456e6a6ccb3a1037f31f2f1c083e2dca1af37c2b4a4cf2f31f784",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs20hstgldngt",
+          "name": "heist-for-the-golden-nuggets",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "07c7b2902304641b5564275f314844849ea8316d3c20109f4b7affccb5289612",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs20gtsofhades",
+          "name": "gates-of-hades",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "pur-1",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00cec621c87eab9c68dc19c2403eaee9dbbf02712abf3ea5976dd6e9ce7400fb",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10strawberry",
+          "name": "strawberry-cocktail",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "pur-1",
+              "type": "purchase"
+            },
+            {
+              "mode": "pur-2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0062eb0cf5f90d2443c8826c72ba64d88642a54284c166d12eef452d1b802fc8",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vswaysmajhng3p",
+          "name": "mahjong-wins-triple-pot",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0400dbd36dfdfd9c68f0b18734050af79bdf868de181f2cae3b8f1dab6a964a6",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs576treasures",
+          "name": "wild-wild-riches-slot",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "07e38a1a69435b609bcbe685114302539d66f1662ff38e8b84c7912c17638804",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "purchase": 10,
+        "variant": 2
+      }
+    },
+    {
+      "provider": "reelkingdom",
+      "previous_result": "partial",
+      "previous_native_completions": 5,
+      "available_executable_games": 73,
+      "selected_games": 10,
+      "implemented_mode_attempts": 26,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "purchase",
+        "variant"
+      ],
+      "games": [
+        {
+          "game": "vswaystonypzz",
+          "name": "peppes-pepperoni-pizza-plaza",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "64e6ff61ac740b1d43110e3e31470bfd301ea3c9b5780fa2a6ee50e9a51bae84",
+          "mode_count_quartile": 3,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "pur-0",
+            "bl-1"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "pur-0",
+              "status": "complete"
+            },
+            {
+              "mode": "bl-1",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "vswaysfltdrg",
+          "name": "floating-dragon-megaways",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "pur-1",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "50bf0dec3c68386f276de3e007007f426e8cb701bc5121e8e54847cce91e0161",
+          "mode_count_quartile": 2,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "pur-0"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "pur-0",
+              "status": "complete"
+            },
+            {
+              "mode": "pur-1",
+              "status": "provider_error"
+            }
+          ]
+        },
+        {
+          "game": "vs10snakeladd",
+          "name": "snakes-and-ladders-megadice",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "3d07748a06886197656a9b0f2962851617244d433b0b9d78b39b81096cd642b6",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10bblotgl",
+          "name": "big-bass-secrets-of-the-golden-lake",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "pur-1",
+              "type": "purchase"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "139d47708186a43d5aba7bca65b47a687c42483977e294904ae9ad5399ba99e9",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs20ekingrr",
+          "name": "emerald-king-rainbow-road",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "473f33320d3b01be336461d6e1693097ccbbdf4ab328cb02cbdf36620cbb098c",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10dkinghp",
+          "name": "dragon-king-hot-pots",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0a49c1e0c360a7f942234b1ef7662437ff97d29a7e5ed4c1b4d6bdcd436239bd",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10dyndigd",
+          "name": "dynamite-diggin-doug",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "53173c26732e534b88e720fa935e0357a622bd4509632124756f3b8f951e27ff",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs5bb3reeler",
+          "name": "big-bass-bonanza-3-reeler",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "pur-1",
+              "type": "purchase"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "3a0aa7dc78354a08dcf2e9d88a497652aa22480d422d31ca7d5783bef434d161",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10luckcharm",
+          "name": "lucky-grace-and-charm",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "508fad733791b51eb346c4b10689b4d2c8fc410b021e5b427b973fc519196bae",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "vs10bbfmission",
+          "name": "big-bass-mission-fishin",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "pur-0",
+              "type": "purchase"
+            },
+            {
+              "mode": "bl-1",
+              "type": "variant"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0ea5ff916f8a32ac44e4e30e6123c8ccb2734b1d3dddddf08a55f02282e4369a",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "purchase": 10,
+        "variant": 6
+      }
+    },
+    {
+      "provider": "rubyplay",
+      "previous_result": "partial",
+      "previous_native_completions": 3,
+      "available_executable_games": 179,
+      "selected_games": 10,
+      "implemented_mode_attempts": 15,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "rp_106",
+          "name": "Immortal Ways® Sweet Coin",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy_feature:freespin",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "d0d079e1cc005c7bf96691cc77f32b16c5de938187c5ae30b1861add182c21a0",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "buy_feature:freespin"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_feature:freespin",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "rp_103",
+          "name": "Mad Hit® Hidden Cities",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy_feature:freespin",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "b725b3e57c9a47db7fe3fc07687cf09bf1000f8692323a29a697e3c4dc33787d",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "buy_feature:freespin",
+              "status": "unknown_event"
+            }
+          ]
+        },
+        {
+          "game": "rp_214",
+          "name": "J Mania® Chili Champs",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy_feature:respin",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0ae390131ad3fbc37ab068ceac7b7c4c310a561660ec1a986b5f7dfe72bebda5",
+          "mode_count_quartile": 3,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "ruby_selector",
+              "buy_feature:respin"
+            ]
+          ]
+        },
+        {
+          "game": "rp_142",
+          "name": "Go High® Gallina",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy_feature:minispin",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "50bf6d1105a98db5d30b981fd1d3372b2b7871edea6d90f1b358621297c44027",
+          "mode_count_quartile": 3,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "ruby_selector",
+              "buy_feature:minispin"
+            ]
+          ]
+        },
+        {
+          "game": "rp_92",
+          "name": "Stampede Rush® Trident",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "buy_feature:select",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "6b182630126847ebd6f6e90ef7f51d03d34c34b47cfbe43470d73ef7eea7da5c",
+          "mode_count_quartile": 4,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "ruby_selector",
+              "buy_feature:select"
+            ]
+          ]
+        },
+        {
+          "game": "rp_4",
+          "name": "Piggy Gold",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "01558115e62153e2ce07494df138a99b24f6d97b453ec1fd844d046c8f006754",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "rp_99",
+          "name": "Stampede Rush® Speedy Santa",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "6beae969f0a680e9c1385a41f99f495aee8d55a8ccebcbe80d740a36d0953272",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "rp_96",
+          "name": "Mad Hit® Oasis",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "023be9d109221777ac7231852d974096dba72978b36f767873f6b070f3e9e9dc",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "rp_34",
+          "name": "Sun of Ra",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "776966737ed528e449a264db9df6c788504d08a6597a7e33c84885e54b68700e",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "rp_10",
+          "name": "Book of Riches",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "02e87ec609f67ef67bd98abee1cbdb30c828cc1a3cbac2b315d1e5dc970fdb57",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "purchase": 5
+      }
+    },
+    {
+      "provider": "smartsoft",
+      "previous_result": "complete",
+      "previous_native_completions": 6,
+      "available_executable_games": 41,
+      "selected_games": 10,
+      "implemented_mode_attempts": 16,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "antebet",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "GeniesBonanza",
+          "name": "Genie's Bonanza",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "PurchaseBonus:0",
+              "type": "purchase"
+            },
+            {
+              "mode": "RiskBet:0",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "1f68aa32ae88f864c75febe36be38d04990c07c9017d9c0125844bd3edd1f3c0",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "PurchaseBonus:0",
+            "RiskBet:0"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "PurchaseBonus:0",
+              "status": "complete"
+            },
+            {
+              "mode": "RiskBet:0",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "CoinsOfAtlantis",
+          "name": "Coins Of Atlantis",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "PurchaseBonus:0",
+              "type": "purchase"
+            },
+            {
+              "mode": "RiskBet:0",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0ff7be4e1e53559aa8e9455d9bf3ec12bdab414d2e49ea6790cf0ac99183af16",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "PurchaseBonus:0",
+            "RiskBet:0"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "PurchaseBonus:0",
+              "status": "complete"
+            },
+            {
+              "mode": "RiskBet:0",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "FarmsFortune",
+          "name": "Farm's Fortune",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "03a2f675b20a68b5a397849c23263bb285b3a062a9a717f06606f74a835fe40f",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "HotSamba",
+          "name": "Hot Samba",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "4b14c36c86e68b54f3e0114edca5cff6888a4d9d4660e638413e6924f23b1cee",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "JungleSistersDeluxe",
+          "name": "Jungle Sisters Deluxe",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "PurchaseBonus:0",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "5732f5371f3159130991ec9ff70ed9f7e481485406391101fdafce907f2b741b",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "MultiHot5Deluxe",
+          "name": "Multi Hot 5 Deluxe",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "05e3255d448128689a1bdade2230880dcf3038b68a4e82505887893896440eed",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "Samurai",
+          "name": "Samurai",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "503e504453a08d6a0e1fd0b80611890a4bd7c1f6440a548aedad644f99962f45",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "JungleSisters",
+          "name": "Jungle Sisters",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "PurchaseBonus:0",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "a312951a1be3bff3a5d9346a3d62eb51759c2c0d04040ae34927c17735561122",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "MultiHotWildWays",
+          "name": "Multi Hot Wild Ways",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0ae52cf08c9a257743592cf72c269260642a5e89d176d90c1d762b6e61c818c6",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "MultiHot100",
+          "name": "Multi Hot 100",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "648d63103ab12f1ab6ebfe3b0ec15407f43d0494eae7cf34fb3992982dfdffa0",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 2,
+        "normal": 10,
+        "purchase": 4
+      }
+    },
+    {
+      "provider": "spinomenal",
+      "previous_result": "partial",
+      "previous_native_completions": 4,
+      "available_executable_games": 536,
+      "selected_games": 10,
+      "implemented_mode_attempts": 28,
+      "unsupported_modes": 1,
+      "covered_mode_types": [
+        "antebet",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "SlotMachine_WolfFangWesternTales",
+          "name": "Wolf Fang – Western Tales",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "f1ed89ef18807d1b1570d79d1ebb7623475e0329c8f6c23d5034d0baa39aead0",
+          "mode_count_quartile": 3,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "catalog-purchase-000-pick-2"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "status": "unknown_event"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-2",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "SlotMachine_WolfFangValhallaRising",
+          "name": "Wolf Fang – Valhalla Rising",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-2",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "2c3d04fe183a73e1103fe7498c11471e78198868a3d22669e39725b9d341fee3",
+          "mode_count_quartile": 3,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "normal",
+            "catalog-purchase-000-pick-2"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "normal",
+              "status": "complete"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "status": "provider_error"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-2",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "SlotMachine_81SuperWildFruits",
+          "name": "81 Super Wild Fruits",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-ante-001",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "47ddeec48ddef292c8a7fcba8a69f9a668b39dadb0a877c06c66c157b32d9988",
+          "mode_count_quartile": 2,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "type",
+              "antebet"
+            ]
+          ]
+        },
+        {
+          "game": "SlotMachine_BookOfRebirth2",
+          "name": "Book Of Rebirth II",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00d595d2c4e81749399efd98d1d86a868bedfa5c2c7b1777939a0f72bdb95738",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SlotMachine_EgyptianRebirthIISOE",
+          "name": "Egyptian Rebirth II – Sands Of Eternity",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-2",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-3",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-4",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-purchase-000-pick-5",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "13a13c2e17b17c3b7e5b2c904105418adc2447a6ac58eb1c7a0de89474c7c028",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SlotMachine_TroutsTreasure-CountrysideQuest",
+          "name": "Trout’s Treasure – Countryside Quest",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "00f5dd5863a8daed6cf4f1ed7fb91ec99921306a6f887d65ebdbd2a02ea644cf",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SlotMachine_MagicalLeprechaunHoldHit",
+          "name": "Magical Leprechaun – Hold & Hit",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "29b4256b38f59b080a467d5390263f3830afd674ea219ac64b3e48f74ae74713",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SlotMachine_CrownStrikeHoldHit3x3",
+          "name": "Crown Strike – Hold & Hit 3×3",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-bonus-001",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-bonus-002",
+              "type": "purchase"
+            },
+            {
+              "mode": "catalog-bonus-003",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "19bd64b3dd2ce8ac8458e584ae69093a3848f2b8f5bb7c5f5e31c2eb44495350",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SlotMachine_BavarianRiches3",
+          "name": "Bavarian Riches 3",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "031826922d504d513642ce23649216980437e3453f7035bf66719f4e3540028f",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "SlotMachine_QueenOfGreece",
+          "name": "Queen of Greece",
+          "implemented_modes": [
+            {
+              "mode": "normal",
+              "type": "normal"
+            },
+            {
+              "mode": "catalog-purchase-000",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [
+            {
+              "mode": "observed:catalog-purchase-000-gamble",
+              "type": "purchase",
+              "reason": "native selector or continuation binding is not included for this game/mode"
+            }
+          ],
+          "selection_sha256": "2c0ea2e18b6de5d3ada0cc5ae325590fab85486b13b5b691322424db71d751cd",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 1,
+        "normal": 10,
+        "purchase": 17
+      }
+    },
+    {
+      "provider": "thunderspin",
+      "previous_result": "partial",
+      "previous_native_completions": 3,
+      "available_executable_games": 60,
+      "selected_games": 10,
+      "implemented_mode_attempts": 14,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "8",
+          "name": "Book of Egypt",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_BONUS",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "b7b1efdcfe080a848b10eae02002722e445e3309e4e903023274001dc71f748d",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "NORMAL",
+            "BUY_BONUS"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "NORMAL",
+              "status": "complete"
+            },
+            {
+              "mode": "BUY_BONUS",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "7",
+          "name": "Aztec Artefacts 10000",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_BONUS",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "01850d37f4891fdf74d826b3232678fb288e1ad87e241d4a178f4acefdeff89a",
+          "mode_count_quartile": 3,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "BUY_BONUS"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "NORMAL",
+              "status": "unknown_event"
+            },
+            {
+              "mode": "BUY_BONUS",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "50",
+          "name": "World Cup Football",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "157372e045d467c4d4b8c30f8434ae209d3f7ff045a15eaf8eba5908216cb2c6",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "48",
+          "name": "Vikings: Frozen Gods",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "905789d52b8a3ea6bf9bd5d1c04b86003bb86578126c0fbf236f4f606dd7c97a",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "9",
+          "name": "Book of Games",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "255009952824f54f551a475b3604eec921fbfeaf50ae8eb4ea1c37e6960f46ce",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "44",
+          "name": "Stellar",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "9213acf79c765dfe7fb8a940a433653a0c32b7bfb93981ee77fb1ad382c4837c",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "49",
+          "name": "Western Riches",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_BONUS",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "036e158039bfbb367cd61e7c81cc0795e93c4029b51b0b4cd9acb71f27c5fb21",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "11",
+          "name": "Book of Jam",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            },
+            {
+              "mode": "BUY_BONUS",
+              "type": "purchase"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "2f55bb5842fa806fb831e2458767c61e4e91dc1a29d593b4a8bd5ed2f5d0c24e",
+          "mode_count_quartile": 4,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "51",
+          "name": "Zombie Slot Deluxe",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "2861f0451acba392fad07251ce6b06e05e6b7d0072303d4045aad458425ed419",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "29",
+          "name": "Magic Jam",
+          "implemented_modes": [
+            {
+              "mode": "NORMAL",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "926591e81d0eda1bd4e48dde7d20678f448dad3014df2bdaecc906babc3734c5",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "normal": 10,
+        "purchase": 4
+      }
+    },
+    {
+      "provider": "yggdrasil",
+      "previous_result": "partial",
+      "previous_native_completions": 2,
+      "available_executable_games": 138,
+      "selected_games": 10,
+      "implemented_mode_attempts": 20,
+      "unsupported_modes": 0,
+      "covered_mode_types": [
+        "antebet",
+        "normal",
+        "purchase"
+      ],
+      "games": [
+        {
+          "game": "7400",
+          "name": "Vikings Go To Valhalla",
+          "implemented_modes": [
+            {
+              "mode": "BUY_BONUS",
+              "type": "purchase"
+            },
+            {
+              "mode": "BUY_RAGNAROK",
+              "type": "purchase"
+            },
+            {
+              "mode": "BUY_WHEEL",
+              "type": "purchase"
+            },
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "392a0bd234a47db6c88c36af40c5368902d12ac12cb7fef0b64b08f01a646257",
+          "mode_count_quartile": 4,
+          "selection_reason": "prior_native_completion",
+          "previous_completed_modes": [
+            "BUY_WHEEL",
+            "BASIC"
+          ],
+          "previous_attempt_statuses": [
+            {
+              "mode": "BUY_BONUS",
+              "status": "unknown_event"
+            },
+            {
+              "mode": "BUY_RAGNAROK",
+              "status": "unknown_event"
+            },
+            {
+              "mode": "BUY_WHEEL",
+              "status": "complete"
+            },
+            {
+              "mode": "BASIC",
+              "status": "complete"
+            }
+          ]
+        },
+        {
+          "game": "10188",
+          "name": "Cazino Zeppelin Reloaded",
+          "implemented_modes": [
+            {
+              "mode": "BUY_BONUS_0",
+              "type": "purchase"
+            },
+            {
+              "mode": "BUY_BONUS_1",
+              "type": "purchase"
+            },
+            {
+              "mode": "BUY_BONUS_2",
+              "type": "purchase"
+            },
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            },
+            {
+              "mode": "GOLDEN_BET",
+              "type": "antebet"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0273560ada511b88c9379cde41f36b8879067f78610278586dc9007064b98884",
+          "mode_count_quartile": 4,
+          "selection_reason": "mode_family_diversity",
+          "added_families": [
+            [
+              "type",
+              "antebet"
+            ]
+          ]
+        },
+        {
+          "game": "10094",
+          "name": "Valley Of The Gods",
+          "implemented_modes": [
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "01ca932c97833e534798d965858a55b09fa594078c7cc36c06d6e48b7c35a7c0",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "7373",
+          "name": "Jackpot Express",
+          "implemented_modes": [
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "6a792f0c17f1311a203bcddaa457d55601972c70721f5da9e7acbab278473288",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "10638",
+          "name": "Lucky Ryan GigaBlox™",
+          "implemented_modes": [
+            {
+              "mode": "BB_0",
+              "type": "purchase"
+            },
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0adddedefb51a6c0c2dfeaf95b4f6bf87725458a2c9bd2dca367e12a5d0acaf6",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "8301",
+          "name": "Orient Express",
+          "implemented_modes": [
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "07837c7893af3f56bfbd34d1fdfa7d4ae5e07daf0be8e823d3bc48c3995c486b",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "7350",
+          "name": "Penguin City",
+          "implemented_modes": [
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "6b30744c9ce6904dae09d5df8289174617dd1ba1d8c90de417c43de6a5a0ad90",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "10797",
+          "name": "GoldStorm Ultra",
+          "implemented_modes": [
+            {
+              "mode": "BUYRFS",
+              "type": "purchase"
+            },
+            {
+              "mode": "BUYSFS",
+              "type": "purchase"
+            },
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0bd0a45082e50ef35fff1814cb77b2153fff23edb6308ca2ef83825ca5b696f0",
+          "mode_count_quartile": 3,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "7409",
+          "name": "Golden Fish Tank 2 Gigablox™",
+          "implemented_modes": [
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "0785f4230ed368fb4b5a78bf4309e9fa96c5de1fe7b117b0f763c296172cb62c",
+          "mode_count_quartile": 1,
+          "selection_reason": "stratified_hash_sample"
+        },
+        {
+          "game": "10915",
+          "name": "Goals of Olympus BoltLock™",
+          "implemented_modes": [
+            {
+              "mode": "BASIC",
+              "type": "normal"
+            }
+          ],
+          "unsupported_modes": [],
+          "selection_sha256": "6bf877fb081010009835ab741e874749b5277626f166e9cbaca0f04f9f571972",
+          "mode_count_quartile": 2,
+          "selection_reason": "stratified_hash_sample"
+        }
+      ],
+      "implemented_mode_counts_by_type": {
+        "antebet": 1,
+        "normal": 10,
+        "purchase": 9
+      }
+    }
+  ]
+}
