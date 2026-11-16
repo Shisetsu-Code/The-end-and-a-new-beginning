@@ -1,8 +1,22 @@
 # Retomar el proyecto
 
-**Estado al 15 de noviembre de 2026:** el runner y replay están publicados en `main`; la corrección más reciente de sesiones es [317fe6f](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/317fe6f87b5726ac3cae3ec69751809adf007f3c). Comprobar `git status` y `git log -3 --oneline` al retomar. La implementación original de la ampliación sigue identificada por `f550c02`; no confundir sus resultados históricos con los de los cambios posteriores.
+**Estado al 16 de noviembre de 2026 UTC —15 por la noche en UTC−3—:** el runner y replay están publicados en `main`. La última campaña amplió la muestra a diez juegos de cada proveedor con cierres previos, usando el binario de `af8f957`; no cambió adaptadores ni cobertura. Comprobar `git status` y `git log -3 --oneline` al retomar. La ampliación original sigue identificada por `f550c02` y la corrección de sesiones por `317fe6f`; conservar los resultados de cada etapa por separado.
 
-## Última tarea: sesiones Playwright y reproducción HTTP
+## Última tarea: diez juegos por proveedor con cierres previos
+
+La solicitud se ejecutó completa: **21 proveedores × 10 juegos, 582 intentos de modos implementados, 473 cierres nativos verificados y 109 parciales**. No hubo modos implementados sin iniciar, duplicados, `transport_error` ni timeout. Los **11 modos sin contrato** quedan separados. Leer el [informe](COMPLETE-ROUNDS-10-2026-11-15.md) y consultar los [casos JSON](complete-rounds-10-2026-11-15.json) por proveedor antes de repetir el diagnóstico.
+
+- **Normales: 181/210.** Catorce proveedores cerraron sus diez normales; ocho cerraron todos sus modos implementados. Por juego: **163 cerraron todos sus modos, 19 algunos y 28 ninguno**.
+- Parciales: **90 `provider_error` y 19 `unknown_event`**. El informe agrupa 22 causas: 55 errores HTTP de apertura, 15 rechazos durante operación, 15 controles/contratos locales y 24 continuaciones pendientes. `provider_error` no atribuye por sí mismo un fallo al servidor.
+- Sólo **514 intentos registraron alguna intención de acción de ronda**; 68 no registraron ninguna. Las 2578 acciones marcadas y los 260 intentos con varias acciones no equivalen a giros base ni a bonos independientes.
+- [Captura 43784896618](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43784896618): 341 s, del 16/11 01:12:45 al 01:18:26 UTC —15/11 22:12:45–22:18:26 UTC−3—. El workflow conserva `failure`/exit 2 por parciales y cobertura pendiente; cifrado y artifact correctos. Solapamiento observado de intervalos: **42 juegos / 21 proveedores**, máximo dos juegos por proveedor; no es concurrencia exacta HTTP/WS.
+- Solicitud/workflow: **`84b4b96`**, [CI 43784896641 correcto](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43784896641). Binario: **`af8f957`**, obtenido del [CI 43699080917](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43699080917). Hashes exactos y configuración en el informe y la [guía operativa](../capture-runner/operations/COMPLETE-ROUNDS-10.md).
+- **1746 hashes/tamaños de archivos de intentos correctos, cero incidencias de integridad.** Replay de los 582 intentos offline: **473 exit 0 / 109 exit 2**, con **4945 solicitudes/pasos** y cero incidencias; las parciales se conservan como tales.
+- Banco privado verificado y entregado aparte: **`complete-rounds-10-bank-20261115.zip`**, 142555475 bytes, SHA-256 `7ea575226fb25e63e4b6b63c403fe8f32352104381a8597ae88720d6e8f3909e`. Incluye el banco, binario, original cifrado, material privado de recuperación y manifiesto; todo ese material permanece fuera de Git. El informe identifica el índice y los controles del paquete.
+
+La selección es fija y dirigida: 41 juegos con cierres anteriores, nueve por diversidad y 160 por estratos. No extrapolar sus resultados al catálogo. Los 14 proveedores sin cierres previos quedaron fuera; **esta campaña no revalidó ni resolvió los 403 del retest de sesiones** descrito a continuación. No repetir capturas por una edición documental.
+
+## Histórico: sesiones Playwright y reproducción HTTP
 
 El usuario pidió comprobar si los 403 se debían a falta de sesión, iniciar las demos con Playwright y portar su contrato a HTTP/WS. **La inspección de 12 juegos terminó y los cambios están implementados.** Leer [SESSION-BOOTSTRAP-2026-11-15.md](SESSION-BOOTSTRAP-2026-11-15.md) y [sus casos JSON](session-bootstrap-2026-11-15.json) antes de repetir la investigación.
 
@@ -59,7 +73,7 @@ El banco `rubyplay-capture-bank-20261115.zip` fue generado, verificado y entrega
 - **Playtech:** NGM, GLU6, PSI/Extreme Fruits, Venetian Masks/Ferox y otros UUID/constructores incompletos. Las siete trazas contienen 47 comandos, pero 19 payloads están redactados y 28 `playStack` truncados: no forman un banco de respuestas completas. Los 986 recibos tampoco equivalen a 986 partidas reproducibles.
 - **Kalamba:** el 66/66 abarca sólo los normales inventariados; no habilita compras ni continuaciones sin contrato.
 - **Local visual:** existe CLI/API de mensajes, sin cliente gráfico/assets originales, reescritura automática de tokens/contadores ni generación de nuevas rondas/RNG.
-- **Operación real:** ya se probó la muestra indicada arriba en GitHub Actions, con salida directa. Sigue pendiente verificar peers WireGuard reales, otras salidas/geografías y el resto del catálogo; los resultados de dos juegos no se extrapolan al proveedor completo.
+- **Operación real:** se probaron las muestras de 35 × 2 y 21 × 10 en GitHub Actions, con salida directa. Los fallos y continuaciones de la última campaña están localizados en su informe y no se corrigieron en esta tarea. Sigue pendiente verificar peers WireGuard reales, otras salidas/geografías y el resto del catálogo; las muestras no se extrapolan al proveedor completo.
 
 Los demás pendientes y los archivos exactos que faltan están en [MISSING-EVIDENCE.md](../capture-runner/docs/MISSING-EVIDENCE.md). No repetir una auditoría de todos los proveedores para cambiar uno.
 
@@ -73,6 +87,7 @@ El usuario **ya entregó** `ENTREGA-CLAUDE(2).zip`, `evidencia-claude-20261115.z
 
 | Necesidad | Leer primero | Código relevante bajo `capture-runner/src/` |
 |---|---|---|
+| Retomar resultados de diez juegos por proveedor | [Informe 21 × 10](COMPLETE-ROUNDS-10-2026-11-15.md), [casos JSON](complete-rounds-10-2026-11-15.json) y [operación](../capture-runner/operations/COMPLETE-ROUNDS-10.md) | `capture_bank.rs`, `replay.rs`, adaptador del proveedor afectado |
 | Ejecutar/configurar VM | [README del runner](../capture-runner/README.md), [WireGuard](../capture-runner/docs/WIREGUARD.md) | `config.rs`, `engine.rs`, `supervisor.rs`, `wireguard.rs` |
 | Exportar/importar/reproducir | [REPLAY](../capture-runner/docs/REPLAY.md), [interfaces](../capture-runner/INTERFACES.md) | `capture_bank.rs`, `ruby_import.rs`, `replay.rs`, `main.rs` |
 | Diagnosticar 403 / sesiones | [Contraste Playwright/HTTP](SESSION-BOOTSTRAP-2026-11-15.md), casos JSON y evidencia privada identificada allí | `context.rs`, adaptador del proveedor, `operations/SESSION-BOOTSTRAP.md` |
@@ -87,6 +102,8 @@ jq '.providers[] | select(.provider == "rubyplay")' capture-runner/docs/coverage
 ```
 
 ## Verificación y reanudación mínima
+
+Última verificación de campaña: binario `af8f957` fijado por CI/hash, 582 intentos capturados y reproducidos offline, 473 completos / 109 parciales, 1746 archivos de intentos íntegros. Esta campaña no añadió código Rust ni modificó cobertura; las pruebas de implementación de cada etapa se mantienen atribuidas a su commit.
 
 Rust mínimo 1.99; verificado con 1.100.0. En `317fe6f`, suite normal **274 correctos y 2 opt-in ignorados**; fmt, clippy y release correctos. La ampliación `f550c02` tuvo 264 correctos incluyendo los dos opt-in, con 44 hashes de bindings y cobertura generada verificados; los cambios de sesiones no alteran esos bindings ni la cobertura. Los detalles y comandos opt-in están en [VERIFICATION.md](../capture-runner/docs/VERIFICATION.md); no volver a ejecutar la investigación completa para una edición documental.
 
@@ -108,6 +125,7 @@ capture-runner/target/release/capture-runner plan --config capture-runner/exampl
 - `a1cb667`: recuperación de la fuente pública Kendoo exacta observada; sin otra sesión de juego.
 - `317fe6f`: contratos de sesión portados, regresiones y campaña HTTP acotada vinculada a su CI.
 - `abe03e1`: corrección del gate sin depender de `rg` y solicitud `r2`; mismo Rust, CI correcto y muestra HTTP real de 12 parciales.
+- `84b4b96`: solicitud de diez juegos de los 21 proveedores con cierres previos, con binario `af8f957` fijado por CI/hash; 582 intentos, 473 cierres / 109 parciales, banco y replay offline íntegros. Sin cambios de adaptadores ni cobertura.
 - Este traspaso conserva los resultados por etapa y los paquetes privados; una revisión documental no añade cambios de comportamiento.
 
 Los planes/especificaciones de `docs/superpowers/` explican decisiones históricas. No reabrir sus tareas completadas ni usar sus conteos antiguos como estado actual.

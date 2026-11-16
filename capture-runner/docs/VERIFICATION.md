@@ -1,5 +1,30 @@
 # Verificación del runner
 
+## Campaña de diez juegos por proveedor: 15 de noviembre de 2026 UTC−3
+
+La muestra se ejecutó el **16/11/2026, 01:12:45–01:18:26 UTC** —15/11, 22:12:45–22:18:26 UTC−3—. [Informe completo](../../docs/COMPLETE-ROUNDS-10-2026-11-15.md), [casos JSON](../../docs/complete-rounds-10-2026-11-15.json) y [guía operativa](../operations/COMPLETE-ROUNDS-10.md). La campaña reutiliza un binario verificado; no cambió adaptadores ni cobertura.
+
+| Comprobación | Resultado |
+|---|---|
+| Solicitud/workflow | `84b4b96d227e73c2d4ac046a0a67e7d2452a09ba`; [CI 43784896641](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43784896641) correcto |
+| Fuente del ejecutable | `af8f957cce4cd57fe633da50b4620116ed19c6e3`; [CI 43699080917](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43699080917) correcto |
+| SHA-256 del ejecutable usado | `faceddbd1e234c09eb2147affcd553b2e8dce00c9423de6d2e2de4010af179a6` |
+| Plan offline e identidad de entradas | 21 proveedores, 210 juegos ejecutables, 582 modos implementados y 11 sin contrato; 42 cupos; runtime/evidencia coincidentes con el binario fijado |
+| [Captura 43784896618](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43784896618) | **582/582 intentos iniciados y terminados** en 341 s; **473 cierres / 109 parciales**, sin timeout ni `transport_error` |
+| Estados originales de las parciales | 90 `provider_error`, 19 `unknown_event`; los 11 modos sin contrato se cuentan aparte |
+| Modos normales | **181/210 completos**; 14 proveedores con sus diez normales completos |
+| Todos los modos implementados | Ocho proveedores y 163 juegos completan toda su muestra; otros 19 juegos cierran algunos modos y 28 ninguno |
+| Integridad del banco | **1746/1746 archivos** con SHA-256 y tamaño correctos; cero ausentes, truncamientos o inconsistencias |
+| Replay completo del banco, sin red | **582 intentos**, **4945 solicitudes/pasos**; 473 exit 0, 109 exit 2, cero incidencias |
+| Solapamiento observado | Máximo **42 intervalos de juegos / 21 proveedores**, dos juegos por proveedor; no mide solicitudes HTTP/WS simultáneas |
+| Artefacto y resultado de Actions | Cifrado y upload correctos; el workflow conserva `failure`/exit 2 por parciales y cobertura pendiente |
+
+Se contrastaron `index.state`, incidencias, `result.status`, `completion` no nulo, último `attempt_finish`, metadatos, secuencia del journal, hashes y tamaños. Los saldos no participan en el cierre. Se verificaron también los 582 replays con las solicitudes originales: el exit 2 de una parcial preserva su estado y no se trata como fallo nuevo del reproductor.
+
+El índice del banco tiene SHA-256 `fc058196d57d1daf16bff914a3f0637cc16a6a34e3eba93a305e6ee89d93e39e`. El paquete privado `complete-rounds-10-bank-20261115.zip` se identifica en el informe; originales, mensajes, claves y resultados privados permanecen fuera de Git.
+
+La muestra fija contiene 41 juegos con cierres previos, nueve por diversidad y 160 por estratos. Sólo 514 intentos registraron alguna intención de acción de ronda; 68 no registraron ninguna. Ni 582 intentos ni 2578 acciones marcadas equivalen a ese número de giros aceptados. La campaña no revalidó los 14 proveedores excluidos ni resolvió los 403 del retest histórico siguiente.
+
 ## Sesiones demo: actualización del 15 de noviembre de 2026
 
 Implementación: [317fe6f](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/commit/317fe6f87b5726ac3cae3ec69751809adf007f3c), precedida por la corrección de User-Agent en `5ed8087`. La inspección con Playwright y el contraste HTTP están documentados en [SESSION-BOOTSTRAP-2026-11-15.md](../../docs/SESSION-BOOTSTRAP-2026-11-15.md). Los resultados de compilación no sustituyen a los resultados remotos de ese informe.

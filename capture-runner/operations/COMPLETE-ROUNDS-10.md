@@ -1,5 +1,13 @@
 # Rondas completas: diez juegos por proveedor con cierres previos
 
+## Resultado real de la campaña
+
+La [ejecución 43784896618](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43784896618), solicitud `84b4b96`, completó la muestra: **21 proveedores, 210 juegos y 582 intentos de modos implementados; 473 cierres nativos y 109 parciales**. Los 11 modos sin contrato permanecen separados. Normales: **181/210**. El [informe completo](../../docs/COMPLETE-ROUNDS-10-2026-11-15.md) y sus [casos JSON](../../docs/complete-rounds-10-2026-11-15.json) detallan proveedores, causas y ejemplos nativos.
+
+Se ejecutó el **16/11/2026, 01:12:45–01:18:26 UTC** —15/11, 22:12:45–22:18:26 UTC−3—, en **341 s**, sin timeout. El workflow conserva `failure`/exit 2 por los resultados parciales y la cobertura pendiente; cifrado y artifact correctos. El [CI 43784896641](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43784896641) de la solicitud terminó correctamente.
+
+Se verificaron **1746 archivos del banco** y se reprodujeron **los 582 intentos offline**, con 4945 solicitudes/pasos, 473 exit 0 y 109 exit 2, sin incidencias. El paquete privado `complete-rounds-10-bank-20261115.zip` se identifica por hash/tamaño en el informe y permanece fuera de Git. El máximo observado fue de **42 intervalos de juegos / 21 proveedores**; no representa concurrencia exacta de solicitudes. Sólo 514 intentos registraron alguna intención de acción de ronda.
+
 ## Solicitud y selección
 
 El usuario pidió ampliar a unos diez juegos por proveedor que funcionó en la prueba anterior. Se consideran elegibles los proveedores con al menos un cierre nativo en [`docs/live-smoke-2026-11-15.json`](../../docs/live-smoke-2026-11-15.json): **21 proveedores**, 13 que cerraron toda su muestra anterior y 8 que cerraron una parte.
