@@ -2,7 +2,19 @@
 
 **Estado al 16 de noviembre de 2026 UTC —15 por la noche en UTC−3—:** el runner y replay están publicados en `main`. La última campaña amplió la muestra a diez juegos de cada proveedor con cierres previos, usando el binario de `af8f957`; no cambió adaptadores ni cobertura. Comprobar `git status` y `git log -3 --oneline` al retomar. La ampliación original sigue identificada por `f550c02` y la corrección de sesiones por `317fe6f`; conservar los resultados de cada etapa por separado.
 
-## Última tarea: diez juegos por proveedor con cierres previos
+## Última entrada: adjuntos históricos del 16 de noviembre
+
+Se revisaron seis adjuntos —cinco contenidos distintos: los dos README son idénticos— para localizar la evidencia de los fallos pendientes. Leer [EVIDENCE-ATTACHMENTS-2026-11-16.md](EVIDENCE-ATTACHMENTS-2026-11-16.md) y consultar por proveedor el [manifiesto de recuperación](evidence-recovery-2026-11-16.json); no volver a cargar íntegros los adjuntos de 90 MB ni el manifiesto en contexto.
+
+- `inventory.sqlite` es la base del recolector: **36 corridas, 47555 filas de casos y 16806 intentos** —15206 completed, 1592 needs_review, 8 not_sent—, con 34 proveedores que tienen intentos. Pasó quick_check. No contiene mensajes HTTP/WS. No es el `indice.sqlite` de 853 MiB descrito en los README, que no se adjuntó.
+- `historical-integrated.json`, generado el 11/11, contiene **8896 juegos de 30 proveedores principales y dos suplementos**. Son referencias, hashes y estados históricos; no incluye los payloads ni el código de los callables citados. `cobertura.md` describe otro corte, de 14387 intentos; no mezclar sus cifras con la DB adjunta.
+- Cruce con los 109 parciales actuales: SQLite tiene **49 pares exactos con algún completed histórico**; el JSON declara **80 covered/replay verified** con otra semántica. Ninguno de esos números equivale a fallos resueltos ni demuestra que el antecedente recorriera la rama pendiente.
+- Recuperación preparada: **67 carpetas completed únicas** —49 exactas y 18 ELK provisionales por ID nativo 10234—, seis Kalamba needs_review separadas y 373 combinaciones de archivo externo/hash para doce juegos prioritarios. El manifiesto guarda IDs, rutas relativas, pointers y hashes; la existencia de los originales no está comprobada aquí.
+- Ruby `rp_103`, `rp_214`, `rp_92`, Hacksaw `2670/bonus` y Betsoft `945/0` tienen fuentes concretas localizadas. Yggdrasil `7400` tiene estados completed en SQLite, pero faltan los mensajes de `C`. Recuperar los originales indicados y contrastar sus bytes antes de ampliar contratos. Los archivos adjuntos se leyeron como datos; no se ejecutó `indexar.py` ni se modificó el runtime o la cobertura.
+
+La campaña sigue en **473 completos / 109 parciales**. El runner conserva **35 proveedores**: el histórico y la documentación usan universos/aliases distintos, no reemplazan su catálogo. Los hashes y límites de cada adjunto están en el informe.
+
+## Última campaña: diez juegos por proveedor con cierres previos
 
 La solicitud se ejecutó completa: **21 proveedores × 10 juegos, 582 intentos de modos implementados, 473 cierres nativos verificados y 109 parciales**. No hubo modos implementados sin iniciar, duplicados, `transport_error` ni timeout. Los **11 modos sin contrato** quedan separados. Leer el [informe](COMPLETE-ROUNDS-10-2026-11-15.md) y consultar los [casos JSON](complete-rounds-10-2026-11-15.json) por proveedor antes de repetir el diagnóstico.
 
