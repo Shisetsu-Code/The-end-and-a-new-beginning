@@ -1,0 +1,36 @@
+name: Evidence upload tests
+
+on:
+  push:
+    paths:
+      - 'tools/upload_evidence_stream.py'
+      - 'tools/tests/**'
+      - '.github/workflows/evidence-upload-tests.yml'
+  pull_request:
+    paths:
+      - 'tools/upload_evidence_stream.py'
+      - 'tools/tests/**'
+      - '.github/workflows/evidence-upload-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python ${{ matrix.python }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.10', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Verify transfer using fixtures only
+        run: python -B -m unittest discover -s tools/tests -v
+      - name: Verify CLI
+        run: python -B tools/upload_evidence_stream.py --help

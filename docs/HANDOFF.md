@@ -2,7 +2,17 @@
 
 **Estado al 16 de noviembre de 2026 UTC —15 por la noche en UTC−3—:** el runner y replay están publicados en `main`. La última campaña amplió la muestra a diez juegos de cada proveedor con cierres previos, usando el binario de `af8f957`; no cambió adaptadores ni cobertura. Comprobar `git status` y `git log -3 --oneline` al retomar. La ampliación original sigue identificada por `f550c02` y la corrección de sesiones por `317fe6f`; conservar los resultados de cada etapa por separado.
 
-## Última entrada: adjuntos históricos del 16 de noviembre
+## Transferencia de originales sin espacio temporal
+
+El usuario indicó `E:\Backups\Final-copia-2026-11-05`, más de 2 GB, y pidió subirla sin comprimir porque no tiene espacio adicional. Se preparó [`tools/upload_evidence_stream.py`](../tools/upload_evidence_stream.py), auxiliar Python separado del runner: TAR sin compresión generado por flujo, bloques de RAM de 128 MiB y release de un repositorio **privado**. La [guía de ejecución y reanudación](EVIDENCE-UPLOAD.md) contiene los comandos PowerShell exactos. No clona ni escribe el TAR o una copia del respaldo.
+
+**No confundir herramienta con evidencia recibida:** esta ruta Windows no está montada aquí y no se ha ejecutado la transferencia real. El siguiente paso del usuario es ejecutarla y compartir el enlace de la release, dando acceso al repositorio privado a la conexión correspondiente. Sólo después de verificar el manifiesto y los hashes se podrán recuperar los originales. No volver a pedir comprimir ni adjuntar íntegros los archivos de 90 MB ya analizados.
+
+La reanudación conserva fuente, tag y tamaño de bloque; rechaza divergencias. Symlinks/junctions se conservan como enlaces, sin copiar sus destinos. No cambia runtime, cobertura ni campañas: siguen **473 completos / 109 parciales**. Las pruebas del uploader usan fixtures, no mensajes nuevos de proveedores.
+
+Verificación local de la entrega: **19 pruebas, 18 correctas y una omitida por ser exclusiva de Windows**; CLI y diff correctos. Incluye HTTP real en loopback, reconstrucción de TAR y reanudación. La revisión independiente no dejó fallos materiales pendientes. El resultado de CI Windows/Linux se incorporará después de observarlo; aún no se atribuye éxito remoto.
+
+## Adjuntos históricos del 16 de noviembre
 
 Se revisaron seis adjuntos —cinco contenidos distintos: los dos README son idénticos— para localizar la evidencia de los fallos pendientes. Leer [EVIDENCE-ATTACHMENTS-2026-11-16.md](EVIDENCE-ATTACHMENTS-2026-11-16.md) y consultar por proveedor el [manifiesto de recuperación](evidence-recovery-2026-11-16.json); no volver a cargar íntegros los adjuntos de 90 MB ni el manifiesto en contexto.
 
