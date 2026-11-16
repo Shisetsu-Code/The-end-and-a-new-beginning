@@ -10,7 +10,7 @@ El usuario indicó `E:\Backups\Final-copia-2026-11-05`, más de 2 GB, y pidió s
 
 La reanudación conserva fuente, tag y tamaño de bloque; rechaza divergencias. Symlinks/junctions se conservan como enlaces, sin copiar sus destinos. No cambia runtime, cobertura ni campañas: siguen **473 completos / 109 parciales**. Las pruebas del uploader usan fixtures, no mensajes nuevos de proveedores.
 
-Verificación local de la entrega: **19 pruebas, 18 correctas y una omitida por ser exclusiva de Windows**; CLI y diff correctos. Incluye HTTP real en loopback, reconstrucción de TAR y reanudación. La revisión independiente no dejó fallos materiales pendientes. El resultado de CI Windows/Linux se incorporará después de observarlo; aún no se atribuye éxito remoto.
+Verificación local actual: **22 pruebas, 21 correctas y una omitida por ser exclusiva de Windows**; CLI y diff correctos. Incluye HTTP real en loopback, reconstrucción de TAR, reanudación y regresiones Windows. El primer CI de `89fd579` ([43857101962](https://github.com/Shisetsu-Code/The-end-and-a-new-beginning/actions/runs/43857101962)) pasó en Linux pero detectó diferencias `lstat/fstat` en Windows y una expectativa de enlace que omitía el prefijo original `\\?\`. Se corrigió el cruce de APIs conservando los controles completos antes/después en cada una; ver [CPython 157671](https://github.com/python/cpython/issues/157671). También se prueban `.exe`/`.bat`. Falta observar el nuevo CI antes de declarar Windows verificado.
 
 ## Adjuntos históricos del 16 de noviembre
 

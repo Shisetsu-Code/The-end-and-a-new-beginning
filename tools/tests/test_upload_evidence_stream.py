@@ -15,6 +15,7 @@ from datetime import datetime, timedelta, timezone
 from email.message import Message
 from email.utils import format_datetime
 import subprocess
+from types import SimpleNamespace
 from unittest import mock
 
 
@@ -99,6 +100,8 @@ class UploadTests(unittest.TestCase):
                                     self.client, progress=lambda _: None, **kwargs)
 
     def test_reconstructs_names_empty_directories_and_binary_across_parts(self):
+        (self.source / "program.exe").write_bytes(b"MZ fixture")
+        (self.source / "run.bat").write_bytes(b"@echo off\r\n")
         result = self.run_upload()
         manifest = json.loads(self.client.payloads["manifest.json"])
         tar_bytes = b"".join(self.client.payloads[p["name"]] for p in manifest["parts"])
@@ -109,6 +112,8 @@ class UploadTests(unittest.TestCase):
         with tarfile.open(fileobj=io.BytesIO(tar_bytes), mode="r:") as archive:
             self.assertEqual(archive.extractfile("copia ñ/sesión.bin").read(), self.payload)
             self.assertEqual(archive.extractfile("copia ñ/sin datos.txt").read(), b"")
+            self.assertEqual(archive.extractfile("copia ñ/program.exe").read(), b"MZ fixture")
+            self.assertEqual(archive.extractfile("copia ñ/run.bat").read(), b"@echo off\r\n")
             self.assertTrue(archive.getmember("copia ñ/vacío").isdir())
         self.assertFalse(self.client.releases[0]["draft"])
         self.assertEqual(result, self.client.releases[0]["html_url"])
@@ -206,14 +211,67 @@ class UploadTests(unittest.TestCase):
             (self.source / "link").symlink_to(target)
         except (OSError, NotImplementedError):
             self.skipTest("symlink creation is unavailable")
+        original_link = os.readlink(self.source / "link")
         self.run_upload()
         manifest = json.loads(self.client.payloads["manifest.json"])
         tar_bytes = b"".join(self.client.payloads[p["name"]] for p in manifest["parts"])
         with tarfile.open(fileobj=io.BytesIO(tar_bytes), mode="r:") as archive:
             member = archive.getmember("copia ñ/link")
             self.assertTrue(member.issym())
-            self.assertEqual(member.linkname, str(target))
+            self.assertEqual(member.linkname, original_link)
         self.assertNotIn(b"must not be uploaded", tar_bytes)
+
+    def test_windows_path_and_handle_metadata_can_differ_for_the_same_file(self):
+        executable = self.source / "program.exe"
+        executable.write_bytes(b"binary fixture")
+        executable.chmod(0o777)
+        real_fstat = os.fstat
+        def windows_handle(fd):
+            original = real_fstat(fd)
+            fields = {name: getattr(original, name) for name in (
+                "st_dev", "st_ino", "st_mode", "st_size", "st_mtime_ns", "st_ctime_ns")}
+            # Windows path ctime is birth time, fd ctime is change time.
+            # Path-only extension inference also adds executable mode bits.
+            fields["st_ctime_ns"] += 1_000_000
+            fields["st_mode"] &= ~0o111
+            return SimpleNamespace(**fields)
+        with mock.patch.object(self.uploader, "WINDOWS", True, create=True), \
+             mock.patch.object(self.uploader.os, "fstat", side_effect=windows_handle):
+            self.run_upload()
+        manifest = json.loads(self.client.payloads["manifest.json"])
+        tar_bytes = b"".join(self.client.payloads[p["name"]] for p in manifest["parts"])
+        with tarfile.open(fileobj=io.BytesIO(tar_bytes), mode="r:") as archive:
+            self.assertEqual(archive.extractfile("copia ñ/program.exe").read(), b"binary fixture")
+
+    def test_windows_handle_ctime_change_during_read_is_still_rejected(self):
+        real_fstat = os.fstat
+        calls = []
+        def changing_handle(fd):
+            original = real_fstat(fd)
+            fields = {name: getattr(original, name) for name in (
+                "st_dev", "st_ino", "st_mode", "st_size", "st_mtime_ns", "st_ctime_ns")}
+            calls.append(fd)
+            fields["st_ctime_ns"] += len(calls) * 1_000_000
+            return SimpleNamespace(**fields)
+        with mock.patch.object(self.uploader, "WINDOWS", True, create=True), \
+             mock.patch.object(self.uploader.os, "fstat", side_effect=changing_handle):
+            with self.assertRaisesRegex(self.uploader.UploadError, "while reading"):
+                self.run_upload()
+        self.assertNotIn("manifest.json", self.client.payloads)
+
+    def test_windows_opened_replacement_inode_is_rejected(self):
+        real_fstat = os.fstat
+        def replaced_handle(fd):
+            original = real_fstat(fd)
+            fields = {name: getattr(original, name) for name in (
+                "st_dev", "st_ino", "st_mode", "st_size", "st_mtime_ns", "st_ctime_ns")}
+            fields["st_ino"] += 1
+            return SimpleNamespace(**fields)
+        with mock.patch.object(self.uploader, "WINDOWS", True, create=True), \
+             mock.patch.object(self.uploader.os, "fstat", side_effect=replaced_handle):
+            with self.assertRaisesRegex(self.uploader.UploadError, "before reading"):
+                self.run_upload()
+        self.assertNotIn("manifest.json", self.client.payloads)
 
     @unittest.skipUnless(os.name == "nt", "Windows junction semantics")
     def test_windows_junction_is_preserved_without_traversal(self):

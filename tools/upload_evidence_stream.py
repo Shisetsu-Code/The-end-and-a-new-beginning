@@ -30,6 +30,7 @@ MANIFEST = "manifest.json"
 MAX_ASSETS = 1000
 PART_RE = re.compile(r"part-([0-9]{5})-([0-9a-f]{64})\.tar\.part\Z")
 BODY_PREFIX = "Uncompressed evidence upload. Do not edit this metadata.\n\n"
+WINDOWS = os.name == "nt"
 
 
 class UploadError(Exception):
@@ -51,6 +52,20 @@ def _json_bytes(value):
 def _identity(st):
     return (st.st_dev, st.st_ino, st.st_mode, st.st_size,
             st.st_mtime_ns, st.st_ctime_ns)
+
+
+def _path_matches_fd(path_stat, fd_stat):
+    if not WINDOWS:
+        return _identity(path_stat) == _identity(fd_stat)
+    # CPython Windows path stat uses creation time for ctime, while fstat
+    # may use change time (python/cpython#157671). Path stat also adds execute
+    # bits for .exe/.bat/.cmd/.com; fstat cannot infer those from a pathname.
+    # Retain device/inode, type, read/write bits, size and mtime here. Full
+    # ctime/mode checks remain mandatory between samples of the SAME API.
+    def compatible(st):
+        return (st.st_dev, st.st_ino, st.st_mode & ~0o111,
+                st.st_size, st.st_mtime_ns)
+    return compatible(path_stat) == compatible(fd_stat)
 
 
 def _tar_info(path, name, st):
@@ -131,10 +146,13 @@ def stream_tar(source, sink, expected_scan):
             _record(fingerprint, st, info)
             if info.isfile():
                 with path.open("rb") as body:
-                    if _identity(os.fstat(body.fileno())) != _identity(st):
+                    fd_before = os.fstat(body.fileno())
+                    if (not _path_matches_fd(st, fd_before)
+                            or _identity(path.lstat()) != _identity(st)):
                         raise UploadError(f"Source changed before reading: {path}")
                     archive.addfile(info, body)
-                    if _identity(os.fstat(body.fileno())) != _identity(st):
+                    if (_identity(os.fstat(body.fileno())) != _identity(fd_before)
+                            or _identity(path.lstat()) != _identity(st)):
                         raise UploadError(f"Source changed while reading: {path}")
             else:
                 archive.addfile(info)
