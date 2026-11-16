@@ -112,10 +112,10 @@ Las 109 parciales se agrupan en **55 errores HTTP de apertura**, **15 rechazos d
 | elk | 7 | HTTP 500 durante purchase. |
 | endorphina | 1 | Nombre del juego lanzado distinto del inventario; detenido antes de apostar. |
 | hacksaw | 1 | Estado started con opciones fs y fs_2_coin; el adaptador no tiene esa elección. |
-| hardfire-kalamba | 6 | Redirección HTTP 302 detenida por la allowlist local antes de apostar. |
+| hardfire-kalamba | 6 | El WebSocket emitido por el launcher tiene un nombre que no cumple el patrón numérico permitido por la allowlist local; se detiene antes del handshake. |
 | peterandsons | 1 | HTTP 400 al enviar complete después de play. |
 | playngo | 4 | No se encontró el par de parámetros de apuesta esperado en el cliente; sin acción de ronda. |
-| pragmatic | 1 | Respuesta nativa de sesión no disponible después de doMysteryScatter. |
+| pragmatic | 1 | HTTP 200 con `frozen` y `ext_code=SystemError` después de `doMysteryScatter`: error interno con reinicio anunciado. La etiqueta local de sesión es demasiado genérica. |
 | pragmatic | 3 | La respuesta pide una selección de bonus para la que no hay opción verificada. |
 | reelkingdom | 2 | La respuesta pide una selección de bonus para la que no hay opción verificada. |
 | rubyplay | 1 | La respuesta posterior a select cambió respecto del contrato de elección. |
@@ -128,6 +128,16 @@ Las 109 parciales se agrupan en **55 errores HTTP de apertura**, **15 rechazos d
 | spinomenal | 2 | La compra requiere una elección aún no vinculada. |
 | yggdrasil | 5 | HTTP 200 con rechazo nativo de comando, código 1. |
 | yggdrasil | 11 | La ronda queda Pending y ofrece comando C; el adaptador sólo admite freeSpin. |
+
+### Aclaración causal del 16 de noviembre
+
+Relectura de las mismas capturas y del código, sin nuevas sesiones ni cambios de resultados:
+
+- **Kalamba, seis casos:** el documento `awscdn.test.kalamba.net/index.html` sí está permitido. El launcher emite el WebSocket `gameserver-api-for-kl-na-2.test.twmc8fvg.click`, mientras que [la validación local](../capture-runner/src/context.rs) sólo admite dígitos entre `gameserver-api-` y `.test.twmc8fvg.click`. La parada ocurre al validar ese destino, antes del handshake. No fue un rechazo de una apuesta por el servidor.
+- **Pragmatic, `vs10bookfallen/pur-1`:** la respuesta real contiene `frozen=Internal server error. The game will be restarted.` y `ext_code=SystemError`; `unlogged` está ausente. [El parser](../capture-runner/src/adapters/pragmatic.rs) usa la misma etiqueta `demo session unavailable` para `unlogged` y para `frozen` sin `na`. En este caso esa etiqueta no demuestra falta de sesión. Se corrige la interpretación del informe; el resultado sigue siendo parcial.
+- **Errores remotos sin causa específica:** las tres respuestas ELK inspeccionadas —init, purchase y checkwin— son páginas HTTP 500 genéricas idénticas. Los cinco rechazos Yggdrasil con código 1 dicen `Technical problem, please retry.`. Peter & Sons devuelve `TRANSACTION_REJECTED` y `Application Error` al cerrar. Estos mensajes no permiten atribuir la causa a sesión, IP, país, carga o parámetros concretos.
+
+Los **39 casos detenidos por continuaciones o controles locales** y los **70 con respuesta remota de error** requieren diagnósticos distintos. Una modalidad implementada puede entrar correctamente y encontrar después una rama aún no cubierta. El banco privado original no se modifica; conserva las etiquetas originales del runner y los mensajes que permiten esta aclaración.
 
 Las continuaciones pendientes permanecen parciales. No se inventaron selecciones, parámetros, mensajes de cierre ni resultados para completar las secuencias. Los errores saneados y las combinaciones exactas se conservan en el [JSON del informe](complete-rounds-10-2026-11-15.json); los cuerpos y detalles privados quedan fuera de Git.
 

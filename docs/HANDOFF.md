@@ -14,6 +14,8 @@ La solicitud se ejecutó completa: **21 proveedores × 10 juegos, 582 intentos d
 - **1746 hashes/tamaños de archivos de intentos correctos, cero incidencias de integridad.** Replay de los 582 intentos offline: **473 exit 0 / 109 exit 2**, con **4945 solicitudes/pasos** y cero incidencias; las parciales se conservan como tales.
 - Banco privado verificado y entregado aparte: **`complete-rounds-10-bank-20261115.zip`**, 142555475 bytes, SHA-256 `7ea575226fb25e63e4b6b63c403fe8f32352104381a8597ae88720d6e8f3909e`. Incluye el banco, binario, original cifrado, material privado de recuperación y manifiesto; todo ese material permanece fuera de Git. El informe identifica el índice y los controles del paquete.
 
+**Aclaración posterior, 16/11:** los seis Kalamba se detienen al validar el WebSocket `gameserver-api-for-kl-na-2.test.twmc8fvg.click`, porque el patrón local sólo admite un sufijo numérico; el documento del launcher sí está permitido. En Pragmatic `vs10bookfallen/pur-1`, la etiqueta local `demo session unavailable` encubre `frozen`/`SystemError`, sin `unlogged`: no diagnosticar ausencia de sesión a partir de ella. Ver la aclaración causal del informe y `diagnostic_revision` del JSON. Sin nuevas capturas, cambios de runtime ni variaciones de conteos; el paquete privado original permanece intacto.
+
 La selección es fija y dirigida: 41 juegos con cierres anteriores, nueve por diversidad y 160 por estratos. No extrapolar sus resultados al catálogo. Los 14 proveedores sin cierres previos quedaron fuera; **esta campaña no revalidó ni resolvió los 403 del retest de sesiones** descrito a continuación. No repetir capturas por una edición documental.
 
 ## Histórico: sesiones Playwright y reproducción HTTP

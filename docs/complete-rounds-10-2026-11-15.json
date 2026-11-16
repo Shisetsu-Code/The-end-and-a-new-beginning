@@ -725,7 +725,7 @@
       "provider": "hardfire-kalamba",
       "category": "adapter_contract_or_guard",
       "cause_code": "kalamba_redirect_allowlist",
-      "cause": "Redirección HTTP 302 detenida por la allowlist local antes de apostar.",
+      "cause": "El launcher devuelve HTTP 302 y un WebSocket gameserver-api-for-kl-na-2.test.twmc8fvg.click; la allowlist local sólo admite sufijos numéricos tras gameserver-api-. Se detiene antes del handshake y de apostar.",
       "count": 6,
       "representative_attempt_ids": [
         "d440f4f27aad5f9a5746f1a5d88f9c6ac4b41f39a75269b20ecc27bf81c8c43b",
@@ -756,8 +756,8 @@
     {
       "provider": "pragmatic",
       "category": "remote_operation_rejection",
-      "cause_code": "pragmatic_session_unavailable",
-      "cause": "Respuesta nativa de sesión no disponible después de doMysteryScatter.",
+      "cause_code": "pragmatic_frozen_system_error",
+      "cause": "HTTP 200 con frozen y ext_code=SystemError: error interno y reinicio anunciado. La etiqueta local demo session unavailable no acredita falta de sesión; unlogged está ausente.",
       "count": 1,
       "representative_attempt_ids": [
         "9d4e9f8f60cac527884d61304ff076b44c01ccc9a77e1c646555a79af0829842"
@@ -8524,7 +8524,13 @@
       "failure": {
         "category": "adapter_contract_or_guard",
         "cause_code": "kalamba_redirect_allowlist",
-        "cause": "Redirección HTTP 302 detenida por la allowlist local antes de apostar."
+        "cause": "El launcher devuelve HTTP 302 y un WebSocket gameserver-api-for-kl-na-2.test.twmc8fvg.click; la allowlist local sólo admite sufijos numéricos tras gameserver-api-. Se detiene antes del handshake y de apostar.",
+        "observed_response": {
+          "launcher_http_status": 302,
+          "document_host": "awscdn.test.kalamba.net",
+          "websocket_host": "gameserver-api-for-kl-na-2.test.twmc8fvg.click",
+          "handshake_attempted": false
+        }
       }
     },
     {
@@ -8558,7 +8564,13 @@
       "failure": {
         "category": "adapter_contract_or_guard",
         "cause_code": "kalamba_redirect_allowlist",
-        "cause": "Redirección HTTP 302 detenida por la allowlist local antes de apostar."
+        "cause": "El launcher devuelve HTTP 302 y un WebSocket gameserver-api-for-kl-na-2.test.twmc8fvg.click; la allowlist local sólo admite sufijos numéricos tras gameserver-api-. Se detiene antes del handshake y de apostar.",
+        "observed_response": {
+          "launcher_http_status": 302,
+          "document_host": "awscdn.test.kalamba.net",
+          "websocket_host": "gameserver-api-for-kl-na-2.test.twmc8fvg.click",
+          "handshake_attempted": false
+        }
       }
     },
     {
@@ -8577,7 +8589,13 @@
       "failure": {
         "category": "adapter_contract_or_guard",
         "cause_code": "kalamba_redirect_allowlist",
-        "cause": "Redirección HTTP 302 detenida por la allowlist local antes de apostar."
+        "cause": "El launcher devuelve HTTP 302 y un WebSocket gameserver-api-for-kl-na-2.test.twmc8fvg.click; la allowlist local sólo admite sufijos numéricos tras gameserver-api-. Se detiene antes del handshake y de apostar.",
+        "observed_response": {
+          "launcher_http_status": 302,
+          "document_host": "awscdn.test.kalamba.net",
+          "websocket_host": "gameserver-api-for-kl-na-2.test.twmc8fvg.click",
+          "handshake_attempted": false
+        }
       }
     },
     {
@@ -8596,7 +8614,13 @@
       "failure": {
         "category": "adapter_contract_or_guard",
         "cause_code": "kalamba_redirect_allowlist",
-        "cause": "Redirección HTTP 302 detenida por la allowlist local antes de apostar."
+        "cause": "El launcher devuelve HTTP 302 y un WebSocket gameserver-api-for-kl-na-2.test.twmc8fvg.click; la allowlist local sólo admite sufijos numéricos tras gameserver-api-. Se detiene antes del handshake y de apostar.",
+        "observed_response": {
+          "launcher_http_status": 302,
+          "document_host": "awscdn.test.kalamba.net",
+          "websocket_host": "gameserver-api-for-kl-na-2.test.twmc8fvg.click",
+          "handshake_attempted": false
+        }
       }
     },
     {
@@ -8615,7 +8639,13 @@
       "failure": {
         "category": "adapter_contract_or_guard",
         "cause_code": "kalamba_redirect_allowlist",
-        "cause": "Redirección HTTP 302 detenida por la allowlist local antes de apostar."
+        "cause": "El launcher devuelve HTTP 302 y un WebSocket gameserver-api-for-kl-na-2.test.twmc8fvg.click; la allowlist local sólo admite sufijos numéricos tras gameserver-api-. Se detiene antes del handshake y de apostar.",
+        "observed_response": {
+          "launcher_http_status": 302,
+          "document_host": "awscdn.test.kalamba.net",
+          "websocket_host": "gameserver-api-for-kl-na-2.test.twmc8fvg.click",
+          "handshake_attempted": false
+        }
       }
     },
     {
@@ -8634,7 +8664,13 @@
       "failure": {
         "category": "adapter_contract_or_guard",
         "cause_code": "kalamba_redirect_allowlist",
-        "cause": "Redirección HTTP 302 detenida por la allowlist local antes de apostar."
+        "cause": "El launcher devuelve HTTP 302 y un WebSocket gameserver-api-for-kl-na-2.test.twmc8fvg.click; la allowlist local sólo admite sufijos numéricos tras gameserver-api-. Se detiene antes del handshake y de apostar.",
+        "observed_response": {
+          "launcher_http_status": 302,
+          "document_host": "awscdn.test.kalamba.net",
+          "websocket_host": "gameserver-api-for-kl-na-2.test.twmc8fvg.click",
+          "handshake_attempted": false
+        }
       }
     },
     {
@@ -11522,8 +11558,16 @@
       "integrity_issue_count": 0,
       "failure": {
         "category": "remote_operation_rejection",
-        "cause_code": "pragmatic_session_unavailable",
-        "cause": "Respuesta nativa de sesión no disponible después de doMysteryScatter."
+        "cause_code": "pragmatic_frozen_system_error",
+        "cause": "HTTP 200 con frozen y ext_code=SystemError: error interno y reinicio anunciado. La etiqueta local demo session unavailable no acredita falta de sesión; unlogged está ausente.",
+        "observed_response": {
+          "http_status": 200,
+          "label": "doMysteryScatter",
+          "frozen": "Internal server error. The game will be restarted.",
+          "ext_code": "SystemError",
+          "unlogged_present": false,
+          "na_present": false
+        }
       }
     },
     {
@@ -13724,5 +13768,19 @@
       "integrity_issue_count": 0,
       "failure": null
     }
-  ]
+  ],
+  "diagnostic_revision": {
+    "local_date": "2026-11-16",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "new_live_attempts": 0,
+    "counts_changed": false,
+    "basis": "Existing captured bodies and launcher headers, contrasted with the exact adapter conditions. Original private package is unchanged.",
+    "clarifications": {
+      "kalamba": "All six allowlist stops occur when validating the WebSocket target emitted by the launcher; the document host is already allowed.",
+      "pragmatic": "The source parser groups unlogged and frozen-without-na under one session-unavailable label. This sample contains frozen/SystemError, not unlogged.",
+      "elk": "Three inspected init/purchase/checkwin HTTP 500 bodies are identical generic Internal Server Error pages; the specific backend cause remains unknown.",
+      "yggdrasil": "The five code-1 rejections say Technical problem, please retry.; no specific cause is supplied. These are separate from the eleven unsupported C continuations.",
+      "peterandsons": "The HTTP 400 close response supplies TRANSACTION_REJECTED and Application Error; no specific cause is supplied."
+    }
+  }
 }
